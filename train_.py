@@ -113,9 +113,10 @@ def validate(tokenizer, model, device, loader):
 def build_data(dataframes, source_text, target_text):
     # tokenzier for encoding the text
     tokenizer = T5Tokenizer.from_pretrained(model_params["MODEL"])
-    special_tokens_dict = {'additional_special_tokens': ['<sep>']}
-    tokenizer.add_special_tokens(special_tokens_dict)
-    model_params['new_tokens_size'] = len(tokenizer)
+    tokenizer.add_tokens('<sep>')
+    # special_tokens_dict = {'additional_special_tokens': ['<sep>']}
+    # tokenizer.add_special_tokens(special_tokens_dict)
+    # model_params['new_tokens_size'] = len(tokenizer)
 
     # logging
     console.log(f"[Data]: Reading data...\n")
@@ -186,7 +187,7 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params):
     # Further this model is sent to device (GPU/TPU) for using the hardware.
     model = T5ForConditionalGeneration.from_pretrained(model_params["MODEL"])
     model = model.to(device)
-    model.resize_token_embeddings(model_params['new_tokens_size'])
+    # model.resize_token_embeddings(model_params['new_tokens_size'])
 
     # Defining the optimizer that will be used to tune the weights of the network in the training session. 
     optimizer = torch.optim.AdamW(params = model.parameters(), lr = model_params["LEARNING_RATE"])
