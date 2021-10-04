@@ -257,9 +257,9 @@ def T5Generator(validation_loader, model_params):
 
 
 if __name__ == '__main__':
-    training =   pd.read_csv('./data/train_combined.csv')
+    training =   pd.read_csv('./data/processed_train_rest.csv')
     validation = pd.read_csv('./data/val.csv')#.iloc[:277, :] #############################
-    test =       pd.read_csv('./data/test_combined.csv')
+    test =       pd.read_csv('./data/processed_test_rest.csv')
     
     model_params={
         "OUTPUT_PATH": "./models/combined", # output path
