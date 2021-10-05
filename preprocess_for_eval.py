@@ -1,3 +1,4 @@
+import enum
 import re
 import pandas as pd
 
@@ -40,6 +41,18 @@ def split_SEP(txt):
 
     return txt
 
+def aspect_accuracy(gold, pred):
+    gold = [[' '.join(item.split()[:-1]) for item in row] for row in gold]
+    pred = [[' '.join(item.split()[:-1]) for item in row] for row in pred]
+    
+    hit_ = 0
+    for i, g in enumerate(gold):
+        for p in pred[i]:
+            if p in g:
+                hit_ += 1
+    acc = hit_ / len([item for sublist in pred for item in sublist])
+    print('Accuracy: ', acc)
+
 
 df = pd.read_csv('models/combined/predictions.csv')[['pred', 'gold']]
 
@@ -47,8 +60,12 @@ df = pd.read_csv('models/combined/predictions.csv')[['pred', 'gold']]
 df['pred'] = df['pred'].map(lambda x: split_SEP(x))
 df['gold'] = df['gold'].map(lambda x: split_SEP(x))
 
-for i, row in df.iterrows():
+# printing some examples:
+for i, row in df.iloc[:10, :].iterrows():
     print(row['gold'])
     print(row['pred'])
     print('\n===============')
+
+# calculate scores
+aspect_accuracy(df['gold'].tolist(), df['pred'].tolist())
 
