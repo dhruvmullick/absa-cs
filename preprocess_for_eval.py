@@ -41,7 +41,7 @@ def split_SEP(txt):
 
     return txt
 
-def aspect_accuracy(gold, pred):
+def aspect_scores(gold, pred):
     gold = [[' '.join(item.split()[:-1]) for item in row] for row in gold]
     pred = [[' '.join(item.split()[:-1]) for item in row] for row in pred]
     
@@ -50,8 +50,8 @@ def aspect_accuracy(gold, pred):
         for p in pred[i]:
             if p in g:
                 hit_ += 1
-    acc = hit_ / len([item for sublist in pred for item in sublist])
-    print('Accuracy:  ', acc)
+    prec = hit_ / len([item for sublist in pred for item in sublist])
+    print('precision:  ', prec)
 
 
 df = pd.read_csv('models/combined/predictions.csv')[['pred', 'gold']]
@@ -67,5 +67,5 @@ for i, row in df.iloc[:10, :].iterrows():
     print('\n===============')
 
 # calculate scores
-aspect_accuracy(df['gold'].tolist(), df['pred'].tolist())
+aspect_scores(df['gold'].tolist(), df['pred'].tolist())
 
