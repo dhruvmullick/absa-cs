@@ -96,6 +96,6 @@ if __name__ == '__main__':
 
     # train.to_csv('data/processed_train_combined.csv', header=True, index=False)
     # val.to_csv('data/val.csv', header=True, index=False)
-    # test.to_csv('data/test_combined.csv', header=True, index=False)
+    # test.to_csv('data/processed_test_combined.csv', header=True, index=False)
 
     print('saved..')
