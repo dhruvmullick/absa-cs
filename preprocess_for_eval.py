@@ -51,7 +51,7 @@ def aspect_accuracy(gold, pred):
             if p in g:
                 hit_ += 1
     acc = hit_ / len([item for sublist in pred for item in sublist])
-    print('Accuracy: ', acc)
+    print('Accuracy:  ', acc)
 
 
 df = pd.read_csv('models/combined/predictions.csv')[['pred', 'gold']]
