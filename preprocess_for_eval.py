@@ -71,7 +71,7 @@ df['pred'] = df['pred'].map(lambda x: split_SEP(x))
 df['gold'] = df['gold'].map(lambda x: split_SEP(x))
 
 # printing some examples:
-for i, row in df.iloc[:10, :].iterrows():
+for i, row in df.sample(n=5).iterrows():
     print(row['gold'])
     print(row['pred'])
     print('\n===============')
