@@ -51,7 +51,11 @@ def aspect_scores(gold, pred):
             if p in g:
                 hit_ += 1
     prec = hit_ / len([item for sublist in pred for item in sublist])
+    rec = hit_ / len([item for sublist in gold for item in sublist])
+    f1 = 2 * prec * rec / (prec + rec)
     print('precision:  ', prec)
+    print('recall:  ', rec)
+    print('f1: ', f1)
 
 
 df = pd.read_csv('models/combined/predictions.csv')[['pred', 'gold']]
