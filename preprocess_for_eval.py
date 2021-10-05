@@ -42,6 +42,12 @@ def split_SEP(txt):
     return txt
 
 def aspect_scores(gold, pred):
+    """
+
+    I am not sure if this code is correct. 
+    I wrote it quickly to test the results on the aspects
+    
+    """
     gold = [[' '.join(item.split()[:-1]) for item in row] for row in gold]
     pred = [[' '.join(item.split()[:-1]) for item in row] for row in pred]
     
