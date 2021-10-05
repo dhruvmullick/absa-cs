@@ -67,6 +67,7 @@ class YourDataSetClass(Dataset):
         'source_ids': source_ids.to(dtype=torch.long), 
         'source_mask': source_mask.to(dtype=torch.long), 
         'target_ids': target_ids.to(dtype=torch.long),
+        'sentences_texts': source_text
     }
 
 
@@ -156,6 +157,7 @@ def generate(tokenizer, model, device, loader, model_params):
   model.eval()
   predictions = []
   actuals = []
+  data_list = []
   with torch.no_grad():
       for _, data in enumerate(loader, 0):
           y = data['target_ids'].to(device, dtype = torch.long)
@@ -172,7 +174,8 @@ def generate(tokenizer, model, device, loader, model_params):
 
           predictions.extend(preds)
           actuals.extend(target)
-  return predictions, actuals
+          data_list.extend(data["sentences_texts"])
+  return predictions, actuals, data_list
 
 
 def T5Trainer(training_loader, validation_loader, tokenizer, model_params):
@@ -243,8 +246,8 @@ def T5Generator(validation_loader, model_params):
     # evaluating test dataset
     console.log(f"[Initiating Validation]...\n")
     for epoch in range(model_params["VAL_EPOCHS"]):
-        predictions, actuals = generate(tokenizer, model, device, validation_loader, model_params)
-        final_df = pd.DataFrame({'Generated Text':predictions,'Actual Text':actuals})
+        predictions, actuals, data_list = generate(tokenizer, model, device, validation_loader, model_params)
+        final_df = pd.DataFrame({'Generated Text':predictions,'Actual Text':actuals, 'Original Sentence': data_list})
         final_df.to_csv(os.path.join(model_params["OUTPUT_PATH"],'predictions.csv'))
 
     console.save_text(os.path.join(model_params["OUTPUT_PATH"],'logs.txt'))
