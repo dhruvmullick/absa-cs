@@ -35,6 +35,9 @@ def split_SEP(txt):
     # split on <sep>
     txt = txt.split('<sep>')
 
+    # normalize text
+    txt = list(set([item.strip() for item in txt]))
+
     return txt
 
 
