@@ -16,7 +16,7 @@ def parse_semeval_xml(root):
             if len(sentence.findall('Opinions')) > 1:
                 raise Exception("MORE THAN ONE OPINIONS")
             if len(sentence.findall('Opinions')) == 0:
-                print("Not exactly one opinion found for sentence id: " + str(sentence_id))
+                print("Not exactly one opinion found for sentence id: {} for sentence: {}".format(str(sentence_id), sentence_text))
                 continue
             opinions = []
             sentence_opinions = sentence.findall('Opinions')[0]

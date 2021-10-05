@@ -4,7 +4,7 @@ from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
-PREDICTIONS_FILE = '/home/mullick/scratch/ABSA_LM/models/combined-dhruv/predictions.csv'
+PREDICTIONS_FILE = '/home/mullick/scratch/GenerativeAspectBasedSentimentAnalysis/models/combined/predictions.csv'
 SEPARATOR = '<sep>'
 POSITIVE, NEGATIVE, NEUTRAL = 'positive', 'negative', 'neutral'
 TRUE_POS, TRUE_NEG, FALSE_POS, FALSE_NEG = 'tp', 'tn', 'fp', 'fn'
