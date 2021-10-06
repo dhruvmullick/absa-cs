@@ -63,13 +63,13 @@ def aspect_scores(gold, pred):
     print('recall:  ', rec)
     print('f1: ', f1)
 
-
-df = pd.read_csv('models/combined/predictions.csv')
-
-# Prepare input
-df['Generated Text'] = df['Generated Text'].map(lambda x: split_SEP(x))
-df['Actual Text'] = df['Actual Text'].map(lambda x: split_SEP(x))
-
+#
+# df = pd.read_csv('models/combined/predictions.csv')
+#
+# # Prepare input
+# df['Generated Text'] = df['Generated Text'].map(lambda x: split_SEP(x))
+# df['Actual Text'] = df['Actual Text'].map(lambda x: split_SEP(x))
+#
 # # printing some examples:
 # for i, row in df.sample(n=5).iterrows():
 #     print(row['Actual Text'])

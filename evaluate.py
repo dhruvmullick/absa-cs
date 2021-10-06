@@ -138,17 +138,19 @@ def get_metrics_for_line_target_word(line):
     tp = 0
     for g in generated_aspects_targets:
         if g in true_aspects_targets:
-            tp += len(g.split(' '))
+            # tp += len(g.split(' '))
+            tp += 1
         else:
             truth, matched = check_for_unequal_word_overlap_for_many_phrases(g, true_aspects_targets)
             if truth:
-                tp += len(matched.split(' '))
+                # tp += len(matched.split(' '))
+                tp += 1
 
-    all_tokens_generated = [y for x in generated_aspects_targets for y in x.split()]
-    all_tokens_true = [y for x in true_aspects_targets for y in x.split()]
+    # all_tokens_generated = [y for x in generated_aspects_targets for y in x.split()]
+    # all_tokens_true = [y for x in true_aspects_targets for y in x.split()]
     # print('generated aspect targets list is {}'.format(all_tokens_generated))
     # print('true aspect targets list is {}'.format(all_tokens_true))
-    return tp, len(all_tokens_generated), len(all_tokens_true)
+    return tp, len(generated_aspects_targets), len(true_aspects_targets)
 
 
 # def get_precision_recall_for_aspect_words():
