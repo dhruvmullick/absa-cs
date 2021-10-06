@@ -14,7 +14,6 @@ def add_missed_sep(txt):
         if txt[i].lower() in ['positive', 'negative', 'neutral'] and i < len(txt)-1:
             if txt[i+1] != '<sep>':
                 missed_in.append(i+1)
-    
 
     missed_in.reverse()
     for idx in missed_in:
@@ -64,18 +63,17 @@ def aspect_scores(gold, pred):
     print('f1: ', f1)
 
 
-df = pd.read_csv('models/combined/predictions.csv')[['pred', 'gold']]
+df = pd.read_csv('models/combined/predictions.csv')
 
 # Prepare input
-df['pred'] = df['pred'].map(lambda x: split_SEP(x))
-df['gold'] = df['gold'].map(lambda x: split_SEP(x))
+df['Generated Text'] = df['Generated Text'].map(lambda x: split_SEP(x))
+df['Actual Text'] = df['Actual Text'].map(lambda x: split_SEP(x))
 
 # printing some examples:
 for i, row in df.sample(n=5).iterrows():
-    print(row['gold'])
-    print(row['pred'])
+    print(row['Actual Text'])
+    print(row['Generated Text'])
     print('\n===============')
 
 # calculate scores
-aspect_scores(df['gold'].tolist(), df['pred'].tolist())
-
+aspect_scores(df['Actual Text'].tolist(), df['Generated Text'].tolist())

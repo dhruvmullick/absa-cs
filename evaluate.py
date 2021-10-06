@@ -1,8 +1,6 @@
 import csv
-from sklearn import metrics
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
 
 PREDICTIONS_FILE = '/home/mullick/scratch/GenerativeAspectBasedSentimentAnalysis/models/combined/predictions.csv'
 SEPARATOR = '<sep>'
@@ -78,6 +76,24 @@ def get_polarities_and_len(line):
     true_polarities = get_true_polarities(true_sentence)
     return generated_polarities, true_polarities, original_sentence_length
 
+def check_for_unequal_word_overlap(phrase_to_check, original_phrase):
+    phrase_to_check_tokens = phrase_to_check.split()
+    phrases_tokens = original_phrase.split()
+    if len(phrases_tokens) == len(phrase_to_check_tokens):
+        return False
+    else:
+        for word in phrases_tokens:
+            if word in phrase_to_check_tokens:
+                return True
+    return False
+
+
+def check_for_unequal_word_overlap_for_many_phrases(phrase_to_check, original_phrases):
+    for original_phrase in original_phrases:
+        if check_for_unequal_word_overlap(phrase_to_check, original_phrase):
+            return True, original_phrase
+    else:
+        return False, None
 
 # def get_reverse_accuracy_for_line(line):
 #     generated_polarities, true_polarities, original_sentence_length = get_polarities_and_len(line)
@@ -112,36 +128,48 @@ def get_metrics_for_line_target_word(line):
     generated_polarities, true_polarities, original_sentence_length = get_polarities_and_len(line)
     generated_aspects_targets = get_aspect_targets(generated_polarities)
     true_aspects_targets = get_aspect_targets(true_polarities)
-    copy_true_aspect_targets = true_aspects_targets[:]
 
-    tp, fp, tn, fn = 0, 0, 0, 0
+    tp = 0
     # Note that size of generated aspects and true aspects could be different
     for g in generated_aspects_targets:
-        if g in copy_true_aspect_targets:
-            tp += 1
-            copy_true_aspect_targets.remove(g)
-        else:
-            fp += 1
+        if g in true_aspects_targets:
+            tp += len(g.split(' '))
 
-    fn = len(copy_true_aspect_targets)
-    tn = len(true_aspects_targets) - len(copy_true_aspect_targets)
-    return tp, fp, tn, fn
+    all_tokens_generated = [y for x in generated_aspects_targets for y in x.split()]
+    all_tokens_true = [y for x in true_aspects_targets for y in x.split()]
+    print('generated aspect targets list is {}'.format(all_tokens_generated))
+    print('true aspect targets list is {}'.format(all_tokens_true))
+    return tp, len(all_tokens_generated), len(all_tokens_true)
+
+
+# def get_precision_recall_for_aspect_words():
+#     tp_total, fp_total, tn_total, fn_total = 0, 0, 0, 0
+#     with open(PREDICTIONS_FILE, 'r') as csvfile:
+#         reader = csv.reader(csvfile)
+#         for line in reader:
+#             tp, fp, tn, fn = get_metrics_for_line_target_word(line)
+#             tp_total += tp
+#             fp_total += fp
+#             tn_total += tn
+#             fn_total += fn
+#     accuracy = (tp_total + tn_total) / (tp_total + tn_total + fp_total + fn_total)
+#     precision = tp_total / (tp_total + fp_total)
+#     recall = tp_total / (tp_total + fn_total)
+#     return accuracy, precision, recall
 
 
 def get_precision_recall_for_aspect_words():
-    tp_total, fp_total, tn_total, fn_total = 0, 0, 0, 0
+    tp_total, gen_len_total, true_len_total = 0, 0, 0
     with open(PREDICTIONS_FILE, 'r') as csvfile:
         reader = csv.reader(csvfile)
         for line in reader:
-            tp, fp, tn, fn = get_metrics_for_line_target_word(line)
+            tp, gen_len, true_len = get_metrics_for_line_target_word(line)
             tp_total += tp
-            fp_total += fp
-            tn_total += tn
-            fn_total += fn
-    accuracy = (tp_total + tn_total) / (tp_total + tn_total + fp_total + fn_total)
-    precision = tp_total / (tp_total + fp_total)
-    recall = tp_total / (tp_total + fn_total)
-    return accuracy, precision, recall
+            gen_len_total += gen_len
+            true_len_total += true_len
+    precision = tp_total / gen_len_total
+    recall = tp_total / true_len_total
+    return precision, recall, 2*precision*recall/(precision + recall)
 
 
 # def get_metrics_for_line_aspect_polarity(line):
@@ -193,5 +221,4 @@ def get_precision_recall_for_aspect_words():
 #     # return accuracy, precision, recall
 
 
-# get_reverse_accuracy()
-print("Accuracy, Precision, Recall = " + str(get_precision_recall_for_aspect_words()))
+print("Precision, Recall, F1 = " + str(get_precision_recall_for_aspect_words()))

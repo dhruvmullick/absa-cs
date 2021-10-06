@@ -131,3 +131,4 @@ dmypy.json
 # Folders
 models
 .idea/
+.DS_Store
