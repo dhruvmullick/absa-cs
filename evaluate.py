@@ -139,6 +139,10 @@ def get_metrics_for_line_target_word(line):
     for g in generated_aspects_targets:
         if g in true_aspects_targets:
             tp += len(g.split(' '))
+        else:
+            truth, matched = check_for_unequal_word_overlap_for_many_phrases(g, true_aspects_targets)
+            if truth:
+                tp += len(matched.split(' '))
 
     all_tokens_generated = [y for x in generated_aspects_targets for y in x.split()]
     all_tokens_true = [y for x in true_aspects_targets for y in x.split()]
