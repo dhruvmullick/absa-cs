@@ -7,6 +7,7 @@ import ast
 
 SMALL_POSITIVE_CONST = 1e-4
 TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/combined/transformed-targets.csv'
+TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/combined/transformed-sentiments.csv'
 
 
 # Dhruv's e.g. evaluate_ote("O O O S O B I E", "O O O S O O O O") ->
@@ -82,7 +83,7 @@ def match_ot(gold_ote_sequence, pred_ote_sequence):
             n_hit += 1
     return n_hit
 
-
+# Dhruv's e.g. Updated: print(evaluate_ts([[(1, 3, 'POS'), (4, 4, 'NEG')]], [[(1, 3, 'POS'), (4, 4, 'NEG')]]))
 def evaluate_ts(gold_ts, pred_ts):
     """
     evaluate the model performance for the ts task
@@ -99,7 +100,8 @@ def evaluate_ts(gold_ts, pred_ts):
     for i in range(n_samples):
         g_ts = gold_ts[i]
         p_ts = pred_ts[i]
-        g_ts_sequence, p_ts_sequence = tag2ts(ts_tag_sequence=g_ts), tag2ts(ts_tag_sequence=p_ts)
+        # g_ts_sequence, p_ts_sequence = tag2ts(ts_tag_sequence=g_ts), tag2ts(ts_tag_sequence=p_ts)
+        g_ts_sequence, p_ts_sequence = g_ts, p_ts
         hit_ts_count, gold_ts_count, pred_ts_count = match_ts(gold_ts_sequence=g_ts_sequence,
                                                               pred_ts_sequence=p_ts_sequence)
 
@@ -207,8 +209,26 @@ def read_transformed_targets():
     return predicted_data, gold_data
 
 
+def read_transformed_sentiments():
+    predicted_data = []
+    gold_data = []
+    with open(TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE, 'r') as csvfile:
+        reader = csv.reader(csvfile)
+        next(reader, None)  # skip the headers
+        for line in reader:
+            predicted_idx = ast.literal_eval(line[0])
+            gold_idx = ast.literal_eval(line[1])
+            predicted_data.append(predicted_idx)
+            gold_data.append(gold_idx)
+    return predicted_data, gold_data
+
+
 # print(evaluate_ts(["O", "B-POS", "I-POS", "E-POS", "S-NEG", "O"], ["O", "O", "O", "O", "S-NEG", "O"]))
 # print(evaluate_ts([["O", "B-POS", "I-POS", "E-POS", "S-NEG", "S-POS"]], [["O", "B-POS", "I-POS", "E-POS", "S-NEG", "O"]]))
+# print(evaluate_ts([[(1, 3, 'POS'), (4, 4, 'NEG')]], [[(1, 3, 'POS'), (4, 4, 'NEG')]]))
 
 predicted_data, gold_data = read_transformed_targets()
 print(evaluate_ote(gold_data, predicted_data))
+
+predicted_data, gold_data = read_transformed_sentiments()
+print(evaluate_ts(gold_data, predicted_data))

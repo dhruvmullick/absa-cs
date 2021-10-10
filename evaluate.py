@@ -10,16 +10,6 @@ def add_to_dest(dest, src):
         dest[k] += src[k]
 
 
-def get_sentiment(polarity):
-    return polarity.split()[-1]
-
-
-def get_other_sentiments(polarity):
-    all_sentiments = [POSITIVE, NEUTRAL, NEUTRAL]
-    all_sentiments.remove(get_sentiment(polarity))
-    return all_sentiments
-
-
 def get_stats_dict(dictionary, polarity_phrase):
     return dictionary[polarity_phrase.split()[-1]]
 
