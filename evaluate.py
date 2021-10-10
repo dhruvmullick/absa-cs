@@ -1,24 +1,13 @@
 import csv
-from nltk.stem import WordNetLemmatizer
-from nltk.corpus import stopwords
-import preprocess_for_eval
+from utils import *
 
-PREDICTIONS_FILE = '/home/mullick/scratch/GenerativeAspectBasedSentimentAnalysis/models/combined/predictions.csv'
-SEPARATOR = '<sep>'
-POSITIVE, NEGATIVE, NEUTRAL = 'positive', 'negative', 'neutral'
+PREDICTIONS_FILE = 'models/combined/predictions.csv'
 TRUE_POS, TRUE_NEG, FALSE_POS, FALSE_NEG = 'tp', 'tn', 'fp', 'fn'
-
-lemmatizer = WordNetLemmatizer()
-stop_words = set(stopwords.words('english'))
 
 
 def add_to_dest(dest, src):
     for k in src.keys():
         dest[k] += src[k]
-
-
-def get_aspect_targets(polarity_sentence):
-    return [' '.join(polarity.split()[:-1]) for polarity in polarity_sentence]
 
 
 def get_sentiment(polarity):
@@ -47,40 +36,11 @@ def is_neutral(polarity_phrase):
     return polarity_phrase.endswith(NEUTRAL)
 
 
-def normalise_sentence(sentence):
-    sentence = sentence.replace(',', '')
-    sentence = sentence.replace('.', '')
-    sentence = sentence.replace('\"', '')
-    sentence = sentence.lower()
-    tokenised_sentence = sentence.split(" ")
-    return ' '.join([lemmatizer.lemmatize(w) for w in tokenised_sentence if w not in stop_words])
-
-
-def get_generated_polarities(sentence):
-    # print("sentence - " + str(sentence))
-    sentence = preprocess_for_eval.clean_labels(sentence)
-    sentence = preprocess_for_eval.add_missed_sep(sentence)
-    polarities = sentence.split(SEPARATOR)
-    polarities = [normalise_sentence(p) for p in polarities]
-    polarities = [p.strip() for p in polarities if not p.strip().startswith((NEGATIVE, POSITIVE, NEUTRAL))]
-    polarities = list(set([item for item in polarities]))
-    # print("polarities - " + str(polarities))
-    return polarities
-
-
 # def get_true_polarities(sentence):
 #     polarities = sentence.split(SEPARATOR)
 #     polarities = [normalise_sentence(p).strip() for p in polarities]
 #     return polarities
 
-
-def get_polarities_and_len(line):
-    generated_sentence = line[1].strip()
-    true_sentence = line[2].strip()
-    # original_sentence_length = len([normalise_sentence(p).strip() for p in line[3].strip()])
-    generated_polarities = get_generated_polarities(generated_sentence)
-    true_polarities = get_generated_polarities(true_sentence)
-    return generated_polarities, true_polarities
 
 def check_for_unequal_word_overlap(phrase_to_check, original_phrase):
     phrase_to_check_tokens = phrase_to_check.split()
@@ -100,6 +60,7 @@ def check_for_unequal_word_overlap_for_many_phrases(phrase_to_check, original_ph
             return True, original_phrase
     else:
         return False, None
+
 
 # def get_reverse_accuracy_for_line(line):
 #     generated_polarities, true_polarities, original_sentence_length = get_polarities_and_len(line)
@@ -131,25 +92,15 @@ def check_for_unequal_word_overlap_for_many_phrases(phrase_to_check, original_ph
 # Basically words are being classified as Aspect or Not Aspect.
 # Consider words that are not classified by Generator as being Not Aspect.
 def get_metrics_for_line_target_word(line):
-    generated_polarities, true_polarities = get_polarities_and_len(line)
+    generated_polarities, true_polarities = get_polarities_for_line(line)
     generated_aspects_targets = get_aspect_targets(generated_polarities)
     true_aspects_targets = get_aspect_targets(true_polarities)
 
     tp = 0
     for g in generated_aspects_targets:
         if g in true_aspects_targets:
-            # tp += len(g.split(' '))
             tp += 1
-        # else:
-        #     truth, matched = check_for_unequal_word_overlap_for_many_phrases(g, true_aspects_targets)
-        #     if truth:
-        #         # tp += len(matched.split(' '))
-        #         tp += 1
 
-    # all_tokens_generated = [y for x in generated_aspects_targets for y in x.split()]
-    # all_tokens_true = [y for x in true_aspects_targets for y in x.split()]
-    # print('generated aspect targets list is {}'.format(all_tokens_generated))
-    # print('true aspect targets list is {}'.format(all_tokens_true))
     return tp, len(generated_aspects_targets), len(true_aspects_targets)
 
 

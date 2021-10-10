@@ -1,7 +1,15 @@
 import numpy as np
 import torch, math
 from torch.optim import Optimizer
+from nltk.stem import WordNetLemmatizer
+from nltk.corpus import stopwords
+import preprocess_for_eval
 
+SEPARATOR = '<sep>'
+POSITIVE, NEGATIVE, NEUTRAL = 'positive', 'negative', 'neutral'
+
+lemmatizer = WordNetLemmatizer()
+stop_words = set(stopwords.words('english'))
 
 class EarlyStopping:
     """Early stops the training if validation loss doesn't improve after a given patience."""
@@ -274,3 +282,34 @@ class Adafactor(Optimizer):
                     p.data.copy_(p_data_fp32)
 
         return loss
+
+
+def normalise_sentence(sentence):
+    sentence = sentence.replace(',', '')
+    sentence = sentence.replace('.', '')
+    sentence = sentence.replace('\"', '')
+    sentence = sentence.lower()
+    tokenised_sentence = sentence.split(" ")
+    return ' '.join([lemmatizer.lemmatize(w) for w in tokenised_sentence if w not in stop_words])
+
+
+def get_cleaned_polarities(sentence):
+    sentence = preprocess_for_eval.clean_labels(sentence)
+    sentence = preprocess_for_eval.add_missed_sep(sentence)
+    polarities = sentence.split(SEPARATOR)
+    polarities = [p.strip() for p in polarities if not p.strip().startswith((NEGATIVE, POSITIVE, NEUTRAL))]
+    # Should we use set...?
+    polarities = list(set([item for item in polarities]))
+    return polarities
+
+
+def get_polarities_for_line(line):
+    generated_sentence = normalise_sentence(line[1].strip())
+    true_sentence = normalise_sentence(line[2].strip())
+    generated_polarities = get_cleaned_polarities(generated_sentence)
+    true_polarities = get_cleaned_polarities(true_sentence)
+    return generated_polarities, true_polarities
+
+
+def get_aspect_targets(polarity_sentence):
+    return [' '.join(polarity.split()[:-1]) for polarity in polarity_sentence]

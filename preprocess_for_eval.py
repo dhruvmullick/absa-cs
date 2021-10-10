@@ -77,4 +77,4 @@ def aspect_scores(gold, pred):
 #     print('\n===============')
 
 # calculate scores
-aspect_scores(df['Actual Text'].tolist(), df['Generated Text'].tolist())
+# aspect_scores(df['Actual Text'].tolist(), df['Generated Text'].tolist())
