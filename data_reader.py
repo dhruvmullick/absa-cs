@@ -8,6 +8,8 @@ def parse_semeval_xml(root):
     for i, child in enumerate(root):
         review_id = child.attrib['rid']
 
+        # Target, Polarity
+        prev_opinion = (None, None)
         for sentence in child.findall('sentences/sentence'):
             sentence_id = "_".join(['id', sentence.attrib['id'].split(':')[1]])
             sentence_text = sentence.findall('text')[0].text.strip()
@@ -21,7 +23,14 @@ def parse_semeval_xml(root):
             opinions = []
             sentence_opinions = sentence.findall('Opinions')[0]
             for opinion in sentence_opinions.findall('Opinion'):
-                opinions += [opinion.attrib['target'] + ' ' + opinion.attrib['polarity']]
+                opinion_target = opinion.attrib['target']
+                opinion_polarity = opinion.attrib['polarity']
+                if opinion_target == 'sushi' and opinion_polarity == 'positive':
+                    print("Here")
+                if opinion_target == prev_opinion[0] and opinion_polarity == prev_opinion[1]:
+                    continue
+                opinions += [ opinion_target + ' ' + opinion_polarity]
+                prev_opinion = (opinion_target, opinion_polarity)
 
             data.append([review_id, sentence_id, sentence_text, opinions])
 

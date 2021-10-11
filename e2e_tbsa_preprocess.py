@@ -31,6 +31,9 @@ def get_sentence_matched_with_targets(aspects_targets, real_sentence):
 def get_sentence_matched_with_targets_and_sentiments(aspects_targets, aspects_sentiments, real_sentence):
     real_idx = []
     for i, tg in enumerate(aspects_targets):
+        if aspects_sentiments[i] not in sentiment_to_identifier.keys():
+            # print("no sentiment found in {}".format(real_sentence))
+            continue
         idx_start = real_sentence.find(tg)
         if idx_start == -1:
             continue
@@ -47,8 +50,8 @@ def transform_line_for_target_extraction(line):
     generated_aspects_targets = utils.get_aspect_targets(generated_polarities)
     true_aspects_targets = utils.get_aspect_targets(true_polarities)
 
-    generated_target_idx_list = get_sentence_matched_with_targets(generated_aspects_targets, real_sentence)
-    true_target_idx_list = get_sentence_matched_with_targets(true_aspects_targets, real_sentence)
+    generated_target_idx_list = list(set(get_sentence_matched_with_targets(generated_aspects_targets, real_sentence)))
+    true_target_idx_list = list(set(get_sentence_matched_with_targets(true_aspects_targets, real_sentence)))
 
     return generated_target_idx_list, true_target_idx_list
 
@@ -91,3 +94,4 @@ def transform_gold_and_truth():
 
 
 transform_gold_and_truth()
+

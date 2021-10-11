@@ -288,6 +288,7 @@ def normalise_sentence(sentence):
     sentence = sentence.replace(',', '')
     sentence = sentence.replace('.', '')
     sentence = sentence.replace('\"', '')
+    sentence = sentence.replace('\'s', '')
     sentence = sentence.lower()
     tokenised_sentence = sentence.split(" ")
     return ' '.join([lemmatizer.lemmatize(w) for w in tokenised_sentence if w not in stop_words])
@@ -298,8 +299,6 @@ def get_cleaned_polarities(sentence):
     sentence = preprocess_for_eval.add_missed_sep(sentence)
     polarities = sentence.split(SEPARATOR)
     polarities = [p.strip() for p in polarities if not p.strip().startswith((NEGATIVE, POSITIVE, NEUTRAL))]
-    # Should we use set...?
-    polarities = list(set([item for item in polarities]))
     return polarities
 
 

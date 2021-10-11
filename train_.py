@@ -279,5 +279,5 @@ if __name__ == '__main__':
     
     training_loader, validation_loader, test_loader, tokenizer = build_data(dataframes=[training, validation, test], source_text="sentences_texts", target_text="sentences_opinions")
     
-    # T5Trainer(training_loader, validation_loader, tokenizer, model_params=model_params)
+    T5Trainer(training_loader, validation_loader, tokenizer, model_params=model_params)
     T5Generator(test_loader, model_params=model_params)
