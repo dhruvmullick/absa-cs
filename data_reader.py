@@ -1,3 +1,4 @@
+from typing import Optional
 import pandas as pd
 import numpy as np
 import xml.etree.ElementTree as ET
@@ -23,12 +24,22 @@ def parse_semeval_xml(root):
             opinions = []
             sentence_opinions = sentence.findall('Opinions')[0]
             for opinion in sentence_opinions.findall('Opinion'):
-                opinion_target = opinion.attrib['target']
-                opinion_polarity = opinion.attrib['polarity']
-                if opinion_target == prev_opinion[0] and opinion_polarity == prev_opinion[1]:
-                    continue
-                opinions += [ opinion_target + ' ' + opinion_polarity]
-                prev_opinion = (opinion_target, opinion_polarity)
+                opinions.append([opinion.attrib['target'], opinion.attrib['polarity'], opinion.attrib['from'], opinion.attrib['to']])
+                # opinion_target = opinion.attrib['target']
+                # opinion_polarity = opinion.attrib['polarity']
+                # if opinion_target == prev_opinion[0] and opinion_polarity == prev_opinion[1]:
+                #     continue
+                # opinions += [ opinion_target + ' ' + opinion_polarity]
+                # prev_opinion = (opinion_target, opinion_polarity)
+            
+            opinions = pd.DataFrame(opinions, columns=['tar', 'pol', 'from', 'to'])
+            if 'The wine list is interesting and has' in sentence_text:
+                print(opinions)
+            opinions.drop_duplicates(subset=['tar', 'pol', 'from', 'to'], inplace=True)
+            opinions = [row['tar'] + ' ' + row['pol'] for i, row in opinions.iterrows()]
+            if 'The wine list is interesting and has' in sentence_text:
+                print(opinions)
+                exit(1)
 
             data.append([review_id, sentence_id, sentence_text, opinions])
 
