@@ -25,8 +25,6 @@ def parse_semeval_xml(root):
             for opinion in sentence_opinions.findall('Opinion'):
                 opinion_target = opinion.attrib['target']
                 opinion_polarity = opinion.attrib['polarity']
-                if opinion_target == 'sushi' and opinion_polarity == 'positive':
-                    print("Here")
                 if opinion_target == prev_opinion[0] and opinion_polarity == prev_opinion[1]:
                     continue
                 opinions += [ opinion_target + ' ' + opinion_polarity]

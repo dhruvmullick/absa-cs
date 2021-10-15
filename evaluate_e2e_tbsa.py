@@ -38,6 +38,8 @@ def evaluate_ote(gold_ot, pred_ot):
         n_tp_ot += n_hit_ot
         n_gold_ot += len(g_ot_sequence)
         n_pred_ot += len(p_ot_sequence)
+        if n_hit_ot != len(g_ot_sequence):
+            print("Here")
     # add 0.001 for smoothing
     # calculate precision, recall and f1 for ote task
     ot_precision = float(n_tp_ot) / float(n_pred_ot + SMALL_POSITIVE_CONST)
@@ -49,27 +51,27 @@ def evaluate_ote(gold_ot, pred_ot):
 
 # Dhruv's e.g. print(tag2ot("O O O S O B I E")) = [(6, 6), (10, 14)]
 # print(tag2ot(["O","O","O","S","O", "B", "I", "E"])) = [(3, 3), (5, 7)]
-def tag2ot(ote_tag_sequence):
-    """
-    transform ote tag sequence to a sequence of opinion target
-    :param ote_tag_sequence: tag sequence for ote task
-    :return:
-    """
-    n_tags = len(ote_tag_sequence)
-    ot_sequence = []
-    beg, end = -1, -1
-    for i in range(n_tags):
-        tag = ote_tag_sequence[i]
-        if tag == 'S':
-            ot_sequence.append((i, i))
-        elif tag == 'B':
-            beg = i
-        elif tag == 'E':
-            end = i
-            if end > beg > -1:
-                ot_sequence.append((beg, end))
-                beg, end = -1, -1
-    return ot_sequence
+# def tag2ot(ote_tag_sequence):
+#     """
+#     transform ote tag sequence to a sequence of opinion target
+#     :param ote_tag_sequence: tag sequence for ote task
+#     :return:
+#     """
+#     n_tags = len(ote_tag_sequence)
+#     ot_sequence = []
+#     beg, end = -1, -1
+#     for i in range(n_tags):
+#         tag = ote_tag_sequence[i]
+#         if tag == 'S':
+#             ot_sequence.append((i, i))
+#         elif tag == 'B':
+#             beg = i
+#         elif tag == 'E':
+#             end = i
+#             if end > beg > -1:
+#                 ot_sequence.append((beg, end))
+#                 beg, end = -1, -1
+#     return ot_sequence
 
 
 def match_ot(gold_ote_sequence, pred_ote_sequence):
@@ -136,41 +138,41 @@ def evaluate_ts(gold_ts, pred_ts):
 
 
 # Dhruv's e.g. print(tag2ts(["O", "B-POS", "I-POS", "E-POS", "S-NEG", "O"])) -> [(1, 3, 'POS'), (4, 4, 'NEG')]
-def tag2ts(ts_tag_sequence):
-    """
-    transform ts tag sequence to targeted sentiment
-    :param ts_tag_sequence: tag sequence for ts task
-    :return:
-    """
-    n_tags = len(ts_tag_sequence)
-    ts_sequence, sentiments = [], []
-    beg, end = -1, -1
-    for i in range(n_tags):
-        ts_tag = ts_tag_sequence[i]
-        # current position and sentiment
-        eles = ts_tag.split('-')
-        if len(eles) == 2:
-            pos, sentiment = eles
-        else:
-            pos, sentiment = 'O', 'O'
-        if sentiment != 'O':
-            # current word is a subjective word
-            sentiments.append(sentiment)
-        if pos == 'S':
-            # singleton
-            ts_sequence.append((i, i, sentiment))
-            sentiments = []
-        elif pos == 'B':
-            beg = i
-        elif pos == 'E':
-            end = i
-            # schema1: only the consistent sentiment tags are accepted
-            # that is, all of the sentiment tags are the same
-            if end > beg > -1 and len(set(sentiments)) == 1:
-                ts_sequence.append((beg, end, sentiment))
-                sentiments = []
-                beg, end = -1, -1
-    return ts_sequence
+# def tag2ts(ts_tag_sequence):
+#     """
+#     transform ts tag sequence to targeted sentiment
+#     :param ts_tag_sequence: tag sequence for ts task
+#     :return:
+#     """
+#     n_tags = len(ts_tag_sequence)
+#     ts_sequence, sentiments = [], []
+#     beg, end = -1, -1
+#     for i in range(n_tags):
+#         ts_tag = ts_tag_sequence[i]
+#         # current position and sentiment
+#         eles = ts_tag.split('-')
+#         if len(eles) == 2:
+#             pos, sentiment = eles
+#         else:
+#             pos, sentiment = 'O', 'O'
+#         if sentiment != 'O':
+#             # current word is a subjective word
+#             sentiments.append(sentiment)
+#         if pos == 'S':
+#             # singleton
+#             ts_sequence.append((i, i, sentiment))
+#             sentiments = []
+#         elif pos == 'B':
+#             beg = i
+#         elif pos == 'E':
+#             end = i
+#             # schema1: only the consistent sentiment tags are accepted
+#             # that is, all of the sentiment tags are the same
+#             if end > beg > -1 and len(set(sentiments)) == 1:
+#                 ts_sequence.append((beg, end, sentiment))
+#                 sentiments = []
+#                 beg, end = -1, -1
+#     return ts_sequence
 
 
 def match_ts(gold_ts_sequence, pred_ts_sequence):

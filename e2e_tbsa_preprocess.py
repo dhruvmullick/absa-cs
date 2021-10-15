@@ -24,9 +24,11 @@ def get_sentiment(polarity_list):
 def get_sentence_matched_with_targets(aspects_targets, real_sentence):
     real_target_idx = []
     for tg in aspects_targets:
+        if not tg.strip():
+            continue
         idx_start = real_sentence.find(tg)
         if idx_start == -1:
-            pass
+            continue
         idx_end = idx_start + len(tg) - 1
         real_target_idx.append((idx_start, idx_end))
     return real_target_idx
@@ -35,6 +37,8 @@ def get_sentence_matched_with_targets(aspects_targets, real_sentence):
 def get_sentence_matched_with_targets_and_sentiments(aspects_targets, aspects_sentiments, real_sentence):
     real_idx = []
     for i, tg in enumerate(aspects_targets):
+        if not tg.strip():
+            continue
         if aspects_sentiments[i] not in sentiment_to_identifier.keys():
             # print("no sentiment found in {}".format(real_sentence))
             continue
@@ -80,6 +84,7 @@ def transform_line_for_sentiment_extraction(line):
 
 
 def transform_gold_and_truth():
+    ct = 0
     with open(PREDICTIONS_FILE, 'r') as csvfile:
         with open(TRANSFORMED_TARGETS_PREDICTIONS_FILE, 'w') as newfile_targets:
             with open(TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE, 'w') as newfile_sentiments:
@@ -90,6 +95,9 @@ def transform_gold_and_truth():
                 writer_sentiments = csv.writer(newfile_sentiments)
                 writer_sentiments.writerow(["Predicted sentiment tags", "Gold sentiment tags"])
                 for line in reader:
+                    ct += 1
+                    # if ct == 86:
+                        # print("HERE")
                     pred_transformed, gold_transformed = transform_line_for_target_extraction(line)
                     writer_targets.writerow([pred_transformed, gold_transformed])
                     pred_sentiment_transformed, gold_sentiment_transformed = transform_line_for_sentiment_extraction(

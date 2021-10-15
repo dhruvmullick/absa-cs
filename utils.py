@@ -288,7 +288,7 @@ def normalise_sentence(sentence):
     sentence = sentence.replace(',', '')
     sentence = sentence.replace('.', '')
     sentence = sentence.replace('\"', '')
-    sentence = sentence.replace('\'s', '')
+    sentence = sentence.replace('\'s ', ' ')
     sentence = sentence.lower()
     tokenised_sentence = sentence.split(" ")
     return ' '.join([lemmatizer.lemmatize(w) for w in tokenised_sentence if w not in stop_words])
