@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import xml.etree.ElementTree as ET
-
+from sklearn.model_selection import train_test_split
 
 def parse_semeval_xml(root):
     data = []
@@ -84,25 +84,24 @@ def opinions_to_decoder_format(opinions_list):
 
 if __name__ == '__main__':
     sem_train, sem_test = load_semeval()
-    # mams_train, val, mams_test = load_MAMS()
+    mams_train, mams_val, mams_test = load_MAMS()
 
     train = pd.concat([sem_train], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
+    train, val = train_test_split(train, test_size=0.2)
     test = pd.concat([sem_test], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
     test = test[test['sentences_opinions'] != '']
 
     train.to_csv('data/processed_train_rest.csv', header=True, index=False)
+    val.to_csv('data/processed_val_rest.csv', header=True, index=False)
     test.to_csv('data/processed_test_rest.csv', header=True, index=False)
 
-    # train = pd.concat([sem_train, mams_train], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
-    # test = pd.concat([sem_test, mams_test], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
-    # test = test[test['sentences_opinions'] != '']
+    train = pd.concat([mams_train], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
+    val = pd.concat([mams_val], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
+    test = pd.concat([mams_test], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
+    test = test[test['sentences_opinions'] != '']
 
-    # train = pd.concat([sem_train, mams_train], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
-    # test = pd.concat([sem_test, mams_test], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
-    # test = test[test['sentences_opinions'] != '']
-
-    # train.to_csv('data/processed_train_combined.csv', header=True, index=False)
-    # val.to_csv('data/val.csv', header=True, index=False)
-    # test.to_csv('data/processed_test_combined.csv', header=True, index=False)
+    train.to_csv('data/processed_train_mams.csv', header=True, index=False)
+    val.to_csv('data/processed_val_mams.csv', header=True, index=False)
+    test.to_csv('data/processed_test_mams.csv', header=True, index=False)
 
     print('saved..')
