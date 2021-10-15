@@ -298,7 +298,7 @@ def get_cleaned_polarities(sentence):
     sentence = preprocess_for_eval.clean_labels(sentence)
     sentence = preprocess_for_eval.add_missed_sep(sentence)
     polarities = sentence.split(SEPARATOR)
-    polarities = [p.strip() for p in polarities if not p.strip().startswith((NEGATIVE, POSITIVE, NEUTRAL))]
+    polarities = [p.strip() for p in polarities if not p.strip().startswith((NEGATIVE, POSITIVE, NEUTRAL)) and p.strip()]
     return polarities
 
 

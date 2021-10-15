@@ -4,6 +4,7 @@ from re import I
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
+import sys
 from utils import EarlyStopping
 import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
@@ -164,8 +165,10 @@ def generate(tokenizer, model, device, loader, model_params):
           ids = data['source_ids'].to(device, dtype = torch.long)
           mask = data['source_mask'].to(device, dtype = torch.long)
 
-          generated_ids = model.generate(input_ids = ids, attention_mask = mask, 
-                max_length=256, do_sample=True, top_p=0.9, top_k=0, num_return_sequences=1)
+          generated_ids = model.generate(input_ids = ids, attention_mask = mask,
+                                         max_length=256, do_sample=True, top_p=0.9, top_k=0, num_return_sequences=1)
+                                         # max_length=(int(sys.argv[1])), num_beams=(int(sys.argv[2])), length_penalty=(float(sys.argv[3])), no_repeat_ngram_size=3, early_stopping=True)
+
                 # max_length=256, num_beams=4, length_penalty=1.5, no_repeat_ngram_size=3, early_stopping=True)
           preds = [tokenizer.decode(g, skip_special_tokens=True, clean_up_tokenization_spaces=True) for g in generated_ids]
           target = [tokenizer.decode(t, skip_special_tokens=True, clean_up_tokenization_spaces=True)for t in y]
@@ -243,18 +246,21 @@ def T5Generator(validation_loader, model_params):
     tokenizer = T5Tokenizer.from_pretrained(path) #"valhalla/t5-base-e2e-qg")
     model = model.to(device)
 
+    PREDICTION_FILE = 'predictions.csv'
+    # PREDICTION_FILE = 'predictions_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
+
     # evaluating test dataset
     console.log(f"[Initiating Validation]...\n")
     for epoch in range(model_params["VAL_EPOCHS"]):
         predictions, actuals, data_list = generate(tokenizer, model, device, validation_loader, model_params)
         final_df = pd.DataFrame({'Generated Text':predictions,'Actual Text':actuals, 'Original Sentence': data_list})
-        final_df.to_csv(os.path.join(model_params["OUTPUT_PATH"],'predictions.csv'))
+        final_df.to_csv(os.path.join(model_params["OUTPUT_PATH"], PREDICTION_FILE))
 
     console.save_text(os.path.join(model_params["OUTPUT_PATH"],'logs.txt'))
 
     console.log(f"[Validation Completed.]\n")
     console.print(f"""[Model] Model saved @ {os.path.join(model_params["OUTPUT_PATH"], "model_files")}\n""")
-    console.print(f"""[Validation] Generation on Validation data saved @ {os.path.join(model_params["OUTPUT_PATH"],'predictions.csv')}\n""")
+    console.print(f"""[Validation] Generation on Validation data saved @ {os.path.join(model_params["OUTPUT_PATH"],PREDICTION_FILE)}\n""")
     console.print(f"""[Logs] Logs saved @ {os.path.join(model_params["OUTPUT_PATH"],'logs.txt')}\n""")
 
 
