@@ -166,10 +166,13 @@ def generate(tokenizer, model, device, loader, model_params):
           mask = data['source_mask'].to(device, dtype = torch.long)
 
           generated_ids = model.generate(input_ids = ids, attention_mask = mask,
-                                         max_length=256, do_sample=True, top_p=0.9, top_k=0, num_return_sequences=1)
-                                         # max_length=(int(sys.argv[1])), num_beams=(int(sys.argv[2])), length_penalty=(float(sys.argv[3])), no_repeat_ngram_size=3, early_stopping=True)
+                max_length=256, do_sample=True, top_p=0.9, top_k=0, num_return_sequences=1)
 
+          # generated_ids = model.generate(input_ids = ids, attention_mask = mask,
+          #                                max_length=256, do_sample=True, top_p=0.9, top_k=0, num_return_sequences=1)
+                                         # max_length=(int(sys.argv[1])), num_beams=(int(sys.argv[2])), length_penalty=(float(sys.argv[3])), no_repeat_ngram_size=3, early_stopping=True)
                 # max_length=256, num_beams=4, length_penalty=1.5, no_repeat_ngram_size=3, early_stopping=True)
+
           preds = [tokenizer.decode(g, skip_special_tokens=True, clean_up_tokenization_spaces=True) for g in generated_ids]
           target = [tokenizer.decode(t, skip_special_tokens=True, clean_up_tokenization_spaces=True)for t in y]
           if _%10==0:
