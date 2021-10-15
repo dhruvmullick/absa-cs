@@ -59,7 +59,12 @@ def transform_line_for_target_extraction(line):
     true_aspects_targets = utils.get_aspect_targets(true_polarities)
 
     generated_target_idx_list = list(set(get_sentence_matched_with_targets(generated_aspects_targets, real_sentence)))
-    true_target_idx_list = list(set(get_sentence_matched_with_targets(true_aspects_targets, real_sentence)))
+
+    # Not using set for true target index
+    true_target_idx_list = get_sentence_matched_with_targets(true_aspects_targets, real_sentence)
+
+    generated_target_idx_list.sort()
+    true_target_idx_list.sort()
 
     return generated_target_idx_list, true_target_idx_list
 
@@ -74,11 +79,16 @@ def transform_line_for_sentiment_extraction(line):
     generated_aspects_sentiments = get_sentiment(generated_polarities)
     true_aspects_sentiments = get_sentiment(true_polarities)
 
-    generated_sentiment_idx_list = get_sentence_matched_with_targets_and_sentiments(generated_aspects_targets,
+    generated_sentiment_idx_list = list(set(get_sentence_matched_with_targets_and_sentiments(generated_aspects_targets,
                                                                                     generated_aspects_sentiments,
-                                                                                    real_sentence)
+                                                                                    real_sentence)))
+
+    # Not using set for true sentiment index
     true_sentiment_idx_list = get_sentence_matched_with_targets_and_sentiments(true_aspects_targets,
-                                                                               true_aspects_sentiments, real_sentence)
+                                                                            true_aspects_sentiments, real_sentence)
+
+    generated_sentiment_idx_list.sort()
+    true_sentiment_idx_list.sort()
 
     return generated_sentiment_idx_list, true_sentiment_idx_list
 
