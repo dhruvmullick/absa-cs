@@ -2,15 +2,13 @@ from typing import Optional
 import pandas as pd
 import numpy as np
 import xml.etree.ElementTree as ET
-# from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split
 
 def parse_semeval_xml(root):
     data = []
     for i, child in enumerate(root):
         review_id = child.attrib['rid']
 
-        # Target, Polarity
-        prev_opinion = (None, None)
         for sentence in child.findall('sentences/sentence'):
             sentence_id = "_".join(['id', sentence.attrib['id'].split(':')[1]])
             sentence_text = sentence.findall('text')[0].text.strip()
@@ -25,21 +23,10 @@ def parse_semeval_xml(root):
             sentence_opinions = sentence.findall('Opinions')[0]
             for opinion in sentence_opinions.findall('Opinion'):
                 opinions.append([opinion.attrib['target'], opinion.attrib['polarity'], opinion.attrib['from'], opinion.attrib['to']])
-                # opinion_target = opinion.attrib['target']
-                # opinion_polarity = opinion.attrib['polarity']
-                # if opinion_target == prev_opinion[0] and opinion_polarity == prev_opinion[1]:
-                #     continue
-                # opinions += [ opinion_target + ' ' + opinion_polarity]
-                # prev_opinion = (opinion_target, opinion_polarity)
             
             opinions = pd.DataFrame(opinions, columns=['tar', 'pol', 'from', 'to'])
-            if 'The wine list is interesting and has' in sentence_text:
-                print(opinions)
             opinions.drop_duplicates(subset=['tar', 'pol', 'from', 'to'], inplace=True)
             opinions = [row['tar'] + ' ' + row['pol'] for i, row in opinions.iterrows()]
-            if 'The wine list is interesting and has' in sentence_text:
-                print(opinions)
-                exit(1)
 
             data.append([review_id, sentence_id, sentence_text, opinions])
 
@@ -47,7 +34,6 @@ def parse_semeval_xml(root):
     return data
 
 def load_semeval():
-    # xml_train = open('/home/bghanem/projects/ABSA_LM/data/semeval/training/ABSA16_Restaurants_Train_SB1_v2.xml', 'r').read()  # Read file
     xml_train = open('data/semeval/training/ABSA16_Restaurants_Train_SB1_v2.xml', 'r').read()  # Read file
     train = parse_semeval_xml(root=ET.XML(xml_train))
     train['sentences_opinions'] = train['sentences_opinions'].map(opinions_to_decoder_format)
@@ -94,16 +80,17 @@ def opinions_to_decoder_format(opinions_list):
     return ' <sep> '.join(opinions_list)
 
 if __name__ == '__main__':
+
     sem_train, sem_test = load_semeval()
     mams_train, mams_val, mams_test = load_MAMS()
 
     train = pd.concat([sem_train], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
-    # train, val = train_test_split(train, test_size=0.2)
+    train, val = train_test_split(train, test_size=0.1, random_state=0)
     test = pd.concat([sem_test], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
     test = test[test['sentences_opinions'] != '']
 
     train.to_csv('data/processed_train_rest.csv', header=True, index=False)
-    # val.to_csv('data/processed_val_rest.csv', header=True, index=False)
+    val.to_csv('data/processed_val_rest.csv', header=True, index=False)
     test.to_csv('data/processed_test_rest.csv', header=True, index=False)
 
     train = pd.concat([mams_train], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
