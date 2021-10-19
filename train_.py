@@ -14,6 +14,9 @@ from rich import box
 from rich.console import Console
 # pd.set_option('display.max_colwidth', -1)
 
+PREDICTION_FILE = 'predictions.csv'
+# PREDICTION_FILE = 'predictions_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
+
 # define a rich console logger
 console=Console(record=True)
 
@@ -101,13 +104,12 @@ def validate(tokenizer, model, device, loader):
     validate_losses = []
     model.eval()
     for _, data in tqdm(enumerate(loader, 0), total=len(loader), desc='Validating batches..'):
-        y = data['target_ids'].to(device, dtype = torch.long)
-        y_ids = y[:, :-1].contiguous()
-        lm_labels = y[:, 1:].clone().detach()
-        lm_labels[y[:, 1:] == tokenizer.pad_token_id] = -100
+        y = data['target_ids'].to(device, dtype=torch.long)
+        lm_labels = y.clone()
+        lm_labels[y == tokenizer.pad_token_id] = -100
         ids = data['source_ids'].to(device, dtype = torch.long)
         mask = data['source_mask'].to(device, dtype = torch.long)
-        outputs = model(input_ids = ids, attention_mask = mask, decoder_input_ids=y_ids, labels=lm_labels)
+        outputs = model(input_ids = ids, attention_mask = mask, labels=lm_labels)
         loss = outputs[0]
         validate_losses.append(loss.item())
     return validate_losses
@@ -249,9 +251,6 @@ def T5Generator(validation_loader, model_params):
     tokenizer = T5Tokenizer.from_pretrained(path) #"valhalla/t5-base-e2e-qg")
     model = model.to(device)
 
-    PREDICTION_FILE = 'predictions.csv'
-    # PREDICTION_FILE = 'predictions_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
-
     # evaluating test dataset
     console.log(f"[Initiating Validation]...\n")
     for epoch in range(model_params["VAL_EPOCHS"]):
@@ -270,10 +269,13 @@ def T5Generator(validation_loader, model_params):
 
 if __name__ == '__main__':
     training =   pd.read_csv('./data/processed_train_rest.csv')
-    validation = pd.read_csv('./data/val.csv')#.iloc[:277, :] #############################
+    # validation = pd.read_csv('./data/val.csv')#.iloc[:277, :] #############################
+    validation = pd.read_csv('./data/processed_val_rest.csv')#.iloc[:277, :] #############################
     test =       pd.read_csv('./data/processed_test_rest.csv')
-    # test = pd.read_csv('./data/processed_val_rest.csv')
-    
+    # training =   pd.read_csv('./data/processed_train_mams.csv')
+    # validation = pd.read_csv('./data/processed_val_mams.csv')#.iloc[:277, :] #############################
+    # test =       pd.read_csv('./data/processed_test_mams.csv')
+
     model_params={
         "OUTPUT_PATH": "./models/combined", # output path
         "MODEL": "t5-base", # model_type: t5-base/t5-large

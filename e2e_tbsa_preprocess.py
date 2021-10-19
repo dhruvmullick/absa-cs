@@ -79,22 +79,21 @@ def transform_line_for_sentiment_extraction(line):
     generated_aspects_sentiments = get_sentiment(generated_polarities)
     true_aspects_sentiments = get_sentiment(true_polarities)
 
-    generated_sentiment_idx_list = list(set(get_sentence_matched_with_targets_and_sentiments(generated_aspects_targets,
+    generated_sentiment_idx_list = get_sentence_matched_with_targets_and_sentiments(generated_aspects_targets,
                                                                                     generated_aspects_sentiments,
-                                                                                    real_sentence)))
-
-    # Not using set for true sentiment index
-    true_sentiment_idx_list = get_sentence_matched_with_targets_and_sentiments(true_aspects_targets,
-                                                                            true_aspects_sentiments, real_sentence)
-
+                                                                                    real_sentence)
     generated_sentiment_idx_list.sort()
-    true_sentiment_idx_list.sort()
+    generated_sentiment_idx_list_deduped = list(set(generated_sentiment_idx_list))
+    # if len(generated_sentiment_idx_list_deduped) != len(generated_sentiment_idx_list):
+    #     print("Here")
 
-    return generated_sentiment_idx_list, true_sentiment_idx_list
+    true_sentiment_idx_list = get_sentence_matched_with_targets_and_sentiments(true_aspects_targets,
+                                                                               true_aspects_sentiments, real_sentence)
+
+    return generated_sentiment_idx_list_deduped, true_sentiment_idx_list
 
 
 def transform_gold_and_truth():
-    ct = 0
     with open(PREDICTIONS_FILE, 'r') as csvfile:
         with open(TRANSFORMED_TARGETS_PREDICTIONS_FILE, 'w') as newfile_targets:
             with open(TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE, 'w') as newfile_sentiments:
@@ -105,9 +104,6 @@ def transform_gold_and_truth():
                 writer_sentiments = csv.writer(newfile_sentiments)
                 writer_sentiments.writerow(["Predicted sentiment tags", "Gold sentiment tags"])
                 for line in reader:
-                    ct += 1
-                    # if ct == 86:
-                        # print("HERE")
                     pred_transformed, gold_transformed = transform_line_for_target_extraction(line)
                     writer_targets.writerow([pred_transformed, gold_transformed])
                     pred_sentiment_transformed, gold_sentiment_transformed = transform_line_for_sentiment_extraction(

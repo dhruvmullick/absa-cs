@@ -38,8 +38,6 @@ def evaluate_ote(gold_ot, pred_ot):
         n_tp_ot += n_hit_ot
         n_gold_ot += len(g_ot_sequence)
         n_pred_ot += len(p_ot_sequence)
-        if n_hit_ot != len(g_ot_sequence):
-            print("Here")
     # add 0.001 for smoothing
     # calculate precision, recall and f1 for ote task
     ot_precision = float(n_tp_ot) / float(n_pred_ot + SMALL_POSITIVE_CONST)
