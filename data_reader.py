@@ -34,7 +34,7 @@ def parse_semeval_xml(root):
     return data
 
 
-def parse_semeval_laptops14_xml(root):
+def parse_semeval_14_xml(root):
     data = []
     for i, child in enumerate(root):
         review_id = i
@@ -66,12 +66,12 @@ def parse_semeval_laptops14_xml(root):
     return data
 
 
-def load_semeval():
-    xml_train = open('data/semeval/training/ABSA16_Restaurants_Train_SB1_v2.xml', 'r').read()  # Read file
+def load_semeval(train_file, test_file):
+    xml_train = open(train_file, 'r').read()  # Read file
     train = parse_semeval_xml(root=ET.XML(xml_train))
     train['sentences_opinions'] = train['sentences_opinions'].map(opinions_to_decoder_format)
 
-    xml_test = open('data/semeval/test/EN_REST_SB1_TEST.xml.gold', 'r').read()  # Read file
+    xml_test = open(test_file, 'r').read()  # Read file
     test = parse_semeval_xml(root=ET.XML(xml_test))
     test['sentences_opinions'] = test['sentences_opinions'].map(opinions_to_decoder_format)
 
@@ -83,13 +83,13 @@ def load_semeval():
     return train, test
 
 
-def load_semeval_laptops14():
-    xml_train = open('data/semeval-2014/Laptops_Train.xml', 'r').read()  # Read file
-    train = parse_semeval_laptops14_xml(root=ET.XML(xml_train))
+def load_semeval_14(train, test):
+    xml_train = open(train, 'r').read()  # Read file
+    train = parse_semeval_14_xml(root=ET.XML(xml_train))
     train['sentences_opinions'] = train['sentences_opinions'].map(opinions_to_decoder_format)
 
-    xml_test = open('data/semeval-2014/Laptops_Test_Gold.xml', 'r').read()  # Read file
-    test = parse_semeval_laptops14_xml(root=ET.XML(xml_test))
+    xml_test = open(test, 'r').read()  # Read file
+    test = parse_semeval_14_xml(root=ET.XML(xml_test))
     test['sentences_opinions'] = test['sentences_opinions'].map(opinions_to_decoder_format)
 
     # Remove null aspects
@@ -134,7 +134,7 @@ def opinions_to_decoder_format(opinions_list):
 if __name__ == '__main__':
 
     # Semeval Rest 2016
-    sem_train, sem_test = load_semeval()
+    sem_train, sem_test = load_semeval('data/semeval/training/ABSA16_Restaurants_Train_SB1_v2.xml', 'data/semeval/test/EN_REST_SB1_TEST.xml.gold')
 
     train = pd.concat([sem_train], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
     train, val = train_test_split(train, test_size=0.1, random_state=0)
@@ -158,7 +158,7 @@ if __name__ == '__main__':
     test.to_csv('data/processed_test_mams.csv', header=True, index=False)
 
     # Semeval Laptop 2014
-    sem_train, sem_test = load_semeval_laptops14()
+    sem_train, sem_test = load_semeval_14('data/semeval-2014/Laptops_Train.xml', 'data/semeval-2014/Laptops_Test_Gold.xml')
 
     train = pd.concat([sem_train], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
     train, val = train_test_split(train, test_size=0.1, random_state=0)
@@ -168,5 +168,30 @@ if __name__ == '__main__':
     train.to_csv('data/processed_train_laptop_14.csv', header=True, index=False)
     val.to_csv('data/processed_val_laptop_14.csv', header=True, index=False)
     test.to_csv('data/processed_test_laptop_14.csv', header=True, index=False)
+
+    # Semeval Rest 2014
+    sem_train, sem_test = load_semeval_14('data/semeval-2014/Restaurants_Train.xml',
+                                          'data/semeval-2014/Restaurants_Test_Gold.xml')
+
+    train = pd.concat([sem_train], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
+    train, val = train_test_split(train, test_size=0.1, random_state=0)
+    test = pd.concat([sem_test], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
+    test = test[test['sentences_opinions'] != '']
+
+    train.to_csv('data/processed_train_rest_14.csv', header=True, index=False)
+    val.to_csv('data/processed_val_rest_14.csv', header=True, index=False)
+    test.to_csv('data/processed_test_rest_14.csv', header=True, index=False)
+
+    # Semeval Rest 2015
+    sem_train, sem_test = load_semeval('data/semeval-2015/ABSA-15_Restaurants_Train_Final.xml', 'data/semeval-2015/ABSA15_Restaurants_Test.xml')
+
+    train = pd.concat([sem_train], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
+    train, val = train_test_split(train, test_size=0.1, random_state=0)
+    test = pd.concat([sem_test], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
+    test = test[test['sentences_opinions'] != '']
+
+    train.to_csv('data/processed_train_rest_15.csv', header=True, index=False)
+    val.to_csv('data/processed_val_rest_15.csv', header=True, index=False)
+    test.to_csv('data/processed_test_rest_15.csv', header=True, index=False)
 
     print('saved..')
