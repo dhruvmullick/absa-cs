@@ -1,0 +1,141 @@
+review_id,sentences_ids,sentences_texts,sentences_opinions
+es_bal-donsera-zaragoza_comment-3237,id_11,"Si usted ha ido a muchos restaurantes con estrella Michelín verá que el único momento que te molestan es cuando te enuncian los platos a la hora de servirlos.Por supuesto si les preguntas y les das pie entonces te responden.Pero a lo que vamos, se trata de que los comensales disfruten de su velada, tanto por el ambiente, como por la comida.",
+es_9reinas_24_PilarTorresCarbajo_2013-12-22,id_1,La comida está deliciosa y es de calidad.,comida positive
+es_salamanca_4_RogerReverterBarreraReverterBarrera_2015-08-17,id_2,<->calidad de un bar de barrio humilde al precio de un restaurant de estrella Michelin,
+es_barceloneta_144_Sergio_2006-10-30,id_4,"Destacar los arroces, la caldereta de bogavante, las zamburiñas al horno y los platos de ""picoteo"" y los pescados en general.","arroces positive <sep> caldereta de bogavante positive <sep> zamburiñas al horno positive <sep> platos de ""picoteo positive <sep> pescados positive"
+es_9reinas_67_Anonimo_2011-05-02,id_3,"Es una pena que inviertiendo exitosamente en lo complicado (local, materia prima, imagen, sitio web) se pase por alto lo básico: un par de camareros díscolos que hagan rebajar la nota de un cliente de un excelente a un notable alto.",local positive <sep> materia prima positive <sep> camareros negative <sep> imagen positive <sep> sitio web positive
+es_puerto-de-santa-maria-zaragoza_comment-1604,id_5,No puedo aportar nada más de lo que ya he podido leer por aquí.,
+es_bodega-de-chema-la-zaragoza_comment-4344,id_1,La comida fue excelente y el servicio inmejorable.,comida positive <sep> servicio positive
+es_la-despensa_comment-1152,id_2,"SIN ENTRAR A VALORAR LOS BOSTEZOS DE LA CAMARERA , las discusiones entre cocina y barra y los tratos con repartidores y representantes sin respetar la presencia de “solo” dos clientes en barra.Ademas deben estar contentos de cobrar entre 3,5 y 5,5 euros por pincho , pero distan mucho de hacer cocina en miniatura buena.",CAMARERA negative <sep> discusiones negative <sep> cocina negative <sep> tratos negative
+es_q-art-zaragoza_comment-107,id_1,"¿Alguien ha estado?, en cuyo caso […]",
+es_casa-pelentos-sandinies-comer-en-formigal_comment-3915,id_0,"Anoche cenamos en Casa Pelentós de Sandiniés, donde ya lo hicimos en otra ocasión con mayor fortuna, y es por ello que quisimos repetir.",
+es_cafe_kafka_58_AlejandroGomez_2011-06-07,id_3,"Agradable para tomar copas, cockteles y un vinito.",copas positive <sep> cockteles positive <sep> vinito positive
+es_l_olive_85_Jordi_2007-01-17,id_0,Justito.,
+es_luis-candelas-zaragoza_comment-4726,id_0,Escriba aquí su comentario…,
+es_bal-donsera-zaragoza_comment-3636,id_14,100% garnacha.Onoro vera.,
+es_bal-donsera-zaragoza_comment-1413,id_18,"El vino con que acompañamos la comida fue un Atteca de Calatayud, recomendación de la casa, excelente.",Atteca de Calatayud positive
+es_luis-candelas-zaragoza_comment-4502,id_4,En todo caso fue una buena vuelta a la rutina y al comienzo de curso.,
+es_9reinas_3_OliviaPotet_2015-01-15,id_0,resaturante fantástico con excelente comida y servicio aun mejor!!!!,resaturante positive <sep> comida positive <sep> servicio positive
+es_balmes_rossello_11_JeniferEspinosa_2015-02-23,id_2,La salsa estaba muy buena también.,salsa positive
+es_barceloneta_149_Rosa_2006-07-22,id_3,Mesa interior sin vistas.,Mesa negative
+es_matilde-la-zaragoza_comment-1564,id_10,"Y no solo es la gran variedad de vinos de mesa ( tinto, blanco o cava ) si no que tiene una aun mas amplia variedad de vinos de otros tipos  ( olorosos , amontillados, PX , oportos, …) sin olvidar los coñac y otros licores incluyendo su carta de puros.",vinos positive
+es_la-despensa_comment-1887,id_2,"nos sorprendio los precios tan altos, 3,5€ una croqueta.",croqueta negative
+es_cullera_de_boix_38_Anonimo_2013-05-31,id_5,Excelente ubicación e iluminación.,ubicación positive <sep> iluminación positive
+es_mas-torres-zaragoza_comment-4464,id_2,"De primero teníamos una ensalada rosa, que estaba muy bien para compartir, para comer luego una guindillas (algunas picaban) y posteriormente huevos con foie.",ensalada rosa positive
+es_bal-donsera-zaragoza_comment-3493,id_6,"- Carpaccio de bonito: Seria bonito, no lo discuto, pero no me supo a nada, totalmente insipido, tambien tenia remolacha, igual de insipida, y un helado de, creo recordar que de mango, que si tenia algun sabor.",Carpaccio de bonito negative <sep> remolacha negative
+es_bal-donsera-zaragoza_comment-1054,id_3,"comenzamos con un foie frio en crujientes de manzana, escaso , resultaria demasiado, (de verguenza) llevaria 30 grs de foie, lo demas correcto; huevo poche con bogavante y trigueros, correcto, cantidad suficiente, pero como toda la comida, plana,insulsa, sin sabores.presa iberica, racion justita, pero sabrosa, como he comentado antes todo soso (somos personas que nunca nos añadimos sal a las comidas en todos estos restaurante) merluza, una racion impresionante, tanto en tamaño como en punto de coccion, sosa tambien, pero recomendable.",foie frio en crujientes de manzana negative <sep> huevo poche con bogavante y trigueros neutral <sep> merluza positive <sep> presa iberica neutral
+es_l_olive_12_MaiteRafolsSole_2013-12-27,id_1,Extremadamente caro por el tipo de cocina.,cocina negative
+es_bal-donsera-zaragoza_comment-3435,id_1,"Sinceramente, me parecen alucinantes algunos comentarios negativos sobre este restaurante.",
+es_l_olive_45_LuciaGomezValenzuela_2010-09-18,id_0,Muy buena calidad de alimentos y muy bien cocinados.,alimentos positive
+es_bodega-de-chema-la-zaragoza_comment-4292,id_0,La comida la verdad muy buena pero la oferta q sale aqui luego no es la mismo de alli me salio  5€ mas caro por pers el menu.por lo demas bastante bien,comida positive <sep> oferta negative
+es_l_olive_71_Joan_2008-07-30,id_6,Debe mejorar muy mucho su carta de vinos.,carta de vinos negative
+es_puerto-de-santa-maria-zaragoza_comment-3168,id_1,gracias a los clientes la verdad soy vosotros que nos dejaies preparar las cosas con todo nuestro cariño y amor para para que cuando acabe de comer nos diga esta todo excelente y eso es lo que nos deja querer mas a la cocina y seguir con nuevas ideasgracias y saludos,
+es_puerto-de-santa-maria-zaragoza_comment-159,id_0,Señores: Hay varios errores en la descripción que aqui hacen.,
+es_cafe_casa_lletres_28_FranciscoPetrone_2014-03-13,id_1,"El ambiente es unico, el servicio muy atento y la comida un 10.",ambiente positive <sep> servicio positive <sep> comida positive
+es_bal-donsera-zaragoza_comment-3636,id_11,Degustación de vinos:Veraton.,
+es_cafe_casa_lletres_25_ArturMirabetGea_2014-03-24,id_1,El ambiente es agradable y el servicio rápido y amable.,ambiente positive <sep> servicio positive
+es_salamanca_10_Sebastia_2015-01-24,id_4,"Paella coloreada bañada de aceite, gamba immunda.",Paella negative <sep> gamba negative
+es_bal-donsera-zaragoza_comment-3237,id_31,Te has confundido de sitio.,
+es_bodega-de-chema-la-zaragoza_comment-4783,id_3,Comida exquisita.,Comida positive
+es_balmes_rossello_59_Francisco_2014-01-26,id_0,Muy buena comida y servicio rapido,comida positive <sep> servicio positive
+es_bal-donsera-zaragoza_comment-2215,id_2,"Por otro lado me alegro de coincidir con usted en los gustos, no tanto de que ambos saliéramos decepcionados de este restaurante, porque supongo que a usted, igual que a mi, nos hubiera gustado salir contentísimos del Bal d’Onsera, recomendarlo por doquier y no tener la sensación de haber perdido tiempo y dinero, al menos yo.",restaurante negative
+es_barceloneta_140_Santi_2006-12-29,id_1,"Como ya he leído en algún comentario, de los pocos sitios donde se paga lo que se come, y se come bien, muy bien.",lo que se come positive
+es_cafe_casa_lletres_37_Maria_2013-12-15,id_2,"Mi marido le empezo a leer nuestros datos, donde efectivamente aparecia la hora clarisima.",
+es_bal-donsera-zaragoza_comment-2197,id_0,"Anonadado me hallo, ¿y cómo has llegado a tales conclusiones?, porque no utilizo las mayúsculas en un gentilicio?.",
+es_cafe-meccano-gastrobar-zaragoza_comment-4825,id_2,"El maître nos recomendó dos vinos, un tinto y un blanco, que resultaron un acierto.",vinos positive
+es_matilde-la-zaragoza_comment-4296,id_8,Y poner “piedras” de esas q venden en tiendas turísticas como acompañamiento al café… ¡¡no tiene nombre!!,… negative
+es_colette-zaragoza_comment-3062,id_2,Elegí el más caro y reservé.,
+es_colette-zaragoza_comment-1142,id_1,¡Excelente cena!,cena positive
+es_barceloneta_107_Pedro_2009-07-29,id_4,"Platos mal presentados, sobrevolando las cabezas de los comensales.",Platos negative
+es_l_olive_18_Igor_2012-10-08,id_1,La comida es deliciosa y las cantidades son más que aceptables.,comida positive <sep> cantidades positive
+es_bal-donsera-zaragoza_comment-2212,id_6,P.S.,
+es_maur_muntaner_25_GenovevaQuerejeta_2013-02-12,id_0,"Buen ambiente, la comida genial, bien situado.",ambiente positive <sep> comida positive <sep> bien situado positive
+es_aragonia-palafox-zaragoza_comment-4199,id_4,"Comimos un menú que era 25 euros, pero con suplemento para algunos platos.",
+es_maur_muntaner_9_OctavioRosesBruix_2014-03-16,id_0,Tengo cariño fundado por este restaurante.,restaurante positive
+es_matilde-la-zaragoza_comment-4509,id_3,"El esfuerzo que hacen (y que tienen que hacer) restaurantes de este nivel de adaptarse a los tiempos y ofrecer menús cerrados a un precio asequible, no siempre es reconocido.",
+es_kupela-la-sidreria-zaragoza_comment-4547,id_1,Lo he visitado en varias ocasiones y he de destacar la excelente calidad de la materia prima y el saber hacer en la cocina.,materia prima positive
+es_cafe_kafka_0_Andrea_2015-09-02,id_0,El servicio fue excelente y la comida estaba genial.,servicio positive <sep> comida positive
+es_salamanca_29_FrancescVila_2014-04-28,id_2,Caótico!!,Caótico negative
+es_balmes_rossello_80_FranGarciaCastro_2013-02-05,id_0,Fuimos 2 personas a tomar el menú de calçotada y la verdad es que el servicio fue bueno y la comida también.,servicio positive <sep> comida positive
+es_bal-donsera-zaragoza_comment-2212,id_7,"A mí me decepcionó también el restaurante, y lo que es peor, nos sirvieron un mero casi crudo que no había sido congelado previamente, incumpliendo de forma consciente la norma vigente al respecto (el propietario y cocinero se mostró especialmente “orgulloso” de no congelar los pescados).",restaurante negative <sep> mero negative <sep> propietario negative <sep> cocinero negative
+es_mas-torres-zaragoza_comment-4299,id_6,Hay muchisimos menus del dia en Zaragoza que no tienen comparacion con este.,
+es_bal-donsera-zaragoza_comment-1413,id_13,"La merluza bien de punto, aunque un poco sosa, dio paso a lo que para mí fue la sorpresa del día, un trocito de chuletón exquisito de sabor y en su justo punto de cocción que me dejó con ganas de más.Los postres aprobado justito, el primero alrededor del vino tinto, con un sorbete para mí demasiado dominado por la canela y con una espuma de vino de nuevo demasiado consistente.",merluza neutral <sep> chuletón positive <sep> postres negative <sep> sorbete negative <sep> espuma de vino negative
+es_l_olive_42_Manuel_2010-11-13,id_0,"La calidad de la comida no  corresponde al precio, además las mesas estan demasiado juntas y oyes sin quere todas las conversaciones de alrededor.",comida negative <sep> mesas negative
+es_cafe_casa_lletres_7_JoseLuisAlvarezPerez_2015-02-16,id_1,"El menú sanvalentín, genial, buenísimo, variado, y con comida de gran calidad, estaba buenísimo.",menú sanvalentín positive <sep> comida positive
+es_bal-donsera-zaragoza_comment-2240,id_4,"Tan solo recuerdo una sosísima y poco fresca merluza.Cuando vas a un lugar de estos esperas todo y tal vez te vuelvas menos permisivo que con otros, pero aun con esto no merece la pena el restaurante.",merluza negative <sep> restaurante negative
+es_puerto-de-santa-maria-zaragoza_comment-159,id_3,"UN TROCITO DE CÁDIZ, EN EL CORAZÓN DE ZARAGOZA¡¡",
+es_cafe_kafka_58_AlejandroGomez_2011-06-07,id_0,Un lugar que te hace sentir como en casa.,lugar positive
+es_maur_muntaner_37_Anna_2011-11-29,id_2,Un 10 en comida mediterranea!,comida mediterranea positive
+es_la_poma_14_TomeuDuran_2014-09-29,id_3,el servicio muy profesional con la cocina a la vista y donde el chef se tapa la boca con una mascarilla(muy higiénico) .,servicio positive <sep> chef positive
+es_la-scala-zaragoza_comment-2259,id_7,Sin duda es un sitio que recomiendo.,sitio positive
+es_bal-donsera-zaragoza_comment-2191,id_4,"Quiero pensar que usted no es Aragonés cuando compara el cava de Aragón con el tintorro (que no se muy bien con que acepción lo dice, pero parece despreciativa).",
+es_barceloneta_109_Miguel_2009-06-11,id_2,"una o dos pp; de segundo bacalao a la llauna diminuto con ""secas"" de lata / carne con patatas fritas fast food.",bacalao negative <sep> carne con patatas fritas negative
+es_kupela-la-sidreria-zaragoza_comment-4547,id_5,Mireya,
+es_l_olive_23_Sandra_2011-11-23,id_2,me parecio de muy mal gusto puesto que que jamas he tenido ese problema en Barcelona y esto ha repercutido en mi valoracion al restaurante.,
+es_salamanca_4_RogerReverterBarreraReverterBarrera_2015-08-17,id_3,<+>el servicio,
+es_colette-zaragoza_comment-3062,id_7,El postre… 2 pastelitos de los pequeños de cualquier pastelería por persona.,
+es_colette-zaragoza_comment-1142,id_8,- Jarrete a baja temperatura con salsa caramelizada y puré trufado.,
+es_cullera_de_boix_38_Anonimo_2013-05-31,id_4,"Si la comida tuviese sabor, lo demás da igual.",comida negative
+es_balmes_rossello_16_AlbertAlonso_2015-02-17,id_9,"Ambiente - 9 ( bueno para comer una calsotada en pareja y tranquilo, que fue el caso)",Ambiente positive
+es_9reinas_68_EstefaniaMartinezCumplido_2011-03-24,id_0,"Fue una cena perfecta, por el lugar y sobre todo por la comida.",lugar positive <sep> comida positive
+es_la-scala-zaragoza_comment-1206,id_5,"El servicio más pendiente de una cena de empresa, por tanto no fue bueno el servicio.",servicio negative
+es_barceloneta_118_Olga_2008-12-01,id_0,Comida excelente asi como su el servicio de camarero.,Comida positive <sep> camarero positive
+es_barceloneta_101_Marc_2010-09-16,id_2,Las gambas fresquísimas.,gambas positive
+es_balmes_rossello_13_DaraGonzalezBonilla_2015-02-22,id_0,"Interior genial, comida de calidad.",Interior positive <sep> comida positive
+es_la-scala-zaragoza_comment-3622,id_0,"Estuvimos hace poco mi pareja y yo comiendo y resultó todo muy bien, tanto la comida, el vino, el trato, la  decoración… nos gustó todo mucho.",comida positive <sep> vino positive <sep> trato positive <sep> decoración positive
+es_la_poma_14_TomeuDuran_2014-09-29,id_0,Perfecto restaurante.,restaurante positive
+es_barceloneta_150_Juan_2006-07-04,id_0,"restaurante de lujo autentico, con un pianista muy ameno que te hace pasar una cena romantica especialmente si vas acompañado de alguien especial.",restaurante positive <sep> pianista positive
+es_barceloneta_13_AntonioSerranoPueyo_2014-11-21,id_6,Somontano.,
+es_la-scala-zaragoza_comment-1138,id_2,las dos veces precio normal para estos sitios.,sitios positive
+es_barceloneta_118_Olga_2008-12-01,id_2,"En cuanto a la carta, el tartar de lubina, supremo así como sus postres.",tartar de lubina positive <sep> postres positive
+es_9reinas_67_Anonimo_2011-05-02,id_2,"Como salvedad, diré que, a excepción del jefe de sala (o propietario, cosa que desconozco), atento, educado y detallista, el resto del servicio, pinganillos inalámbricos incluidos, no está a la altura del resto, más en lo que respecta a educación y formas que a la capacidad: habría que cuidar aspectos como retirar casi a la carrera platos sin terminar, tutear por defecto u ofrecer el silencio como toda respuesta a la duda del comensal en la elección entre dos opciones.",jefe de sala positive <sep> resto del servicio negative
+es_hosteria-botin-del-corregidor-zaragoza_comment-1117,id_1,Dices que por ese precio hay que comer bien.,
+es_cullera_de_boix_10_EsteveVidalSelga_2015-01-05,id_0,La comida muy buena y muy buen trato.,comida positive <sep> trato positive
+es_cafe-meccano-gastrobar-zaragoza_comment-3407,id_5,Sí pero en plan Bailar,
+es_bal-donsera-zaragoza_comment-3636,id_17,Vino blanco de la tierra (Ayerbe).,
+es_colette-zaragoza_comment-1142,id_12,- Pichón.,
+es_cullera_de_boix_43_Anonimo_2013-04-24,id_1,No fué así.,
+es_colette-zaragoza_comment-2670,id_3,yo doy fe de que él no sabia nada de nada.,
+es_colette-zaragoza_comment-1142,id_9,Extraordinario sabor y textura.,sabor positive <sep> textura positive
+es_la-scala-zaragoza_comment-717,id_8,"Creo que un restaurante que presenta un estilo moderno, minimalista y bastante snob no puede presentar así un plato, pero claro la salsa y la presentación a primera vista todo lo tapa.",estilo positive <sep> plato negative
+es_barceloneta_31_RamonCanoProus_2013-09-06,id_4,Zumo naranja 6€ me parece un poco exagerado.,Zumo naranja negative
+es_l_olive_88_Annna_2006-11-06,id_0,Me habian recomendado este restaurante y la verdad es que valia la pena probar.,restaurante positive
+es_bal-donsera-zaragoza_comment-3636,id_15,Vino tinto de la D.O de Calatayud.,
+es_bal-donsera-zaragoza_comment-3237,id_12,Y el sercicio?,
+es_9reinas_73_Enrique_2011-01-23,id_5,"Si no bajan la guardia, es posible que trabajen.",
+es_la-scala-zaragoza_comment-2111,id_3,La comida estuvo bien en su punto y bien presentada.,comida positive
+es_bal-donsera-zaragoza_comment-2240,id_0,"Pocas veces coincide la opinión de uno mismo con la de otros “criticos gastronómicos”, pero pocas veces he podido estar más de acuerdo que con la de D. José Aranda:Mi mujer y yo fuimos el pasado 25 de mayo (martes)a celebrar algo especial a este restaurante y salimos decepcionados.",restaurante negative
+es_cafe_kafka_5_JoanaGonzalezFuentes_2015-02-02,id_2,El changet era salmuera.,changet negative
+es_cafe_kafka_4_NuriaMestresValera_2015-02-24,id_0,Ambiente cálido y agradable.,Ambiente positive
+es_barceloneta_8_AntonioSerranoPueyo_2015-05-30,id_2,"Productos de calidad óptima, elaborados magníficamente.",Productos positive
+es_doble-uno-zaragoza_comment-4729,id_0,"La carta tiene platos muy apetecibles, es difícil decidirse y el trato es correcto.",carta positive <sep> trato positive
+es_la_poma_9_AnnaAsoJaca_2014-12-15,id_6,El local estaba lleno de turistas.,local negative
+es_9reinas_47_SandraMonica_2012-08-15,id_1,"La tira de asado normal, nada extraordinaria.",tira de asado neutral
+es_bal-donsera-zaragoza_comment-2191,id_0,"Me alegra mucho que no le haya gustado la crónica, ni algunas otras.",
+es_barceloneta_37_JaumeMunozGonzalez_2013-07-01,id_0,"El servicio y el local es muy aceptable,pero la relación calidad precio esta descompensada.se le tendría que explicar al cocinero,que el pulpo no se calienta en el microondas y menos si se le pone el pimentón y el aceite ya que se quema y reseca.",servicio positive <sep> local positive <sep> pulpo negative
+es_luis-candelas-zaragoza_comment-4272,id_0,La cena estuvo muy bien.,cena positive
+es_l_olive_0_AntonioSerranoPueyo_2015-06-01,id_6,"Para beber: un vino que recomienda la casa, el Viña Salceda Reserva 2010 D.O.C.",
+es_9reinas_61_JoseLuis_2011-07-09,id_0,"ambiente íntimo y tranquilo, buen trato y buena calidad en las carnes.",ambiente positive <sep> trato positive <sep> carnes positive
+es_puerto-de-santa-maria-zaragoza_comment-100,id_4,"Probamos el jamón, los langostinos y el rodaballo, y aún se me hace la boca agua la recordarlo.",jamón positive <sep> langostinos positive <sep> rodaballo positive
+es_mas-torres-zaragoza_comment-4299,id_0,estuve entre semana y elegi un menu diario ejecutivo.,
+es_cullera_de_boix_2_Yolanda_2015-08-19,id_4,<+>entrantes pasables -normal de sabor,entrantes neutral
+es_mas-torres-zaragoza_comment-4464,id_3,"Y ya de plato principal comimos bacalao con ali-oli, que no me lo pude terminar, porque estaba llenísimo.",
+es_wok-aragonia-dinasty-zaragoza_comment-2372,id_10,Quería hablar de la iluminación del local.,iluminación neutral
+es_9reinas_64_Anonimo_2011-05-14,id_1,Llegaba un momento en que apetecía irse por el ruido.,ruido negative
+es_bal-donsera-zaragoza_comment-2191,id_2,"Precisamente en este artículo he intentado explicar el porqué es posible valorar muy bien los platos, por ejemplo, sin ser incongruente con una valoración final negativa de mi visita, parece que no lo he logrado, incluso he puesto una sencilla fórmula, lineal para no liar más.",
+es_bal-donsera-zaragoza_comment-1413,id_15,Muy logrados los orejones y el sorbete.Otro punto negativo en el servicio fue que intente tomar un vino dulce y la respuesta fue decepcionante.,orejones positive <sep> sorbete positive <sep> servicio negative
+es_comer-balneario-paracuellos-jiloca_comment-1424,id_0,Nosotros también pasamos un par de noches en el Balneario con circuito y pensión completa y desde luego los menús dejaron bastante que desear.,menús negative
+es_luis-candelas-zaragoza_comment-4272,id_7,Hay vinos jóvenes muy buenos de Cariñena por menos de 2 € la botella.,vinos positive
+es_barceloneta_65_JavierFarreDomingo_2012-03-04,id_0,"Buen servicio, con mucha paciencia y siempre presentes.",servicio positive
+es_bal-donsera-zaragoza_comment-3636,id_18,Viognier.Cava Brut Reserva Marqués de Gelida.,
+es_cullera_de_boix_100_BlancIBlau_2010-11-15,id_0,"Servicio amable y correcto, algo lento la cocina, tal vez habia una gran ocupación.",Servicio positive <sep> cocina negative
+es_9reinas_47_SandraMonica_2012-08-15,id_2,Muy bien los postres y el matambre.,postres positive <sep> matambre positive
+es_la-scala-zaragoza_comment-3544,id_3,"Creo que es un sitio donde es dificil que algo salga mal, de estos sitios, que siempre aciertas.",sitio positive
+es_matilde-la-zaragoza_comment-4296,id_7,Uy!,
+es_la-scala-zaragoza_comment-1138,id_3,Jose Miguel.,
+es_puerto-de-santa-maria-zaragoza_comment-4350,id_7,"En fin, yo no volveré.","En fin, yo no volveré negative"
+es_barceloneta_25_JoseOrtego_2013-10-27,id_2,La localizacion es muy buena.,localizacion positive
+es_balmes_rossello_40_LuciaRodriguezGarcia_2014-03-17,id_2,Éramos una familia celebrando cumpleaños.,
+es_maur_muntaner_2_MiriamMiguelezDominguez_2015-03-22,id_2,Nos invitaron a una jarra de sangria.,
+es_l_olive_26_ManuelRodriguez_2011-10-03,id_0,De por si ya habiamos estado en rt L`olivé desde cuando estaba en la C/ Muntaner.,
+es_barceloneta_31_RamonCanoProus_2013-09-06,id_1,El servicio muy correcto tanto en atención como en educación.,servicio positive

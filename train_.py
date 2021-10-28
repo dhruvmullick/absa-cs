@@ -281,11 +281,15 @@ def T5Generator(validation_loader, model_params):
 
 if __name__ == '__main__':
 
-    domain = sys.argv[1]
-    language = sys.argv[2]
-    training_file = './data/processed_train_{}_{}.csv'.format(domain, language)
-    validation_file = './data/processed_val_{}_{}.csv'.format(domain, language)
-    test_file = './data/processed_test_{}_{}.csv'.format(domain, language)
+    train_domain = sys.argv[1]
+    train_language = sys.argv[2]
+    test_domain = sys.argv[3]
+    test_language = sys.argv[4]
+    training_file = './data/processed_train_{}_{}.csv'.format(train_domain, train_language)
+    validation_file = './data/processed_val_{}_{}.csv'.format(train_domain, train_language)
+    test_file = './data/processed_test_{}_{}.csv'.format(test_domain, test_language)
+
+    print("Experiment: Training on {}.{}, Testing on {}.{}".format(train_domain, train_language, test_domain, test_language))
 
     training = pd.read_csv(training_file)
     validation = pd.read_csv(validation_file)

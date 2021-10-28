@@ -1,0 +1,79 @@
+review_id,sentences_ids,sentences_texts,sentences_opinions
+624715,id_2,People are always friendly.,People positive
+513395,id_1,"Their bagels are fine, but they are a little overcooked, and not really a 'special' bagel experience.",bagels negative
+1430994,id_3,My boyfriend had the New England Chowder it was good but I think the award should go to the Lobster Bisque.,New England Chowder positive <sep> Lobster Bisque positive
+494850,id_3,The food now is inconsistent.,food negative
+1335656,id_4,Although we were looking for regular lettuce and some walnuts the salads we got were great.,salads positive
+1707741,id_3,Service was also very good.,Service positive
+1410878,id_1,I've never had bad service and the fish is fresh and delicious.,service positive <sep> fish positive
+1303888,id_0,All the staff is absolutely professional!!,staff positive
+519425,id_3,The waiter was attentive.,waiter positive
+493013,id_5,I will go back to Suan soon!,Suan positive
+615180,id_1,"The food was not fresh, the sauces were bland and very oily.",food negative <sep> sauces negative
+1719567,id_4,We waited at the bar and had martinis that were just right.,martinis positive
+1728733,id_1,We were greeted promptly by the waiter who was very nice and cordial.,waiter positive
+571962,id_1,Good food.,food positive
+1367358,id_2,"Pizza is terrific, as is homemade pasta.",Pizza positive <sep> homemade pasta positive
+1349391,id_1,"sometimes i get bad food and bad service, sometimes i get good good and bad service.",food negative <sep> service negative <sep> service negative <sep> good positive
+1147211,id_2,The waitress was very patient with us and the food is phenomenal!,waitress positive <sep> food positive
+1123262,id_1,"The seafood is amazing, there's a good wine list, and the ever-changing menu always offers some great surprises.",seafood positive <sep> wine list positive <sep> menu positive
+1175958,id_1,"Try the crunchy tuna, it is to die for.",crunchy tuna positive
+449802,id_0,"Good spreads, great beverage selections and bagels really tasty.",spreads positive <sep> beverage selections positive <sep> bagels positive
+1663111,id_2,"Excellent atmosphere, delicious dishes good and friendly service.",atmosphere positive <sep> dishes positive <sep> service positive
+1318537,id_4,Hats off to the chef.,chef positive
+1300636,id_4,"I highly recommend Cafe St. Bart's for their food, the ambience and wonderful service.",food positive <sep> ambience positive <sep> service positive
+1357554,id_4,It's a nice place to relax and have conversation.,place positive
+1212346,id_4,Tiny dessert was $8.00...just plain overpriced for what it is.,dessert negative
+511290,id_1,"But after last night, Spice Grill is the only place I'm eating indian cuisine.",indian cuisine positive
+455623,id_0,Love Pizza 33..,Pizza 33 positive
+1404042,id_1,Not one of our meals was edible - bland and/or made with weird rosemary or orange flavoring.,meals negative <sep> rosemary or orange flavoring negative
+1287538,id_3,The food is a diamond in rough -- the food is delicious and homemade with the perfect balance of herbs and tomatoes.,food positive <sep> balance of herbs and tomatoes positive
+1041457,id_4,I had never had Edamame pureed before but I thought it was innovative and tasty (could've used a bit more salt).,Edamame pureed positive
+512925,id_0,it's a perfect place to have a amanzing indian food.,indian food positive
+624715,id_0,This place is a great bargain.,place positive
+1457607,id_3,"The food however, is what one might expect.",food negative
+1603698,id_0,I have been to Roth's twice and both times were very disappointing.,Roth's negative
+1642666,id_0,We ate at this Thai place following the reviews but very unhappy with the foods.,foods negative
+1730447,id_3,"The crust is thin, the ingredients are fresh and the staff is friendly.",crust positive <sep> staff positive <sep> ingredients positive
+455623,id_1,I will be out with friends and all of a sudden I am hungry and I only crave one thing... their Pizza.,Pizza positive
+503807,id_2,The food was exceptional.,food positive
+490565,id_1,"The wait staff is pleasant, fun, and for the most part gorgeous (in the wonderful aesthetic beautification way, not in that she's-way-cuter-than-me-that-b@#$* way).",wait staff positive
+1706644,id_4,"We ate out in the back patio, which is worth it as it's cool and the music is hear well there.",back patio positive <sep> music positive
+558423,id_0,This place has the best Chinese style BBQ ribs in the city.,BBQ ribs positive
+680345,id_2,"Delicate spices, onions, eggs and a kick-ass roti.",spices positive <sep> onions positive <sep> eggs positive <sep> roti positive
+1700205,id_3,I highly recommend Caviar Russe to anyone who wants delicious top grade caviar and fantastic service.,caviar positive <sep> service positive
+1125006,id_3,My wife had the fried shrimp which are huge and loved it.,fried shrimp positive
+1632929,id_4,"When my dessert came, there was a candle in it - not because anyone asked for one - but because the waiter must have seen me opening my birthday card and gift, and said he knew it was a special occassion of some sort.",waiter positive
+1430994,id_1,The staff offers impeccable service.,staff positive
+1241906,id_0,"Great service, great food.",service positive <sep> food positive
+1655521,id_0,I loved this place!!,place positive
+507844,id_0,This place would be so much better served by being run by a group that actually understands customer service.,customer service negative
+1728733,id_6,I thanked my friend who recommended me this restaurant and will certainly recommend it to others.,restaurant positive
+1275154,id_6,The sake menu should not be overlooked!,sake menu positive
+565344,id_0,I recently tried Suan and I thought that it was great.,Suan positive
+720620,id_5,Simply some good tasting Chinese food at incredible prices...,Chinese food positive
+1430994,id_7,We didn't want a bottle of bubbly on a weekday so we each got little bottles of Korbett it was just enough.,bottles of Korbett positive
+1138996,id_2,"We were worried we would have trouble getting in, but somehow managed to have a short wait.",wait positive
+1448587,id_0,"With the exception of our lemon salad that had so much pepper on it that our eyes started watering, the food here was decent, not great.",food neutral <sep> lemon salad negative
+1138996,id_4,"When we sat, we got great and fast service.",service positive
+630914,id_0,The food was actually aweful.,food negative
+535086,id_3,Excellent spot for holiday get togethers with co-workers or friends that you haven't seen in a while.,spot positive
+1014458,id_1,Saul is the best restaurant on Smith Street and in Brooklyn.,Saul positive
+1707741,id_1,The buffet had a nice selection.,buffet positive
+1055910,id_3,Service- friendly and attentive.,Service positive
+1167434,id_5,"those rolls were big, but not good and sashimi wasn't fresh.",rolls neutral <sep> rolls negative <sep> sashimi negative
+626269,id_1,The best pad thai i've ever had.,pad thai positive
+535248,id_1,The shrimp scampi was excellent and the antipasti were plentiful.,shrimp scampi positive <sep> antipasti positive
+1706644,id_2,"I also ordered the Change Mojito, which was out of this world.",Change Mojito positive
+1730127,id_1,"The food is outstanding and the service is quick, friendly and very professional.",food positive <sep> service positive
+746254,id_4,"With so many good restaurants on the UWS, I don't need overpriced food, absurdly arrogant wait-staff who don't recognize they work at a glorified diner, clumsy service, and management that doesn't care.",food negative <sep> wait-staff negative <sep> service negative <sep> management negative
+444818,id_2,"Best Italian food I ever had (and being Italian, that means alot).",Italian food positive
+397331,id_0,Mizu is the Japenese find in Grammercy.,Mizu positive
+1162037,id_3,It's all about the food !!,food positive
+1341354,id_1,Enjoyed a very nice Caesar Salad while my wife had arugula and goat cheese....both very tasty.,Caesar Salad positive <sep> arugula and goat cheese positive
+1053543,id_4,We went around 9:30 on a Friday and it had died down a bit by then so the service was great!,service positive
+1476493,id_0,I thought this place was totally overrated.,place negative
+1338124,id_0,"This is some really good, inexpensive sushi.",sushi positive
+1014458,id_2,The duck confit is always amazing and the foie gras terrine with figs was out of this world.,foie gras terrine with figs positive <sep> duck confit positive
+454704,id_2,This place is not worth the prices.,place negative
+1448587,id_3,"The decor in this place is very diner-ish and the kind of place you expect in the East Village - not romantic, just simple, small and sparse.",decor neutral

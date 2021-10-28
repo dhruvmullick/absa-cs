@@ -4,6 +4,7 @@ import numpy as np
 import xml.etree.ElementTree as ET
 from sklearn.model_selection import train_test_split
 
+MAMS_SHORTENED_TEXT_LENGTH = 125
 
 def parse_semeval_xml(root):
     data = []
@@ -20,8 +21,8 @@ def parse_semeval_xml(root):
             if len(sentence.findall('Opinions')) > 1:
                 raise Exception("MORE THAN ONE OPINIONS")
             if len(sentence.findall('Opinions')) == 0:
-                print("Not exactly one opinion found for sentence id: {} for sentence: {}".format(str(sentence_id),
-                                                                                                  sentence_text))
+                # print("Not exactly one opinion found for sentence id: {} for sentence: {}".format(str(sentence_id),
+                #                                                                                   sentence_text))
                 continue
             opinions = []
             sentence_opinions = sentence.findall('Opinions')[0]
@@ -111,10 +112,12 @@ def load_semeval_14(train_file, test_file):
     return train_file, val_file, test_file
 
 
-def parse_MAMS_xml(root):
+def parse_MAMS_xml(root, shortened):
     data = []
     for i, child in enumerate(root):
         sentences_text = child.findall('text')[0].text.strip()
+        if shortened and (len(sentences_text) > MAMS_SHORTENED_TEXT_LENGTH):
+            continue
         sentences_opinions = [[aspect_term.attrib['term'] + ' ' + aspect_term.attrib['polarity'] for aspect_term in
                                aspect_terms.getchildren()]
                               for aspect_terms in child.findall('aspectTerms')]
@@ -124,17 +127,17 @@ def parse_MAMS_xml(root):
     return data
 
 
-def load_MAMS(train_file, val_file, test_file):
+def load_MAMS(train_file, val_file, test_file, shortened):
     xml_train = open(train_file, 'r').read()  # Read file
-    train = parse_MAMS_xml(root=ET.XML(xml_train))
+    train = parse_MAMS_xml(root=ET.XML(xml_train), shortened=shortened)
     train['sentences_opinions'] = train['sentences_opinions'].map(opinions_to_decoder_format)
 
     xml_val = open(val_file, 'r').read()  # Read file
-    val = parse_MAMS_xml(root=ET.XML(xml_val))
+    val = parse_MAMS_xml(root=ET.XML(xml_val), shortened=shortened)
     val['sentences_opinions'] = val['sentences_opinions'].map(opinions_to_decoder_format)
 
     xml_test = open(test_file, 'r').read()  # Read file
-    test = parse_MAMS_xml(root=ET.XML(xml_test))
+    test = parse_MAMS_xml(root=ET.XML(xml_test), shortened=shortened)
     test['sentences_opinions'] = test['sentences_opinions'].map(opinions_to_decoder_format)
 
     print('MAMS: ', train.shape, val.shape, test.shape)
@@ -152,6 +155,8 @@ load_dataset = {
                                       'test_file': 'data/semeval/test/ABSA16FR_Restaurants_Gold-withcontent.xml'}),
     ('Rest16', 'nl'): (load_semeval, {'train_file': 'data/semeval/training/restaurants_dutch_training.xml',
                                       'test_file': 'data/semeval/test/DU_REST_SB1_TEST.xml.gold'}),
+    ('Rest16', 'es'): (load_semeval, {'train_file': 'data/semeval/training/SemEval-2016ABSA Restaurants-Spanish_Train_Subtask1.xml',
+                                      'test_file': 'data/semeval/test/SP_REST_SB1_TEST.xml.gold'}),
     ('Rest15', 'en'): (load_semeval, {'train_file': 'data/semeval-2015/ABSA-15_Restaurants_Train_Final.xml',
                                       'test_file': 'data/semeval-2015/ABSA15_Restaurants_Test.xml'}),
     ('Rest14', 'en'): (load_semeval_14, {'train_file': 'data/semeval-2014/Restaurants_Train.xml',
@@ -159,11 +164,14 @@ load_dataset = {
     ('Lap14', 'en'): (load_semeval_14, {'train_file': 'data/semeval-2014/Laptops_Train.xml',
                                         'test_file': 'data/semeval-2014/Laptops_Test_Gold.xml'}),
     ('Mams', 'en'): (load_MAMS, {'train_file': 'data/MAMS_ATSA/train.xml', 'val_file': 'data/MAMS_ATSA/val.xml',
-                                 'test_file': 'data/MAMS_ATSA/test.xml'}),
+                                 'test_file': 'data/MAMS_ATSA/test.xml', 'shortened': False}),
+    ('Mams_short', 'en'): (load_MAMS, {'train_file': 'data/MAMS_ATSA/train.xml', 'val_file': 'data/MAMS_ATSA/val.xml',
+                                 'test_file': 'data/MAMS_ATSA/test.xml', 'shortened': True}),
 }
 
 
 def preprocess_dataset(domain, language):
+    print("Processing the dataset for {}.{}".format(domain, language))
     if not load_dataset.get((domain, language)):
         raise Exception("domain language combination not defined")
     method = load_dataset[(domain, language)][0]
@@ -183,8 +191,12 @@ if __name__ == '__main__':
     preprocess_dataset('Rest16', 'fr')
     # Semeval Rest 2016
     preprocess_dataset('Rest16', 'nl')
+    # Semeval Rest 2016
+    preprocess_dataset('Rest16', 'es')
     # MAMS
     preprocess_dataset('Mams', 'en')
+    # MAMS_Shortened
+    preprocess_dataset('Mams_short', 'en')
     # Semeval Laptop 2014
     preprocess_dataset('Lap14', 'en')
     # Semeval Rest 2014
