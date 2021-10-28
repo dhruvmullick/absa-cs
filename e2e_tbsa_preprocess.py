@@ -111,5 +111,6 @@ def transform_gold_and_truth(language):
                     writer_sentiments.writerow([pred_sentiment_transformed, gold_sentiment_transformed])
 
 
+# Pass argument as the language code - 'en', 'es', 'ru'
 transform_gold_and_truth(sys.argv[1])
 

@@ -5,6 +5,8 @@ import xml.etree.ElementTree as ET
 from sklearn.model_selection import train_test_split
 
 MAMS_SHORTENED_TEXT_LENGTH = 125
+#lowest possible training record count in the considered datasets.
+SAMPLED_RECORD_COUNT = 1023
 
 def parse_semeval_xml(root):
     data = []
@@ -179,6 +181,7 @@ def preprocess_dataset(domain, language):
     method = load_dataset[(domain, language)][0]
     args = load_dataset[(domain, language)][1]
     train, val, test = method(**args)
+    train = pd.concat([train], axis=0).sample(n=SAMPLED_RECORD_COUNT, random_state=0).reset_index(drop=True)
     test = pd.concat([test], axis=0).sample(frac=1, random_state=0).reset_index(drop=True)
     test = test[test['sentences_opinions'] != '']
     train.to_csv('data/processed_train_{}_{}.csv'.format(domain, language), header=True, index=False)
@@ -189,10 +192,10 @@ def preprocess_dataset(domain, language):
 if __name__ == '__main__':
     # Semeval Rest 2016
     preprocess_dataset('Rest16', 'en')
-    # Semeval Rest 2016
-    preprocess_dataset('Rest16', 'fr')
-    # Semeval Rest 2016
-    preprocess_dataset('Rest16', 'nl')
+    # # Semeval Rest 2016
+    # preprocess_dataset('Rest16', 'fr')
+    # # Semeval Rest 2016
+    # preprocess_dataset('Rest16', 'nl')
     # Semeval Rest 2016
     preprocess_dataset('Rest16', 'es')
     # Semeval Rest 2016
@@ -203,9 +206,9 @@ if __name__ == '__main__':
     preprocess_dataset('Mams_short', 'en')
     # Semeval Laptop 2014
     preprocess_dataset('Lap14', 'en')
-    # Semeval Rest 2014
-    preprocess_dataset('Rest14', 'en')
-    # Semeval Rest 2015
-    preprocess_dataset('Rest15', 'en')
+    # # Semeval Rest 2014
+    # preprocess_dataset('Rest14', 'en')
+    # # Semeval Rest 2015
+    # preprocess_dataset('Rest15', 'en')
 
     print('saved..')
