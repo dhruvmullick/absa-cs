@@ -157,6 +157,8 @@ load_dataset = {
                                       'test_file': 'data/semeval/test/DU_REST_SB1_TEST.xml.gold'}),
     ('Rest16', 'es'): (load_semeval, {'train_file': 'data/semeval/training/SemEval-2016ABSA Restaurants-Spanish_Train_Subtask1.xml',
                                       'test_file': 'data/semeval/test/SP_REST_SB1_TEST.xml.gold'}),
+    ('Rest16', 'ru'): (load_semeval, {'train_file': 'data/semeval/training/se16_ru_rest_train.xml',
+                                      'test_file': 'data/semeval/test/RU_REST_SB1_TEST.xml.gold'}),
     ('Rest15', 'en'): (load_semeval, {'train_file': 'data/semeval-2015/ABSA-15_Restaurants_Train_Final.xml',
                                       'test_file': 'data/semeval-2015/ABSA15_Restaurants_Test.xml'}),
     ('Rest14', 'en'): (load_semeval_14, {'train_file': 'data/semeval-2014/Restaurants_Train.xml',
@@ -193,6 +195,8 @@ if __name__ == '__main__':
     preprocess_dataset('Rest16', 'nl')
     # Semeval Rest 2016
     preprocess_dataset('Rest16', 'es')
+    # Semeval Rest 2016
+    preprocess_dataset('Rest16', 'ru')
     # MAMS
     preprocess_dataset('Mams', 'en')
     # MAMS_Shortened
