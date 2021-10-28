@@ -280,36 +280,16 @@ def T5Generator(validation_loader, model_params):
 
 
 if __name__ == '__main__':
-    #### Semeval Rest 16
-    # training =   pd.read_csv('./data/processed_train_rest.csv')
-    # # validation = pd.read_csv('./data/val.csv')#.iloc[:277, :] #############################
-    # validation = pd.read_csv('./data/processed_val_rest.csv')#.iloc[:277, :] #############################
-    # test =       pd.read_csv('./data/processed_test_rest.csv')
 
-    #### MAMS
-    # training =   pd.read_csv('./data/processed_train_mams.csv')
-    # validation = pd.read_csv('./data/processed_val_mams.csv')#.iloc[:277, :] #############################
-    # test =       pd.read_csv('./data/processed_test_mams.csv')
+    domain = sys.argv[1]
+    language = sys.argv[2]
+    training_file = './data/processed_train_{}_{}.csv'.format(domain, language)
+    validation_file = './data/processed_val_{}_{}.csv'.format(domain, language)
+    test_file = './data/processed_test_{}_{}.csv'.format(domain, language)
 
-    # #### Semeval Laptop 14
-    # training = pd.read_csv('./data/processed_train_laptop_14.csv')
-    # validation = pd.read_csv('./data/processed_val_laptop_14.csv')  # .iloc[:277, :] #############################
-    # test = pd.read_csv('./data/processed_test_laptop_14.csv')  # .iloc[:277, :] #############################
-
-    # #### Semeval Rest 14
-    # training = pd.read_csv('./data/processed_train_rest_14.csv')
-    # validation = pd.read_csv('./data/processed_val_rest_14.csv')  # .iloc[:277, :] #############################
-    # test = pd.read_csv('./data/processed_test_rest_14.csv')  # .iloc[:277, :] #############################
-
-    # #### Semeval Rest 15
-    # training = pd.read_csv('./data/processed_train_rest_15.csv')
-    # validation = pd.read_csv('./data/processed_val_rest_15.csv')  # .iloc[:277, :] #############################
-    # test = pd.read_csv('./data/processed_test_rest_15.csv')  # .iloc[:277, :] #############################
-
-    #### Cross
-    training = pd.read_csv('./data/processed_train_mams.csv')
-    validation = pd.read_csv('./data/processed_val_mams.csv')  # .iloc[:277, :] #############################
-    test = pd.read_csv('./data/processed_test_mams.csv')  # .iloc[:277, :] #############################
+    training = pd.read_csv(training_file)
+    validation = pd.read_csv(validation_file)
+    test = pd.read_csv(test_file)
 
     model_params = {
         "OUTPUT_PATH": "./models/combined",  # output path

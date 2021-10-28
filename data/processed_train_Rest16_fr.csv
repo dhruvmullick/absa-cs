@@ -1,0 +1,1003 @@
+review_id,sentences_ids,sentences_texts,sentences_opinions
+g187253-d1332190-r282285117,id_1,"Serveurs désagréables, vous etes pas du coin?",Serveurs negative
+g187147-d949737-r258138594,id_0,Par malchance je n'avais pas consulté les avis avant de décider de notre dîner dans ce restaurant quelle erreur !,restaurant negative
+g187147-d3215707-r208333865,id_0,Ambiance et cadre très sympa!,Ambiance positive <sep> cadre positive
+g187147-d4469705-r220591154,id_4,"J'oubliais : si vous trouvez votre cheeseburger à 14,50€ trop sec, on vous signale que vous auriez pu rajouter une feuille de salade ou un cornichon... facturés 0,50€ !",cheeseburger negative
+g187253-d797687-r183253540,id_1,Un accueil froid!,accueil negative
+g187155-d2656941-r251469423,id_4,"La nourriture, intolérable !",nourriture negative
+g187075-d3489527-r254992608,id_1,"L'accueil manque un peu de chaleur, le service qui suivra également.",accueil negative <sep> service negative
+g187147-d1931769-r208098047,id_2,Accueil Moyen.,Accueil negative
+g187147-d3216867-r254353823,id_6,Nos entrée sont donc arrivées puis nos plats après une très longue attente alors que c'était les assiettes arrivées trop tôt qu'ils ont réchauffées... Des pâtes froides au dessus et qui fument en dessous = micro-onde.,attente negative <sep> pâtes negative
+g608761-d7105002-r282300173,id_1,En même temps pas étonnant : le patron est aussi aimable qu'une porte de prison...,patron negative
+g187253-d1234630-r274467132,id_3,"En effet, on nous accepte à 15 h 00 pour déjeuner à 8, mais le serveur est seul à cette heure et le restaurant est encore bien rempli.",restaurant negative
+g635821-d5792203-r217535741,id_0,"la salle de restaurant fait cantine,la déco est triste,quant au repas notre entrecote n 'était pas très tendre,",déco negative <sep> salle negative <sep> entrecote negative
+g608761-d2053817-r143008138,id_2,"L'entrée pas bonne, plus de plat du jour.",entrée negative <sep> plat du jour negative
+g187147-d2001829-r198367000,id_1,- Un chef de rang mal aimable qui vous donne l'impression de déranger après avoir à peine poser un pied dans l'établissement,chef de rang negative
+g187269-d4737816-r250955200,id_2,La qualité des mets laisse à désirer pour cette grande enseigne .,mets negative
+g187091-d3464501-r235318144,id_0,"Petit restau suggéré par une amie, on ne regrette pas l''expérience !",restau positive
+g187207-d3380505-r280183276,id_1,Service de bon niveau.,Service positive
+g187147-d1336849-r242014326,id_5,Goût affreux - surtout ne jamais prendre le bœuf d'un derrier goût dégoûtant dans une casserole de puré de pommes de terre comme une soupe amère.,bœuf negative
+g187073-d2705770-r280684337,id_0,"Nous sommes habitués de l'établissement depuis 3ans, et le restaurant ne fais que s'améliorer.",restaurant positive
+g187103-d2329304-r282963974,id_3,"Les frites sont molles, dommage aussi, pour un resto qui sert des plats accompagnés de pommes de terre.",frites negative <sep> plats neutral
+g187077-d2250282-r285122402,id_2,Touristes de passage dans le coin nous y reviendrons sans hésiter une prochaine fois un des meilleurs restaurants fait depuis longtemps,restaurants positive
+g187147-d783786-r234074304,id_4,"Moi j'ai pris un filet de boeuf sauce aux morilles, c'était tout à fait délicieux et cuit comme il le fallait, parfait.",filet de boeuf sauce aux morilles positive
+g187147-d3334046-r158441962,id_2,Le maître d'hôtel méprisant et grossier.,maître d'hôtel negative
+g187147-d3412675-r163663857,id_1,Pour les connaisseurs en dessert il faut surtout prendre le mille fleuilles au fruit rouge.,mille fleuilles au fruit rouge positive
+g293827-d3653319-r244802130,id_3,"Total 22€ le poisson, scandaleux !",poisson negative
+g187253-d3531866-r270325180,id_4,"Pour ceux qui n'aiment pas le poisson, la carte est diversifiée ; les desserts sont très gourmands !!!",carte positive <sep> desserts positive
+g187087-d3727373-r237692994,id_0,"Venus, comme chaque année depuis très longtemps, pour mon anniversaire, j'avais réservé sur internet.",
+g187122-d2277420-r286816327,id_1,"l'endroit a une lumière feutré, c'est très agréable et très relaxant.",endroit positive
+g187253-d1854779-r278211239,id_5,Heureusement la qualité de la cuisine rattrape cela mais quel gâchis pour ce petit resto italien avec une magnifique terrasse et des produits frais.,terrasse positive <sep> cuisine positive
+g1080559-d3686505-r151173923,id_0,Une adresse à garder pour soi vue imprenable sur l hippodrome et le golf pensez à réserver en bas près des baies vitrées la cuisine et bonne et en plus le service est avec le sourire,adresse positive <sep> vue positive <sep> cuisine positive <sep> service positive
+g187253-d3247810-r266613025,id_2,"Un accueil et service toujours parfait, un très bon choix de vin ( même les pichets sont très bon), d apéritifs et surtout tester les coktails!!",accueil positive <sep> service positive <sep> vin positive <sep> pichets positive <sep> coktails positive <sep> apéritifs positive
+g187253-d1550066-r280463454,id_0,Un restau au bord de l'eau c'est sympa.,restau positive
+g187198-d3845154-r255380212,id_1,"L'accueil est agréable, par contre l'espace est restreint si l on veut déjeuner sur place.",accueil positive <sep> espace negative
+g187147-d718804-r215863872,id_8,Le carpaccio de tomates en entrée était bon.,carpaccio positive
+g187147-d718807-r133440963,id_3,"je vous conseille la formule à 16,50 €.",formule positive
+g187253-d2027102-r115708876,id_4,"Portions équilibrées, sauf peut-être pour l'entrée (moules gratinées) qui était trop petite tant les moules étaient bonnes.",Portions positive <sep> moules positive <sep> entrée negative
+g187253-d4083914-r280941580,id_3,Service très agréable sur une belle terrasse.,Service positive <sep> terrasse positive
+g187147-d6483261-r272575407,id_0,"Dans ce quartier tranquille, un restaurant où l'on peut diner dehors sous les arcades en dégustant une très bonne cuisine de saison.",quartier positive <sep> cuisine positive <sep> restaurant positive
+g207360-d5260480-r216023756,id_1,"Bonne cuisine, un petit bémol pour le service.",cuisine positive <sep> service negative
+g187147-d2346326-r232711313,id_6,"Vu la lenteur pour qu'un serveur vienne jusqu'à nous, nous nous sommes dirigés vers les caisses pour payer.",serveur negative
+g187147-d1931769-r208098047,id_1,Nourriture tiède.,Nourriture negative
+g608761-d7105002-r282300173,id_5,La carte pourtant est bien garnie et alléchante.,carte positive
+g187147-d803519-r282932467,id_0,"A deux 19h, un apéro qui se transforme en dîner.",
+g196495-d1325023-r259859192,id_0,Je vais manger la bas depuis des années et j'y ai ramener beaucoup de clients ...,
+g187147-d2146860-r282299845,id_2,"Allez y si vous vivez dans le quartier, ou le midi où les formules sont plus abordables.",formules positive
+g187253-d1322797-r265876149,id_0,Restaurant que j’appréciais déjà en repas d'affaire.,Restaurant positive
+g187253-d4972334-r237403818,id_9,Même si il s'agit d'un concept à la mode...peu sont ceux qui le maitrisent comme ce restaurant !,restaurant positive
+g187147-d1054615-r214901404,id_0,"Un local sympathique, un personnel très jeune, agréable, au bar comme au restaurant.",local positive <sep> personnel positive
+g187147-d3412675-r180902470,id_4,Le service est rapide.,service positive
+g187147-d783786-r234074304,id_1,"Les serveurs et serveuses étaient sympas et tout était très bien organisé, il n'y avait pas du tout de pression au contraire ils étaient tous très cool malgré la tonne de plats qu'ils avaient à servir !",serveurs positive <sep> serveuses positive
+g187147-d3682234-r283088970,id_3,"Pour la salade, mon ami avait pris une salade, le prix était un peu élevé pour une salade verte et 2 tranches de jambon sous vide.",salade negative
+g187147-d3188499-r243581235,id_1,"Nous y sommes allés avant un spectacle, les serveurs sont débordés et désagréables, un vrai cliché parisien!",serveurs negative
+g187147-d2346326-r232711313,id_1,"Énorme attente pour prendre la commande et quand le serveur vient enfin, il prend la commande des derniers arrivés.",attente negative <sep> serveur negative
+g187147-d718146-r234555664,id_8,Service aimable.,Service positive
+g187269-d907777-r261465070,id_0,Je connais ce restaurant depuis de très nombreuses années pour y avoir amené des clients.,
+g187147-d6561412-r270575780,id_1,"D'excellents tapas, dégustés avec des cocktails délicieux, et pour le moins originaux !",tapas positive <sep> cocktails positive
+g187147-d2431919-r245399220,id_1,"Les produits sont frais et de saison, cest un regal !",produits positive
+g187147-d2352281-r224731425,id_1,"On a commandé un moelleux au chocolat, un plat généralement difficile a rater, mais il était pas moelleux et il avait pas de goût.",moelleux au chocolat negative
+g187175-d788853-r198933869,id_0,"Entrée, plat, dessert nous avons adoré !",Entrée positive <sep> plat positive <sep> dessert positive
+g187147-d3498968-r240263031,id_1,Je retournerais avec un grand plaisir dans ce restaurant.,restaurant positive
+g187253-d1323139-r272593855,id_3,Mention spéciale aux serveurs pour leur professionnalisme.,serveurs positive
+g608761-d2053817-r143008138,id_0,"Plat du jour alléchant, je choisie d'y rentrer.",Plat du jour positive
+g187147-d1077634-r239773694,id_2,"Compter environ 20€ pour un oeuf cocotte (même pas cuit correctement), un plat comprenant environ 50g de poulet et 3 haricots verts et deux rondelles de pomme de terre et une salade de fruit...",oeuf cocotte negative <sep> plat negative
+g187147-d1516382-r258841083,id_10,Quant au service je préfère ne pas en parler,service negative
+g187253-d3590719-r281453784,id_1,Je ne peux que conseiller ce restaurant avec un accueil excellent et une très bonne cuisine.,accueil positive <sep> cuisine positive <sep> restaurant positive
+g187147-d1516382-r258841083,id_1,Le veau était tellement vieux .....qu'on aurait dit du mauvais bœuf saignant...,veau negative
+g187147-d2346326-r232711313,id_3,Beaucoup de personnes ont perdu patience et sont partis.,
+g187253-d2244194-r278706020,id_2,"Vin au verre pas frais, en bouteille assez cher et une bière en bouteille peu covaincante",Vin au verre negative <sep> bouteille negative <sep> bière en bouteille negative
+g187147-d2146860-r282299845,id_3,"La terrasse pendant l'été est très sympa et assez spacieuse, idéal pour boire un verre.",terrasse positive
+g187175-d4274999-r261894068,id_1,Repas très copieux et bon marché !!,Repas positive
+g187147-d695115-r250178681,id_2,"La cuisine excellente, et les truffes y sont servies à prix très doux.",cuisine positive <sep> truffes positive
+g187147-d3215707-r208333865,id_1,"Mais surtout des produits frais, enfin de vraies frites qui ne baignent pas dans l'huile, de la salade fraiche et un bon petit dessert!!",produits positive <sep> frites positive <sep> salade positive <sep> dessert positive
+g187175-d5895235-r283369631,id_0,Nous sommes allés manger avec des amis.,
+g187147-d2058328-r229960356,id_5,"Bref, dès que nous avons une occasion à fêter, nous allons dans ce restaurant.",restaurant positive
+g187147-d695114-r280456667,id_0,A tout heure on peut manger correctement et si l'on s'en tient aux menus c'est correct et a tarif acceptable compte tenu du caractère institutionnel du restaurant.,menus neutral <sep> restaurant positive
+g3463365-d3594852-r200815446,id_0,Nous sommes allés dans ce restaurant un dimanche soir.,
+g187253-d4972334-r237403818,id_4,Que ce sois les entrées...un prix très abordable (entre 5 et 7 euros) pour un rapport qualité/prix exceptionnel.,entrées positive
+g187147-d719490-r191353563,id_2,Une nourriture correcte.,nourriture neutral
+g187178-d4173834-r267142253,id_4,"Mon choix s'était porté sur de la terrine de campagne, de la carbonnade flamande, et une brioche perdue avec une boule de glace caramel.",
+g187212-d2490949-r185625207,id_1,Après minuit les habitués fument leurs cigarettes en cachette au bar.,
+g187147-d2254367-r266862241,id_0,"Dans ce quartier très touristique, ce petit restaurant sans prétention propose des plats peu onéreux et même une formule menu très accessible.",restaurant neutral <sep> plats positive <sep> formule menu positive <sep> quartier neutral
+g187147-d718815-r239220174,id_1,Le point fort de ce bistrot chaleureux est sa cuisine.,bistrot positive <sep> cuisine positive
+g196495-d7710044-r273021644,id_2,"Quelques soucis de gestion du stock, plusieurs plats non dispo...",plats negative
+g196719-d7112090-r271954522,id_1,Salade en entrée correct puis quelle déception pour le tartare !,Salade neutral <sep> tartare negative
+g187178-d3359955-r263860028,id_6,"pour ma part, j'ai été agréablement surprise par la crème au spéculos.",crème au spéculos positive
+g608761-d2445738-r244940036,id_0,"8€50 pour une salade grecque sans saveur: 2 olives , un bout de tomate noyées dans une salade qui baigne dans l'huile.",salade grecque negative
+g187147-d2001829-r195744098,id_4,Le personnel ne surveille pas vos assiettes et l on est obligé d insister pour se faire servir,personnel negative
+g187147-d793296-r180039349,id_3,A améliorer pour que cela devienne une vraie bonne adresse !,adresse negative
+g187147-d5225776-r279485100,id_3,Desserts originaux et légers.,Desserts positive
+g293827-d3653319-r244802130,id_2,"Arrive les plats, pour ma part un filet de vivaneau à la vietnamienne (juste recouvert d'une sauce hot sweet Chili industriel) et accompagné de légumes sautés (à l'eau...) qui plus est en supplément à 6€.",filet de vivaneau à la vietnamienne negative <sep> sauce negative <sep> légumes sautés negative
+g187253-d7591580-r286665099,id_0,Nous avons déjeuné hier dans ce restaurant avec vue sur la mer et terrasse très agréable.,vue positive <sep> terrasse positive
+g187147-d7910212-r273306333,id_3,Une très chère volaille !,volaille negative
+g187147-d809052-r241016390,id_2,Aucune excuse pour le service et l'attente.,service negative <sep> attente negative
+g187147-d2520468-r190596033,id_1,"Service très sympathique et efficace, nous avons été servi en moins de 10min un vendredi soir à 20h.",Service positive
+g293827-d3664116-r284685459,id_3,Si réservation préciser au RDC ou étage pour éviter des surprises.,
+g187147-d786001-r274077961,id_0,"Un restaurant accueillant, le chef et ses collaborateurs sont très sympas et souriants.",restaurant positive <sep> chef positive <sep> ses collaborateurs positive
+g187164-d1402721-r237318486,id_3,Franchement Mac do m'aurait bien arrangé je regrette pour dire je n'y vais jamais mais j'aurais du y penser….,
+g187122-d3253908-r246575372,id_4,De beaux verres auraient été appréciés pour boire un bon vin.,vin negative
+g187147-d7910212-r273306333,id_1,"Cuisine bonne mais rien d'extraordinaire, lotte, pintade...",Cuisine neutral
+g187253-d1328827-r266271011,id_4,Pâtes au saumon servies comme à la maison,Pâtes au saumon negative
+g187253-d3531866-r270325180,id_1,"La terrasse en bas à gauche du restaurant est à 3 mètres de la mer ; la plage est sur le côté droit (de l'autre côté de la salle de restaurant) donc nous ne sommes pas ""dérangés"" par les plagistes.",restaurant positive <sep> terrasse positive
+g297569-d4443971-r266268877,id_3,"Une très bonne adresse, dans le genre",adresse positive
+g187095-d1954560-r227348486,id_8,Déçus de notre soirée car j'ai connu cette taverne sous de meilleurs jours.,taverne negative
+g187253-d3347069-r275887686,id_4,Les goûts et les couleurs sans doute :-),
+g187147-d3412675-r180902470,id_6,Les produits sont de saison.,produits positive
+g187269-d4727206-r260930353,id_2,Accueil sympathique mais service un peu speed.,Accueil positive <sep> service negative
+g187253-d1098498-r217655976,id_5,"De plus les pommes de terre étaient trop salées donc besoin de beaucoup d'eau (cf 2ème paragraphe) - Les desserts: citrons givrés rien à dire car c'est de l'habituel industriel, le tiramisu est lui servi avec chantilly et crème anglaise???",pommes de terre negative <sep> tiramisu negative <sep> citrons givrés negative
+g187253-d2261564-r243521218,id_2,"Néanmoins, repas onéreux, sans grand choix, lourds et très gras.",repas negative
+g293827-d3653319-r244802130,id_5,"Et pour conclure la seul réponse du patron ""peut-être avez-vous le goût de quelqu'un qui se nourrit au fast-food "".",patron negative
+g187147-d1774964-r260536177,id_2,"On choisit notre menu, le carpaccio vient de métro c'est certain et les frites ne sont pas fraîches.",frites negative <sep> carpaccio negative
+g187122-d2253489-r276554003,id_0,Nous avons déjeuné dans ce restaurant en famille.,
+g187212-d2215986-r140498637,id_2,Mais cette gentille patronne est vite débordée.,patronne negative <sep> patronne positive
+g608761-d1334387-r277341177,id_4,Vin correct,Vin neutral
+g187147-d803519-r282932467,id_3,"Service sympa, l'équipe très jeune.",Service positive
+g187147-d2174563-r234071343,id_3,Mais où vont-ils donc chercher leurs serveuses et serveurs.,serveuses et serveurs negative
+g187147-d695107-r262030496,id_2,L’entrecôte aux échalotes avec ses champignons poêles est un délice.,entrecôte aux échalotes positive
+g187151-d3325374-r277158312,id_12,"J'ai remarqué un petit écriteau qui indiqué que leur viande de canard venait des pays de l'Est, un comble pour le pays du cassoulet.",viande de canard negative
+g187147-d695107-r262030496,id_0,Les terrines et la viande sont excellents ainsi que les vins du Beaujolais.,terrines positive <sep> viande positive <sep> vins du Beaujolais positive
+g187253-d2248119-r222961718,id_2,Des moules marinières qui baignanit....dans leur eau oui sans sauce : sans intérets!!!,moules marinières negative
+g207360-d4481417-r281591572,id_0,A 200m de chez moi dès que j'ai envie d'une pizza je vais là bas.,
+g187253-d3482968-r264400769,id_1,"En même temps, nous somme dans un restaurant de fondues, donc pas de surprises sur ce point la.",
+g196719-d3348013-r236980536,id_3,Résultat de la salade en sachet avec un toast de fromage ridicule sur une grande tranche de pain de mie et des plats catastrophiques...,salade negative <sep> toast de fromage negative <sep> plats negative
+g187143-d1327801-r268704148,id_1,"Le ""complet"" est fameux, à la hauteur du ""samourai"" de son concurrent le bigban.",complet positive <sep> samourai positive <sep> bigban positive
+g187253-d1550066-r280463454,id_8,N'y a-t-il pas suffisamment de variétés de poissons en Méditerranée ?,
+g187095-d1872852-r270870454,id_4,Restaurant bondé le midi mieux vaut arriver tôt,Restaurant negative
+g608761-d1334387-r277341177,id_0,Un jolis cadre Marocain.,cadre positive
+g196640-d3784521-r285274679,id_2,Un menu à 25€ peut vous permettre de bien manger sans trop vous ruiner et les plats de la carte sont très copieux également.,menu positive <sep> plats positive
+g187147-d2528029-r177289336,id_1,Le bémol fut l'attente et les serveurs sympathiques mais un peu dépassés,serveurs negative <sep> attente negative
+g293827-d3664116-r284685459,id_12,"Donc, c'est un restaurant banal, qui ne me laisse pas un souvenir impérissable.",restaurant neutral
+g187198-d2041733-r222676078,id_0,"Si la note est peu élevée (61,90) pour un repas et une bouteille de vin du mois.",bouteille de vin du mois negative <sep> repas negative
+g187147-d7910212-r273306333,id_5,"Bref 140 euros à 3 avec 2 verres de vin et une limonade, c'est trop pour un déjeuner très simple.",déjeuner negative
+g187207-d1739381-r231404724,id_0,"Une carte correcte mais plus trop au goût du jour, sans trop d'évolution.",carte neutral
+g187147-d695189-r251436609,id_5,La tarte a été froide et pas particulièrement fraîche.,tarte negative
+g297569-d4092469-r259302825,id_0,C'était mon premier déjeuner à ce restaurant.,
+g187147-d718807-r133440963,id_2,Une très bonne adresse !,adresse positive
+g187147-d695107-r194313962,id_1,"Des produits frais, bien assaisonnés et préparés avec respect de la cuisine française.",produits positive
+g187147-d3412675-r163663857,id_2,"Vous ne pouvez pas lècher l'assiette car cela ne se fait pas, mais vous avez beaucoup de regret que votre dessert soit terminer.",dessert positive
+g1582538-d3877732-r250915172,id_6,Y aller également pour la terrasse qui est très jolie!,terrasse positive
+g187147-d895824-r231506893,id_2,"Moi qui adore le tartare, je n'en ai même pas mangé les 3/4.",tartare negative
+g187253-d4972334-r237403818,id_6,Ensuite les plats...pas de doutes la spécialité très maîtrisé est le burger maison!,burger positive
+g187122-d2253489-r276554003,id_4,"Le cidre, pas qu'exceptionnel, est frais et s'accompagne bien.",cidre positive
+g187147-d789100-r275092629,id_0,"Nous sommes allé, avec ma copine et des amies, l'accueil est chaleureux, le cadre très sympa.",accueil positive <sep> cadre positive
+g187253-d2185886-r237459426,id_2,"Un service convenable, mais à ne pas renouveler, il y a tant de petits restaurants qui savent servir une cuisine de meilleure qualité",service neutral
+g187147-d2084844-r196203175,id_0,tout était très bien : accueil - déco - repas !,accueil positive <sep> déco positive <sep> repas positive
+g187147-d2477816-r282304814,id_2,Service sympathique.,Service positive
+g187253-d1854779-r278211239,id_2,"Désorganisation totale du service, obligé de redemander à plusieurs reprises l'apéritif ainsi que le vin, à croire qu'ils ne veulent pas qu'on consomme.",service negative
+g187147-d695107-r262030496,id_1,Une cuisine simple mais goûteuse avec de bons produits.,cuisine positive <sep> produits positive
+g187209-d2416523-r258651167,id_0,"Vraiment ravi très joli resto, accueil très sympathique avec un serveur à l'ecoute et de très bon conseil , niveau repas vraiment très bon rien à redire.",resto positive <sep> accueil positive <sep> serveur positive <sep> repas positive
+g187091-d2221132-r263477843,id_1,C'est donc avec l'eau à la bouche que nous avons été reçus dans cet établissement.,
+g187077-d3984325-r265548233,id_0,Depuis longtemps je voulais pousser la porte de cet endroit dans la zone portuaire de Bayonne et voilà nous l'avons fait!!!,
+g187147-d2431919-r245399220,id_0,"Service de tres bonne qualité, restaurant agreable et cuisine delicieuse !",Service positive <sep> restaurant positive <sep> cuisine positive
+g187077-d2250282-r285122402,id_1,Excellent restaurant a tout point de vue le service la patronne très agréable les plats excellents le vin très bon !,restaurant positive <sep> service positive <sep> patronne positive <sep> plats positive <sep> vin positive
+g187147-d695099-r213681876,id_4,"Plus de sourire, accueil glacial.",accueil negative
+g187253-d2248119-r222961718,id_10,"Ne vous laissez pas avoir par le prix attractif et la devanture, les concurrents pratiquent les mêmes types de menus et sont plus quali et plus agreables",
+g187269-d1811061-r210549792,id_4,"Salle déserte, nous étions 6 au total, un samedi soir...",Salle negative
+g187253-d1854779-r278211239,id_1,En 2 mois ce resto s' est dégradé à une vitesse phénoménale!,resto negative
+g187178-d4173834-r267142253,id_5,L'entrée et le plat étaient assez classiques (avec un bémol pour la salade sans goût) mais le dessert était bon.,salade negative <sep> dessert positive <sep> entrée neutral <sep> plat neutral
+g187147-d5225776-r279485100,id_4,"Nous n'avons pas pris de vin, je n'ai donc pas d'avis sur le sujet.",
+g196640-d1326868-r260872471,id_0,"plusieurs repas le midi, souvent plat du jour, très bon rapport qualité prix pour restaurant poisson",restaurant positive <sep> repas positive
+g187147-d783786-r234074304,id_6,"Aussi je vous conseille de gouter le mojito, un grand verre pour 5€, super bon.",mojito positive
+g196680-d7007014-r256470796,id_3,Je suis un gourmand.,
+g187253-d4972334-r237403818,id_3,Le coeur...le repas!,repas positive
+g187253-d1322797-r265876149,id_2,"un régal sur les poissons à la plancha : poissons hyper frais, et très bien préparés.",poissons à la plancha positive <sep> poissons positive
+g196495-d1325023-r259859192,id_1,Je recommande ce restaurant qui est de loin le meilleur kebab de mulhouse .,restaurant positive
+g187147-d718799-r284156821,id_0,On va faire simple :,
+g187253-d1234630-r274467132,id_5,"Quand aux plats, très décevants.",plats negative
+g187147-d3628421-r258912116,id_0,Brasserie parisienne de quartier ni plus ni moins.,Brasserie parisienne neutral
+g196495-d2100294-r260548064,id_1,Service sympathique !,Service positive
+g187147-d4272002-r260711186,id_0,"Accueil très froid, la patronne est très antipathique et agressive.",Accueil negative <sep> patronne negative
+g187147-d718132-r119263750,id_4,La nourriture était savoureuse.,nourriture positive
+g297569-d4062515-r269115031,id_1,Personnel très gentil et serviable.,Personnel positive
+g187253-d4083914-r280941580,id_0,Un bistrot comme je les aime.,bistrot positive
+g187147-d1089305-r171630135,id_2,Parpadelle aux écrevisses et palourdes très bon mais légèrement trop gras,Parpadelle aux écrevisses positive <sep> palourdes positive
+g187253-d7591580-r286665099,id_5,"Vu cet accueil, on ne reviendra plus !",accueil negative
+g187147-d6405461-r234970703,id_3,C est l endroit parfait si on a envie de se faire oublier et ignorer!,endroit negative
+g187178-d3359955-r263860028,id_5,Mon conjoint a vraiment apprécié son dessert bon et conséquent.,dessert positive
+g187147-d2001829-r198367000,id_2,- Des serveuses/serveurs sous pression (y compris en tout début de service lorsque l'endroit est quasi-vide) et d'une impolitesse rare,serveuses/serveurs negative
+g187209-d6735398-r237571768,id_0,La livraison de brunch à domicile est vraiment une idée de génie!,livraison positive
+g3463365-d3594852-r200815446,id_9,L'établissement dispose aussi d'une jolie terrasse.,terrasse positive
+g187147-d1089305-r171630135,id_1,"Plats bien exécutés, les sauces sont également bonnes",Plats positive <sep> sauces positive
+g187253-d3159170-r200522623,id_3,Je suis d'autant + désolée de l'écrire que le service est un bonheur de gentillesse.,service positive
+g187147-d781410-r245477683,id_2,"Enfin, on ne peut pas dire que le cadre soit agréable.",cadre negative
+g187253-d3531866-r270325180,id_2,"Quant à la cuisine, elle est délicate, raffinée et en portions généreuses !",cuisine positive
+g187147-d3412675-r180902470,id_3,Il comprend 8 plats surprises et une amuse-bouche.,
+g608761-d2445738-r244940036,id_1,C'est osé.,
+g297569-d4130785-r264968967,id_0,Nourriture médiocre.,Nourriture negative
+g187253-d1639457-r152371370,id_2,Les produits sont bons mais la cuisine reste simple par rapport aux tarifs.,produits positive <sep> cuisine negative <sep> cuisine neutral
+g187147-d783786-r234074304,id_5,Les frites maison sont un régal également.,frites positive
+g187147-d803911-r185527774,id_1,La décoration est restée comme avant et cela a son charme.,décoration positive
+g187147-d1516382-r258841083,id_15,Dans le quartier pour le prix d'un plat vous aurez un repas complet agrémenté d'un sourire,
+g608761-d7105002-r282300173,id_4,"Concernant la cuisine, c'était bon mais sans plus : morceaux de gras dans le chili, cuisson des viandes mal maitrisée, pas d'amandes sur le dessert alors qu'il devait en avoir...",cuisine neutral <sep> chili negative <sep> viandes negative <sep> dessert negative
+g196495-d7710044-r273021644,id_1,Tout les burgers sont alléchants.,burgers positive
+g207360-d5778124-r197371997,id_4,"Les plats sont bons, typiques, la carte propose beaucoup de choix.",plats neutral <sep> plats positive <sep> carte positive
+g1080574-d1337519-r211045323,id_5,Il vaut encore mieux aller au Mc Do !,
+g187253-d3482968-r264400769,id_4,"Cela reste quand même un bon resto, a tester.",resto positive
+g187253-d1234630-r281354019,id_4,"Dommage car le cadre est pas mal, mais je ne conseille à personne ce restaurant, qui en plus était assez cher pour ce que nous avons eu, et sur la note pas de numéro de SIRET, ni le nom du restaurant.",cadre positive <sep> restaurant negative
+g608761-d3778492-r181222052,id_0,des problèmes digestifs aprés le repas!,repas negative
+g187147-d1774964-r260536177,id_3,Sans parler de la mousse au chocolat qui n'a rien d'une mousse.,mousse au chocolat negative
+g187212-d2490949-r185625207,id_0,"Super ambiance, tip top entre amis.",ambiance positive
+g187147-d1099973-r130147318,id_2,Au niveau de la cuisine c est correct mais ce n est pas exceptionnel !,cuisine neutral
+g187147-d3982598-r229977371,id_5,"Pour ne rien gâcher, le cadre est agréable et le service attentionné.",cadre positive <sep> service positive
+g187147-d719490-r191353563,id_0,Temps d'attente très long et le service mauvais ce qui gâche un peu la soiree.,Temps d'attente negative <sep> service negative
+g187147-d695189-r251436609,id_2,Mon entrée de l'avocat a été tout à fait ordinaire.,entrée neutral
+g187147-d7972483-r271185057,id_1,"Nous étions 5 et avons gouté 2 entrées, 5 plats et 4 desserts, tous excellents et très bien préparés, particulièrement les entrées.",entrées positive <sep> plats positive <sep> desserts positive
+g187253-d4972334-r237403818,id_7,"Un pain élaboré par un boulanger du coin, un steack haché frais, la qualité des produits frais, les frites maison, la petite salade accompagné d'une vinaigrette bien relevée.",pain positive <sep> salade positive <sep> produits frais positive <sep> steack haché positive <sep> frites positive
+g297569-d4130785-r264968967,id_4,Ce restaurant doit vite se ressaisir.,restaurant negative
+g187147-d718040-r276053524,id_0,Très bon rapport qualité prix pour ce petit restaurant très agréable.,restaurant positive
+g187207-d3721902-r279950763,id_0,je ne vais plus dans cet établissement depuis deux mois à cause du laisser aller de la cuisine qui n'est plus à la hauteur de la qualité de la chaine.,cuisine negative
+g187147-d895824-r231506893,id_1,"J'ai pris un tartare coupé au couteau mais le boeuf était de très mauvaise qualité, la viande toute fibreuse et dure et le plat n'avait donc aucune saveur.",tartare negative <sep> boeuf negative <sep> viande negative <sep> plat negative
+g196640-d4428534-r283820751,id_4,"Aujourd'hui, un bœuf cuisson douce avec des légumes..",
+g187140-d1322541-r286192533,id_2,Attention menu pantagruélique...,menu positive
+g187198-d2041733-r222676078,id_4,Le service est moyen.,service negative
+g187079-d3590623-r272464202,id_0,"Viande de boeuf façon chewing gum, frites couleur marron foncé molles et baignant encore dans leur huile.",Viande de boeuf negative <sep> frites negative
+g187253-d1066323-r282644003,id_0,Les pizzas sont honnêtement très bonnes !,pizzas positive
+g196719-d7112090-r271954522,id_3,Je ne parle pas des accompagnements !,accompagnements negative
+g187147-d4271843-r202457064,id_2,La décoration est horrible.,décoration negative
+g187147-d1119908-r146734960,id_4,Les pommes sautés étaient des simples frites.,pommes sautés negative
+g187147-d1113739-r231078339,id_2,Je reviens toujours en ce lieu avec un vrai plaisir !,lieu positive
+g187079-d817721-r260340034,id_1,En effet l'accueil plutôt lourd laisse place à un service manquant d'enthousisame et de sourire.,accueil negative <sep> service negative
+g187147-d695264-r251049321,id_5,"A part la cuisine lamentable, le décor est sympa et le service est très agréable.",cuisine negative <sep> décor positive <sep> service positive
+g187253-d1331961-r118398179,id_4,De plus l'un des convives a été malade après le repas.,repas negative
+g187209-d4070250-r259984150,id_1,"Le patron sympathique et les vins servis au verre ou en bouteille sont bons ..beaucoup d'originalité dans les tapas proposées , au demeurant , fort bons ...",patron positive <sep> vins positive <sep> tapas positive
+g187151-d2632598-r222747220,id_0,Restaurant de village.,
+g187147-d2346326-r232711313,id_5,Le pire a été au moment de payer.,
+g187147-d695264-r251049321,id_4,Si vous allez au restaurant pour être vu c'est l'endroit idéal.,endroit negative
+g187147-d3175080-r233973764,id_2,..rien.,
+g187178-d4173834-r267142253,id_7,Adresse à tester sans hésiter.,Adresse positive
+g187147-d803911-r185527774,id_0,Un restaurant surement très réputé mais alors il y a longtemps...,restaurant negative
+g187075-d1324447-r268262547,id_0,Accueil minable !,Accueil negative
+g187147-d779840-r237971138,id_0,Ma meilleure adresse de restau thai!,restau positive
+g293827-d3664116-r284685459,id_10,Le service est assez rapide.,service positive
+g187147-d3334046-r158441962,id_0,"Cuisine très quelconque dans un cadre pourtant ""bon chic bon genre"".",Cuisine negative <sep> cadre neutral
+g608761-d1334432-r281522672,id_0,Un petit repas en famille.,
+g187147-d718804-r215863872,id_3,A la place une espèce de confit de tomates au citron tout simplement immangeable.,confit de tomates au citron negative
+g187095-d1954560-r227348486,id_4,Une viande qui n'est pas cuite comme à notre demande : saignante et non à point comme demandé.,viande negative
+g187103-d2356006-r280461370,id_1,service tardif possible : pratique après un bon ciné,service positive
+g187253-d1308414-r269942828,id_0,"Nous avons choisi ce restaurant un peu par hasard : garés à deux pas, nous avons été attirés par une carte mettant en valeur des produits frais et le fait maison.",carte positive <sep> produits positive
+g187147-d1515398-r264607143,id_3,Bistrot à recommander surtout si vous souhaitez passer un moment à Montmartre sans être dans la cohue des restaurants à touristes !!!,Bistrot positive
+g196719-d3348013-r236980536,id_0,Déjà venu il y a quelques années et en gardant un excellent souvenir nous avons décidé d'y retourner.,
+g187147-d1392655-r199033401,id_1,Négatif: le contenu de l'assiette,assiette negative
+g187253-d2189616-r221189178,id_5,(avec un petit sourire en coin),
+g187147-d793296-r180039349,id_0,"Malgré la bonne volonté de la serveuse, on sent l'endroit assez mal organisé.",serveuse positive <sep> endroit negative
+g187147-d1516382-r258841083,id_5,et ils osent appeler cela Escalope Saltimbocca ...,
+g187162-d4282113-r244643659,id_5,"Non franchement, ce n'est pas un bon restaurant indien",restaurant indien negative
+g608761-d4750470-r279534176,id_0,"Alors là, si vous voulez un resto classe, une cuisine très soignée et rafinée pour féter un anniversaire, ou une grande occasion, c'est le lieu IDEAL !",resto positive <sep> cuisine positive <sep> lieu positive
+g187253-d1550066-r280463454,id_1,"Surtout que le service y est rapide et plutôt agréable, les portions généreuses et le lieux vraiment joli.",service positive <sep> portions positive <sep> lieux positive
+g187147-d695264-r251049321,id_0,Jamais nous ne retournerons dans ce restaurant.,restaurant negative
+g1080574-d1337519-r211045323,id_1,"Bref, passons ....",
+g187253-d3590719-r279323659,id_2,Le petit plus une carte des a des pris très attractifs .,carte positive
+g187147-d718802-r273847722,id_0,"Cuisine correcte mais pas exceptionnelle, service lent.",Cuisine neutral <sep> service negative
+g187147-d2174563-r234071343,id_0,Le seul point fort c'est la terrasse.,terrasse positive
+g187175-d4274999-r261894068,id_0,Un endroit chaleureux pour manger au milieu de plein de bouteilles de vins.,endroit positive
+g187111-d3423656-r282520762,id_1,"La carte est banale, avec une option ""plats bourguignons"" classiques.",carte negative
+g187147-d718799-r284156821,id_8,"- patron désagréable, bourru et hautain",patron negative
+g187103-d2329304-r282963974,id_1,"Carte des vins sympa, on me refuse de corriger le tir sur un verre de vin servi plus généreusement précédemment (à 5,90€ le verre, le comportement du patron (?) est décevant).",Carte des vins negative <sep> patron negative <sep> verre de vin negative
+g187253-d4379462-r259558222,id_1,"Mais que c'est-il passé, ce restaurant est devenu un attrape touristes très cher sans aucune qualité!!!",restaurant negative
+g297569-d4763779-r224062574,id_3,Il suffirait pourtant de peu de choses pour faire de cet endroit un lieu exceptionnel car le site est magique et chargé d'histoire.,site positive <sep> endroit positive
+g187147-d779419-r270630138,id_0,"Le repas est très bon avec des produit de qualité, enfin du ""fait maison"".",repas positive <sep> produit positive
+g207360-d5778124-r197371997,id_2,"On est aimablement accueilli par le propriétaire, grand sourire.",propriétaire positive
+g187079-d3590623-r272464202,id_1,Service austère.,Service negative
+g297569-d4062515-r269115031,id_0,Resto sympa et de très bonne grillades.,Resto positive <sep> grillades positive
+g187253-d2290839-r195921991,id_3,Dommage car le brunch était chouette mais l'accueil et le service ne méritent pas que nous revenions .,brunch positive <sep> accueil negative <sep> service negative
+g196680-d7702811-r279218028,id_4,Point ultra négatif : à la fin De notre repas la serveuse nous donne l'addition sans que nous l'ayons demandée .,serveuse negative
+g187147-d1034843-r227563120,id_3,"Peu de choix à la carte, mais c'est aussi comme ça qu'on a plus de chance de faire des bons plats!",carte neutral <sep> plats positive
+g187253-d4972334-r237403818,id_8,N'ayons pas peur des mots...à ce jour c'est le meilleur burger que j'ai mangé.,burger positive
+g187147-d796790-r259054204,id_0,Bel endroit certes et c'est tout ce que je pourrai écrire de positif.,endroit positive <sep> endroit negative
+g196640-d1388937-r181113173,id_0,"Un restaurant de chaine, nous avons poussé la porte car en général, sans être extraordinaire c’est une valeur sur, pas trop chère et rapide.",restaurant de chaine neutral
+g608761-d2053817-r143008138,id_4,La sauce envahissait le poisson.,poisson negative
+g187147-d7910212-r273306333,id_0,Nous y sommes allés le 14 mai en couple avec notre fils.,
+g187147-d718132-r119263750,id_2,"J'adore ces restaurants où on a toujours du vin dans notre coupe sans jamais avoir à toucher à la bouteille, pour moi çà témoigne que le personnel garde toujours un oeil sur vous pour vous servir.",personnel positive
+g187155-d3194494-r225589189,id_1,Nous avons été seduits par la devanture de ce petit restaurant sans prétention.,restaurant positive
+g196719-d2614773-r269869318,id_1,"Des plats très copieux, des produits du terroir ainsi qu'un service impeccable plongés dans une très bonne ambiance.",plats positive <sep> produits positive <sep> service positive <sep> ambiance positive
+g187091-d1325827-r240732814,id_4,"Repas très moyen pas de sauce même en n en demandant à la serveuse réponse de la serveuse ""ce soir c est la dèche """,Repas negative <sep> serveuse negative
+g187147-d1191240-r240499837,id_3,Bref inutile de faire un détour pour se restaurer dans ce bistrot,bistrot negative
+g196640-d4428534-r283820751,id_7,"En plus, le tout servi par une serveuse très sympathique !",serveuse positive
+g187207-d3721902-r279950763,id_2,Bref si cet établissement ne se re-saisit pas il perdra sa clientèle régulière (les gens de passage se feront piéger mais cela porte préjudice à l'ensemble de la chaine).,établissement negative
+g187175-d788853-r198933869,id_1,"Un très bon restaurant avec une super vue sur la cathédrale St Étienne, et le personnel est accueillant !",vue positive <sep> restaurant positive <sep> personnel positive
+g187253-d3531866-r270325180,id_0,"Déjà en arrivant, le cadre est exceptionnel !",cadre positive
+g187155-d2467288-r225229825,id_1,Je déconseille ce restaurant,restaurant negative
+g187147-d1336849-r242014326,id_2,Un menu unique imposé pour la table de dix (!!!).,menu negative
+g196680-d7702811-r279218028,id_1,La cuisine était correcte l'ambiance sympa .,ambiance positive <sep> cuisine neutral
+g187147-d3682234-r283088970,id_2,La pizza capricioza était bonne mais pas exceptionnel.,pizza capricioza neutral
+g187178-d2282922-r240259092,id_5,"15 minutes plus tard j'y retourne : "" les prochains plats seront les vôtres ne vous inquiétez pas""",
+g187269-d1811061-r210549792,id_6,L’accueil est agréable malgré tout.,accueil positive
+g187253-d3159170-r200522623,id_2,"Ai choisi un loup de mer fraichement pêché avec sa ratatouille sur purée accompagné d'une huile d'olive aux agrumes et herbes, le tout se révélant un peu insipide.",loup de mer fraichement pêché avec sa ratatouille sur purée accompagné d'une huile d'olive aux agrumes et herbes negative
+g187079-d3590623-r272464202,id_2,Que dire de plus?,
+g608761-d2053817-r143008138,id_7,Je n'ai rien dit.,
+g187147-d695099-r213681876,id_2,"La carte est moins complète, certains plats particulièrement gouteux et originaux ont disparu.",carte negative
+g187147-d1119908-r146734960,id_2,L'entrecôte qui dans le menu était censée être 300 g c'était une portion du gendre cantine de l'école.,entrecôte negative
+g187147-d1804977-r259316015,id_2,"Les plats sont décevants, trop gras avec un goût pas agréable.",plats negative
+g187207-d778869-r286120323,id_1,Le service est très agréable !,service positive
+g187147-d1650840-r242497721,id_3,Le service est efficace et la cuisine traditionnelle est très bonne.,service positive <sep> cuisine traditionnelle positive
+g187253-d2189616-r221189178,id_6,J'ai retenté ma chance avec une bière bouteille 6 euros arrivée ouverte avec une rondelle de citron à l'intérieur ??,bière bouteille negative
+g3463365-d3594852-r200815446,id_4,"Plat: une pièce de boeuf grillée (pas très tendre), sans sauce, avec de la purée de carottes (très bonne), des brocolis et des pommes de terre pas cuites au milieu.",pièce de boeuf grillée negative <sep> purée de carottes positive <sep> pommes de terre negative <sep> pièce de boeuf grillée neutral
+g187253-d3531866-r270325180,id_5,"Le service est sympa et décontracté, le serveur vous met à l'aise tout de suite.",service positive <sep> serveur positive
+g187147-d1327880-r242392720,id_2,"Petit hic: l'assiette de charcuterie proposée à l'apéritif pour deux personnes n'était vraiment pas copieuse, même pour deux personnes.",assiette de charcuterie negative
+g196680-d7007014-r256470796,id_5,ET les crêpes sont EXCELLENTES (la pate et les accompagnements).,crêpes positive <sep> pate positive <sep> accompagnements positive
+g187147-d779840-r237971138,id_5,L'attente n'est pas plus longue qu ailleurs.,attente neutral
+g187147-d718132-r119263750,id_0,L'atmosphère et le décors classique vous ravirons.,atmosphère positive <sep> décors positive
+g187073-d2234111-r233672137,id_0,"situé dans la petite Venise avec terrasse au bord de l'eau, l'endroit semblait idéal pour cette journée passée à Colmar.",terrasse au bord de l'eau positive <sep> endroit positive
+g187122-d2277420-r286816327,id_3,le service est nickel.,service positive
+g187095-d3747513-r268495052,id_2,Un resto très sympa,resto positive
+g187147-d783786-r234074304,id_0,Et bien moi je n'ai absolument rien à redire sur le service !,service positive
+g187206-d2205086-r180308486,id_0,Un bon resto quand on sait le nombre de restos qu'il y a dans la rue.,resto positive
+g187147-d718799-r284156821,id_2,Les plus :,
+g187147-d2206833-r245896157,id_2,Un verre de vin servi presque gelé.,verre de vin negative
+g187164-d1402721-r237318486,id_0,Tous le monde le savait sauf nous !,
+g187206-d7015016-r279931558,id_1,Accueil très aimable et décor lounge plutôt cosy.,Accueil positive <sep> décor positive
+g187147-d3216867-r254353823,id_3,Cocktail trop sucré vs bon vin.,Cocktail negative <sep> vin positive
+g187253-d4972334-r237403818,id_1,En commençant par l'accueil chaleureux et très sympathique (nous accepter à 14 un 1er novembre...beaucoup ne l'aurait pas fait),accueil positive
+g293827-d3664116-r284685459,id_11,"Le dessert salade fruit, correct.",salade fruit neutral
+g293827-d3653319-r244802130,id_0,Un restaurant d'aspect extérieur agréable et bien situé qui nous a donné envie d'y dejeuner.,restaurant positive
+g187147-d781410-r245477683,id_3,"En résumé, ce restaurant est à éviter.",restaurant negative
+g187075-d1324447-r268262547,id_3,Nous alertons le personnel qui rejette la faute sur nous (insectes venant de l'extérieur).,personnel negative
+g196719-d3348013-r236980536,id_4,Aucun accompagnement noté sur le menu n'a été servi nous avons eu des frites congelé jetés sur nos viandes pour camoufler la misère et des haricots grillés pour ceux qui avaient du poisson.,frites negative <sep> menu negative <sep> viandes negative <sep> haricots negative
+g187253-d7591580-r286665099,id_1,"Nous avons été accueilli en terrasse , la viande que j'avais commandée cuisson bleue est arrivée ""saignante"" , pas terrible pour un restaurant spécialiste en viandes!",viande negative <sep> restaurant negative
+g187147-d718133-r279293892,id_0,Un déjeuner parfait !,déjeuner positive
+g187147-d2620480-r270783301,id_2,J'ai tendance à avoir des apprioris sur les repas dans les brasseries mais la nous avons été satisfait.,repas positive
+g187103-d1327074-r281100867,id_5,tapas copieuses et bonnes,tapas positive
+g187091-d1325827-r240732814,id_3,Serveuse très spécial,Serveuse negative
+g187147-d1390879-r184171903,id_1,Une adresse à éviter.,adresse negative
+g187147-d695189-r251436609,id_6,La glace d'accompagnement était correcte mais une petite boule seulement.,glace neutral <sep> glace negative
+g187253-d1098498-r217655976,id_7,"- le limoncello: à la fin du menu à 30€, servi à température ambiante tout comme l'eau alors que cela se sert glacé...",limoncello negative
+g187140-d1322541-r286192533,id_5,Franchement...quand on vient du pays basque...,
+g187147-d3175080-r233973764,id_1,Le bémol significatif comme d autres l ont confirmé en amont dans les commentaires : l accueil et le service....PAS UN SOURIRE.,accueil negative <sep> service negative
+g187103-d2329304-r282963974,id_2,"La viande est bonne, bien cuite comme demandé.",viande positive
+g187091-d1325827-r240732814,id_2,Salle tres bruyante,Salle negative
+g187147-d4471415-r270717110,id_3,"Encore une fois ce restau semble être la brasserie à touriste typiquement parisienne qui achète ses produits de basse qualité chez ""métro""et vous les fait payer un blinde !",restau negative <sep> produits negative
+g187147-d2346326-r232711313,id_2,Longue attente encore pour avoir ses boissons.,attente negative
+g187253-d4414030-r197767293,id_2,"La patronne est amicale, prête a tout pour bien faire manger tout le monde.",patronne positive
+g187253-d1328827-r266271011,id_9,Café gourmand : café et une part de tarte aux pommes surgelée (écrit fait maison sur la carte),tarte aux pommes negative
+g187253-d2248119-r222961718,id_8,Pourquoi?! Je ne saurais jamais!!!,
+g187147-d3693829-r248014416,id_0,Bel endroit !,endroit positive
+g187095-d1954560-r227348486,id_7,Départ aussi désagréable que l'accueil.,accueil negative <sep> Départ negative
+g187253-d4083914-r280941580,id_6,Une adresse à noter lors de vos passages sur Marseille.,adresse positive
+g187091-d1327273-r194284231,id_2,Pourtant les plats sont bons et la déco sympa.,plats positive <sep> déco positive
+g207360-d5778124-r197371997,id_6,Je m'interroge.,
+g187143-d1334240-r221037683,id_0,"Oui, on est prévenu ,",
+g187212-d2215986-r140498637,id_0,Cet endroit mériterait d'etre ouvert plus souvent et d'avoir plus de place et du personnel.,endroit negative
+g187178-d2282922-r240259092,id_0,"Nous y sommes allés un midi, nous n'avions pas énormément de temps pour manger ( comme la plupart des clients d'ailleurs ) .",
+g608761-d7105002-r282300173,id_6,Ah oui!,
+g297569-d4443971-r266268877,id_1,Nous y dînons régulièrement en groupe.,
+g187147-d783245-r182683264,id_0,Sympathique restaurant de quartier au cadre bien parisien avec toutes ces affiches sur les murs.,restaurant positive <sep> cadre positive
+g187140-d2066610-r265781517,id_0,Petit endroit sympa pour manger pendant notre escale de 2h après notre balade en bateau.,endroit positive
+g187073-d2234111-r233672137,id_3,"Même si le repas fut assez copieux et bon, nous avons pas pris autant de plaisir que le lieu nous laissait espéré.",repas positive <sep> lieu negative
+g187147-d1119908-r146734960,id_3,Et en générale les portions étaient ridicules pour leur prix.,portions negative
+g187147-d3879173-r270122012,id_1,"Ceci dit, la bonne humeur de la serveuse et la présentation des plats rattrapent un peu cet avis mitigé.",serveuse positive <sep> plats positive
+g187143-d1334240-r221037683,id_6,"Il y peut y avoir des sauces ""sur etagere"" dans les plats cuisines",sauces negative
+g187087-d3727373-r237692994,id_4,"Pain du buffet cramé, on nous dit que c'est normal...Une serveuse d'un certain âge très très désagréable et pressée de voir partir les clients, même pas fini l'entrée, on nous emmène le plat, et je ne vous dit pas les réflexions d'un gôut douteux.",Pain negative <sep> serveuse negative
+g187147-d2001829-r195744098,id_3,Pas de viennoiserie pour un brunch pas top même si le concept est américain on est en France et le minimum aurait été un croissant,brunch negative
+g187269-d4727206-r260930353,id_0,Plats appétissants mais on attendait un meilleur goût.,Plats neutral
+g187147-d2001829-r198367000,id_3,- Mention spécial au barman qui semble être la seule personne sympathique de l'endroit,barman positive
+g187253-d4414030-r197767293,id_1,"Cuisine typique marocaine, carte simple avec toute les plats du pays.",Cuisine positive <sep> carte positive
+g608761-d7105002-r282300173,id_0,"Dés que nous sommes rentrés dans l’établissent, nous avons ressenti un stress qui planait autours des employés...",établissent negative
+g3463365-d3594852-r200815446,id_2,Entrée: Saint Jacques en brochettes de qualité moyenne.,Saint Jacques en brochettes negative
+g608761-d1334387-r277341177,id_3,De belles assiettes copieuses.,assiettes positive
+g187147-d793191-r257724950,id_1,"repas et un vin irréprochable, service impeccable.",service positive <sep> repas positive <sep> vin positive
+g187147-d3673580-r235127999,id_2,Bons cocktails et barman très sympa.,cocktails positive <sep> barman positive
+g196719-d2614773-r269869318,id_3,"Allez y en toutes confiance si vous souhaitez une cuisine simple, honnête et généreuse.",cuisine positive
+g187253-d3482968-r264400769,id_3,"Un petit bémol pour une dame faisant partie du personnel, qui était on ne peu plus désagréable.",personnel negative
+g187147-d4271736-r164730477,id_1,Ambiance sonore beaucoup trop élevée pour un restaurant.,Ambiance negative
+g187147-d5547664-r279984913,id_1,"Un grand remerciement pour cette cuisine riche moderne et pleine de saveur, merci également à l'accueil au service, la gentillesse et le professionnalisme du personnel merci et merci encore",cuisine positive <sep> accueil positive <sep> service positive <sep> personnel positive
+g187073-d6353467-r248081497,id_3,La nourriture et le vin proposé étaient succulents.,nourriture positive <sep> vin positive
+g187147-d1450531-r187797211,id_5,Les plats étaient tout de même bons mais maigrichons.,plats positive <sep> plats negative
+g187147-d795288-r194158635,id_2,"Les plats sont pas mal, mais il y a tellement mieux dans le quartier comme restaurant Thaïlandais!",
+g187147-d3982598-r229977371,id_1,Leur couscous est vraiment excellent.,couscous positive
+g187147-d1567976-r183244327,id_3,Le saumon n'était pas très frais et la dinde pas assez cuite.,saumon negative <sep> dinde negative
+g187206-d7015016-r279931558,id_0,Très bien situé sur le port face à l'aquarium.,port positive <sep> aquarium positive
+g187147-d3989748-r275822551,id_3,Bonne petite adresse!,adresse positive
+g187147-d3412675-r180902470,id_1,"Belle déco, faible éclairage, accueil décontracté.",déco positive <sep> éclairage neutral <sep> accueil positive
+g187147-d2001829-r198367000,id_5,"En bref, la qualité du service est un comble pour un établissement mettant en avant ses influences new-yorkaise!",service negative <sep> établissement neutral
+g187147-d718146-r234555664,id_6,Lièvre pas mauvais mais trop broyé.,Lièvre negative
+g187147-d1336322-r243511045,id_2,"Pour le même prix, vous trouvez un bon nombre d'adresses dans cette meme rue!",
+g187147-d1474710-r268236876,id_0,Un endroit à fuir absolument.,endroit negative
+g196719-d2614773-r282960504,id_1,"Une belle carte montagnarde aussi, et d'excellentes glaces à déguster en été dans le petit jardin à l'arrière du restaurant.",carte positive <sep> glaces positive <sep> jardin positive
+g187143-d3895071-r258653920,id_1,"L'autre serveuse étant, pour sa part , très gauche dans le service.",service negative
+g187147-d3215707-r208333865,id_3,Perso j'avais pris le tournedos à 16 euros.,
+g187253-d1900905-r238944051,id_4,Le personnel est tres attentionné.,personnel positive
+g187253-d2189616-r221189178,id_0,Je connais l'adresse depuis longtemps,
+g187147-d3498968-r240263031,id_0,"Une bonne cuisine Française dans ce restaurant, un lieu très chaleureux, un bon service que demander de plus?",service positive <sep> cuisine Française positive <sep> lieu positive
+g187103-d2356006-r280461370,id_0,un bon petit resto qui sert d'excellentes pizzas ou d'autres petits plats pour ceux qui préfèrent débuter autre chose,resto positive <sep> pizzas positive <sep> plats positive
+g187147-d803519-r282932467,id_4,un des serveurs a le physique d'un enfant de 15ans ;) mais très dynamique et sympa.,serveurs positive
+g187147-d4235143-r220435098,id_1,Un simple café de quartier qui s'improvise restaurateur.,café negative
+g187147-d1516382-r258841083,id_3,Les pates collantes,pates negative
+g196495-d1325023-r259859192,id_2,Sauce blanche délicieuse !!!!,Sauce blanche positive
+g187147-d786149-r239880232,id_0,"L'endroit est sale, la nourriture industrielle et de très mauvaise qualité, le personnel peu aimable, rien dans ce restaurant n'est acceptable.",endroit negative <sep> nourriture negative <sep> personnel negative <sep> restaurant negative
+g207360-d4481417-r281591572,id_3,Le bressane est ma préférée.,bressane positive
+g187253-d784568-r229967112,id_0,Restaurant visité pour occasion familiale.,
+g187198-d3845154-r255380212,id_6,Un plat et une galette du jour sont également proposés.,galette du jour neutral <sep> plat neutral
+g187075-d1324447-r268262547,id_4,Nous laissons une seconde chance.,
+g187209-d3331856-r241685274,id_2,Le pain était sec et rassi.,pain negative
+g196680-d7233499-r227244489,id_0,"C'est la meilleur pizza de Gap et voir même de France.... Demandez la ""comme DAB"" de Chris...",
+g187147-d809052-r241016390,id_1,"Service très lent et désordonné, cuisine surgelée et mauvaise, des assiettes banales qu'un enfant peut préparer et qui ne mettent pas en appétit ...",Service negative <sep> cuisine negative <sep> assiettes negative
+g187147-d2138896-r246046753,id_2,Je ne peux pas donner des notes .,
+g187147-d2058328-r229960356,id_0,"Disons le clairement, il s'agit de notre restaurant préféré à Paris!",restaurant positive
+g187253-d804636-r163197804,id_4,"Les Marseillais, eux, se rabattent sur les nouvelles adresses ouvertes par les nouveaux venus en ville...",
+g187077-d3984325-r265548233,id_2,Les plats sont classiques mais corrects avec un prix qui l'est aussi.Vient ensuite l'ambiance musicale qui correspond à l'idée que l'on se fait de ses endroits .,plats neutral <sep> ambiance musicale neutral
+g187111-d2221139-r258427248,id_0,Un patron qui pourrait être un cas d'école dans les écoles d'hôtellerie.,
+g187147-d1119908-r146734960,id_5,"Dommage, car le décor demeure impressionnant.",décor positive
+g187147-d3693829-r248014416,id_1,Entrées a partager : tres bonnes !,Entrées positive
+g187253-d804648-r206878302,id_1,"Côté boullabaisse, on vous présente un énorme plateau de poisson avant la cuisson.",boullabaisse positive <sep> plateau de poisson positive
+g187253-d1639457-r152371370,id_1,"Après un accueil et un service moyen, la carte paraissait alléchante mais quand les plats sont arrivés ce n'était pas à la hauteur.",accueil negative <sep> service negative <sep> carte positive <sep> plats negative
+g187253-d1234630-r274467132,id_0,Correspond par tous points au piège à touristes par excellence.,piège à touristes negative
+g187122-d3253908-r246575372,id_5,"Pour le plat le serveur nous avait dit que la viande était servie avec une sauce au foie gras, nous n avons pas retrouvé le goût du foie gras car en fait c'était une sauce au vin qui masquait complètement le foie gras.",viande negative <sep> sauce au vin negative
+g187147-d718134-r168142384,id_0,Les plats sont excellents de l'entrée au dessert.,plats positive
+g187147-d695099-r213681876,id_3,Le service s'est dégradé.,service negative
+g187178-d2282922-r240259092,id_2,...,
+g187147-d949737-r258138594,id_4,De nouveau 30 à 40 mn d'attente pour les desserts qui ne sont pas mangeables et renvoyés à la 2ème bouchée tarte fine au pommes trop froide et glace vanille arrivée à moitié fondue et pour mon mari crêpes cartonnées ...,desserts negative <sep> tarte fine au pommes negative <sep> glace vanille negative <sep> crêpes negative <sep> attente negative
+g187111-d5533894-r241388800,id_2,Sur le fond : j'y suis allé 2 fois dans les 3 derniers mois pour manger un hamburger et franchement le contenu de l'assiette n'est pas à la hauteur du prix et c'est véritablement sur ce point que se situe le problème.,assiette negative
+g187147-d718804-r215863872,id_11,A cela s'ajoute la mauvaise foi de la patronne...,patronne negative
+g187147-d718040-r276053524,id_1,"Service impeccable, le patron et le serveur ont toujours le sourire !",Service positive <sep> patron positive <sep> serveur positive
+g187147-d799578-r31693043,id_2,"En revanche, les plats que nous avons commandés n'avaient franchement rien d'exceptionnel : légumes pas assez cuits, une souris d'agneau servie en grosse portion, sans finesse aucune.",plats negative <sep> légumes negative <sep> souris d'agneau negative
+g187155-d2467288-r225229825,id_0,"Test du menu à 9.90 plat et dessert : pièce de bœuf de 3 millimètres d épaisseur 4 centimètres de large sans goût une honte, desset crème caramel au beurre salé industrielle chimique pas bon",pièce de bœuf negative <sep> desset crème caramel au beurre salé negative
+g187147-d695114-r280456667,id_1,A la carte c'est beaucoup plus cher mais le choix est plus large.,carte negative <sep> carte positive
+g187175-d4274999-r261894068,id_2,Avec une petite histoire sur la bouteille de vin choisie excellemment raconter par le patron fort agréable.,patron positive
+g608761-d2053817-r143008138,id_3,Il est remplacé par un autre avec mon accord.,
+g187147-d718133-r279293892,id_2,"L'accueil et le service, c'est comme dans l'assiette avec un menu déjeuner qui n'a pas son égal !",menu déjeuner positive <sep> accueil positive <sep> service positive
+g187147-d1650840-r242497721,id_4,Vous pouvez aussi prendre le menu à 34 euros plus sophistiqué ou choisir la carte.,menu neutral
+g187147-d1336849-r242014326,id_1,Service d'une lenteur incroyable.,Service negative
+g187147-d1211203-r280065031,id_4,"L'assiette de fromage, s'il vous reste un peu de place, est généreuse et excellente.",assiette de fromage positive
+g187147-d2001829-r198367000,id_0,"Jolie déco, bonne musique, nourriture d'un rapport qualité/prix correcte...un établissement qui serait des plus agréables si le service n'était pas détestable et tout sauf professionnel :",déco positive <sep> musique positive <sep> nourriture neutral <sep> établissement positive <sep> service negative
+g187147-d1474710-r268236876,id_2,Des serveurs antipathiques au possible.,serveurs negative
+g3463365-d7619600-r260351566,id_4,Entrée : Cassolette de fruits de mer ou salade périgourdine,
+g187206-d2205086-r180308486,id_7,je recommande ce restaurant.,restaurant positive
+g187147-d3989748-r275822551,id_2,Service agréable qui plus est.,Service positive
+g187253-d4414030-r197767293,id_3,"Un plat (très copieux, et resservi si besoin) avec un thé a la menthe pour digérer : 12€",plat positive
+g187178-d4173834-r267142253,id_3,ainsi que le contenu des assiettes.,assiettes positive
+g187209-d4070250-r259984150,id_0,"Le cadre est charmant , bien agencé et convivial !",cadre positive
+g187253-d784568-r229967112,id_3,"Un beau et grand classique, qui ne décevra pas, quelque que soient les goûts, des grands et petits.",classique positive
+g187147-d1119908-r146734960,id_0,Restaurant désormais à éviter.,Restaurant negative
+g187147-d786001-r274077961,id_3,"Une cuisine de bistrot mais très soigneuse, certains plats traditionnels sont excellemment revisités.",cuisine positive <sep> plats traditionnels positive
+g187253-d2244194-r278706020,id_3,"service de cantine, la serveuse porte la ""soupe"" de poissons entre ses 2 mains par ce que l'assiette est chaude, sans liteau, sans classe vraiment",service negative <sep> serveuse negative
+g3463365-d3594852-r200815446,id_1,"Nous avons pris le menu à 29,90€.",
+g187143-d1334240-r221037683,id_3,Mais après :,
+g187095-d2489564-r275289811,id_0,"Nous avons rarement mangé des pizza aussi médiocres... pas cuites, mal garnies,...",pizza negative
+g187198-d2041733-r222676078,id_3,"Les produits ne sont pas maison, ce qui se ressent sur le goût.",produits negative
+g187147-d2001829-r195744098,id_0,L endroit est sympa mais le service du personnel n était pas au rendez vous,endroit positive <sep> service negative
+g187147-d1863423-r275546008,id_2,Les serveuses totalement absentes et incompétente et le responsable aveugle a tout ca.,serveuses negative
+g187147-d2346326-r232711313,id_7,Un des serveurs a été rapide cette fois ci en venant vers nous car il avait l'air de penser qu'on allait partir sans payer.,serveurs negative
+g187147-d1191240-r240499837,id_1,"Pour les autres plat, aucun légume vert n'est proposé en accompagnement il faut se contenter de frites, purée de pommes de terre risotto ou les légumes du pot au feu....Le service inexistant, à la question qu'y a-t-il dans le café gourmand la réponse fut ça dépend...",plat negative <sep> service negative
+g187147-d718804-r215863872,id_9,"Le dessert, une soupe de fraises au basilic était correct.",soupe de fraises au basilic neutral
+g293827-d6898510-r283618902,id_1,"Décoration sympa, service correcte.",Décoration positive <sep> service neutral
+g608761-d1334387-r277341177,id_2,Une carte orientale avec Couscous Tajines en principal dans plusieurs déclinaisons.,carte neutral
+g187147-d1381523-r158339054,id_2,Le serveur n hésite pas a accuser ses clients de ne pas payer (alors que c est son travail de calculer correctement ..) le manager est agressif et empoigne ses clients sous prétexte qu ils ont pas payer ....,serveur negative
+g187253-d1328827-r266271011,id_7,"Dorade au champagne : Colin surgelé avec de la sauce blanche et des herbes, pas de champagne",Dorade au champagne negative
+g187147-d718125-r136582295,id_2,De l'entrée au dessert en passant par un très beau choix de carte des vins.,carte des vins positive
+g187122-d2253489-r276554003,id_3,"Ayant pu goûter à la crêpe montagnarde, celle-ci est copieuse et bien garni.",crêpe montagnarde positive
+g187253-d1223545-r227663690,id_2,"Wok thai médiocre, 2 salades chèvre/saumon, l'une correcte mais l'autre manquait brousse et feuille de brique!!!",Wok thai negative <sep> salades chèvre/saumon neutral <sep> salades chèvre/saumon negative
+g187206-d4606069-r283959222,id_3,"Seul bémol, le prix du vin au verre qui est trop cher.",vin au verre negative
+g187147-d1931769-r208098047,id_0,Choix du buffet très restreint.,buffet negative
+g187147-d3693829-r248014416,id_2,Par contre les plats : attention !,plats negative
+g187253-d1308414-r269942828,id_4,"La bouillabaisse, copieuse, était un régal (aucune arête en plus !).",bouillabaisse positive
+g187253-d1331961-r118398179,id_0,"Nous avions réservé dans ce restaurant en voyant qu'il était recommandé par le Gault et Millau, il a une déco super sympa et tout paraissait être réuni pour découvrir une nouvelle bonne table sur Marseille.",déco positive
+g187253-d1323139-r272593855,id_2,Nous y retournerons certainement pour manger sous ce magnifique platane qui représente bien la terrasse du sud de la France.,platane positive
+g187147-d718815-r239220174,id_6,"Malgré cela, j'y retournerai avec plaisir et vous invite à découvrir cet endroit.",endroit positive
+g207360-d5778124-r197371997,id_0,Un restaurant où l'on a l'embarras du choix pour s'assoir.,restaurant neutral
+g187147-d1804977-r259316015,id_0,Le service dans ce bistro plus que typique parisien est agréablement bon.,bistro neutral <sep> service positive
+g187147-d695115-r213875078,id_1,La cuisine est excellente dans un cadre original dans lequel on se sent bien.,cuisine positive <sep> cadre positive
+g207360-d1322426-r168375321,id_3,"Ne parlons pas du sourire forcé de la serveuse, mais nous étions prévenu sur ce point.",serveuse negative
+g187147-d718134-r168142384,id_3,Le cadre est très agréable et le service cordial.,cadre positive <sep> service positive
+g187147-d3334046-r158441962,id_1,Les vins y sont très chers.,vins negative
+g187253-d3367883-r261318845,id_0,"Nous etions 5 ce jour a vouloir dejeuner en terasse de cet etablissement, avec son grand choix la carte convient a tout le monde.",carte positive
+g196680-d7007014-r256470796,id_2,"La petite carte est bien appétissante... hélas j'ai été un peu déçu par les Galettes, pas très grandes, pas très gouteuses, pas très chargés...",Galettes negative <sep> carte positive
+g187073-d2705770-r280684337,id_1,"La cuisine est travaillée et change régulièrement, le service est très professionnel, attentionné et charmant.",cuisine positive <sep> service positive
+g187147-d7910212-r273306333,id_2,"Un menu enfant avec un seul choix de plat et pas possible d'avoir autre chose, nous avons dû commander la pintade beaucoup trop copieuse pour un enfant de 8 ans qui nou sa été compté en plat adulte à 25 euros !",menu enfant negative <sep> pintade negative
+g187147-d2058328-r229960356,id_3,"En dessert, en plus de l'incontournable tarte au citron servie autrement, nous nous sommes également régalés avec la brioche perdue...Superbe!",tarte au citron servie autrement positive <sep> brioche perdue positive
+g187147-d798971-r246183177,id_2,"Les desserts ne sont pas en reste, charlotte au choco, pain perdu et café gourmand.",desserts positive
+g1582538-d3877732-r250915172,id_3,"La table des desserts donne vraiment envie, on vous y coupe une bonne part de tarte gourmande ou de gâteau frais, fait maison!",table des desserts positive <sep> tarte gourmande positive <sep> gâteau positive
+g187198-d3845154-r255380212,id_0,Nous sommes allés déjeuner dans ce petit restaurant.,
+g187178-d4173834-r267142253,id_6,Mes collègues aussi étaient satisfaits de leurs assiettes dans l'ensemble.,assiettes positive
+g187147-d695189-r251436609,id_0,Je suis venu dîner dans ce restaurant avec des collègues.,
+g187253-d1639457-r152371370,id_7,"D'ailleurs il n'y avait que trois tables dans le restaurant, un vendredi soir !",restaurant negative
+g187253-d3247810-r266613025,id_4,"Entre la terrasse l été et les tables au coin de la cheminée l hiver, la musique, le cadre réunit tous les ingrédients pour passer une superbe soirée.",terrasse positive <sep> musique positive <sep> cadre positive <sep> cheminée positive
+g187155-d3194494-r225589189,id_0,"Lors du festival des barques, nous sommes arrivés par hasard sur cette placette.",
+g187122-d2277420-r286816327,id_2,la cuisine est très bonne.,cuisine positive
+g187147-d3216867-r254353823,id_1,Même en pleine hiver nous avons pu manger en terrasse grâce au chauffage extérieur.,terrasse positive
+g187253-d1066323-r282644003,id_4,J'y retournerai quand même bien volontiers ; pour la qualité des pizzas :),pizzas positive
+g187253-d2027102-r115708876,id_3,La cuisine sans prétention reste simple et de bonne qualité.,cuisine positive
+g187147-d1650840-r242497721,id_0,L'ambiance est agréable dans ce petit restaurant à la déco sobre et élégante.,ambiance positive <sep> déco positive
+g187147-d3216867-r254353823,id_0,Le seul bon point le cadre très sympa.,cadre positive
+g187091-d1325827-r240732814,id_5,Repas pas tres bien présenté,Repas negative
+g187111-d5533894-r241388800,id_0,"Sur la forme : l'établissement est plutôt bien décoré, lumineux et agréable, tout à fait dans le style américain.",établissement negative
+g187147-d4469705-r220591154,id_0,Manifestement ce restaurant a préféré tout miser sur le cadre au détriment de la cuisine !,cadre positive <sep> cuisine negative
+g196719-d3348013-r236980536,id_5,Et le désastre du dessert à continuer.,dessert negative
+g187147-d718815-r239220174,id_3,L'accueil est souriant et le service agréable.,accueil positive <sep> service positive
+g187075-d1324447-r268262547,id_6,"Réponse du personnel : "" Si vous ne vouliez pas d'insectes, il fallait manger à l'intérieur !""",
+g187147-d6877828-r267314039,id_1,"Mais coté service et organisation, c'est de l'improvisation en permanence.",service negative
+g187253-d2185886-r237459426,id_1,"Le plat du jour comme son nom l'indique est plutôt un gage de fraicheur et qualité; ce jour là si le sanglier était convenable, l'accompagnement très limite à savoir des pâtes desséchées et froides.",sanglier neutral <sep> accompagnement negative <sep> pâtes negative <sep> plat du jour positive
+g187147-d718799-r284156821,id_7,Les moins :,
+g187147-d1792445-r174875334,id_0,Ce restaurant se situe dans une rue piétonne dédiée aux touristes de masse et est entouré d'autres restaurants du même acabit.,rue piétonne negative <sep> restaurant negative
+g187253-d2027102-r115708876,id_5,"Le vin blanc était tout à fait adéquat et à un prix plus que raisonnable, 14 euros...",vin blanc positive
+g196680-d7233499-r227244489,id_1,"Un mélange de tout avec crème fraîche dessus, le tout sur une pâte délicieuse et parfaitement cuite...",pâte positive
+g187253-d1308414-r269942828,id_5,"Le seul petit bémol : le plat principal du menu m'a été servi quasi froid, peut-être à cause du temps de préparation de la bouillabaisse.",plat principal negative
+g187147-d803519-r282932467,id_2,Tiramisu a la fraise efficace en fin de dîner.,Tiramisu a la fraise positive
+g187151-d3325374-r277158312,id_10,Je vous déconseille totalement ce restaurant médiocre ou malheureusement beaucoup de touristes étrangers se font piéger.,restaurant negative
+g635821-d5792203-r217535741,id_1,restaurant moyen que j'éviterai,restaurant negative
+g187147-d1567976-r183244327,id_1,Serveur pas du tout sympa avec un humour très noir et ni merci ou rien en partant.,Serveur negative
+g187269-d1811061-r210549792,id_5,"Menu Grands Gourmand, 2 plats, 4 € de supplément pour le fromage...",fromage negative
+g187147-d1494308-r188893298,id_0,"Décoration vieillotte , des menus sales et gras , un service inexistant , une bière chaude qui n'a même pas été changee , des viandes trop cuites ( accompagnées de poires !!) et limités avariées ...",Décoration negative <sep> menus negative <sep> service negative <sep> bière negative <sep> viandes negative
+g187147-d5225776-r279485100,id_2,"Les plats, bien présentés, colorés et ragoutants, étaient copieux et savoureux.",plats positive
+g187253-d1098498-r217655976,id_3,"- la nourriture: les pizzas sont bonnes, pour les supions à la persillade passez votre chemin car il y a beaucoup mieux.",pizzas positive <sep> supions à la persillade negative
+g187147-d695072-r151206284,id_1,Des plats sans saveur a des prix exorbitants!,plats negative
+g187207-d1739381-r231404724,id_1,Cadre très agréable principalement en ext malgré un manque de jardinier .....,Cadre positive
+g187147-d1450531-r187797211,id_1,"Sous prétexte d'inventaire, il manquait la moitié des plats, entrées et vins.",plats negative <sep> vins negative <sep> entrées negative
+g187253-d1900905-r238944051,id_5,En somme un Resto où on peut venir entre amis pour bien manger et de manière rapide si on le souhaite,Resto positive
+g187147-d695189-r251436609,id_9,Mon voisin a fait réchauffer ses rognons qui étaient froid.,rognons negative
+g187147-d1515398-r264607143,id_4,Mais pensez à réserver car il n'y a pas beaucoup de places et le bistrot se remplit vite !!!,bistrot neutral
+g196719-d4294505-r223776905,id_2,Les desserts sont un peu en dessous.,desserts neutral
+g187147-d695189-r251436609,id_4,Le dessert une tarte fine a été très moyen.,tarte fine negative
+g187147-d945494-r280101574,id_0,"Un ami nous a recommandé ce restaurant, et il a eu bien raison.",restaurant positive
+g187253-d1308414-r269942828,id_2,Le personnel est très prévenant.,personnel positive
+g187147-d718799-r284156821,id_10,"- Les vins ""bio"" ""naturel"" souvent cher et dégueulasse",vins negative
+g187143-d3895071-r258653920,id_0,Le cadre est vraiment sympathique et la déco très agréable ce qui contraste avec le peu d'amabilité d'une des serveuses assez désagréable et passée maître dans l'art de faire des réflexions à la clientèle.,cadre positive <sep> déco positive <sep> serveuses negative
+g187147-d1336849-r242014326,id_3,Choix terrible.,Choix negative
+g187147-d718146-r234555664,id_0,Restaurant bondé.,Restaurant neutral
+g187164-d1402721-r237318486,id_2,Pourtant lorsqu'à 20hoo dans un resto c'est vide c'est que c'est louche… Mais bon on avait pas mal tournée et les restos de Metz était complet ….,resto negative
+g3463365-d7619600-r260351566,id_3,Les assiettes sont copieuses,assiettes positive
+g187253-d2261564-r243521218,id_0,Resto de bord de mer idéalement situé.,Resto positive
+g187206-d7015016-r279931558,id_2,En revanche ce qu'il y avait dans mon assiette : danger !,assiette negative
+g187122-d2219300-r244953567,id_3,Je vous passe les plats tièdes et sans saveur appuyée,plats negative
+g187178-d2282922-r240259092,id_11,Dommage car les plats avaient l'air très bon contrairement aux sandwichs triangle du supermarché que nous avons dû manger en vitesse dans la rue !!,plats positive
+g187147-d7910212-r273306333,id_7,"Le patron breton est, lui, sympa !",patron positive
+g187103-d2329304-r282963974,id_0,"1ère fois que le service n'est pas à la hauteur de la cuisine dans les restos que je fréquente à Rennes, dommage.",service negative
+g187111-d3423656-r282520762,id_6,Rien à reprocher au service si ce n'est la hâte de fermer la boutique !,service neutral
+g187164-d2282811-r279714469,id_2,"Le service est impeccable, personnel agréable.",service positive <sep> personnel positive
+g1080298-d1332050-r275655485,id_0,"Nous avons bien aimé l'ambiance, sur la promenade principale de Narbonne-Plage, et la qualité du service.",ambiance positive <sep> promenade positive <sep> service positive
+g187147-d695115-r213875078,id_2,Une belle carte pleine de bonnes surprises.,carte positive
+g187147-d781410-r245477683,id_1,Les serveurs sont difficilement compréhensibles et surtout peu aimables !,serveurs negative
+g187253-d4137659-r257264460,id_0,"Si je devais déjà définir le cadre, je dirais bluffant.",cadre positive
+g187147-d803519-r282932467,id_1,"Petite salade d'été, simple fraîche et pas cher.",salade positive
+g187122-d3253908-r246575372,id_3,Le vin n'a pas été servi à la bonne température.,vin negative
+g187253-d2261564-r243521218,id_3,"Je ne retournerai pas dans ce restaurant, même après 10 heures de digestion, la salade de chèvre chaud n'est toujours pas passée.",restaurant negative <sep> salade de chèvre chaud negative
+g187207-d3380505-r280183276,id_2,Cadre exceptionnel ; la salle est dans une ancienne abbaye réaménagée.,Cadre positive
+g187147-d1863423-r275546008,id_1,"En commençant par les escargots tièdes et minuscules, l'entre côté pleine de veines sans goût et Sans texture.",escargots negative <sep> entre côté negative
+g187147-d3673580-r235127999,id_4,"Service très perfectible (lent, et mal organisé).",Service negative
+g187122-d2277420-r286816327,id_0,la décoration très sympa.,décoration positive
+g187265-d3724621-r161225264,id_2,Sinon ambiance sympa à deix pas de la part dieu.,ambiance positive <sep> part dieu positive
+g187147-d779840-r237971138,id_8,"On a payé 56€ pour 3 entrées, 2 plats et accompagnements et 2 desserts.",
+g187147-d1774964-r260536177,id_0,"Accueil moyen, on a l'impression d'embêter le personnel.",Accueil negative
+g187143-d6499916-r218269120,id_0,Une cuisine simple avec des produits frais et cuisinés maison.,cuisine positive <sep> produits positive
+g187147-d2058328-r229960356,id_4,"Entrée, plat, dessert à 30€ le soir, verre de vin à 8€.",
+g3463365-d7619600-r260351566,id_6,Fromage et Dessert café gourmand,
+g187253-d1639457-r152371370,id_4,Un saumon vapeur servi également avec une sauce oignons...,
+g187206-d2205086-r180308486,id_1,A savoir qu'il y a une majorité de restaurants pour touristes.,
+g187178-d947032-r245717891,id_3,Et les St Jacques étaient caoutchouteuses!,St Jacques negative
+g187147-d6405461-r234970703,id_0,On a trouvé tout très bon mais l accueil pas très sympa et le service horrible.,accueil negative <sep> service negative
+g187253-d4972334-r237403818,id_2,Un cadre simple mais pourtant très authentique et étudié...un style américain années 70 tout en simplicité et goût.,cadre positive
+g187075-d3489527-r254992608,id_0,"Petit restaurant au décor soigné, aux tables bien mises.",décor positive
+g187207-d778869-r286120323,id_2,"Ce restaurant est devenu notre préféré sur Poitiers, nous le recommandons donc vivement !!!",restaurant positive
+g187147-d718132-r119263750,id_1,"Le service a été impeccable, à la fois diligent et discret.",service positive
+g187178-d2282922-r240259092,id_8,"Au bout de 40 minutes d'attente nous nous décidons à partir, bien enervés.",attente negative
+g187162-d3685071-r286657867,id_1,"L'accueil n'est pas tip-top, le service non plus et les plats ne sont pas géniaux.",service negative <sep> accueil negative <sep> plats negative
+g1080574-d1337519-r211045323,id_2,"On commande quand même, lasagnes pâteuses, avec beaucoup de fromage sans saveur sur le dessus, ce qui atténuait l'acidité du concentré de tomates ... !",lasagnes negative <sep> fromage negative <sep> concentré de tomates negative
+g187143-d3895071-r258653920,id_2,Et pour parfaire le tout la musique très forte de l'espace lounge empêche toute conversation entre les convives ce qui est dommage car la cuisine est bonne dans son ensemble hormis les desserts qui nous ont été vendus comme desserts maison mais qui semblent plutôt sortir de chez Metro ou autres fournisseurs restauration!,musique negative <sep> desserts negative <sep> cuisine positive
+g187147-d4469705-r220591154,id_3,Ah !,
+g196640-d3784521-r285274679,id_0,Superbe accueil.,accueil positive
+g187253-d3159170-r200522623,id_4,Le dessert ne m'a pas laissé de souvenir mémorable (un thé gourmand).,dessert negative
+g187253-d804648-r206878302,id_0,"Le cadre est exceptionnel, rien que ça, ça vaut le coup.",cadre positive
+g196680-d7007014-r256470796,id_6,Le service est pro.,service positive
+g187253-d3590719-r279323659,id_1,Des produits frais avec des bonnes positions de l'équipe qui est au petit soin .,produits positive <sep> équipe positive
+g187147-d1869876-r253058218,id_0,"Petit restaurant typiquement parisien, mais les plats sont délicieux !",restaurant neutral <sep> plats positive
+g187253-d4972334-r237403818,id_10,Les dessert sont à tomber avec le cheesecake au Toblerone !,cheesecake au Toblerone positive <sep> dessert positive
+g187147-d6483261-r272575407,id_2,"De plus, un bon rapport qualité/prix pour ce restaurant parisien.",restaurant positive
+g187253-d1308414-r269942828,id_1,La terrasse sur la place est agréable (peu de circulation).,terrasse positive
+g187147-d3982598-r229977371,id_2,"Les boulettes sont délicieuses, les brochettes d'agneau également.",boulettes positive <sep> brochettes d'agneau positive
+g187147-d718132-r119263750,id_3,La synchronisation (moment pour servir les différents plats) était tout à fait correcte.,synchronisation positive
+g187253-d784568-r229967112,id_2,"Repas bon, raffiné, dans un bon timing.",Repas positive <sep> timing positive
+g297569-d4443971-r266268877,id_0,"accueil agréable, cadre sympa.",accueil positive <sep> cadre positive
+g187147-d718804-r215863872,id_12,"Malgré une terrasse sympa, je ne mettrai plus jamais les pieds de ma vie dans ce restaurant...",terrasse positive <sep> restaurant negative
+g187095-d1954560-r227348486,id_6,Nous avons donc décidés de partir sans dessert !,
+g187253-d2261564-r243521218,id_1,"Bon service, accueil chaleureux.",service positive <sep> accueil positive
+g187147-d5225776-r279485100,id_1,Accueil rapide et courtois.,Accueil positive
+g187147-d2001829-r195744098,id_5,Le seul point positif est le chocolat chaud,chocolat chaud positive
+g187140-d1322541-r286192533,id_1,Le cadre est tout simplement incroyable / le menu unique a 36 euros vous fait découvrir quelques plats typiques corses....,cadre positive <sep> menu neutral
+g187207-d778869-r286120323,id_0,Cuisine à la fois raffinée et généreuse qui travaille avec des produits de qualité.,Cuisine positive <sep> produits positive
+g187147-d947484-r266104321,id_0,"L'accueil est vraiment conviviale, c'est un petit paradis quand on est en terrasse, la cuisine est excellente.",accueil positive <sep> terrasse positive <sep> cuisine positive
+g187143-d1334240-r221037683,id_4,"La complexité annoncée des plats, elle est ou ?",plats negative
+g187147-d2239316-r239304403,id_0,Quelle surprise au regard de la renommée de cette brasserie-restaurant où certes les serveurs ont gardé le style des grandes brasseries mais le service est un peu direct et la cuisine n'est véritablement pas à la hauteur de l'addition car sans se déplacer bien loin on trouve d'autres tables qui eux parfois à l'écart des grandes tours restent raisonnables mais respectent la clientèle,
+g187253-d2189616-r221189178,id_1,mais grosse déception :,mais grosse déception negative
+g187253-d1332190-r282285117,id_9,Coincidence?.....,
+g187143-d6499916-r218269120,id_2,Même les petits biscuits qui accompagnent le café sont faits maison.,biscuits positive
+g1582538-d3877732-r250915172,id_5,Et l'équipe est adorable!,équipe positive
+g187147-d793296-r180039349,id_2,"Les produits sont bons et de bonne qualité cependant et l'endroit, même si un peu sombre à mon goût, n'est pas désagréable.",produits positive <sep> endroit positive
+g187253-d797687-r183253540,id_0,Des plats au gout infâme réchauffés au micro ondes!,plats negative
+g187253-d1329377-r193520980,id_2,La croustade de saint Jacques est le meilleur de nos plats (les saint jacques sont généreuses et la sauce est bonne).,saint jacques positive <sep> sauce positive <sep> croustade de saint Jacques positive
+g187265-d807993-r250903963,id_0,Deuxième passage dans ce petit restaurant lyonnais.,
+g187147-d695264-r251049321,id_1,"Nous avons gouté plusieurs plats sans saveur, sans raffinement.",plats negative
+g187253-d1328827-r266271011,id_1,Millefeuille tomates mozzarella : simple salade tomate mozza,Millefeuille tomates mozzarella negative
+g187147-d4272002-r260711186,id_3,Le rosé était tiède.,rosé negative
+g187147-d1113739-r231078339,id_1,"Et pour enrober le tout, un service avec le sourire du début à la fin :) !",service positive
+g187162-d4817543-r282798322,id_1,Le patron a beaucoup d'humour et prend plaisir à animer la salle.,patron positive
+g187151-d3325374-r277158312,id_4,"Lorsque nous l'avons fait remarqué, les serveuses ont pris l'air de ne pas comprendre.",serveuses negative
+g187147-d3989748-r275822551,id_0,Les tapas sont excellents...La charcuterie est de qualité aussi.,charcuterie positive <sep> tapas positive
+g207360-d5778124-r197371997,id_3,La déco est bas de gamme et clinquante.,déco negative
+g187206-d7701542-r270808539,id_2,Les frites et le vin blanc étaient médiocres.,frites negative <sep> vin blanc negative
+g187253-d7591580-r286665099,id_3,"Lorsque le serveur nous demande si ça allait , je lui dis que la viande était bonne mais que la cuisson n'était pas celle que j'avais demandé.",viande negative <sep> viande positive
+g187091-d3464501-r235318144,id_1,"Produits frais, plats proposés en fonction de l'arrivage, menu concis mais plats extrêmement savoureux.",Produits positive <sep> plats positive <sep> menu neutral <sep> plats positive
+g187147-d695189-r251436609,id_3,Le plat des coquilles Saint Jacques avec des pâtes a été correct.,coquilles Saint Jacques neutral
+g187164-d3468932-r269562341,id_0,"Des mets dans l'ensemble correcte mais un canard trop sec , un tiramitsu trop expresso et une gaufre à la chantilly trop chocolatée !",canard negative <sep> tiramitsu negative <sep> gaufre negative <sep> mets neutral
+g187147-d779840-r237971138,id_3,L'accueil: au top!,accueil positive
+g187147-d779419-r270630138,id_1,Serveuse très agréable et souriante.,Serveuse positive
+g187212-d2215986-r140498637,id_1,"Car des bagels ça change des snacks habituels, la place est sympa.",place positive <sep> bagels positive
+g187253-d1223545-r227663690,id_0,J'avais réservé 4 jours à l'avance une table pour 9 personnes vue mer pour un anniversaire.,
+g187147-d795288-r194158635,id_0,"Nous avons beaucoup fréquenté ce petit restaurant , mais là il a beaucoup baissé ...",restaurant negative
+g187207-d3721902-r279950763,id_7,"seul le vin était correct en rapport Q/P, les entrées et desserts sont inégaux quant à eux.",vin neutral <sep> entrées negative <sep> desserts negative
+g187209-d6735398-r237571768,id_3,"Les confitures maison sont un délice, je vous conseille prune - fenouil, association atypique mais divine!",confitures maison positive <sep> prune - fenouil positive
+g293827-d3664116-r284685459,id_2,"Le restaurant n'est pas grand, avec un étage et un escalier abrupt.",restaurant negative
+g187147-d3215707-r208333865,id_2,A recommander.,
+g196680-d7007014-r256470796,id_0,"Situé dans une petite rue du vieux centre de Gap, ce restaurant est bien décoré.",restaurant positive
+g187253-d1098498-r217655976,id_4,"En effet, les supions sont servis à peine frits avec des têtes d'ail entières tout comme les pommes de terre sautées du jamais vu et surtout aucun goût!",supions negative <sep> pommes de terre sautées negative
+g187164-d1750965-r279744529,id_0,"Les serveuses sont gentilles, le serveur ou chef de rang n'est pas professionnel.",serveuses positive <sep> serveur negative
+g187147-d1211203-r280065031,id_0,Cela fait trois fois maintenant que je vais dîner à ce restaurant et trois fois que je me régale toujours autant.,restaurant positive
+g187147-d3693829-r248014416,id_6,Decevant coté cuisine !,cuisine negative
+g187095-d1872852-r270870454,id_2,Tous les plats sont bons avec une mention spéciale pour le cassoulet breton,cassoulet breton positive <sep> plats positive
+g187253-d4972334-r237403818,id_12,Entrée/ plat / dessert à 2 pour une 40 ene euros,Entrée/ plat / dessert positive
+g293827-d3664116-r284685459,id_5,"Le midi, la carte est simple, on a le choix entre 3 entrées, 3 plats principaux et 3 déserts, sauf qu'au choix du dessert il n'y avait plus le choix mais un seul type de dessert.",carte neutral <sep> dessert negative
+g187147-d786001-r274077961,id_4,Le pot au feu aux joues de boeuf est à tomber par terre!,pot au feu aux joues de boeuf positive
+g187253-d3531866-r270325180,id_3,"Arrivages de poissons journalier, donc extra frais.",poissons positive
+g187147-d718804-r215863872,id_6,"La ""purée"" dite maison est de la mousseline, et je ne parle pas des autres légumes qui sont bouillis et sans goût.",purée negative <sep> légumes negative
+g187253-d1331961-r118398179,id_2,"Pas de vin à moins de 35 € la bouteille, des prix qui se justifieraient si la qualité des mets était à la hauteur.",mets negative <sep> bouteille negative
+g187147-d718799-r284156821,id_3,- Le sourcing des produits est top,produits positive
+g187162-d4282113-r244643659,id_1,"La cuisine est vraiment fade, sans saveur.",cuisine negative
+g187253-d1639457-r152371370,id_5,"Une profiterole proposée XL mais dans l'assiette le chou était trop cuit, donc déception, il vaut mieux avoir une profiterole plus petite mais meilleure.",profiterole positive <sep> chou negative
+g196680-d7007014-r256470796,id_7,Il ne manque pas grand chose à cette adresse pour que j'y retourne volontiers.,adresse positive
+g187147-d1792445-r174875334,id_1,L'animation y est pénible et bruyante et ne correspond pas au genre d'établissement que nous recherchions.,animation negative
+g187253-d1234630-r281354019,id_3,"Donc j'ai du retirer avec un serveur qui m'a suivi au cas où j'aurais décidé de ne pas revenir, en plus on a l'impression d'être des voleurs, et à mon retour un monsieur était présent à la caisse, il ne souriait pas et en plus était très désagréable.",monsieur negative
+g187178-d2282922-r240259092,id_1,"Notre commande : steak tartare, salade du chef et san pellegrino... des plats froids normalement rapides à faire.",
+g187147-d2528029-r177289336,id_0,"Des produits simples mais bons (oeufs au plat, tomates rôties et bacon), puis cheesecake maison réussi.",produits positive <sep> cheesecake positive
+g187147-d4235143-r220435098,id_3,Carte des vins inexistante.,vins negative
+g187253-d1308414-r269942828,id_6,Un adresse à recommander...,adresse positive
+g1080574-d1337519-r211045323,id_3,Dessert tout sauf maison .... !,Dessert negative
+g187253-d4414030-r197767293,id_0,Restaurant visité un soir en semaine avec réservation.,
+g187147-d719218-r246393236,id_0,Je suis allé déjeuner dans ce restaurant début décembre.,
+g3463365-d7619600-r260351566,id_5,Plat principal : médaillon de veau avec pommes de terre au four + tomates provençales et choux farcis,
+g187253-d1059925-r182398547,id_1,Ambiance et deco super.,Ambiance positive <sep> deco positive
+g196640-d3784521-r285274679,id_3,"Goutez la purée aux truffes, un régal!",purée aux truffes positive
+g187147-d799578-r31693043,id_3,Bon choix de vins.,vins positive
+g187164-d3468932-r269562341,id_1,Le moelleux speculos/chocolat était a tom et pas terre.,moelleux speculos/chocolat positive
+g187253-d3590719-r281453784,id_0,"Un excellent petit resto avec des produits frais et plats faits maison, ce qui fait une carte réduite mais avec des plats avec un goût exquis.",produits positive <sep> carte neutral <sep> resto positive <sep> plats positive
+g196680-d7702811-r279218028,id_0,Nous sommes allés manger un vendredi soir entre amis .,
+g187147-d949737-r258138594,id_2,Nous choisissons le menu à 39€,
+g196719-d3348013-r236980536,id_2,"On a tous pris le menu à 29, étant des bons mangeurs il avait l'air très alléchant.",
+g187147-d2477816-r282304814,id_0,"J'y viens souvent le midi, crèpes excellentes et très grands choix.",crèpes positive
+g187147-d2620480-r270783301,id_1,Accueil très sympathique.,Accueil positive
+g187147-d779419-r270630138,id_3,"Si on cherche la petite bête, peut etre un peu d'attente.",attente negative
+g187147-d718134-r168142384,id_1,Cela rattrape l'heure et demi d'attente pour avoir une place.,attente negative
+g187147-d2520468-r190596033,id_3,Evidemment ce n'est pas un resto gastronomique mais ce n'est pas ce qu'on lui demande!,resto neutral
+g187140-d4734576-r284845256,id_0,"Vraiment horrible certaines choses sont réchauffées, certaines pas cuites, on ne peut pas appeler ça de la cuisine!",choses negative
+g187178-d3359955-r263860028,id_1,"Mais nous ne sommes pas là non plus pour ça, mais pour manger des rognons qui apparemment ont fait ici la réputation de ce restau du vieux lille.",rognons positive
+g608761-d1334432-r281522672,id_3,Service rapide et courtois.,Service positive
+g187073-d2234111-r233672137,id_4,Etait ce la fin de saison qui voulait cela?,
+g187212-d954217-r237562692,id_0,Endroit à éviter le soir si vous êtes en famille car apparemment il y a quelquefois des soirées à thème et du coup les organisateurs (pas le propriétaire du lieu) nous ont fait comprendre qu'il fallait que l'on parte.,Endroit negative
+g187147-d718807-r133440963,id_1,"A deux pas du panthéon en plus, on se dit que ça va être touristique, mais non : un décor assez intime, rétro, avec de grands miroirs, la carte sur une ardoise à l'ancienne, les tables en beau bois...",décor positive
+g187178-d1319910-r260824414,id_0,A faire avant la fermeture car c'est un endroit mythique de Lille.,endroit positive
+g297569-d4763779-r224062574,id_0,"En visite sur l'île royale, principale île des îles du Salut au large de Kourou, nous en avons profité pour nous restaurer au seul restaurant sur place.",
+g187147-d1191240-r240499837,id_0,Si le plat fut correct (saint jacques - risotto)...il ne fallait pas avoir trop faim...seulement trois saint jacques le tout à peine chaud.,saint jacques - risotto neutral <sep> plat neutral <sep> saint jacques - risotto negative
+g608761-d1334387-r277341177,id_6,De bons desserts,desserts positive
+g187253-d1234630-r281354019,id_0,"Tout d'abord un serveur nous a littéralement sauté dessus lorsque nous lisions la carte, malgré cette méthode plutôt brutale le contenu de la carte avait l'air pas mal, nous avons donc décidés d’accepter, ensuite après avoir fait notre choix, l'attente a été longue, heureusement l'égarement d'une serveuse avec ses assiettes nous a fait passer le temps, elles nous a fait de la peine.",serveur negative <sep> carte positive <sep> attente negative
+g187253-d3159170-r200522623,id_1,"Le grand +, c'est l'accueil souriant des 2 serveuses, disponibles et connaissant bien les plats.",serveuses positive
+g187253-d2189616-r221189178,id_4,"Réponse du serveur : oui, on a des problèmes de fût en ce moment ?",
+g187147-d1516382-r258841083,id_0,J'avais rarement vu cela,
+g187147-d1515398-r264607143,id_0,Très bon bistrot.,bistrot positive
+g187206-d7015016-r279931558,id_3,J'ai soulevé le couvercle de mon burger pour vérifier et suis tombé sur des feuilles de salade toutes flétries pour ne pas dire pire que ça.,feuilles de salade negative
+g187147-d953748-r244202182,id_0,De pire en pire... cette crêperie que nous côtoyons depuis bientôt 10 ans a gagné en décoration autant qu'elle a perdu en goût et qualité dans les assiettes...,assiettes negative <sep> décoration positive <sep> crêperie negative
+g196640-d4428534-r283820751,id_0,J'ai mangé dans ce Resto pour la 2 eme fois aujourd'hui.,
+g187147-d1211203-r280065031,id_1,Les plats sont goûteux et dans de bonnes quantités.,plats positive
+g187122-d3253908-r246575372,id_0,"très déçu : Vaisselle, décor un peu vieillot.",décor negative <sep> Vaisselle negative
+g187073-d6353467-r248081497,id_1,La chaleur de l'établissement et des serveurs contribuent à un bien-être certain!!,établissement positive <sep> serveurs positive
+g187175-d1323640-r182961160,id_2,Je ne pense pas que vous y trouverez les meilleurs burgers de la ville mais ils sont tout à fait correct,
+g293827-d3653319-r244802130,id_1,Dès l'entrée l'accueil du serveur à été assez froid.,accueil negative
+g187253-d1550066-r280463454,id_3,Ces pauvres poulpes auraient pu mourir d'un excès de cholestérol s'ils n'avaient pas fini sur la plancha.,poulpes negative
+g187151-d2632598-r222747220,id_2,Nous n'avons goûté que les pizzas qui étaient quelconques.,pizzas negative
+g187147-d3682234-r283088970,id_1,Le service n'est pas très agréable mais est rapide !,service positive <sep> service negative
+g187147-d783245-r182683264,id_2,Côté cuisine c'est très honorable et il y a un bon rapport qualité/prix.,cuisine positive
+g187147-d7910212-r273306333,id_6,"Service moyen avec un jeune homme dont, à mon avis ce n'est pas le métier.",Service negative <sep> jeune homme negative
+g196495-d3896129-r194408303,id_0,"Un accueil très peu chaleureux, une attente très longue pour un repas qui ne vaut vraiment pas son prix !",accueil negative <sep> attente negative <sep> repas negative
+g187147-d695189-r251436609,id_10,Donc ne pas sélectionner ce restaurant pour un repas gourmet mais pour manger correctement sans plus.,repas neutral <sep> restaurant neutral
+g187253-d2189616-r221189178,id_3,"Une bière pression à 3,7 euros sans bulle avec un goût d'eau, bref une bière coupée à l'eau.",bière pression negative
+g187111-d5533894-r241388800,id_3,"Les hamburgers sont vendus entre 12 et 16 euros ce qui est beaucoup trop pour des préparations très industrielles : pain durci par la cuisson, pas de légumes dans le sandwich et frites qui ne sont pas faites maison.",hamburgers negative <sep> préparations negative <sep> pain negative <sep> sandwich negative <sep> frites negative
+g187147-d718146-r234555664,id_7,Le vin parfait.,vin positive
+g187111-d2385660-r284846850,id_0,"Nous apprécions toujours de nous restaurer ""à l'italienne"" dans ce tout petit resto dijonnais.",resto positive
+g187253-d907767-r282001273,id_0,PIZZA tellement fine qu'elle en est immangeable : il faut la casser.,PIZZA negative
+g187253-d3482968-r264400769,id_0,"Le restaurant présente un cadre de type ""montagnard"" très jolie, par contre il est vrai que l'odeur est un peu désagréable en rentrant dans la salle.",cadre positive <sep> odeur negative
+g187253-d1059925-r182398547,id_0,Excellent restaurant.,restaurant positive
+g187147-d718040-r276053524,id_2,Nous avons testé de nombreux plats différents et toujours excellents !,plats positive
+g187253-d1066323-r282644003,id_1,Le chef ne tire pas sur la marchandise : une pizza bien garnie !,pizza positive
+g608761-d1334387-r277341177,id_8,Une bonne adresse à Lannion,adresse positive
+g187253-d1900905-r238944051,id_2,La formule est parfaite.,formule positive
+g187253-d1854779-r278211239,id_7,La personne qui accueille et place les gens ferait mieux de gérer le service au lieu de se promener les mains dans les poches.,service negative
+g207360-d1322426-r168375321,id_1,"Les nems sont corrects, les quantités sont petites (nous sommes sortis en ayant à peine assez mangé), le poulet croustillant ne l'est pas et baigne dans le gras.",nems neutral <sep> quantités negative <sep> poulet croustillant negative
+g187253-d2244194-r278706020,id_1,"la situation est bonne mais la cuisine st détestable, c'est une mangeoire à touristes, comme l'est la place où on ""attend"" vraiment le touriste.",situation positive <sep> cuisine negative <sep> mangeoire à touristes negative
+g187147-d3628421-r258912116,id_2,Rien de négatif à dire sur ce restaurant mais il ne sort pas de l'ordinaire.,restaurant neutral
+g187155-d2656941-r251469423,id_12,"car entretemps je vois des avis positifs, ce qui me laisse dubitative..",
+g187147-d4471415-r270717110,id_0,"Un croque monsieur sans frite avec de la salade en sachet, évidement sans saveur...",croque monsieur negative <sep> salade negative
+g187103-d1327074-r281100867,id_0,endroit décontracté simple.,endroit positive
+g187147-d798971-r246183177,id_3,Personnel hyper sympa et de bon conseil.,Personnel positive
+g187147-d796790-r259054204,id_3,"Quant à la nourriture, elle est horrible.",nourriture negative
+g187147-d3982598-r229977371,id_3,Deux sortes de mélanges de légumes sont proposées en accompagnement.,
+g187147-d1804977-r259316015,id_1,Et c'est tout.,
+g293827-d3653319-r244802130,id_4,"Les 2 autres convives ont pris un bo bun composé d'un pauvre nem coupé en 4, salade,vermicelle et du bœuf que je ne donnerai même pas à mon chien.",bo bun negative <sep> bœuf negative
+g187147-d1089305-r171630135,id_3,Le veau était goûtu,veau positive
+g187147-d2709368-r193257030,id_0,J'ai adoré ce restaurant!,restaurant positive
+g187075-d3489527-r254992608,id_4,Mention spéciale toutefois à la carte des vins (libanais) et au geste du restaurateur qui a offert une partie des desserts.,carte des vins positive <sep> restaurateur positive
+g187140-d1322541-r286192533,id_3,De la bonne cuisine de grand mère qui tient au corps.,cuisine positive
+g187147-d796790-r259054204,id_2,Une ambiance qui se veut bobo / parisienne mais alors plutot sur le déclin vu le panel (âgé) de la salle.,ambiance negative
+g187253-d4972334-r237403818,id_0,Aucune fausse note dans ce resto...,resto positive
+g608761-d1334387-r277341177,id_1,Un accueil pro et de belles tables.,accueil positive <sep> tables positive
+g187147-d1336849-r242014326,id_8,Impensable que de restaurants comme celui ci existent sur Paris...,restaurants negative
+g187147-d1336322-r243511045,id_0,Service tres long et glacial.,Service negative
+g187147-d4235143-r220435098,id_2,Des salades insipides et des plats réchauffés (mal).,salades negative <sep> plats negative
+g187147-d695072-r151206284,id_3,"Et bien NON, passez votre chemin et n entrez pas a la pomponette, c est l arnaque!",pomponette negative
+g187253-d3158560-r267967733,id_2,"En allant aux toilettes nous avons aperçu un établissement dans un état plus que laborieux, pire que dans nos pires cauchemars, sale, délabré, comment peut-on faire a manger dans un endroit pareil, je me sentais mal à voir ça.",établissement negative
+g196495-d6895935-r247058285,id_0,"Accueil désastreux,sur 3 serveurs, seulement 1 d'entre eux nous a dit bonjour, les serveurs sont sur leur téléphone derrière le bar, rigolent entre eux, en étant bien évidemment bruillants.",Accueil negative <sep> serveurs negative
+g187269-d1811061-r210549792,id_0,"290€ pour 4 personnes, avec un apéritif maison, un coca, 2 verres de vin...",
+g187253-d3347069-r275887686,id_0,"A lire les différents commentaires élogieux, je me demande un peu si j'étais au même endroit ou si j'étais de mauvaise humeur ce jour-là...",endroit negative
+g187147-d1474710-r268236876,id_4,"Pas besoin d'en dire plus, ce bar est affreux",bar negative
+g187143-d6499916-r218269120,id_1,Accueil chaleureux.,Accueil positive
+g187147-d718804-r215863872,id_2,"Une dorade au chorizo, sans chorizo.",dorade au chorizo negative
+g187253-d866360-r196718360,id_0,"Très belle ambiance si vous aimez la lumière tamisée, êtes étudiants ou bobo/hipster.",ambiance positive
+g187147-d2174563-r234071343,id_2,Service quasiment inexistant.,Service negative
+g293827-d6350928-r285775337,id_0,Excellentes pizzas!,pizzas positive
+g187147-d2709368-r193257030,id_2,"Le service était au TOP, l'accueil génial, notre plat excellent!",service positive <sep> accueil positive <sep> plat positive
+g293827-d6898510-r283618902,id_0,A l'heure de l'apéro c'est un lieu sympa bien situé au carré cathédrale.,lieu positive
+g3463365-d7619600-r260351566,id_0,"Bonne surprise, l'accueil est agréable, gentillesse et sourire.",accueil positive
+g187147-d1931769-r208098047,id_4,Choix de dessert quasi inexistant.,dessert negative
+g187209-d2416523-r258651167,id_2,"Je pense y retourner très vite en couple cette fois ci car le cadre et magnifique, la nourriture est délicieuse et l'accueil très chaleureux",cadre positive <sep> nourriture positive <sep> accueil positive
+g187077-d3912314-r240787952,id_1,"Les vins sont bons mais pas excellent, les tapas quand il y en a encore sont bonnes, heureusement que le personnel est sympathique.",vins neutral <sep> tapas positive <sep> tapas negative <sep> personnel positive
+g187111-d3423656-r282520762,id_4,"L'andouillette qui n'était pas une 5A était excellente, les frites, légumes et purée également.",andouillette positive <sep> frites positive <sep> légumes positive <sep> purée positive
+g187087-d1054346-r272330658,id_0,Un restaurant pour une soirée étape très sympa avec une réception accueillante.,restaurant positive <sep> réception positive
+g187147-d3982598-r229977371,id_4,"La suggestion du chef change régulièrement et la dernière en date, couscous méchoui est particulièrement bonne.",suggestion du chef neutral <sep> couscous méchoui positive
+g187095-d1954560-r227348486,id_3,Je n'appelle pas ça un service digne d'un restaurants.,service negative
+g297569-d4443971-r266268877,id_2,"Le poisson est très bon, très frais, les portions copieuses, les sauces d'accompagnement et les légumes sont originales et très bonnes.",poisson positive <sep> portions positive <sep> sauces d'accompagnement positive <sep> légumes positive
+g187147-d1516382-r258841083,id_4,La crème figée et sans gout,crème negative
+g187147-d718146-r234555664,id_3,Apéro maison conseillé.,Apéro positive
+g187253-d2189616-r221189178,id_8,La voisine à la table d'à côté a renvoyé son verre de vin blanc sous prétexte qu'il y avait tellement de glaçons qu'elle n'avait plus le goût du vin.,verre de vin blanc negative
+g187147-d695115-r250178681,id_1,"Le service y est parfait, le personnel fort sympathique et compétent.",service positive <sep> personnel positive
+g187253-d1900905-r238944051,id_0,J'ai l'habitude d'aller depuis des années dans ce restaurant.,
+g187147-d3188499-r243581235,id_4,"Ensuite, remontant dans la salle, un serveur énervé de nous entendre dire ""il n'y a pas de serviettes pour s'essuyer les mains en bas"" fait un croche-patte à mon mari, qui manque de s'étaler de tout son long par terre.",serveur negative
+g187103-d1327074-r281100867,id_8,patron atypique mais à connaître.,patron positive
+g187147-d695115-r250178681,id_0,Cet établissement est très agréable.,établissement positive
+g187151-d3325374-r277158312,id_13,Cet écriteau était bien caché à l'intérieur de l'établissement pour ne pas que les clients en terrasse le voient.,
+g187175-d4274999-r261894068,id_3,Un endroit a recommander bien évidement pour le centre-ville de toulouse.,endroit positive
+g187151-d3325374-r135868379,id_1,Gros effort à faire sur la cuisine et le service.,cuisine negative <sep> service negative
+g187269-d1811061-r210549792,id_2,"Bien moyen, pour ce restaurant qui trône sur la place depuis bien longtemps à Saint Etienne.",restaurant negative
+g187253-d797687-r183253540,id_4,Cet établissement devrait être fermés!,établissement negative
+g187253-d866360-r196718360,id_2,"Tapas abordables, sauf pour l'assiette de manchego (cinq minces tranches pour 5€) et l'assiette de serrano (6 tranches pour 10€).",Tapas neutral <sep> assiette de manchego negative <sep> assiette de serrano negative
+g187253-d1066323-r282644003,id_2,Les serveuses sont souriantes et disponibles.,serveuses positive
+g187147-d1774964-r260536177,id_9,"Je ne recommande pas, il y a de petites brasseries meilleures et moins cher sur paris.",
+g187151-d2632598-r222747220,id_1,Bon accueil mais service un peu long.,accueil positive <sep> service negative
+g187253-d784568-r229967112,id_1,"Très bon accueil, discret et efficace.",accueil positive
+g187206-d4606069-r283959222,id_2,La mousse au chocolat en dessert était excellente.,mousse au chocolat positive
+g187253-d1098498-r217655976,id_6,Du jamais vu et surtout sans intérêt pour mon dessert favori qui se suffit sans artifice...,dessert negative
+g187253-d7591580-r286665099,id_2,"Mais bon pour ne pas faire le difficile, je la mange tout de même sans la faire retourner en cuisine et faire du gaspillage.",
+g187147-d718132-r119263750,id_6,"La carte des vins était adéquate, mais le vin est servi un tantinet trop chaud.",carte des vins positive <sep> vin negative
+g187253-d1328827-r266271011,id_2,1 ticket Resto par personne,
+g187147-d1034843-r227563120,id_0,Accueil au top !,Accueil positive
+g187147-d1769263-r142565528,id_0,Un vrai luxe: une terrasse une calme au coeur de Paris!,terrasse positive
+g187198-d3845154-r255380212,id_3,"J'ai pris un menu ""galette"" (galette + crêpe + bolée de cidre à 9€40).","menu ""galette"" neutral"
+g187253-d866360-r196718360,id_6,"Évitez d'y aller en gros groupe, six personnes c'est déjà beaucoup.",Évitez d'y aller en gros groupe neutral
+g187253-d804648-r206878302,id_4,"Par contre, les bouteilles de vin n'attendent pas pour être remplacées, et là, l'addition est plus que salée.",bouteilles de vin negative <sep> bouteilles de vin neutral
+g196495-d1325023-r259859192,id_3,Quant au personnel très souriant et agréable .,personnel positive
+g187253-d1854779-r278211239,id_4,Normal quand les serveuses et serveuses ne gèrent pas leurs tables...vacances va et vient sans aucune logique de service!,serveuses et serveuses negative <sep> service negative
+g3463365-d7619600-r260351566,id_1,La salle est jolie et bien chauffée.,salle positive
+g187253-d1329377-r193520980,id_1,Le confit ne ressemble pas à un confit (ça ressemble à une saucisse) et le gout ne suit pas non plus.,confit negative
+g187253-d1854779-r278211239,id_3,Une attente interminable avant de passer commande.,attente negative
+g207360-d5260480-r216023756,id_0,Tarif un peu élevé à la carte sauf pour la formule du jour.,carte negative <sep> formule du jour neutral
+g187253-d1639457-r152371370,id_0,Nous avions aimé ce restaurant du temps de l'ancienne équipe mais alors là déception.,restaurant negative
+g187147-d2001829-r195744098,id_1,La nourriture est moyenne,nourriture negative
+g187095-d3747513-r268495052,id_0,Très bon restaurant .Repas effectué le midi en groupe,restaurant positive
+g187075-d2494303-r273809197,id_1,Les personnes avec qui je déjeunais ont commandé le pdj et j'ai donc fais comme eux histoire de ne pas nous retarder.,
+g187147-d695099-r213681876,id_5,"Et la cuisine se déteriore, tout cela est de moins en moins digeste.",cuisine negative
+g187147-d1774964-r260536177,id_6,Petit plus : Un serveur nous a offert un apéritif.,serveur positive
+g187253-d2027102-r115708876,id_2,"Tout d'abord l'accueil fut très agréable, souriant et avenant.",accueil positive
+g187143-d1764397-r245318896,id_3,On s'est fait INSULTER par le responsable le 20 décembre 2014 c'est INADMISSIBLE !!!!,responsable negative
+g187147-d4235143-r220435098,id_4,Desserts industriels.,Desserts negative
+g187140-d1322541-r286192533,id_0,On ne peut dire que du bien de ce restaurant.,restaurant positive
+g187147-d1327880-r242392720,id_0,Nous sommes venus diner en famille dans ce restaurant fin Novembre 2014.,
+g187147-d1567976-r183244327,id_4,Les desserts maisons apparemment sont corrects.,desserts maisons neutral
+g187147-d718799-r284156821,id_5,- Formule le midi TOP,Formule positive
+g187155-d2656941-r251469423,id_3,"Pendant le repas, nous avons vu un serveur dégouté de son travail (ou peut être de l'ambiance à son travail ) ; la ""patronne"", en tout cas, celle qui avait l'air d'avoir un poste plus élévé, est celle qui a été la plus désagréable.",serveur negative <sep> patronne negative <sep> ambiance negative
+g187147-d2431919-r275486883,id_1,Très bonne carte avec des plats simples mais recherchés.,carte positive
+g3463365-d3594852-r200815446,id_5,Nous avons fait la remarque à la serveuse qui a transmis au cuisinier.,
+g187178-d2282922-r240259092,id_10,"Une serveuse nous rattrapera à la sortie pour s'excuser et nous dire que nos plats sont entrain d'arriver : "" trop tard je reprends le travail dans 15min !""",
+g187253-d4137659-r257264460,id_1,"La vue est sublime, la salle est très agréable et tranquille.",vue positive <sep> salle positive
+g187253-d4137659-r257264460,id_4,"Cependant le personnel reste très sympathique et l'attente n'est pas excessive (sauf pour l'apéritif, donc).",personnel positive <sep> attente positive
+g187147-d804109-r161366715,id_1,"Et en prime quand un serveur marche sur vos affaires et casse quelque chose, aucune excuse, on vous apporte la note très rapidement...",serveur negative
+g187147-d2694960-r242979898,id_1,Mauvaise cuisson des aliments.,aliments negative
+g187147-d779419-r270630138,id_2,"Menu à 25€ très complet et goutteux, rapport qualité/prix imbattable dans le quartier.",Menu positive
+g187147-d3673580-r235127999,id_3,"Choix de plats très classique, et qualité des plats médiocre.",plats negative <sep> plats neutral
+g187143-d1327801-r268704148,id_0,"burgers excellents, on est accro dès qu'on a gouté.",burgers positive
+g608761-d7105002-r282300173,id_2,Il dirige ses employés aux claquements de doigts...,
+g187147-d796790-r259054204,id_1,Un service inexistant et totalement désordonné ; un patron qui passe plus de temps à discuter avec ses amis en plein milieu de la salle de restaurant plutot que de faire son travail.,service negative <sep> patron negative
+g187147-d1869876-r253058218,id_3,Bref une adresse à mémoriser et où je retournerais !,adresse positive
+g187253-d1234630-r274467132,id_1,On attire les clients avec un panneau de photos de personnalités de passage dans le restaurant.,
+g187178-d3359955-r263860028,id_4,Dessert: Chtiterolles et café gourmand.,
+g187147-d718804-r215863872,id_1,"La terrasse est bien, pour la cuisine c'est autre chose...",terrasse positive <sep> cuisine negative
+g187140-d1323739-r259481225,id_1,"Pizza sèche, très peu d'ingrédients et un bord énooorme tout sec pour la Regina bianca.",Pizza negative
+g187147-d719218-r246393236,id_2,La patronne quant à elle est inexistante voire désinvolte et désagréable avec les clients.,patronne negative
+g187075-d2494303-r273809197,id_4,Connaissant bien la cuisine de son mari je ne suis pas étonné de la qualité du plat du jour.,plat du jour. positive <sep> cuisine positive
+g187122-d3253908-r246575372,id_6,Pour le dessert farandole de desserts : rien d'extraordinaire que des classiques avec beaucoup de crème au beurre.,farandole de desserts negative
+g187147-d1099973-r130147318,id_1,"Le service est très attentionné ,la salle est petite mais très agréable",service positive <sep> salle positive
+g187147-d1099973-r130147318,id_4,Par contre Le fondant au chocolat est très bon,fondant au chocolat positive
+g187147-d895824-r231506893,id_0,Je ne conseillerais pas cet établissement.,établissement negative
+g187253-d1328827-r266271011,id_5,Aïoli : Mayo amora avec de l'ail,Aïoli negative
+g187206-d2205086-r180308486,id_5,L'accueil est sympathique.,accueil positive
+g187147-d718815-r239220174,id_4,Le menu à 26 euros pour entrée/plat/dessert offre un rapport qualité/prix très satisfaisants.,menu positive
+g187178-d3359955-r263860028,id_8,"Enfin, contrairement à ce que j'ai pu lire ici, le restaurant était particulièrement propre lors de mon passage.",restaurant positive
+g187147-d1034843-r227563120,id_1,Restaurant sans pretention d'après la devanture mais avec une cuisine de qualité !,Restaurant neutral <sep> cuisine positive
+g187253-d2189616-r221189178,id_10,Serveurs de 18 ans très sympas mais tips pas possible là ....,Serveurs positive
+g187147-d2239316-r239304403,id_1,tant par la qualité des mets que par l'accueil;,mets negative <sep> accueil negative
+g187265-d718105-r115426081,id_3,"Au grand maximum aurait-on dû payer 25 euros / tête pour un repas aussi médiocre, tant et si bien qu'à des prix de cet ordre il y a bien mieux à Lyon et qu'aux prix prohibitifs qu'il pratique, il y a également bien meilleur à Lyon et surtout dans les environs, y compris des étoilés dignes de ce nom !",
+g187147-d3673580-r235127999,id_0,Nous y étions un samedi soir.,
+g196719-d2614773-r269869318,id_0,Respecte complètement son appellation de restaurant montagnard.,restaurant positive
+g187147-d2058328-r229960356,id_6,"Dernier point, la salle est sobre et de bon goût!",salle positive
+g187147-d718804-r215863872,id_7,Je trouve regrettable également que tous les plats sont arrivés froids...,plats negative
+g187147-d714972-r238411009,id_1,"Ici, la cuisine française est à l'honneur.",cuisine française positive
+g187178-d947032-r245717891,id_2,Nous avons aussi pris le risotto aux St Jacques qui était très riche en crème!,risotto aux St Jacques negative
+g187075-d1324447-r268262547,id_1,Attente interminable !,Attente negative
+g187147-d3682234-r283088970,id_0,"Le restaurant est très bien situé, proche du Sacré Coeur.",Sacré Coeur positive <sep> restaurant positive
+g187147-d3188499-r243581235,id_2,Un serveur qui avait servi deux fois la commande à une table voisine a juste crié sur ses clientes.,serveur negative
+g187147-d2346326-r232711313,id_9,Vraiment le service aura été horrible du début jusqu'à la fin et ceux pour la plupart des clients qui étaient installés autour de nous.,service negative
+g187147-d1869876-r253058218,id_1,"Entrée au chèvre chaud, suivi d'un magret de canard miel/citron accompagné de pommes sautées, un vrai délice !",Entrée positive <sep> magret de canard positive
+g187122-d2219300-r244953567,id_0,Une ancienne expérience dans cet établissement en 2013 m'a donné envie d'y retourner,
+g187147-d799578-r31693043,id_0,"L'intérieur est sympathique, l'ambiance chaleureuse, le service ""à la bonne franquette"".",intérieur positive <sep> ambiance positive <sep> service neutral
+g187253-d866360-r196718360,id_4,"Pas la meilleure bouffe que j'ai mangé, mais pour le prix on ne se plaint pas.",bouffe neutral <sep> bouffe positive
+g187207-d3721902-r279950763,id_1,"ce qui est régulièrement raté, ce sont les cuissons des viandes : du bleu arrivant froid à peine dégelé au centre , du saignant juste bleu, etc... les chips offertes en entrée étaient infectes : huileuses comme des éponges et au gout de brulé.",viandes negative <sep> chips negative
+g187147-d2520468-r190596033,id_2,"Qualité des plats très correcte, ma pièce du boucher était très bonne et tendre, et ma panna cotta délicieuse.",plats positive <sep> pièce du boucher positive <sep> panna cotta positive
+g187147-d2694960-r242979898,id_0,"Cuisine surgelée, de mauvaise qualité.",Cuisine negative
+g187178-d2282922-r240259092,id_7,..,
+g293827-d3664116-r284685459,id_7,Apparemment la carte doit changer de temps en temps.,
+g187147-d718804-r215863872,id_0,Je suis allé il y a quelques jours dans ce restaurant pour diner entre amis.,
+g187147-d1450531-r187797211,id_0,On aurait du se méfier du restaurant presque vide un vendredi soir.,restaurant negative
+g187147-d6561412-r270575780,id_0,"Une adresse chaleureuse, avec un cadre cosy et agréable.",adresse positive <sep> cadre positive
+g196495-d7710044-r273021644,id_0,"Accueil sympa, lieu sympa, carte sympa!",Accueil positive <sep> lieu positive <sep> carte positive
+g608761-d1334387-r277341177,id_5,Service sympathique et efficace.,Service positive
+g187147-d2431919-r275486883,id_2,Les serveurs sont vraiment très sympa et accueillant.,serveurs positive
+g187253-d4379462-r259558222,id_2,Le service est déplorable et tout le restaurant se prend pour un 3* alors que la nourriture est vraiment très très mauvaise!!,service negative <sep> nourriture negative
+g293827-d3664116-r284685459,id_8,J'ai choisi en entrée un gratin de chouchou avec une petite salade trop assaisonnée.,salade negative
+g187147-d1392655-r199033401,id_2,"La carte est courte, ce qui peut être un avantage ( turn-over important donc fraicheur des produits) mais se révèle un inconvénient quand il y a des produits manquants (la truffe ce jour-là), donc choix restreint.",carte negative <sep> produits negative
+g187077-d3912314-r240787952,id_0,"Bar tapas le soir, décoration changeante et parfois approximative.",décoration neutral
+g187103-d2356006-r280461370,id_2,bon accueil,accueil positive
+g187147-d3216867-r254353823,id_7,Un pain qui sut de l'eau = micro onde.,pain negative
+g187253-d3247810-r266613025,id_1,"Une cuisine toujours fraiche et fine, de très bons produits, cuisinés avec talent et amour.",cuisine positive <sep> produits positive
+g187073-d2234111-r233672137,id_1,"Puis nous avons été, disons, surpris par l'accueil.",accueil negative
+g187079-d817721-r280565787,id_5,20/20 pour ce resto,resto positive
+g187111-d3423656-r282520762,id_2,Carte des vins très limitée en choix aussi bien en quantité qu'en qualité.,Carte des vins negative
+g187253-d3367883-r261318845,id_5,"Comme nous etions en train de boire nos consommations nous avons decide de faire un effort en commandant tous une viande, ne voyant pas le server revenir et au bout de 10 mn nous nous sommes leves pour aller regler la note dans le bureau de tabac apres avoir du attendre car 1 seule caisse le patron me demande d une facon moyennent aimable le numero de table.",server negative <sep> patron negative
+g187077-d3984325-r265548233,id_3,Bonne soirée passé dans ce lieu,lieu positive
+g608761-d1334432-r281522672,id_2,Salle agréable.,Salle positive
+g187091-d5025303-r276491720,id_1,Vraiment je recommande chaudement cette adresse.,adresse positive
+g187079-d817721-r280565787,id_3,Possibilité de manger des plats à la carte sur la thématique du fromage.,plats neutral
+g187253-d3482968-r264400769,id_2,"La cuisine est bonne, la serveuse était très souriante et a l'écoute du client.",cuisine positive <sep> serveuse positive
+g187147-d714972-r238411009,id_2,Une table de caractère où l'on se rend quand on apprécie les bonnes choses.,table positive
+g187162-d3685071-r286657867,id_2,"En effet les pâtes étaient trop cuites, mal assaisonnées, dommage pour un resto italien.",pâtes negative
+g187147-d1650840-r242497721,id_1,Les menus à 20 euros sont servis le midi et le soir et comprennent entrée+ plat+ dessert.,menus à 20 euros neutral
+g187147-d1099973-r130147318,id_0,Accueil très sympa dans ce petit restaurant .,Accueil positive
+g187253-d2027102-r115708876,id_7,Nous recommandons ce petit restaurant qui se trouve dans le quartier du Panier.,restaurant positive
+g187178-d3359955-r263860028,id_3,"Vraiment pas mal du tout ces petits rognons, on comprend leur succès, même si j'aurais aimé un peu plus de sauce et de garniture.",rognons positive <sep> sauce negative <sep> garniture negative
+g187143-d1327801-r268704148,id_4,En plus le cuisinier est adorable.,cuisinier positive
+g187253-d2027102-r115708876,id_0,C'est presque par hasard que nous avons dîné dans ce restaurant.,
+g187175-d1323640-r182961160,id_0,"Repas copieux, généreux et plutôt bon.",Repas positive
+g187122-d2253489-r276554003,id_1,"Le cadre est convivial, le personnel y est agréable.",cadre positive <sep> personnel positive
+g187147-d695099-r213681876,id_0,Cette adresse a été très bien durant plusieurs années.,adresse positive
+g187143-d1764397-r245318896,id_4,Dommage pour les patrons qui perdent du monde à cause de l'employé qui se prend pour un patron justement !,employé negative
+g187253-d1328827-r266271011,id_8,Légumes surgelés dans les plats,Légumes negative
+g187075-d2494303-r273809197,id_0,Je mange rarement les plats du jour dans les restaurants où je me rends mais j'ai fais une exception cette fois ci.,
+g207360-d4481417-r281591572,id_4,La pâte est délicieuse et les pizzas sont bien garnies.,pâte positive <sep> pizzas positive
+g187155-d2656941-r251469423,id_8,"Nous sommes venus courant MAI 2013 ( j'ai mis fev 2014 mais on peut pas remonter avant ) et je ne poste qu'aujourdh'ui, mais ce restaurant, qui n'en est pas un, m'a tellement fait halluciner, (car oui des gens ouvrent un resto en ayant absolument rien compris au business ) que je me suis promie de le relever !! et je me promets la prochaine fois de quitter le restaurant dès le début !",restaurant negative
+g187147-d6485557-r261916011,id_0,"Des produits frais,un accueil , un service sympathique et un menu déjeuner à un prix imbattable,ce restaurant mériterait d'être signalé dans les différents guides.",produits positive <sep> service positive <sep> menu déjeuner positive <sep> restaurant positive <sep> accueil positive
+g187147-d798971-r246183177,id_1,"Notre choix, magret de canard, délicieux, cassoulet, excellent et côtes d'agneau à se lécher les babines.",magret de canard positive <sep> côtes d'agneau positive <sep> cassoulet positive
+g187147-d695107-r194313962,id_2,"Le personnel est attentionné, patient, courtois et discret...",personnel positive
+g187147-d1516382-r258841083,id_8,Le verre de rosé devait venir d'un fond de cubi,verre de rosé negative
+g187147-d6483261-r272575407,id_1,Un accueil sympathique et de bon conseil pour le choix des vins.,accueil positive
+g187155-d2656941-r251469423,id_6,Si encore les plats avaient pu rattrapper le personnel !!,plats negative <sep> personnel negative
+g187198-d2041733-r222676078,id_1,"Inutile de faire le déplacement pour ce restaurant, tout y est médiocre.",restaurant negative
+g187147-d695114-r263801558,id_0,Des prix très élevés pour des plats à la limite du mangeable.,plats negative
+g187269-d4737816-r250955200,id_0,"Que ce soit au comptoir ou au drive, l'attente est longue .",attente negative
+g187253-d4972334-r237403818,id_5,Je vous conseille le tartare de saumon à la Thaï.,tartare de saumon à la Thaï positive
+g187147-d2709368-r237421992,id_2,"Des produits, frais, joliment présentés et très bons.",produits positive
+g187253-d1323139-r272593855,id_0,"La terrasse est très bien exposée, le personnel est très sympathique et la cuisine est de grande qualité.",terrasse positive <sep> personnel positive <sep> cuisine positive
+g187147-d2174563-r234071343,id_5,"Au niveau de la cuisine,",
+g187178-d947032-r245717891,id_0,"Nous avons pris les pâtes au foie gras et cèpes, celles-ci baignaient dans de la crème et de la crème balsamique!",pâtes au foie gras et cèpes negative
+g187147-d1516382-r258841083,id_2,Le jambon était racorni,jambon negative
+g187122-d2219300-r244953567,id_2,En plus 7 euros 50 pour deux oeufs mimosa sans fioritures est tout simplement du vol,oeufs mimosa negative
+g3463365-d3594852-r200815446,id_7,"Dessert: mousse aux 2 chocolats, bonne mais beaucoup trop sucrée.",mousse aux 2 chocolats negative <sep> mousse aux 2 chocolats positive
+g293827-d6898510-r283618902,id_3,"Carte chère pour la qualité, lenteur de service, plats tièdes.",Carte negative <sep> service negative <sep> plats negative
+g187147-d1336322-r243511045,id_1,Nourriture surgelée et mal décongelée.,Nourriture negative
+g187175-d5895235-r283369631,id_4,"Le patron ne s’intéresse qu'aux habitués (les entreprises de bureau), les autres passent après...",patron negative
+g187147-d3216867-r254353823,id_4,Plateau de fromage charcuterie très bon vs Bruchetas et pâte sans goût.,Plateau de fromage charcuterie positive <sep> Bruchetas negative <sep> pâte negative
+g187155-d3194494-r225589189,id_4,Les desserts joliment présentés et agréablement bons.,desserts positive
+g187265-d807993-r250903963,id_2,"Des plats médiocres, sans saveur et surtout nous sommes ressorties en ayant faim !",plats negative
+g187147-d6877828-r267314039,id_0,"Lieu sympathique, c'est ce qui est vendu.",Lieu positive
+g187253-d1639457-r152371370,id_3,Un tartare de saumon avec trop d'oignons.,tartare de saumon negative
+g187253-d3590719-r279323659,id_0,Repas de qualité à des pris très correct .,Repas positive
+g187147-d1869876-r253058218,id_2,Leur cave est également excellente !,cave positive
+g187253-d1059925-r182398547,id_3,"Des hamburgers, des pizzas succulentes, des brushettas, et une escalope milanaise exceptionnelle.",hamburgers positive <sep> pizzas positive <sep> brushettas positive <sep> escalope milanaise positive
+g187147-d1077634-r239773694,id_3,Ambiance du lieu extrêmement bruyante.,Ambiance negative
+g187265-d3724621-r161225264,id_0,"Petit restaurant de marché sympa, les planchette apéritif sont bonne.",planchette apéritif positive <sep> restaurant positive
+g187147-d1392655-r199033401,id_0,"Positif: accueil souriant, ambiance sympathique, cadre charmant",accueil positive <sep> ambiance positive <sep> cadre positive
+g196495-d2100294-r260548064,id_0,"Nous avons dîner un dimanche soir , repas bon frais rien d'exceptionnel mais agréable !",repas positive
+g187143-d1764397-r245318896,id_5,Un jeune serveur très sympa je le plaint !,serveur positive
+g297569-d4130785-r264968967,id_3,"Lorsque nous en avons fait la remarque au serveur, en guise de réponse nous avons eu droit à une remarque cynique.",serveur negative
+g187091-d1325827-r240732814,id_0,Cela faisait 15 ans que j était pas revenu,
+g187253-d3347069-r275887686,id_3,"Bref, ne correspond pas à ce qu'on m'en avait dit ni à ce que j'ai pu lire au sujet de ce restaurant...",restaurant negative
+g187147-d3673580-r235127999,id_1,"Deco pas mal, musique pour les 30/40 ans assez sympa.",Deco positive <sep> musique neutral
+g187147-d1516382-r258841083,id_12,On doit leur faire manger la cuisine du restau.....,cuisine negative
+g187111-d3423656-r282520762,id_0,"Sur la place du Bareuzay, symbolique de Dijon, une agréable terrasse.",terrasse positive <sep> place du Bareuzay neutral
+g187207-d3380505-r280183276,id_0,"Le menu du midi en semaine est très abordable, les plats sont excellents.",menu du midi positive <sep> plats positive
+g196719-d4294505-r223776905,id_0,Nous y sommes allés deux fois en quinze jours et avant varié les plats choisis.,
+g187162-d4817543-r282798322,id_0,"La cuisine était tout simplement excellente en particulier la spécialité du restaurant, les linguini aux écrevisses.",cuisine positive <sep> linguini aux écrevisses positive
+g187198-d2041733-r222676078,id_2,On ne nous avait jamais fait le gag du saumon mariné dont la moitié était en salade.,saumon mariné negative
+g187147-d695189-r251436609,id_1,"J'ai trouvé la cuisine assez ,moyenne.",cuisine negative
+g196680-d7702811-r279218028,id_3,La musique était vraiment très forte .,musique negative
+g187111-d5533894-r241388800,id_1,"Le responsable est souriant et accueillant, même s'il en fait parfois un peu trop, mais c'est mieux comme ça.",responsable positive
+g187111-d2221139-r258427248,id_2,Je me suis permis de le remercier pour le service et de m'excuser de le déranger pendant son travail.,
+g187147-d718146-r234555664,id_4,Juste un peu déçu sur l'assaisonnement.,assaisonnement negative
+g187253-d3367883-r261318845,id_6,""" on peut pas payer sans le numero de table, il me faut le numero de table """,
+g187140-d2066610-r265781517,id_1,"Le repas était correct pour une escale rapide,le patron très sympathique et le paysage magnifique.",repas neutral <sep> patron positive <sep> paysage positive
+g196495-d2100294-r260548064,id_2,Un bon thaï !,thaï positive
+g187147-d2709368-r237421992,id_0,"Nous nous sommes arrêtés par hasard devant le restaurant, qui ne paye pas de mine de l'extérieur.",restaurant negative
+g187091-d5025303-r276491720,id_0,"Vraiment une adresse à retenir pour les amateurs de viande , une entrecôte qui fond dans la bouche , une sauce simple mais goûteuses et un verre de vin de bonne qualité.",adresse positive <sep> entrecôte positive <sep> sauce positive <sep> vin positive
+g187147-d3628421-r258912116,id_1,Les plats sont corrects tout comme le service et l'ambiance.,service neutral <sep> ambiance neutral <sep> plats neutral
+g187147-d2206833-r245896157,id_1,"Le plat du jour est correctement servi, le gratin sent l'ail a 3 mètres.",plat du jour neutral <sep> gratin negative
+g196680-d7007014-r256470796,id_4,Le cidre est bon...,cidre positive
+g297569-d4092469-r259302825,id_2,Par contre je n'ai pas goûté les pizzas ;-),
+g187147-d718799-r284156821,id_12,Conclusion :,
+g187079-d817721-r280565787,id_4,Très belle cave à vin.,cave à vin positive
+g187198-d3845154-r255380212,id_5,"Les galettes sont copieuses et les crêpes excellentes, fines et légères.",galettes positive <sep> crêpes positive
+g187147-d695114-r263801558,id_1,J'ai mangé un poulet surcruit et très sec pour 25euros !,poulet negative
+g187147-d3693829-r248014416,id_3,Portions ridicules!,Portions negative
+g187147-d2431919-r275486883,id_0,Nous sommes allés diner dans ce restaurant à l'improviste nous y retournerons sans souci !,restaurant positive
+g187253-d2248119-r222961718,id_7,Quant à la salade de fruit acide et pétillante... je soupconne qu'ils y aient mis de l'orangina...,salade de fruit negative
+g187147-d786001-r274077961,id_1,L'ambiance y est décontractée et cosy à la fois...,ambiance positive
+g187155-d2656941-r251469423,id_0,"Nous étions venu le midi avec mon ami qui avait un très bon souvenir de ce restaurant et a donc bien insisté sur le ""topissime"".",
+g196719-d2614773-r282960504,id_0,Cadre agréable et formule pour deux bien servie avec de bons produits!,Cadre positive <sep> formule positive <sep> produits positive
+g187091-d2221132-r263477843,id_0,Invité pour un dîner professionnel (groupe de 20 personnes) on nous a présenté ce restaurant comme une bonne adresse de la ville.,
+g293827-d3664116-r284685459,id_1,"L'accueil est sobre, le décor intime plait.",accueil neutral <sep> décor positive
+g293827-d3664116-r284685459,id_9,"Le poisson, un peu dur, sans trop de saveur, et de quantité juste avec une bonne présentation",poisson negative <sep> poisson neutral
+g187143-d1764397-r245318896,id_0,Accueil zero,Accueil negative
+g187253-d4137659-r257264460,id_2,"La cuisine est très fine, parfaitement adaptée en quantité.",cuisine positive
+g187075-d3489527-r254992608,id_2,"Les différents menus à base de ""Mezzés"" se ressemblent, les spécialités sont réussies pour certaines (hoummous, taboulé..), moins réussies pour d'autres comme par exemple la purée d'aubergine assez fade ou ces boulettes ayant un arrière goût ""brûlé"".",menus negative <sep> hoummous positive <sep> taboulé positive <sep> purée d'aubergine negative <sep> boulettes negative
+g187147-d1392655-r199033401,id_3,"Nous avons eu le tort de nous rabattre sur un burger et un fish and chips, erreur fatale: burger moyen, frites molles et grasses, quant au fish and chips impression d'ingurgiter uniquement de la pâte à friture baignée de graisse.",frites negative <sep> fish and chips negative <sep> burger negative
+g196640-d4428534-r283820751,id_1,"Vendredi, un burger.",
+g187147-d718815-r239220174,id_2,Les plats sont servis en quantité suffisante et bien chauds.,plats positive
+g187147-d7972483-r271185057,id_0,Un excellent repas mélangeant saveur américaines et savoir faire français de l'entrée jusqu'au dessert.,repas positive
+g187253-d1234630-r274467132,id_4,Le service est donc extrêmement long et très désorganisé.,service negative
+g187147-d1099973-r130147318,id_3,( je suis une fan de la cuisine Italienne et je vais régulièrement en Italie donc je suis assez difficile !),
+g187147-d2058328-r229960356,id_2,Jeudi dernier nous avons particulièrement apprécié l'échine de cochon confite avec ses gnocchis (les meilleures que j'ai été amené à goûter) et ses girolles.,échine de cochon confite positive <sep> gnocchis positive
+g187253-d1550066-r280463454,id_5,Et je parle pas de l'aïoli...,aïoli negative
+g187151-d3325374-r277158312,id_5,Nous avons commandé un menu.,
+g187151-d3325374-r277158312,id_6,"L'entrée était très maigre, surtout de la salade.",entrée negative
+g187207-d3721902-r279950763,id_4,Celui de Limoges est incomparablement meilleur.,
+g187253-d1328827-r266271011,id_6,Chantilly premier prix,Chantilly negative
+g187147-d2346326-r232711313,id_4,"Serveurs pas aimables du tout, aucune classe.",Serveurs negative
+g187147-d2694960-r242979898,id_3,Toutefois le service est très agréable,service positive
+g187147-d718133-r279293892,id_1,"L'accueil et le service sont irréprochables : sympathique , pas du tout guindé ; jeune, généreux !",accueil positive <sep> service positive
+g196719-d4294505-r223776905,id_3,L'accueil et le service sont chaleureux.,accueil positive <sep> service positive
+g187147-d1089305-r171630135,id_4,La tarte tatin divine,tarte tatin positive
+g187253-d1059925-r182398547,id_2,Du changement avec une nouvelle carte.,
+g187253-d4083914-r280941580,id_2,La cuisine est simple mais de très bonne qualité.,cuisine positive <sep> cuisine neutral
+g3463365-d7619600-r260351566,id_2,La cuisine est traditionnelle,cuisine neutral
+g187147-d1381523-r158339054,id_0,"Au deumerant, c est un endroit original pour fêter son anniversaire ...",endroit neutral
+g187122-d2253489-r276554003,id_2,La carte est généreuse.,carte positive
+g187265-d718105-r115426081,id_2,"Au delà, (1), la salle métiterait un rafraîchissement, (2), la patrone devrait apprendre à sourire et (3), les tarifs sont délirants vu la piètre cuisine qu'on nous a servis.",salle negative <sep> patrone negative <sep> cuisine negative
+g187147-d718804-r215863872,id_4,Et quand on demande à la patronne de venir goûter et qu'effectivement ce n'est pas bon et qu'elle va demander en cuisine le problème.,
+g187147-d718146-r234555664,id_5,Foie gras manquait un peu de cuisson.,Foie gras negative
+g187265-d3724621-r161225264,id_1,"Le boeuf est d'une qualité fantastique, les vins nombreux esr disponible au verre, le tartare n'est pas terrible car beaucoup trop de moutarde dans le melange... d'ailleurs de la moutarde dans du tartare... bizarre.",boeuf positive <sep> vins positive <sep> tartare negative
+g187253-d1332190-r282285117,id_7,"Quand aux plats, n'y allez pas pour faire une découverte originale, que du ""classique""....",plats negative
+g187253-d2248119-r222961718,id_5,"Un management inexistant : 15 à 20 minutes d'attente entre chaque plat, une serveuse qui sert des plats sur la table à côté mais qui ne nous débarasse que 10 minutes après...et le must....quand au choix du dessert il ne restait plus qu'un dessert aux fruits rouges sur les 4 possibilités du menu... mon ami n'aimant pas ces derniers...le patron a refusé d'échanger le café contre le dessert qu'il ne prenait pas.....",serveuse negative <sep> dessert negative <sep> patron negative <sep> attente negative <sep> management negative
+g187140-d1322541-r286192533,id_4,Et pour couronner le tout de sympathique serveurs a l accent prononcé avec toujours un brin d humour.,serveurs positive
+g207360-d4481417-r281591572,id_2,Le patron est vraiment super sympa et j'ai même eu droit à une pizza gratuite sans rien demander.,patron positive
+g187253-d3367883-r261318845,id_2,Si cela nous avait ete communique en nous installant nous aurions decide de changer de restaurant.,restaurant negative
+g187103-d1327074-r281100867,id_6,viandes excellentes pour les amateurs,viandes positive
+g187253-d907767-r282001273,id_1,"Salade aux chèvres peu fraiche, cafés gourmands à 9 € , cadre poussiéreux, service peu professionnel.",Salade aux chèvres negative <sep> cafés gourmands negative <sep> cadre negative <sep> service negative
+g187147-d953748-r244202182,id_2,Nous regrettons la bonne crêperie d'il y a quelques années et n'y retournerons finalement plus !,crêperie negative
+g187253-d1234630-r274467132,id_7,Bref une addition très salée pour un repas très long et mangé sans plaisir !,repas negative
+g187265-d718105-r115426081,id_1,Malheureusement ledit menu aux accents typiquement lyonnais est non seulement mauvais mais à la limite du grotesque.,menu negative
+g608761-d2053817-r143008138,id_1,"Je prends la formule "" entrée -plat du jour pour 12€50.""",
+g187147-d1336849-r242014326,id_4,Présentation des plats médiocre.,plats negative
+g187111-d3423656-r282520762,id_3,Nous avons pris une andouillette sauce dijonnaise à la moutarde et son accompagnement de frites et une andouillette avec petits légumes et purée.,
+g187155-d2656941-r251469423,id_1,"Nous saluons et demandons une table, ce qui pour des restaurateurs est le comble, nous avons eu l'air de les déranger , je n'avais jamais vu ça, les clients les gonflaient, clairement !",restaurateurs negative
+g187147-d783786-r234074304,id_7,"Nous sommes venus un samedi soir, le restaurant était plein, même sur la terrasse, donc un conseil : réservez à l'avance !",restaurant neutral
+g187253-d1331961-r118398179,id_3,"La viande était dure, les fruits de mer des pâtes surgelés et sans goût.",viande negative <sep> fruits de mer negative
+g187147-d3412675-r180902470,id_2,Nous avons testé le menu dégustation à 70€.,
+g187147-d695179-r233738791,id_0,"Tout était parfait : l'accueil, le cadre, l'ambiance (une pianiste joue des morceaux classiques entre deux ""numéros de chant""), le repas très fin, et surtout les chants !",accueil positive <sep> cadre positive <sep> ambiance positive <sep> repas positive <sep> chants positive
+g187178-d4173834-r267142253,id_1,"Le lieu est propre et le service correct, quoique un peu long (mais peut-être manquait-il du personnel ce jour là).",lieu positive <sep> service positive <sep> service negative
+g187147-d779840-r237971138,id_1,Dans mon assiette: la cuisine est un délice.,cuisine positive
+g187103-d1327074-r281100867,id_4,très bonne paella ( pour les connaisseurs ) oui grillée dans le fond comme à Barcelone,paella positive
+g187178-d4173834-r267142253,id_0,Adresse testée lors d'un repas d'équipe (donc grande tablée).,
+g187253-d4379462-r259558222,id_0,Nous étions des habitués de ce restaurant guinguette qui était à l'époque très agréable avec une magnifique vue sur le vieux port et avec une nourriture sans prétention avec de bon produits simples et frais....,restaurant positive <sep> vue positive <sep> nourriture positive <sep> produits positive
+g187253-d2248119-r222961718,id_4,Pour moi le pire reste le service!!,service negative
+g187147-d2477816-r282304814,id_1,Les galettes sont savoureuses et à prix très raisonnables.,galettes positive
+g187253-d1854779-r278211239,id_0,Mais que s' est il passé?,
+g187073-d1328515-r282975754,id_0,2 heures dattentes minumum aucun service et patronne execrable !,attentes negative <sep> service negative <sep> patronne negative
+g187147-d5225776-r279485100,id_0,On y est allé pour un déjeuner.,
+g187253-d1331961-r118398179,id_5,"Reste le service, sympathique mais un peu trop décontracté qui ne suffit pas à relever l'absence de qualité de ce restaurant.",service neutral <sep> restaurant negative
+g187253-d2290839-r195921991,id_0,....quel accueil froid et quel service antipathique!,accueil negative <sep> service negative
+g187253-d804636-r163197804,id_2,Réputation surfaite pour une adresse qui surfe sur la mode qui porte le quartier.,adresse negative
+g187147-d1515398-r264607143,id_1,"Accueil très très sympa !!! Nous avons très bien mangé avec des plats traditionnels comme à la maison, la qualité mais aussi la quantité sont en rdv !!!",Accueil positive <sep> plats positive
+g187206-d7015016-r279931558,id_4,Les frites étaient quasiment transformées en purée tellement elles étaient imbibées de graisse.,frites negative
+g187155-d3194494-r225589189,id_3,"Le repas pris était typique de la région (salade de chèvre miel, seiche à la seitoise et son excellent rizotto....).",repas positive <sep> rizotto positive
+g187253-d1308414-r269942828,id_3,La cuisine est raffinée : le menu du marché avec ses 3 entrées surprises est délicieux.,cuisine positive <sep> menu du marché positive

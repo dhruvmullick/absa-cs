@@ -1,0 +1,254 @@
+review_id,sentences_ids,sentences_texts,sentences_opinions
+Review-g188665-d967009_1,id_3,Scampi in een dikke bloemige saus geen smaak.,scampi negative
+Review-g188650-d1161871_4,id_4,De tapas vooraf waren alvast een voltreffer.,tapas positive
+Review-g188669-d3631466_1,id_2,Bediening voor Belgische begrippen erg goed.,bediening positive
+Review-g188636-d809942_1,id_2,Enige minpuntje vond ik het rumoerige kader.,kader negative
+Review-g188671-d1761224_2,id_8,We werden geholpen door een leuke en spontane vrouw!,vrouw positive
+Review-g188650-d1161871_2,id_1,"Goede frituur, nergens in Hasselt kan je voor deze prijzen frieten eten.",frieten positive <sep> frituur positive
+Review-g3492038-d2669477_2,id_8,"Over de smaak van het eten kan ik weinig zeggen, maar de borrelhapjes zijn nogal duur in verhouding.",borrelhapjes negative <sep> eten neutral
+Review-g188637-d1973474_4,id_1,Ik moet eerlijk zijn dat dit de minst goede indier is waar ik ooit ben gaan eten.,indier negative
+Review-g188674-d742064_4,id_4,"Toen we de ober riepen, komt hij onze bestelling opnemen, maar toen bleek dat we nieuwe cliënten waren, annuleerde hij de opgenomen bestelling en zei hij ons datchij eerst zijn bestaande cliënten zal bedienen, voor hij ons zal bedienen.",ober negative
+Review-g188672-d1915624_3,id_1,een aangename plaats om eens een kleinigheid of uitgebreid te gaan eten !!,plaats positive
+Review-g641827-d4753953_3,id_10,man betaald en garcon pakt alle ete weg!!!!!,garcon negative
+Review-g188666-d3803270_4,id_1,"Lekker restaurant gekend voor zijn mooie malse stukken vlees (entrecote, filet pur, steaks) doch ook heel lekkere garnaalkroketjes, stoofvlees.",vlees positive <sep> restaurant positive <sep> garnaalkroketjes positive
+Review-g1081485-d803873_2,id_6,Wildvang gamba was ok maar tom.saus erbij was te overheersend.,wildvang gamba neutral <sep> tom.saus negative
+Review-g1006565-d2066794_3,id_3,Er was namelijk een menu ofwel 3 gangen ofwel 4 gangen met telkens per gang 3 tot 4 keuzes.,menu positive
+Review-g188636-d4579497_4,id_3,Ontzettend gastvrij personeel,personeel positive
+Review-g188671-d2294477_4,id_2,Ook vlees is erg lekker.,vlees positive
+Review-g188671-d1761224_4,id_3,Een zeer royale portie en heerlijke Belgische friet!,belgische friet positive <sep> portie positive
+Review-g188671-d1045514_4,id_2,"Borden niet proper afgewassen, zien er vettig uit.",borden negative
+Review-g188650-d4374911_3,id_1,Buitengewone ontvangst door een lieve gastvrouw.,gastvrouw positive
+Review-g188671-d2166198_2,id_2,Zeer attente en vriendelijke bediening.,bediening positive
+Review-g188650-d1161871_2,id_2,"De service is snel en vriendelijk, het restaurant is gezellig.",restaurant positive <sep> service positive
+Review-g188671-d3162667_1,id_2,"Het ontbijt was overheerlijk, heel vers, ruim voldoende, ruime keuze, heel lekkere koffie en chocomelk.",koffie en chocomelk positive <sep> ontbijt positive
+Review-g641826-d741899_2,id_2,Restaurant met open keuken en rustig kader.,restaurant positive
+Review-g188671-d3162667_1,id_3,Het eten is er dus super.,eten positive
+Review-g641779-d740846_3,id_2,Het behalen van een Michelinster is Lieven en Iris niet naar het hoofd gestegen.,lieven en iris positive
+Review-g188636-d1227444_2,id_1,Kleine maar gezellige zaak met prima bediening.,zaak neutral <sep> bediening positive
+Review-g1081485-d803873_2,id_5,"voorgerecht was niet verfijnd, gefrituurde pijlinktvis die overheerst werd door een te vet beslag.",gefrituurde pijlinktvis negative
+Review-g1081485-d803873_2,id_7,"Hoofdgerecht was dorade in zoutkorst, heel goed, correct, niets mis mee.",dorade in zoutkorst neutral
+Review-g188671-d1045514_4,id_4,Frieten vanuit de diepvrieszakken..,frieten negative
+Review-g230023-d742208_2,id_9,Ik opteerde voor een spaghetti en een karafje wijn die zuur smaakte.,karafje wijn negative
+Review-g188671-d1604411_2,id_1,Voor mij is restaurant Zeno een van de topadresjes in Brugge.,restaurant zeno positive
+Review-g188636-d3907081_3,id_3,Fantastische smaakbommen met verrassende structuren en combinaties...elk gerecht is een kunstwerk.,gerecht positive
+Review-g188666-d842061_1,id_5,"Slechts één menuutje om uit te kiezen, de full menu of de afgeslankte versie (door het schrappen van een of meer gangen), aangevuld met enkele à la carte keuzes.",menuutje negative
+Review-g188673-d742121_4,id_1,Veel nostalgie in dit restaurant waar ondermeer karnemelkstampers op de kaart staan.,restaurant positive
+Review-g188669-d815146_2,id_2,"Bediening was ok, interieur vrij saai en oud.",interieur negative <sep> bediening neutral
+Review-g188672-d4570177_2,id_2,Ze zouden deze zaak moeten sluiten,zaak negative
+Review-g188671-d3617522_2,id_5,"De bediening was heel vriendelijk en oprecht, en dat is toch echt een stuk aangenamer dan te chique en geforceerd.",bediening positive
+Review-g188674-d3426674_1,id_4,"De kip was erg goed, de sla kon een betere mix zijn en de frietjes vond ik gewoon niet lekker.",sla neutral <sep> kip positive <sep> frietjes negative
+Review-g188674-d3426674_2,id_1,"vriendelijk onthaal, druk op deze zaterdagavond.",onthaal positive
+Review-g780932-d3468888_2,id_1,"Korte samenvatting: ongemanierde, onprofessionele bediening en zeer slecht eten (volgende dag ziek).",eten negative <sep> bediening negative
+Review-g1120021-d4097420_2,id_1,Gezellig tafelen in een bistro met aangename sfeer.,bistro positive
+Review-g188671-d2330356_2,id_3,"Vriendelijke bediening, en top patissier!!!!",bediening positive <sep> patissier positive
+Review-g188671-d3162667_3,id_8,"Heerlijke plek om te komen lunchen met je vriendin, mama of kameraad of om gewoon een lekkere thee of koffie te komen drinken en door een boek te bladeren of met de MacBook of iPhone van de gratis wifi te genieten.",plek positive <sep> thee of koffie positive
+Review-g641827-d4753953_3,id_1,"Mosselen met frietjes besteld, frietjes ronduit slap en vet, geen mosselsaus omdat de chef slechtgezind was, mayo met brokken,... m ijn man was nog braaf!",mayo negative <sep> chef negative <sep> mosselsaus negative <sep> frietjes negative
+Review-g188672-d1915624_3,id_3,op de kaart diverse Italiaanse gerechten of verschillende soorten salades ook te verkrijgen !!,kaart positive
+Review-g641826-d6433742_2,id_5,Het interieur is mooi en rustig.,interieur positive
+Review-g188665-d967009_1,id_7,Frietjes hadden een rare bijsmaak.,frietjes negative
+Review-g641832-d2274858_3,id_3,Het personeel moet zich wel nog wat rustiger gedragen.,personeel negative
+Review-g188666-d3803270_1,id_2,We volgden de aanrader van de ober: de platte oesters zijn binnen en ze waren inderdaad heerlijk.,platte oesters positive
+Review-g188671-d1761224_4,id_2,We hebben de Vlaamse stoofschotel gekozen en deze bleek geweldig.,vlaamse stoofschotel positive
+Review-g188636-d4080718_3,id_1,Interieur en sfeer in dit restaurant zijn prima.,sfeer positive <sep> interieur positive
+Review-g188674-d3426674_1,id_3,Eten te duur voor wat op tafel kwam.,eten negative
+Review-g188672-d2414248_4,id_1,"Vlotte en vriendelijke bediening, veel en lekker vlees, sausjes, frietjes en groentjes a volonte.",sausjes positive <sep> frietjes positive <sep> vlees positive <sep> bediening positive <sep> groentjes positive
+Review-g188637-d1973474_3,id_2,Bestellen een soepje met groenten: precies een slechte minestrone met zwevende groentenblokjes in een wazig vocht.,soepje met groenten negative
+Review-g188671-d3617522_2,id_15,"Dit was echt een volwaardig gerecht, en afgewerkt met een pesto van basilicum, die lekker genoeg was om op zich te eten.",gerecht positive <sep> pesto van basilicum positive
+Review-g230023-d742208_3,id_4,De pizza was zeer slecht gevuld en de smaak was zeer flauw.,pizza negative
+Review-g188666-d783278_1,id_1,"aparte inkom en zeer goed persoonlijk onthaal elke blik in het antieke interieur belicht of een oude pop, juweel, handtas..bediening zeer nauwgezet en kwaliteitskreeften buitengewoon",kwaliteitskreeften positive <sep> bediening positive <sep> onthaal positive <sep> inkom neutral
+Review-g230023-d742208_2,id_22,Zo'n plekken moeten ze gewoon onmiddellijk sluiten.,plekken negative
+Review-g641835-d742342_3,id_2,Bij het aperitief kwamen een hele reeks prachtige en lekkere hapjes.,hapjes positive
+Review-g188636-d4080718_3,id_2,De bediening is correct maar zou beter kunnen.,bediening neutral
+Review-g188672-d3750960_3,id_1,De soep van het dagmenu stond stijf van het zout.,soep negative
+Review-g641827-d4753953_3,id_5,"man komt buiten, ik zeg braaf kom de kindere hebben honger, eet maar gewoon, komt ene buitegevloge, nu betale!",ene negative
+Review-g188671-d1604411_2,id_4,Wij zijn reeds drie maal gaan eten bij Zeno en telkens was het een culinaire voltreffer.,zeno positive
+Review-g641825-d4674814_4,id_3,De bediening was zeer vriendelijk.,bediening positive
+Review-g3607018-d1444065_1,id_1,Wij zijn meer dan tevreden over onze avond in de Gempemolen.,gempemolen positive
+Review-g188636-d1790921_4,id_1,"Bediening is zeer goed, zeer mooie trendy retro-interieur.",retro-interieur positive <sep> bediening positive
+Review-g230021-d742004_3,id_1,"een toffe sfeer, zonder veel tralala, lekker eten voor een beste prijs-kwaliteit.",eten positive <sep> sfeer positive
+Review-g188671-d1045514_4,id_3,Stoofvlees precies vanuit de frituur.,stoofvlees negative
+Review-g188666-d842061_3,id_6,"Hapje (te delen) was zeer lekker, rundstartaar.",hapje neutral <sep> hapje positive
+Review-g780932-d3468888_3,id_22,Er was een meisje dat onze tafel expres oversloeg (en soms gewoon stond te nietsen) omdat zij geen Nederlands wou praten.,meisje negative
+Review-g188666-d842061_3,id_7,Voorgerecht (st jacobsvrucht) vond ik niet overtuigend en niet koud genoeg om koud voorgerecht te zijn en iets te lauw om warm voorgerecht te zijn...,voorgerecht negative
+Review-g188669-d740885_2,id_2,"Ook de wijn, 14€ voor een kleine 1/2L, stelde niets voor.",wijn negative
+Review-g188666-d842061_1,id_6,"De sterkte van een keuken kan in de eenvoud liggen, deze was echt wel heel eenvoudig voor zo'n 55 euro excl wijnen, hiervoor kan je in Gent beter aan de dis: Karel de Stoute, House of Elliott, Grade e.a.",keuken negative
+Review-g188671-d1761224_4,id_7,"Een aanrader, dit restaurant.",restaurant positive
+Review-g3492038-d2669477_2,id_5,Een half en half is slechts 1/3de tripel aangevuld met trappist uit het vat.,half en half negative
+Review-g188672-d4570177_3,id_2,Voor de rest viel het ons op dat niet de hele prijskaart (zoals eurodeals) ergens duidelijk stond.,prijskaart negative
+Review-g188669-d1091321_2,id_1,"De pizza's zijn heel lekker, snelle bediening, en het personeel is heel vriendelijk !!",personeel positive <sep> bediening positive <sep> pizza's positive
+Review-g641826-d6433742_2,id_2,Iedereen was het er over eens dat Le Kok werkelijk een bijzondere aanwinst is in de omgeving van De Haan.,le kok positive
+Review-g188669-d1091321_4,id_3,Bediening is zeer vriendelijk.,bediening positive
+Review-g188672-d4570177_2,id_1,Nog nooit in zo een vuil en ongeordend mcdonalds restaurant geweest zeker een afrader.,mcdonalds restaurant negative
+Review-g188674-d3426674_2,id_4,Halve kreeft wat minimaal van portie.,halve kreeft negative
+Review-g188671-d3162667_3,id_2,"Ik ontdekte deze plek toen het recent opende, werd verliefd op dit gezellige en sfeervolle etablissement, en ben het nog steeds.",etablissement positive
+Review-g3607018-d1444065_1,id_6,Het dessert was de kers op de taart.,dessert positive
+Review-g230023-d742208_2,id_21,Dit restaurant is geen afrader.,restaurant neutral
+Review-g188636-d4579497_2,id_7,Zeer vriendelijk attent personeel.,personeel positive
+Review-g2546789-d4542241_1,id_1,"hadden er een brunch besteld, eten was tiptop, drank genoeg.",drank neutral <sep> eten positive
+Review-g188666-d783278_3,id_6,Vriendelijke bediening!,bediening positive
+Review-g188666-d1179195_3,id_2,De bediening is nonchalant en de keuken traag.,keuken negative <sep> bediening negative
+Review-g188673-d742121_4,id_2,Menu aan een aantrekkelijke prijs.,menu positive
+Review-g188671-d2294477_1,id_3,Personeel is erg vriendelijk en goede bediening.,personeel positive
+Review-g230023-d742208_3,id_5,Ook diende ik de prijzen te betalen van het restaurant terwijl afhaalpizza goedkoper was in de folder.,afhaalpizza negative
+Review-g941689-d3671892_2,id_7,Het voorgerecht was ok.,voorgerecht neutral
+Review-g188671-d3617522_2,id_6,"De hele avond is er ons ook uitdrukkelijk gevraagd of alles naar wens was, zonder dat de bediening teveel wordt opgedrongen.",bediening positive
+Review-g941689-d3671892_2,id_11,"De bediening is onvriendelijk, begint altijd met de gasten te discussiëren.",bediening negative
+Review-g188666-d842061_1,id_12,Dit restaurant laat ik als bourgondiër met oog voor de fijne keuken toch maar aan mij voorbijgaan in de toekomst.,restaurant negative
+Review-g188636-d809942_1,id_3,Er zat een heel luidruchtige groep naast ons en het interieur gaf onvoldoende demping waardoor ik we elkaar soms met moeite konden verstaan.,interieur negative
+Review-g3607018-d1444065_3,id_2,"Omgeving en interieur zijn meer dan ok, eten is om minder enthousiast over te zijn.",eten negative <sep> interieur positive <sep> omgeving positive
+Review-g188671-d2294477_1,id_2,De spareribs waren lekker!,spareribs positive
+Review-g188674-d3426674_1,id_2,"Kaart zag er goed uit, tafels netjes ingedekt.",tafels positive <sep> kaart positive
+Review-g188650-d4374911_3,id_7,"Sfeer heel gezellig, eten echt topniveau.",sfeer positive <sep> eten positive
+Review-g188669-d815146_2,id_3,Eten was een teleurstelling.,eten negative
+Review-g941689-d3671892_2,id_9,"Kleine porties, half rauw vlees, kortom: waardeloos.",vlees negative <sep> porties negative
+Review-g188671-d3162667_1,id_6,Het concept is ook leuk!,concept positive
+Review-g230023-d742208_2,id_6,Die man beviel me echt niet.,man negative
+Review-g641834-d4214987_3,id_3,Heel vriendelijke service.,service positive
+Review-g188636-d4080718_4,id_3,Het eten op zich was erg lekker maar we hadden het gevoel dat de actie aan -bij benadering- de helft van de prijs ook maar de helft van de normale portie inhield.,portie negative <sep> eten positive
+Review-g188674-d742026_3,id_4,"Vriendelijke bediening, en lekkere olijven bij de apero ;)",bediening positive <sep> olijven positive
+Review-g188671-d1761224_2,id_13,Ik kan iedereen dit restaurant van harte aanbevelen.,restaurant positive
+Review-g641834-d4214987_3,id_1,Mooi gezellig restaurant.,restaurant positive
+Review-g780932-d3468888_3,id_11,Het buffet was zielig.,buffet negative
+Review-g188669-d815146_2,id_4,Vispannetje was bijvoorbeeld koud en helemaal niet vers.,vispannetje negative
+Review-g188671-d3617522_2,id_12,"De twee voorgerechtjes vielen ook in de smaak, maar vooral het voorgerechtje van coeur de boeuf is mij bijgebleven!",voorgerechtjes positive <sep> voorgerechtje van coeur de boeuf positive
+Review-g188671-d3162667_3,id_7,Mevrouw die de zaak uitbaat verdient een vermelding voor de vriendelijkheid.,mevrouw positive
+Review-g188674-d742026_3,id_3,Garnaalkroket waarbij je niet naar de garnalen moet zoeken.,garnaalkroket positive
+Review-g188673-d742121_4,id_4,Heel vriendelijke mensen.,mensen positive
+Review-g230023-d742208_2,id_5,We werden binnengeleid door een man die ons nogal bazig en bars met het vingertje gebood om in het gevulde deel van het resto plaats te nemen.,man negative
+Review-g188669-d3631466_3,id_2,Het hammetje in mosterdsaus is een overvloedig stuk mals vlees met een knapperige salade.,hammetje in mosterdsaus positive
+Review-g188666-d783278_2,id_1,Zeer gezellig restaurant met nostalgie wij aten kreeft menu Eliot nog nooit aten wij zo lekkere kreeftjes zeer vers en op een lekkere manier klaargemaakt de bediening top zeer sociaal en deze mensen weten hoe de klanten te bedienen echt top doe zo verder,bediening positive <sep> kreeftjes positive <sep> restaurant positive
+Review-g641785-d1140849_1,id_3,Misschien opteren om iets minder lompe frieten te serveren (zonder meerprijs :-)),frieten negative
+Review-g188675-d3155307_1,id_4,Een verrassend lekker hapje bij het aperitief en heerlijke salade met scampi.,salade met scampi positive <sep> hapje positive
+Review-g188674-d3426674_2,id_3,Garnaalkroketjes in huis gemaakt.,garnaalkroketjes positive
+Review-g188636-d1790921_4,id_2,Teaser (warm drankje met maltesers) zeer lekker.,teaser positive
+Review-g188665-d967009_1,id_4,Steak bearnaise: saus was te dik en te koud om over het vlees te gieten.,steak bearnaise negative
+Review-g188650-d4374911_3,id_4,Dat vind ik altijd een voordeel voor een goed restaurant.,restaurant positive
+Review-g188674-d3426674_2,id_5,Snelle (té?) bediening.,bediening neutral
+Review-g641827-d4753953_3,id_2,"na nog n keer vrage krege we azijn met wat dressing in, nog eens terug en mayo gevraagd en krege we mayo met brokken en toestande, nog es terug, mijn man zegt jamaar klant is toch nog altijd koning, onbeschoft en het antwoord van de chef, jamaar ik ben keizer!",chef negative <sep> mayo negative
+Review-g941689-d1020348_2,id_2,De gastvrouw is supervriendelijk.,gastvrouw positive
+Review-g188671-d741857_4,id_2,"Cola 40cl €5,80, voor de bruggeling €3, gelukkig......",cola negative
+Review-g188671-d1761224_4,id_4,"De goed geprijsde huiswijn, die aangeraden werd, paste er excellent bij.",huiswijn positive
+Review-g188666-d842061_1,id_7,De bediening door jonge obers kon bovendien professioneler.,obers negative
+Review-g188671-d1761224_4,id_5,Uiterst vriendelijke bediening.,bediening positive
+Review-g188665-d967009_1,id_9,"Personeel wel vriendelijk, maar moesten wel wat snel beslissen wat we wilden alhoewel er maar één ander koppel in het restaurant zat.",personeel neutral
+Review-g188671-d3162667_3,id_5,"De sfeer in Books & Brunch is zo heerlijk, kom je voor een lunch, een koffie of een thee.",sfeer positive
+Review-g941689-d3671892_3,id_2,"het bladerdeegbakje van het koninginnenhapje was top de rest was niet om over naar huis te schrijven prefab gehakballetjes, weinig saus, geen champignon te bespeuren, een beetje kip de frieten waren beneden alle peil, smakeloos karton er zijn voldoende andere mogelijkheden in de buurt, zeker als je met een klein gezelschap bent ook voor grotere gezelschappen moet er binnen Maaseik een beter alternatief zijn.",rest negative
+Review-g188669-d1091321_4,id_1,"Het uiterlijk van het restaurant oogt simpel, maar het eten is dat absoluut niet!",eten positive <sep> restaurant negative
+Review-g188674-d742064_4,id_6,"Na een kwartiertje gedulde te hebben gezien de drukte van de avond, en het merkelijk onderbemande personeel en al een 4 tal tafeltjes terug te zien vertrekken hebben, komt de ober onze overvolle tafel opruimen, waarbij wij een 3e poging doen om te bestellen, en de ober ons na 30min geduld te hebben gehad aanmaant om nog een 15 tal minuten te willen wachten.",ober negative
+Review-g188671-d3617522_2,id_17,"Echt een pure chocoladesmaak, die super gaat in combinatie met de sinaasappelschijfjes die erbij worden geserveerd.",chocoladesmaak positive
+Review-g188666-d842061_3,id_3,"Aperitief Hugo, zeer lekker, mooi gepresenteerd.",aperitief hugo positive
+Review-g188671-d1604411_2,id_8,Zeno is een echte aanrader en zeker een Michelinster waardig.,zeno positive
+Review-g188671-d1761224_4,id_1,Uitstekend restaurant.,restaurant positive
+Review-g188671-d1761224_2,id_5,Het restaurant is leuk ingericht.,restaurant positive
+Review-g188650-d786299_4,id_2,"Lekkere fondue, goede bediening.",bediening positive <sep> fondue positive
+Review-g188666-d842061_3,id_2,"Tafel achteraan aan de keukenramen, intiem diner met twee, gestationeerd naast luidruchtige Aalsterse groep (niet echt ideaal).",tafel negative
+Review-g641825-d741872_1,id_3,eigenaar ging ongelofelijk Tekeer tegen zijn personeel.,eigenaar negative
+Review-g188671-d3617522_2,id_14,"Voor het hoofdgerecht, de veganistische lasagne, geldt opnieuw dat hier niet wordt uitgegaan van 'we laten het vlees gewoon weg'.",veganistische lasagne positive
+Review-g230021-d741974_4,id_3,Zoals elke keer is het hier genieten van sublieme smaakcombinaties en heerlijk bijpassende wijnen.,bijpassende wijnen positive <sep> smaakcombinaties positive
+Review-g941689-d3671892_2,id_10,"De salade verlept, de frieten uit de diepvries.",salade negative <sep> frieten negative
+Review-g1081485-d803873_2,id_4,"Eten: Rare combinaties, hapje vooraf stimuleert de eetlust niet (te pikant en te complex).",hapje negative <sep> eten negative
+Review-g188666-d783278_3,id_5,In het restaurant zelf: zeer veel prullaria die de sfeer in het restaurant ten goede komen.,restaurant positive
+Review-g188650-d1161871_2,id_3,"Het enige nadeel is dat er iets aan het afzuigsysteem mag gedaan worden (als ze er al een hebben), als je er 5 minuten binnen bent kan iedereen ruiken dat je van de Marmiet komt.",marmiet positive
+Review-g3607018-d1444065_3,id_1,Ondanks dat deze Brasserie uitgebaat wordt door de Meus Clan voldoet ze niet aan de verwachtingen.,brasserie negative
+Review-g188671-d3318591_1,id_2,"Alleen jammer dat het menu zo beperkt is qua eten, anders hadden we er ook een hapje gegeten.",menu negative
+Review-g188671-d1761224_2,id_9,"Respect voor haar, in je eentje elf tafels lopen is nogal een opgave.",haar positive
+Review-g188674-d3426674_2,id_2,Menu aan heel aanvaardbare prijs.,menu positive
+Review-g641832-d2274858_3,id_2,"Misschien 1 minpuntje de dame vroeg enkel aan mij of ik een koffie wou (alhoewel wij met 4 waren-zonder aan de andere tafelgenoten ook die vraag te stellen, ze was ook wat vlug weg) dus iedereen kreeg koffie.",dame negative
+Review-g188666-d842061_3,id_5,Het laatste hebben we nooit gezien...,het laatste negative
+Review-g188673-d3411707_2,id_1,"reeds meerdere keren merkte ik dat de zwartharige lesbische ober wisselgeld ""per ongeluk"" te weinig teruggeeft.",zwartharige lesbische ober negative
+Review-g780932-d3468888_2,id_3,"Korte samenvatting: ongemanierde, onprofessionele bediening en zeer slecht eten (volgende dag ziek).",eten negative <sep> bediening negative
+Review-g1081485-d803873_2,id_1,Bediening: Je zaak laten runnen door onervaren jobstudenten is nooit een goede zaak.,bediening negative
+Review-g1006565-d2066794_3,id_6,"Samenvatting: goede bediening, lekker (hoger niveau) eten en mooie locatie.",bediening positive <sep> eten positive <sep> locatie positive
+Review-g188669-d3631466_1,id_3,Brede keuze op de kaart met veel variatie.,kaart positive
+Review-g188636-d4080718_3,id_6,"Eerder kleine porties (wat nog aanvaardbaar kan zijn gezien de bon), eten was eerder lauw ipv warm.",porties neutral <sep> eten negative
+Review-g188671-d3162667_3,id_4,"Het eten is lekker, vers en je proeft dat het niet geforceerd is.",eten positive
+Review-g188671-d3162667_1,id_12,we zijn blij dat we Books en Brunch ontdekt hebben!!!,books en brunch positive
+Review-g230023-d742208_3,id_1,Dit was mijn grootste tegenvaller ooit op gebied van take-away.,take-away negative
+Review-g780932-d3468888_3,id_17,"Mijn vriend is meerdere keren in het Nederlands gaan vragen wanneer het ging bijgevuld worden, om dan maar te horen te krijgen dat het personeel geen Nederlands verstaat..",personeel negative
+Review-g641827-d4753953_3,id_12,baas met baseballknuppel langs mij!!!!!!!!!!,baas negative
+Review-g188671-d3162667_1,id_10,voor Brugge is dit gezellig restaurant echt een meerwaarde!,restaurant positive
+Review-g661772-d7081883_1,id_1,Genoten van een heerlijke avond in The Bistronomy!,the bistronomy positive
+Review-g188674-d742064_4,id_14,"Ondanks de leeftijd van de ober, zou je de indruk moeten hebben dat hij al heel wat ervaring had, echter zo'n uithangbord zou ik niet willen hebben in mijn zaak.",ober negative
+Review-g188666-d1179195_3,id_3,Als de zaak vol zit dan is er een probleem -wat zich vertaald in trage bediening en fouten.,bediening negative
+Review-g188636-d4579497_4,id_2,Gezellige sfeer,sfeer positive
+Review-g780932-d3468888_3,id_21,Verder ook zeer ontevreden over het personeel.,personeel negative
+Review-g188650-d1161871_1,id_2,De bediening is zeer vlot.,bediening positive
+Review-g188636-d5929173_1,id_1,"Voor 50 euro geniet je van de fantastische thaische keuken, de persoonlijke bediening en de gezellige huiselijke sfeer.",sfeer positive <sep> bediening positive <sep> thaische keuken positive
+Review-g188671-d741857_2,id_2,"dat zoiets in onze mooie stad nog mag open zijn, dat begrijp ik niet",zoiets negative
+Review-g3607018-d1444065_1,id_4,Eén iemand koos een vegetarische schotel en ook zij was heel enthousiast.,vegetarische schotel positive
+Review-g3607018-d1444065_1,id_3,We kozen na de soep met z'n vieren voor het zwijnshaasje: sappig en met allerlei lekkere groentjes.,groentjes positive <sep> zwijnshaasje positive
+Review-g641826-d6433742_2,id_3,"De chef heeft duidelijk een gulden middenweg gevonden om de niet alleen mooie presentaties voor te schotelen, maar om ook de smaken uitstekend te doceren.",chef positive
+Review-g188669-d3372515_2,id_2,Nu woon ik in Berlijn en elke keer als ik terug in België ben haast ik me naar Leuven voor een bol écht ijs van Decadenza.,ijs positive
+Review-g188672-d3750960_3,id_3,"De vis was wel lekker, maar een roosje broccoli was alle groente.",groente negative <sep> vis positive
+Review-g188650-d1161871_4,id_1,Zeer leuk restaurant met betere gerechten gebracht aan democratische prijzen.,gerechten positive <sep> restaurant positive
+Review-g780932-d3468888_1,id_6,Het meisje was altijd aan het 3xcuses a h geven.,meisje negative
+Review-g188669-d3631466_3,id_3,De huisgemaakte chocolademousse als toetje kon er nog net bij.,chocolademousse positive
+Review-g188671-d3162667_3,id_3,Het concept is uiteraard iets uniek in Brugge en iets waar je ongeacht de reden van bezoek altijd wel even bij uitdraait om door de boeken te gaan kijken.,concept positive
+Review-g188636-d5929173_1,id_3,Vooral de zeevruchtensalade kon ons erg bekoren.,zeevruchtensalade positive
+Review-g188671-d3617522_2,id_7,Ook de sfeer zorgt voor ontspannen avond.,sfeer positive
+Review-g188666-d842061_1,id_1,"De nieuwe site van het restaurant binnen de muren van het Mariott hotel oogt dan wel prestigieus, en is het ook wel.",restaurant neutral
+Review-g188671-d3162667_1,id_5,De gastdame was heel vriendelijk en spontaan!,gastdame positive
+Review-g188666-d783278_3,id_2,Geweldig kreeftenrestaurant.,kreeftenrestaurant positive
+Review-g780932-d3468888_2,id_5,"Chi-Chi's Wemmel opende recent zijn deuren, misschien daardoor dat de kwaliteit zo laag is.",chi-chi's wemmel negative
+Review-g188666-d783278_3,id_3,Kreeft op verschillende wijze te verkrijgen.,kreeft positive
+Review-g641834-d4214987_3,id_2,"Eten was perfect, niets op aan te merken.",eten positive
+Review-g188671-d2294477_4,id_1,"Nacho's vooraf erg lekker (en veel, kleine portie is makkelijk met 3 personen te eten).",portie positive <sep> nacho's positive
+Review-g188650-d4374911_3,id_2,"Het is een klein maar heel gezellig restaurant, je moet absoluut reserveren.",restaurant positive
+Review-g188671-d3617522_2,id_16,"Als dessert dan de vegan chocolade mousse gekozen en hoewel deze inderdaad iets heel anders is dan wat je verwacht, daar waren we voordien vriendelijk voor gewaarschuwd, is het echt een aanrader!",vegan chocolade mousse positive
+Review-g230023-d742208_2,id_17,"Toen ik de eigenares erop attent maakte dat dit zeer louche praktijken zijn, maakte ze een scene en weigerde ze om me wisselgeld te geven.",eigenares negative
+Review-g188671-d1604411_2,id_6,"Het enige minpuntje voor mij is het kille interieur, maar dat zal me zeker niet weerhouden om nog naar Zeno te gaan.",interieur negative
+Review-g188671-d1371876_1,id_3,De chocolade mouse was verrukkelijk.,chocolade mouse positive
+Review-g188669-d740885_2,id_1,"Wij aten de tongreepjes aan 30€, ze waren smaakloos en zeer klein (4 brokjes).",tongreepjes negative
+Review-g954018-d967590_1,id_1,"Mooie rustige inrichting, prachtig bestek, attente bediening, maar vooral heel lekkere gerechten!",gerechten positive <sep> bediening positive <sep> bestek positive <sep> inrichting positive
+Review-g230021-d741974_4,id_1,Voor de 2de keer dit jaar gereserveerd in dit super restaurant.,restaurant positive
+Review-g188671-d3617522_2,id_9,De amuse was een tapenade van olijven en was echt verassend lekker!,tapenade van olijven positive
+Review-g188666-d1179195_3,id_1,Zéér goede ligging en prima terras.,terras positive <sep> ligging positive
+Review-g188669-d3372515_1,id_1,"Ik ben zowiezo een grote ijsjes fan, dus heb al op heel wat plaatsen ijsjes gehad, maar dit is echt het beste ijs wat ik al ooit gehad heb!",ijs positive
+Review-g941689-d3671892_2,id_12,Mijn tweede Leefe uit het vatkwam in een flesje!,leefe negative
+Review-g188666-d3803270_4,id_2,bediening is snel en vriendelijk doch soms een beetje gevoel van te weinig persoonlijke touch door grote van restaurant.,bediening neutral
+Review-g188665-d967009_1,id_8,Vriendin had een stoofpotjes van kabeljauw daar kon je een vork in recht zetten.,stoofpotjes van kabeljauw negative
+Review-g188669-d1091321_4,id_2,Kaart is bijzonder door de grote hoeveelheid pizza's.,kaart positive
+Review-g188650-d1161871_1,id_1,"Vriendelijke bediening, de uitbater is steeds bereidt om een praatje te maken zelfs als het druk is.",uitbater positive <sep> bediening positive
+Review-g188674-d742064_4,id_13,The lodge daar ga ik nooit meer.,the lodge negative
+Review-g780932-d3468888_3,id_8,Dan nog eens 20 minuten vooraleer het personeel gedaan had met praten en tijd had om onze bestelling op te nemen.,personeel negative
+Review-g188636-d5929173_1,id_2,Eerst een aperitiefje in de mooie tuin en dan hebben we ons laten verassen met heerlijke gerechten.,gerechten positive <sep> tuin positive
+Review-g188666-d842061_1,id_8,"Het interieur van dit restaurant zal wel 'uitgepuurd' worden genoemd, het is kil, biedt slechts een matige 'hotelsfeer'.",interieur negative
+Review-g230023-d742208_2,id_8,Ik vertrouwde het zaakje meteen niet.,zaakje negative
+Review-g641834-d4214987_3,id_4,De frietjes zijn handgesneden.,frietjes positive
+Review-g641832-d2274858_3,id_1,"Het eten was super, kon niet beter!",eten positive
+Review-g188669-d3631466_2,id_4,"De muziek die absoluut niet in een restaurant past, werd tijdens het diner ineens hard gezet.",muziek negative
+Review-g2546789-d4542241_1,id_2,andere mensen zaten precies ook aan ons eten,eten neutral
+Review-g188636-d4080718_4,id_6,"En dan een klein soepkommetje rijst erbij, dat ook voor ons beiden bleek te zijn.",rijst negative
+Review-g188674-d742026_3,id_2,Goede keuze en grote porties.,porties positive <sep> keuze positive
+Review-g188671-d3617522_2,id_8,"Wij hebben gekozen voor het vegetarisch viergangen menu, en die was het zeker waard!",vegetarisch viergangen menu positive
+Review-g188636-d4579497_2,id_4,Eten is lekker vers belgische gerechten goed bier/,bier positive <sep> eten positive
+Review-g188636-d4579497_2,id_5,"Maar ook (alleen als je gereserveerd hebt) heel erg goed, lekker, uitgebreid ontbijt.",ontbijt positive
+Review-g188669-d3631466_2,id_2,"Dat is op zich niet erg, maar de bediening was meer met elkaar bezig dan met de gasten.",bediening negative
+Review-g188671-d3162667_3,id_1,Books & Brunch is van het beste wat Brugge te bieden heeft.,books & brunch positive
+Review-g780932-d3468888_3,id_3,Wij kwamen toe en hebben eerst een vijftal minuten moeten wachten tot er überhaupt iets van personeel in de zaal rondliep.,personeel negative
+Review-g780932-d3468888_2,id_6,Tip aan de uitbater: opleiding geven aan personeel (zowel keuken als zaal) indien u de zaak open wenst te houden.,personeel negative
+Review-g188671-d3162667_1,id_4,De bediening heel vlot!,bediening positive
+Review-g188666-d842061_1,id_2,Deze cateraar van oorsprong blijft beter bij zijn leest.,cateraar negative
+Review-g661772-d7081883_1,id_5,"Ons gezelschap heeft mogen kennismaken met de verrassende kunstjes van de robot gastvrouw, nooit eerder gezien!",robot gastvrouw positive
+Review-g661772-d7081883_1,id_2,Verrassende smaakcombinaties prachtig gepresenteerd op het perfecte bord!,smaakcombinaties positive
+Review-g188674-d742026_3,id_1,De lunchmenu is prijs-kwaliteit zeer goed.,lunchmenu positive
+Review-g188666-d842061_3,id_8,Hoofdgerecht (eend) was ok van smaak (saus was lekker) maar aardappeltjes waren niet krokant gebakken en eend was taai.,saus positive <sep> aardappeltjes negative <sep> hoofdgerecht neutral
+Review-g230021-d741974_4,id_4,Telkens opnieuw zijn we verrast door de uitzonderlijk verfijnde keuken.,keuken positive
+Review-g188650-d4374911_3,id_5,De gerechten die op tafel komen zijn prachtig gepresenteerd en verrukkelijk vergezeld van het uitstekende wijnadvies van de gastvrouw.,gastvrouw positive <sep> gerechten positive
+Review-g641835-d742342_3,id_3,"Het menu zelf was van hetzelfde niveau, zonder één minpuntje.",menu positive
+Review-g188671-d2166198_2,id_4,Ook de wijn was een aanrader.,wijn positive
+Review-g661772-d7081883_1,id_4,This is THE place to be!,this positive
+Review-g780932-d3468888_3,id_24,Bovendien waren de servetten op onze tafel al gebruikt en gewoon weer opgevouwen en waren de kaarten zeer plakkerig.,servetten negative <sep> kaarten negative
+Review-g188671-d3162667_1,id_1,Books en Brunch is fantastisch!,books en brunch positive
+Review-g188671-d3318591_1,id_1,"Leuk tentje, heel vriendelijke bediening, lekkere home-made ice tea.",home-made ice tea positive <sep> bediening positive <sep> tentje positive
+Review-g641826-d6433742_2,id_8,"Zeer professionele gast vrouw en goede bediening, hoewel eenmaal het principe, first-in, first-served niet toegepast werd waarschijnlijk door de drukte.",bediening positive <sep> gast vrouw positive
+Review-g188666-d1179195_3,id_5,"Jammer, want voor de gevraagde prijs verwacht je echt meer . van deze leuke zaak.",zaak negative
+Review-g188650-d4374911_3,id_3,De kaart wisselt regelmatig en is klein.,kaart neutral
+Review-g188666-d1179195_3,id_4,"De salade nicoise is echt géén topper -gewoon wat tonijn uit blik met sla, zonder veel inspiratie.",salade nicoise negative
+Review-g188671-d741857_4,id_3,"Jupiler 25cl €4.00 Witte wijn €7.00 Koffie €2,50 dit kan nog min of meer door de beugel.",jupiler negative <sep> witte wijn negative <sep> koffie neutral
+Review-g1120021-d4097420_2,id_2,De Royal all inclusief menu genomen aan een democratische prijs van 42€.,royal all inclusief menu positive
+Review-g780932-d3468888_3,id_20,Bovendien zijn wij allebei nog 3 dagen ziek geweest doordat het voedsel overduidelijk niet op een hygiënische temperatuur wordt gehouden in het buffet.,voedsel negative
+Review-g188674-d742064_4,id_5,"Bij het aanroepen van een 2e ober, hadden we nog minder succes want deze kent de Nederlandse taal niet en liep daar voor spek en bonen.",ober negative
+Review-g188671-d3162667_3,id_9,Books & Brunch is een echte parel tussen al de toeristische restaurants en cafés die Brugge domineren.,books & brunch positive
+Review-g188669-d1091321_2,id_2,Top restaurant ;-),restaurant positive
+Review-g188671-d2330356_2,id_2,Zalige gebakjes en het brood met rozijnen is perfect !!,brood met rozijnen positive <sep> gebakjes positive
