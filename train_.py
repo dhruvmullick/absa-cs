@@ -301,10 +301,15 @@ if __name__ == '__main__':
     # validation = pd.read_csv('./data/processed_val_rest_14.csv')  # .iloc[:277, :] #############################
     # test = pd.read_csv('./data/processed_test_rest_14.csv')  # .iloc[:277, :] #############################
 
-    #### Semeval Rest 15
-    training = pd.read_csv('./data/processed_train_rest_15.csv')
-    validation = pd.read_csv('./data/processed_val_rest_15.csv')  # .iloc[:277, :] #############################
-    test = pd.read_csv('./data/processed_test_rest_15.csv')  # .iloc[:277, :] #############################
+    # #### Semeval Rest 15
+    # training = pd.read_csv('./data/processed_train_rest_15.csv')
+    # validation = pd.read_csv('./data/processed_val_rest_15.csv')  # .iloc[:277, :] #############################
+    # test = pd.read_csv('./data/processed_test_rest_15.csv')  # .iloc[:277, :] #############################
+
+    #### Cross
+    training = pd.read_csv('./data/processed_train_mams.csv')
+    validation = pd.read_csv('./data/processed_val_mams.csv')  # .iloc[:277, :] #############################
+    test = pd.read_csv('./data/processed_test_mams.csv')  # .iloc[:277, :] #############################
 
     model_params = {
         "OUTPUT_PATH": "./models/combined",  # output path
