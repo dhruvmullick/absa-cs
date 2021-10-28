@@ -51,9 +51,9 @@ def get_sentence_matched_with_targets_and_sentiments(aspects_targets, aspects_se
     return real_idx
 
 
-def transform_line_for_target_extraction(line):
-    generated_polarities, true_polarities = utils.get_polarities_for_line(line)
-    real_sentence = utils.normalise_sentence(line[3].strip())
+def transform_line_for_target_extraction(line, language):
+    generated_polarities, true_polarities = utils.get_polarities_for_line(line, language)
+    real_sentence = utils.normalise_sentence(line[3].strip(), language)
 
     generated_aspects_targets = utils.get_aspect_targets(generated_polarities)
     true_aspects_targets = utils.get_aspect_targets(true_polarities)
@@ -69,9 +69,9 @@ def transform_line_for_target_extraction(line):
     return generated_target_idx_list, true_target_idx_list
 
 
-def transform_line_for_sentiment_extraction(line):
-    generated_polarities, true_polarities = utils.get_polarities_for_line(line)
-    real_sentence = utils.normalise_sentence(line[3].strip())
+def transform_line_for_sentiment_extraction(line, language):
+    generated_polarities, true_polarities = utils.get_polarities_for_line(line, language)
+    real_sentence = utils.normalise_sentence(line[3].strip(), language)
 
     generated_aspects_targets = utils.get_aspect_targets(generated_polarities)
     true_aspects_targets = utils.get_aspect_targets(true_polarities)
@@ -93,7 +93,7 @@ def transform_line_for_sentiment_extraction(line):
     return generated_sentiment_idx_list_deduped, true_sentiment_idx_list
 
 
-def transform_gold_and_truth():
+def transform_gold_and_truth(language):
     with open(PREDICTIONS_FILE, 'r') as csvfile:
         with open(TRANSFORMED_TARGETS_PREDICTIONS_FILE, 'w') as newfile_targets:
             with open(TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE, 'w') as newfile_sentiments:
@@ -104,12 +104,12 @@ def transform_gold_and_truth():
                 writer_sentiments = csv.writer(newfile_sentiments)
                 writer_sentiments.writerow(["Predicted sentiment tags", "Gold sentiment tags"])
                 for line in reader:
-                    pred_transformed, gold_transformed = transform_line_for_target_extraction(line)
+                    pred_transformed, gold_transformed = transform_line_for_target_extraction(line, language)
                     writer_targets.writerow([pred_transformed, gold_transformed])
                     pred_sentiment_transformed, gold_sentiment_transformed = transform_line_for_sentiment_extraction(
-                        line)
+                        line, language)
                     writer_sentiments.writerow([pred_sentiment_transformed, gold_sentiment_transformed])
 
 
-transform_gold_and_truth()
+transform_gold_and_truth(sys.argv[1])
 

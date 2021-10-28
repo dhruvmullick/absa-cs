@@ -9,7 +9,6 @@ SEPARATOR = '<sep>'
 POSITIVE, NEGATIVE, NEUTRAL = 'positive', 'negative', 'neutral'
 
 lemmatizer = WordNetLemmatizer()
-stop_words = set(stopwords.words('english'))
 
 class EarlyStopping:
     """Early stops the training if validation loss doesn't improve after a given patience."""
@@ -284,13 +283,24 @@ class Adafactor(Optimizer):
         return loss
 
 
-def normalise_sentence(sentence):
+def get_full_language_name(language):
+    full_name = ''
+    if language == 'en':
+        full_name = 'english'
+    elif language == 'es':
+        full_name = 'spanish'
+    elif language == 'ru':
+        full_name = 'russian'
+    return full_name
+
+def normalise_sentence(sentence, language):
     sentence = sentence.replace(',', '')
     sentence = sentence.replace('.', '')
     sentence = sentence.replace('\"', '')
     sentence = sentence.replace('\'s ', ' ')
     sentence = sentence.lower()
     tokenised_sentence = sentence.split(" ")
+    stop_words = set(stopwords.words(get_full_language_name(language)))
     return ' '.join([lemmatizer.lemmatize(w) for w in tokenised_sentence if w not in stop_words])
 
 
@@ -302,9 +312,9 @@ def get_cleaned_polarities(sentence):
     return polarities
 
 
-def get_polarities_for_line(line):
-    generated_sentence = normalise_sentence(line[1].strip())
-    true_sentence = normalise_sentence(line[2].strip())
+def get_polarities_for_line(line, language):
+    generated_sentence = normalise_sentence(line[1].strip(), language)
+    true_sentence = normalise_sentence(line[2].strip(), language)
     generated_polarities = get_cleaned_polarities(generated_sentence)
     true_polarities = get_cleaned_polarities(true_sentence)
     return generated_polarities, true_polarities
