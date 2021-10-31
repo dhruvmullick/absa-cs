@@ -1,115 +1,115 @@
 review_id,sentences_ids,sentences_texts,sentences_opinions
-1264954,id_0,"On a recent Sunday afternoon, a friend and I accidently found this great restaurant on our way to see the pulitzer prize winning play DOUBT.",restaurant positive
-P#9,id_0,Raymond the bartender rocks!,Raymond positive
-Y#9,id_2,"They have great rolls, the triple color and norwegetan rolls, are awesome and filling.",rolls positive <sep> triple color and norwegetan rolls positive
-P#10,id_5,"Don't get me started on the margaritas, either.",margaritas negative
-1723658,id_2,"The dishes offered were unique, very tasty and fresh from the lamb sausages, sardines with biscuits, large whole shrimp to the amazing pistachio ice cream (the best and freshest I've ever had).",dishes positive <sep> lamb sausages positive <sep> sardines with biscuits positive <sep> large whole shrimp positive <sep> pistachio ice cream positive
-536919,id_1,The only thing the waiters don't do for you is wipe your chin when you leave.,waiters positive
-493013,id_3,noodles with shrimp and chicken and coconut juice is the MUST!,noodles with shrimp and chicken and coconut juice positive
-TR#2,id_3,"The bar drinks were Eh, ok to say the least.",bar drinks negative
-1289424,id_0,We had a great time at the Jekyll and hyde Pub last night.,Jekyll and hyde Pub positive
-720620,id_8,Big Wong is a great place to eat and fill your stomach.,Big Wong positive
-Z#6,id_9,"I picked the Grilled Black Cod as my entree, which I absolutely devoured while someone commented that the Grilled Salmon dish was better.",Grilled Black Cod positive <sep> Grilled Salmon dish positive
+720418,id_0,Great Indian food and the service is incredible.,Indian food positive <sep> service positive
+1727363,id_1,This is a wonderful place on all stand points especially value ofr money.,place positive
+1707741,id_2,The food was average or above including some surprising tasty dishes.,food positive <sep> dishes positive
+BHD#9,id_0,Tasty Dog!,Dog positive
+519425,id_2,"The lamb was tender so full of flavor, the dessert was divine!!",lamb positive <sep> dessert positive
+875139,id_3,We were 4 and got the family size penne a la vodka which was tremendously gigantic portion...a bucket of food literally.,penne a la vodka positive
+751493,id_0,I am relatively new to the area and tried Pick a bgel on 2nd and was disappointed with the service and I thought the food was overated and on the pricey side.,service negative <sep> food negative
+CLF#4,id_0,Single Worst Restaurant in Manhattan,Restaurant negative
+1706644,id_5,"Overall, excellent restaurant!",restaurant positive
+Z#5,id_3,I've had my fair share of modern Japanese and this spot delivers.,modern Japanese positive
+1138996,id_2,"We were worried we would have trouble getting in, but somehow managed to have a short wait.",wait positive
+1032695,id_2,I had the duck breast special on my last visit and it was incredible.,duck breast special positive
+707917,id_0,I have been to Rao's probably 15 times the past 3 years and it keeps getting better.,Rao's positive
+NP#9,id_3,"My father had the flank steak which was very good, and my mother had the swordfish.",flank steak positive
 CLF#7,id_2,I book a gorgeous white organza tent which included a four course prix fix menu which we enjoyed a lot.,four course prix fix menu positive <sep> white organza tent positive
-1125284,id_3,This place is worth an one-hour drive.,place positive
-584025,id_2,The food is great and they have a good selecion of wines at reasonable prices.,food positive <sep> selecion of wines positive
-436868,id_1,"The dosas are skimpy, unattractive and drip with grease, and personally I'd drink popcorn topping before I'd eat another one of these.",dosas negative
-CLF#4,id_13,"How this place survives the competitive west village market in this economy, or any other for that matter, is beyond me.",place negative
-1660047,id_3,"After dinner the manager grabbed my boyfriend, asked him: Where are you from...maybe you dont know how things work in America...and in the end stormed away almost teareyed yelling that tips are the only thing they survive on.",manager negative
-1086478,id_2,"The service varys from day to day- sometimes they're very nice, and sometimes not.",service negative
-FF#10,id_0,bad staff,staff negative
-1016296,id_0,I was very disappointed with this restaurant.,restaurant negative
-1086415,id_2,"$6 and there is much tasty food, all of it fresh and continually refilled.",food positive
-1609375,id_0,Planet Thai is great!,Planet Thai positive
-1632445,id_0,Mermaid Inn is an overall good restaurant with really good seafood.,seafood positive <sep> Mermaid Inn positive
-464215,id_2,The cream cheeses are out of this world and I love that coffee!!,cream cheeses positive <sep> coffee positive
-1119578,id_1,The pizza is overpriced and soggy.,pizza negative
-1606837,id_2,The service was attentive.,service positive
-1713185,id_0,"This place is really trendi but they have forgotten about the most important part of a  restaurant, the food.",food negative <sep> place positive
-P#7,id_5,"I must say I am surprised by the bad reviews of the restaurant earlier in the year, though.",restaurant positive
-1230993,id_2,Our server was very helpful and friendly.,server positive
-1661043,id_4,Decor is charming.,Decor positive
-430342,id_0,delicious simple food in nice outdoor atmosphere.,food positive <sep> outdoor atmosphere positive
-FF#3,id_19,"This is where it really really gets bad: the manager said, there is absolutely nothing we can do, it's a matter of taste that she didn't like it, and I cannot comp it.",manager negative
-713152,id_0,"Excellent dumplings served amid clean, chic decor.",dumplings positive <sep> decor positive
-1062641,id_2,Food is great.,Food positive
-1723658,id_3,I'm glad I was introduced to this place and this is a rare gem in NY.,place positive
-1486041,id_4,Taxan delicious!,Taxan positive
-RL#7,id_1,my favorite place lol,place positive
-1090587,id_2,Add to that great service and great food at a reasonable price and you have yourself the beginning of a great evening.,service positive <sep> food positive
-1572033,id_4,"Most importantly, food is excellent.",food positive
-1064477,id_4,We took advanatage of the half price sushi deal on saturday so it was well worth it.,half price sushi deal positive
-433878,id_1,"Their calzones are horrific, bad, vomit-inducing, YUCK.",calzones negative
-1417496,id_0,A restaurant that doesn't try to do anything except serve great food with great service in a pleasant atmosphere.,food positive <sep> service positive <sep> atmosphere positive
-1632445,id_3,The service is good and ambience is good for a date or group outing.,service positive <sep> ambience positive
-Z#11,id_4,Most of the booths allow you to sit next to eachother without looking like 'that' couple.,booths positive
-1496205,id_5,"The service is ok, some of the people didn't get what they asked for.",service neutral
-1632929,id_5,Truly the mark of an attentive waiter.,waiter positive
-1338124,id_4,"I have reservations about the all you can eat deal, however -- the choices are fairly limited and you can probably order more food than you can eat for less than $18 by just going off the menu.",all you can eat deal negative
-1199292,id_0,"Pizza - the only pizza in NYC that should not have additional toppings - the crust tastes like the best, freshly baked bread!",crust positive <sep> pizza positive
-430342,id_2,I really like both the scallops and the mahi mahi (on saffron risotto-yum!).,scallops positive <sep> mahi mahi (on saffron risotto positive
-1126886,id_2,"The service is excellent, the decor is great, and the food is delicious and comes in large portions.",service positive <sep> decor positive <sep> food positive <sep> portions positive
-Z#5,id_6,Despite the confusing mirrors this will likely be my go-to for modern Japanese food for the foreseeable future.,modern Japanese food positive <sep> mirrors negative
-535171,id_1,Not the typical NYC gimmick theme restaurant.,restaurant positive
-1335656,id_4,Although we were looking for regular lettuce and some walnuts the salads we got were great.,salads positive
-1623276,id_3,Not a great place for family or general dining.,place negative
-NP#4,id_9,"I have worked in restaurants and cook a lot, and there is no way a maggot should be able to get into well prepared food.",food negative
-CLF#4,id_10,This place...god where do i begin.,place negative
-CLF#4,id_3,If I could give 0 stars I would do so for this place.,place negative
-1662726,id_0,I was here a few weeks back and we had the worst customer service experience at a restaurant ever.,customer service negative
-1058221,id_2,the food is decent.,food neutral
-1086478,id_1,"I like the somosas, chai, and the chole, but the dhosas and dhal were kinda dissapointing.",somosas positive <sep> chai positive <sep> chole positive <sep> dhosas negative <sep> dhal negative
-1748839,id_0,The food was mediocre at best but it was the horrible service that made me vow never to go back.,food negative <sep> service negative
-558423,id_5,Quick and friendly service.,service positive
-CLF#6,id_1,"The service leaves much to be desired, from feeling like you are rushed the place your order, to being ignored the rest of the night.",service negative
-1338124,id_0,"This is some really good, inexpensive sushi.",sushi positive
-430342,id_5,"Even if the food wasn't this good, the garden is a great place to sit outside and relax.",garden positive <sep> food positive
-CLF#5,id_5,We were drawn into the belly dancing show that captivated the crowd.,belly dancing show positive
-BHD#9,id_1,"An awesome organic dog, and a conscious eco friendly establishment.",dog positive <sep> establishment positive
-496132,id_1,The setting is casual and romantic.,setting positive
-720418,id_1,The owner truly caters to all your needs.,owner positive
-378848,id_1,"The first time the sushi was outstanding, the second time it was a little bland.",sushi positive <sep> sushi negative
-447697,id_3,Try sushimi cucumber roll.,sushimi cucumber roll positive
-1404042,id_3,"Cute place, nice wait staff but would never go there again.",wait staff positive <sep> place positive <sep> place negative
-1230993,id_4,The food was good too.,food positive
-530517,id_0,Lucky Strike is a great casual place to just grab a bite to eat.,Lucky Strike positive
+CLF#1,id_1,Watch the talented belly dancers as you enjoy delicious baba ganoush that's more lemony than smoky.,baba ganoush positive <sep> belly dancers positive
+Y#4,id_0,"Red Dragon Roll - my favorite thing to eat, of any food group - hands down",Red Dragon Roll positive
+397331,id_4,Warning: You may find it difficult to dine at other Japanese restaurants after a visit to Mizu!,Mizu positive
 1457607,id_0,The place is a lot of fun.,place positive
-740923,id_1,"If you don't mind pre-sliced low quality fish, unfriendly staff and a sushi chef that looks like he is miserable then this is your place.",fish negative <sep> staff negative <sep> sushi chef negative
-682391,id_2,The service is good and the resturant is clean.,service positive <sep> resturant positive
-1470334,id_1,Ess-A-Bagel (either by Sty-town or midtown) is by far the best bagel in NY.,bagel positive
+1410878,id_0,Myagi is one of my favorite restaurants in the City; the place the negative reviews describe sound like they were somewhere else.,Myagi positive
+1719567,id_0,We had the lobster sandwich and it was FANTASTIC.,lobster sandwich positive
+1470286,id_2,"Great friendly service, Fast seating, Fast Delivery, Excellent sushi.",service positive <sep> seating positive <sep> Delivery positive <sep> sushi positive
+Z#6,id_13,"Maybe it was the great company (I had friends visiting from Philly – yes, it was not a date this time) or the super reasonable price point, but I just can’t say enough good things about this brasserie.",brasserie positive
+PP#4,id_7,The potato balls were not dry at all... in fact it was buttery.,potato balls positive
+935633,id_4,I recieved prompt service with a smile.,service positive
+1706644,id_2,"I also ordered the Change Mojito, which was out of this world.",Change Mojito positive
+Z#11,id_6,I've enjoyed 99% of the dishes we've ordered with the only exceptions being the occasional too-authentic-for-me dish (I'm a daring eater but not THAT daring).,dishes positive <sep> dish negative
 758263,id_0,I have never before eaten 40 pieces of relatively good nigiri.,nigiri neutral
-Z#9,id_6,So what you really end up paying for is the restaurant not the food.,restaurant negative <sep> restaurant neutral <sep> food negative
-1286916,id_1,"The first time I went, and was completely taken by the live jazz band and atmosphere, I ordered the Lobster Cobb Salad.",live jazz band positive <sep> atmosphere positive
-735448,id_1,"whoever the jazz duo was, they were on POINT.",jazz duo positive
-BHD#8,id_0,Taking Hot Dogs to the next level,Hot Dogs positive
-1727363,id_2,An excellent service,service positive
-1123262,id_2,The combination of super-fresh ingredients in the dishes are unusual but really delicious.,ingredients positive
-1147211,id_2,The waitress was very patient with us and the food is phenomenal!,waitress positive <sep> food positive
-1506491,id_0,"I have known about this secret for the last 13 years, Emilio(the Godfather) has continued to serve food and wine for the gods at mortal prices.",food positive <sep> wine positive
-1102681,id_2,"The food was average to above-average; the French Onion soup filling yet not overly impressive, and the desserts not brilliant in any way.",food positive <sep> French Onion soup negative <sep> French Onion soup positive <sep> desserts negative
-FF#6,id_8,"I was shocked that my friends wanted to stay after the waitress said, ""can I help you"" and ""how many are in your party.""",waitress negative
-1730014,id_1,"Service here was great, food was fantastic.",Service positive <sep> food positive
-1476493,id_0,I thought this place was totally overrated.,place negative
-1126886,id_0,"Everytime I decide to try another place on the UES, I get angry that I didn't just go to Zucchero Pomodori.",Zucchero Pomodori positive
-1353599,id_4,Kind of a small place but I guess if they are not too busy might be able to fit a group or kids.,place neutral
-511290,id_1,"But after last night, Spice Grill is the only place I'm eating indian cuisine.",indian cuisine positive
-709294,id_5,Staff is very accomodating.,Staff positive
-BFC#9,id_9,"The lobster knuckles (special of the day) were ok, but pretty tasteless.",lobster knuckles neutral <sep> lobster knuckles negative
-1586174,id_5,"the only things u could really taste are the very salty soy sauce (even its low sodium), the vinegar-soaked rice, and the scallion on top of the fish.",soy sauce negative <sep> rice negative
-1028246,id_0,"Went on a 3 day oyster binge, with Fish bringing up the closing, and I am so glad this was the place it O trip ended, because it was so great!",Fish positive
-490565,id_0,"As a retired hipster, I can say with some degree of certainty that for the last year Lucky Strike has been the best laid-back late night in the city.",Lucky Strike positive
-535248,id_1,The shrimp scampi was excellent and the antipasti were plentiful.,shrimp scampi positive <sep> antipasti positive
-957145,id_2,"Over the years the host, Vittorio, and his crew, have always treated me as family--although with all the business this not-so-little gem does, it amazing he's even able to remember a consistent but not-so-frequent visitor.",Vittorio positive <sep> crew positive
-1543345,id_3,Great staff.,staff positive
-1390357,id_2,"I like the ambience, it's very dark and original.",ambience positive
-ADLT#3,id_1,Everything on the menu is great.,menu positive
-TR#8,id_6,Nice view of river and NYC.,view of river and NYC positive
-1055910,id_2,Food-awesome.,Food positive
+717570,id_1,The decor is very simple but comfortable.,decor positive
+720620,id_6,Service is not what you are coming here for...,Service negative
+758263,id_3,$20 for all you can eat sushi cannot be beaten.,all you can eat sushi positive
 TM#3,id_0,Great Indian Food!,Indian Food positive
-498657,id_0,"Do not get the Go Go Hamburgers, no matter what the reviews say.",Go Go Hamburgers negative
-1055910,id_3,Service- friendly and attentive.,Service positive
-ADLT#6,id_6,"A word to the wise: you can't dine here and disturb the maitre-D's sense of "" table turnover"", as whacked as it is, or else.",maitre-D negative
-TFS#11,id_0,I was speechless by the horrible food.,food negative
-EVPK#10,id_1,I was visiting New York City with a friend and we discovered this really warm and inviting restaurant.,restaurant positive
-Z#10,id_2,"The food was great and tasty, but the sitting space was too small, I don't like being cramp in a corner.",food positive <sep> sitting space negative
-615180,id_1,"The food was not fresh, the sauces were bland and very oily.",food negative <sep> sauces negative
+1615322,id_1,Chennai Garden is my favorite Indian restaurant in the city.,Chennai Garden positive
+1470286,id_1,Delivery is fast too.,Delivery positive
+CLF#3,id_30,"I have never left a restaurant feeling as if i was abused, and wasted my hard earned money.",restaurant negative
+1710746,id_2,My son and his girlfriend both wanted cheeseburgers and they were huge!,cheeseburgers neutral
+Y#6,id_0,Favorite Sushi in NYC,Sushi positive
+449802,id_5,But who says Murray's is anything about service.,service negative
+BG#1,id_2,Great survice,survice positive
+490565,id_5,"The in-house lady DJ on Saturday nights has outrageously good taste in music, and moreover, takes requests.",in-house lady DJ positive
+1227999,id_1,"The waitress moved our table practically into the bathroom and when we asked to cancel our dinner orders because we did not want to eat sitting on the toilet, we were told no...",waitress negative
+1470334,id_3,They have a huge selection of different cream cheeses and all of their salads are great.,salads positive <sep> cream cheeses positive
+1746113,id_3,"The fish was really,really fresh.",fish positive
+1118167,id_2,The pizza was delivered cold and the cheese wasn't even fully melted!,pizza negative <sep> cheese negative
+470488,id_6,It is obvious that no one in the restaurant has any idea about or experience with Japanese cuisine.,Japanese cuisine negative
+1410878,id_2,Their tuna tartar appetizer is to die for.,tuna tartar appetizer positive
+1671113,id_4,"The staff has been nice, but they seemed really stressed and the unisex bathroom needs to be cleaned more often.",staff positive <sep> staff negative <sep> unisex bathroom negative
+571962,id_1,Good food.,food positive
+1347423,id_2,We even had a visit from the Manager who wanted to make sure we were enjoying ourselves.,Manager positive
+TR#8,id_4,We were offered water for the table but were not told the Voss bottles of water were $8 a piece.,Voss bottles of water negative
+1338124,id_2,The spicy Tuna roll is huge and probably the best that I've had at this price range.,spicy Tuna roll positive
+720620,id_3,This dish is my favorite and I always get it when I go there and never get tired of it.,dish positive
+Z#11,id_4,Most of the booths allow you to sit next to eachother without looking like 'that' couple.,booths positive
+720620,id_4,"Try the congee and the donut like deep fried dough they call Ow Ley Soh, a delicious and sweet tasting bread.",congee positive <sep> Ow Ley Soh positive
+Z#9,id_3,The food was ok and fair nothing to go crazy.,food neutral
+1500453,id_1,This quaint and romantic trattoria is at the top of my Manhattan restaurant list.,trattoria positive
+DBG#6,id_0,Great Shabu Shabu,Shabu Shabu positive
+503807,id_6,The restaurant is a bit noisy but that is something that can be overlooked once you sit down and enjoy a great meal,meal positive <sep> restaurant neutral
+624715,id_4,"Just straight up cheap, good food.",food positive
+TM#6,id_0,great food,food positive
+1660047,id_0,"I like Cafe Noir dont get me wrong, it is jsut that the people who work there are evil and incompetent!!",people negative <sep> Cafe Noir positive
+773720,id_0,Food was good and the view of the new york city skiline was terrific even on a foggy rainy day like that of when I went.,Food positive <sep> view of the new york city skiline positive
+1199292,id_3,I take all my NYC guests to VT's.,VT's positive
+PP#4,id_5,I ordered the vitello alla marsala and I was pretty impressed.,vitello alla marsala positive
+TR#8,id_6,Nice view of river and NYC.,view of river and NYC positive
+BHD#1,id_0,"The hot dogs are good, yes, but the reason to get over here is the fantastic pork croquette sandwich, perfect on its supermarket squishy bun.",hot dogs positive <sep> pork croquette sandwich positive <sep> bun positive
+744478,id_0,"This place, which is only a few months old, is perhaps Queens' biggest secret!",place positive
+1500453,id_2,"The food is delicious - from the specials to the regular menu-fare, the dishes are never a disappointment.",food positive <sep> dishes positive <sep> specials positive <sep> regular menu-fare positive
+Z#10,id_0,Good Food,Food positive
+1287538,id_3,The food is a diamond in rough -- the food is delicious and homemade with the perfect balance of herbs and tomatoes.,food positive <sep> balance of herbs and tomatoes positive
+511290,id_1,"But after last night, Spice Grill is the only place I'm eating indian cuisine.",indian cuisine positive
+490565,id_3,"But the best part about LS is the late night atmosphere, delightfully free of the BTs.",late night atmosphere positive
+1603698,id_5,"The dinner was ok, nothing I would have again.",dinner negative
+1706644,id_1,"I found the food to be outstanding, particulary the salmon dish I had.",food positive <sep> salmon dish positive
+1053543,id_3,"The spicy tuna roll was unusually good and the rock shrimp tempura was awesome, great appetizer to share!",spicy tuna roll positive <sep> rock shrimp tempura positive
+Z#6,id_9,"I picked the Grilled Black Cod as my entree, which I absolutely devoured while someone commented that the Grilled Salmon dish was better.",Grilled Black Cod positive <sep> Grilled Salmon dish positive
+1748839,id_1,"Immediately after we paid, the waiter took the money and said, okay, you guys are outta here.",waiter negative
+BG#8,id_5,We have gone for dinner only a few times but the same great quality and service is given.,service positive <sep> dinner positive
+1058221,id_3,"however, it's the service that leaves a bad taste in my mouth.",service negative
+1486041,id_0,"The atmosphere is nothing special, but it feels like a Sushi establishment in Tokyo.",atmosphere positive
+1723658,id_0,I've lived in NY for 5 years and this place has it all.,place positive
+Z#5,id_0,Amazing food.,food positive
+1726473,id_0,"Average to good Thai food, but terrible delivery.",Thai food positive <sep> delivery negative
+757762,id_1,The only problem is that the manager is a complete incompetent.,manager negative
+EVPK#9,id_2,it was really good pizza.,pizza positive
+EVPK#4,id_1,"Love this place, every time we are in the city this is one of the places we always go.",place positive
+1609375,id_2,"The svc can be a bit rude at times, esp if you have big group, but overall the restaurant is a must!",svc negative <sep> restaurant positive
+1706644,id_4,"We ate out in the back patio, which is worth it as it's cool and the music is hear well there.",back patio positive <sep> music positive
+EVPK#4,id_3,"The crust has a great bite and a good chew, the sauce is light with a nice acidity to it, the salt from the cheese is great, really heightens the flavor of all the other components.",crust positive <sep> sauce positive <sep> cheese positive
+757762,id_0,Baluchi's has solid food and a nice decor at reasonable prices.,food positive <sep> decor positive <sep> Baluchi's positive
+1387314,id_2,The filet mignon dish was superb!,filet mignon dish positive
+TM#4,id_2,"The chicken lollipop is my favorite, most of the dishes (I have to agree with a previous reviewer) are quite oily and very spicy, espeically the Chilli Chicken.",chicken lollipop positive <sep> dishes negative <sep> Chilli Chicken negative
+Y#9,id_1,"Yamato is an excellent place to go if youre not into sashimi, or if you have friends who doesnt like sushi much.",Yamato positive
+1126886,id_4,I'm partial to the Gnocchi.,Gnocchi positive
+RL#4,id_1,I CAN EAT HERE EVERY DAY OF THE WEEK REALLY LOL LOVE THIS PLACE ...),PLACE positive
+1500453,id_4,"Although the tables may be closely situated, the candle-light, food-quality and service overcompensate.",candle-light positive <sep> food positive <sep> service positive <sep> tables negative
+1615322,id_4,The seats are uncomfortable if you are sitting against the wall on wooden benches.,seats negative
+1730014,id_2,"Guacamole+shrimp appetizer was really great, we both had the filet, very good, didn't much like the frites that came with, but the filet was so good, neither of us cared.",Guacamole+shrimp appetizer positive <sep> filet positive <sep> frites negative
+Z#6,id_1,"This is undoubtedly my favorite modern Japanese brasserie (that don’t serve sushi), and in my opinion, one of the most romantic restaurants in the city!",modern Japanese brasserie positive
+FF#3,id_6,I took one look at the chicken and I was appalled.,chicken negative
+624715,id_0,This place is a great bargain.,place positive
+BG#8,id_3,The lunch buffet is expensive but is deff worth it.,lunch buffet negative <sep> lunch buffet positive
+Y#7,id_0,"Reliable, Fresh Sushi",Sushi positive
+955711,id_1,The wine list is extensive and impressive.,wine list positive
+1126814,id_0,"Leon is an East Village gem: casual but hip, with well prepared basic French bistro fare, good specials, a warm and lively atmosphere.",Leon positive <sep> specials positive <sep> atmosphere positive <sep> French bistro fare positive
+519425,id_3,The waiter was attentive.,waiter positive
+1062641,id_3,Service is top notch.,Service positive
+1632929,id_3,"The food was delicious (I had a halibut special, my husband had steak), and the service was top-notch.",food positive <sep> halibut special positive <sep> steak positive <sep> service positive
+CLF#6,id_1,"The service leaves much to be desired, from feeling like you are rushed the place your order, to being ignored the rest of the night.",service negative
+P#7,id_3,"The food we ordered was excellent, although I wouldn't say the margaritas were anything to write home about.",food positive <sep> margaritas neutral
+1661043,id_5,Service is average.,Service neutral
+1269216,id_4,Worth visiting the 1st Ave spot because it is the original store.,1st Ave spot positive
+608500,id_2,"While the ambiance and atmosphere were great, the food and service could have been a lot better.",ambiance positive <sep> atmosphere positive <sep> food negative <sep> service negative
+1723402,id_1,it's the only place you can get yummy authentic japanese comfort food.,japanese comfort food positive

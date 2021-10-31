@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sentences>
 	<sentence>
-		<text>The decor is not special at all but their food and amazing prices make up for it.</text>
+		<text>The food was served promptly but the meal wasn't rushed - we had plenty of time to enjoy the appetizers and our entrees as well as sit and chat while finishing up our drinks even after we paid.</text>
 		<aspectTerms>
 			<aspectTerm from="4" polarity="negative" term="decor" to="9"/>
 			<aspectTerm from="42" polarity="positive" term="food" to="46"/>

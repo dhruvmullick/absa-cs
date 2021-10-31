@@ -1,151 +1,151 @@
 review_id,sentences_ids,sentences_texts,sentences_opinions
-1444,2976,They only stay charged a little over an hour.,charged negative
-1028,2676,""" This isn't a big deal, I haven't noticed the issue with DVDs or other media, only through USB output.",USB output negative
-789,2993,It has good speed and plenty of hard drive space.,speed positive <sep> hard drive space positive
-2266,2503,"Everything about the Mac is not only visually appealing, but very easy to use.",use positive
-2951,2318,Wonderful zooming.,zooming positive
-745,2129,It is stamped and not in pieces therefore it is a stronger more resilient frame.,frame positive
-523,2649,"The processor screams, and because of the unique way that Apple OSX 16 functions, most of the graphics are routed through the hardware rather than the software.",processor positive <sep> OSX 16 positive <sep> graphics positive <sep> hardware neutral <sep> software neutral
-1865,2352,A key contributor that led me to Mac is the art aspect.,art aspect positive
-1859,251,"Well, I started using Google Chrome, which is a little better, but it freezes too sometimes.",Google Chrome conflict
-1094,2780,There is no number pad to the right of the keyboard which is a bummer.,pad negative <sep> keyboard negative
-1735,1997,"it might be something deep within Windows, for I was unable to create a disk image on my hard drive.",Windows negative <sep> hard drive negative <sep> disk image negative
-879,1263,HP said it was out of warranty.,warranty neutral
-160,1110,Going to bring it to service today.,service neutral
-1595,2806,"the hinge design forced you to place various connections all around the computer, left right and front.",hinge design negative
-2292,8,"Overall, this laptop is definitely a keeper with its simple yet stylish design and its array of fantastic colors to choose from.",design positive <sep> colors positive
-1146,2243,It's wonderful for computer gaming.,gaming positive
-1835,459,After replacing the hard drive the battery stopped working  (3 months of use) which was frustrating.,hard drive neutral <sep> battery negative
-2784,2602,"Sure, the initial out of pocket expense is greater, but that should not dissuade anyone from the fact that these machines run like none other on the planet, and when I factor in all the money in that I wasted on Geek Squad and the latest patches to de-corrupt my infested PCs, it probably comes out about even anyhow.",expense negative <sep> run positive
-53,1254,"After numerous attempts of trying (including setting the clock in BIOS setup directly), I gave up(I am a techie).",clock in BIOS setup negative
-662,2622,"Reason why? It's because when you buy it, you know first thing that you will not lose any value for that laptop, the price will stay the same for the next year, and even if Apple does decides to change mode, your laptop value will only drop 10-20%, unlike PC laptops which drop more than 80%.",value positive <sep> price positive <sep> value positive
-2496,3062,"The screen is nice and the images comes very clear, the keyboard and the fit just feels right.",screen positive <sep> keyboard positive <sep> fit positive
-121,1649,And if you have a iphone or ipod touch you can connect and download songs to it at high speed.,speed positive
-2145,2254,"Even though it is much more expensive than many PC laptops, it is worth the price.",price conflict
-1631,3085,I looked around and based off my price/features comparison from a brand I trusted I landed here.,price neutral <sep> features neutral
-1773,267,The machine has a bluray player the book has no mention of it or how to connect it to your HDTV.,bluray player neutral <sep> book negative
-882,142,"I never had this kind of quality issue with Dell (not to say Dell is that great), not with a brand new laptop.",quality negative
-2502,676,super fast processor and really nice graphics card..,processor positive <sep> graphics card positive
-3021,265,No tutorials on the display.,tutorials negative
-975,2360,"Navigation through the computer is far superior compared to Windows operating systems, as well.",Navigation positive <sep> Windows operating systems negative
-855,2787,"Overall the computer is very easy to use, the screen is perfect, great computer, my daughter loves.",screen positive <sep> use positive
-2671,2083,It's priced very reasonable and works very well right out of the box.,priced positive <sep> works positive
-2813,1749,"Only other thing is that if you are using this for document creation Apple doesnt provide any kind of word processor (such as works for windows), but iwork is cheap compared to office.",iwork positive <sep> office negative <sep> word processor negative <sep> windows neutral <sep> document creation neutral
-137,1186,"And if you do a lot of writing, editing is a problem since there is no  forward delete  key.",delete  key negative <sep> editing negative
-2091,1406,Many of my classmates computers hard drives crashed.,hard drives negative
-290,1742,"Size: I know 13 is small (especially for a desktop replacement) but with an external monitor, who cares.",Size negative <sep> external monitor neutral
-2379,2248,"In addition, all the design tools on Pages and Keynotes makes it much easier to create professional looking documents and presentations.",Pages positive <sep> Keynotes positive
-374,2333,"Obviously one of the most important features of any computer is the ""human interface.",features neutral <sep> human interface neutral
-1842,1391,the mouse pad and buttons are the worst i've ever seen.,mouse pad negative <sep> buttons negative
-2,1316,"The tech guy then said the service center does not do 1-to-1 exchange and I have to direct my concern to the ""sales"" team, which is the retail shop which I bought my netbook from.","service center negative <sep> ""sales"" team negative <sep> tech guy neutral"
-2524,843,"The ""abuse"" is that I pushed the power plug in too hard.",power plug negative
-1790,1796,Despite the claims of the Apple apologists (a vice of which I am recently myself reformed) the internals of Mac laptops are NO different from PCs' at this point.,internals negative
-1042,336,"Typically, when I purchase a new laptop I always end up using an external mouse for convenience.",external mouse neutral
-357,1192,"The other lock-up problems are from a myriad of causes, the most common being a corrupted version of Appleworks which can render the browser useless.",Appleworks negative <sep> browser negative
-491,2549,"Have not yet needed any customer support with this yet so to me that is a great thing, which is leaps and bounds ahead of PC in my opinion.",customer support positive
-429,1989,"Windows XP SP2 caused many problems on the computer, so I had to remove it.",Windows XP SP2 negative
-653,2909,"Have had many higher priced computers crash and burn long before ever got to use all that great memory and speed, etc.",memory negative <sep> speed negative <sep> priced negative
-1252,2155,"The speed gives you the power to work on these projects seamlessly, and multiple at a time if you sowish.",speed positive
-1666,2996,I have to keep turning it until it decides to lower and there is no mute.,mute negative
-832,1252,Somehow the system clock got messed up after reboot.,system clock negative
-601,1874,"I feel that it was poorly put together, because once in a while different plastic pieces would come off of it.",plastic pieces negative
-651,1696,The size is perfect and I do not recomend anything bigger except for any person who can exceed the limited space it gives you.,size positive <sep> space negative
-2433,3057,"cosmetically, the only thing they changed was 2 of the Function keys at the top.",Function keys neutral
-2439,32,"First, it does not have a push button to open the lid.",push button negative <sep> lid neutral
-1648,18,"While most people say that PCs hold functionality and value and Macs are just pretty to look at, I think there's something to be said about the simplicity of Macs.",functionality positive <sep> value positive <sep> simplicity positive <sep> look positive
-573,2564,My kids (and dogs) destroyed two power cords by pulling on them.,power cords neutral
-647,756,PC never worked right even after BIOS fixed.,BIOS negative
-57,130,but now i have realized its a problem with this brand.,brand negative
-576,2778,"The screen is a little glary, and I hated the clicking buttons, but I got used to them.",screen negative <sep> clicking buttons negative
-941,1739,Design: very durable.,Design positive
-2707,1504,It has just enough RAM to run smoothly and enough memory to satisfy my needs.,RAM positive <sep> memory positive
-172,1374,"Also, if you need to talk to a representive at Microsoft, there is a charge, which I believe is robbery, since you are charged enormous amounts for a very badly designed system, which most people would have went with XP if they could.",representive at Microsoft negative <sep> system negative <sep> XP positive
-37,2227,"I also got the added bonus of a 30"" HD Monitor, which really helps to extend my screen and keep my eyes fresh!","30"" HD Monitor positive <sep> screen neutral"
-1411,219,The macbooks are small enough to be very portable yet hold tons of information and performance.,performance positive
-1716,162,/ awesome cooling system/ much better grafics card (ATI 5870) / 8GB RAM/ LED backlit screen...,cooling system positive <sep> grafics card positive <sep> LED backlit screen. positive <sep> 8GB RAM positive
-2760,2357,I have had no problems with it unlike some hardware defects on past models.,hardware negative
-2853,925,You can call HP and they want you to buy more software to fix it.,software neutral
-1315,2132,The only thing I wish is the 15 inch MacBook Pro has much better speakers on the side of the keyboard.,speakers negative <sep> keyboard neutral
-1350,2426,I personally like the gaming look but needed a machine that delivered gaming performance while still looking professional in front of my customers.,gaming look positive <sep> gaming performance positive
-1619,1441,STOPPED BOOTING UP less than a week after my one-year warranty was up.,BOOTING UP negative <sep> one-year warranty neutral
-2456,2873,"The price was very good, and the product is top quality.",price positive <sep> quality positive
-3027,1284,"Thus, when you carry it at a slanted angle, the screen will ""topple"" or ""slide"" down, if you understand what I mean.",screen negative
-1750,559,apple has a reputation and is well known for its easy usage.,usage positive
-140,2470,Its ease of use and the top service from Apple- be it their phone assistance or bellying up to the genius bar- cannot be beat.,use positive <sep> service positive <sep> phone assistance positive <sep> genius bar positive
-1130,2735,"Needs longer lasting battery, More than 1 to 2 Hrs.",battery negative
-2323,1659,"Garageband is easy to work with, like all the other apple applications I've had experience with.",Garageband positive <sep> apple applications positive
-2409,2680,"Again, decent comp for the price, and I was in need of one quickly as my other laptop died on me.",price positive
-1544,1329,The people there just changed for me on the spot and I got a new arm piece and they didn't even request for a receipt.,arm piece positive
-2523,1163,"After numerous calls to Applecare tech support, I was directed to send in my computer;",Applecare tech support negative
-2761,1087,"EITHER WAY, THE KEYBOARD IS UNSATISFACTORY.",KEYBOARD negative
-661,2077,The screen shows great colors.,screen positive <sep> colors positive
-1916,1925,"When I got my laptop back after this first instance it worked okay for a little bit then I started expeirencing issues again, everything from programs and drivers failing again, to it powering off for no reason, to locking up and freezing and just all sorts of issues.",programs negative <sep> drivers negative
-890,1085,"WHEN TYPING, LETTERS AND SPACES ARE FREQUENTLY OMITTED REQUIRING THE USER TO REDO MANY WORDS AND SENTENCES.",TYPING negative
-2514,581,"I do transcription work on the side, and the flatline keyboard makes typing quick and easy as well.",flatline keyboard positive
-1851,519,"The battery life sucked the juice from my laptop and when the extended life battery went out we were SOL there to, so much for that warranty covering all the products we purchased.",battery life negative <sep> warranty negative <sep> extended life battery conflict
-1500,1208,in 5 months the connect quality got worse and worse.,connect quality negative
-1234,2707,"Would like more trendy, high tech features.",features negative
-3034,2272,"We also use Paralles so we can run virtual machines of Windows XP Professional, Windows 7 Home Premium, Windows Server Enterprise 2003, and Windows Server 2008 Enterprise.",Paralles neutral <sep> Windows XP Professional neutral <sep> Windows 7 Home Premium neutral <sep> Windows Server Enterprise 2003 neutral <sep> Windows Server 2008 Enterprise neutral
-959,1595,"Its pretty fast and does not have hiccups while I am using it for web browsing, uploading photos, watching movies (720p) on occasion and creating presentations.",web browsing positive <sep> uploading photos positive <sep> watching movies positive <sep> creating presentations positive
-1608,2713,"The screen graphics and clarity, and sharpness are great.",screen graphics positive <sep> clarity positive <sep> sharpness positive
-2135,2267,"As a computer science student in college, I find that the portability, longevity, and ease of use of this computer make me (shockingly) want to do homework more;",portability positive <sep> longevity positive <sep> use positive
-2807,278,The layout of the MacBook is horrible and confusing;,layout negative
-2997,908,"Also, my sister got the exact same laptop (since they were so cheap) and after 8 months, the screen split in half just from everyday use.",screen negative
-510,2181,"Three, the mac book has advantages over pcs' with linux based os there is very 'few problems with system performance when it comes to a mac.",system performance negative <sep> linux based os negative
-2425,2619,Everything I have tried has worked and I never have to carry the wall charger cause the battery is so awesome.,wall charger neutral <sep> battery positive
-1938,113,"In fact, somehow (and I never opened it up) some specks of dust or something got inside the screen and are now there permanently, behind the front of the screen, in the way of the display.",screen negative <sep> screen negative <sep> display negative
-1099,2281,"It is a big big, but since it has a 18.4"" screen what would you expect!","18.4"" screen conflict"
-2568,2603,"I am most impressed with the programming, including the iPhoto.",programming positive <sep> iPhoto positive
-2745,1058,"But when I received my replacement, I made BOTH recovery DVDs (4), and a driver/application DVD.",recovery DVDs neutral <sep> driver/application DVD neutral
-2983,1552,Was very much worth the price i paid.,price positive
-2495,2313,"Startup in about 30 seconds, shutdown in 2-4 seconds, resume from sleep in 0-2 seconds.",Startup neutral <sep> shutdown neutral <sep> resume from sleep neutral
-54,810,YOU WILL NOT BE ABLE TO TALK TO AN AMERICAN WARRANTY SERVICE IS OUT OF COUNTRY.,WARRANTY SERVICE negative
-541,2304,"it has 3 usb ports, 1 sd memory card reader and an sd memory car expansion.",usb ports neutral <sep> sd memory card reader neutral <sep> sd memory car expansion neutral
+1652,2292,The ease of use is wonderful.,use positive
+2174,1717,( The iBook backup also uses a firewire connection).,iBook backup neutral <sep> firewire connectio neutral
+2928,905,I had to pay $100 for a universal charger for this cheap $300 laptop.,universal charger negative
+109,2271,We upgraded the memory to four gigabytes in order to take advantage of the performace increase in speed.,memory neutral <sep> speed positive <sep> performace positive
 1635,536,I was sorly disapointed to discover that HP (what I thought was a reputable company) wouldn't honor the warrenty when the fan blade fell apart.,warrenty negative <sep> fan blade negative
-265,3058,"they improved nothing else such as Resolution, appearance, cooling system, graphics card, etc.",Resolution negative <sep> appearance negative <sep> cooling system negative <sep> graphics card negative
-67,1425,"In desparation, I called their Customer Service number and was told that my warranty had expired (2 days old) and that the priviledge of talking to a technician would cost me (""have your credit card ready"").",Customer Service number neutral <sep> warranty negative <sep> talking to a technician negative
-2424,27,The ease of set up was terrific.,set up positive
-918,2871,I always have used a tower home PC and jumped to the laptop and have been very satisfied with its performance.,performance positive
-2732,2146,"But with A WAY Bigger Screen, and IS able to connect to an HDMI.",Screen positive <sep> HDMI neutral
-2245,378,I couldn't believe how long the battery lasted on a single charge.,battery positive <sep> charge positive
-2360,1470,The computer will constantly be getting hot and burning your leg unless you go through the hassle of taking off the entire back of it just to clean out the fan.,fan negative
-2445,1184,) And printing from either word processor is an adventure.,word processor negative
-1142,2448,The pictures are clear as can be.,pictures positive
-2645,2990,Right size and weight for portability.,size positive <sep> weight positive <sep> portability positive
-1114,659,I reinstalled windows through the recovery discs and everything seemed good again.,windows positive <sep> recovery discs positive
-402,455,"iTunes is a handy music-management program, and it is essential for anyone with an iPod.",iTunes positive <sep> program positive
-1433,1177,Take your time and go through the tutorials patiently.,tutorials neutral
-926,2973,"It has plenty of memory, lots of hard drive, and great graphics.",memory positive <sep> hard drive positive <sep> graphics positive
-833,3007,"the only problem is that i had to add 1 gb RAM, the computer was kinda slow.",RAM negative
-1460,792,The letter A stopped working after the first week.,letter A negative
-719,1532,My sister has the same Mac as me and she is in a band and uses GarageBand to record and edit.,GarageBand neutral
-2834,1182,"They don t translate from a Mac, even on Word, resulting in a ton of run-on sentences.",Word negative
-2506,2308,The only objection I have is that after you buy it the windows 7 system is a starter and charges for the upgrade.,windows 7 system negative
-260,2874,"The delivery was fast, and I would not hesitate to purchase this laptop again.",delivery positive
-1373,1599,"I do not experience a lot of heat coming out of it, however I would highly suggest purchasing a stand however, due to the nature of the design of the macbook as it is one very large heat sink.",stand neutral <sep> design negative <sep> heat sink negative
-610,809,DO NOT BUY GATEWAY COMPUTERS THEY ARE JUNK AND THE WARRANTY COMPANY IS HORRIBLE.,WARRANTY COMPANY negative
-1288,227,If you want more information on macs I suggest going to apple.com and heading towards the macbook page for more information on the applications.,applications neutral
-3018,1175,"The laptop is relatively simple to use, though I bought  Macs for Dummies,  which is well worth $2",use positive
-2041,831,  The only thing I can imagine is that Sony jumped on early specifications for Vista requirements from Microsoft and designed it to those inadequate requirements.,Vista negative
-2827,1858,"The touchpad is extremely sensitive, which is the only drawback.",touchpad negative
-2766,400,"The quality, engineering design and warranty are superior--covers damage from dropping the laptop.",quality positive <sep> engineering design positive <sep> warranty positive
-526,3072,I wanted something that had a new Intel Core processors and HDMI port so that we could hook it up directly to our TV.,Intel Core processors neutral <sep> HDMI port neutral
-2736,1302,I guess he was the technical person.,technical person neutral
-1861,2890,LOVE THIS LAPTOP WONDERFUL PRICE FOR WHAT YOU GET!,PRICE positive
-2665,858,  I would  rather spend my money on a computer that costs more then a Toshiba that  isn't good at all.,costs negative
-711,1733,Games being the main issue.,Games negative
-2429,2935,The battery life is probably an hour at best.,battery life negative
-2542,879,and they replaced the awesome ergonomic small lightweight power supply with a power supply that weighed more than the machine itself.,power supply positive <sep> power supply negative
-744,2953,The Nortons virus scan is only for a very short time unlike others that usually are good for a year.,Nortons virus scan negative
-1844,2257,Awesome graphics!,graphics positive
-161,1488,"There is no need to purchase virus protection for Mac, which saves me a lot of time and money.",virus protection for Mac positive
 2271,1084,THE FIRST PROBLEM IS THAT THE KEYBOARD FUNCTION IS SIMPLY UNSATISFACTORY.,KEYBOARD FUNCTION negative
-2345,2408,Mac also has many apps and programs that are quite cheap or free.,apps positive <sep> programs positive
-2126,2010,  Later it held zero charge and its replacement worked for less than three months.,charge negative
+997,1986,I had to re-install Windows within two weeks of the purchase and soon discovered cracks in the screen hinges.,Windows negative <sep> screen hinges negative
+1515,3082,This is not a serious gaming laptop or a serious media machine;,gaming negative
+454,2943,Its fast and another thing I like is that it has three USB ports.,USB ports positive
+879,1263,HP said it was out of warranty.,warranty neutral
+2718,2692,"Laptop is advertised as a 15"" but the casing looks like that of a 17"".","casing negative <sep> 15"" neutral <sep> 17"" neutral"
+16,38,"In the shop, these MacBooks are encased in a soft rubber enclosure - so you will never know about the razor edge until you buy it, get it home, break the seal and use it (very clever con).",rubber enclosure positive <sep> edge negative
+730,273,"Even with virus protection, it always turned off when updates were needed and installed.",virus protection negative <sep> updates negative
+1814,1469,"Next, most Acer laptop fans are on the bottom which is right on your laptop.",fans neutral
+2506,2308,The only objection I have is that after you buy it the windows 7 system is a starter and charges for the upgrade.,windows 7 system negative
+2527,2173,"With all the programs that came with it, such as iLife and iWork, I was set from the very beginning.",programs neutral <sep> iLife neutral <sep> iWork neutral
+2923,1407,"My computer froze on several occasion, had buttons that randomely would fall off and even had moments when the computer would refuse to turn on at all.",buttons negative
+1187,2610,"It pretty much does everything we could ever need, and looks great to boot.",boot positive
+2707,1504,It has just enough RAM to run smoothly and enough memory to satisfy my needs.,RAM positive <sep> memory positive
+2274,3004,I dual boot with Linux and that other security-prone OS and it performs flawlessly.,Linux neutral <sep> security-prone OS neutral <sep> performs positive
+2459,1130,After replacing the hard drive the battery stopped working  (3 months of use) which was frustrating.,hard drive neutral <sep> battery negative
+611,799,then on top of it all their cusromer service center is in the middle east.,cusromer service center negative
 3022,394,"The leather carrying case, keyboard and mouse arrived in two days from Memphis warehouse.",leather carrying case neutral <sep> keyboard neutral <sep> mouse neutral
-2810,2731,The first one sent: Touchpad didn't work The second sent: USB didn't work The third sent: Touchpad didn't work The fourth sent: Hasn't arrived yet.,Touchpad negative <sep> USB negative <sep> Touchpad negative
-376,2660,The body is a bit cheaply made so it will be interesting to see how long it holds up.,body negative
-1904,1487,"My MacBook Pro works like a dream, it has never overheated, or even been slightly warm for that matter.",works positive
-1342,3044,"So, the hard disk capacity really doesn't matter to me.",hard disk capacity neutral
-125,2752,I am using the external speaker- sound is good.,external speaker positive <sep> sound positive
-768,1732,The only thing that I don't like about my mac is that sometimes there are programs that I want to be able to run and I am not able to.,programs negative
+1704,2677,"As with any laptop not purchased with software options, it comes with a lot of what I consider useless applications.",software options negative <sep> applications negative
+1344,2709,Keys stick periodically and I havent had the laptop for 45 days yet.,Keys negative
+2195,575,"I work in film editing and post production, so I need a laptop that not only has power, but memory and speed as well.",power neutral <sep> memory neutral <sep> speed neutral
+1211,2486,The real stand out on this computer is the feel of the keyboard and it's speed.,keyboard positive <sep> speed positive
+617,353,"From the build quality to the performance, everything about it has been sub-par from what I would have expected from Apple.",build quality negative <sep> performance negative
+1922,3046,"So, I took it back to the apple store and they narcissist genius bar staff) fixed it by resetting the fan at boot up.",genius bar staff) negative <sep> fan neutral <sep> boot up neutral
+1092,2080,"Even though it is running Snow Leopard, 2.4 GHz C2D is a bit of an antiquated CPU and thus the occasional spinning wheel would appear when running Office Mac applications such as Word or Excel.",Snow Leopard positive <sep> CPU negative <sep> Office Mac applications negative <sep> Word negative <sep> Excel negative <sep> spinning wheel negative
+399,2471,"Suffice it to say, my MacBook Pro keeps me going with its long battery life and blazing speed.",battery life positive <sep> speed positive
+2135,2267,"As a computer science student in college, I find that the portability, longevity, and ease of use of this computer make me (shockingly) want to do homework more;",portability positive <sep> longevity positive <sep> use positive
+2099,2917,The notebook is lacking a HDMI port and a S-video port that would enable one to hook it to a TV.,HDMI port negative <sep> S-video port negative
+2415,2143,Quality Display  I was surprised with the performance and quality of this HP Laptop.,Quality Display positive <sep> performance positive <sep> quality positive
+2732,2146,"But with A WAY Bigger Screen, and IS able to connect to an HDMI.",Screen positive <sep> HDMI neutral
+2774,2620,"The only thing that isn't perfect about this netbook is the speakers, they are not loud at all but I expected that.",speakers negative
+310,2534,But the machine is awesome and iLife is great and I love Snow Leopard X.,iLife positive <sep> Snow Leopard X positive
+368,505,"They sent out the box right away for me to send in my computer, they paid postage and whatnot, but when I got my computer back it still wasn't running right, and now my CD drive wasn't reading anything!",CD drive negative <sep> running negative
+396,1424,My wireless system would not recognize Windows 7 and I couldn't get online to find out why.,wireless system negative <sep> Windows 7 neutral
+838,1620,I will never go back to Windows!,Windows negative
+2023,2671,"while about 8 years ago, I hope that the quality has changed.",quality negative
+1061,2501,The capabilities using that program alone made me want a Mac.,program positive
+1885,14,"Not too much ""junk"" software to remove.",software positive
+1148,7,"AND the best part is that it even comes with a free printer (when they have a certain promotion/offer going, of course)!",printer positive
+169,1099,"It was slow, locked up, and also had hardware replaced after only 2 months!",hardware negative
+2929,2196,The powerpoint opened seamlessly in the apple and the mac hooked up to the projector so easily it was almost scary.,powerpoint positive
+905,1372,"  We have had numerous problems with Vista, such as Adobe Flash player just quits and has to be uninstalled and then reinsalled, Internet Explore just quits and you lose whatever you were working on, also, the same Windows update has appeared on this computer since we got it and has been updated probably 400 times, the same update.",Vista negative <sep> Adobe Flash player negative <sep> Internet Explore negative <sep> Windows update negative <sep> update negative
+900,205,Images are crisp and clean.,Images positive
+2185,2805,little short on RAM but you get what you pay for.,RAM negative
+2338,2273,"WIth the upgraded memory, the MacBook Pro never has an issue running many many applications at once!",upgraded memory positive <sep> applications neutral <sep> running positive
+255,1069,"The Bluetooth was not there at all, and the fingerprint reader driver would be there, but the software would hang after installation was 1/2 way done.",Bluetooth negative <sep> fingerprint reader driver negative <sep> software negative
+1468,973,"With what I do know how to do, the computer works beautiful.",works positive
+1142,2448,The pictures are clear as can be.,pictures positive
+2041,831,  The only thing I can imagine is that Sony jumped on early specifications for Vista requirements from Microsoft and designed it to those inadequate requirements.,Vista negative
+2266,2503,"Everything about the Mac is not only visually appealing, but very easy to use.",use positive
+1623,91,Later it held zero charge and its replacement worked for less than three months.,charge negative
+324,340,They also have a longer service life than other computers (I have several friends who still use the older Apple PowerBooks).,service life positive
+1245,2490,2nd Best computer in the world  only one way this computer might become the best is that it needs to upgreade patches  to make less easier for people to hack into,patches negative
+2460,1902,  The screen almost looked like a barcode when it froze.,screen negative
+35,2202,Pairing it with an iPhone is a pure pleasure - talk about painless syncing - used to take me forever - now it's a snap.,syncing positive
+352,1426,"I was ready to take it back for a refund, but the Geek Squad camed through and pointed me in the right direction to get it fixed.",Geek Squad positive
+378,2138,"With a mac you don't have to worry about antivirus software or firewall, it's so wonderful.",antivirus software neutral <sep> firewall neutral
+892,124,It is not ideal for children because of the temp.,temp negative
+3033,1797,It's now all commodity hardware.,commodity hardwar neutral
+2234,2784,"It was not clear that the Microsoft Student Edition that was loaded on the computer, was a six month trial.",Microsoft Student Edition negative
+1384,209,Connecting to my wireless router via built-in wireless took no time at all.,built-in wireless positive
+896,3011,"Great OS, fabulous improvements to the existing line bumping up the processor speed and adding the thunderbolt port.",OS positive <sep> processor speed positive <sep> thunderbolt port positive
+1687,1432,"I am constantly trying to uninstall programs, clean cookies, and delete unused files.",programs neutral
+1645,2386,I don't understand why only Windows 7 Starter is included.,Windows 7 Starter negative
+1878,2069,"I am not going to sit here and complain about it not having a cd drive and what not because it is a netbook, it is made to be compact and if you want all the other stuff get a laptop.",cd drive conflict
+2692,208,The trackpad was easy to learn and navigate.,trackpad positive
+3001,2561,"I wish iWork or MS Office came with the Mac, but MS Office doesn't even come with most pc laptops.",iWork negative <sep> MS Office negative <sep> MS Office negative
+2661,1528,"I have had to call with a few questions or issues and they have helped me for free, even without the warranty.",warranty neutral
+999,678,and plenty of storage with 250 gb(though I will upgrade this and the ram..),storage positive <sep> ram neutral
+800,2517,The black model also has a very nice seamless appearance - one of the better looking notebooks I've seen.,appearance positive
+2400,1074,"But, buy this model and just purchase 4GB of RAM (2x2GB for $92 or 1x4GB for $99), and save yourself $100 than the other model with 8GB of RAM.",4GB of RAM neutral <sep> 8GB of RAM neutral
+1933,2736,"Needs Power and Mouse Cable to Plug in back instead of side, In the way of operating a mouse in small area.",Mouse Cable negative <sep> mouse negative
+970,1106,"It was still working, but there was nothing on the screen.",screen negative
+595,612,Apple care included.,Apple care neutral
+1022,3055,It has a .1 ghz faster processor and a stock 500gb hard drive.,processor positive <sep> 500gb hard drive positive
+2823,1438,"Externally the keys on my keyboard are falling off, after a few uses the paint is rubbing off the button below the mouse pad and where the heals of my hands sit, and the screen has a terrible glare.",keys negative <sep> keyboard negative <sep> button below the mouse pad negative <sep> screen negative <sep> paint negative
+494,2974,It runs very quiet too which is a plus.,runs positive
+429,1989,"Windows XP SP2 caused many problems on the computer, so I had to remove it.",Windows XP SP2 negative
+674,832,"  My opinion of Sony has been dropping as fast as the stock market, given their horrible support, but this machine just caused another plunge.",support negative
+907,1400,with the switch being at the top you need to memorize the key combination rather than just flicking a switch.,switch negative <sep> switch negative
+2277,1716,There was a little difficulty doing the migration as the firewire cable system can't be used with the iBook.,firewire cable system negative <sep> iBook neutral
+2188,904,"THEN, one month after the warranty expired, the replacement charger went.",warranty neutral <sep> replacement charger negative
+587,1189,Now for the hardware problems.,hardware negative
+2113,1936,"In early May I got it back and this time I only had it back for 1 day before it had a NEW issue so it was sent back in for the 6th time they ""expedited"" the repairs so I was only supposed to have to be without it for 3 days and it was supposed to be fixed, by a ""Senior Tech"".",Senior Tech negative
+67,1425,"In desparation, I called their Customer Service number and was told that my warranty had expired (2 days old) and that the priviledge of talking to a technician would cost me (""have your credit card ready"").",Customer Service number neutral <sep> warranty negative <sep> talking to a technician negative
+1121,1493,""">  iPhoto is probably the best program I have ever worked with: easy and convenient.",iPhoto positive
+2230,2144,the speed is fine.,speed positive
+1630,427,"I bought it from HSN because it was ""bundled"" with extra software, but as it turns out, that software just crashes it more often.....",software conflict <sep> software negative
+1298,2213,"I use iphoto all the time, which is a great program for anyone who is into photography - amateurs and experts alike.",iphoto positive <sep> program positive
+2140,945,  Again I sent it back and they replaced the motherboard and some fan inside.,motherboard neutral <sep> fan neutral
+1771,2524,It was secure and easy to navigate.,navigate positive
+2476,2867,It has easy to use features and all the speed and power I could ask for.,features positive <sep> speed positive <sep> power positive
+1165,433,And having to deal with the company has been a even worse nightmare.,company negative
+1206,2436,It also does not have bluetooth.,bluetooth negative
+2374,1201,"Once again, I was told it was the suspicious  power supply  problem.",power supply negative
+2244,1793,"Without a doubt, the *design* of this laptop is fantastic.",design positive
+979,1745,"Though the picture, video, and music software is nowhere close to professional grade software Im used to (CS5) but does the job for beginner and even intermediate media designers.",music software negative <sep> software positive <sep> picture negative <sep> video negative
+8,76,"I even got my teenage son one, because of the features that it offers, like, iChat, Photobooth, garage band and more!",features positive <sep> iChat positive <sep> Photobooth positive <sep> garage band positive
+1490,2611,"Apple is always great about the aesthetics of things, they always come up with good looking products.",aesthetics positive
+187,156,"It had a cooling system malfunction after 10 minutes of general use, and would not move past this error.",cooling system negative <sep> use neutral
+1394,2021,This wiped out several programs that were installed on the computer when it was bought.,programs negative
+522,1893,"Three weeks after I bought the netbook, the screen quit working.",screen negative
+72,463,Spent 2 hours on phone with HP Technical Support.,HP Technical Support neutral
+2594,2880,So we exchanged it for the same on and after 2 hours it didn't work.,work negative
+2703,2417,Even though the computer is larger they did not make the keyboard larger.,keyboard negative
+2308,2764,I took 3-4 years researching brands and prices of laptops.,prices neutral
+102,1365,Purchased a Toshiba Lap top it worked good until just after the warrenty went out.,warrenty negative
+2964,1966,It did not have all the features I expected it to have.,features negative
+546,2755,"I am overall very pleased with my toshiba satellite, I like the extra features, I love the windows 7 home premium.",extra features positive <sep> windows 7 home premium positive
+1442,2539,"i am a huge computer person i love anykind of computer that works well, but when i got this one i was so happy with the way it works and how it runs its amazing.",runs positive
+2063,1226,I called their repair depot as was told they would send Me a new box to return the computer to the repair depot.,repair depot neutral <sep> repair depot neutral
+2743,2378,It is fast and i have not had a problem with internet connection or any other problems.,internet connection positive
+1255,913," A MONTH LATER, we reinstall the OS (Vista).",OS (Vista) negative
+2954,1415,"In all honesty, if someone is looking for a quality laptop and willing to pay a little more money for a normal sized laptop than a cheaper and less impressive laptop, then do not buy this computer.",sized neutral
+1156,937,  I was also able to install and use my Photoshop and AfterEffects programs easily.,Photoshop positive <sep> AfterEffects programs positive
+3023,152,The touch pad is among the best.,touch pad positive
+29,2980,I can barely use any usb devices because they will not stay connected properly.,usb devices negative
+651,1696,The size is perfect and I do not recomend anything bigger except for any person who can exceed the limited space it gives you.,size positive <sep> space negative
+508,2669,Sometimes you really have to tap the pad to get it to worki,pad negative
+293,942,  Taking it back to Best Buy I found that a tiny plastic piece inside had broken (manuf issue).,manuf negative
+380,2392,"Am very glad I bought it, great netbook, low price.",price positive
+1907,2571,"I get a ton of compliments on its size, and speaking as someone who regularly commutes on a bus, I can attest to the fact that this is the perfect size computer if you're restricted to the width of your body for computing room.",size positive <sep> size positive
+107,2033,"I wanted to purchase the extended warranty and they refused, because they knew it was trouble.",extended warranty neutral
+1166,968,  I will definitely be getting a new laptop if it has any more issues after the warranty expires and researching carefully when I do so I don't run accross a situation like this again!,warranty neutral
+2246,1412,I could save ten essay papers and have hardly any memory left.,memory negative
+636,435,They sent it back with a huge crack in it and it still didn't work.,work negative
+2339,2824,"Simple to use, and great graphics.",graphics positive <sep> use positive
+2368,2322,The screen is gorgeous - yummy good.,screen positive
+864,1385,"Again, the same problem, the right speaker did not work.",right speaker negative
+2335,458,In the first moth of owning this computer its hardrive failed which had to be replaced.,hardrive negative
+2219,834,"This laptop looks great on the surface: 17"" inch screen, good  price-point, nice appearance, boots up quickly, runs fast etc.","17"" inch screen positive <sep> price-point positive <sep> appearance positive <sep> boots up positive <sep> runs positive"
+1825,298,I got my MacBook Pro because I wanted to do all the stuff I need to do without worrying about the system quitting on me or freezing for a few minutes.,system neutral
+2846,733,Microsoft seems to be unable to keep up with repairs for the multitude of windows problems.,windows negative
+1693,1351,I think that if it is the motherboard again so soon that they should replace it.,motherboard negative
+1808,286,The display is beyond horrible.,display negative
+10,80,Great laptop that offers many great features!,features positive
+610,809,DO NOT BUY GATEWAY COMPUTERS THEY ARE JUNK AND THE WARRANTY COMPANY IS HORRIBLE.,WARRANTY COMPANY negative
+1072,170,The battery has never worked well.,battery negative
+47,325,"I did have to replace the battery once, but that was only a couple months ago and it's been working perfect ever since.",battery conflict
+2413,1803,"My friend just had to replace his entire motherboard, so did my wife, and it looks like I will have to as well.",motherboard negative
+2566,1268,Could not keep up with me and finally the hard drive went out.,hard drive negative
+2715,1565,The resolution is even higher then any other laptop on the market.,resolution positive
+2430,1369,This is a review of windows vista system.,windows vista system neutral
+702,1393,the mouse buttons are hard to push.,mouse buttons negative
+2021,440,"I love its solid build, light wt and excellent battery life (for now).",build positive <sep> wt positive <sep> battery life positive
