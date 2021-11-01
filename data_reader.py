@@ -1,4 +1,3 @@
-from typing import Optional
 import pandas as pd
 import numpy as np
 import xml.etree.ElementTree as ET
@@ -31,7 +30,6 @@ def join_sentence_and_annotations(words, annotations):
 
 def write_to_file(array, path):
     with open(path, 'w') as file:
-        file.write('texts####opinions\n')
         file.write('\n'.join(array) + '\n')
 
 
@@ -46,15 +44,14 @@ def get_annotations_for_sentence(sentence_text, opinions):
             annotation = 'T-NEG'
         if row['pol'] == 'neutral':
             annotation = 'T-NEU'
+        if row['pol'] == 'conflict':
+            continue
         word_count = 0
         for j in range(len(sentence_text)):
             if sentence_text[j].isspace() and j > 0 and not sentence_text[j - 1].isspace():
                 word_count += 1
             if j >= int(row['from']) and j < int(row['to']):
-                try:
-                    annotations[word_count] = annotation
-                except:
-                    print("here")
+                annotations[word_count] = annotation
             if j >= int(row['to']):
                 break
     return annotations, words
@@ -291,9 +288,9 @@ def preprocess_dataset(domain, language):
     val.to_csv('data/processed_val_{}_{}.csv'.format(domain, language), header=True, index=False)
     test.to_csv('data/processed_test_{}_{}.csv'.format(domain, language), header=True, index=False)
 
-    write_to_file(train_spanbert, 'data/processed_train_spanbert_{}_{}.csv'.format(domain, language))
-    write_to_file(val_spanbert, 'data/processed_val_spanbert_{}_{}.csv'.format(domain, language))
-    write_to_file(test_spanbert, 'data/processed_test_spanbert_{}_{}.csv'.format(domain, language))
+    write_to_file(train_spanbert, 'data/train_spanbert_{}_{}.csv'.format(domain, language))
+    write_to_file(val_spanbert, 'data/val_spanbert_{}_{}.csv'.format(domain, language))
+    write_to_file(test_spanbert, 'data/test_spanbert_{}_{}.csv'.format(domain, language))
 
 
 if __name__ == '__main__':
