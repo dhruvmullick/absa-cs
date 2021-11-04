@@ -2,7 +2,7 @@ import csv
 import utils
 import sys
 
-PREDICTIONS_FILE = 'spanbert-predictions-transformed/train_spanbert_Lap14_en.csv/test_spanbert_Lap14_en.csv/predictions.json'
+PREDICTIONS_FILE = 'dummymodel/predictions_dummy.csv'
 # PREDICTIONS_FILE = 'models/combined/predictions_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
 TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/combined/transformed-targets.csv'
 TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/combined/transformed-sentiments.csv'

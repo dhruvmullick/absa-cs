@@ -41,8 +41,6 @@ def transform_predicted_sentences(transformed_predictions_file, gen_data_file, p
                 original_sent = line[2].strip()
                 writer.writerow([i, predicted_sentences[i-1], actual_text, original_sent])
 
-# Pass argument as the language code - 'en', 'es', 'ru'
-# transform_gold_and_truth(sys.argv[1])
 
 datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en', 'Mams_en', 'Mams_short_en']
 
