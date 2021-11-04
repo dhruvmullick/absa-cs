@@ -45,6 +45,7 @@ def generate_output():
         with open(PREDICTIONS_DUMMY_FILE, 'w') as new_file:
             reader = csv.reader(original_file)
             writer = csv.writer(new_file)
+            writer.writerow([" ","Generated Text","Actual Text","Original Sentence"])
             next(reader, None)
             for line in reader:
                 new_line = line
