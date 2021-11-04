@@ -1,0 +1,858 @@
+review_id,sentences_ids,sentences_texts,sentences_opinions
+0,0,"I politely told our waitress about this and she was not only apologetic, but the manager came over a minute later and apologized and bought myself and my guest another round of drinks.",waitress negative <sep> manager positive <sep> drinks neutral
+0,0,"The atmosphere is certainly unlike any other restaurant in all of Manhattan, but it is a pity that the food does not live up to the decor.",atmosphere positive <sep> food negative <sep> decor negative
+0,0,"I've also been amazed at all the new additions in the past few years: A new Jazz Bar, the most fantastic Dining Garden, the Best Thin Crust Pizzas, and now a Lasagna Menu which is to die for (these are not your average lasagnas)!",new Jazz Bar neutral <sep> Dining Garden positive <sep> Thin Crust Pizzas positive <sep> Lasagna Menu positive
+0,0,They lost our reservations and the manager quickly came over and apologized and then gave us a free round of drinks and free dessert.,reservations neutral <sep> manager positive
+0,0,"Although we were seated quickly, ambiance was cozy, service was decent the overall menu selection and overall food taste and presentation was less to be desired!",ambiance positive <sep> service positive <sep> food taste negative
+0,0,"We asked for the manager who told us that it was their first time serving brunch, to be patient and that our bill would be discounted.",manager positive <sep> serving brunch neutral
+0,0,"Service is not particularly warm, but I've gone back again and again (for dinner) over the years on an almost monthly basis.",Service negative <sep> dinner neutral
+0,0,"Be warned though, this plaice gets packed at lunch - and the service can be rottenly slow-going.",lunch neutral <sep> service negative
+0,0,"However the manager, who refused to come to our table to discuss it, said we were wrong (through the poor waitress) and would not replace our bottle.",manager negative <sep> table neutral <sep> waitress negative
+0,0,"For desert take the tiramisu, it is by far the best there.",desert neutral <sep> tiramisu positive
+0,0,"Then we were led downstairs to the main room, and were seated at the huge communal dining room table.",seated neutral <sep> dining room table positive
+0,0,Food : A++ Service : A++ Value : A++ No other steakhouse in Manhattan can beat Ruth's Chris.,Food neutral <sep> Service positive
+0,0,Our waitress hardly spoken English - and not because she spoke French - and she spilled wine all over me and didn't try to make any amends.,waitress negative <sep> wine neutral
+0,0,"Their menu is limited, they serve miniscule omelettes that may be suitable for a child (with what seems like a teaspoon of stuffing) with a salad (have to pay even more for fries) for $10- which was poorly washed and there were bits of soil all over it!!",menu negative <sep> fries neutral
+0,0,"The prices were outrageous, but we assumed the quality would be commensurate, so we ordered.",prices negative <sep> quality positive
+0,0,the food arrived and a 1/3 of the way through my meal i realised that two-thirds of my fish was uncooked.,food neutral <sep> meal neutral <sep> fish negative
+0,0,"The simple corn tamale comes with a mild homemade sour cream, and the inexpensive enchiladas, prepared with expertly spiced strips of beef, could easily serve as an entree.",corn tamale positive <sep> homemade sour cream positive <sep> spiced strips positive <sep> entree neutral
+0,0,MY FATHER ASKED FOR A MARTINI MADE A CERTAIN WAY THE WAITER HAD NO CLUE WHAT HE WAS TALKING ABOUT.,MARTINI neutral <sep> WAITER negative
+0,0,"The space is a bit cramped and the waitress seemed to avoid eye contact at all costs, however, I would recommend you go just for the food.",space negative <sep> waitress negative <sep> food positive
+0,0,"Only problem was - an older gentleman (well-dressed but a little enebriated) chose to sit down right next to me - despite the fact that all 15 other seats were free - order himself a martini, and then describe how dry and dissapointing the burger was when he ordered it a few days ago.",gentleman negative <sep> seats negative <sep> martini neutral
+0,0,Their pre-theater prix fixe was a cut above the rest: appetizer stand out - Duck breast with mushroom canelloni.,appetizer positive <sep> Duck breast with mushroom canelloni neutral
+0,0,I met five of my friends for dinner at Blockheads last Friday night and had a good time.,dinner neutral <sep> time positive
+0,0,The Scene The windowed bar and front waiting area seems bright and airy compared to the somewhat stuffy main room.,Scene neutral <sep> windowed bar positive <sep> front waiting area positive
+0,0,Each dish is carefully prepared and is a tribute to the ingredients being served.,dish positive <sep> ingredients neutral <sep> served neutral
+0,0,"I'm a chef (30 years), and I can honestly say that I've finally found Italian food worth eating at a reasonable price.",chef neutral <sep> price positive
+0,0,Great wine list with an extra expensive selection for all you big spenders.,wine list positive <sep> selection negative
+0,0,"After we sat down and started ordering, the waiter informed us that they were really only into serving dinners.",waiter negative <sep> serving dinners neutral
+0,0,"By the time you get to the table, it'll have been WELL worth the wait.",table neutral <sep> wait positive
+0,0,"The ribs are a second runner up, poo poo platters are never out of style.",ribs neutral <sep> poo platters positive
+0,0,I didn't know what to expect from Frankie and Johnnie's when I made the reservation after my friend told me it was the best steak he had had.,reservation neutral <sep> steak positive
+0,0,"the service was somewhat spotty, but we were rewarded with free drinks and the waiters were all sweet and lovely, genuinely french-speaking but not snooty!",service negative <sep> drinks positive <sep> waiters positive
+0,0,"Drinks took a while, and after a few rounds pf the we're sorry, we don't have this bottle sir routine.",Drinks neutral <sep> sir routine negative
+0,0,"The place is small, but loaded with plenty of goodies that range from Italian inspired treats to Greek pastries all well prepared.",place negative <sep> Greek pastries positive
+0,0,"The other side of the menu offers chicken, veal, and seafood standards, including perfect saltimbocca and a huge, succulent veal chop.",menu neutral <sep> chicken neutral <sep> seafood neutral <sep> saltimbocca positive <sep> veal chop positive
+0,0,"Long wait for our meal (approx 30 minutes), unusual slow service, waitresses (especially the preety one with black hair) louder thn clients, do not care much for customers.",meal neutral <sep> service negative <sep> waitresses negative
+0,0,Meat wasn't fall-off-the bone (a sign of over-cooking) but was tender and had deep flavor.,Meat negative <sep> flavor positive
+0,0,Orange Valve is probably the best bar that I've been to in a while.,Orange Valve neutral <sep> bar positive
+0,0,"The notable array of refreshing drinks includes raspberry lemonade, an assortment of smoothies and iced teas, and a black cow ice-cream float.",drinks includes raspberry lemonade positive <sep> assortment of smoothies neutral <sep> iced teas neutral
+0,0,Hoegardden on tap is an added bonus if you're not drinking from the well versed wine menu.,tap neutral <sep> wine menu positive
+0,0,There are times when there is a long wait at lunch so be safe and make a reservation.,wait negative <sep> lunch neutral <sep> reservation neutral
+0,0,"When my family and I visited, we were hearded in and out of the restaurant like cattle; not once did our waiter ask how are meal was, and the waitress mixed up our steaks.",meal neutral <sep> waitress negative
+0,0,The owner sat with us and asked us what fish we liked and prepared an entree for each of us with an array of seafood.,owner positive <sep> fish neutral <sep> entree neutral <sep> seafood positive
+0,0,"you go all out with dress, tastes, and performance, and in the end its really about having a good time where you truly indulge yoursef in good vodka, compnay, music, and food.",dress neutral <sep> vodka positive <sep> music neutral <sep> food neutral
+0,0,I must admit the times my family (6 or more) have had dinner there the service seemed to forget us after serving the main course.,dinner neutral <sep> service negative <sep> serving neutral
+0,0,"We had to wait an hour before our food was served, then another hour inbetween courses, all the while whilst the staff were naughtily hiding in an attempt to avoid our 'where's out food?'",served neutral <sep> courses neutral <sep> staff negative
+0,0,"Waitress was nice but didnt know some specials and was alittle off, think she was new.",Waitress positive <sep> specials neutral
+0,0,Diver scallops were divine along with chilled beets or high volocety pasta.,scallops neutral <sep> chilled beets neutral <sep> volocety pasta positive
+0,0,"However, the service has SIGNIFICANTLY declined since they expanded into the back room.",service negative <sep> room neutral
+0,0,the service was horrible then and the food was decent.,service negative <sep> food positive
+0,0,"Deborah, the chef and co-owner, is an extraordinary talent - she has not received the notoriety she deserves - and her food, while not expensive, really merits a two or three star rating.",chef positive <sep> food neutral
+0,0,The food is spicy like it should be not swimming in oil like it is at song down the street.,food positive <sep> oil negative
+0,0,I went anyway and was greeted by the rude owner who practicly ripped our outside drink from our hands (although we were trying to throw it out anyway.,owner negative <sep> drink neutral
+0,0,"The decor was pleasant, but the tables were way too much crowded for a restaurant of this presumptive caliber.",decor positive <sep> tables negative
+0,0,Brunch at Cafe des Artistes was hands down the most terrible dining experience I have had in New York.,Brunch neutral <sep> dining negative
+0,0,"We first got a table next to a VERY loud speaker and had no view, but the waiter was kind enough to move us when we asked.",table neutral <sep> waiter positive
+0,0,"The Scene Quartino's airy dining room, wrapped in high windows, hinges around a trendy bar where regulars sip wine out of blunt tumblers while swapping stories--often in Italian.",Scene neutral <sep> airy dining room neutral <sep> bar positive
+0,0,"Succulent, buxom mussels can be had four ways: with classical white wine, tomatoes, luxurious Pernod and cream, or chorizo and white beans.",mussels positive <sep> white wine neutral <sep> tomatoes neutral <sep> Pernod positive
+0,0,"Forget what it was called, but it had some kind of onion puree on top that ROCKED and the steak was a grass-fed organic type and very tender.",onion puree neutral <sep> steak positive
+0,0,(try the Queso Fundido and fire) Upstairs there is a dining room which is decorated with brightly colored mexican theme.,Queso neutral <sep> dining room neutral <sep> theme positive
+0,0,"The decor reminds me of Miami nightclubs, and we sat in a cool communal strip, where you share your table with people.",decor positive <sep> table neutral
+0,0,I recently went to this restaurant with some co-workers for lunch and had an amazing time.,lunch neutral <sep> time positive
+0,0,"This is one of my first dining experiences in NYC when I first moved here 10 years ago, and although Hudson Corner is consistently good, it has gone downhill over the years in both food quality and service!",dining experiences neutral <sep> food quality negative <sep> service negative
+0,0,"The menu sounded good but the grilled eggplant roll was oversauced with a pile of mint, pork chop was leathery, and everything just tasted wrong.",menu neutral <sep> grilled eggplant roll negative
+0,0,"Other than the too fruity drinks at the bar which wasn't my cup of tea, everything else was excellent.",bar neutral <sep> tea negative
+0,0,The hostess kept me waiting 10 minutes (attempting to read seating chart which I assume was in cyrillic) before determining whether she could seat us.,hostess negative <sep> waiting neutral <sep> seating neutral
+0,0,"I have to agree with the previous review that the atmosphere isn't much, but Mister Falafel can't be beat for quick, delicious, cheap takeout.",atmosphere negative <sep> Falafel positive
+0,0,"The smell was heavenly, and the appearance was great, but the cheese was a little too salty and heavy.",appearance positive <sep> cheese negative
+0,0,"While the recently added outdoor seating was what drew me and my friend to the restaurant, the food, service and overall experience were what drove us out!",outdoor seating neutral <sep> service negative
+0,0,"The service is sweet and attentive, the wine is delicious and the new wine bar around the corner has the most amazing selection, as well as cheeses and tapas.",service positive <sep> new wine bar neutral <sep> selection positive <sep> cheeses positive <sep> tapas positive
+0,0,(So long that it prevented me from increasing their sales by getting more possible drinks) If i just saw my one waiter the whole night I would have known who to talk too.,sales neutral <sep> drinks neutral <sep> waiter negative
+0,0,"After ordering a couple beers from the pleasant bartender, my date and I took a seat at one of MANY vacant tables next to the bar (The bar stools were full).",bartender positive <sep> seat neutral <sep> bar stools negative
+0,0,"After making reservations almost a month in advance, I was very disappointed to be seated in a secluded area for dinner next to the sushi bar and KITCHEN!!!!!!!",reservations neutral <sep> seated negative <sep> sushi bar neutral
+0,0,"When we finally ordered our wine, the waitress brought the bottle of wine over with ONE GLASS MISSING - meaning, we'd have to wait even longer for the final glass to arrive - which were all piping hot from the dishwasher.",waitress negative <sep> bottle of wine neutral
+0,0,"For dessert we split the combination platter, which had rather small portions but they were good.",dessert neutral <sep> platter neutral <sep> portions negative
+0,0,"Additionally, one of the waiters found it necessary to walk around the restaurant, telling people how to eat their food.",waiters positive <sep> food neutral
+0,0,The service could be better but the management (Mariano) is quite helpful if there are any problems.,service neutral <sep> Mariano positive
+0,0,"Sushi is consistently fresh, service pleasant Sushi rice is a bit hard.",service positive <sep> Sushi rice negative
+0,0,"Thin crust, lots of sauce and very little cheese, it's not your typical Sicilian slice of pizza, but can't explain why I have a hard time eating less than 4 of those babies!",crust positive <sep> Sicilian slice of pizza neutral
+0,0,The pancakes I ordered were nothing like the menu's description.,pancakes negative <sep> menu neutral <sep> description neutral
+0,0,Although the dining area is a bit small you'll feel at home as the owner is very friendly and talkative.,dining area negative <sep> owner positive
+0,0,"For appetizers try the tuna carpaccio with wasabi creme fraiche, lobster tempura with tarter sauce.",appetizers neutral <sep> tuna carpaccio with wasabi creme fraiche positive <sep> lobster tempura with tarter sauce positive
+0,0,"For dinner, I love the churrasco and halibut with of course black beans and yellow rice.",dinner neutral <sep> churrasco positive <sep> halibut with of course black beans positive <sep> rice positive
+0,0,"Our booth style seats would've been more romantic if our waitress, though nice, was less intrusive, and the loud music from its bar didn't filter thru so much.",booth style seats positive <sep> waitress negative <sep> bar neutral
+0,0,"Atmosphere in the formal room was nice, but the informal dining room was extremely loud which ultimately made the formal room louder than my perference.",Atmosphere positive <sep> informal dining room negative
+0,0,"The Scene With its long zinc bar, plush couches and patterned suede walls, the lounge is a swank spot for midtown's cocktail crowd.",Scene positive <sep> bar neutral
+0,0,The quality of the food used to be worth the long waits but not anymore.,quality negative <sep> food neutral
+0,0,"When questioning our server about a certain dish, she kindly brought over the Union Sq.",server positive <sep> dish neutral
+0,0,My friend was a vegetarian and the staff went out of their way to provide her with a special entree.,staff positive <sep> entree neutral
+0,0,"The scene is a bit much some time, but the food is worth it.",scene negative <sep> food positive
+0,0,"I am not sure if this was just an off night or what, our waiter forgot wine, brought us desert menus before dinner came, then brought us the wrong dinner.",waiter negative <sep> wine neutral <sep> desert menus neutral
+0,0,"We waited an hour for our appetizers, (I suspect the waitress forgot to put in our order because the restaurant was not busy) and then the entrees came at the same time!",appetizers neutral <sep> waitress negative <sep> entrees neutral
+0,0,The waiter was pleasant and I thought how bad could someone screw up basic Italian food?,waiter positive <sep> Italian food neutral
+0,0,"It came with a (small) salad, large bowl of udon, and 6 pieces of sushi plus wrapped rice (not sure what that was called.",salad neutral <sep> bowl of udon positive
+0,0,"Great tasting meat, intimate if slightly noisy ambience and the service is slightly less attentive than it could be but is done with charm.",meat positive <sep> service negative
+0,0,"When one purchases a bottle of wine, it's fairly common practice for a server to come by and refill your glass, but not the case here; 2.",server negative <sep> glass neutral
+0,0,The handwritten menu makes me think the choices change frequently -- we started with pumpkin fritters and then had bunny rabbit and sea bass cakes.,handwritten menu neutral <sep> rabbit positive <sep> sea bass cakes positive
+0,0,THe ribs are good and I havent had anything on the menu that did taste great.,ribs positive <sep> menu neutral
+0,0,"Waited 30 min for a brick they call bread and water, another hour for food (tiiiiiiiny portions).",bread neutral <sep> water neutral <sep> food neutral <sep> portions negative
+0,0,"From having an appetizer, a glass of wine and reading a magazine to sitting by a table to work on my grades, to meeting other fellow teachers for a book club to partying with the owners all my experiences at Futura have always been extremely postive!",appetizer neutral <sep> glass of wine neutral <sep> table neutral <sep> owners positive
+0,0,I had the Steamed Mussels and Clams and the sauce was to die for.,Steamed Mussels and Clams and neutral <sep> sauce positive
+0,0,Service is one thing but a restaurant like Craft needs to have much better quality food for the price they charge.,Service neutral <sep> food positive
+0,0,"While the food is terrific, you must overlook the often apathetic service, and the sometimes downright rude Manager that seats people.",food positive <sep> service negative
+0,0,"With dessert, the pre-theater is a great deal/meal.",dessert neutral <sep> pre-theater positive
+0,0,If you want to have fresh grill fish served just with virgin olive oil and lemon Telly's Taverna is the place for you.,grill fish served positive <sep> virgin olive oil neutral
+0,0,"Even without this hiccup, the service seemed very amateur--not snooty, as I've read in other reviews--just nowhere near as good as it should be given the price of the meal.",service negative <sep> price neutral <sep> meal neutral
+0,0,The restaurant didn't mind me sitting on their doorstep to the extent that the bartender invited me in for a drink.,bartender positive <sep> drink neutral
+0,0,"Even when the chef is not in the house, the food and service are right on target.",chef neutral <sep> food positive <sep> service positive
+0,0,"When the manager came over, he accused my friend of offending the chef and continued to argue with her about the dish.",manager negative <sep> chef negative <sep> dish neutral
+0,0,"my husband has certain food allergies, and they were 100% accomodating even for the tasting menu which is seven courses for $50 - they even substituted dishes for ones that he couldn't have.",food neutral <sep> menu positive <sep> dishes neutral
+0,0,it's one of the cheapest eats in the city and the food is not bad if you sit at the bar only - they have a decent chicken and/or beef tender tips but they cook with a lot of garlic so beware.,bar neutral <sep> beef tender tips positive
+0,0,"the atmosphere is that of a diner, but if you get a booth that is the best!",atmosphere positive <sep> diner neutral
+0,0,"He hooted and hollered -- and told every staff person at the bar, not to serve us.",staff negative <sep> bar neutral
+0,0,"Rely on your food, your chef, your decor, your impeccable service, SOMETHING other than creating some fake VIP atmosphere to make people feel as if they need to gain admission in order to feel better about themselves.",food positive <sep> chef positive <sep> decor positive <sep> service positive <sep> atmosphere negative
+0,0,"i had the smallest martini, which the waiter spilled part of.",smallest martini neutral <sep> waiter negative
+0,0,"Don't ask for menu,steak is what you will have,along with great creamed spinach.",steak neutral <sep> spinach positive
+0,0,"In April, the service was fair but again, the food was at best only warm.",service positive <sep> food negative
+0,0,"The Scene This storefront eatery is decked with colorful Mexican art and party kitsch, but it gets dim and moody enough in the evenings to suit a date.",Scene neutral <sep> Mexican art positive <sep> dim neutral
+0,0,"When the food came, it was almost good, but the lack of AC, bad service, and overall apathetic staff, from the HOST, to the MANAGER to the WAITER, ruined the experience.",food positive <sep> service negative <sep> staff negative <sep> HOST negative <sep> MANAGER negative
+0,0,"the only things u could really taste are the very salty soy sauce (even its low sodium), the vinegar-soaked rice, and the scallion on top of the fish.",soy sauce negative <sep> scallion neutral
+0,0,"In addition, they lack basic ammenities like a toaster, and the decor was shabby, at best.",toaster neutral <sep> decor negative
+0,0,"There were many helpful people, not only one waiter - kept refilling the water, the wine, asking if everything was okay.",waiter positive <sep> wine neutral
+0,0,The atmosphere is classy with salsa music in the background.,atmosphere positive <sep> salsa music neutral
+0,0,We took seats at the bar with 2 amazing bottles of wine (one for the appetizers and one to match the entrees) Monsieur Zucco was very accomodating and kept a sharp eye at filling our glasses at the right time at the right level.,bar neutral <sep> bottles of wine positive <sep> appetizers positive
+0,0,This pizza is the BEST anywhere for grandma slices!,pizza positive <sep> grandma slices neutral
+0,0,"Noodle bowls are mixed with tempura vegetables, mountain yam, mushrooms, or spiced with curry or cold citrus dipping sauces.",mushrooms neutral <sep> citrus dipping sauces positive
+0,0,"The servers were extremely professional, especially considering the entire room needed to be served at the same time.",servers positive <sep> served neutral
+0,0,"Great place for either appetizers and drinks at the bar, a romantic dinner or late night partying.",drinks positive <sep> bar neutral
+0,0,"Short of being invited to a Filipino home for dinner, Elvie's is the closest you'll get to tasting Filipino delights.",dinner neutral <sep> delights positive
+0,0,"If you consider throwing food at your when they remember good service, then go for it.",food neutral <sep> service positive
+0,0,"The place is a little over-priced for brunch but it is a nice restaurant so that was expected Food (i had the omelette with cheddar, mushrooms and herbs), service, coffee, atmosphere were all fantastic.",place negative <sep> brunch neutral <sep> cheddar neutral <sep> mushrooms neutral <sep> herbs neutral <sep> service positive <sep> coffee positive <sep> atmosphere positive
+0,0,As to the fact that everyone else's sushi looked better: the waitresses are not responsible for offering you what is CLEARLY written on the menu as Omakase - Chef's Choice.,sushi positive <sep> waitresses negative <sep> menu neutral
+0,0,"Our waiter actually said he would check with the chef, like they might force us to share our food.",waiter negative <sep> food neutral
+0,0,"Overall, I would rather go to a chain coffee house up the street for the same priced coffee, but a much more relaxing atmosphere, and no one forgetting my order.",priced coffee negative <sep> atmosphere positive
+0,0,We went inside to the lounge and found that there were several empty tables (which never ended up being occupied).,lounge neutral <sep> tables negative
+0,0,The waitress/hostess seemed a bit sad when we told her we weren't ordering dessert (those arepas are deceptively filling!,waitress/hostess negative <sep> dessert neutral
+0,0,"ASK for spice adjustments or for special orders, if you think you'll need them, BUT most dishes are GREAT as the staff prepares them.",dishes positive <sep> staff neutral
+0,0,Portion was just a bit small compare with other restaurant but the price was lower than usualy as well (7.,Portion negative <sep> price positive
+0,0,The waiters were getting a wine class from a very loud manager and ignoring all the patrons - someone should have been giving them a class on serving instead.,waiters neutral <sep> wine neutral <sep> manager negative <sep> patrons negative
+0,0,I ordered the flounder special - the fish was fresh but the dish lacked flavor.,fish positive <sep> dish negative <sep> flavor negative
+0,0,"' When I reasoned with them that my dining partner already received her hot entree and was halfway done eating, and all I ordered was two rolls, the wait staff finally got the idea that maybe they should be trying to get me my order.",dining neutral <sep> entree neutral <sep> wait staff negative
+0,0,"The service isn't spectacular and neither is the ambience, but on a lunch hour, all you're looking for is a satisfied stomach.",service negative <sep> ambience negative <sep> lunch neutral
+0,0,"We went at 1 am, we got food, fast service and Excellent drinks.",food neutral <sep> service positive
+0,0,"Not only is it the nicest atmosphere with an antique bar and allabaster globes sconces, marble fireplace.",atmosphere positive <sep> bar neutral
+0,0,"The staff were friendly, but the food just wasn't that great.",staff negative <sep> food positive
+0,0,"The bill was surprisingly inexpensive considering we each had appetizers, an entree, dessert and drinks (alcoholic and non) we also had 3 rounds of shots for the entire table.",appetizers neutral <sep> dessert neutral <sep> alcoholic neutral <sep> bill positive <sep> table neutral
+0,0,The waitresses are at your table filling your water or oil before your last sip or dip.,waitresses positive <sep> water neutral <sep> oil neutral
+0,0,"we told our waiter to make five selections for each of us, and he decided instead to charge us for each glass separately instead ($80 instead of $20).",waiter negative <sep> glass separately neutral
+0,0,"My friend and I did have to wait a few minutes for a table, but only because Amanda Hesser (the new NY Times food critic) showed up and, obviously, needed a copious level of attention from the greetings staff.",table neutral <sep> food neutral <sep> staff positive
+0,0,"We had reserved space one one side of the bar, but when the staff tried to force the Pre-Fixe on all 15 members of the party to stay there, we moved to the other side (the difference in decor was minimal).",bar neutral <sep> staff negative <sep> Pre-Fixe neutral
+0,0,"Limited menu but for STEAK,,, and giant onion and tomato salad.",menu negative <sep> STEAK neutral
+0,0,"the tasty food keeps luring me back, but after placing an order with who i assume must be the same rude sunday manager i keep hearing about, i'm not sure i will again.",food positive <sep> manager negative
+0,0,It seemed to take the new staff forever to figure out what they were doing; I had one nightmare of a brunch where the registers didn't seem to work and it literally took over an hour to get our check.,new staff negative <sep> brunch neutral
+0,0,The miso soup lacked flavor and the fish was unfortunately not as well prepared as in the past.,miso soup neutral <sep> flavor negative <sep> fish negative
+0,0,Just look at all those people waiting outside to feat in an unadorned space of cramped shared tables?,waiting neutral <sep> space positive
+0,0,Green bean salad was tasty but could have used a bit more of a kick  Baby backs - Wow!,Green bean salad positive <sep> Baby backs neutral
+0,0,on the food-front while adding just enough of a civilized atmosphere where you won't worry about either your neighbor or the wait staff biting off one of your fingers.,atmosphere positive <sep> wait staff neutral
+0,0,Our cocktails were ok but at ridiculous dance club prices.,cocktails positive <sep> prices negative
+0,0,bartenders management and at first were a bit disappointed with food.,bartenders management neutral <sep> food negative
+0,0,I even overheard the one waiter argue to the host about that and then they conveniently switched to speaking Spanish.,waiter negative <sep> host neutral
+0,0,"Summary good service, bad food!",service positive <sep> food negative
+0,0,"We waited 15 minutes for a menu, another 20 for a tea, another 15 for an appetizer, then when the plates came out, the waitress had to ask me what I'd ordered.",menu neutral <sep> tea neutral <sep> appetizer neutral <sep> plates neutral <sep> waitress negative
+0,0,"Intrigued by the ambience of the restaurant, some friends and I decided to have dinner at Paladar on Saturday night.",ambience negative <sep> dinner neutral
+0,0,There were 6 servers standing around watching me eat but they never asked if I needed anything or even offered me water.,servers negative <sep> water neutral
+0,0,"Items are a la carte, so if you order lamb chops, that's all you get.",la carte neutral <sep> lamb chops positive
+0,0,"Upon explaining, the waiter confronted us as we left and spewed a stream of profanities at us as we walked out the door.",waiter negative <sep> door neutral
+0,0,"The clean, sunny interior looks nothing like Jerry and the gang's dingy haunt, but it showcases fun ephemera like Seinfeld cast autographs and press clips on how the diner inspired the musical ode by Suzanne Vega.",interior positive <sep> Seinfeld neutral
+0,0,Come hungry but be careful not to order too large an appetizer because it would be a shame to waste their scallion pancakes because you've gotten too full prematurely.,appetizer positive <sep> scallion pancakes neutral
+0,0,"Everyone around me was eating stuff that wasn't on the menu and looked tastier, but the waitress didn't bother to suggest any of these things, even when asked for suggestions.",menu neutral <sep> waitress negative
+0,0,"And I pretty much had to tell the waiter that when dinner is late, you usually comp your guests something.",waiter negative <sep> dinner neutral
+0,0,"we ordered filets, and ny steaks eventhough our waiter kept pushing up to get the porterhouse.",steaks neutral <sep> waiter negative
+0,0,"Because of the delicate thin crust, take-out pies get soggy in their boxes.",crust positive <sep> take-out pies negative
+0,0,"it is too bad because the food, ambiance, and drinks were great but they need serious help on the service.",food positive <sep> ambiance positive <sep> drinks positive <sep> service negative
+0,0,"When the food arrived, the portions were really small, and didn't really reflect the awesome descriptions on the menu.",food neutral <sep> portions negative
+0,0,"12/24/03  Dinner was ok, service was so- so,the worst part was the hostess - we made reservations a month before Christmas Eve for three people, you would think the table would be large enough for all three of us.",Dinner positive <sep> service neutral <sep> hostess negative
+0,0,My appetizer of endive and bleu cheese salad was a surprisingly large serving which balanced the striped bass entree (served on a bed of vegetables).,appetizer neutral <sep> serving positive
+0,0,"food arrived quickly and was hot and v good, just don't be on a diet if you are going to eat here as no real options for slimmers!!",food positive <sep> options neutral
+0,0,"The cool thing about the 3 course price fix is that there is no special or limited menu, you can order ANY app, ANY entree and ANY Dessert.",course price neutral <sep> menu negative
+0,0,"Full of characters from the neighborhood, it's a fun place to meet up with friends or have a drink at the bar.",drink neutral <sep> bar neutral <sep> place positive
+0,0,Get plenty on food for the price.,food positive <sep> price neutral
+0,0,"We both got soup, and appetizer, and a main course (fabulous duck), so we didnt have space for dessert.",appetizer neutral <sep> duck positive <sep> dessert neutral
+0,0,We tried to place the order and the waiter had no clue what we wanted even though we pointed it out on the menu.,waiter negative <sep> menu neutral
+0,0,"The menu is informatively presented with facts about the ingredients, and is divided into Starting and Sharing plates, which allows one to sample a few items during the meal.",menu positive <sep> ingredients neutral
+0,0,"I ordered the empanadas sampler, crab croqueta, and something else I don't remember but I remember (all appetizers) thinking this was the best Cuban meal I had ever eaten.",crab croqueta neutral <sep> appetizers neutral <sep> Cuban meal positive
+0,0,Mushroom appetizer was doused in a gross mayonnaise like sauce and had not been described that way on the menu.,Mushroom appetizer negative <sep> gross mayonnaise like sauce neutral <sep> menu neutral
+0,0,"(and don't miss the olive oil when dining in - not sure what they put in it, but it is de-licious!",olive oil negative <sep> dining neutral
+0,0,"The atmosphere and clientele often evoke the feeling of being at a friend's dinner party, where people linger over wine, and chat over small plates of food.",clientele positive <sep> dinner neutral <sep> wine neutral <sep> food neutral
+0,0,The atmosphere was so fun that we decided to have another cocktail at the bar and enjoy the scene.,atmosphere positive <sep> cocktail neutral <sep> bar neutral <sep> scene positive
+0,0,"Needing a sugar fix, my husband and I walked in here to find a wall to wall adornment of delightful confections.",sugar neutral <sep> confections positive
+0,0,I recently attended a celebratory dinner here and I just want to warn everyone that the service is the worst I have ever experienced!,celebratory dinner neutral <sep> service negative
+0,0,Large portions of food to share.,portions positive <sep> food neutral
+0,0,"They served the main course before the appetizers eventhough we asked for the latter first, to which our waiter responded that they don't serve them separately without telling us beforehand while ordering.",appetizers neutral <sep> waiter negative
+0,0,"They brought us one teacup sized bowl of chips for the 4 of us, which disappeared within minutes, and didn't replenish our chips until an hour later--after we finally got our food and after we asked them for some more chips 2 TIMES!",bowl of chips negative <sep> food neutral
+0,0,the most expensive dish on the menu was $14!!!,dish negative <sep> menu neutral
+0,0,"00 bottle of wine, we had to endure the waiter's attitude, like he was doing us a solid, if you're into huge Euro crowds and don't care about what you eat and how it is served to you, Baraonda is your kind of place.",attitude neutral <sep> crowds negative
+0,0,The cooks in the front are very friendly and helpful.,cooks positive <sep> front neutral
+0,0,The DJ at the bar kept the place alive.,DJ positive <sep> bar neutral
+0,0,"The service was terrible- our waiter was unable to make any recommendations, mumbled the special and failed to check back during the course of our meal.",service negative <sep> waiter negative <sep> meal neutral
+0,0,"Fusion-inspired tapas, such as wasabi-honey poached garlic shrimp, show off the talents of the San Sebastian-trained chefs.",tapas positive <sep> wasabi-honey poached garlic shrimp neutral
+0,0,"Before we can even order desert, the waitress comes and tells us we have to leave because the host wanted our table.",waitress negative <sep> table neutral
+0,0,"This place is pricey, and yes, the food is worth it; but the service makes you feel like you should be paying a quater of the price.",food positive <sep> service negative
+0,0,"Babbo and Lupa are significantly better, and this place should redo the menu, or empty seats could become the norm.",menu neutral <sep> seats negative
+0,0,"The music is a little bit louder, but the food is excellent.",music negative <sep> food positive
+0,0,"After they were done poking and prodding our food, the waiter took it right from their table and tried to give it to us.",food neutral <sep> waiter negative
+0,0,"When I questioned the purpose of waiting on this line, I was asked to leave the bar.",waiting neutral <sep> bar negative
+0,0,5 hour meal (we ordered the tasting menu).,hour meal neutral <sep> menu positive
+0,0,"The drinks, served with a little extra in the shaker, anticipate the aptly executed menu, which emphasizes comfort foods of a bygone era--veggies, for example, include crisp Brussels sprouts, shredded beets and bubbling-hot scalloped potatoes.",drinks neutral <sep> menu neutral <sep> foods positive <sep> veggies neutral <sep> sprouts positive <sep> beets positive
+0,0,The atmosphere was a little less than inviting as the tables are close together and I could hear the brother/sister couple next to us arguing (although this did provide entertainment for the evening).,atmosphere negative <sep> tables negative <sep> entertainment neutral
+0,0,"For entree selections we had the chicken cacciatore, head on shrimp (in a honey glaze) spectacular, mozzarella en carozza (a little bit on the fishy side due to the anchovies) and the sliced italian meats, sapprosota to die for.",entree neutral <sep> shrimp positive
+0,0,"The service may be a little slow (what can you expect in this laid back atmosphere), but a Sunday brunch is a rewarding experience.",service negative <sep> brunch positive
+0,0,"Unfortunately, service was slow and when our server noticed we had not received our entree he comp'ed us two delightful margaritas - AND charged us only for appetizers , thereby cutting our bill in half.",service negative <sep> server negative <sep> bill neutral
+0,0,"Fun atmosphere, good beer selection, but meals were skimpy portions on big plates and the service was weak - never had the same server/waitperson come back twice.",atmosphere positive <sep> portions negative <sep> service negative
+0,0,The waitress told me that their dessert chef was trained in Sicily.,waitress negative <sep> dessert chef neutral
+0,0,"The Food The French-Belgian menu is small, and everything on it is satisfyingly savory, such as a simple pot of mussels in a choice of sauces (beer and bacon, creamy mushroom, or white wine-and-garlic broth); beef stewed with beer and prunes; and a juicy croque monsieur.",Food negative <sep> pot positive <sep> mussels neutral <sep> choice of sauces neutral <sep> white wine-and-garlic broth neutral <sep> beef stewed with beer neutral
+0,0,"After we in fact moved to the bar, and I told the waitress which bottle we wanted - the one we had been drinking - we were told we had to order off the limited daily specials list.",bar neutral <sep> waitress negative
+0,0,Great place for a first date or dinner with a picky group.,place positive <sep> dinner neutral
+0,0,"The Food Brasserie favorites are prepared by the book: Onion soup gratinee bubbles with a thick layer of Gruyere cheese, and grilled shell steak is served medium-rare, with a side of crisp shoestring potatoes.",Food positive <sep> Onion soup gratinee neutral <sep> Gruyere cheese neutral <sep> served neutral
+0,0,"Even though the food was prepared nicely, it was definitely lacking flavor.",food positive <sep> flavor negative
+0,0,employees not fighting with each other in front of clients 3 having ALL the ingredients for the meals they have on there menue.,employees negative <sep> ingredients neutral
+0,0,"We started ordering wine and, since we don't know much about it, we decided to let the waiter choose for us; we were pleased with his recommendation.",wine neutral <sep> waiter positive
+0,0,The menu does not have much and what we did have - original pizza with pepperoni and sausage was not so great.,menu neutral <sep> pepperoni negative
+0,0,"Desserts were pleasent enough, if not trying way to hard on presentation, lacking portions and interest.",Desserts neutral <sep> portions negative <sep> interest negative
+0,0,for our entree without a waiter in sight.,entree neutral <sep> waiter negative
+0,0,The wait staff pushed us to get desserts immediately after we finished our main course and we had to continuously tell them we are not ready yet.,wait staff negative <sep> desserts neutral
+0,0,The service on our visit was absolutely awful - a waiter and two helpers couldn't get our orders right and ignored several pleas for basics such as water and beverage refills and utensils to eat desserts with.,service negative <sep> waiter negative <sep> water neutral
+0,0,"Got 2 apps that were delicious and the bartender made some strong drinks, he could have at least smiled said my girl, but his service was great with our orders.",bartender positive <sep> drinks positive <sep> service positive <sep> orders neutral
+0,0,"Instead of going to a fun lounge after dinner, as planned, everyone had paid so much, that we went to a dive bar for the rest of the night for cheap drinks.",lounge after dinner positive <sep> bar neutral <sep> drinks positive
+0,0,"Went with a large group of 7 ladies before a show, and the staff was extremely obliging, even when one person was late and we had to wrap up her dinner to take to her.",staff positive <sep> dinner neutral
+0,0,"Low-fat and low-carb options (such as flatbread) lure in health-conscious diners, while everyone else can sink their teeth into warm, crispy baguettes piled with mesquite chicken or smoked turkey, Philly cheese steaks and more.",options positive <sep> mesquite chicken neutral <sep> smoked turkey neutral <sep> Philly cheese steaks neutral <sep> diners neutral
+0,0,"The staff were all partying with each other at the bar, so even though we were the only ones there for food, it took 15 minutes to get menus.",staff negative <sep> bar neutral <sep> menus neutral
+0,0,The food was a meal I could find anywhere else in the city for a better price.,meal neutral <sep> price positive
+0,0,Another hostess came by and told us that since we were now 5 we were a different table and couldnt' stay.,hostess negative <sep> table neutral
+0,0,"Everyting I ate there was incredible from the Tseukune (chicken dumplings) to the black bass special, right down to the velety chocolate pudding I had for dessert.",Tseukune (chicken dumplings) positive <sep> black bass special positive <sep> chocolate pudding positive <sep> dessert neutral
+0,0,I always trek to Bar 89 and get one of their huge sandwiches that comes with fries.,Bar neutral <sep> sandwiches positive <sep> fries neutral
+0,0,My group and I cancelled whatever drinks we ordered (no food order since there was NO wait staff) and left.,drinks neutral <sep> wait staff negative
+0,0,The ubiquitous nasty plastic cheese bread that passes for pizza in too many NYC establishments these days.,plastic cheese bread negative <sep> pizza neutral
+0,0,"Appetizers: those that we tried were good, though skip the soup, cuz you can eat that at home since it tasted like Campbells.",Appetizers positive <sep> soup negative
+0,0,"Waitstaff is preoccupied dancing on the bar and googling at beautiful people, but who can blame them.",Waitstaff positive <sep> bar neutral
+0,0,"There are deli items and cookies as well, but I just can't tear myself away from the bagels!",items positive <sep> bagels neutral
+0,0,"The Scene An outing to this ski lodge-sized hot spot, with one of the city's most expansive and popular outdoor patios, feels more like a night spent at a fashion show than dinner at a restaurant--and not just because of the celebrity sightings.",outdoor positive <sep> dinner neutral
+0,0,The waitress was unbelievably rude to my friend and myself when she realized that we were ordering appetizers as our entrees.,waitress negative <sep> appetizers neutral <sep> entrees neutral
+0,0,Conversation went like this: waiter: presented the steak and said 'Meduim well',waiter negative <sep> steak neutral
+0,0,"No extra pickles, no AC, no ice water, slow service, the whole thing was just dissapointing.",water neutral <sep> service negative
+0,0,food is heaven  we were greeted by the hostess and sat down immediatly the space was very crowded and and we decided to order drinks promptly food can wait.,hostess positive <sep> drinks neutral
+0,0,After losing our reservation the staff at March called 24 hours later to apologize and ask if we would still like to dine there.,reservation neutral <sep> staff positive
+0,0,"The extensive menu spans the familiar, with dishes like a tataki of superior-quality beef with an arousing ginger sauce; the rare, with freshly made tofu, its ultra-creamy texture wowing more than its flavor.",menu positive <sep> beef positive <sep> texture positive <sep> dishes neutral
+0,0,"The collard greens were tasty, but in too much liquid that made it seem more like a soup.",collard greens positive <sep> soup neutral
+0,0,"The Scene  With flickering sconces and rough-hewn brick walls, Crispo may look like an elegantly restored Italian farmhouse, but frenzied servers, tight tables and wait-list hopefuls at the marble bar make it feel like a city-slick hotspot.",Scene neutral <sep> servers negative <sep> tables negative <sep> bar neutral
+0,0,"The first time, the food was decent for lunch, but remember mediocre service.",lunch neutral <sep> service negative
+0,0,"(The booths remained unoccupied throughout our meal, unless you count the not-very-busy waitstaff.",meal neutral <sep> waitstaff negative
+0,0,When the hostess finally appears she tells me that she can't seat us on the mostly empty patio because all the open tables are for dinner not drinks.,hostess negative <sep> patio neutral <sep> open tables neutral <sep> dinner neutral <sep> drinks neutral
+0,0,"Cute decor, but rather small so the dining room can get very smoky if the bar is crowded.",decor positive <sep> dining room negative
+0,0,"The kitchen is fast, but you sometime may have trouble getting a seat, since this place is very small.",kitchen positive <sep> seat negative
+0,0,"We are 30 plus year olds, very gainfully employed, were not being loud or obnoxious, there were other diners around us as well as a bunch of people at the bar and nobody seemed to have a problem with us except for this manager.",bar neutral <sep> manager negative
+0,0,"When my friend's chicken salad sandwich arrived, she noticed a nice crust, and it wasn't part of the bread.",chicken salad sandwich neutral <sep> crust positive <sep> bread neutral
+0,0,"Do not use this place unless you want to waste your money on horrible stale cheese and food, service which takes your drinks away from the table once you've placed it on the table, waiters that eat your desert while its on the table, non working faucets in the bathroom, and overall very unporfessional service and food.",cheese negative <sep> drinks neutral <sep> waiters negative <sep> bathroom neutral
+0,0,when the waitress finally took our order after being seated at the table for over 30 minutes only to wait another 45 minutes for food and when the food arrived the order was incomplete.,waitress negative <sep> table neutral
+0,0,"They need to expand the menu some, and offer additional toppings for the pizza.",menu neutral <sep> toppings positive <sep> pizza neutral
+0,0,"Though if the restaurant got bigger, the service and quality of the food would probably suffer.",service negative <sep> quality negative <sep> food neutral
+0,0,"Waitress forgot drinks, and watched us begin our dinner without even water, strange.",Waitress negative <sep> drinks neutral <sep> dinner neutral
+0,0,"The crowd is not young, but hey, go somewhere else to get a drink afterward.",crowd negative <sep> drink afterward neutral
+0,0,The waitress only stopped at our table to take our order and pick up the check.,waitress negative <sep> table neutral <sep> check neutral
+0,0,"ONE OF THE BEST PIZZA IN BROOKLYN , NEED AN AC FOR SUMMER.",PIZZA positive <sep> SUMMER neutral
+0,0,"As for price, there are plenty of Shanghai restaurants in Chinatown that are just as inexpensive with better food and without a doubt much better customer service.",price neutral <sep> food positive <sep> service positive
+0,0,Be warned - between the pizza and spumoni the place is packed nightly in the summer.,pizza neutral <sep> place negative
+0,0,"When I complained regarding the poor tiramisu, the waitress made a flip comment regarding the fact that I shouldn't order an italian dessert in an irish restaurant.",tiramisu negative <sep> waitress negative <sep> dessert neutral
+0,0,"We went for lunch on Saturday, wait wasn't bad considering that it had only opened recently.",lunch neutral <sep> wait positive
+0,0,"I called ahead and was told that there would be no problem seating a party of two at 5:30, arrived at 5:30, was told there would be a 5 to 10 minute wait.",seating neutral <sep> wait negative
+0,0,"When one of our party brazenly asked to substitue a flavor of gelato for one of the desserts on the menu, the waiter snobbishly told us that, Mario and the chef don't like to do that.",desserts neutral <sep> menu neutral <sep> waiter negative <sep> chef negative
+0,0,"It is the only all Austrian wine list in the country and the waitress gladly broke it down for me, so I could find just the right wine for my meal.",wine list neutral <sep> waitress positive <sep> meal neutral
+0,0,Weekday lunch is less crowded and the staff cheerfully tolerated a 3-year-old.,Weekday lunch neutral <sep> staff positive
+0,0,"The last three times I've called (in addition to asking me to wait for a long time before taking my order), they've given me grief about asking for delivery even though my address is clearly within the map printed on the menu, just because the delivery guy gets mad if he has to go out of his way.",menu neutral <sep> delivery guy negative
+0,0,I liked the beer selection!,beer selection positive <sep> beer s neutral
+0,0,"We were on a table of 6, and loved the food,the Portugues salmon and the sirloin steak with cream sauce were loved by everyone, the apetizers were a bit too small for he price they charge.",food positive <sep> Portugues salmon positive <sep> apetizers negative
+0,0,"That, the Peruvian style rotisserie chicken (get a whole one) and a side dish plus don't forget - chicha moradas: a refreshing non-alcoholic drink made from boiled purple corn and lime juice with tiny pear cubes and a bit of sugar.",Peruvian style rotisserie chicken positive <sep> side dish positive <sep> non-alcoholic drink neutral <sep> sugar neutral
+0,0,"For appetizer, I like Potli Samosa, but sometimes it is improperly cooked, which ruins the taste.",appetizer neutral <sep> taste negative
+0,0,I'd like to try their brunch - the menu looks good.,brunch neutral <sep> menu positive
+0,0,The waiter brought the wrong food and charged us for food and drinks we didn't order.,waiter negative <sep> drinks neutral
+0,0,"I was tempted to try the dessert because I've heard rave reviews about it, but we were stuffed, as the portions are fairly large.",dessert neutral <sep> portions positive
+0,0,And that is a shame as the restaurant is a pizzeria with a very limited menu outside of pizza.,menu negative <sep> pizza neutral
+0,0,The staff treated them like true royalty.,staff neutral <sep> royalty positive
+0,0,"AND you can still smoke at the outermost area of the patio - the wait staff can't technically serve you there because of the smoking, but if you don't mind walking to the bar to place an order (I don't), it's a great solution for smokers.",area neutral <sep> patio neutral <sep> bar neutral <sep> solution positive
+0,0,"Nothing on the menu jumped out at me, but when we tasted the chicken and the pork tenderloin.",menu negative <sep> pork tenderloin neutral
+0,0,Went back for lunch and had great Chicken Fajitas.,lunch neutral <sep> Chicken Fajitas positive
+0,0,"My friends and I dropped by on a Sunday, and there was absolutely NO SERVICE (the supposed only female bartender even told us there was no one else but her, and given that there were people in there waiting to dine and drink, that was ridicoulas!",SERVICE negative <sep> dine neutral <sep> drink neutral
+0,0,"I've never been able to find a lunch place in the midtown with the same quality and service, until now.",lunch neutral <sep> quality positive <sep> service positive
+0,0,"I expected professionals, but was instead met with an amateur waitstaff that made several ominous errors during the course of the meal.",waitstaff negative <sep> meal neutral
+0,0,"The irony of it all is that I tried the fish and chips at a sports bar across the street the following week, 1/2 the price (w/ fries included), and the portion was bigger and much tastier.",chips neutral <sep> bar neutral <sep> price neutral <sep> w/ fries neutral <sep> portion positive
+0,0,i also like their cocktail menu and dessert menu (try the black tea rose ice cream and the coconout waffles).,cocktail menu positive <sep> dessert menu positive <sep> black tea rose ice cream neutral
+0,0,"Lousy, hard as a rock home made potato chips that could slice a tomato as well as a soda can.",rock negative <sep> soda can neutral
+0,0,I had to chase down our waitress for the food and the bill.,waitress negative <sep> food neutral
+0,0,Also lovely was the atmosphere; the high ceilings and spacious room make it a nice contrast from the other brunch mills on the upper west side.,atmosphere positive <sep> brunch neutral
+0,0,Those who choose an omakase (chef's choice) menu will be happily surprised with accents of jalapeno or swaths of homemade sauce cleverly accenting rolls and sushi alike.,omakase positive <sep> chef neutral <sep> menu positive <sep> sushi alike neutral
+0,0,"great food, but not low fat.",food positive <sep> fat negative
+0,0,"Our dinner special included dessert, but our slow and unhelpful waitress didn't bother asking if we wanted any.",dessert neutral <sep> waitress negative
+0,0,"The loud belly dancer with her scarf dragging across my food and table, almost knocked over my water glass.",belly negative <sep> food neutral <sep> glass neutral
+0,0,"I've had the ribeye, the salmon, and a burger/fries at the bar, and they were all exceptional.",salmon positive <sep> bar neutral
+0,0,"On my first visit, I asked the waiter to please wrap my leftovers and was refused adamantly (he told he wasn't allowed to package the low-priced food).",waiter negative <sep> food positive
+0,0,"The atmosphere is still to die for, but the wine list has so clearly been pared down and marked up (as a result of higher foot traffic brought in by lots of rave reviews in local publications, perhaps?",atmosphere positive <sep> wine list negative
+0,0,"fish was fresh enough, but the quality was only so-so (the salmon was especially sinewy).",fish positive <sep> quality negative <sep> salmon negative
+0,0,"the best thing is the atmosphere, but even that is overshadowed by the lack of taste and originality in the food.",atmosphere positive <sep> food negative
+0,0,i took another 45 minutes so i called back the waiter and said that if the food was ready now ill just pay for it.,waiter negative <sep> food neutral
+0,0,"This is not haute cuisine, but that' part of what I love about it - it has an honest, intimate feel with no pretensions, just like eating in an Italian family's home.",cuisine negative <sep> feel positive
+0,0,"Not the best ambience and the service is sometimes just mediocre, but the quality of the food is incredible.",ambience negative <sep> service negative <sep> food positive
+0,0,"Dining experience begins with cracked, filthy vinyl tile flooring tables so small close together that you couldn't move.",Dining neutral <sep> tile flooring tables negative
+0,0,"After I inquired why the food was taking so long, the waitress told us that the 2 dishes we ordered take a long time.",food neutral <sep> waitress neutral <sep> time negative
+0,0,Crowded waiting area in entrance forced you to sweat out the wait for a table while standing over other diners.,waiting area negative <sep> table neutral
+0,0,"Not only is there very little on the menu besides steak, but you really have no choice of what cut of meat to get.",menu neutral <sep> steak positive <sep> meat negative
+0,0,"Luckily, I made reservations for our group or else it would have been a long wait.",reservations neutral <sep> wait negative
+0,0,"Our waiter fast to get our drinks, aptz, and orders.",waiter positive <sep> drinks neutral
+0,0,We had the tasting menu -- which was not a meal!!!,menu positive <sep> meal neutral
+0,0,From the complimentary chef app of a delicate butternut squash ravioli in a delicious truffle sauce to an amazing buttery and tender langostine entree to a dessert that I can't remember because of the fabulous Cakebread Cabernet we were drinking -- the whole evening was amazing.,chef app positive <sep> dessert neutral <sep> Cakebread Cabernet positive
+0,0,"brunch menu had nice variety to choose from, miniblueberrrymuffins better than some bakeries, included in their price mimosa/bloody mary's were nice.",brunch menu positive <sep> price neutral
+0,0,The wait was not very long and the staff was great.,wait neutral <sep> staff positive
+0,0,Cornelia Street looks like a Broadway set for West Side Story and the inside of Po is so cool quaint you really can't top the setting for a romantic dinner in NYC.,setting neutral <sep> dinner positive
+0,0,"Man, that chicken (in some kind of spicy soup) was yummy!",chicken positive <sep> spicy soup neutral
+0,0,"My favorite dishes all involved squash of some kind, which i would not expect to love.",dishes positive <sep> squash neutral
+0,0,"not only were we waiting for half an hour with reservations, once we got seated we waited another 15+ minutes for the waiter to come and take out drink menu.",waiting neutral <sep> reservations neutral <sep> menu neutral <sep> waiter negative
+0,0,We waited about 10 minutes for a table and enjoyed peanuts and cocktails at the bar (drinks are $3.,table neutral <sep> peanuts positive <sep> bar neutral
+0,0,I love the steak and eggs with a bloody mary that costs around $7 bucks.,steak neutral <sep> eggs positive
+0,0,"i went on a thurs night and it was a bit loud due to the many businessmen eating their dinner, but the food and service more than outdid the lack of peaceful dining.",dinner neutral <sep> service negative
+0,0,"The food was OK at best, and if you don't LOVE cheese don't even consider going here.",food neutral <sep> cheese negative
+0,0,Came here for a b-day and ended up waiting so long even for a reservation.,waiting negative <sep> reservation neutral
+0,0,big chunk of meat(beef short rib).,chunk positive <sep> beef short rib neutral
+0,0,"I, on the other hand, thought my fish cake, chicken and veggie hot soba entree was average, and there were less noodles in the soup than I expected.",fish cake neutral <sep> veggie hot soba entree negative <sep> soup neutral
+0,0,"AVOID - there are WAY better pre-theater places, like Orso, Hell's Kitchen, etc for the same price.",places positive <sep> Kitchen neutral
+0,0,"Took the waiter 10 minutes to get to our table, and another 15 minutes until the coffee I ordered arrived.",waiter negative <sep> table neutral <sep> coffee neutral
+0,0,"Service is coddling and correct and there's no sense of hurry, so diners linger over a cheese course or a round of liqueurs.",Service positive <sep> cheese neutral
+0,0,"Midway through the meal the waiter came over and said we were being charged $40 a head since there were 7 of us, and they never said that when i made the reservation.",meal neutral <sep> waiter negative <sep> reservation neutral
+0,0,Most laughable moment of night was when waiter offered me a free drink to make up for th 50 minute appetizer wait.,waiter positive <sep> drink neutral
+0,0,The prices are decent for this type of food and dining experience.,prices positive <sep> food neutral <sep> experience neutral
+0,0,"the waiter was extremely helpful, basically we gave him carte blanche to order small plates for us that he thought we'd like.",carte neutral <sep> plates neutral <sep> waiter positive
+0,0,"I didn't take a look at the rest menu, but the oysters were fantastic.",menu neutral <sep> oysters positive
+0,0,"We had reservations and were seated immediately, got a nice table by the window.",reservations neutral <sep> seated positive
+0,0,"As a former waitress, I get this conceptually, and I am even understanding of the fact that I had to wait 30minutes to get my first drink because the bar was backed up.",waitress positive <sep> drink neutral <sep> bar neutral
+0,0,"My experience at the The Pearl Room was like no other place in Bay Ridge, you walk into a dimly lit atomsphere and a well dressed crowd.",Pearl Room neutral <sep> crowd positive
+0,0,Rather you are paying rock bottom price for a meal that could cost you triple any where else.,price negative <sep> meal neutral <sep> cost negative
+0,0,Any of their desserts are the perfect finish to a picnic lunch in the park or a Romantic Dinner at home.,desserts positive <sep> lunch neutral <sep> Dinner positive
+0,0,"However, everything we ate was salted to an extreme, and the steak, so regrettably, was saturated with butter.",steak negative <sep> butter neutral
+0,0,"And once the bill was paid, the bartender kept on giving us drinks.",bill neutral <sep> bartender positive <sep> drinks neutral
+0,0,"before we could say anything, one waiter picked it up while another brought a knife to our table on a platter.",waiter negative <sep> table neutral <sep> platter neutral
+0,0,"i think the $5 dollar breakfast is great hangover food, but then again, it's hard to mess up eggs, right?",breakfast positive <sep> eggs neutral
+0,0,"Best steak i have ever tasted in my life, the side dishes are amazing as well as the bread basket they put out that could be a meal in its self.",steak positive <sep> side dishes positive <sep> bread positive <sep> meal neutral
+0,0,"Well, its bar is beginning to attract the high-heeled Forever 21 ladies and hair-gelled men-who-love-them crowd (alas) and yet I must admit-- the food is damn good.",bar neutral <sep> food positive
+0,0,the staff prefers to watch TV in the main dining room infront of their waiting customers then serve their customers.,staff negative <sep> main dining room neutral
+0,0,This is a wonderful mix of food from Turkey and the Caucasus.,mix positive <sep> food positive <sep> Turkey neutral <sep> Caucasus neutral
+0,0,"Tip: go for lunch early, 12:00 say, when the place and street is quiet and enjoy the romantic and charming setting and delicious food.",lunch neutral <sep> setting positive <sep> food positive
+0,0,"When the bill came, both appetizers were charged even though we had one bite of the first and it should not have served competely overcooked.",bill neutral <sep> appetizers neutral <sep> served negative
+0,0,The manager came over to our table at the end of our entree course to get our review.,manager positive <sep> entree neutral
+0,0,"It's in a less travelled spot on 3rd, but the intimate setting is great and romantic.",spot negative <sep> setting positive
+0,0,"I was intimidated by the menu - which is entirely in Italian, and the wine list - which strictly lists Italian wines, but my waiter - Nathan - was quick to help.",menu positive <sep> wine list positive <sep> Italian wines neutral
+0,0,we literally waited for over 45 minutes to finally getting our sushi which was pretty simple rolls.,sushi positive <sep> rolls negative
+0,0,"For lunch, walk in slightly after 1pm to avoid long lines.",lunch neutral <sep> lines negative
+0,0,"The place wasn't packed, but there was a bar scene and a few salsa dancers who strutted their stuff on the dancefloor.",place positive <sep> bar scene neutral
+0,0,"Cheeses get short shrift by waitstaff, who all seem hurried.",Cheese neutral <sep> waitstaff negative
+0,0,"Our waiter, though he was charming,was too busy to truly take care of us properly and the food was over priced.",waiter positive <sep> food negative
+0,0,"We went again and sat at the bar this time, I had 5 pints of guinness and not one buy-back, I ordered a basket of onion rings and there were about 5 in the basket, the rest was filled with crumbs, the chili was not even edible.",bar neutral <sep> onion rings neutral <sep> chili negative
+0,0,"The table next to us had hummus which looked delicious, so we really should have stuck to appetizers and wine.",hummus positive <sep> appetizers neutral <sep> wine neutral
+0,0,"We were seated fastly enough, and ordering was painless, but I got the wrong appetizer, we both received the same item instead.",ordering neutral <sep> appetizer negative
+0,0,"Now residing in Chicago, the only quality pies are the deep dishes, which I do like.",quality pies neutral <sep> deep dishes positive
+0,0,"The menu is Prix Fixe, so be prepared to spend at least $60 per person, but it is Well worth itsuperb food.",menu negative <sep> food positive
+0,0,I had to physically get out of my seat and find the waitress twice just to ask for more water.,seat neutral <sep> waitress negative <sep> water neutral
+0,0,Don't look for sushi on the menu although there's tons of sake and it's served properly.,sushi neutral <sep> menu neutral <sep> served positive
+0,0,"I'd like to think that my brunch was an isolated incident, but just in case it is not, DON'T GET THE STEAK AND EGGS.",brunch neutral <sep> STEAK negative <sep> EGGS negative
+0,0,The service was really bad at several points our waiter would just leave for a cigarette for like 10 minutes while we waited for him to get us another drink or even pay the bill.,service negative <sep> waiter negative <sep> drink neutral <sep> bill neutral
+0,0,We told the waitress we'd like the fries hot with our main courses but she only ordered more once the rest of the food had arrived so we didn't get them until we were half way through.,waitress negative <sep> fries neutral <sep> main courses neutral <sep> food neutral
+0,0,Hunan Delight has one page in their menu full of Vegetarian dishes.,menu neutral <sep> Vegetarian dishes positive
+0,0,"The sauce is filled with spices, including fresh garlic and basil.",sauce neutral <sep> spices positive <sep> garlic and basil positive
+0,0,Particularly good is the chicken verde burrito with a refreshingly spicy salsa that avoids the heat overkill.,chicken verde burrito positive <sep> overkill negative
+0,0,4-Got attitude from the waitress at every moment she was at the table.,waitress negative <sep> table neutral
+0,0,The decor is like a brasserie and has a fairly laid-back atmosphere.,decor neutral <sep> atmosphere positive
+0,0,"Try the Bangkok fruit punch, or floating market drinks.",Bangkok fruit punch positive <sep> market drinks neutral
+0,0,The waitress let us taste three wines before deciding (we were only ordering glasses) and then we chose to eat at the bar (same menu) since it was so comfortable.,waitress positive <sep> bar positive <sep> menu neutral
+0,0,"With so many $20 bottles of wines from which to choose, our waiter helped pick a good one.",wines neutral <sep> waiter positive
+0,0,"Encouraged, I went back for dinner and was again impressed: crisp, spicy asparagus spears (tad too spicy?",dinner neutral <sep> asparagus spears positive
+0,0,"Management or one of the many busboys should have been monitoring the tables more closely to ensure consistency - we had to ask for olive oil for the flatbread, when it was on nearly every other table as well as salt and pepper.",Management negative <sep> salt neutral <sep> pepper neutral
+0,0,"The service was autrocious in fact my order came out wrong and our wine was never repoured throughout the entire dinner, which lasted 3 hours.",service negative <sep> wine negative <sep> dinner neutral
+0,0,"The sign outside said, 26 beers on tap, however the bartender was unable to pull a pint from any of them.",beers neutral <sep> tap neutral <sep> bartender negative
+0,0,"Good wines under $100 are included in the predominantly French list, but take some ferreting out to find.",wines positive <sep> French list neutral
+0,0,"In Short The weathered bar, well-worn tables, and chipped black paint on the walls give this corner tavern a lived-in feel.",bar neutral <sep> tables negative
+0,0,Every time I go I order the eggs benedict which comes with home fries and an alcoholic beverage.,eggs benedict positive <sep> beverage neutral
+0,0,"And while a narrow wood counter and three stools provide desperation seating, most folks choose to take lunch and dinner to go.",wood counter negative <sep> seating negative <sep> lunch neutral <sep> dinner neutral
+0,0,"After waiting 40 minutes for a table and 30+ for our entrees, our waiter was distracted.",waiting neutral <sep> table neutral <sep> entrees neutral <sep> waiter negative
+0,0,"The crust was good, the flavor was good (I think they grate some sort of hard cheese over the pie), but the pizza was a bit watery, with the cheese sliding off rather than clinging to the slice.",crust positive <sep> flavor positive <sep> pie neutral <sep> pizza negative
+0,0,"For far better fish at the same price (but less interesting roll combinations), try Yama, just around the corner.",fish positive <sep> price neutral <sep> roll negative
+0,0,"food was just ok,, to many high end places in such a cool lower east side neighborhood,like prune and apizz, prices to high in these places for this hood.",food positive <sep> prices negative
+0,0,"Went for restaurant week and surprisingly on the menu were entree options of Mahi, Mahi, Kobe Beef ribs, Salmon and some other things in very reasonable portions.",menu neutral <sep> entree options of Mahi neutral <sep> Kobe Beef ribs neutral <sep> portions positive
+0,0,"I had dinner here with a few friends recently, and while I must admit that the food and service was okay, the prices simply did not match the environment and cuisine.",dinner neutral <sep> food positive <sep> service positive <sep> prices negative <sep> cuisine neutral
+0,0,"Sometimes service was a bit slow, and we had to ask for salads, water, etc a couple of times, but this was all done with good humor and no resentment.",service negative <sep> salads neutral <sep> water neutral
+0,0,"The entrance is a bit unwelcoming, after you pass throught the glass doors you enter a cedar rich hallway and the woods at the entrance and downstairs are rich, but to my horror the main dining room is wallpapered in faux wood veneer making it look like a bad episode of trading spaces.",glass doors neutral <sep> woods positive
+0,0,We had a few toro and white tuna sashimi as well as a couple roll like the park avenue (which was not listed on the menu but recommended by the waiter) and the paris match roll.,menu neutral <sep> waiter positive
+0,0,The waitress did try to get the manager to at least give us the Sangria on the house but the manager refused.,waitress negative <sep> Sangria neutral
+0,0,"After the wine experience, I actually expected worse than what was served.",wine neutral <sep> served negative
+0,0,The owners couldn't have been more accomodating -- we had the entire restaurant to ourselves on a Saturday (before it opens to the public for dinner).,owners positive <sep> dinner neutral
+0,0,Drinks are a bit pricey ($10-12) but delicious - no wine is less than $10/glass either.,Drinks positive <sep> wine negative
+0,0,") I'm sticking with Cafe Mozart--which has the same desserts, bigger slices, and lower prices!",Cafe neutral <sep> desserts neutral <sep> prices positive
+0,0,Enjoy dishes like a Maine lobster and rock shrimp BLT in a sundried-tomato tortilla wrap (Lobster Man From Mars) and a roasted pork chop with vanilla-rum mashed yams and apple chutney (Promethean Pork Chop).,dishes positive <sep> Maine lobster and rock shrimp positive <sep> wrap positive <sep> Lobster Man positive <sep> apple chutney neutral
+0,0,"About the food we had a little difilculty keeping the orders straight ,the menu has too many choices,but the server was very helpul and suggested de paella valenciana which was extremele delicious.",menu neutral <sep> server positive
+0,0,"However, you're bothered by things like sub-par food (don't get the cajun fries), waiters who hate you and anything that looks like you, close proxmitity with strangers, and cheap talking and singing skelletons, do NOT go.",cajun fries neutral <sep> waiters negative
+0,0,"Our waiter (a real cutie) had to ask us twice for our entree selections, the coffee orders were wrong and after saying, no, thanks, the pepper man poised his mill above my friend's calamari dish and ground away.",waiter negative <sep> entree neutral <sep> pepper man negative
+0,0,We asked the server for two glasses with a splash of Southern Comfort and Grand Marnier.,server neutral <sep> Southern Comfort positive
+0,0,"Desserts are showstoppers, namely the caramelized banana tower with toasted marshmallows in a tall hazelnut shell.",Desserts positive <sep> shell neutral
+0,0,Although we were seated 35 minutes after our reservation the service from then on was outstanding.,reservation neutral <sep> service positive
+0,0,The waiter returned and said the bartender refused to take my drink back because there was nothing wrong with it and I would have to pay for it.,waiter neutral <sep> bartender negative <sep> drink neutral
+0,0,OK so the decor is a little old and tacky but it adds to the atmosphere.,decor negative <sep> atmosphere positive
+0,0,get the mussels as an appetizer and try to save room for dessert.,mussels neutral <sep> appetizer neutral <sep> dessert positive
+0,0,Greek Glasswine is still on menu along side good value bottle selections fromaround the world.,menu neutral <sep> value bottle selections positive
+0,0,Our waitress was so fun- I wanted her to join us for dinner.,waitress positive <sep> dinner neutral
+0,0,The waiter was attentive but not overbearing and gave good recommendations on the cocktails.,waiter positive <sep> cocktails neutral
+0,0,"Attention to detail in the ingredients, always cut to the right size so as to blend the flavor with the tastes of spices pefectly in your mouth.",ingredients neutral <sep> flavor positive <sep> tastes positive <sep> spices positive
+0,0,"There are a few chefs who aren't very enthusiastic and not very theatrical, but the end product is always great food.",chefs negative <sep> food positive
+0,0,"From the overstuffed menu to the placemats advertising spectacularly festive drinks, to the comfy booths, the decor signals -- this is indeed your grandfather's diner and thank goodness for it.",booths positive <sep> decor neutral
+0,0,The Food The best homestyle Italian cooking and service (Menu?,Food neutral <sep> homestyle Italian cooking positive <sep> service positive
+0,0,"I've never been during the dinner rush, whence I think most of the service complaints originate.",dinner neutral <sep> service negative
+0,0,The seafood is out of this world and priced accordingly.,seafood positive <sep> accordingly neutral
+0,0,"If it was outstanding I could see it as a nice change for lunch, but the peanut butter wasn't any better than one you could buy at any grocery store and the chocolate peanut butter brownie was horrible.",change positive <sep> lunch neutral
+0,0,Waitress kept trying to get us to order more drinks while apologizing but wouldn't even bring bread to keep us from starving.,Waitress negative <sep> drinks neutral <sep> bread neutral
+0,0,"Both appetizers arrived cold/luke-warm, which we had to send back, only to have the waiter tell us that one was supposed to be cold.",appetizers negative <sep> waiter neutral
+0,0,you may have to wait a bit for service but you will not be disappointed with the food.,service negative <sep> food positive
+0,0,"i've had better mashed potatoes from a box, and the vegetables were soaked in oil.",mashed potatoes positive <sep> box neutral <sep> vegetables negative
+0,0,"The festive crew serves from a gigantic menu of American classics: chili, burgers, cobb salads, baked potatoes, wings, philly cheesesteaks, club sandwiches, you name it.",festive crew neutral <sep> menu positive <sep> chili neutral <sep> burgers neutral <sep> baked potatoes neutral <sep> wings neutral <sep> club sandwiches neutral
+0,0,So we said we would have a drink at the bar (the only redeaming quality or value in the whole place was the bartender and the big vodka sour she made me).,drink neutral <sep> quality positive
+0,0,We saw the waitress twice - once to tell us the night's specials and once to take our order.,waitress negative <sep> specials neutral
+0,0,"$45 a head with tip for bad gnocchi, mediocre wine (as recommended by a condescending waiter, who thought himself oh-so-nice) and the feeling that our companions (at our shared table) were listening in on all our chatter.",wine negative <sep> shared table neutral
+0,0,"It was more than enough food and drink for everyone, and at $20 per person, including tax and tip, the prices cannot be beat!",tip neutral <sep> prices positive
+0,0,"Pad thai and a variety of noodle soups, such as pho bac and Bangkok Curry, round out the menu and arrive in heaping portions.",menu neutral <sep> portions positive
+0,0,One time the waitress left in the middle of our dinner.,waitress negative <sep> dinner neutral
+0,0,The only downside was the service was slow and our waitress kept forgetting to bring our drinks.,service negative <sep> waitress negative <sep> drinks neutral
+0,0,"Casual and kid-friendly, the red-and-gold colored restaurants offer quick drive-thru or dine-in service with a menu of burgers, sandwiches and more.",service positive <sep> burgers neutral <sep> sandwiches neutral <sep> menu neutral
+0,0,"I work nearby so I've eaten here countless times (breakfast, lunch, dinner, even Sunday brunch), and been to several really cool parties--the food's delicious, and the setting is spectacular.",brunch neutral <sep> food positive <sep> setting positive
+0,0,"the first was dinner opening week some time ago - not a good piece of sushi to be had, the robata was so so and nothing was remotely memorable.",dinner neutral <sep> sushi negative <sep> robata negative
+0,0,After reading other reviews I was expecting poor service and ambience but was pleasantly surprised by our more than helpful waiter.,service negative <sep> waiter positive
+0,0,"The only failing was the persian tea, that I'm used to being sweetened with honey.",persian tea negative <sep> honey neutral
+0,0,I had been to Blue Fin previously for drinks and appetizers and thought the atmosphere was very good (expecially for people watching).,drinks neutral <sep> atmosphere positive
+0,0,Each dish had its own distinct character and pleasant flavor surprises.,dish neutral <sep> flavor surprises positive
+0,0,"I had the salmon dish and while it was fine, for the price paid, I expected it to have some type of flavor.",price neutral <sep> flavor negative
+0,0,We started with the guacamole and this is by far the best I've ever had bar none.,guacamole positive <sep> bar neutral
+0,0,We have been waiting for months for a 8pm reservation at this very average restaurant.,waiting negative <sep> reservation neutral
+0,0,Appetizers were good - we had the scallops and a salad.,Appetizers positive <sep> scallops neutral <sep> salad neutral
+0,0,Eventually another waiter cleaned up the table and allowed us to sit there.,waiter positive <sep> table neutral
+0,0,"When we sat down, the waiter barely looked in our direction and abruptly shoved our menus on the table.",waiter negative <sep> menus neutral
+0,0,"It's unfortunate because the food is generally pretty good, although the waitstaff did try to convince us once that the flan they gave us was really creme brulee.",food positive <sep> waitstaff negative
+0,0,45 minutes later our less-than-stellar pizza and their even less-than-stellar gnoccho was dropped at the table; no explanation or apology or attempt to acknowledge the ridiculous wait.,pizza neutral <sep> table neutral <sep> wait negative
+0,0,"On ouor visit, our reservation was ignored and then we were asked to move from our seats at the bar, where we were told to wait, because we were not drinking enough.",reservation negative <sep> seats neutral <sep> bar neutral
+0,0,The waiter placed the wrong entree in front of us each time.,waiter neutral <sep> entree negative
+0,0,We told the waitress a few more were coming and ordered drinks.,waitress negative <sep> drinks neutral
+0,0,Our waiter suggested a fantastic Greek wine that was far less expensive then we were willing to spend.,waiter neutral <sep> Greek wine positive
+0,0,Eggs benedict with smoked salmon was equally fine and the portion was adequate for lunch.,Eggs benedict with smoked salmon positive <sep> portion positive <sep> lunch neutral
+0,0,The drinks are just as expensive as the chain coffee houses.,drinks negative <sep> coffee houses neutral
+0,0,We got there before our reservation and the seated us quickly.,reservation neutral <sep> seated positive
+0,0,"The wait staff is very attentive; though if the place is really packed, then you may have to flag someone.",wait staff positive <sep> place negative
+0,0,This is the perfect spot to meet up with friends and have a drink at the bar or stay a while and enjoy the scene and savor the food.,spot positive <sep> drink neutral <sep> bar neutral <sep> scene positive <sep> food positive
+0,0,"* Rude waiter - he kept pushing us to get appetizer (after been told twice that we would like to start ordering entree) and after dinner, told us to check out the shelf ourselves on our way to the restroom for dessert menu.",waiter negative <sep> appetizer neutral <sep> entree neutral <sep> dinner neutral
+0,0,"Upon entering we were promptly seated and ordered a few minutes after ordering the waiter came out and said they are completely out of crab, crab legs, crab claws everything.",waiter negative <sep> crab legs neutral
+0,0,I ordered the $39 filet and ordered it medium and it came to the table well done and tasted like a goodyear tire.,filet neutral <sep> tire positive
+0,0,A freind invited me for lunch at Home because he said they have the best hamburgers.,lunch neutral <sep> hamburgers positive
+0,0,"We were told by the front door hostess since we didn't have a reservation, it would be about 45mins for a table, but we could wait at the lounge and they would get us when our table was ready.",front door hostess negative <sep> reservation neutral <sep> lounge neutral
+0,0,"The Food  Crave's two chefs have resumes that boast stints at Payard, Nobu and Industry (food), so it's no surprise their menu is full of unusual twists on old favorites.",Industry neutral <sep> menu positive
+0,0,"The waiter took my boyfriend's order, snatched away the menus and stormed away from the table without even looking at me.",waiter negative <sep> menus neutral
+0,0,"the hostess really underestimated the wait time for outdoor seating and never apologized, and our waitress was apathetic and unattentive.",hostess negative <sep> outdoor seating neutral <sep> waitress negative
+0,0,"This place is so unexpected, just a tiny little bar, but it serves dinner and even a really good weekend brunch.",place positive <sep> bar negative <sep> brunch positive
+0,0,I like the smaller portion size for dinner.,portion negative <sep> dinner neutral
+0,0,i think that the second floor is better if you prefer a quieter environment for dinner.,environment positive <sep> dinner neutral
+0,0,After dinner and even a few times during the owner came upto us and asked us how we felt about the place and the food which doesn't happen often in Manhattan.,dinner neutral <sep> owner positive
+0,0,"South American additions to the menu, like perfectly fried green plantains and garlicky pork, are uniformly successful.",menu neutral <sep> fried green plantains positive <sep> pork positive
+0,0,"The Food The seafood-dominant fusion menu features standout starters, like super-fresh raw bar oysters, crispy citrus-pepperoncini calamari and flaky lobster-mushroom tart with fiery chorizo and caramelized onions.",seafood-dominant fusion menu neutral <sep> lobster-mushroom tart with fiery chorizo positive
+0,0,"For instance, the Spicy Potatoes were merly home fries with Red Hot sauce on them.",Spicy Potatoes positive <sep> fries with Red Hot sauce neutral
+0,0,It was practically impossible to get the waitstaff's attention to order another bottle of wine.,waitstaff negative <sep> wine neutral
+0,0,Nice decor poor food poor service.,decor positive <sep> food negative <sep> service negative
+0,0,"The ambience is simple, yet elegant and be sure to finish your meal with their famous shlog.",ambience positive <sep> meal neutral
+0,0,The appetizers are really pricey particularly once you see the size (or lack thereof).,appetizers negative <sep> size neutral
+0,0,after the main course the waitress brought desert menus and never came back.,waitress negative <sep> desert menus neutral
+0,0,Don't go if you want a serene environment to go with your sushi.,environment positive <sep> sushi neutral
+0,0,"Nostalgic lodgey bric-a-brac adorns the livelier front dining room and bar, while the dim, non-smoking back room is decorated with stained glass and modern, Mission-style chairs.",livelier front dining room neutral <sep> bar neutral <sep> dim neutral <sep> non-smoking back room neutral <sep> chairs positive
+0,0,"The lobster bisque had a pasty bitter taste and the softshell crab was deep fried, served on a bunch of greens it had 0 flavor.",lobster bisque negative <sep> greens neutral <sep> flavor negative
+0,0,Without reservations on a Friday night at 8:30 I was promptly seated and given top-notch recommendations from both the host and my waiter.,reservations neutral <sep> host positive <sep> waiter positive
+0,0,"I've had Gnocchi from the Bronx to Coney Island and this place is, hands down, the best.",Gnocchi neutral <sep> place positive
+0,0,Summary - good food which they rush you through and do everything to up your bill.,food positive <sep> bill neutral
+0,0,better for dining with friends/significant others.,dining positive <sep> others neutral
+0,0,Their food is delicious and they send you cut up oranges to cleanse your palate after dinner which is a very nice touch.,food positive <sep> dinner neutral
+0,0,I went for an early dinner the other night and encountered the worst service i have experienced in a long time.,dinner neutral <sep> service negative
+0,0,"the place had open doors and windows and a very relaxed, candle-lit type of atmosphere.",place positive <sep> open doors neutral <sep> atmosphere positive
+0,0,"When the bill came, the waiter snatched it back so he could add the $3 difference to the wine.",waiter negative <sep> wine neutral
+0,0,I have been there for lunch many times and have always enjoyed my sushi.,lunch neutral <sep> sushi positive
+0,0,"My dinner started with a fish soup marseille, which was devine.",dinner neutral <sep> fish soup marseille positive
+0,0,The waiter was rude to my friend when she asked for a small plate to share an appetizer.,waiter negative <sep> appetizer neutral
+0,0,"I would wait for a table next time, the food was that good.",table neutral <sep> food positive
+0,0,"Enjoy the food, because it is remarkable, but don't be too willing to be gratuitis to a server that does not deserve it.",food positive <sep> server negative
+0,0,The best out of the three entree's we had was the goat cheese ravioli.,entree neutral <sep> goat cheese ravioli positive
+0,0,the dishes are a little too recherche and too trendy for their own good and there is not enough on the menu for vegetarians.,dishes positive <sep> menu neutral
+0,0,"Unlike some of the other reviews here, the reservation was upheld, the waiter took the time to explain each dish and frequently asked if we wanted more of anything (which we did, several times).",reservation positive <sep> waiter positive <sep> dish neutral
+0,0,The staff forgot my girlfriend's food altogether as she waited for half an hour.,staff negative <sep> food neutral
+0,0,After dinner our waiter takes the bill and the manager tells him to clear our table so that we could leave.,dinner neutral <sep> waiter negative <sep> bill neutral <sep> manager negative
+0,0,My complaint was the service was not that good but the food made up for it.,service negative <sep> food positive
+0,0,"i have been waiting for 15 mn ( no food menu , no cocktail menu , no one even say hi to me ).",waiting neutral <sep> food menu negative <sep> cocktail menu negative
+0,0,"After two terrific meals in the dining room, we opted to sit at the bar on our third visit.",meals positive <sep> dining room neutral <sep> bar neutral
+0,0,"the grain salad was ok, the calf liver was stringy and the roast onions that came with it too heavy.",grain salad positive <sep> calf liver negative <sep> roast onions negative
+0,0,"although the food was well-prepared, it was not worth the price, especially when it does not include dessert!",food positive <sep> price negative <sep> dessert negative
+0,0,Someone should tell these people that high prices on the menu does not make your restaurant better.,prices negative <sep> menu neutral
+0,0,"Usually you lose food quality the trendier you go, but not at this place.",food quality negative <sep> trendier neutral
+0,0,Waiter spilled a decent amount of water on my friend's plate -and then walked away - didn't remove the plate!,Waiter negative <sep> water neutral
+0,0,MeetLESS gives you a dance club w/o the dance floor a restaurant w/ horrendous service and limited menu selections (the ONLY steak is a top sirloin?!!!),club neutral <sep> service positive <sep> menu neutral <sep> steak neutral
+0,0,Those of you who are sick of the standard Italian fare will be blown away by the food at Arezzo.,Italian fare neutral <sep> food positive
+0,0,4 of had dinner here last Saturday and we were all very disappointed with the food and the service.,dinner neutral <sep> food negative
+0,0,"However, the wait was worth it, the food was just great - make sure you have the tuna.",wait positive <sep> food positive <sep> tuna neutral
+0,0,"Place was okay, the food was definitely not worth the money, however the appetizers were good, we had the jumbo shrimp and oysters.",Place positive <sep> food negative <sep> appetizers positive <sep> shrimp neutral <sep> oysters neutral
+0,0,"Don't let the ambiance of this place fool you, the food is far better than many pricey establishments.",ambiance negative <sep> food positive
+0,0,"My favorites are the chili seared shrimp appetizer, Macadamia chicken salad, yukon gold potato dumplings, maple turkey breast wrap, seared yellowfin tuna burger and for dessert you have to do the lemon ribbon pie (if you're a fan of ice cream) or for the wintery months, the healthy pumpkin pie made with tofu.",chili seared shrimp appetizer positive <sep> maple turkey breast wrap positive <sep> yellowfin tuna burger positive <sep> dessert neutral <sep> ice cream positive <sep> tofu neutral
+0,0,"Costs could be better - expect to be upsold by the hovering wait staff - and come for the authentic tastes, not the interior decor (looked a littel like Cheers!",hovering wait staff positive <sep> interior decor negative
+0,0,"A terrific place to eat breakfast, lunch or dinner.",place positive <sep> lunch neutral <sep> dinner neutral
+0,0,a friend was taking me to dinner for my birthday and said he recalled this place around 96th bway that had great chicken.,dinner neutral <sep> chicken positive
+0,0,Little Italy-style hambone performances by the waiters (actually saying fugettaboutit 4 times during specials) was embarassing and did nothing to hide the fact of of being charged for 4 bottles of wine when we only ordered 3.,waiters negative <sep> specials neutral
+0,0,"Their Korean menu was also equally impressive, A must try is the Kimchee cabbage pancakes as an appetiser ( the portions were as big as an entree!)",pancakes neutral <sep> portions positive
+0,0,"I guess if you order the chef's tasting menu, which is a seven course meal with an optional wine matching for $125pp then your tummy will be well satisfied.",chef neutral <sep> menu positive
+0,0,"Delicious appetizers and entrees, our server recommended a wonderful bottle of wine, and we couldn't resist dessert.",appetizers positive <sep> entrees positive <sep> server neutral <sep> bottle of wine positive <sep> dessert positive
+0,0,"All in all, I would not recommend for the food or drinks but I guess I can't expect better for the prices.",drinks negative <sep> prices neutral
+0,0,"Great place for dinner or late night for a few drinks and something to eat, the kitchen will be open till 3am.",place positive <sep> dinner neutral <sep> drinks neutral
+0,0,Went the next day for lunch - menu too pricey for lunch and the waiter was the WORST !!,day neutral <sep> menu negative <sep> waiter negative
+0,0,We ended our great experience by having Gulab Jamun (dessert) recommended by the waiter.,Gulab Jamun (dessert) positive <sep> waiter neutral
+0,0,But the wait staff's attitude will make me rethink about returning.,wait staff negative <sep> attitude neutral
+0,0,The food was good but we were dissatisfied with waiting too long for a uncomfortable table.,food positive <sep> waiting negative
+0,0,"At lunch, try something with chicken.",lunch neutral <sep> chicken positive
+0,0,On the top of everything at the end of the dinner the waiter gave us the wrong check.,dinner neutral <sep> waiter negative <sep> check negative
+0,0,"The food is average, at best (I have been repeatedly underwhelmed by the mediocre fare) and the service is only good if Elaine is within range.",fare negative <sep> service positive
+0,0,this is the style of cooking that takes normal dishes to new highs.,style of cooking positive <sep> dishes negative
+0,0,The owner circles the place asking patrons if their meals are fine.,owner positive <sep> meals neutral
+0,0,"complaints were shrugged off and service was slow, causing the dinner to go on for over 2 hours.",service negative <sep> dinner neutral
+0,0,"Starting off with an excellent carafe of Cotes du rhone suggested by the waiter, we soon ordered a few appetizers like the steak tartare, the escargot and the goat cheese tart.",waiter positive <sep> appetizers neutral <sep> steak tartare neutral <sep> escargot neutral <sep> goat cheese tart neutral
+0,0,"He did do the service part well enough -- brought the food, etc.",service positive <sep> food neutral
+0,0,"We waited to be seated for about 15-20 minutes for brunch, while it was quite obvious that there were plenty of empty tables right in front of us.",brunch neutral <sep> tables negative
+0,0,I organized a dinner for 20 and was extremely satisfied with the results.,dinner neutral <sep> results positive
+0,0,"If you hate waiting for a table, then get take-out just around the corner next door.",waiting negative <sep> table neutral <sep> door neutral
+0,0,I have never been to an establishment that boasts traditional French service that basically throws food at you; waiters not only reach across the table but drip wine and water all over their diners.,food neutral <sep> waiters negative <sep> wine neutral
+0,0,"Informal servers sashay past plastic chairs and patterned booths, ducking enormous lampshades with cheerful insouciance.",servers negative <sep> plastic chairs neutral
+0,0,"The service wasn't good -- dumplings were served after we had almost finished the main courses, drinks had to be asked for three times, etc.",service negative <sep> dumplings neutral <sep> served negative <sep> main courses neutral <sep> drinks negative
+0,0,the food is still awesome - the twist on mexican is perfect - but the service is terrible - from the apathetic hosts to the unbelievably slow servers.,food positive <sep> hosts negative <sep> servers negative
+0,0,"The high light was the fondue, that we never got because again the server said the kitchen was too busy.",fondue positive <sep> server neutral <sep> kitchen negative
+0,0,Our waitress was so helpful with the wine list.,waitress positive <sep> wine list neutral
+0,0,I have been a waiter for many years and I can tell you that if bad service is given you at least apologize to the costumer.,waiter neutral <sep> service negative
+0,0,Waiting for a table is par for the course.,Waiting negative <sep> table neutral
+0,0,"I did like the shrimp dish, but I don't know if I'd seek out their cuisine again.",shrimp dish negative <sep> cuisine neutral
+0,0,"(food was delivered by a busboy, not waiter) We got no cheese offered for the pasta, our water and wine glasses remained EMPTY our entire meal, when we would have easily spent another $20 on wine.",food neutral <sep> busboy neutral <sep> cheese negative <sep> water and wine glasses negative <sep> meal neutral
+0,0,"A simple shrimp seviche with fresh cocktail sauce shines on the lunch menu, while dinner items tend to be more sophisticated, such as turkey filet mignon with bacon and a bold mole negro.",shrimp seviche positive <sep> cocktail sauce shines positive <sep> lunch menu neutral
+0,0,"At our table we didn't get any bread until 30 minutes into the seating, which may I emphasize the waiter took really long to come to our table, about 20 minutes.",seating neutral <sep> waiter negative
+0,0,"The food was horrible, we had the Peking duck salad, tuna, vegetable fried rice, and the spinach.","food negative <sep> Peking duck salad neutral <sep> tuna, vegetable fried rice neutral <sep> spinach neutral"
+0,0,"After scrunching into the tiny bar area and ordering a drink, I was annoyed but couldn't help but notice the handsome bartender having a tete-a-tete with another French-speaking cutie.",drink neutral <sep> bartender positive
+0,0,"The food was awful and took forever to arrive - which considering the limited menu, few diners and the fact that we ordered chili, mac cheese and a grill cheese was annoying.",menu negative <sep> diners negative <sep> chili neutral <sep> mac cheese neutral
+0,0,"I liked the overall setting A LOT and it was only improved by the fact that our waiter was pleasant and attentive even though we only ordered entrees (no drinks, no appetizers, no coffee).",setting positive <sep> waiter positive <sep> drinks neutral <sep> appetizers neutral <sep> coffee neutral
+0,0,"Apart from the rare to medium rare mistake on my steak, the food was ok and and not worth the money.",steak neutral <sep> food negative
+0,0,The price was right too--I spent under $30 for my entree and two drinks.,price positive <sep> drinks neutral
+0,0,"At the end of our meal, I approached the waitress and asked that they not charge us for the $25 appetizer.",meal neutral <sep> waitress negative <sep> appetizer neutral
+0,0,"We got seated right away, We got a nice starter from the kitchen, unfortunately the waiter that brought it could not explain what it was, it was delicious though.",starter positive <sep> kitchen neutral <sep> waiter negative
+0,0,"I though it was impossible to get such appetizers as a seafood salad or a seafood soup for about $3, but the taste and portions won't let you have any doubts.",appetizers neutral <sep> taste negative <sep> portions negative
+0,0,"We were crammed next to the people who were seated to the right of us, who repeatedly took phone calls during dinner, while the rude wait staff did nothing despite the warning on the menu that cell phones were not to be used in the dining room.",dinner neutral <sep> wait staff negative <sep> menu neutral <sep> dining room neutral
+0,0,The bagels here are so good that to put cream cheese on them would be an injustice.,bagels positive <sep> cream cheese neutral
+0,0,"our appetizers came out relatively quickly, but it was near impossible to get a hold of a waiter to order and get our drinks.",appetizers positive <sep> waiter negative <sep> drinks neutral
+0,0,The front desk is disorganized (couldn't find my reservation made a week in advance); service is below-par; food is just so so; the most expected dessert turned out to be disappointed.,front desk negative <sep> reservation neutral <sep> service negative
+0,0,"Be prepared to wait for your table at peak hours, even if you have a reservation.",table negative <sep> reservation neutral
+0,0,I waited for 45 minutes for my entree to realize that the waiter never put the order in.,entree neutral <sep> waiter negative
+0,0,"I have told so many people to come here even my friend from Japan and we all love it, especially when we get the room for all of us to sit in our own little world eating tons of good sushi!",room neutral <sep> sushi positive
+0,0,Ive personally tried almost everything on the menu and been amazed at the quality and presentation.,menu neutral <sep> presentation positive
+0,0,The food is simply remarkable as is the fiery female master sommelier!,food positive <sep> sommelier neutral
+0,0,My first and LAST visit included a waiter telling me We're casual- pour your own wine and then handing me a check with a place for the Captain's tip.,waiter negative <sep> wine neutral <sep> Captain neutral <sep> tip neutral
+0,0,"If going for lunch, best to go by 12:30, even if getting take-out, the place is tiny and fills up quickly, both with people eating there, and standing waiting for take-out orders.",lunch neutral <sep> place positive <sep> waiting neutral
+0,0,"With 5 items on the menu and prices this low, you'd think turnover would be a priority -- think again!!!",menu neutral <sep> prices positive
+0,0,"The Food Mafrici's approach to modern Italian fare may seem gimmicky: The menu lists eight seasonal ingredients, each prepared as an appetizer, pasta and entree.",menu neutral <sep> ingredients positive <sep> pasta neutral
+0,0,On the menu says Free delivery (Minimun order $10) but I was charged a couple of dollars on both opportunities.,menu neutral <sep> delivery positive
+0,0,"For dinner I order linguine w/ red clam sauce, the pasta was perfect and the sauce was flavorful but the clams tasted funny so I ate around them.",w/ red clam sauce neutral <sep> pasta positive <sep> clam s positive
+0,0,and to get an extra side vegtable was close to $20 for overdone asparagus that had no taste.,vegtable neutral <sep> asparagus negative
+0,0,"Main courses include char-grilled whole brook trout, baby lamb sotee, and (of course) kebabs of lamb and chicken; Try the thick Turkish coffee with a dessert of Kunefe with cheese !",baby lamb sotee neutral <sep> kebabs of lamb neutral <sep> chicken neutral <sep> Turkish coffee positive <sep> Kunefe neutral <sep> cheese neutral
+0,0,1) they gave us the wrong table had to wait 10 minutes until they gave us the one we wanted 2) had to wait 15 minutes for a waiter 3) ordered chicken and brocolli.,table negative <sep> waiter neutral <sep> chicken neutral
+0,0,"After paying for our meal, we left some feedback with the manager (a chap named J.",meal neutral <sep> manager negative
+0,0,Entrees range from strongly seasoned nori-wrapped rare tuna with wasabi-soy vegetables to simple wood-grilled halibut with light caper vinaigrette.,tuna with wasabi-soy vegetables positive <sep> light caper vinaigrette neutral
+0,0,There was no price on the menu and the waitress recommended it.,price neutral <sep> menu neutral <sep> waitress positive
+0,0,"It's just a diner, but three decent hearty lunches for 12 bucks?",diner neutral <sep> hearty lunches positive
+0,0,A few times at the bar I felt as though the Sushi chef an older gentleman was laughing at me and my girlfriend.,bar neutral <sep> gentleman negative
+0,0,"During the weekend nights, the crowd is full of 20 somethings (in which a few look much younger) and is almost Coyote Ugly style where ladies are dancing all over the bar.",style negative <sep> bar neutral
+0,0,"The food was good but for the prices, it was definitely not worth it.",food positive <sep> prices negative
+0,0,"I usually run the other way when I hear of an Italian restaurant with huge portions, because it's usually a lot of mediocre food.",portions positive <sep> food negative
+0,0,"The bar was so crowded there was no point in ordering a drink, and when we were finally seated we got no service at all for 20 minutes.",ordering neutral <sep> drink neutral <sep> service negative
+0,0,The tasting menu experience lasted close to three hours and included six or seven food courses and three desert courses.,menu positive <sep> food courses neutral
+0,0,"Service was atrocious: appetizers came out 3 minutes after we ordered, and 10 minutes before we finally tracked down the bottle of wine we had ordered, the waiter rushed us from start to finish, we had to repeatedly track down someone to pour us more wine since it wasn't at the table, etc, etc.",Service negative <sep> appetizers neutral <sep> waiter negative
+0,0,if you do though just wait at the bar (yummy drinks!,bar neutral <sep> drinks positive
+0,0,the service was inattentive (didn't bring us wine til our main course was already served and didn't open the bottle in front of us!!!,service negative <sep> wine neutral
+0,0,not to mention that the waiter offered putting a scoop of ice cream on my dessert.,waiter negative <sep> dessert neutral
+0,0,Wine has had C-Tails at the bar(SUPRISE!!!),Wine positive <sep> bar neutral
+0,0,"the staff there was really freindly the owner even sat down at one point to chat with us, it was hard to chose from the menu it all sounded good, so my wife and i shared plates to try a little of each dish , we ordered.",owner positive <sep> menu neutral
+0,0,Your drink is at your fingertips and you don't have to wait for the waitress to come back with your cocktail.,drink neutral <sep> waitress negative <sep> cocktail neutral
+0,0,"Although the sushi was fresh, I was disappointed with the size of the portions for the price.",sushi positive <sep> portions negative <sep> price neutral
+0,0,We were rudely told by the waiter that chips are only available at the bar.,waiter negative <sep> chips neutral <sep> bar neutral
+0,0,"We got the cold appetizer sampler and the dish was FULL of food, all for $12.",dish neutral <sep> food positive
+0,0,During my meal the waiter and waitress gathered with other friends that had arrived and they spent the whole time talking and ignoring the clientele.,meal neutral <sep> waiter negative
+0,0,The waiter became visibly irritated when we didn't want to order any drinks at the start of the evening.,waiter negative <sep> drinks neutral
+0,0,Aperitif was the Casablanca; it was served carelessly with ice chunks large enough to sink the Titanic.,served negative <sep> ice chunks neutral
+0,0,"Overall, the quality of the food won us over, but if there's one thing the management needs to work on, it's service.",management negative <sep> service neutral
+0,0,"In Short Despite the tacky Hellenic decor, replete with faux columns and signs of the zodiac carved into plaster walls, this Greek restaurant and bar bursts with authenticity when it comes to menu and atmosphere.",decor negative <sep> bar neutral <sep> atmosphere positive
+0,0,I've had the same steak at Peter Lugers for double the price.,steak neutral <sep> price negative
+0,0,"The food was so not Shanghai, but apparently those in the crowded dining room and waiting for tables wouldn't know the difference.",food negative <sep> tables neutral
+0,0,"It is a small restaurant so without reservations, there can be a long wait.",reservations neutral <sep> wait negative
+0,0,"The place is packed, they don't take reservations and waited almost 2 hours.",place negative <sep> reservations neutral
+0,0,"Well, the manager rudely informed us that this was how the food is supposed to be served (one course every 30 or so minutes) and then claimed that Oliva is NOT a tapas restaurant.",manager negative <sep> food neutral
+0,0,I had the lobster ravioli--good size portion with a delicious vodka cream sauce.,lobster ravioli neutral <sep> vodka cream sauce positive
+0,0,We were left to choose between boring salmon and chicken entres or a duck substitution.,chicken negative <sep> duck substitution positive
+0,0,"The waiter did not know the menu, and was very unaccomidating about substutions.",waiter negative <sep> menu neutral
+0,0,"Shaved tuna and small tapioca balls--a playful substitute for roe--float in an addictive, tart-smooth pool of coconut water and kaffir lime juice.",tuna neutral <sep> tapioca balls neutral <sep> roe neutral <sep> coconut water positive <sep> kaffir lime juice positive
+0,0,"The waiter was miffed when we decided to order dessert (and I must say we were eating the courses as they arrived, no lingering).",waiter negative <sep> dessert neutral <sep> courses neutral
+0,0,The bartender had offered us ONE beer on the house for our troubles.,bartender positive <sep> beer neutral
+0,0,The silvery beige decor reflects the refined air of the store as a whole.,beige decor positive <sep> air neutral
+0,0,"For 2 patrons paying over $100 for dinner, you'd think that the waiter would check to see if everything was okay with the dining experience, and he certainly did not.",dinner neutral <sep> waiter negative
+0,0,Two dogs and an adequately sized drink for two dollars.,dogs neutral <sep> drink positive
+0,0,"Seated in the upstairs part of the restaurant my party and I were subjected to rude, abrupt service and unmercifully long waits for our food.",service negative <sep> food neutral
+0,0,"Although the mediterreanian plate was delicious, it was NOT what I'd expect from a tea salon.",mediterreanian plate positive <sep> tea salon negative
+0,0,nicely decorated with cool rock and roll photos and after dinner the nightlife tends to pick up.,rock positive <sep> dinner neutral
+0,0,Our waiter was completely unfamiliar with the menu and did not bother to tell us that they were out of several items (even though we arrived at 7 pm on a Saturday night!),waiter negative <sep> menu neutral
+0,0,There was only one server on duty and we waited a while for menus.,server positive <sep> menus neutral
+0,0,Reasonable prices for Cuban food in the city.,prices positive <sep> Cuban food neutral
+0,0,"Paying that high price, I could have dined at other places with better food and service.",price negative <sep> food positive
+0,0,"Do not go to this restaurant unless you like paying high prices for small protions, ordering a drink that arrives 20 minutes later, or ordering a meal only to get the side dish 5 minutes after you're done.",prices negative <sep> drink neutral
+0,0,"The food wasn't overwhelming, but was very tasty, and the space wasn't overcrowded or obnoxious - the waiters and waitresses were attentive and helpful, but not obtrusive.",food negative <sep> space positive <sep> waitresses positive
+0,0,Waiter took our drink order and then we didn't see him for 15 minutes.,Waiter negative <sep> drink order neutral
+0,0,"The top layer of my adobo salad was nice enough, but just below the surface it began to swim in a cloyingly sweet dressing, so that it became like some weird melted jello concoction.",adobo salad positive <sep> concoction neutral
+0,0,"Some other appetizers fell short of expectations though (ie, good, but not worth the price), like the tempura and veggies.",appetizers negative <sep> veggies neutral
+0,0,I HAVE HAD LOBSTER IN FINISTIST RESTAURANTS IN MANHATTAN AND I NEVER TASTED IT AS GOOD AS RIZZO.,LOBSTER neutral <sep> RIZZO positive
+0,0,The place was bustling at 8:30pm on a Wednesday night- we arrived earlier than our reservation and got situated at the bar.,place negative <sep> reservation neutral
+0,0,"The crowd doesn't disappoint: A well-heeled, fashionable clientele packs the polished-wood-and-glass-partitioned space, settling into one of two dining rooms, or the bar, which is located at the farthest corner from the entrance.",crowd positive <sep> dining rooms neutral <sep> bar neutral
+0,0,"The food could be better, the ambience is loud and unwelcoming during lunch, and the service is not only inattentive but also disgusting.",food negative <sep> ambience negative <sep> lunch neutral <sep> service negative
+0,0,"When she wasn't being sarcastic or downright rude, she spent her time studiously ignoring our table or pointing us out to the other waitstaff.",table negative <sep> waitstaff neutral
+0,0,They have little booths if you want a little privacy w/ your date~ and they have large tables for families and groups.,privacy neutral <sep> tables positive
+0,0,"from the white sheets that hang when you come into the restaurant, to the gorgeous marble communal table in the center of the bottom floor, to the great atmosphere upstairs at the bar.",white sheets neutral <sep> marble communal table positive <sep> atmosphere positive
+0,0,"They took 10 minutes to refill our water, they never asked if we would like another drink, and the waiter was nice but just not efficient.",drink neutral <sep> waiter positive
+0,0,"The bar bites weren't anything special (we had calamari and wings, very ordinary), but our dinner was phenomonal, as was our service.",bar bites neutral <sep> calamari neutral <sep> dinner positive
+0,0,"The entree menu is not diverse, but the items on it are all very good.",entree menu negative <sep> items positive
+0,0,"At least the entertainment was free, as we were able to witness one customer wooing a waitress, and another being drenched in milk.",entertainment positive <sep> waitress negative <sep> milk neutral
+0,0,"our waitress finally made time to take our order - bread was never brought, water never refilled and wine never got to be ordered - had to ask for everything ourselves.",waitress negative <sep> bread negative <sep> refilled negative <sep> wine neutral
+0,0,"We went to the Sunday brunch, and were pleasantly surprised to find a jazz combo there.",Sunday brunch neutral <sep> jazz positive
+0,0,Our dinner took over two hours because of the slow service.,dinner neutral <sep> service negative
+0,0,"When I told the staff that I was displeased and wanted to write a letter to the owner, I was told the owner had no name and that I should just give the letter with no formal greeting (Dear Pick a Bagel Owner) to the cashier and that she would pass it along.",staff negative <sep> Bagel Owner neutral
+0,0,"decent, if greasy, fishsticks, but served on a mound of soggy fries that could feed about 5-6 people!",served neutral <sep> fries negative
+0,0,They later told us that our waiter had to fix the 'computer' - that was the reason he couldn't bring us our drinks.,waiter negative <sep> drinks neutral
+0,0,"With some good sake, I tried the salmon, yellowtail, king crab, eel (thought this would turn my stomach), red white tuna.",sake positive <sep> salmon neutral
+0,0,"The food is ok at best, but the service and the uncomfortable accomidations have such a negetive effect, that one can only wonder why they waited so long for so little.",food neutral <sep> service negative
+0,0,Did not get to dessert as it took a while to get the server's attention and we had a show to get to.,dessert neutral <sep> server negative
+0,0,"The atmosphere is fun -- dark, pulsing, basement room; a place where you feel like you can relax.",atmosphere positive <sep> room neutral
+0,0,"Like the other reviewer said, have a Mojito and enjoy the sugarcane.",Mojito neutral <sep> sugarcane positive
+0,0,Evening service--featuring waiters all in black--is a little slow; plan on a leisurely dinner unless you're headed for the theater.,service neutral <sep> waiters negative <sep> leisurely dinner neutral
+0,0,"Tapas, served four at a time in small white porcelain trays, are a highlight--salt cod fritter stuffed with parsley-garlic sauce melts in the mouth, while pan-fried duck liver sits in a rich mix of sherry vinegar, honey and black pepper.",Tapas positive <sep> white porcelain trays neutral <sep> salt cod fritter stuffed with parsley-garlic sauce positive <sep> duck positive <sep> mix of sherry vinegar positive
+0,0,"My dinner at Diner 24 is highlighted by rude waiters, overpriced food and unprepared dishes.",dinner neutral <sep> waiters negative <sep> food negative
+0,0,The seafood salad was yummy as was the filet of sole stuffed with crabmeat.,seafood salad positive <sep> filet positive <sep> sole stuffed positive <sep> crabmeat neutral
+0,0,"this guy should work in a dinner ,didn't even know the menu ,he couldn't explain me anythings ,a real nightmare.",guy negative <sep> dinner neutral <sep> menu neutral
+0,0,It was there that we ordered dinner by starting out with the foie gras mousse which was a wonderful a reccomendation by the waiter.,dinner neutral <sep> foie gras mousse positive <sep> waiter positive
+0,0,All dishes are an incredible dining experience.,dishes neutral <sep> experience positive
+0,0,was yelling at the rest of the waitstaff audibly enough that I was able to follow his entire tirade from where I sat in the secondary dining room.,waitstaff negative <sep> dining room neutral
+0,0,"The problem is that if you want anything to continue the meal, if you need an extra minute to go over the menu, or if, horrors, you want the check, you might be in for a lengthy wait.",menu neutral <sep> wait negative
+0,0,We waited over 30 minutes to get our drinks (which were brought over my the manager) and we could not find anyhting that looked interesting on the menu.,drinks neutral <sep> manager negative <sep> menu neutral
+0,0,There are some reviews complaining about the menu but I had the same dish the first three times that I was there - and any specials that I have had have been excellent.,menu neutral <sep> specials positive
+0,0,"Sometimes I wish there were a bar to sit at and have a glass of wine, but on the other hand the lack of one allows the place a pleasant sit down sort of feel.",bar neutral <sep> glass of wine neutral <sep> place positive
+0,0,The bar is also a must after dinner: have a raspberry martini!,bar positive <sep> dinner neutral <sep> raspberry martini positive
+0,0,This is definately a place to go for drinks and then get dinner somewhere else!,drinks positive <sep> dinner neutral
+0,0,"The Patroon burger--Angus beef topped with a roasted tomato--is simple, yet able to stand on its own against any fully loaded competitor.",Patroon burger neutral <sep> a roasted tomato positive
+0,0,The service was slow (10 minutes for drinks??),service negative <sep> drinks neutral
+0,0,"So, if you don't care about speedy service, go; but if you aren't in the habit of lighting your cigarette with twenties, avoid the tapas.",service positive <sep> tapas negative
+0,0,"The rest of the meal was good, but a little over priced for Chinese take out style food.",priced negative <sep> food neutral
+0,0,"8pm reservation, place was half empty on a Saturday.",reservation neutral <sep> place negative
+0,0,Waiter dropped check on table while I was in the middle of handing my wife her anniversary present.,Waiter negative <sep> check neutral
+0,0,"The service is disorganised, no one gave us a menu for 15 mins once we were seated, but after that it went smoothly enough but no where near the stella performance of many half as pretensious restaurants.",service negative <sep> menu neutral
+0,0,This coffee shop offers many varieties of food.,coffee neutral <sep> food positive
+0,0,"I tried several dishes, while at dinner with friends, and was amazed to discover that even their Caesar Salad was completely lacking in flavor.",dinner neutral <sep> flavor negative
+0,0,"Lovely place with the kind of Chinese food I like -- clean presentation, sizeable menu, and a bit of a French twist.",place positive <sep> menu positive <sep> twist neutral
+0,0,"The bread was served, one razor thin slice on our bread plate, by the waiter.",served neutral <sep> waiter negative
+0,0,I went there for lunch with co-workers and found the service to be prompt and very friendly.,lunch neutral <sep> service positive
+0,0,"tender grilled calamari, shrimp with spinach in puff pastry, delicious fried brie.",tender grilled calamari neutral <sep> shrimp with spinach in puff pastry neutral <sep> fried brie positive
+0,0,"Anyhow, there were a lot of Japanese people seated at the bar, eating chatting up the chefs, surely that's a good sign of authentic sushi.",seated neutral <sep> bar neutral <sep> chefs positive <sep> sushi positive
+0,0,"Both times I sat in the lounge area which is very appealing, but right in front of the bar, which explains my frustration for being ignored while dropping a lot of money for decent food and wine.",lounge area positive <sep> bar neutral <sep> food positive
+0,0,"When I had my dinner, the appetizers were flawless (try the carciofi and the polpettini), the entree was succulent (and fun having the branzino fileted at the table), and the tiramisu.",dinner neutral <sep> carciofi positive <sep> entree positive <sep> branzino fileted positive <sep> tiramisu neutral
+0,0,The only thing whihc i (and my partner) never heard before was: the waitress mentioned the price of the specials (?,waitress negative <sep> price neutral <sep> specials neutral
+0,0,The food was great but the music was loud and hip-hop and the wait was ridiculous and the prices were out of this world.,food positive <sep> wait negative
+0,0,I have been back for several dinners and lunchs and especially like the terrace when weather permits.,dinners neutral <sep> terrace positive
+0,0,"The Scene Tucked away on the second floor of a small, nondescript Madison Avenue building, Caviar Russe feels more like a private club than a restaurant.",Scene negative <sep> Caviar neutral
+0,0,"HIGHLY RECOMMENDED, MAKE RESERVATIONS FAR IN ADVANCE TO AVOID LONG WAIT TIMES.",RESERVATIONS neutral <sep> WAIT TIMES negative
+0,0,"The ambience is diner-like and the wait staff is rushed, but at these prices, I can't complain.",ambience positive <sep> wait staff negative <sep> prices positive
+0,0,"Warning, you are supposed to order multiple dishes, so if you order just an entree per person you probably won't have enough.",dishes positive <sep> entree neutral
+0,0,"The wait staff was not as attentive as I would have liked, we had to ask several times for water and refills of water, and after the food was served, no one returned to check on us.",wait staff negative <sep> food neutral
+0,0,"But the service, though invariably genial and helpful, can be weirdly haphazard -- waiters disappear mysteriously, only to reemerge just when you've decided their shift must have ended -- possibly an understaffing issue?",service positive <sep> waiters negative
+0,0,"We both had habtchi, a bottle of plum wine, and 3 appetizer, the food was great, and I really didnt find the wait to be that long like some the other review said.",bottle of plum wine neutral <sep> food positive
+0,0,One of my favorite places to get a cup of tea or to have a casual brunch with the newspaper.,cup of tea neutral <sep> brunch neutral <sep> places positive
+0,0,My favorite part of dinner was the Oyster Quail Egg Shooters.,dinner neutral <sep> Oyster Quail Egg Shooters positive
+0,0,The food was good but took long and the drinks she recommended to us were too strong.,food positive <sep> drinks negative
+0,0,"WHile the seafood by the pound was the freshest I've had in a while, I was pleasantly surprized at the other entrees available on the menu-- Delightfully presented!",seafood positive <sep> entrees neutral
+0,0,The sushi was delicious and fresh and they didn't short you on the pieces of fish either.,sushi positive <sep> fish neutral
+0,0,"It took an hour for us to order, another hour and 15 min to get our entree's I had to go to the bar to order my champange, and carry it back myself, the waiter got our entrees mixed up and placed them in the wrong place and sat there and watched me switch them around.",bar neutral <sep> waiter negative <sep> entree's neutral
+0,0,"The Food The fun factor is high on the menu of experimental, multi-ethnic shared plates.",Food positive <sep> menu neutral
+0,0,"Service during dinner was alright, but one's perception to a restaurant usually starts from the very beginning: the entrance.",Service positive <sep> dinner neutral
+0,0,"Meanwhile, the bartender continued to pour champagne from his reserve after we had finished our bottle and we enjoyed an amuse of turnip soup with pureed basil, gratis.",bartender positive <sep> champagne neutral <sep> turnip soup with pureed basil positive
+0,0,"I tried the Crab Croquettes (delicious, and yes, the sauce IS hot) and the Salade Jumelle (a good, basic mesculen salad).",Crab Croquettes positive <sep> sauce positive <sep> Salade neutral <sep> Salad positive
+0,0,"Once we'd finished eating, it was another 15 minutes before we saw someone who would bring us the check - and after running my credit card, the waitress had the audacity to write cash only in the tip portion of the receipt!",check neutral <sep> waitress negative
+0,0,"The food is wonderful and reasonably priced, (so hard to find in NY) and the wait staff is very attentive and helpful when choosing an entree.",food positive <sep> priced positive <sep> wait staff positive <sep> entree neutral
+0,0,"Although Nobu requires a 2-3 month advanced reservations, it's worth the wait!",reservations neutral <sep> wait positive
+0,0,"Park your trench coat at the coat check and be prepared for fine dining, expert / attentive table service and a delectable cuisine.",coat check neutral <sep> dining positive <sep> table service positive <sep> cuisine positive
+0,0,"For an entree, I tried the Ravioli, cooked to perfection and stuffed with eggplant, ricotta, and chicken and served in an suculent sage butter sauce.",entree neutral <sep> Ravioli positive <sep> ricotta neutral <sep> chicken neutral
+0,0,ambience and decoration was nice but for a check of $330 for 5 for brunch and with just average food.,ambience positive <sep> decoration positive <sep> brunch neutral <sep> food neutral
+0,0,as an appetizer we had some amazing citrus shrimp and for our main courses we each got a pasta dish.,appetizer neutral <sep> citrus shrimp positive <sep> pasta dish neutral
+0,0,"Food was cold when it arrived, waitress would vanish for 30 minute periods before reappearing, wrong side dishes were served, meals improperly cooked, and the manager failed to apologize when confronted.",Food neutral <sep> waitress negative <sep> dishes negative <sep> manager negative
+0,0,i recently had brunch at the new hill diner let me tell you it was great.,brunch positive <sep> diner neutral
+0,0,"The East Side is a little fancier and larger, but still a Wonderland with the same great food, scones, cakes and more - a dinner menu and drinks like Mar-TEA-nis.",food positive <sep> scones positive <sep> cakes positive <sep> drinks neutral <sep> Mar-TEA-nis neutral
+0,0,words can't even describe how delicious that dessert was post a bottle of wine and pesto ravioli.,dessert positive <sep> pesto ravioli neutral
+0,0,"I stopped in here for a pre-theater dinner, and I must say I was very happy with my meal.",pre-theater dinner neutral <sep> meal positive
+0,0,) My date and I were greeted by the host and informed there would be a slight wait.,host positive <sep> wait neutral
+0,0,"On each table there's a variety of sauces and spices, which you're encouraged to add to your dish; by the end of the meal you mind up with something completely different in your bowl from you started, but it will still be so satisfying.",variety of sauces neutral <sep> spices neutral <sep> dish neutral <sep> meal neutral <sep> bowl positive
+0,0,"After taking our orders, another person came to the table to announce the special dishes which the waiter forgot prompting 2 in our party to cancel the original orders in favor of the specials.",special dishes neutral <sep> waiter negative <sep> specials neutral
+0,0,"mistake on the check, overly salty morels stuffed with foie gras) but overall, Daniel's dishes are revelations in taste.",check neutral <sep> dishes positive
+0,0,"The line is long, but the staff keeps it moving and usually everyone is friendly.",line negative <sep> staff positive
+0,0,"Mysteriously, the reserved tables all stayed empty throughout our meal and were still empty when we left an hour later.",reserved tables negative <sep> meal neutral
+0,0,"Setting aside the interminable wait for food, the cheese omelet opened up on the way from the kitchen to the table so that when it arrived, it looked like a large yellow pancake with a slab of uncooked cheese sitting in the middle.",wait negative <sep> food neutral <sep> cheese omelet neutral <sep> table neutral <sep> yellow pancake positive
+0,0,"B/c the dinner focused on good friends and good food, not waiting around for service or being bothered by rude staff to leave.",food positive <sep> service neutral <sep> staff negative
+0,0,"I've only had take-out from here but a couple of their dishes, along with the spicy green and orange sauces, are amazing.",take-out neutral <sep> dishes neutral <sep> spicy green and orange sauces positive
+0,0,*There is a pre-theatre dinner menu for early diners that is of great value.,pre-theatre dinner menu positive <sep> diners neutral
+0,0,"The retaurant is know for the long wait but they do take reservation for group of 5-8 people, so it was just perfect for my friend BD dinner for 3 couples.",wait negative <sep> reservation neutral <sep> dinner neutral
+0,0,Was a bit disappointed by the sashimi (the sauce a bit greasy) and dumpling (all you taste is the pepper) appetizers but the entrees (chicken and sea bass) were really fresh and tasty.,the sauce negative <sep> dumpling negative <sep> entrees (chicken and sea bass) positive
+0,0,Delivery portions are bigger and 2 can easily share 1 entree.,Delivery portions positive <sep> entree neutral
+0,0,"At one point, the waiter told us that he couldn't find our wine!",waiter negative <sep> wine neutral
+0,0,"The fondue was good, but not worth the very expensive price tag.",fondue positive <sep> price tag negative
+0,0,The portions are miniscule and the size of an entree could be half-and appetizer if even that large.,portions negative <sep> entree neutral <sep> appetizer neutral
+0,0,"The Food Scott Ehrlich's cerebral New American food demands both close attention and a certain amount of faith; even when dishes aren't entirely successful, they manage to be compelling.",New American food neutral <sep> dishes negative
+0,0,The wine list was small but had a nice variety.,wine list negative <sep> variety positive
+0,0,The waiter was just throwing our dishes on the table without even clearing the appetizer plates and then they started clearing the food when we weren't even finished yet.,waiter negative <sep> dishes neutral <sep> table neutral <sep> food neutral
+0,0,also you dont mind waiting because theres such a buzz around the bar it makes you feel like you are out for drinks.,waiting positive <sep> bar neutral <sep> drinks neutral
+0,0,"Food took over an hour despite at least two chasers, we had to track the server down to get extra drinks, the manager seemed to try and deliberately mislead us about the reason behind the delay and in the end the food was poor.",server negative <sep> drinks neutral <sep> manager negative
+0,0,Why would anyone ever go here when the same food (and menu) is double the price of Baba and Jaya in Chinatown.,food neutral <sep> menu neutral <sep> price negative
+0,0,"At $16 a burger and $26 for a lobster roll, the food is definitely expensive.",burger neutral <sep> lobster roll neutral <sep> food negative
+0,0,Before leaving the server gave us takeout menus.,server positive <sep> menus neutral
+0,0,The noise here is so bad that people entered and left without ordering and they lowered the lights during the dinner.,noise negative <sep> dinner neutral
+0,0,The waitress was slow and had to ask the kitchen first every time we asked her about anything on the menu.,waitress negative <sep> menu neutral
+0,0,"My boyfriend took me to dinner for an early Valentine's Day, we showed up early for our reservation to meet an incredibly rude host who told us the bar was full, to just wait behind a rope.",reservation neutral <sep> bar negative
+0,0,"Her attitude put a damper on the evening, as did the stares from some servers when we took a peek into the cheese cellar.",servers negative <sep> cheese cellar neutral
+0,0,"The Food In a less-than-booming economy, it's a joy to find an East Village bistro with entrees that rarely top 15 bucks.",Food positive <sep> entrees neutral
+0,0,"Nice decor and an extensive menu lured me in, but the horrible service and rude staff drove me out.",menu positive <sep> staff negative
+0,0,"The wait here is long for dim sum, but if you don't like sharing tables or if the typical raucous dim sum atmosphere is not your gig, this is a sleek (for Chinatown) alternative.",wait negative <sep> dim sum atmosphere neutral
+0,0,"The Scene With three outposts around town, Sarabeth's Kitchen has become a well-known and reliable spot for casual dining at breakfast, lunch or dinner.",Scene neutral <sep> Kitchen neutral <sep> spot positive <sep> dining neutral <sep> breakfast neutral <sep> lunch neutral <sep> dinner neutral
+0,0,Even though the place was more than half empty he refused to do so because we had already given our order to the waiter and a change of tables would cause too much confusion.,place negative <sep> waiter neutral <sep> change negative <sep> tables negative
+0,0,"When we sat, our dinner was delivered promplty (Like FAST) and we had plenty of time to make The Goat, which by the way I also recommend highly (Great Show!",dinner positive <sep> Goat neutral
+0,0,"While the people here were nice and the service was very good, the food was not very good - it was extremely greasy, the place did not offer alternatives such as egg whites and PAM spray instead of oil, coffee was average Crystal Rock Office Flavored Coffee - not the good coffee.",service positive <sep> food negative <sep> egg whites neutral <sep> PAM neutral <sep> oil neutral
+0,0,We placed a delivery order - 2 pastas and a caprese and they took and 1 1/2 to get here and the food was inedible when we received it.,delivery neutral <sep> food negative
+0,0,"Whatever happen to FAMILY STYLE Thai cooking, the portion are too small and tradtional thai cooking uses MSG which I prefer not to have in my body.",STYLE Thai cooking neutral <sep> portion negative
+0,0,"I adore Zen Palate - and both the formal upstairs dining room and the crowded, counter-style cafe downstair, have their pros and cons.",Zen positive <sep> formal upstairs dining room neutral
+0,0,"when tables opened up, the manager sat another party before us.",tables neutral <sep> manager negative
+0,0,Ten minutes later: no burgers and no sign of our waiter.,burgers neutral <sep> waiter negative
+0,0,"Three course meal for lunch was $13, the prices for dinner were just as great!",course meal neutral <sep> lunch neutral <sep> prices positive <sep> dinner neutral
+0,0,A good restaurant would have at least comped desert or sent over a round of drinks for such a long wait -- we didn't even get an apology from a manager.,round of drinks neutral <sep> manager negative
+0,0,I asked one of the more elderly managers what we were eating and he joked that he didn't really know so he referred someone else to us who basically repeated what was written in the menu.,managers negative <sep> menu neutral
+0,0,But despite that our dinner took far too long to be served.,dinner neutral <sep> served negative
+0,0,I was back-to-back with the diner at the table behind me and wait staff had to hoist trays over our heads as they squeezed past us again and again.,diner neutral <sep> staff negative <sep> trays negative
+0,0,I went for lunch yesterday and had a lovely time.,lunch neutral <sep> time positive
+0,0,"The food was not gourmet fare it was perfectly fine burgers, salads and pasta.",food negative <sep> salads positive <sep> pasta positive
+0,0,"As soon as he sat, a waiter came over not once but twice, the first time to suggest he move to the bar b/c our large booth didn't accomodate an extra person, the second time to insist he move.",waiter negative <sep> bar b/c neutral
+0,0,"18 has a cozy romantic atmosphere that's very comfortable to enjoy myself in; whether I want to have a drink at the bar or get together with a group of friends for dinner, suitable accomodations are available.",atmosphere positive <sep> bar neutral
+0,0,"The food and decor is above average, but it is clear the restaurant has bad management and service.",food positive <sep> decor positive <sep> management negative <sep> service negative
+0,0,Had an OK dinner that was made better by the attention the owners pay to the patrons.,dinner neutral <sep> owners positive
+0,0,"we were full and ordered just coffee and tea, but the chef sent us some of his home made ice cream, saying he couldnt send us home without trying any of his dessert so that was the most unexpected part: lemongrass vanilla, five spices chinese chocolat (unbelivable)and coconut with citrus zests.",coffee neutral <sep> tea neutral <sep> cream neutral <sep> dessert neutral <sep> chinese chocolat positive
+0,0,"The fruit that came with the fondu was perfectly ripe, no bruises at all.",fruit positive <sep> fondu neutral
+0,0,"And when I received my $9 glass of wine, I had to ask the waitress if she planned on putting more in -- there was hardly any liquid in the glass!",glass of wine neutral <sep> waitress negative
+0,0,"The waiters actually roll their eyes when you order something, as if you are imposing on them by ordering food.",waiters negative <sep> food neutral
+0,0,"They have recently fired their staff and brought in new people who dont even know how to serve a beer, I might add you are on average paying $6.",staff negative <sep> beer neutral
+0,0,I ordered pasta in a pomodoro sauce and it tasted like it came out of a can.,pasta negative <sep> a pomodoro sauce neutral
+0,0,"The amble sweetbreads and goat cheese/caviar ravioli appetizers were memorable, but the highlight of our dinner was the scallops in a cream reduction entree - truly heavenly.",amble sweetbreads positive <sep> goat cheese/caviar ravioli appetizers positive <sep> dinner neutral <sep> scallops in a cream reduction entree positive
+0,0,I dined at Belleville and my meal was distrupted by the manager yelling at the wait staff in the middle of the dining room.,meal neutral <sep> manager negative <sep> wait staff negative <sep> room neutral
+0,0,"I haven't tried their brunch, partly because their coffee is a bit weak to me.",brunch neutral <sep> coffee negative
+0,0,"We waited for thirty minutes for our table, and after inquiring once about the status, we were rudely confronted by the hostess.",table neutral <sep> hostess negative
+0,0,Later two waiters decided to bodyguard our table; when my fork hits the plate it's snatched away.,waiters negative <sep> table neutral
+0,0,"For such an expensive place, you can find much, much better in Manhattan; heck, you can find much better food for a lot cheaper!",place negative <sep> food positive
+0,0,The waitress came back to our table several times to ensure we were well catered for.,waitress positive <sep> table neutral
+0,0,"It might be the best sit down food I've had in the area, so if you are going to the upright citizen brigade, or the garden, it could be just the place for you.",food positive <sep> garden neutral
+0,0,"We had a horrible night here stemming from intolerable service, no appologies after our food never came out after waiting longer than an hour and a half, and a plate of crusty bread thrown at us when we asked for their signature corn bread.",service negative <sep> food negative <sep> waiting negative <sep> plate neutral <sep> corn bread neutral
+0,0,"SQC is great in the evening, the light is excellent and it's perfect to sit at the bar, eat oysters on the half shell and have a glass of wine.",light positive <sep> bar neutral <sep> oysters neutral
+0,0,"Went early with reservation, place was empty, and they squeezed our two top in between other diners at a banquette.",reservation neutral <sep> place negative
+0,0,"All of the dishes we had were very good, but the fries were a little on the salty side, which we actually didn't mind.",dishes positive <sep> fries negative
+0,0,"I honestly do not understand how anyone can not love this place, unless they don't like real pizza.",place positive <sep> pizza negative
+0,0,"It is so difficult to choose a favorite on the menu, because the bolognese, the salmon, the chicken with mushroom, and the telephono are all too good to rank.",menu neutral <sep> salmon positive <sep> chicken with mushroom positive <sep> telephono positive
+0,0,"I took a few clients for lunch and the service was lackluster, food was fair at best, and the prices were outrageous - Don't wast your time with this place !",lunch neutral <sep> service negative
+0,0,"During the day, the sushi bar can be backed up a bit (thanks to their unbeatable lunch specials) so order early.",sushi bar neutral <sep> lunch specials positive
+0,0,"After our initial order, the waitress wasn't very attentive (we had to wait 15 minutes at a time to get her attention to refill drinks, order desert, etc).",waitress negative <sep> drinks neutral <sep> desert neutral
+0,0,The ambiance and service is great but I wish I could say the same about the food.,ambiance positive <sep> service positive <sep> food negative
+0,0,"Then the manager said, hey we'll give you shrimp instead, which would have taken another hour.",manager negative <sep> shrimp neutral
+0,0,"Food is average, service is awful, and the attitude isn't New York - it's just plain rude - and most of NYC is caring and courteous.",Food neutral <sep> service negative
+0,0,"Wonderful service, not too long a wait for tables, price is right - in a word, go!",service positive <sep> wait positive <sep> tables neutral
+0,0,the service was very slow and his knowledge of the menu wasnt that good.,service negative <sep> menu neutral
+0,0,Very claustrophobic place so expect it to be really crowded during lunch.,place negative <sep> lunch neutral
+0,0,"Crowds do come on weekends, so be sure to make reservations.",Crowds negative <sep> reservations neutral
+0,0,"Just finished a tasty jerked chicken dinner that was too pricey for the subpar service and good, but not great food.",jerked chicken dinner positive <sep> service negative <sep> food neutral
+0,0,"I always get cantonese wonton noodle soup here, but the chicken is also almost always good.",wonton noodle soup neutral <sep> chicken positive
+0,0,"Sure, the burgers are good, but not good enough to make up for the abominable service and disgusting, filthy atmosphere.",burgers positive <sep> atmosphere negative
+0,0,"And then he'll forget to bring your drink every time you order one, won't pay attention to your table of 8, will give you unwarranted attitude, and never be friendly or smile.",drink neutral <sep> attitude negative
+0,0,"It had not been made fresh at the bar, but kept in the freezer till we ordered, they also forgot our soup, kept us waiting for the frozen sushi for close to an hour.",bar neutral <sep> soup negative <sep> waiting negative <sep> frozen sushi neutral
+0,0,The small wooden bar and counter up front incorporate a wine rack and dessert display.,wooden bar negative <sep> wine rack neutral
+0,0,"The waiters are nice, but weren't particularly good - waited forever to order and resented not being told that my dinner companion and I had ordered enough for a table of 10 (given the size of the sushi).",waiters positive <sep> dinner neutral <sep> size neutral
+0,0,The bar is small so come close to reservation time.,bar negative <sep> time neutral
+0,0,"Food was good, but not worth the wait.",Food positive <sep> wait negative
+0,0,"On top of that, the portions were hearty enough that we barely had any appetite left for dessert.",portions positive <sep> dessert neutral
+0,0,"I was not allowed to transfer my credit card to the table, and was treated disgracefully while the hostess waited for the bar to sign off my card.",hostess negative <sep> bar neutral
+0,0,"I'll second the recommedation for the Purity--which has much faster, better service at half the price and a whole lot more selection.",Purity positive <sep> price neutral
+0,0,"All in all, it was a decent meal but dinner for two came to $172 with tip.",dinner neutral <sep> tip neutral <sep> meal positive
+0,0,The ices and the spumoni were perfect desserts to the pizza.,spumoni positive <sep> desserts positive <sep> pizza neutral
+0,0,After I have my dinner I try to talk to the manager and let him know that he had very good workers and that he should be more considerate with them and the answer that I got from him was (THey can leave I don't care).,dinner neutral <sep> manager positive <sep> workers positive
+0,0,We decided to share order of filet mignon for the table because there was just not enough food.,filet mignon neutral <sep> the table neutral <sep> food negative
+0,0,"since it is kinda small less than 20 tables, but room downstairs for private parties.",tables negative <sep> downstairs neutral
+0,0,as of late though(maybe change of ownership)the food quality dropped with the menu change and the service got worse.,food quality negative <sep> menu neutral <sep> service negative
+0,0,We could not believe that the owner only laughed and continued serving him drinks.,owner negative <sep> serving neutral <sep> drinks neutral
+0,0,"From the bottomless cup of coffee to the basket o' scones mini-muffins to the delicious entrees, Dizzy's is the place to be.",cup of coffee positive <sep> basket neutral <sep> entrees positive
+0,0,"calle ocho is definitely high on my list, the food and mojitos are excellent (the sangria is a miss, flor de sol has much better sangria) but the service leaves much to be desired.",calle positive <sep> food positive <sep> mojitos positive <sep> service negative
+0,0,A basic sandwich/burger menu is also served for pre-ice cream nourishment--just always remember to leave room for dessert!!,menu neutral <sep> pre-ice cream nourishment neutral <sep> dessert positive
+0,0,"Our server spilled a drink on the table cloth and it was cleaned up in an instant, no mess, free drinks to compensate, and left us impressed at how seamlessly this was fixed.",server negative <sep> table neutral <sep> drinks positive
+0,0,"AND, the waitstaff likes to lick its fingers when cutting cakes/pies and serves hot and cold drinks by holding the glass or cup around the brim/top.",waitstaff negative <sep> drinks neutral <sep> glass neutral
+0,0,"Lunch (a chicken sandwich on baguette with fries) was decent, brunch (dry, hard pancakes) was pretty bad.",Lunch positive <sep> a chicken sandwich on baguette neutral <sep> brunch positive <sep> pancakes positive
+0,0,"Forget about the staff and go for the food and pleasant, if a bit cramped Lancaster, Pennsylvania like decor for comfort.",staff negative <sep> food positive <sep> decor positive
+0,0,"People were leaving because they had been waiting for hours, however we decided to stay and have a complimentary drink at the bar which was absoloutely beautiful along with the view, the only plus.",waiting negative <sep> bar neutral
+0,0,"The problem was that we waited for a long time to get our waitress, we had to ask the bus boy for refills for drinks, and we waited for a long time to pay for our check.",waitress negative <sep> drinks neutral
+0,0,"When I read some of the reviews in this section, I am not sure if they had diner in the same restaurant and also I would not be suprise if they decided to have their Branzino well done with butter on the side.",diner neutral <sep> butter positive
+0,0,"Since I listened closely, I know they were a party of 2 without any reservation The manager then offered to seat us but we left.",reservation neutral <sep> manager negative
+0,0,"Downstairs, with the lighter menu, and uncomfortable seating, is only worthwhile if people watching and the energy of the bar scene is more important to you than the food.",menu positive <sep> bar scene positive <sep> food neutral
+0,0,"The lobster bisque was good, but the price of adding lobster meat was astronomical.",lobster bisque positive <sep> price of adding lobster meat negative
+0,0,This past Memorial day weekend was hot and I asked the waiter why was the air condition not working and he responded doens't know why.,waiter negative <sep> air neutral
+0,0,"I had a nice time, place was crowded but the food was very good.",time positive <sep> food positive <sep> place negative
+0,0,For the cost of the lunch I expected much better service.,cost neutral <sep> lunch neutral <sep> service negative
+0,0,"The waiter made no effort to remember who had orderd what (just threw it on the table and bailed), or even who ordered (I had to flag him so my wife could order her main dish 15 min after he had taken orders from others).",waiter negative <sep> dish neutral
+0,0,"We orderes and our food took about 1 hour to get it, after the long wait.",food neutral <sep> wait negative
+0,0,"For the prices, the food is decidedly lackluster, and the service, unless you are a regular, can be quite rude.",prices neutral <sep> food negative <sep> service negative
+0,0,I had a burger which was great and my wife had a steak.,burger positive <sep> steak neutral
+0,0,I was shocked by the amount of butter used in the pork and lamb dishes -- the smell of butter was literally wafting off the plate!,smell of butter negative <sep> plate neutral
+0,0,I went to the tasting before Nobu opened and the menu and service has greatly improved since then.,menu neutral <sep> service positive
+0,0,"The menu was still small, but the quality of food that came out of the kitchen was superb, and the service was not bad at all.",quality of food positive <sep> kitchen neutral <sep> service positive
+0,0,"Besides having Tetley's and Belhaven on tap, the cod and chips are nearly perfect, as are the Fried Mars' bars and Fried Reeses Peanut Butter Cups.",cod and chips positive <sep> Fried Mars neutral <sep> bars positive <sep> Fried Reeses Peanut Butter Cups positive
+0,0,When I look at the menu I was surprised at the relatively high price compared with other korean restaurants.,menu neutral <sep> price negative
+0,0,"Try the Phothe Broth look like soy sauce), spring rolls(can't compare any other vietnamese restaurant, Fish sauce(too much lime, Beef vermecelli ( Blanb and chewie).",Fish sauce negative <sep> Beef neutral
+0,0,"The was very little if any seasoning on the meat, and the outsiside has nice sear marks and a rich taste.",seasoning neutral <sep> meat neutral <sep> sear marks positive <sep> taste positive
+0,0,"Though there are a handful of Japanese a la carte offerings on the menu, the prix fixe is most popular by far.",menu neutral <sep> prix fixe positive
+0,0,"After sitting at the table with empty glasses for a 1/2 hour, we had to ask the busboys to get us drinks as our waiter was nowhere to be found.",table neutral <sep> drinks neutral <sep> waiter negative
+0,0,"From the outside this place looks cute, however, once inside loud as a disco!",place positive <sep> disco negative
+0,0,The salsa always tastes like V8 with onion pieces.,salsa positive <sep> onion pieces neutral
+0,0,"i mean the place was empty and it seemed to take for ever to get food, drink or the check.",place positive <sep> food negative <sep> drink negative
+0,0,"Sure, you can sit back and watch the celebrites pour in, or sit at the bar, and watch true masters create old world sushi, and new world rolls.",bar neutral <sep> rolls positive
+0,0,I can honestly say that while some of the dishes I have had at other places I might have rated on an individual basis higher I have not enjoyed a total dining experience more.,dishes neutral <sep> dining negative
+0,0,"not fancy I think they keep their christmas decorations up all year long, but good mexican food!!",christmas negative <sep> mexican food positive
+0,0,While waiting we asked the bartender for at glass of red wine which he not only forgot to serve but when we asked him again 10min later he poured us white wine.,bartender negative <sep> glass of red wine neutral
+0,0,"The Food For the most part, it's solid, sometimes impressive Chinese: One can easily find better pork buns and Peking duck in Chinatown, but then you'd have to settle for dining with regular folks.",Food positive <sep> dining neutral
+0,0,"Even if you hate beets, try the beet ravioli- you will not be disappointed!",beets negative <sep> beet ravioli positive
+0,0,"Although the service can be a bit brusque at times, the food is always good, hearty and hot.",service negative <sep> food positive
+0,0,"We waited forever for our orders, our drinks came out AFTER our food, we never got refills on water, we had to ask like three times for extra dressing, and our waiter was rude.",drinks neutral <sep> water neutral <sep> dressing neutral <sep> waiter negative
+0,0,"Waiter suggests a beer, and offers to bring a small glass, to taste it and see if I like it, before I even order the beer!",Waiter positive <sep> glass neutral
+0,0,"too bad that the 2 sushi chefs have become a bit too busy to chat away with the guests at the counter, but they try and hey, we are here for the food !!!",counter neutral <sep> food positive
+0,0,"We sat near the sluggish, hot and very loud kitchen and the service area was not wiped down once during the entire time.",kitchen negative <sep> time neutral
+0,0,they didn't have to change anything about the menu except add a leg of chicken seperatley and the guy mumbled very rudely that I had already ordered and I should've decided earlier.,menu neutral <sep> guy negative
+0,0,The food was good but nothing to write home about - the rack of lamb was a bit too fatty.,food positive <sep> rack of lamb negative
+0,0,"Service was good throughout the dinner but when it came time to get the check, we waited over 20 min.",Service positive <sep> dinner neutral
+0,0,"This restaurant was a great value, even though I know nothing about the prix fixe menu.",value positive <sep> prix fixe menu neutral
+0,0,When I saw it on the menu I didn't beleive it and was not expecting the real thing.,menu neutral <sep> thing negative
+0,0,"When it came time to get the check, they couldn't seem to determine which of the servers had it.",check neutral <sep> servers negative
+0,0,"But the appetizer is a litlle pricey, especialy $6 for 3 pieces sushi, but iutside that it was a great experience, food was great, and not too costly over all.",sushi neutral <sep> food positive
+0,0,"While the food was good and reasonably priced, the service was horrible.",food positive <sep> service negative
+0,0,"For the main course, he ordered the Hong Kong XO shrimp, nothing more than shrimp with brown sauce and I ordered the yellowfin tuna, which was tasteless.",main course neutral <sep> shrimp with brown sauce negative

@@ -1,0 +1,391 @@
+review_id,sentences_ids,sentences_texts,sentences_opinions
+es_9reinas_0_MonicaNavarroOlive_2015-04-19,id_0,La comida estuvo muy sabrosa.,comida positive
+es_9reinas_0_MonicaNavarroOlive_2015-04-19,id_1,"Quien sea amante de la carne tiene una carta bastante amplia para elegir., aunque ayer  no tenían  chuleton.",carta positive <sep> chuleton negative
+es_9reinas_11_CarlosPerezAlvarez_2014-09-14,id_2,"El Servicio y la atencion,Impresionante.",Servicio positive
+es_9reinas_11_CarlosPerezAlvarez_2014-09-14,id_3,"La Carne,Phenomenal",Carne positive
+es_9reinas_11_CarlosPerezAlvarez_2014-09-14,id_4,"Las Tapas y Bebidas y el Ambiente,Extraurinadio",Tapas positive <sep> Bebidas positive <sep> Ambiente positive
+es_9reinas_11_CarlosPerezAlvarez_2014-09-14,id_7,"Reservar Mesa,que en 9 Reinas merece la pena.",9 Reinas positive
+es_9reinas_11_CarlosPerezAlvarez_2014-09-14,id_8,Gracias Equipo,Equipo positive
+es_9reinas_13_MaraKacic_2014-08-06,id_2,Carnes excelentes y las pastas buenísimas (especialmente los sorrentinos!).,Carnes positive <sep> pastas positive <sep> sorrentinos positive
+es_9reinas_13_MaraKacic_2014-08-06,id_3,El sitio es muy agradable y los camareros muy simpáticos y atentos.,sitio positive <sep> camareros positive
+es_9reinas_1_Cg_2015-04-14,id_1,"Fuimos a 9R por una opinión en ésta misma página que lo ponía muy bien, y estamos totalmente de acuerdo con esa opinión.",9R positive
+es_9reinas_1_Cg_2015-04-14,id_2,"En 9R nos trataron genial, Julio era atento, cordial y divertido, nos trató de maravilla al igual q los demás.",9R positive <sep> Julio positive
+es_9reinas_1_Cg_2015-04-14,id_3,"El restaurante es elegante, decorado con gusto, por poner una pega creo q la iluminación (2º piso) es muy fuerte, podrían poner una luz más suave o caliente.... ésta sería la única pega q puedo ponerles y es una chorrada pq la comida es excelente y el trato es un 10, nos invitaron a tarta y cava sin razón alguna!",restaurante positive <sep> comida positive <sep> trato positive <sep> iluminación negative
+es_9reinas_21_ClaudiaVelutini_2014-01-01,id_0,"una excelente experiencia, una excelente disposición y buena atención.",disposición positive <sep> experiencia positive <sep> atención positive
+es_9reinas_21_ClaudiaVelutini_2014-01-01,id_1,La comida divina.,comida positive
+es_9reinas_25_MariaMercePalmaBisbal_2013-12-16,id_1,"El espacio muy relajante, colores que hacen sobrio los rincones.",espacio positive
+es_9reinas_25_MariaMercePalmaBisbal_2013-12-16,id_2,La atención del personal impecable.,atención del personal positive
+es_9reinas_25_MariaMercePalmaBisbal_2013-12-16,id_3,La comida inmejorable.,comida positive
+es_9reinas_25_MariaMercePalmaBisbal_2013-12-16,id_4,"El detalle de la invitación del entrante por parte del restaurante, inesperado y agradecido.",detalle de la invitación del entrante positive
+es_9reinas_28_JoseManuelBarcenaFernandez_2013-07-20,id_0,Un sitio recomendable en pleno centro de barcelona,sitio positive
+es_9reinas_34_MariaAngst-Quinonero_2013-04-06,id_1,"La puerta de entrada es automatica y si hace frio, uno nota la corriente.",puerta de entrada negative
+es_9reinas_36_LuisAlbertoReyesFigueroa_2013-03-24,id_0,La mejor carne que he comido en Barcelona.,carne positive
+es_9reinas_39_Seasexandsun_2013-01-07,id_0,Mejor carne de BCN.,carne positive
+es_9reinas_46_MiguelNunez_2012-08-26,id_0,"Espectacular entraña, necesitaba comer carne de verdad tras las vacaciones!",entraña positive <sep> carne positive
+es_9reinas_60_MiguelCidSola_2011-08-05,id_0,Hacia un frio!!,frio negative
+es_9reinas_66_Oriol_2011-05-07,id_0,"Hicimos unos entrantes variados de inicio, bastante buenos!",entrantes positive
+es_9reinas_66_Oriol_2011-05-07,id_1,"basados en empanadilla, chorizo y demas.",empanadilla positive <sep> chorizo positive
+es_9reinas_66_Oriol_2011-05-07,id_3,"A diferencia de otros argentinos, si se lo pides vivo lo traen vivo, y la carne era excelente.",carne positive
+es_9reinas_66_Oriol_2011-05-07,id_4,El trato muy cordial y el sitio acogedor y moderno.,trato positive <sep> sitio positive
+es_barceloneta_10_AntonioUbedaFernandez_2015-03-01,id_0,Excelente comida.,comida positive
+es_barceloneta_10_AntonioUbedaFernandez_2015-03-01,id_1,Camareros muy bien.,Camareros positive
+es_barceloneta_10_AntonioUbedaFernandez_2015-03-01,id_2,Jefes de sala poco amables.,Jefes de sala negative
+es_barceloneta_10_AntonioUbedaFernandez_2015-03-01,id_3,Recepcionistas muy bien.,Recepcionistas positive
+es_barceloneta_10_AntonioUbedaFernandez_2015-03-01,id_4,"Ambiente muy bueno, pero demasiado bullicioso.",Ambiente neutral
+es_barceloneta_10_AntonioUbedaFernandez_2015-03-01,id_6,Situación excelente.,Situación positive
+es_barceloneta_115_J,id_1,ubicacion perfecta tanto en verano como en invierno.,ubicacion positive
+es_barceloneta_134_CarlosGabriel_2008-01-22,id_0,"Es sin duda uno de los mejores restaurantes de Barcelona por su calidad tanto en el producto, como en el cuidado de todo detalle de su plantilla.",producto positive <sep> plantilla positive
+es_barceloneta_134_CarlosGabriel_2008-01-22,id_1,"Todo cuidado y aprobado por el ojo minucioso, elegante, trabajador incansable, y profesional de su director de orquesta; don Ramón Ferreira.",don Ramón Ferreira positive
+es_barceloneta_136_Malena_2007-10-06,id_0,poca amabilidad del maitre.,maitre negative
+es_barceloneta_141_Andres_2006-12-02,id_0,Un sito ideal para una comida de negocios.,sito positive
+es_barceloneta_141_Andres_2006-12-02,id_1,Fuimos a comer con la empresa la semana pasada y fue todo fantástico.,fue todo fantástico positive
+es_barceloneta_146_Pepe_2006-09-21,id_0,el restaurante esta muy bien situado y una terraza magnifica pero la cocina tiene mucho qiue desear.,restaurante positive <sep> cocina negative
+es_barceloneta_146_Pepe_2006-09-21,id_1,nunca pidais rape con salsa o a la cazuela.,rape negative
+es_barceloneta_146_Pepe_2006-09-21,id_2,en arroces seran muy buenos pero en rape no lo creo.,arroces positive <sep> rape negative
+es_barceloneta_151_Vanesa_2006-07-03,id_0,El restaurante está muy bien situado.,restaurante positive
+es_barceloneta_151_Vanesa_2006-07-03,id_1,La calidad de las gambas en especial es fantástica.,gambas positive
+es_barceloneta_151_Vanesa_2006-07-03,id_2,El resto de la comida normal.,comida neutral
+es_barceloneta_151_Vanesa_2006-07-03,id_3,El personal debería ser más atento con la clientela.,personal negative
+es_barceloneta_19_JoanLluisOlmoLorenzo_2014-05-02,id_0,Comer o cenar en el Barceloneta es garantía de buena comida y buen servicio en una buena ubicación.,comida positive <sep> servicio positive <sep> ubicación positive
+es_barceloneta_32_OscarVilesRexach_2013-08-24,id_0,Servicio esmerado.,Servicio positive
+es_barceloneta_32_OscarVilesRexach_2013-08-24,id_1,Tempo entre platos correcto.,Tempo positive
+es_barceloneta_32_OscarVilesRexach_2013-08-24,id_2,Rapidez en peticion platos y solucitud cuenta.,Rapidez positive
+es_barceloneta_45_JuanGutierrezCarricoba_2012-12-15,id_0,Comida exquisita y trato exquisito.,Comida positive <sep> trato positive
+es_barceloneta_4_Antonio_2015-08-22,id_0,<->Ya hace tiempo que no encuentro nada negativo en este restaurante.,restaurante positive
+es_barceloneta_4_Antonio_2015-08-22,id_2,"<+>La extraordinaria calidad del producto, especialmente de los pescados y mariscos.",producto positive <sep> pescados positive <sep> mariscos positive
+es_barceloneta_50_CarlosMunozFresquet_2012-09-27,id_1,En general mantiene la calidad de sus platos pero los precios de la carta de vinos son demasiado altos.,platos positive <sep> vinos negative
+es_barceloneta_56_JuanLuis_2012-06-10,id_0,"Para mi gusto, la paella del moll del rellotge está en el punto justo.",paella del moll del rellotge positive
+es_barceloneta_56_JuanLuis_2012-06-10,id_1,Un restaurante al que yo calificaría como valor seguro en cuanto a la cocina pero mejorable en servicio aunque sin ser desastroso ni mucho menos.,cocina positive <sep> servicio neutral
+es_barceloneta_67_FranciscoAyaCadena_2012-01-01,id_1,La atención esmerada y la calidad de la comida excelente.,atención positive <sep> comida positive
+es_barceloneta_71_Sergi_2011-10-25,id_0,"Todo fue tal y como esperabamos y nos habian comentado, buen servicio, buen ambiente y muy buena comida, en un ambiente agradable, sin duda alguna un restaurant donde ir cuando se desea que  todos queden contentos.",servicio positive <sep> ambiente positive <sep> comida positive
+es_barceloneta_72_BenjaminGelis_2011-10-17,id_0,Excelente restaurante con especial atención y muy buena comida.,atención positive <sep> comida positive
+es_barceloneta_72_BenjaminGelis_2011-10-17,id_1,Dado que el tiempo lo permitió nos reservaron una mesa en la terraza muy bien dispuesta y ubicada.,terraza positive
+es_barceloneta_76_Elena_2011-09-05,id_0,Restaurante ideal para celebrar un acontecimiento especial.,Restaurante positive
+es_barceloneta_7_Fernando_2015-07-08,id_1,<+>Comida y servicio inmejorables,Comida positive <sep> servicio positive
+es_barceloneta_80_JordiB_2011-06-25,id_0,"Excelente comida, pero escaso personal cuando el restaurante esta llenisimo.",comida positive <sep> personal negative
+es_barceloneta_80_JordiB_2011-06-25,id_2,"Repito, la comida excelente.",comida positive
+es_barceloneta_82_LuisR_2011-05-06,id_2,"Los entrantes bién, pero el arroz caldoso lo he devuelto porque no tenia sabor a nada.",entrantes positive <sep> arroz caldoso negative
+es_barceloneta_82_LuisR_2011-05-06,id_5,"El servicio muy, muy mal.",servicio negative
+es_barceloneta_88_ManuelRuiz_2011-03-08,id_0,El arroz caldoso no tenia lo suficiente para ser un buen arroz.,arroz caldoso negative
+es_barceloneta_89_MartinaLegentilLegentil_2011-03-07,id_0,"El sitio me ha parecido muy bien situado, el servicio y atención muy buenos, como sugerencia un poco más de generosidad en los platos.",sitio positive <sep> servicio positive <sep> platos negative
+es_barceloneta_91_NicolasPerezPerez_2011-02-17,id_1,"La comida, la presentación y el servicio muy buenos.",comida positive <sep> presentación positive <sep> servicio positive
+es_barceloneta_96_RobertoRosa_2010-12-11,id_0,Comida y vistas excepcionale.,Comida positive <sep> vistas positive
+es_bodega-de-chema-la-zaragoza_comment-4151,id_1,El servicio muy atento y muy rápido.,servicio positive
+es_bodega-de-chema-la-zaragoza_comment-4151,id_3,"La comida insuperable, fresca, tierna, la presentación muy original y creativa.",comida positive <sep> presentación positive
+es_cafe-meccano-gastrobar-zaragoza_comment-3719,id_0,Luces y sombras en mi esperada primera visita al Meccano.,Meccano neutral
+es_cafe-meccano-gastrobar-zaragoza_comment-3719,id_1,"Es un sitio original y atractivo, pero en resumen, y ciñéndome a la comida, se queda escaso en cantidad y, en alguno de los platos, en calidad o, mejor dicho, en elaboración.",sitio positive <sep> comida negative
+es_cafe-meccano-gastrobar-zaragoza_comment-3719,id_2,"Éramos 9 personas y tomamos el menú de degustación de 30€, algo retocado.",menú de degustación negative
+es_cafe-meccano-gastrobar-zaragoza_comment-3719,id_3,"El gazpacho de cerezas excelente, y uno para cada uno.",gazpacho de cerezas positive
+es_cafe-meccano-gastrobar-zaragoza_comment-3719,id_4,"Luego vinieron los “mejillones en Escabeche Fritos en Aceite de Oliva y Chips”, sonaba muy bien, pero nos “sorprendieron” con mejillones de lata en escabeche con patatas matutano, a compartir tres platitos.",mejillones en Escabeche Fritos en Aceite de Oliva y Chips” negative
+es_cafe-meccano-gastrobar-zaragoza_comment-3719,id_6,"No, de hecho eran buenos, pero no es lo que te esperas en un menú de degustación.",menú de degustación neutral
+es_cafe-meccano-gastrobar-zaragoza_comment-3719,id_7,Entiendo que tiene que haber más elaboración.,elaboración negative
+es_cafe-meccano-gastrobar-zaragoza_comment-3719,id_9,"Éramos 9, y sacaron 12 croquetas… ¿Cómo nos comemos 1 croqueta y 1/3 cada uno?",croquetas negative
+es_cafe-meccano-gastrobar-zaragoza_comment-3719,id_12,"Seguimos con los chipirones fritos, la pasta rellena (excelente, pero escasa), los huevos Charly y la carrillera ibérica, todo muy bueno pero de nuevo, ESCASO, MUY ESCASO, sobre todo si eres una persona comedora como nosotros (y así lo habíamos anunciado por teléfono).",chipirones fritos neutral <sep> pasta rellena neutral <sep> huevos Charly neutral <sep> carrillera ibérica neutral
+es_cafe-meccano-gastrobar-zaragoza_comment-3719,id_16,"Se lo hicimos saber al camarero y, amablemente (gracias), nos sacó a nuestra petición una ración más de croquetas y otra de huevos Charly, pero aún así….",camarero positive
+es_cafe-meccano-gastrobar-zaragoza_comment-3719,id_19,"Por último, el remate final, un coulant de chocolate del tamaño de un flan y un tarrito de queso del tamaño de un yogur… ¡para los 9!",coulant de chocolate negative <sep> queso negative
+es_cafe-meccano-gastrobar-zaragoza_comment-3719,id_21,"Se lo volvimos a decir al camarero y aparcó la amabilidad, a pesar de su ofrecimiento anterior, pasando a la grosería de que “eso era así, y que ya habíamos pedido de más”, y punto.",camarero negative
+es_cafe-meccano-gastrobar-zaragoza_comment-3719,id_23,"Por último, es espectáculo de Drag Queens, pues bueno, estaba programado para las 23:30 y salieron a la 1, con lo que sinceramente ya no teníamos mucho humor como para verlo con agrado.",espectáculo de Drag Queens negative
+es_cafe-meccano-gastrobar-zaragoza_comment-3719,id_31,"En resumen: lo mejor, pues excelente vino tinto incluido (Viñas del Vero y Pago Ayles), cafés y chupito también dentro de menú, y algunos platos originales (gazpacho de cerezas) y buenos (huevos Charly, chipirones, pasta, carrillera).",vino tinto positive <sep> cafés positive <sep> chupito positive <sep> gazpacho de cerezas positive <sep> huevos Charly positive <sep> chipirones positive <sep> pasta positive <sep> carrillera positive
+es_cafe-meccano-gastrobar-zaragoza_comment-3719,id_33,"La camarera, por cierto, sí estuvo muy amable en todo momento.",camarera positive
+es_la-despensa_comment-1890,id_1,"Apuntada LA DESPENSA para no ir, a no ser que el dueño lea la critica y quiera defenderse, ahora me extraña que se pueda defender si se rie de todos que van a su local nunca sabra quien es buen cliente o malo.",LA DESPENSA negative
+es_la-scala-zaragoza_comment-2800,id_3,"Local completamente nuevo, paredes blancas, todo muy limpio y moderno.",Local positive
+es_la-scala-zaragoza_comment-2800,id_4,El servicio fue más que correcto durante toda la comida.,servicio positive
+es_la-scala-zaragoza_comment-2800,id_6,"Respecto a los productos, no acabaron de agradarme del todo.",productos negative
+es_la-scala-zaragoza_comment-2800,id_8,"El ambiente era bastante frio, faltaba algo en aquel salón.",ambiente negative
+es_la-scala-zaragoza_comment-4000,id_0,"Hemos vuelto, hoy martes 18 de junio de 2013, despues de un año aproximadamente, para una celebración, y la conclusión de este sitio, es que: “siempre aciertas”.",sitio positive
+es_la-scala-zaragoza_comment-4000,id_2,"Hemos comido estupendamente con unos platos exquisitos con una elaboracion esmerada, el servicio en su justa medida y el personal de cocina; los autores de las delicias que salen a la mesa: Una ovación cerrada, la vuelta al ruedo y las dos orejas.",platos positive <sep> servicio positive <sep> personal de cocina positive
+es_la_poma_0_NoeliaExposito_2015-05-22,id_0,"Todo fué perfecto, ya que tenían nuestra reserva y la mesa que le habíamos pedido, junto al ventanal que da a Las Ramblas.",reserva positive <sep> mesa positive
+es_la_poma_0_NoeliaExposito_2015-05-22,id_1,El Servicio es rápido.,Servicio positive
+es_la_poma_0_NoeliaExposito_2015-05-22,id_4,"La comida es pasable, al menos lo que comimos nosotros: patatas bravas y dos pizzas.",comida positive <sep> patatas bravas positive <sep> pizzas positive
+es_la_poma_0_NoeliaExposito_2015-05-22,id_5,Los postres buenos.,postres positive
+es_la_poma_0_NoeliaExposito_2015-05-22,id_6,"Nosotros ya ibamos con la idea de cenar pizza, y nos sorprendió ver que había poquita variedad...",variedad negative
+es_la_poma_0_NoeliaExposito_2015-05-22,id_7,"En general todo bien, pero la calidad de las pizzas es más bien pasable....",pizzas negative
+es_la_poma_0_NoeliaExposito_2015-05-22,id_8,El lavabo un poco desastre...,lavabo negative
+es_la_poma_0_NoeliaExposito_2015-05-22,id_9,"Sí que es verdad que había mucha gente, pero precisamente por eso tendrían que ser más rigorosos en la limpieza de los baños.",baños negative
+es_la_poma_10_MayraDominguezSanchez_2014-12-09,id_1,La comida estuvo muy bien relacion-precio.,comida positive
+es_la_poma_10_MayraDominguezSanchez_2014-12-09,id_2,Estuvimos en la parte de arriba y al ir con los niños fue genial porque había más espacio.,espacio positive
+es_la_poma_16_MontseMendez_2014-09-12,id_0,La comida deliciosa y el servicio muy bueno.,comida positive <sep> servicio positive
+es_luis-candelas-zaragoza_comment-3173,id_0,Excelente reforma y exquisita comida con un precio muy interesante..,reforma positive <sep> comida positive
+es_luis-candelas-zaragoza_comment-3173,id_2,Grandes celebraciones de amigos con la dueña muy cariñosa en el trato..,dueña positive
+es_luis-candelas-zaragoza_comment-3735,id_0,"Un comentario apropiado para el restaurante El Candelas:  Es una pena que personas que estamos habituadas a salir a comer por un montón de restaurantes de todas las categorías, nos cueste tanto encontrar un lugar como este, donde la comida es extraordinaria, ya sea el menú diario que es de una calidad y variedad excelente, como su carta, no muy amplia pero si muy cuidada, junto con un menú de brasa de 16 Euros que es una autentica joya, compuesto por una estupenda ensalada ilustrada, un plato de morcilla, chorizo y longaniza brasa, un plato de queso, y elegir entre un entrecot de excelente ternera ó 4 piezas de ternasco de Aragón a la brasa, postre y vino de la zona, ¡sencillamente estupendo!.",comida positive <sep> menú diario positive <sep> carta positive <sep> menú de brasa positive <sep> ensalada ilustrada positive <sep> entrecot positive <sep> ternasco de Aragón positive
+es_luis-candelas-zaragoza_comment-3735,id_1,"Se me olvidaba, también podemos degustar el mejor chuletón de buey de Navarra que puedas encontrar en Zaragoza, no puedo dejar de comentar también su extensa carta de vinos que en un restaurante familiar como este no esperas encontrar de tanta calidad.No dejéis de visitarlo y seguro que después me lo agradeceréis, os lo dice una persona con mas de 40 años de experiencia en hosteleria, principalmente en la cocina, seguro que Ana su propietaria os recibirá con los brazos abiertos y su amabilidad junto a su gran interés en que el cliente salga con una gran sonrisa y ganas de volver.",chuletón de buey positive <sep> vinos positive <sep> Ana su propietaria positive
+es_luis-candelas-zaragoza_comment-4164,id_0,Enhorabuena teneis un estupendo restaurante.Hemos cenado de maravilla.,restaurante positive
+es_luis-candelas-zaragoza_comment-4164,id_3,Cocina casera de mucha calidad.,Cocina positive
+es_luis-candelas-zaragoza_comment-4164,id_4,Trato super amable.,Trato positive
+es_luis-candelas-zaragoza_comment-4210,id_0,Estuvimos cenando el sábado cuatro personas con un trato bastante correcto.,trato positive
+es_luis-candelas-zaragoza_comment-4210,id_1,"Comida casera, y todo como en familia.",Comida positive
+es_luis-candelas-zaragoza_comment-4210,id_3,La ensalada de tomate bien perosi en tomate no estuviera frio de la nevera tendría mucho mas sabor.,ensalada de tomate neutral
+es_luis-candelas-zaragoza_comment-4210,id_4,De postre probamos un helado de setas que estaba bueno.,postre positive
+es_luis-candelas-zaragoza_comment-4617,id_0,"Ultimamente no dejo pasar una comida especial,sin ir a este restaurante.",restaurante positive
+es_luis-candelas-zaragoza_comment-4617,id_1,"Desde la dirección,pasando por cocina y camareros,el trato es excelente ,pero todo esto no serviría de nada sin que también,como es así.",dirección positive <sep> camareros positive <sep> cocina positive
+es_l_olive_27_JoseMMartinez_2011-09-21,id_0,"Ambiente agradable, servicio correcto, comida con buena elaboración y presentación.",Ambiente positive <sep> servicio positive <sep> comida positive
+es_l_olive_27_JoseMMartinez_2011-09-21,id_1,Algo flojo en postres.,postres negative
+es_l_olive_51_Johnny_2010-01-17,id_0,ambiente triston.,ambiente negative
+es_l_olive_51_Johnny_2010-01-17,id_1,Te sirven demasiado rapido y los camareros juegan y hablan mientras.,camareros negative
+es_l_olive_51_Johnny_2010-01-17,id_2,Los segundos buenos.,segundos positive
+es_l_olive_51_Johnny_2010-01-17,id_3,"Los primeros de picar muy flojos, buñuelos llenos de espinas y seitons amargos.",primeros de picar negative <sep> buñuelos negative <sep> seitons negative
+es_l_olive_52_Jose_2010-01-16,id_0,"El restaurante esta bien, la comida es buena, se nota que tienen buenos cocineros.",restaurante positive <sep> comida positive
+es_l_olive_52_Jose_2010-01-16,id_1,"La educacion del director fernando nieto, deja mucho que desear, no es logico que mientras uno disfruta de su comida le metan prisa por comer, y le meta bronca a los camareros en la sala, donde todos los clientes escuchan sus gritos.",director fernando nieto negative
+es_l_olive_52_Jose_2010-01-16,id_2,"Los metres, dos espantapajaros, no sirven para nada.",metres negative
+es_l_olive_53_Rodolfo_2010-01-14,id_1,Se ha mecanizado en exceso y los platos se resienten de ello.,platos negative
+es_l_olive_55_Antonio_2009-11-29,id_0,Un restaurante como la copa de un pino.,restaurante positive
+es_l_olive_56_Recasens_2009-11-27,id_0,el lugar es fantastico.,lugar positive
+es_l_olive_56_Recasens_2009-11-27,id_1,"la atencion inigualable, la comida deliciosa, pero lo más desagradable es ver al señor fernando nieto tratar tan mal a su personal.",atencion positive <sep> comida positive <sep> fernando nieto negative
+es_l_olive_62_NeusSaez_2009-08-15,id_0,Para mi es uno de los mejores restaurantes de barcelona de cocina mediterrámea y catalana.,restaurantes positive
+es_l_olive_62_NeusSaez_2009-08-15,id_1,El servicio es inmejorable.,servicio positive
+es_l_olive_64_Lidia_2009-06-22,id_2,los platos completos y el servicio genial.,platos positive <sep> servicio positive
+es_l_olive_77_Mathews_2007-12-07,id_0,"comida con calidad correcta y en su justa proporcion y precio ay, ay, carta de vinos completa y bien, servicio profesional eficiente.",comida positive <sep> carta de vinos positive <sep> servicio positive
+es_l_olive_79_Pere_2007-11-30,id_1,El servicio sin duda debe mejorar.,servicio negative
+es_l_olive_79_Pere_2007-11-30,id_2,Entre otras cosas tengo una obsesión con la prisa que tienen algunos en retirar los platos de mesa mientras está comiendo.,prisa negative
+es_l_olive_79_Pere_2007-11-30,id_3,L´Olive no debería caer en estos errores.,L´Olive negative
+es_l_olive_81_LuisJavierLorenzoSalazar_2007-08-01,id_0,Esplendido restaurante con magnifico personal.,restaurante positive <sep> personal positive
+es_l_olive_81_LuisJavierLorenzoSalazar_2007-08-01,id_1,ambiente ideal y comida perfecta.,ambiente positive <sep> comida positive
+es_l_olive_82_UnAranes_2007-07-09,id_0,Poco espacio entre las mesas para un restaurante de precios altos.,mesas negative <sep> restaurante negative
+es_l_olive_82_UnAranes_2007-07-09,id_1,Mala iluminacion.,iluminacion negative
+es_l_olive_82_UnAranes_2007-07-09,id_2,"Las escaleras y detalles del mobiliario, con polvo y desgastados, necesitan renovación.",mobiliario negative
+es_l_olive_82_UnAranes_2007-07-09,id_3,Servicio bueno.,Servicio positive
+es_l_olive_82_UnAranes_2007-07-09,id_4,"el detalle del entrante, que lo cobran...",entrante negative
+es_l_olive_84_JoseSerra_2007-03-05,id_0,"Me gusta mucho su comida, yahe ido varias veces, pero me parece excesivo el número de mesas que hay para el espacio disponible.",comida positive <sep> mesas negative
+es_l_olive_84_JoseSerra_2007-03-05,id_1,"El vecino come en tu mesa...Privacidad, cero.",Privacidad negative
+es_l_olive_96_LauraRodriguez_2006-07-09,id_0,"El ambiente, el trato, la calidad de la comida y la cantidad se puede calificar como muy bien.",ambiente positive <sep> trato positive <sep> comida positive
+es_cafe-meccano-gastrobar-zaragoza_comment-4334,id_0,Un restaurante carísimo para lo que ofrece.,restaurante negative
+es_cafe-meccano-gastrobar-zaragoza_comment-4334,id_1,"Tomamos una ensalada, unas croquetas y unos huevos de Charly, todo a compartir, sin postre, y la broma nos salió a 25 Euros por persona…en cualquier restaurante se come mejor por menos…¿Y  el espectáculo?",restaurante negative
+es_cafe-meccano-gastrobar-zaragoza_comment-4334,id_2,"Llegamos a las 21,45h (para cenar) y nos fuimos a las 23,30h más o menos, pues, bien, durante todo ese tiempo no hubo espectáculo alguno…¿dónde está entonces la cena-espectáculo que anuncian?",cena-espectáculo negative
+es_cafe_casa_lletres_10_FranciscoJavierRosAlbizu_2014-12-22,id_0,Servicio excelente y comida muy bien.,Servicio positive <sep> comida positive
+es_cafe_casa_lletres_10_FranciscoJavierRosAlbizu_2014-12-22,id_1,Lugar muy agradable,Lugar positive
+es_cafe_casa_lletres_16_Mimi_2014-12-09,id_1,El servicio muy correcto y atento.,servicio positive
+es_cafe_casa_lletres_16_Mimi_2014-12-09,id_2,El lugar es pequeño pero muy acogedor.,lugar positive
+es_cafe_casa_lletres_16_Mimi_2014-12-09,id_3,Disfrutamos de una buena comida a buen precio.,comida positive
+es_cafe_casa_lletres_22_ToniRamirez_2014-08-06,id_0,"La comida está muy buena, pero el servicio es bastante lento.",comida positive <sep> servicio negative
+es_cafe_casa_lletres_30_JorgeLarramendi_2014-02-26,id_0,La comida y el servicio fueron correctos.,comida positive <sep> servicio positive
+es_cafe_casa_lletres_32_MiguelMarineBlanco_2014-02-17,id_0,Muy mal olor en el restaurantes.,restaurantes negative
+es_cafe_casa_lletres_32_MiguelMarineBlanco_2014-02-17,id_1,Carta de vinos escasa,Carta de vinos negative
+es_cafe_casa_lletres_33_MConsueloBeldaVazquez_2014-01-28,id_0,Buena comida y buen servicio.,comida positive <sep> servicio positive
+es_cafe_casa_lletres_33_MConsueloBeldaVazquez_2014-01-28,id_1,El local demasiado pequeño pero con cierto encanto.,local neutral
+es_cafe_casa_lletres_38_CristinaDominguez_2013-12-14,id_1,Tanto la atencion de los camareros y sobretodo del cocinero fueron excepcionales.,camareros positive <sep> cocinero positive
+es_cafe_casa_lletres_38_CristinaDominguez_2013-12-14,id_2,Los platos son gustosos y bien elavorados y la calidad se nota y se saborea en todos ellos.,platos positive
+es_cafe_casa_lletres_38_CristinaDominguez_2013-12-14,id_4,Ademas el local es muy acogedor y se nos pasaron las horas volando... casi empalmamos con la cena de lo bien que nos sentiamos alli.,local positive
+es_cafe_casa_lletres_3_AntonioSanchezTaroncher_2015-04-27,id_1,"El sitio muy tranquilo, lo recomiendo.",sitio positive
+es_cafe_kafka_12_Elena_2014-06-29,id_1,Servicio muy atento y agradable.,Servicio positive
+es_cafe_kafka_17_BeatrizMartin_2013-12-19,id_1,Lindo sitio y buena comida.,sitio positive <sep> comida positive
+es_cafe_kafka_21_GuillermoFerrer_2013-10-02,id_1,Recomiendo que quien desee una buena comida se ponga en manos del maitre.,comida positive
+es_cafe_kafka_29_Rafael_2013-03-15,id_0,Servicio excelente y un buen ambiente gracias a unos camareros super simpaticos y profesionales.,Servicio positive <sep> ambiente positive <sep> camareros positive
+es_cafe_kafka_35_CarmenCamposTomas_2012-10-16,id_1,"El Restaurante muy acogedor, el servicio muy amable y la comida excelente.",Restaurante positive <sep> servicio positive <sep> comida positive
+es_cafe_kafka_40_Kadulillo_2012-03-03,id_1,Después de cenar seguimos con los buenos combinados.,combinados positive
+es_cafe_kafka_42_SergeIriarte_2012-01-15,id_0,"Excelente trato, decoración interesante, buen genero (calidad de la comida).",trato positive <sep> decoración positive <sep> comida positive
+es_cafe_kafka_44_Gonzalo_2011-12-26,id_0,En pocos meses han pasado de platos con comida abundante y excelente a platos con raciones justitas al mismo precio.,platos negative
+es_cafe_kafka_44_Gonzalo_2011-12-26,id_1,Los vinos han subido los precios alrededor de un 30%.,vinos negative
+es_cafe_kafka_44_Gonzalo_2011-12-26,id_2,"Que pena, ha pasado de ser un sitio maravilloso a uno mas del monton.",sitio negative
+es_cafe_kafka_44_Gonzalo_2011-12-26,id_4,"Lo dicho, alguien ha pensado que restando comida y bebida y subiendo los precios de los vinos nadie se daría cuenta, pero la clientela no es tonta.",comida negative <sep> bebida negative <sep> vinos negative
+es_cafe_kafka_51_JesusJimenez_2011-11-18,id_0,Restaurante muy agradable al lado del mercado del born.,Restaurante positive
+es_cafe_kafka_51_JesusJimenez_2011-11-18,id_1,Buenas raciones de primero para compartir y soberbio centro de merluza a la plancha.,raciones positive <sep> merluza a la plancha positive
+es_cafe_kafka_56_Mangeles_2011-06-25,id_2,"El solomillo de ternera impresionante, carne de muy buena calidad y justo al punto que la pedimos.",solomillo de ternera positive <sep> carne positive
+es_cafe_kafka_56_Mangeles_2011-06-25,id_3,Y el trato excelente.,trato positive
+es_cafe_kafka_56_Mangeles_2011-06-25,id_4,"Por poner una pega diría que si no eres amante de los vinos Rioja no tienes mucho más donde elegir, aun así la selección de Riojas es buena.",vinos Rioja neutral
+es_cafe_kafka_57_NoeliaFernandezAlvarez_2011-06-18,id_1,El restaurante tenia una decoracion muy intima y acogedora.,restaurante positive
+es_cafe_kafka_57_NoeliaFernandezAlvarez_2011-06-18,id_2,La atencion por parte del personal ha sido bastante buena y la comida estuvo fenomenal.,atencion positive <sep> comida positive
+es_cafe_kafka_59_MercedesMargenat_2011-06-07,id_0,Sitio recomendado.,Sitio positive
+es_cafe_kafka_59_MercedesMargenat_2011-06-07,id_1,Comida bien elaborada.,Comida positive
+es_cafe_kafka_59_MercedesMargenat_2011-06-07,id_2,Me tome un rape con foie y salsa de vino buenisimo y mis amigos que tomaron carne quedaron encantados.,rape con foie y salsa de vino positive <sep> carne positive
+es_cafe_kafka_60_CarlaBigio_2011-06-06,id_0,"El lugar es precioso, la decoracion impresionante.",lugar positive <sep> decoracion positive
+es_cafe_kafka_60_CarlaBigio_2011-06-06,id_1,"La comida la encontramos poco original, y tiene demasiada patata en cada plato.",comida negative
+es_cafe_kafka_60_CarlaBigio_2011-06-06,id_3,"Servicio bueno pero muy rapido, y las mesas estaban muy juntas y cada vez que pasaba el camarero nos golpeaban la silla.",Servicio neutral <sep> mesas negative
+es_cafe_kafka_6_GorkaSalvadorGaraizabal_2015-01-26,id_0,"nosotros fuimos a comer el menu del dia y aunque el primer plato(riggatoni a la bolognesa) nos parecio un poco escueto (muy bueno, pero poca cantidad), el segundo plato lo suplio con buen plato de carne y junto con el postre, salimos bien saciados del restaurante.",riggatoni a la bolognesa negative <sep> riggatoni a la bolognesa positive
+es_cafe_kafka_6_GorkaSalvadorGaraizabal_2015-01-26,id_1,"Tanto el ambiente del lugar como la atencion de los camareros fue impoluta, asi que salimos con una magnifica sensacion.",ambiente positive <sep> camareros positive
+es_cafe_kafka_9_HectorArjona_2014-12-19,id_3,No recomendaría ir a este restaurante ni a un enemigo.,restaurante negative
+es_cafe_kafka_9_HectorArjona_2014-12-19,id_4,"El menú pactado y pagado en parte con antelación no se ha correspondido con lo que han servido (“ha sido un error,” dicen al reclamar).",menú negative
+es_cafe_kafka_9_HectorArjona_2014-12-19,id_6,"Los postres, como si fuera un concurso de miniaturas.",postres negative
+es_cafe_kafka_9_HectorArjona_2014-12-19,id_7,"Dicen que eran buenos, yo no los probé porque había menos postres que personas…",postres positive <sep> postres negative
+es_cafe_kafka_9_HectorArjona_2014-12-19,id_9,Y lo mejor (con toda la ironía que soy capaz sin faltar ni insultar) el servicio.,servicio negative
+es_colette-zaragoza_comment-150,id_0,el otro dia cene en colette y la verdad es que ya hacia falta un retaurante asi en zaragoza .,retaurante positive
+es_colette-zaragoza_comment-150,id_1,"la cominda impresionante, el servicio igual y una atencion con tanto aperitivo que no es ni normal de bueno,es un restaurante para recomendar a todos los amigos",cominda positive <sep> servicio positive <sep> restaurante positive
+es_colette-zaragoza_comment-2488,id_0,"Me encanta ese sitio, que en general no decepciona, pero el sábado sí lo hizo: me dieron mesa para 3 para a continuación, 4 horas más tarde, cancelármela y rebotarme al RISKOMAR, donde comimos fatal (ya he dejado opinión).",sitio negative
+es_colette-zaragoza_comment-250,id_0,"en mi opinion es un restaurante impresionante, tanto en decoracion , comodidad y como no en servicio y comida .",restaurante positive <sep> decoracion positive <sep> comodidad positive <sep> servicio positive <sep> comida positive
+es_colette-zaragoza_comment-251,id_1,Buena decoración y puesta en escena.,decoración positive <sep> puesta en escena positive
+es_colette-zaragoza_comment-251,id_2,"La comida buena, pero NO SORPRENDENTE.",comida neutral
+es_colette-zaragoza_comment-251,id_3,El servicio no esta a la altura.,servicio negative
+es_colette-zaragoza_comment-3099,id_2,Mi opinión es la de un restaurante que se quiere pretencioso y que dista mucho de ser el restaurante innovador y de calidad que publicitan.,restaurante negative <sep> restaurante negative
+es_colette-zaragoza_comment-3099,id_4,Sorprende que también te cobren los dulces que sirven acompañando el café y que no habíamos solicitadoRealmente tienen mucho que aprender.,dulces negative
+es_colette-zaragoza_comment-3099,id_5,Es un restaurante para no recordar y no aconsejar,restaurante negative
+es_colette-zaragoza_comment-330,id_0,La ambientación de este restaurante sería lo único a destacar.,ambientación positive
+es_colette-zaragoza_comment-330,id_1,"En cuanto a la comida, bien pero nada exclusivo ni sorprendente.",comida neutral
+es_colette-zaragoza_comment-330,id_3,Lo realmente lamentable es el sevicio que ofrecen:,sevicio negative
+es_colette-zaragoza_comment-330,id_4,"- tardaron más de media hora en sacarnos una botella de vino, después de habérsela pedido a tres camareras.",camareras negative
+es_colette-zaragoza_comment-330,id_5,"- en cuanto se gasta el pan, no sacan mas, por mucho que pidas e insistas.-las camareras nos ofrecieron un trato lamentable, incluso llegaron a gritarnos y a exigirnos silencio (íbamos quince personas, así que es normal cierto murmullo)..",camareras negative
+es_colette-zaragoza_comment-330,id_6,"Sinceramente, ha sido el peor servicio que me habían ofrecido jamás, y eso, en un restaurante como este, es imperdonable.",servicio negative
+es_comer-balneario-paracuellos-jiloca_comment-3155,id_0,"Hemos estado tres veces en el balneario, y nos parace estupendo, habitaciones comodas, buena comida y sobre todo las aguas muy beneficiosas para personas con problemas de piel o respiratorios, volveremos.",comida positive
+es_comer-balneario-paracuellos-jiloca_comment-3155,id_1,gracias por la amabilidad de todos los trabajadores,trabajadores positive
+es_cullera_de_boix_0_Jing_2015-08-24,id_0,"<->El servicio bastante lento, sobre todo para grupos que funcionan con un horario bastante extricto.",servicio negative
+es_cullera_de_boix_0_Jing_2015-08-24,id_1,<->El personal no obstante muy amable.,personal positive
+es_cullera_de_boix_0_Jing_2015-08-24,id_2,"<+>La calidad de la comida muy buena, los arroces excelentes en general.",comida positive <sep> arroces positive
+es_cullera_de_boix_104_Pedro_2010-01-20,id_0,La carta de vinos es impresionante y con unos precios muy buenos.,carta de vinos positive
+es_cullera_de_boix_104_Pedro_2010-01-20,id_1,La comidaexquisita y abundante.,comida positive
+es_cullera_de_boix_111_RomonPerez_2008-05-12,id_0,"El domingo estuvimos comiendo con la familia y el menu para los niños se agradece pues es completo y a un buen precio, La carta y sobre todo los arroces muy bien asi como los postres.",menu para los niños positive <sep> carta positive <sep> arroces positive <sep> postres positive
+es_cullera_de_boix_111_RomonPerez_2008-05-12,id_1,La atención de los camareros fue en todo momento impecable.,camareros positive
+es_cullera_de_boix_115_Ivan_2008-02-23,id_0,"Excelente ubicación en el centro de Barcelona, Una paella de bogavante que recordaremos asi como buenos vinos muy bien.",ubicación positive <sep> paella de bogavante positive <sep> vinos positive
+es_cullera_de_boix_118_Joanddark_2008-01-24,id_0,la carne es infumable,carne negative
+es_cullera_de_boix_120_Noe_2007-07-20,id_0,"Camareros despistados: tuvimos que compartir un arroz porque siendo 4 apuntaron 3, trajeron cuenta de otra mesa, discusiones entre camareros...",Camareros negative
+es_cullera_de_boix_120_Noe_2007-07-20,id_1,Comida correctita.,Comida neutral
+es_cullera_de_boix_122_Maria_2007-02-06,id_0,"Fuimos a cenar el viernes pasado y nos recibieron con una copa de cava rosado, la carta es de lo más variado y nos gusto mucho una lubina a la sal que nos recomendaron, los camareros muy simpáticos.",carta positive <sep> lubina a la sal positive <sep> camareros positive
+es_cullera_de_boix_122_Maria_2007-02-06,id_1,El chocolate de los postres exquisito.,chocolate de los postres positive
+es_cullera_de_boix_18_ManuelOriol_2014-05-17,id_0,"La cena estuvo bien, pero quisiera hacer una propuesta de mejora: Los camareros que nos atendieron iban demasiado estresados y tardaron bastante en atendernos, así quizá si pusieran otro camarero o el sistema logístico cocina-sala estuviera mejor diseñado, los clientes estaríamos atendidos con más prontitud.",camareros negative <sep> sistema logístico cocina-sala negative <sep> cena positive
+es_cullera_de_boix_1_Raquel_2015-08-20,id_0,<->Calor en el local,local negative
+es_cullera_de_boix_21_GabrielGobeth_2014-04-25,id_0,Ótimo ambiente y muy buena comida,ambiente positive <sep> comida positive
+es_cullera_de_boix_31_AlvaroBalbas_2013-10-14,id_0,Me gusto mucho el menú.,menú positive
+es_cullera_de_boix_42_PereCastellsBonet_2013-04-24,id_4,Considerable espera de pie (larga cola).,espera negative
+es_cullera_de_boix_42_PereCastellsBonet_2013-04-24,id_6,Al final encuentran una por casualidad en un rincón incomodo.,rincón negative
+es_cullera_de_boix_42_PereCastellsBonet_2013-04-24,id_7,Encima de mi cabeza tenía la pantalla del televisor con el sonido a mi oido izquierdo.,sonido negative
+es_cullera_de_boix_42_PereCastellsBonet_2013-04-24,id_13,Mi primer plato (huevos estrellados) era simplemente patatas fritas y encima un par de huevos fritos (sin ningun miramiento).,huevos estrellados negative
+es_cullera_de_boix_42_PereCastellsBonet_2013-04-24,id_20,Un plato hondo lleno de líquido con dos trozitos de pescado (mi señora reclamó ya que aquello no era merluza y lo que fuese estaba super congelado).,merluza negative
+es_cullera_de_boix_42_PereCastellsBonet_2013-04-24,id_26,La piña tenía un intenso sabor de ajo.,piña negative
+es_cullera_de_boix_42_PereCastellsBonet_2013-04-24,id_32,Creo que deberían considerar el mantener este restaurante en su web.,restaurante negative
+es_cullera_de_boix_50_ArcangeloDiDio_2013-01-05,id_2,"- Podría estar mejor organizada en el cambio de la cuchillería, el mismo utilizado por dos platos (entrante y principal).",cuchillería negative
+es_cullera_de_boix_50_ArcangeloDiDio_2013-01-05,id_3,Para el manejo y la rapidez del servicio: encomiable.,servicio positive
+es_cullera_de_boix_67_Ernesto_2012-05-01,id_0,"El arroz, en muy generosa ración y con abundancia de complementos, como gambas, mejillones, almejas y langostinos.",arroz positive
+es_cullera_de_boix_67_Ernesto_2012-05-01,id_2,A mejorar: el emplazamiento donde se emplatan las porciones de arroces o pescados.,emplazamiento negative
+es_cullera_de_boix_69_JaimeMarinMurcia_2012-03-28,id_1,Un restaurante muy recomendable.,restaurante positive
+es_cullera_de_boix_71_MontserratCasasTulsa_2012-02-27,id_0,molt be la millor paella de barcelona.,paella positive
+es_cullera_de_boix_71_MontserratCasasTulsa_2012-02-27,id_1,llastima un mica el local.,local negative
+es_cullera_de_boix_73_SoniaDominguez_2012-02-26,id_1,La bebida tampoco estaba incluída y la carta de vinos es de precios elevados.,carta de vinos negative <sep> bebida negative
+es_cullera_de_boix_78_Manuel_2011-12-25,id_2,"Solo nos defraudo que de la extensa carta de vinos, solo tuvieran de la cuarta opcion que solicitamos.",carta de vinos negative
+es_cullera_de_boix_81_LuciaTeixansGines_2011-12-15,id_1,Servicio bueno.,Servicio positive
+es_cullera_de_boix_85_MiguelRuizPara_2011-12-07,id_0,"Servicio atento en su cometido, quizas demasiado rápido en atendernos, no habíamos decidido aún la ""petición"" que ya estaba esperando nustra decisión.",Servicio neutral
+es_cullera_de_boix_85_MiguelRuizPara_2011-12-07,id_1,"En cuanto a las carnes, no pregunta el grado de cocina y elaboración según el gusto del comernsal.",carnes negative
+es_cullera_de_boix_94_CarlosDelgadoRodriguez_2011-02-09,id_0,"La atención recibida y el servicio muy correcto, la carta completa, el lugar ideal, con lo que la comida fue muy bien.",servicio positive <sep> carta positive <sep> lugar positive <sep> comida positive
+es_cullera_de_boix_9_JuanJoseAullonLlompart_2015-01-08,id_0,Los platos están muy bien cocinados,platos positive
+es_cullera_de_boix_9_JuanJoseAullonLlompart_2015-01-08,id_1,El pica pica algo escaso si es para compartir,pica pica neutral
+es_doble-uno-zaragoza_comment-4533,id_0,El local es una pasada.,local positive
+es_doble-uno-zaragoza_comment-4533,id_2,Y la cocina a la misma altura.,cocina positive
+es_doble-uno-zaragoza_comment-4533,id_4,"Se nota hasta en los vinos, buenos y baratos.",vinos positive
+es_doble-uno-zaragoza_comment-4571,id_0,"El local muy mono, pero el menú ese día, al menos lo que yo probé, muy justito, casi suspenso.",local positive <sep> menú negative
+es_doble-uno-zaragoza_comment-4571,id_1,"En la cocina debían estar de resaca porque me pedí unos noodles con verduritas y todavía las estoy buscando, era pasta china con avecrem, sin mas.",noodles con verduritas negative
+es_doble-uno-zaragoza_comment-4571,id_2,"Eso sí, el personal majísimo.",personal positive
+es_doble-uno-zaragoza_comment-4573,id_1,"Buena comida, buen servicio y sitio precioso.",comida positive <sep> servicio positive <sep> sitio positive
+es_doble-uno-zaragoza_comment-4574,id_0,Local precioso.,Local positive
+es_doble-uno-zaragoza_comment-4574,id_1,Aunque lo que realmente me ha impresionado es la calidad de los platos.,platos positive
+es_doble-uno-zaragoza_comment-4574,id_2,He ido un par de veces y tanto el menu del dia como la carta !un 10!.,menu del dia positive <sep> carta positive
+es_doble-uno-zaragoza_comment-4574,id_3,Muy buena mano en la cocina.,cocina positive
+es_doble-uno-zaragoza_comment-4592,id_0,"estubimos el dia 22 de octubre,un restaurante moderno pero con encanto.",restaurante positive
+es_doble-uno-zaragoza_comment-4741,id_3,Pedimos un menú degustación y todo buenísimo.,menú degustación positive
+es_doble-uno-zaragoza_comment-4741,id_6,"Sólo un pequeño detalle, faltaba música de ambiente para ser perfecto.",música de ambiente negative
+es_gamberro-zaragoza_comment-4857,id_2,Los platos muy escasos incluso para un menú degustación.,platos negative
+es_il-monasterio-zaragoza_comment-1195,id_4,"Han quitado la carta de comida mejicana, que era lo que más merecía la pena, y sólo queda comida italiana de calidad muy básica.",comida italiana neutral
+es_il-monasterio-zaragoza_comment-1195,id_5,Me comí una lasaña y estaba muy mal cocinada…creo que las que venden congeladas en los super están mejor.,lasaña negative
+es_il-monasterio-zaragoza_comment-1195,id_6,Para colmo nos amenizaron la estancia con musica a un volumen no muy normal de musica latinoamericana…una incongruencia en un restaurante que se llama Monasterio y da comida italiana.,musica negative
+es_kupela-la-sidreria-zaragoza_comment-3017,id_0,"Un restaurante exceccional, con una calidad de productos impresionantes, el pescado recien traido de San SEBASTIAN, y la carne, en pocos restaurantes la comes como en la sidreria.volveria, siempre que pudiese",restaurante positive <sep> productos positive <sep> pescado positive <sep> carne positive
+es_kupela-la-sidreria-zaragoza_comment-3025,id_1,"Aquí no me engañan y todos sus productos son de primera.Los pescados son sensacional, frescos y cocinados sin salsas que a veces solo pretenden enmascarar un mal producto.",productos positive <sep> pescados positive
+es_kupela-la-sidreria-zaragoza_comment-3025,id_2,"Y de la carne, pueden presumir de ser la mejor carne de Zaragoza, y me atrevería a decir,de las mejores de España.",carne positive
+es_l_olive_11_ClaudiaVelutini_2014-01-01,id_0,"Su atención muy buena, la comida excelente, un restaurante muy bello.",atención positive <sep> comida positive <sep> restaurante positive
+es_l_olive_19_MatildeAnglesDominguez_2012-09-16,id_0,"Una cena estupenda, el servicio impecable, la comida fabulosa, una amplia carta de vinos y unos postres perfectos.",servicio positive <sep> comida positive <sep> carta de vinos positive <sep> postres positive <sep> cena positive
+es_l_olive_19_MatildeAnglesDominguez_2012-09-16,id_1,"El local amplio, cómodo y bien acondicionado.",local positive
+es_l_olive_19_MatildeAnglesDominguez_2012-09-16,id_2,Como fuimos con amigos argentinos hicimos un pica pica de primero para que probaran platos típicos catalanes... quedaron encantados.,pica pica positive
+es_l_olive_19_MatildeAnglesDominguez_2012-09-16,id_3,El precio correcto y adecuado a la comida.,comida positive
+es_l_olive_1_JavierNevotMondejar_2015-02-18,id_0,"Servicio excelente, al igual que el solomillo...",Servicio positive <sep> solomillo positive
+es_9reinas_69_AbelDiaz_2011-03-04,id_1,Servicio muy amable pero anormalmente lento.,Servicio neutral
+es_9reinas_72_Nicolas_2011-02-02,id_0,"Fantástico, la comida muy buena pero la verdad es que el servicio impresionante, así la comida sabe aún mejor!!",comida positive <sep> servicio positive
+es_9reinas_7_EnricMonclusDonoso_2014-12-27,id_0,Gran opcion de rest.,Gran opcion de rest positive
+es_aragonia-palafox-zaragoza_comment-4781,id_1,El restaurante de lujo.el servi io absolutamente profesional y los platos de gran calidad y muy bien emplatados.,servi io positive <sep> platos positive <sep> restaurante positive
+es_bal-donsera-zaragoza_comment-3428,id_1,"En lo que no estoy de acuerdo es que no esté céntrico, para mí está en la mejor zona de la ciudad, entre la PLaza del Pilar y la plaza de España, en el tubo, auténtico meolo de Zaragoza lleno de siglos de historia.",zona positive
+es_balmes_rossello_0_Irene_2015-08-25,id_1,<+>El ambiente y el servicio.,ambiente positive <sep> servicio positive
+es_balmes_rossello_23_Sonia_2015-01-04,id_2,"Carta variada: Los huevos con patatas y foie, los calçots y la carne en general.",Carta positive <sep> huevos con patatas y foie positive <sep> calçots positive <sep> carne positive
+es_balmes_rossello_23_Sonia_2015-01-04,id_4,Se podrían mejorar los postres,postres negative
+es_balmes_rossello_29_NagoreMoreno_2014-12-02,id_2,Fueron todos muy amables y atentos.,Fueron todos muy amables y atentos positive
+es_balmes_rossello_29_NagoreMoreno_2014-12-02,id_3,La cantidad y calidad de la comida muy buena.,comida positive
+es_balmes_rossello_29_NagoreMoreno_2014-12-02,id_4,Muy satisfecha con la comida y el servicio.,comida positive <sep> servicio positive
+es_balmes_rossello_32_C_2014-08-24,id_0,De primer plato pedimos espárragos y nos los sirvieron fríos con la salsa fría.,espárragos negative <sep> salsa negative
+es_balmes_rossello_32_C_2014-08-24,id_2,"Luego pedimos carne y estaba muy buena, pero el acompañamiento estaba frío también.",carne positive <sep> acompañamiento negative
+es_balmes_rossello_32_C_2014-08-24,id_3,Yo acerté con el postre.,postre positive
+es_balmes_rossello_32_C_2014-08-24,id_4,El servicio bueno y a su tiempo.,servicio positive
+es_balmes_rossello_45_JoanLluisOlmoLorenzo_2014-03-03,id_0,Tomamos el menú calçotada y estuvo muy correcto con posibilidad de repetir calçots y la bebida incluida sin límite.,bebida positive <sep> calçotada positive <sep> calçots positive
+es_balmes_rossello_45_JoanLluisOlmoLorenzo_2014-03-03,id_1,La carne bién también.,carne positive
+es_balmes_rossello_48_PilarAlarcon_2014-02-15,id_0,Disfrutar con tu pareja de un ambiente muy moderno pero sin perder calidez y disfrutando de una carta muy variada que cubre un amplia gama de preferencias,ambiente positive <sep> carta positive
+es_balmes_rossello_51_Paula_2014-02-10,id_1,"La atención del jefe excelente, puntuales en la reserva, y un servicio muy bueno.",atención positive <sep> servicio positive
+es_balmes_rossello_51_Paula_2014-02-10,id_3,Tal vez la única pega (para mi gusto) es que la parrillada de carne no era muy grande (aunque sí es cierto que te dejaban repetir calçots y que casi todo el mundo estaba lleno ya).,parrillada de carne negative <sep> calçots positive
+es_balmes_rossello_51_Paula_2014-02-10,id_4,Los calçots riquísimos y la carne muy buena también.,calçots positive <sep> carne positive
+es_balmes_rossello_65_ManuelAguileraSanchez_2013-09-12,id_0,El sitio muy agradable.,sitio positive
+es_balmes_rossello_65_ManuelAguileraSanchez_2013-09-12,id_1,"El servicio muy bien (al hacer la reserva hicimos constancia de que era un aniversario, y nos colocaron en un romántico rincón y nos obsequiaron con 2 copas de cava).",servicio positive
+es_balmes_rossello_65_ManuelAguileraSanchez_2013-09-12,id_2,"La comida sencilla, bien preparada y bien presentada.",comida positive
+es_balmes_rossello_67_IvanZamudio_2013-08-09,id_0,Muy rica la comida y variedad en el menú.,comida positive <sep> menú positive
+es_balmes_rossello_87_JosepCortinesArellano_2012-07-06,id_1,Falta algun menu de pescado.,pescado negative
+es_balmes_rossello_88_Sara_2012-05-06,id_1,"El servicio muy atento y amable, con posibilidad de repetir platos del menú.",servicio positive <sep> platos positive
+es_balmes_rossello_8_SantiagoMartinezJimenez_2015-03-09,id_2,Los platos esta muy bien cocinados.,platos positive
+es_balmes_rossello_98_FranciscoVidalSerret_2012-01-07,id_0,"La comida muy bien, pero si algo destaca por encima de todo, es el atentísimo trato de todo el personal, al que ves con ganas de  que todo este bien para el cliente.",comida positive <sep> personal positive
+es_mar-de-cadiz-zaragoza_comment-4787,id_2,"La cena normal, unos productos mejor que otros.",cena neutral
+es_mas-torres-zaragoza_comment-4111,id_0,Todos salimos contentos el servicio fue bueno.,servicio positive
+es_mas-torres-zaragoza_comment-4111,id_2,La cena estuvo muy bien recomendado.,cena positive
+es_mas-torres-zaragoza_comment-4312,id_1,"La comida buena y buena presentación, junto con una atención correcta.",comida positive <sep> atención positive
+es_matilde-la-zaragoza_comment-4216,id_0,"En lo referente a calidad-precio y dentro de su categoría, desde mi punto de vista, debe ser uno de los restaurantes de referencia de Zaragoza.",restaurantes positive
+es_matilde-la-zaragoza_comment-4216,id_1,"Su experiencia, profesionalidad, servicio y trato exquisitos aportan un valor añadido difícilmente inigualable en estos momentos.",servicio positive
+es_matilde-la-zaragoza_comment-4216,id_2,Su dirección consigue sobradamente lo que entiendo que pretende.,dirección positive
+es_matilde-la-zaragoza_comment-4216,id_3,"El que va a comer, vaya cuando vaya, ya sabe lo que se va a encontrar: calidad de primera, bodega única, carta renovada pero sin sorpresas, trato educado, agradable y que te invita a volver antes de haberte ido.",calidad positive <sep> bodega positive <sep> carta neutral <sep> trato positive
+es_matilde-la-zaragoza_comment-4216,id_6,"(Aunque parezca un comentario exagerado, no lo es y aclaro, no soy familia, sino un simple cliente que agradece la calidad y el buen trato recibido).",calidad positive <sep> trato positive
+es_matilde-la-zaragoza_comment-4325,id_0,"Restaurante muy recomendado, servicio y trato buenisimo y un menu exquisito.",Restaurante positive <sep> servicio positive <sep> menu positive
+es_matilde-la-zaragoza_comment-4465,id_1,El proceso fue correcto en todos los sentidos.,proceso neutral
+es_matilde-la-zaragoza_comment-4830,id_1,"Buen servicio y menú muy compensado, carta de vinos excelente.",servicio positive <sep> menú positive <sep> carta de vinos positive
+es_maur_muntaner_0_MarcelinoXimenes_2015-05-11,id_0,"decoración agradable, amplitud adecuada, servicio correcto, comida sin complicaciones de buena calidad y abundante.",decoración positive <sep> amplitud positive <sep> servicio positive <sep> comida positive
+es_maur_muntaner_0_MarcelinoXimenes_2015-05-11,id_1,precios ajustados.,precios ajustados positive
+es_maur_muntaner_13_GemaCardaIsach_2013-12-26,id_0,Contenta por el servicio prestado que fue ágil y gentil.,servicio positive
+es_maur_muntaner_13_GemaCardaIsach_2013-12-26,id_1,La comida aprobada con notable alto: 8,comida positive
+es_maur_muntaner_13_GemaCardaIsach_2013-12-26,id_2,Sitio adecuado.,Sitio positive
+es_maur_muntaner_13_GemaCardaIsach_2013-12-26,id_3,WC limpios y espaciosos,WC positive
+es_maur_muntaner_19_DarioSalviaPrado_2013-05-04,id_0,"La atención, la comida y el lugar !!!",atención positive <sep> comida positive <sep> lugar positive
+es_maur_muntaner_27_JoseLuis_2012-12-09,id_1,Buena atención del personal.,personal positive
+es_maur_muntaner_27_JoseLuis_2012-12-09,id_2,"La comida muy bien, en cantidad y buena relación calidad-precio.",comida positive
+es_maur_muntaner_29_RicardGonzalez_2012-06-17,id_0,"La comida esta muy buena pero hay mucho ruido, buen restaurante para cenas de grupos.","comida positive <sep> hay mucho ruido, negative <sep> restaurante positive"
+es_maur_muntaner_33_Emili_2012-02-13,id_0,Mesas demasiado juntas.,Mesas negative
+es_maur_muntaner_33_Emili_2012-02-13,id_1,Servicio pesimo.,Servicio negative
+es_maur_muntaner_35_DomingoJaenDoreste_2012-01-09,id_0,Buena comida y buena atencion.,comida positive <sep> atencion positive
+es_maur_muntaner_6_MariaJoseBosch_2015-02-09,id_1,Pedimos menu de calçots y valia la pena.,menu de calçots positive
+es_maur_muntaner_6_MariaJoseBosch_2015-02-09,id_2,Servicio esmerado y muy buen ambiente.,Servicio positive <sep> ambiente positive
+es_para-fumadores-en-zaragoza-aguza_comment-3352,id_0,"Magnífica propuesta, lúdica y cultural, donde disfrutar en libertad de todos aquellos maridajes que convierten en arte las meras necesidades primarias del ser humano.",propuesta positive
+es_para-fumadores-en-zaragoza-aguza_comment-3352,id_1,"Un reducto donde disfrutar desde el respeto, de un buen llantar, bien regado y rematado con un exquisito cigarro habano.",reducto positive
+es_para-fumadores-en-zaragoza-aguza_comment-3352,id_2,"Excelente cocina, marco y trato agradable, magnífica relación calidad/precio y un referente para todo aquel que entiende como aberrante la cruzada antitabaco emprendida por esta decrépita e inculta sociedad.",cocina positive <sep> trato positive
+es_pasta-city-zaragoza_comment-3667,id_0,Restaurante de pasta y cocina americana con una calidad regular.,Restaurante neutral
+es_pasta-city-zaragoza_comment-3667,id_1,Si los comedores no estan muy llenos el servicio y la comida no estan mal.,servicio neutral <sep> comida neutral
+es_pasta-city-zaragoza_comment-3667,id_2,"El problema viene cuando se llenan, puesto que no tienen el personal suficiente para poder atenderlos.Este restaurante se encuentra al lado del campo de futbol de la Romareda.",personal negative
+es_pasta-city-zaragoza_comment-3667,id_3,Y los dias que hay partido la cosa es todavia peor por la afluencia de clientes y la clara falta de personal.,personal negative
+es_pasta-city-zaragoza_comment-3691,id_2,El aspecto del local es una imitacion pobre de los tipicos restaurantes americanos de comida rapida.,local negative
+es_pasta-city-zaragoza_comment-3691,id_3,"Y como en su mayoria esta acristalado y era un dia de calor, casi se podian asar pollos en el comedor sin necesidad de horno.",comedor negative
+es_pasta-city-zaragoza_comment-3691,id_13,"Y de segundo un menu infantil para el peque, compuesto por una hambueguesa con patatas y los recomendados costillares, junto con dos refrescos y una cerveza.A esta altura de mi opinion creo que sobra decir que la comida no dejo de ser la tipica de una franquicia de este tipo pero en malo.",comida negative
+es_pasta-city-zaragoza_comment-3691,id_14,Todo con salsa de bote y productos congelados.,salsa negative <sep> productos negative
+es_pasta-city-zaragoza_comment-3691,id_15,Vamos que tampoco hace falta tener un gran Chef en la cocina.La factura fue excesiva para el tipo de comida la calidad y la cantidad.,comida negative
+es_pasta-city-zaragoza_comment-3691,id_16,"Pagamos 64 euros.El servicio fue bueno, pero tambien decir que en el comedor eramos cuatro y el de la guitarra.Resumiendo.",servicio positive
+es_pasta-city-zaragoza_comment-3691,id_17,Mi experiencia es negativa y no volvere mas.,experiencia negative
+es_puerto-de-santa-maria-zaragoza_comment-1451,id_0,Tomo nota de este restaurante.,restaurante positive
+es_puerto-de-santa-maria-zaragoza_comment-3790,id_0,"02-12-2012 elegimos este restaurante por los comentarios, pero ha sido una Grandisima Decepción.",restaurante negative
+es_puerto-de-santa-maria-zaragoza_comment-3790,id_1,Somos cuatro comensales y Hemos pedido:-Plato de jamón (nos dicen que es de 5J) para nosotros entendemos que por las escaleras se perdió alguna.-Tortitas de Camarón parecidas a las de Huelva o Cádiz pero hay mucha diferencia tanta que es dificil de valorar.,Plato de jamón negative <sep> Tortitas de Camarón negative
+es_puerto-de-santa-maria-zaragoza_comment-3790,id_2,"-Hortigillas, fatal parecía que etabas comiendo arena de playa.",Hortigillas negative
+es_puerto-de-santa-maria-zaragoza_comment-3790,id_3,"-Puntillitas, aunque con cierto sabor a aceite requemado fueron aceptables.",Puntillitas neutral
+es_puerto-de-santa-maria-zaragoza_comment-3790,id_4,"-Arroz de Señorito, un verdadero desastre, pasado aplemazado y al cocinero se le cayó el bote de pimentón de la vera ahumado, IMPOSIBLE COMERLO.",Arroz de Señorito negative
+es_puerto-de-santa-maria-zaragoza_comment-3790,id_5,"-Besugo al orrio, Incomestible (blando o pasado) con un olor a vinagre imposible de soportar.TODO ESTO LO DECIMOS A BOCA LLENA Y SIN TAPUJOS, SOMOS DE HUELVA, ALMERÍA Y BADAJOZ, TODO LO QUE PEDIMOS LO CONOCEMOS A LA PERFECCIÓN Y LO SERVIDO SE PARECE A LA REALIDAD COMO UN HUEVO A UNA CASTAÑA.",Besugo al orrio negative
+es_puerto-de-santa-maria-zaragoza_comment-3790,id_7,Y por último los vinos fuera de precio (Pesquera crianza 30€) pero en buen estado (sin posos) no estaba pica……,vinos negative
+es_ratatouille-zaragoza_comment-4841,id_0,"Ambiente muy agradable, buen servicio y buena comida.",Ambiente positive <sep> servicio positive <sep> comida positive
+es_ratatouille-zaragoza_comment-4844,id_0,Muy buena la comida y la atencion,comida positive <sep> atencion positive
+es_real-el-zaragoza_comment-4591,id_1,"De primero salpicon de pulpo y tosta de escalibada y aceitunas negras con codorniz escabechada y de segundo magret de pato con salsa de melocotón y cous-cous y albóndigas de ternasco, la verdad que salimos muy contentos ya que la comida estaba muy buena y una relación calidad-precio genial.",comida positive <sep> relación calidad-precio positive
+es_real-el-zaragoza_comment-4591,id_3,Sitio muy recomendable por su comida y por lo bonito que es el restaurante.,restaurante positive <sep> comida positive
+es_real-el-zaragoza_comment-4859,id_0,Un buen restaurante.,restaurante positive
+es_real-el-zaragoza_comment-4859,id_1,La comida bien cocinada y presentada.,comida positive
+es_salamanca_0_Ricard_2015-08-30,id_0,"Calidad de los alimentos y excelente servicio de mesas, se mostraron muy atentos en todo momento - un 10",alimentos positive <sep> servicio positive
+es_salamanca_12_Ana_2015-01-04,id_0,"El entorno es muy bueno, aunque la ""carpa"" es de feria.",entorno positive <sep> carpa negative
+es_salamanca_12_Ana_2015-01-04,id_1,"El servicio muy justo, el ambiente un poco decadente, y tanto la paella, como la fideuá, sin sabor, prefabricadas y casi incomibles.",servicio negative <sep> ambiente negative <sep> paella negative <sep> fideuá negative
+es_salamanca_17_GuillemBorrasLoayssa_2014-12-26,id_1,"El menú era muy variado y abundante,  y los productos tenian mucha calidad.",menú positive <sep> productos positive
+es_salamanca_17_GuillemBorrasLoayssa_2014-12-26,id_2,El servicio fue perfecto.,servicio positive
+es_salamanca_17_GuillemBorrasLoayssa_2014-12-26,id_3,"Habia muchos camareros, preocupándose de que a nadie le faltase de nada y que se sintiera a gusto.",camareros positive
+es_salamanca_17_GuillemBorrasLoayssa_2014-12-26,id_4,Volveremos muy pronto a disfrutar de este Restaurente con Mayúsculas.,Restaurente positive
+es_salamanca_21_EnzoScala_2014-10-13,id_0,"Camareros simpáticos, comida apreciable,no excepcional, precio justo...ruido espantoso, mucha gente al rededor para conseguir plazas ...lo que molesta más del necesario",Camareros positive <sep> comida neutral <sep> precio neutral <sep> ruido negative
+es_salamanca_25_FernandezFelix_2014-06-25,id_0,"Muy buena comida, muy bien servicio.",comida positive <sep> servicio positive
+es_salamanca_25_FernandezFelix_2014-06-25,id_1,Una organisacion excelente.,organisacion positive
+es_salamanca_25_FernandezFelix_2014-06-25,id_2,Se pasa un muy buen rato en este restaurante.,restaurante positive
+es_salamanca_26_IlianaVasileva_2014-06-20,id_0,Amo el pescado en Salamanca!,pescado positive
+es_salamanca_26_IlianaVasileva_2014-06-20,id_2,y todo el personal es muy atencionado y habla todos los idiomas!,personal positive
+es_salamanca_26_IlianaVasileva_2014-06-20,id_4,Solamente el vino rosado es un poquito mediano,vino negative
+es_salamanca_32_AntoniMiretAlomar_2014-01-13,id_0,"Atención buena del camarero, aunque llevaba demasiadas mesas y costaba conseguir su atención para pedir algo.",camarero positive
+es_salamanca_32_AntoniMiretAlomar_2014-01-13,id_1,"La mariscada imperial es impresionante, aunque nos la sirvieron algo fría.",mariscada imperial positive
+es_salamanca_32_AntoniMiretAlomar_2014-01-13,id_2,"Si elijes mariscada, no pidas nada como entrante (el camarero nos recomedó elegir un entrante que llegó junto con la mariscada, y costó terminar con él)",mariscada positive
+es_salamanca_33_Livia_2013-12-26,id_2,"En la mesa que nos prepararon caía aigua del techo, y estabamos pegados a la caleffacción.",mesa negative
+es_salamanca_33_Livia_2013-12-26,id_3,"De los 8 menus de Navidad, disponible solo 1...es verdad que comimos bien, pero con mucho sentido del humor..",menus positive
+es_salamanca_5_Albert_2015-06-01,id_1,Servicio bueno.,Servicio positive
+es_salamanca_5_Albert_2015-06-01,id_2,La paella flojita.,paella negative
+es_salamanca_5_Albert_2015-06-01,id_4,Buena localización en el centro de la Barcelona delant de mar.,localización positive
+es_salamanca_7_AntonioSerranoPueyo_2015-04-15,id_0,"Estuve comiendo con una amigo y tomamos unos entrantes muy bien recomendados, así como una Paella Perelada.",entrantes positive
+es_salamanca_7_AntonioSerranoPueyo_2015-04-15,id_2,Es un restaurante seguro para ir y repetir siempre de sus platos tradicionales.,restaurante positive <sep> platos positive

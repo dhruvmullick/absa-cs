@@ -1,0 +1,6072 @@
+{
+    "0": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434",
+            "\u043f\u043e\u0440\u0446\u0438\u0438",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0447\u0438\u043a",
+            "\u0446\u0435\u043d\u0430\u043c\u0438",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0447\u0438\u043a"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "1": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442\u044b",
+            "\u043a\u0443\u0440\u0438\u0446\u0430",
+            "\u043c\u044f\u0441\u043e",
+            "\u0434\u0435\u0441\u0435\u0440\u0442"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "2": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "3": {
+        "pred_terms": [
+            "\u043d\u0430\u0440\u043e\u0434\u0430)",
+            "\u043f\u043e\u0441\u0443\u0434\u0443"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "4": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "5": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "6": {
+        "pred_terms": [
+            "\u0432\u0438\u043d\u043e",
+            "\u043d\u0430\u043f\u0438\u0442\u043a\u0438",
+            "\u043a\u043e\u043a\u0442\u0435\u0439\u043b\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "7": {
+        "pred_terms": [
+            "\u043c\u0443\u0437\u044b\u043a\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "8": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434",
+            "\u0431\u0430\u043d\u043a\u0435\u0442",
+            "\u0441\u0438\u0433\u0430\u0440\u044b",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u0443"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative",
+            "positive"
+        ]
+    },
+    "9": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "10": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "11": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0446\u0435\u043d\u044b"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "12": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "13": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "14": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "15": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "16": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "17": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044e",
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u043c\u044f\u0441\u043e"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "18": {
+        "pred_terms": [
+            "\u0441\u0435\u0440\u0432\u0438\u0441",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive",
+            "positive"
+        ]
+    },
+    "19": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "20": {
+        "pred_terms": [
+            "\u0441\u0442\u043e\u043b\u0438\u043a",
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0430",
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0430-\u0431\u043b\u043e\u043d\u0434\u0438\u043d\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "positive"
+        ]
+    },
+    "21": {
+        "pred_terms": [
+            "\u0441\u0442\u0435\u0439\u043a",
+            "\u0442\u0430\u0443\u044d\u0440\""
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "22": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u043a\u0443\u0440\u0438\u0446\u0435\u0439",
+            "\u0433\u0440\u0435\u043d\u043a\u0438",
+            "\u0433\u0440\u0435\u043d\u043e\u043a",
+            "\u0446\u0435\u0437\u0430\u0440\u044c"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "23": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "24": {
+        "pred_terms": [
+            "\u0434\u0438\u0432\u0430\u043d\u044b",
+            "\u0441\u0435\u0439\u0447\u0430\u0441"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "25": {
+        "pred_terms": [
+            "\u0432\u0435\u043d\u0442\u0438\u043b\u044f\u0446\u0438\u0435\u0439"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "26": {
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0443"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "27": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0447\u0438\u043a\u0435"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "28": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u0438"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "29": {
+        "pred_terms": [
+            "\u043e\u0432\u0441\u044f\u043d\u043a\u0443"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "30": {
+        "pred_terms": [
+            "\u043f\u043e\u0440\u0446\u0438\u044f"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "31": {
+        "pred_terms": [
+            "\u043f\u043e\u0440\u0446\u0438\u044f",
+            "\u0442\u043e\u0440\u0442\u0438\u043a",
+            "\u0431\u0430\u0431\u0443\u0448\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "32": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "33": {
+        "pred_terms": [
+            "\u043f\u043e\u0434\u0443\u0448\u043a\u0430\u043c\u0438",
+            "\u0434\u0438\u0432\u0430\u043d\u0447\u0438\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "34": {
+        "pred_terms": [
+            "\u0434\u0432\u0435\u0440\u044c",
+            "\u0441\u0442\u043e\u043b\u0438\u043a",
+            "\u043f\u043e\u0441\u0435\u0442\u0438\u0442\u0435\u043b\u0438",
+            "\u0442\u0443\u0430\u043b\u0435\u0442"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "negative",
+            "neutral"
+        ]
+    },
+    "35": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "36": {
+        "pred_terms": [
+            "\u043c\u0443\u0437\u044b\u043a\u0438",
+            "\u043c\u0443\u0437\u044b\u043a\u0430",
+            "\u0437\u0430\u043b\u0435",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "37": {
+        "pred_terms": [
+            "\u0430\u043b\u043a\u043e\u0433\u043e\u043b\u044c",
+            "\u0430\u043b\u043a\u043e\u0433\u043e\u043b\u044f",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "38": {
+        "pred_terms": [
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "39": {
+        "pred_terms": [
+            "\u0430\u043b\u043a\u043e\u0433\u043e\u043b\u044c",
+            "\u043a\u043e\u043a\u0442\u0435\u0439\u043b\u044f\u0445"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "40": {
+        "pred_terms": [
+            "\u043f\u0438\u0432\u0430",
+            "\u0432\u0438\u043d\u043e",
+            "\u0431\u0443\u0442\u044b\u043b\u043e\u0447\u043a\u0430\u0445"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive",
+            "neutral"
+        ]
+    },
+    "41": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442\u044b",
+            "\u0431\u0430\u0440\u043c\u0435\u043d"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "42": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "43": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "44": {
+        "pred_terms": [
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u044e",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "45": {
+        "pred_terms": [
+            "\u043f\u043e\u0434\u0443\u0448\u043a\u0430\u043c\u0438",
+            "\u043a\u0440\u0430\u0432\u0430\u0442\u043a\u0435"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "46": {
+        "pred_terms": [
+            "\u0434\u0435\u0441\u0435\u0440\u0442 - \u043d\u0430\u043f\u043e\u043b\u0435\u043e\u043d"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "47": {
+        "pred_terms": [
+            "\u043a\u043e\u043a\u0442\u0435\u043b\u044c",
+            "\u0430\u043b\u043a\u043e\u0433\u043e\u043b\u044f"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "48": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u043e",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0432\u0430\u0440\u0438\u0430\u0446\u0438\u0439"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "49": {
+        "pred_terms": [
+            "\u043a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u0435\u043c",
+            "\u0447\u0435\u0431\u0443\u0440\u0435\u043a\u0438",
+            "\u0441\u043e\u0443\u0441\u043e\u043c",
+            "\u0441\u044b\u0440\u043e\u043c"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "50": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u043e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "51": {
+        "pred_terms": [
+            "\u043e\u0432\u043e\u0449\u0438",
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u0441\u043e\u043a\u0430",
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u0432\u043a\u0443\u0441",
+            "\u044f\u0439\u0446\u043e\u043c"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "negative",
+            "positive"
+        ]
+    },
+    "52": {
+        "pred_terms": [
+            "\u0448\u0430\u0448\u043b\u044b\u043a",
+            "\u043a\u0443\u0441\u043e\u0447\u0435\u043a",
+            "\u0441\u0432\u0438\u043d\u0438\u043d\u044b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "positive"
+        ]
+    },
+    "53": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "54": {
+        "pred_terms": [
+            "\u0437\u0430\u043b\u044b",
+            "\u043a\u0430\u043c\u0438\u043d",
+            "\u0432\u0435\u0447\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "positive"
+        ]
+    },
+    "55": {
+        "pred_terms": [
+            "\u0437\u0430\u043b",
+            "\u0441\u0442\u043e\u043b\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "56": {
+        "pred_terms": [
+            "\u0441\u0442\u043e\u043b\u0438\u043a",
+            "\u0441\u0435\u043b",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "negative"
+        ]
+    },
+    "57": {
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0430",
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "58": {
+        "pred_terms": [
+            "\u0440\u043e\u043b\u043b\u044b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "59": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "60": {
+        "pred_terms": [
+            "\u0437\u0430\u043b\u0435",
+            "\u0437\u0430\u043b\u0430\u0445",
+            "\u0441\u0442\u043e\u043b\u0438\u043a",
+            "\u0437\u0430\u043b\u0435,\u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043f\u0440\u0438 \u0432\u0445\u043e\u0434\u0435\u043b\u0443\u0447\u0448\u0435"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "neutral",
+            "negative"
+        ]
+    },
+    "61": {
+        "pred_terms": [
+            "\u043c\u0435\u043d\u044e",
+            "\u0433\u0440\u0438\u043b\u044c",
+            "\u043f\u0430\u043f\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "62": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u0441\u0443\u0448\u0438",
+            "\u0441\u0443\u043f",
+            "\u043b\u043e\u0441\u043e\u0441\u0435\u043c"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "63": {
+        "pred_terms": [
+            "\u043f\u043e\u0440\u0446\u0438\u044f",
+            "\u0441\u0443\u043f \u043a\u0438\u043c-\u0447\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "64": {
+        "pred_terms": [
+            "\u0441\u0442\u043e\u043b\u0430",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "65": {
+        "pred_terms": [
+            "\u043a\u0430\u0444\u0435",
+            "\u0442\u0435\u0440\u0440\u0430\u0441\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "66": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "67": {
+        "pred_terms": [
+            "\u0442\u0435\u0440\u0440\u0430\u0441\u044b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "68": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "69": {
+        "pred_terms": [
+            "\u0431\u0430\u043d\u043a\u0435\u0442\u0430",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "70": {
+        "pred_terms": [
+            "\u0437\u0430\u043b",
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b",
+            "\u0431\u043b\u044e\u0434",
+            "\u0433\u0430\u043b\u0435\u0440\u0435\u044e)",
+            "\u0444\u043e\u0442\u043e-\u0433\u0430\u043b\u0435\u0440\u0435\u044e)"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "71": {
+        "pred_terms": [
+            "\u0441\u0430\u0439\u0442",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "72": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0443",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u0443"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "73": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "74": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0440\u0430\u0441\u043f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "75": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u0431\u043b\u044e\u0434\u043e",
+            "\u0448\u0435\u0444-\u043f\u043e\u0432\u0430\u0440\u0430",
+            "\u043f\u043e\u0432\u0430\u0440 - \u0447\u0443\u0434\u043e"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "76": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435",
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430",
+            "\u043c\u0435\u0440\u043e\u043f\u0440\u0438\u044f\u0442\u0438\u0439"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "77": {
+        "pred_terms": [
+            "\u0437\u0430\u043a\u0430\u0437\u0430",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "78": {
+        "pred_terms": [
+            "\u043f\u043e\u0440\u0446\u0438\u0438",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "79": {
+        "pred_terms": [
+            "\u044f\u0437\u044b\u043a",
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u043a\u0430\u043b\u044c\u043c\u0430\u0440\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "80": {
+        "pred_terms": [
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u0441\u043e\u0443\u0441\u0435",
+            "\u0431\u0430\u043a\u043b\u0430\u0436\u0430\u043d\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "81": {
+        "pred_terms": [
+            "\u0444\u0440\u0443\u043a\u0442\u044b",
+            "\u0434\u0435\u0441\u0435\u0440\u0442",
+            "\u043a\u0430\u0440\u0430\u043c\u0435\u043b\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "82": {
+        "pred_terms": [
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "83": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "84": {
+        "pred_terms": [
+            "\u043a\u0430\u043d\u0430\u043b"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "85": {
+        "pred_terms": [
+            "\u0432\u0435\u0440\u0430\u043d\u0434\u0435",
+            "\u0441\u0435\u0439\u0447\u0430\u0441 \u0437\u0438\u043c\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "86": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "87": {
+        "pred_terms": [
+            "\u043c\u0443\u0437\u044b\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "88": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "89": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u043b\u043e\u0441\u043e\u0441\u0435\u043c",
+            "\u043b\u043e\u0441\u043e\u0441\u044c",
+            "\u043b\u0438\u043d\u0434\u0430)"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative",
+            "positive"
+        ]
+    },
+    "90": {
+        "pred_terms": [
+            "\u043a\u0440\u0435\u043c"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "91": {
+        "pred_terms": [
+            "\u0434\u0435\u0441\u0435\u0440\u0442\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "92": {
+        "pred_terms": [
+            "\u043a\u0430\u0444\u0435",
+            "\u043c\u0435\u0441\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "93": {
+        "pred_terms": [
+            "\u0437\u0430\u043b",
+            "\u043c\u0443\u0437\u044b\u043a\u0438",
+            "\u043c\u0435\u0441\u0442",
+            "\u0434\u0438\u0432\u0430\u043d\u0447\u0438\u043a\u0430\u0445"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "94": {
+        "pred_terms": [
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u044e"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "95": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "96": {
+        "pred_terms": [
+            "\u043f\u043e\u0440\u0446\u0438\u0438",
+            "\u0441\u0443\u043f",
+            "\u043c\u043e\u0440\u0435\u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430\u043c\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "97": {
+        "pred_terms": [
+            "\u043f\u0430\u043b\u043e\u0447\u0435\u043a",
+            "\u0441\u043f\u0430\u0439\u0441\u0438 \u0441\u043e\u0443\u0441\u043e\u043c"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "98": {
+        "pred_terms": [
+            "\u043f\u043e\u0440\u0446\u0438\u0438",
+            "\u0444\u0438\u043b\u0435",
+            "\u043f\u044e\u0440\u0435",
+            "\u0430\u043a\u0446\u0438\u044f"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral",
+            "negative"
+        ]
+    },
+    "99": {
+        "pred_terms": [
+            "\u043e\u0432\u043e\u0449\u0430\u043c\u0438",
+            "\u043e\u0432\u043e\u0449\u0430",
+            "\u043a\u0440\u0435\u0432\u0435\u0442\u043a\u043e\u0439",
+            "\u0444\u0438\u043b\u0430\u0434\u0435\u043b\u044c\u0444\u0438\u0435\u0439"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "100": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "101": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "102": {
+        "pred_terms": [
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "103": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "104": {
+        "pred_terms": [
+            "\u043f\u0435\u043f\u0435\u043b\u044c\u043d\u0438\u0446\u0443"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "105": {
+        "pred_terms": [
+            "\u0437\u0430\u043a\u0430\u0437",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442)"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "106": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043e\u043c"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "107": {
+        "pred_terms": [
+            "\u0441\u0442\u043e\u043b\u0438\u043a",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u0430"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "108": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "109": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "110": {
+        "pred_terms": [
+            "\u0441\u0435\u0440\u0432\u0438\u0441"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "111": {
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "112": {
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b",
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0438 \u0445\u043e\u0441\u0442\u0435\u0441\u0441",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u0430\u043c\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "113": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "114": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u0430"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "115": {
+        "pred_terms": [
+            "\u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430",
+            "\u043b\u043e\u0441\u043e\u0441\u044c",
+            "\u0440\u044b\u0431\u0430",
+            "\u0433\u043e\u0444\u0440\u0430\u043c\u0438",
+            "\u043a\u0440\u0435\u043c\u043e\u043c",
+            "\u0448\u0430\u043d\u0442\u0438\u0439\"",
+            "\u0438\u043d\u0433\u0440\u0435\u0434\u0438\u0435\u043d\u0442\u043e\u0432",
+            "\u043a\u0440\u0430\u0441\u043d\u043e\u0439 \u0438\u043a\u0440\u043e\u0439"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive",
+            "positive",
+            "neutral",
+            "neutral",
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "116": {
+        "pred_terms": [
+            "\u043f\u0438\u0432\u043e",
+            "\u043f\u0438\u0432\u043e\u043c"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "117": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "118": {
+        "pred_terms": [
+            "\u0443\u044e\u0442\u043d\u043e\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "119": {
+        "pred_terms": [
+            "\u043c\u0430\u0441\u043b\u043e\u043c",
+            "\u0441\u0442\u0435\u0439\u043a"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "120": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442\u0438\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "121": {
+        "pred_terms": [
+            "\u0434\u0435\u0441\u0435\u0440\u0442",
+            "\u0447\u0435\u0440\u043d\u0438\u043a\u043e\u0439"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "122": {
+        "pred_terms": [
+            "\u0437\u0430\u043b",
+            "\u0441\u0442\u043e\u043b\u0438\u043a\u043e\u0432",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "123": {
+        "pred_terms": [
+            "\u0431\u0435\u0434\u0430",
+            "\u043c\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0430",
+            "\u0441\u0438\u0440\u043e\u043f\u0430",
+            "\u043a\u043e\u043a\u0442\u0435\u0439\u043b\u044f\u043c\u0438"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "124": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "125": {
+        "pred_terms": [
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430",
+            "\u0448\u0435\u0444-\u043f\u043e\u0432\u0430\u0440\u0443"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "126": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430",
+            "\u0434\u0438\u0432\u0430\u043d\u0447\u0438\u043a\u0438",
+            "\u043e\u0441\u0432\u0435\u0449\u0435\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "127": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u043f\u0440\u0435\u0434\u0437\u0430\u043a\u0430\u0437",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "128": {
+        "pred_terms": [
+            "\u0441\u0435\u0440\u0432\u0438\u0440\u043e\u0432\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "129": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "130": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "131": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "132": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "133": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "134": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440-\u043e\u0447\u0435\u043d\u044c \u0441\u0432\u0435\u0442\u043b\u043e \u043d\u0430 \u0434\u0443\u0448\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "135": {
+        "pred_terms": [
+            "\u043f\u0440\u0438\u0431\u043e\u0440\u043e\u0432",
+            "\u0431\u043b\u044e\u0434",
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0430",
+            "\u043d\u043e\u0436\u043d\u0438\u0446\u044b",
+            "\u0441\u0435\u0440\u0432\u0438\u0440\u043e\u0432\u043a\u0430",
+            "\u0441\u043a\u0430\u0442\u0435\u0440\u0442\u0438",
+            "\u043a\u0443\u0441\u043e\u0447\u0435\u043a",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043a\u0430",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u043f\u043b\u0430\u0441\u0442\u044b\u0440\u044f)"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "neutral",
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "136": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "137": {
+        "pred_terms": [
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "138": {
+        "pred_terms": [
+            "\u0441\u0443\u043f\u0435\u0440",
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "139": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u043c\u044f\u0441\u043e"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "140": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "141": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "142": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "143": {
+        "pred_terms": [
+            "\u043f\u0440\u0438\u0435\u043c"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "144": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "145": {
+        "pred_terms": [
+            "\u0441\u044b\u0440\u043e\u043c",
+            "\u0445\u0430\u0447\u0430\u043f\u0443\u0440\u0438"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "146": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "147": {
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "148": {
+        "pred_terms": [
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "149": {
+        "pred_terms": [
+            "\u0441\u0442\u043e\u043b\u0438\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "150": {
+        "pred_terms": [
+            "\u0432\u043e\u0437\u0434\u0443\u0445",
+            "\u0441\u0442\u043e\u043b\u0438\u043a\u0438",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0433\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0435",
+            "\u0441\u0442\u0443\u043b\u044c\u044f"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "151": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434",
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "152": {
+        "pred_terms": [
+            "\u0441\u043e\u0443\u0441",
+            "\u043c\u044f\u0441\u043e",
+            "\u0448\u0430\u0448\u043b\u044b\u043a\u0443"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "153": {
+        "pred_terms": [
+            "\u043f\u0438\u0432\u043e",
+            "lapin kulta\""
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "154": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u0441\u0443\u0434\u0430\u043a",
+            "\u043c\u043e\u0440\u0435\u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430\u043c\u0438",
+            "\u043a\u043b\u044f\u0440\u0435"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "neutral",
+            "negative"
+        ]
+    },
+    "155": {
+        "pred_terms": [
+            "\u0447\u0430\u0439",
+            "\u043b\u0438\u043c\u043e\u043d\u043e\u043c"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "156": {
+        "pred_terms": [
+            "\u0441\u0435\u0440\u0432\u0438\u0441"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "157": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "158": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "159": {
+        "pred_terms": [
+            "\u043c\u0443\u0437\u044b\u043a\u0430",
+            "\u0432\u0438\u043d\u0430",
+            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430",
+            "\u043c\u0443\u0437\u044b\u043a\u0430\u043b\u044c\u043d\u044b\u0439 \u0432\u0430\u0440\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive",
+            "positive"
+        ]
+    },
+    "160": {
+        "pred_terms": [
+            "\u0443\u0440\u043e\u0432\u043d\u0435",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u0443 \u0432\u0443\u0441\u0430\u043b\u0443"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "161": {
+        "pred_terms": [
+            "\u0441\u0435\u0440\u0432\u0438\u0441"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "162": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "163": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "164": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "165": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0447\u0438\u043a"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "166": {
+        "pred_terms": [
+            "\u0441\u0435\u0440\u0432\u0438\u0441"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "167": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "168": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u0430",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0432\u043a\u0443\u0441"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "169": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0435\u0434\u044b",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "170": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "171": {
+        "pred_terms": [
+            "\u0444\u0438\u043b\u0435",
+            "\u043a\u0443\u0440\u0438\u0446\u044b",
+            "\u043f\u0430\u043b\u044c\u0447\u0438\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "negative"
+        ]
+    },
+    "172": {
+        "pred_terms": [
+            "\u0441\u044b\u0440",
+            "\u0441\u043e\u0443\u0441",
+            "\u043c\u044f\u0441\u043e",
+            "\u043a\u0443\u043d\u0436\u0443\u0442\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "173": {
+        "pred_terms": [
+            "\u043f\u043e\u0434\u0440\u0443\u0433\u0430",
+            "\u0442\u0435\u043b\u044f\u0442\u0438\u043d\u0443"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "174": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e",
+            "\u0432\u0440\u0435\u043c\u044f",
+            "\u043b\u0430\u0441",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "175": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e",
+            "\u043c\u0430\u0448\u0438\u043d\u0435"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "176": {
+        "pred_terms": [
+            "\u0437\u0430\u043b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "177": {
+        "pred_terms": [
+            "\u0441\u0442\u043e\u043b\u043e\u0432",
+            "\u0434\u0438\u0432\u0430\u043d\u0430\u043c\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "178": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "179": {
+        "pred_terms": [
+            "\u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "180": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442",
+            "\u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "181": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u0435\u0447\u043a\u043e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "182": {
+        "pred_terms": [
+            "\u043f\u0438\u0446\u0446\u0430",
+            "\u0433\u0440\u0438\u0431\u043e\u0447\u043a\u0438",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "negative"
+        ]
+    },
+    "183": {
+        "pred_terms": [
+            "\u0437\u0430\u043b",
+            "\u043f\u043e\u043c\u0435\u0449\u0435\u043d\u0438\u0435",
+            "\u0434\u0438\u0437\u0430\u0439\u043d"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "184": {
+        "pred_terms": [
+            "\u043e\u043a\u043e\u0448\u043a\u0430",
+            "\u0437\u0430\u043b\u0430",
+            "\u0442\u043e\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "positive"
+        ]
+    },
+    "185": {
+        "pred_terms": [
+            "\u043b\u0438\u0446\u043e",
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0430",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "negative"
+        ]
+    },
+    "186": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "187": {
+        "pred_terms": [
+            "\u043d\u0430\u043f\u0438\u0442\u043e\u043a",
+            "\u043b\u0438\u043c\u043e\u043d\u0447\u0435\u043b\u043b\u043e"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "188": {
+        "pred_terms": [
+            "\u043b\u0438\u043c\u043e\u043d\u0447\u0435\u043b\u043b\u043e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "189": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435",
+            "\u043d\u0430\u043f\u0438\u0442\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "190": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430)"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "191": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b",
+            "\u043f\u0440\u0430\u0437\u0434\u043d\u0438\u043a\u0443"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "192": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "193": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "194": {
+        "pred_terms": [
+            "\u0437\u0430\u043b\u0435",
+            "\u0434\u0438\u0432\u0430\u043d\u0447\u0438\u043a\u0438",
+            "\u043f\u043e\u0442\u043e\u043b\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "positive"
+        ]
+    },
+    "195": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "196": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442\u044b",
+            "\u043a\u0440\u0430\u0431\u043e\u043c",
+            "\u0443\u0442\u043a\u043e\u0439"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "197": {
+        "pred_terms": [
+            "\u043c\u044f\u0441\u0430",
+            "\u0433\u0440\u0443\u0448\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "198": {
+        "pred_terms": [
+            "\u043e\u0432\u043e\u0449\u0430\u043c\u0438",
+            "\u043e\u0432\u043e\u0449\u0430",
+            "\u0431\u043b\u044e\u0434\u043e",
+            "\u0431\u043b\u044e\u0434\u043e-\u0434\u043e\u0440\u0430\u0434\u043e"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "positive",
+            "positive"
+        ]
+    },
+    "199": {
+        "pred_terms": [
+            "\u0440\u044b\u0431\u044b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "200": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "201": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "202": {
+        "pred_terms": [
+            "\u0440\u0438\u0441"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "203": {
+        "pred_terms": [
+            "\u043f\u0435\u0447\u043a\u0438",
+            "\u043b\u0435\u043f\u0435\u0448\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "204": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u0438",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0447\u0438\u043a"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "205": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u043f\u0430\u0441\u0442\u0430",
+            "\u043c\u0430\u0441\u043b\u0430)"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "206": {
+        "pred_terms": [
+            "\u043c\u0443\u0437\u044b\u043a\u0430",
+            "\u043c\u0435\u0431\u0435\u043b\u044c",
+            "\u043f\u0435\u043f\u0435\u043b\u044c\u043d\u0438\u0446\u044b"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "207": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u043f\u043e\u0440\u0446\u0438\u0438",
+            "\u0441\u0442\u043e\u043b\u0430",
+            "\u043a\u043e\u043c\u043f\u043e\u0442- \u0435\u043b\u0435"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "208": {
+        "pred_terms": [
+            "\u0441\u0443\u043f\u044b",
+            "\u0431\u043b\u044e\u0434"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "209": {
+        "pred_terms": [
+            "\u0437\u0430\u043b\u043e\u0432",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u043a\u0443\u0440\u044f\u0442"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "210": {
+        "pred_terms": [
+            "\u043f\u043e\u0432\u0430\u0440",
+            "\u0448\u0435\u0444",
+            "\u0434\u0435\u0441\u0435\u0440\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "211": {
+        "pred_terms": [
+            "\u0437\u0430\u043b\u044c\u0447\u0438\u043a"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "212": {
+        "pred_terms": [
+            "\u0437\u043e\u043d",
+            "\u043a\u0443\u0440\u044f\u0449\u0438\u0445"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "213": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "214": {
+        "pred_terms": [
+            "\u043e\u0434\u0435\u0436\u0434\u0430",
+            "\u043c\u0443\u0437\u044b\u043a\u0430",
+            "\u043c\u0435\u043d\u044e",
+            "\u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u043e\u0432",
+            "\u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u043e\u0432/\u043c\u0443\u0437\u044b\u043a\u0430",
+            "\u0445\u043e\u0445\u043b\u044f\u0446\u043a\u043e\u043c"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral",
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "215": {
+        "pred_terms": [
+            "\u0432\u0438\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "216": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "217": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u043f\u0438\u0436\u043e\u043d\u0441\u043a\u0438\u0445 \u0434\u0435\u043b\u0438\u043a\u0430\u0442\u0435\u0441\u043e\u0432)"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "218": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0433\u043e\u0441\u0442\u0435\u0439"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "219": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u0441\u043e\u0443\u0441\u043e\u043c",
+            "\u0437\u0430\u043a\u0443\u0441\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "220": {
+        "pred_terms": [
+            "\u0446\u0432\u0435\u0442\u044b",
+            "\u043f\u0440\u0430\u0437\u0434\u043d\u0438\u043a\u0430",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "positive",
+            "positive"
+        ]
+    },
+    "221": {
+        "pred_terms": [
+            "\u0437\u0430\u043b",
+            "\u043c\u0435\u0441\u0442\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "222": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u043c\u0435\u0441\u0442\u043e",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u0443"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "223": {
+        "pred_terms": [
+            "\u043a\u0430\u0444\u0435",
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+            "\u043a\u0443\u0445\u043d\u0438",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u043e\u043c",
+            "\u0443\u0433\u043e\u043b\u043e\u043a",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u043e\u043c"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "positive",
+            "negative",
+            "neutral",
+            "negative"
+        ]
+    },
+    "224": {
+        "pred_terms": [
+            "\u043f\u0440\u0438\u0431\u043e\u0440\u044b",
+            "\u0443\u044e\u0442",
+            "\u0442\u043e\u043d\u0430",
+            "\u0434\u0438\u0432\u0430\u043d\u044b",
+            "\u0441\u0442\u0443\u043b\u044c\u044f",
+            "\u0441\u0435\u0440\u0432\u0438\u0440\u043e\u0432\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "225": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "226": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "227": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u043d\u0430\u043f\u0438\u0442\u043e\u043a",
+            "\u0441\u0443\u043f",
+            "\u043b\u0430\u043d\u0447\u0435",
+            "\u0431\u0438\u0437\u043d\u0435\u0441-\u043b\u0430\u043d\u0447\u0435"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "228": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434",
+            "\u043c\u044f\u0441\u043e)",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "229": {
+        "pred_terms": [
+            "\u043f\u0430\u0441\u0442\u0443"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "230": {
+        "pred_terms": [
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+            "\u0433\u043e\u0441\u0442\u044f\u043c"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "231": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "232": {
+        "pred_terms": [
+            "\u043c\u0443\u0437\u044b\u043a\u0430",
+            "\u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430",
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "233": {
+        "pred_terms": [
+            "\u0436\u0438\u0432\u043e\u0442\u0430",
+            "\u0438\u0441\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "234": {
+        "pred_terms": [
+            "\u043f\u0440\u0430\u0437\u0434\u043d\u0438\u043a\u0438",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "235": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "236": {
+        "pred_terms": [
+            "\u0432\u0438\u043d\u0430",
+            "\u0431\u043e\u043a\u0430\u043b",
+            "\u0442\u0430\u0440\u0435\u043b\u043a\u0443",
+            "\u0431\u043e\u043a\u0430\u043b\u0430",
+            "\u0431\u0440\u0443\u0441\u043a\u0435\u0442\u044b",
+            "\u0431\u043e\u0440\u0449",
+            "\u0431\u0438\u0437\u043d\u0435\u0441-\u043b\u0430\u043d\u0447\u0430",
+            "\u0445\u043e\u043b\u043e\u0434\u0438\u043b\u044c\u043d\u0438\u043a"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "neutral",
+            "neutral",
+            "neutral",
+            "negative",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "237": {
+        "pred_terms": [
+            "\u0431\u0440\u0443\u0441\u043a\u0435\u0442\u044b",
+            "\u0434\u0435\u0441\u0435\u0440\u0442"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "238": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "239": {
+        "pred_terms": [
+            "\u0431\u0430\u0440\u043c\u0435\u043d\u044b",
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive",
+            "positive"
+        ]
+    },
+    "240": {
+        "pred_terms": [
+            "\u043a\u043e\u0444\u0435",
+            "\u0447\u0430\u0439",
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u044f)",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430\u0445",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral",
+            "negative",
+            "negative"
+        ]
+    },
+    "241": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435",
+            "\u0433\u0440\u0438\u043b\u0435",
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b",
+            "\u0433\u043e\u0441\u0442\u0438",
+            "\u043f\u0440\u0430\u0437\u0434\u043d\u0438\u043a\u0430",
+            "\u0431\u0430\u043d\u043a\u0435\u0442\u0430",
+            "\u0445\u0430\u0447\u0430\u043f\u0443\u0440\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive",
+            "negative",
+            "positive",
+            "negative",
+            "negative",
+            "positive"
+        ]
+    },
+    "242": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "243": {
+        "pred_terms": [
+            "\u0434\u0435\u0441\u0435\u0440\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "244": {
+        "pred_terms": [
+            "\u0433\u0430\u043b\u0430\u0437\u0430",
+            "\u0432\u0445\u043e\u0434"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "245": {
+        "pred_terms": [
+            "\u0431\u0430\u0440\u043c\u0435\u043d",
+            "\u0437\u0430\u043b\u0435",
+            "\u0434\u0438\u0437\u0430\u0439\u043d",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043e\u0432",
+            "\u0434\u044b\u0440\",\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "positive",
+            "negative",
+            "negative"
+        ]
+    },
+    "246": {
+        "pred_terms": [
+            "\u0441\u0442\u043e\u043b\u0438\u043a",
+            "\u043f\u0435\u043f\u0435\u043b\u044c\u043d\u0438\u0446\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "247": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "248": {
+        "pred_terms": [
+            "\u0441\u0435\u0440\u0432\u0438\u0441"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "249": {
+        "pred_terms": [
+            "\u0441\u0435\u0440\u0432\u0438\u0441",
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0434\u0438\u0437\u0430\u0439\u043d",
+            "\u0438\u0437\u044e\u043c\u0438\u043d\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "250": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "251": {
+        "pred_terms": [
+            "\u0441\u043e\u043b\u0438",
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u043e\u0432\u043e\u0449\u0430\u043c\u0438",
+            "\u0441\u043e\u0443\u0441\u0430",
+            "\u0433\u0440\u0438\u0431\u0430\u043c\u0438",
+            "\u043f\u043e\u0440\u0446\u0438\u044f",
+            "\u0441\u0430\u043b\u0430\u0442\u0435",
+            "\u0433\u0440\u0435\u043d\u043a\u0430\u043c\u0438",
+            "\u0433\u0440\u0435\u043d\u043a\u0438",
+            "\u0441\u0432\u0438\u043d\u0438\u043d\u0443"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "negative",
+            "neutral",
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "252": {
+        "pred_terms": [
+            "\u0444\u0430\u0441\u043e\u043b\u044c",
+            "\u0441\u043e\u0443\u0441\u0435",
+            "\u0433\u0430\u0440\u043d\u0438\u0440",
+            "\u0433\u0440\u0443\u0434\u043a\u0438-\u0433\u0440\u0438\u043b\u044c"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "negative",
+            "neutral"
+        ]
+    },
+    "253": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "254": {
+        "pred_terms": [
+            "\u043c\u0443\u0436\u0447\u0438\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "255": {
+        "pred_terms": [
+            "\u043e\u0431\u0435\u0434\u043e\u0432",
+            "\u043c\u0435\u0441\u0442\u043e",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "256": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "257": {
+        "pred_terms": [
+            "\u043e\u0431\u0435\u0434\u044b",
+            "\u0442\u0430\u043d\u0446\u044b",
+            "\u0443\u0436\u0438\u043d\u044b",
+            "\u043a\u0430\u0440\u0430\u043e\u043a\u0435",
+            "\u043f\u043e\u0441\u0438\u0434\u0435\u043b\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "258": {
+        "pred_terms": [
+            "\u0440\u0435\u043c\u043e\u043d\u0442",
+            "\u043c\u0435\u0431\u0435\u043b\u044c",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "negative",
+            "positive"
+        ]
+    },
+    "259": {
+        "pred_terms": [
+            "\u0441\u0443\u0448\u0438",
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u043a\u0430\u0440\u0442\u0430",
+            "\u043a\u0438\u043e\u0442\u043e)",
+            "\u0440\u043e\u043b\u043b\u043e\u0432",
+            "\u0441\u0430\u043b\u0430\u0442\u0438\u043a\u043e\u0432",
+            "\u043c\u0435\u043d\u044e",
+            "\u043b\u043e\u043d\u0433",
+            "\u0433\u0435\u0439\u0448\u0430",
+            "\u0433\u0440\u0438\u043b\u044c-\u043c\u0435\u043d\u044e"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "neutral",
+            "neutral",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "260": {
+        "pred_terms": [
+            "\u043a\u0443\u0440\u044e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "261": {
+        "pred_terms": [
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u044f",
+            "\u0445\u043e\u0441\u0442\u0435\u0441",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "positive",
+            "negative"
+        ]
+    },
+    "262": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "263": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "264": {
+        "pred_terms": [
+            "\u0434\u0438\u0432\u0430\u043d\u044b",
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0438",
+            "\u0445\u043e\u0441\u0442\u0435\u0441",
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430",
+            "\u043f\u0440\u043e\u0434\u0430\u0436\u0443",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral",
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "265": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e",
+            "\u0448\u0443\u043c\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "266": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "267": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u0446\u0435\u0437\u0430\u0440\u0438",
+            "\u0431\u043b\u044e\u0434\u043e"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "268": {
+        "pred_terms": [
+            "\u0441\u043e\u0443\u0441\u0430",
+            "\u043f\u0430\u0441\u0442\u0430",
+            "\u0444\u0435\u0442\u0443\u0447\u0438\u043d\u0438",
+            "\u0433\u0440\u0438\u0431\u0430\u043c\u0438",
+            "\u0432\u043a\u0443\u0441"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "269": {
+        "pred_terms": [
+            "\u0442\u0435\u043c\u0430",
+            "\u0441\u0443\u0448\u0438",
+            "\u0440\u043e\u043b\u043b\u044b",
+            "\u0433\u0438\u043d\u0437\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "negative"
+        ]
+    },
+    "270": {
+        "pred_terms": [
+            "\u043b\u043e\u0441\u043e\u0441\u0435\u043c",
+            "\u0440\u043e\u043b\u043b \u043a\u0438\u043e\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "271": {
+        "pred_terms": [
+            "\u0434\u0435\u0441\u0435\u0440\u0442\u043e\u0432",
+            "\u0434\u0435\u0441\u0435\u0440\u0442\u0430\u043c",
+            "\u0447\u0438\u0437\u043a\u0435\u0439\u043a",
+            "\u0442\u0430\u0440-\u0442\u0430\u0440"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "272": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "273": {
+        "pred_terms": [
+            "\u043f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432",
+            "\u0431\u043b\u044e\u0434\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "274": {
+        "pred_terms": [
+            "\u0440\u043e\u043b\u043b\u044b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "275": {
+        "pred_terms": [
+            "\u043c\u044f\u0441\u043e",
+            "\u043f\u0430\u043b\u044c\u0447\u0438\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "277": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u043e",
+            "\u0433\u0430\u0441\u043f\u0430\u0447\u043e"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "278": {
+        "pred_terms": [
+            "\u043c\u0430\u0441\u043b\u0430",
+            "\u043f\u0435\u0440\u0435\u0446",
+            "\u043e\u0432\u043e\u0449\u0435\u0439",
+            "\u0442\u0430\u0431\u0430\u043a\u0430",
+            "\u0446\u0443\u043a\u0438\u043d\u0438",
+            "\u0446\u044b\u043f\u043b\u0435\u043d\u043e\u043a"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "279": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u043e",
+            "\u0441\u0443\u0434\u0430\u043a"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "280": {
+        "pred_terms": [
+            "\u0448\u0430\u0448\u043b\u044b\u043a",
+            "\u0433\u0440\u0438\u043b\u0435)",
+            "\u0431\u0430\u0440\u0430\u043d\u0438\u043d\u044b",
+            "\u0431\u043b\u044e\u0434\u043e"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "281": {
+        "pred_terms": [
+            "\u0432\u0438\u043d\u0430",
+            "\u0432\u0438\u043d\u043e",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435",
+            "\u0430\u043b\u043a\u043e\u0433\u043e\u043b\u044c"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral",
+            "negative"
+        ]
+    },
+    "282": {
+        "pred_terms": [
+            "\u0445\u043b\u0435\u0431",
+            "\u0445\u043b\u0435\u0431\u0430",
+            "\u043a\u043e\u0440\u0437\u0438\u043d\u0443"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "283": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "284": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "285": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "286": {
+        "pred_terms": [
+            "\u043b\u0438\u0446\u0430\u043c\u0438",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "287": {
+        "pred_terms": [
+            "\u043a\u0430\u0444\u0435"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "288": {
+        "pred_terms": [
+            "\u043c\u0435\u043d\u044e",
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0441\u0442\u0443\u043b\u044c\u0447\u0438\u043a\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "289": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "290": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "291": {
+        "pred_terms": [
+            "\u0447\u0435\u043f\u043e\u0440\u043d\u043e\u0441\u0442\u0438",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "292": {
+        "pred_terms": [
+            "\u0441\u0442\u043e\u043b\u0430",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "293": {
+        "pred_terms": [
+            "\u0447\u0430\u0439",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "294": {
+        "pred_terms": [
+            "\u043a\u0430\u0444\u0435",
+            "\u043f\u0438\u0449\u0435\u0439"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "295": {
+        "pred_terms": [
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "296": {
+        "pred_terms": [
+            "\u0445\u043e\u0437\u044f\u0438\u043d"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "297": {
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0430",
+            "\u0441\u0442\u043e\u043b\u044b",
+            "\u0444\u0440\u0443\u043a\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "298": {
+        "pred_terms": [
+            "\u0433\u043e\u0441\u0442\u0435\u0439",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "299": {
+        "pred_terms": [
+            "\u043f\u043e\u0441\u0443\u0434\u0443"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "300": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "301": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "302": {
+        "pred_terms": [
+            "\u0443\u0440\u043e\u0432\u043d\u0435",
+            "c\u0435\u0440\u0432\u0438\u0441"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "303": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u043e",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "304": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u043f\u0430\u0441\u0442\u0430",
+            "\u0441\u0438\u0431\u0430\u0441",
+            "\u043a\u0440\u0430\u0431\u0430\u043c\u0438"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "305": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u043c\u0435\u0441\u0442\u0430",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "306": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u044b",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative",
+            "negative"
+        ]
+    },
+    "307": {
+        "pred_terms": [
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u0430",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "308": {
+        "pred_terms": [
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "309": {
+        "pred_terms": [
+            "\u0442\u043e\u043b\u043a",
+            "\u043f\u043e\u0432\u0430\u0440\u0438",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430\u0445"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "310": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "311": {
+        "pred_terms": [
+            "\u043c\u0443\u0437\u044b\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "312": {
+        "pred_terms": [
+            "\u0440\u0435\u0437\u0438\u043d\u044b"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "313": {
+        "pred_terms": [
+            "\u0440\u044b\u0431"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "314": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "315": {
+        "pred_terms": [
+            "\u0434\u0435\u0441\u0435\u0440\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "316": {
+        "pred_terms": [
+            "\u0441\u0435\u0440\u0432\u0438\u0441"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "317": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "318": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "319": {
+        "pred_terms": [
+            "\u043f\u0438\u0432\u0430",
+            "\u0433\u0440\u0435\u043d\u043a\u0430\u043c\u0438",
+            "\u043a\u0430\u043b\u044c\u043c\u0430\u0440\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "320": {
+        "pred_terms": [
+            "\u0437\u0430\u043a\u0443\u0441\u043e\u043a",
+            "\u043a\u0430\u0440\u0442\u043e\u0444\u0435\u043b\u044c",
+            "\u043f\u0430\u043b\u043e\u0447\u043a\u0438",
+            "\u043f\u0438\u0432\u0443",
+            "\u043a\u043e\u043b\u0431\u0430\u0441\u043a\u0430)",
+            "\u043a\u0430\u043b\u044c\u043c\u0430\u0440\u043e\u0432",
+            "\u0430\u0441\u0441\u043e\u0440\u0442\u0438"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral",
+            "positive",
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "321": {
+        "pred_terms": [
+            "\u043f\u0438\u0432\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "322": {
+        "pred_terms": [
+            "\u043f\u0438\u0432\u043e",
+            "\u0440\u0435\u0431\u044f\u0442\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "323": {
+        "pred_terms": [
+            "\u043f\u0438\u0432\u043e\u043c",
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u0433\u0440\u0435\u043d\u043a\u0438",
+            "\u0446\u0435\u0437\u0430\u0440\u044c"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "negative",
+            "neutral"
+        ]
+    },
+    "324": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442\u0430",
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u043a\u0443\u0440\u0438\u0446\u044b",
+            "\u043b\u0438\u0441\u0442\u044c\u044f",
+            "\u043a\u0443\u0441\u043a\u0430)",
+            "\u043f\u0430\u0440\u043c\u0435\u0437\u0430\u043d\u0430",
+            "\u0446\u0435\u0437\u0430\u0440\u044c"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral",
+            "neutral",
+            "neutral",
+            "negative",
+            "positive"
+        ]
+    },
+    "325": {
+        "pred_terms": [
+            "\u043f\u0438\u0446\u0446\u0443",
+            "\u0440\u0435\u0437\u0438\u043d\u044b"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "326": {
+        "pred_terms": [
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "327": {
+        "pred_terms": [
+            "\u043a\u0430\u0444\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "328": {
+        "pred_terms": [
+            "\u0440\u0430\u0441\u043f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "329": {
+        "pred_terms": [
+            "\u0437\u0430\u043b\u0435",
+            "\u0441\u0438\u0441\u0442\u0435\u043c\u0430",
+            "\u0432\u0435\u043d\u0442\u0438\u043b\u044f\u0446\u0438\u0438"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive",
+            "positive"
+        ]
+    },
+    "330": {
+        "pred_terms": [
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "331": {
+        "pred_terms": [
+            "\u043c\u0435\u043d\u044e"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "332": {
+        "pred_terms": [
+            "\u043f\u043e\u0440\u0446\u0438\u0438"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "333": {
+        "pred_terms": [
+            "\u0434\u0438\u0435\u0442\u0443",
+            "\u0431\u043b\u044e\u0434",
+            "\u043a\u043e\u043c\u043c\u0435\u043d\u0442",
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0430-\u043e\u0444\u043e\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "positive",
+            "positive"
+        ]
+    },
+    "334": {
+        "pred_terms": [
+            "\u043f\u0438\u0432\u0430"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "335": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "336": {
+        "pred_terms": [
+            "\u043f\u0443\u0440\u0438"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "337": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "338": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0431\u043b\u044e\u0434\u043e",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "339": {
+        "pred_terms": [
+            "\u0438\u043b\u044c\u044f - \u043c\u043e\u043b\u043e\u0434\u0435\u0446"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "340": {
+        "pred_terms": [
+            "\u043e\u0432\u043e\u0449\u0435\u0439",
+            "\u0441\u0430\u043b\u0430\u0442\u044b",
+            "\u043b\u0430\u0433\u043c\u0430\u043d",
+            "\u0445\u0430\u0447\u0430\u043f\u0443\u0440\u0438"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "341": {
+        "pred_terms": [
+            "\u043a\u0430\u0440\u0442\u0430",
+            "\u0432\u0438\u043d\""
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "342": {
+        "pred_terms": [
+            "\u043d\u0430\u043f\u0438\u0442\u043e\u043a",
+            "\u0430\u0439\u0440\u0430\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "343": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "344": {
+        "pred_terms": [
+            "\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "345": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "346": {
+        "pred_terms": [
+            "\u0441\u0442\u0438\u043b\u0435",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "347": {
+        "pred_terms": [
+            "\u0431\u0430\u0440",
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u044b",
+            "\u0448\u0430\u0448\u043b\u044b\u043a\u0438",
+            "\u0446\u0435\u0437\u0430\u0440\u044c"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "348": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "349": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "350": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "351": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0443",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0443"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "352": {
+        "pred_terms": [
+            "\u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u044f",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u0430\u043c\u0438"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "353": {
+        "pred_terms": [
+            "\u043c\u043e\u0445\u0438\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "354": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u043c\u043e\u0445\u0438\u0442\u043e \u0432 \u0433\u043e\u043b\u0434\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "355": {
+        "pred_terms": [
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430",
+            "\u043c\u0435\u043d\u044e",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "356": {
+        "pred_terms": [
+            "\u043c\u0443\u0437\u044b\u043a\u0430",
+            "\u0440\u0435\u043f\u0435\u0440\u0442\u0443\u0430\u0440"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "357": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "358": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u0442\u043e\u043c\u0430\u0442\u0430\u043c\u0438",
+            "\u043a\u0440\u043e\u043b\u0438\u043a",
+            "\u043b\u043e\u0441\u043e\u0441\u0435\u043c",
+            "\u0441\u043e\u0443\u0441\u043e\u043c",
+            "\u0431\u0430\u043a\u043b\u0430\u0436\u0430\u043d\u044b",
+            "\u043f\u043e\u0434\u0430\u0447\u0435\u0439",
+            "\u0440\u0430\u0432\u0438\u043e\u043b\u043b\u0438",
+            "\u0432\u043a\u0443\u0441\u043e\u043c"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive",
+            "neutral",
+            "neutral",
+            "positive",
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "359": {
+        "pred_terms": [
+            "\u0442\u043e\u043c\u0430\u0442\u0430\u043c\u0438",
+            "\u0441\u044b\u0440\u043e\u043c"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "360": {
+        "pred_terms": [
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "361": {
+        "pred_terms": [
+            "\u043c\u0443\u0437\u044b\u043a\u0430",
+            "\u0434\u0438\u0432\u0430\u043d\u044b",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "362": {
+        "pred_terms": [
+            "\u0447\u0430\u0439",
+            "\u0441\u0430\u043a\u0443\u0440\u0430",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "363": {
+        "pred_terms": [
+            "\u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430",
+            "\u043c\u0435\u0441\u0442",
+            "\u0446\u0435\u043d\u044b",
+            "\u0431\u043b\u044e\u0434\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "364": {
+        "pred_terms": [
+            "\u0441\u0430\u0439\u0442\u0430\u0445",
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "365": {
+        "pred_terms": [
+            "\u043f\u0438\u0449\u0438",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "366": {
+        "pred_terms": [
+            "\u043c\u0435\u0431\u0435\u043b\u0438"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "367": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "368": {
+        "pred_terms": [
+            "\u043f\u0430\u0441\u0442\u0443",
+            "\u043a\u0443\u0445\u043d\u0438",
+            "\u043f\u043e\u0440\u0446\u0438\u0438",
+            "\u043f\u043e\u0440\u0446\u0438\u044f"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "negative",
+            "negative"
+        ]
+    },
+    "369": {
+        "pred_terms": [
+            "\u043f\u0430\u0447\u043a\u0443",
+            "\u043c\u0430\u043a\u0430\u0440\u043e\u043d",
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0430\u0445",
+            "\u043a\u043b\u0438\u0435\u043d\u0442\u0430\u0445"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "370": {
+        "pred_terms": [
+            "\u0441\u0443\u043f\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "371": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u043e",
+            "\u0441\u0430\u043b\u0443",
+            "\u043f\u0430\u0445\u043b\u043e",
+            "\u0448\u043a\u0432\u0430\u0440\u043a\u0430\u043c\u0438",
+            "\u043a\u0440\u0435\u043c-\u0441\u0443\u043f\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "372": {
+        "pred_terms": [
+            "\u043c\u0430\u0441\u043b\u043e\u043c",
+            "\u0445\u043b\u0435\u0431",
+            "\u043b\u0430\u0437\u0430\u043d\u044c\u044e"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "373": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e",
+            "\u0437\u0430\u043b)",
+            "\u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u044b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "negative"
+        ]
+    },
+    "374": {
+        "pred_terms": [
+            "\u0442\u0443\u0430\u043b\u0435\u0442\u0430",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "375": {
+        "pred_terms": [
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "376": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u0431\u043b\u044e\u0434",
+            "\u043a\u0440\u0435\u043c",
+            "\u043b\u043e\u0441\u043e\u0441\u044f",
+            "\u043a\u0440\u0435\u043c-\u0441\u0443\u043f",
+            "\u043c\u043e\u0440\u0435\u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430\u043c\u0438"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "positive",
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "377": {
+        "pred_terms": [
+            "\u0441\u0443\u0448\u0438"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "378": {
+        "pred_terms": [
+            "\u0441\u0435\u0440\u0432\u0438\u0441"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "379": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "380": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440\u0430"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "381": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u043e",
+            "\u0441\u0442\u0430\u0436\u0435\u0440",
+            "\u0432\u0435\u0449\u0435\u0439"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "382": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "383": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u043f\u0430\u0441\u0442\u0443",
+            "\u0432\u0438\u043d\u043e)",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "384": {
+        "pred_terms": [
+            "\u0437\u0430\u043b\u0435",
+            "\u043e\u0431\u0435\u0434\u0430",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "385": {
+        "pred_terms": [
+            "\u0431\u0430\u0440\u043c\u0435\u043d"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "386": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "387": {
+        "pred_terms": [
+            "\u0431\u0443\u043b\u043e\u0447\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "388": {
+        "pred_terms": [
+            "\u0431\u0443\u043b\u043e\u0447\u043a\u0438",
+            "\u0437\u0430\u043a\u0443\u0441\u043a\u0438",
+            "\u0441\u0442\u043e\u043b\u0430"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "389": {
+        "pred_terms": [
+            "\u0441\u044b\u0440\u043e\u043c",
+            "\u0445\u0430\u0447\u0430\u043f\u0443\u0440\u0438"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "390": {
+        "pred_terms": [
+            "\u0441\u043e\u043b\u0438",
+            "\u0441\u043e\u0443\u0441\u0435",
+            "\u0437\u0430\u043a\u0430\u0437\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "391": {
+        "pred_terms": [
+            "\u0448\u0430\u0448\u043b\u044b\u043a\u0430",
+            "\u0431\u0430\u0440\u0430\u043d\u0438\u043d\u044b"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "392": {
+        "pred_terms": [
+            "\u0448\u0430\u0448\u043b\u044b\u043a",
+            "\u0441\u043e\u0443\u0441"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "393": {
+        "pred_terms": [
+            "\u0440\u0443\u043a",
+            "\u0440\u0443\u043a\u0430\u043c\u0438",
+            "\u0432\u043e\u0434\u043e\u0439",
+            "\u0448\u0430\u0448\u043b\u044b\u043a\u0443",
+            "\u043b\u0438\u043c\u043e\u043d\u043e\u043c",
+            "\u0448\u0430\u0448\u043b\u044b\u043a",
+            "\u0442\u0430\u0440\u0435\u043b\u043a\u0443"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral",
+            "positive",
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "394": {
+        "pred_terms": [
+            "\u0440\u044b\u0431\u0443"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "395": {
+        "pred_terms": [
+            "\u043e\u043a\u043e\u043d",
+            "\u044d\u043c\u043e\u0446\u0438\u0439"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "396": {
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "397": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "398": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "400": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "401": {
+        "pred_terms": [
+            "\u043a\u043e\u043a\u0442\u0435\u0439\u043b\u044c",
+            "\u0440\u0435\u0431\u0451\u043d\u043e\u043a",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "negative"
+        ]
+    },
+    "402": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "403": {
+        "pred_terms": [
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "404": {
+        "pred_terms": [
+            "\u0434\u0435\u0441\u0435\u0440\u0442",
+            "\u0442\u0438\u0440\u0430\u043c\u0438\u0441\u0443",
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "405": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "406": {
+        "pred_terms": [
+            "\u0440\u0430\u0431\u043e\u0442\u0443",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "negative"
+        ]
+    },
+    "407": {
+        "pred_terms": [
+            "\u0441\u0442\u0438\u043b\u044c",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "408": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "409": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "410": {
+        "pred_terms": [
+            "\u043f\u043b\u0430\u0442\u044b",
+            "\u0437\u0430\u043b",
+            "\u0432\u0438\u043f-\u0437\u0430\u043b",
+            "\u043e\u043b\u044c\u0433\u0430",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "neutral",
+            "positive",
+            "positive"
+        ]
+    },
+    "411": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442\u044b",
+            "\u0441\u0442\u043e\u043b\u044b",
+            "\u0441\u0442\u0435\u0439\u043a\u0443"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "positive"
+        ]
+    },
+    "412": {
+        "pred_terms": [
+            "\u0432\u043e\u0434\u0430",
+            "\u0442\u0443\u0430\u043b\u0435\u0442\u044b",
+            "\u0437\u0435\u0440\u043a\u0430\u043b\u0430\u0445",
+            "\u0441\u0442\u0435\u043d\u0435"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "413": {
+        "pred_terms": [
+            "\u043a\u0430\u043b\u044c\u044f\u043d"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "414": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "415": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0431\u0430\u0440\u043c\u0435\u043d\u043e\u043c",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u043e\u043c",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u0430\u043c"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "416": {
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b",
+            "\u043c\u0430\u0441\u0441\u043c\u0438\u0434\u0438\u044f"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "417": {
+        "pred_terms": [
+            "\u043c\u0438\u0434\u0438\u0438",
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "418": {
+        "pred_terms": [
+            "\u0434\u0438\u0430\u043d\u0443"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "419": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "420": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0434\u0438\u0430\u043d\u0435",
+            "\u0446\u0435\u043d\u044b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "negative"
+        ]
+    },
+    "421": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "422": {
+        "pred_terms": [
+            "\u043d\u0430\u043f\u0438\u0442\u043a\u0438",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "423": {
+        "pred_terms": [
+            "\u043c\u044f\u0441\u043e",
+            "\u0435\u0434\u044b",
+            "\u043f\u043e\u0440\u0446\u0438\u0438",
+            "\u043a\u0443\u0445\u043d\u0435",
+            "\u0446\u0435\u043d\u044b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "424": {
+        "pred_terms": [
+            "\u043e\u043a\u043d\u0430",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "negative"
+        ]
+    },
+    "425": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0443\u0445\u043d\u044f"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "426": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "427": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442\u044b",
+            "\u043e\u0432\u043e\u0449\u0430\u043c\u0438",
+            "\u043c\u044f\u0441\u043e\u043c",
+            "\u043a\u0443\u0440\u0438\u0446\u0435\u0439",
+            "\u043c\u044f\u0441\u043e"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "428": {
+        "pred_terms": [
+            "\u043b\u0435\u0431\u0435\u0434\u0435\u0432",
+            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "429": {
+        "pred_terms": [
+            "\u0437\u0430\u043b",
+            "\u043a\u0443\u0440\u044f\u0449\u0438\u0445"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "430": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "431": {
+        "pred_terms": [
+            "\u0434\u0435\u0441\u0435\u0440\u0442\u0430\u043c"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "432": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "433": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u0430"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "434": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "435": {
+        "pred_terms": [
+            "\u0434\u0435\u043d\u044c\u0433\u0438",
+            "\u0430\u043a\u0446\u0438\u044f\u043c\u0438",
+            "\u043a\u0430\u0440\u0442\u0443",
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0439"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "negative",
+            "neutral"
+        ]
+    },
+    "436": {
+        "pred_terms": [
+            "\u0444\u0443\u0442\u0431\u043e\u043b",
+            "\u043f\u0430\u0431\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "437": {
+        "pred_terms": [
+            "\u044d\u043a\u0440\u0430\u043d\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "438": {
+        "pred_terms": [
+            "\u043c\u0443\u0437\u044b\u043a\u0430\u043b\u044c\u043d\u043e\u0435 \u0441\u043e\u043f\u0440\u043e\u0432\u043e\u0436\u0434\u0435\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "439": {
+        "pred_terms": [
+            "\u043f\u0438\u0432\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "440": {
+        "pred_terms": [
+            "\u043c\u0435\u043d\u044e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "441": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "442": {
+        "pred_terms": [
+            "\u043f\u0430\u0440\u0434\u043e\u043d",
+            "\u043a\u043e\u043c\u043d\u0430\u0442\u0435",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0440\u0430\u043d\u0441\u043b\u044f\u0446\u0438\u0439"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "443": {
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0430"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "444": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442\u044b",
+            "\u0441\u0442\u043e\u043b\u0438\u043a",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "445": {
+        "pred_terms": [
+            "\u0437\u0430\u043b",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "446": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e",
+            "\u0444\u0438\u043d\u043d\u0435\u0433\u0430\u043d\u0441 \u043f\u0440\u043e\u0446\u0432\u0435\u0442\u0430\u043d\u0438\u044f"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "447": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "448": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "449": {
+        "pred_terms": [
+            "\u043e\u0432\u043e\u0449\u0438",
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u0442\u0435\u0440\u043c\u043e\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "neutral"
+        ]
+    },
+    "450": {
+        "pred_terms": [
+            "\u0430\u0440\u0442\u0438\u0441\u0442\u043e\u0432",
+            "\u0432\u044b\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "451": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "452": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0443"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "453": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "454": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u043e\u0431\u0449\u0435\u043d\u0438\u044f",
+            "\u043c\u0435\u0440\u043e\u043f\u0440\u0438\u044f\u0442\u0438\u044f"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "455": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0433\u043e\u0441\u0442\u0435\u0439",
+            "\u0448\u0435\u0444-\u043f\u043e\u0432\u0430\u0440\u0443)"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "456": {
+        "pred_terms": [
+            "\u043f\u043e\u0441\u0443\u0434\u0430",
+            "\u043f\u043e\u0434\u0430\u0447\u0430",
+            "\u0432\u043a\u0443\u0441",
+            "\u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive",
+            "positive"
+        ]
+    },
+    "457": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u043f\u043e\u0441\u0443\u0434\u0430",
+            "\u0441\u043e\u0431\u043e\u0439",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral",
+            "negative"
+        ]
+    },
+    "458": {
+        "pred_terms": [
+            "\u0430\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "459": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "460": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e",
+            "\u043a\u0430\u0444\u0435",
+            "\u043c\u0435\u0441\u0442",
+            "\u0440\u0435\u043b\u0430\u043a\u0441-\u043a\u0430\u0444\u0435",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "461": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "462": {
+        "pred_terms": [
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "463": {
+        "pred_terms": [
+            "\u0437\u0430\u043a\u0443\u0441\u043a\u0438",
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b",
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u0441\u0442\u043e\u043b\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "464": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e\u043c"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "465": {
+        "pred_terms": [
+            "\u043c\u0443\u0437\u044b\u043a\u0430",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "466": {
+        "pred_terms": [
+            "\u0437\u0430\u043b\u0438\u0432",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440\u0443"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "467": {
+        "pred_terms": [
+            "\u043c\u0443\u0437\u044b\u043a\u0430",
+            "\u043f\u0440\u0438\u0431\u043e\u0440\u044b",
+            "\u0432\u0438\u043d\u043e",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "468": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "469": {
+        "pred_terms": [
+            "\u043f\u043e\u0432\u0430\u0440\u0443",
+            "\u0448\u0435\u0444-\u043f\u043e\u0432\u0430\u0440\u0443"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "470": {
+        "pred_terms": [
+            "\u043f\u043e\u0440\u0446\u0438\u0438"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "471": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "472": {
+        "pred_terms": [
+            "\u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "473": {
+        "pred_terms": [
+            "\u0441\u0442\u043e\u043b\u0438\u043a",
+            "\u043e\u0434\u0435\u0436\u0434\u0443",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442",
+            "\u0433\u0430\u0440\u0434\u0435\u0440\u043e\u0431"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative",
+            "neutral"
+        ]
+    },
+    "474": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "475": {
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "476": {
+        "pred_terms": [
+            "\u0432\u0430\u043b\u0435\u043d\u0442\u0438\u043d",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "477": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u043f\u043e\u0432\u0430\u0440\u0430",
+            "\u043f\u0430\u0448\u0442\u0435\u0442",
+            "\u043e\u043b\u0435\u043d\u0438\u043d\u044b",
+            "\u0448\u0435\u0444-\u043f\u043e\u0432\u0430\u0440\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "478": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "479": {
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "480": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "481": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442",
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0430-\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "482": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "483": {
+        "pred_terms": [
+            "\u0437\u0430\u043b",
+            "\u0443\u044e\u0442\u0430",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u043e\u043d\u0430\u0445",
+            "\u043a\u0430\u043c\u0435\u0440\u043d\u043e\u0441\u0442\u0438"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "484": {
+        "pred_terms": [
+            "\u043e\u043a\u043d\u0430",
+            "\u043f\u0435\u0439\u0437\u0430\u0436\u0435\u043c"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "485": {
+        "pred_terms": [
+            "\u0437\u0430\u043a\u0430\u0437",
+            "\u0431\u043b\u044e\u0434",
+            "\u0434\u0435\u0441\u0435\u0440\u0442\u044b",
+            "\u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u044f",
+            "\u0431\u0430\u043d\u043a\u0435\u0442\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "486": {
+        "pred_terms": [
+            "\u043a\u0430\u0440\u0442\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "487": {
+        "pred_terms": [
+            "\u0432\u0438\u043d\u043e",
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u044f",
+            "\u0445\u043e\u0437\u044f\u0438\u043d"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "negative"
+        ]
+    },
+    "488": {
+        "pred_terms": [
+            "\u0443\u0436\u0438\u043d"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "489": {
+        "pred_terms": [
+            "\u0437\u0430\u043c\u043e\u043a",
+            "\u0442\u0443\u0430\u043b\u0435\u0442",
+            "\u0434\u0432\u0435\u0440\u0438)",
+            "\u0445\u043e\u043b\u043b\u0430",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440\u043e\u043c"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "neutral",
+            "negative",
+            "negative"
+        ]
+    },
+    "490": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0434\u0438\u0430\u043d\u044b",
+            "\u0443\u0436\u0438\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "491": {
+        "pred_terms": [
+            "\u043c\u0443\u0437\u044b\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "492": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "493": {
+        "pred_terms": [
+            "\u043f\u043e\u0432\u0430\u0440",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "494": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "495": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "496": {
+        "pred_terms": [
+            "\u0432\u0438\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "497": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "498": {
+        "pred_terms": [
+            "\u0432\u0438\u0434",
+            "\u043e\u043a\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "499": {
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0443"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "500": {
+        "pred_terms": [
+            "\u043a\u0430\u0444\u0435",
+            "\u0437\u0430\u043b",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0437\u0430\u043b\u0435",
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0438",
+            "\u043e\u043a\u043d\u043e",
+            "\u043e\u043a\u043d\u043e\u043c",
+            "\u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0435\u0439",
+            "\u043a\u0443\u0445\u043d\u044e\""
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative",
+            "neutral",
+            "negative",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "501": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u0435"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "502": {
+        "pred_terms": [
+            "\u0431\u0435\u043b\u044b\u0445 \u0433\u0440\u0438\u0431\u043e\u0432",
+            "\u043a\u0440\u0435\u043c-\u0441\u0443\u043f"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "503": {
+        "pred_terms": [
+            "\u0441\u043e\u0441\u0442\u0430\u0432",
+            "\u043f\u0438\u0446\u0446\u0443",
+            "\u043f\u0438\u0446\u0446\u0430",
+            "\u0442\u0435\u0441\u0442\u043e",
+            "\u0432\u043a\u0443\u0441"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "504": {
+        "pred_terms": [
+            "\u043e\u043a\u043d\u043e",
+            "\u0437\u0430\u043b\u0435",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440\u0443"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "neutral"
+        ]
+    },
+    "505": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "506": {
+        "pred_terms": [
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440",
+            "\u0433\u0430\u0440\u0434\u0435\u0440\u043e\u0431\u0449\u0438\u0446\u0430",
+            "\u043a\u0430\u0441\u0441\u0438\u0440-\u0433\u0430\u0440\u0434\u0435\u0440\u043e\u0431\u0449\u0438\u0446\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "507": {
+        "pred_terms": [
+            "\u043a\u0430\u043c\u0438\u043d\u0430",
+            "\u043a\u043e\u0441\u0442\u044e\u043c\u0430\u0445",
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "508": {
+        "pred_terms": [
+            "\u0437\u0430\u043a\u0430\u0437",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "509": {
+        "pred_terms": [
+            "\u0442\u0438\u0440\u0430\u043c\u0438\u0441\u0443"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "510": {
+        "pred_terms": [
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0430",
+            "\u0433\u043e\u0441\u0442\u0435\u0439"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "511": {
+        "pred_terms": [
+            "\u043f\u043e\u0440\u0446\u0438\u0438",
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0446\u0435\u043d\u044b"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "512": {
+        "pred_terms": [
+            "\u043e\u0442\u0442\u0435\u043d\u043a\u043e\u0432",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "513": {
+        "pred_terms": [
+            "\u0437\u0430\u043b)",
+            "\u0434\u0438\u0432\u0430\u043d\u044b"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "514": {
+        "pred_terms": [
+            "\u043f\u043e\u0442\u043e\u043b\u043a\u043e\u0432",
+            "\u0437\u0430\u043f\u0430\u0445\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "515": {
+        "pred_terms": [
+            "\u043c\u0443\u0437\u044b\u043a\u0430",
+            "\u043a\u0443\u0445\u043d\u044f)"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "516": {
+        "pred_terms": [
+            "\u0441\u043e\u0443\u0441",
+            "\u0441\u0442\u0435\u0439\u043a"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "517": {
+        "pred_terms": [
+            "\u043e\u0434\u0435\u0436\u0434\u0430",
+            "\u0433\u0430\u0440\u0434\u0435\u0440\u043e\u0431\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "518": {
+        "pred_terms": [
+            "\u0431\u0430\u0440",
+            "\u0434\u0430\u0439\u043a\u0438\u0440\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "519": {
+        "pred_terms": [
+            "\u0431\u0430\u0440\u0430",
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b",
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0443"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive",
+            "negative"
+        ]
+    },
+    "520": {
+        "pred_terms": [
+            "\u0446\u0435\u043d\u0430\u043c",
+            "\u043a\u043e\u043a\u0442\u0435\u0439\u043b\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "521": {
+        "pred_terms": [
+            "\u043c\u0435\u0442\u0440\u043e",
+            "\u043c\u0435\u0441\u0442\u043e\u043f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "522": {
+        "pred_terms": [
+            "\u043c\u0443\u0437\u044b\u043a\u0430",
+            "\u0443\u0445\u043e",
+            "lounge",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u043a\u043e\u043b\u043e\u043d\u043a\u043e\u0439)",
+            "\u043f\u043b\u0435\u0439\u043b\u0438\u0441\u0442"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive",
+            "negative",
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "523": {
+        "pred_terms": [
+            "\u0441\u0435\u0440\u0432\u0438\u0441"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "524": {
+        "pred_terms": [
+            "\u043c\u0435\u043d\u044e",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442(\u0438\u043b\u044c\u044f)"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "positive"
+        ]
+    },
+    "525": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044e"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "526": {
+        "pred_terms": [
+            "\u0446\u0435\u043d\u044b",
+            "\u0441\u0443\u0448\u0438 \u0431\u0430\u0440\u0430\u043c\u0438"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "527": {
+        "pred_terms": [
+            "\u0441\u0443\u043f",
+            "\u0441\u0432\u0438\u043d\u0438\u043d\u0430",
+            "\u043c\u044f\u0441\u043e",
+            "\u043a\u0440\u0435\u0432\u0435\u0442\u043a\u0430\u043c\u0438",
+            "\u043b\u0430\u043f\u0448\u043e\u0439",
+            "\u0442\u0438\u0440\u0430\u043c\u0438\u0441\u0443"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "528": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "529": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u043b\u044e\u0431\u0438\u0442\u0435\u043b\u044f"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "530": {
+        "pred_terms": [
+            "\u043c\u0443\u0437\u044b\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "531": {
+        "pred_terms": [
+            "\u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430",
+            "\u043c\u0443\u0437\u044b\u043a\u0430",
+            "\u0434\u0436\u0430\u0437"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "532": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "533": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "534": {
+        "pred_terms": [
+            "\u0432\u0438\u043d\u0430",
+            "\u0432\u044b\u0431\u043e\u0440"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "535": {
+        "pred_terms": [
+            "\u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "536": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "537": {
+        "pred_terms": [
+            "\u043a\u0430\u0431\u0438\u043d\u043a\u0438",
+            "\u043f\u043e\u0434\u0443\u0448\u043a\u0430\u043c\u0438",
+            "\u0441\u0443\u043f\u0435\u0440",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "538": {
+        "pred_terms": [
+            "\u043e\u0432\u043e\u0449\u0438",
+            "\u0444\u0440\u0443\u043a\u0442\u044b",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0431\u043b\u044e\u0434\u0430\u043c"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "539": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "540": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e",
+            "\u043e\u0442\u0434\u044b\u0445\u0443"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "541": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442\u044b",
+            "\u0442\u0430\u0440\u0435\u043b\u043a\u0438",
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u0441\u0442\u0435\u0439\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "542": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442\u044b",
+            "\u0437\u0430\u043a\u0443\u0441\u043a\u0438",
+            "\u0432\u043a\u0443\u0441"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "543": {
+        "pred_terms": [
+            "\u043e\u0433\u0443\u0440\u0446\u044b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "544": {
+        "pred_terms": [
+            "\u043f\u043e\u0441\u0443\u0434\u0430",
+            "\u043d\u0430\u043f\u0438\u0442\u043a\u0438",
+            "\u0441\u0442\u043e\u043b\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "545": {
+        "pred_terms": [
+            "\u0437\u0430\u043b\u0430",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u043a\u0430\u0440\u0430\u043e\u043a\u0435"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "546": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "547": {
+        "pred_terms": [
+            "\u0431\u0430\u043d\u043a\u0438",
+            "\u043c\u0435\u0431\u0435\u043b\u044c",
+            "\u043a\u043e\u043c\u043f\u043e\u0442\u0430\u043c\u0438",
+            "\u043a\u0440\u0443\u043f\u0430\u043c\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "548": {
+        "pred_terms": [
+            "\u043d\u0430\u043f\u0438\u0442\u043a\u0438",
+            "\u043f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "549": {
+        "pred_terms": [
+            "\u043f\u043e\u0440\u0446\u0438\u0438",
+            "\u0431\u043b\u044e\u0434\u0430"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "550": {
+        "pred_terms": [
+            "\u0442\u043e\u0440\u0441",
+            "\u0448\u043a\u0430\u0442\u0443\u043b\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "551": {
+        "pred_terms": [
+            "\u0437\u0430\u043b\u0435"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "552": {
+        "pred_terms": [
+            "\u0433\u0430\u0440\u0434\u0435\u0440\u043e\u0431\u0430",
+            "\u043c\u0438\u043d\u0443\u0441\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "553": {
+        "pred_terms": [
+            "\u043e\u0434\u0435\u0436\u0434\u043e\u0439",
+            "\u0432\u0435\u0448\u0430\u043b\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "554": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "555": {
+        "pred_terms": [
+            "\u0433\u043e\u0441\u0442\u0435\u0439",
+            "\u0431\u0435\u0439\u0434\u0436\u0435\u0439",
+            "\u0434\u0435\u0432\u0443\u0448\u0435\u043a",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u043e\u0432",
+            "\u0434\u0435\u0432\u0443\u0448\u0435\u043a-\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "556": {
+        "pred_terms": [
+            "\u043f\u043e\u0440\u0446\u0438\u0439",
+            "\u0432\u0435\u0441"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "557": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u043e",
+            "\u0433\u043b\u0430\u0437\u0430",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043a\u0443"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "558": {
+        "pred_terms": [
+            "\u0447\u0443\u0440\u0447\u0445\u0435\u043b\u0430"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "559": {
+        "pred_terms": [
+            "\u0447\u0430\u0439"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "560": {
+        "pred_terms": [
+            "\u043a\u0440\u0435\u043c",
+            "\u043a\u0440\u0435\u043c-\u0441\u0443\u043f"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "561": {
+        "pred_terms": [
+            "\u0431\u0443\u043b\u044c\u043e\u043d",
+            "\u043b\u043e\u0436\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "562": {
+        "pred_terms": [
+            "\u043a\u043e\u0440\u0437\u0438\u043d\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "563": {
+        "pred_terms": [
+            "\u043b\u0430\u0437\u0430\u043d\u044c\u044f"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "564": {
+        "pred_terms": [
+            "\u0442\u0438\u0440\u0430\u043c\u0438\u0441\u0443",
+            "\u0441\u0442\u0430\u043a\u0430\u043d\u0447\u0438\u043a\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "565": {
+        "pred_terms": [
+            "\u043f\u043e\u0440\u0446\u0438\u0438"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "566": {
+        "pred_terms": [
+            "\u043d\u0430\u043f\u0438\u0442\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "567": {
+        "pred_terms": [
+            "\u0442\u0443\u0430\u043b\u0435\u0442"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "568": {
+        "pred_terms": [
+            "\u0442\u0443\u0430\u043b\u0435\u0442",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u043f\u043e\u043b\u043e\u0442\u0435\u043d\u0447\u0438\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "569": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "570": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "571": {
+        "pred_terms": [
+            "\u0437\u0430\u043a\u0430\u0437",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "572": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442\u044b",
+            "\u0441\u0443\u043f",
+            "\u043a\u043e\u043b\u0431\u0430\u0441\u043a\u0438",
+            "\u0431\u0430\u0440\u0430\u043d\u0438\u043d\u044b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "573": {
+        "pred_terms": [
+            "p\u0443\u043b\u044c\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "574": {
+        "pred_terms": [
+            "\u043f\u0438\u0432\u043e",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435",
+            "\u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430\u043c"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "575": {
+        "pred_terms": [
+            "\u043f\u0438\u0432\u0430",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0440\u0435\u0431\u0435\u043d\u043e\u043a",
+            "\u0434\u0435\u0441\u0435\u0440\u0442"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "576": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0443",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0443"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "577": {
+        "pred_terms": [
+            "\u0441\u043e\u0443\u0441",
+            "\u0434\u043e\u0440\u0430\u0434\u0430",
+            "\u0431\u043b\u044e\u0434\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "578": {
+        "pred_terms": [
+            "\u043f\u0430\u0441\u0442\u0430",
+            "\u043a\u0443\u0440\u0438\u0446\u0430",
+            "\u0436\u0435\u043b\u0443\u0434\u043e\u043a"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "negative"
+        ]
+    },
+    "579": {
+        "pred_terms": [
+            "\u043f\u043e\u0440\u0446\u0438\u0438",
+            "\u0431\u043b\u044e\u0434\u0430"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "580": {
+        "pred_terms": [
+            "\u0446\u0435\u0437\u0430\u0440\u044c"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "581": {
+        "pred_terms": [
+            "\u0441\u0435\u0440\u0432\u0438\u0441",
+            "\u0440\u044b\u0431\u0443"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "582": {
+        "pred_terms": [
+            "\u0441\u0430\u0445\u0430\u0440",
+            "\u0444\u0440\u0435\u0448",
+            "\u0432\u043a\u0443\u0441"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "583": {
+        "pred_terms": [
+            "\u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0438",
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0430",
+            "\u043a\u043b\u0438\u0435\u043d\u0442\u0430"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "positive"
+        ]
+    },
+    "584": {
+        "pred_terms": [
+            "\u043e\u0442\u0434\u044b\u0445\u0430",
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "585": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "586": {
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "587": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "588": {
+        "pred_terms": [
+            "\u0437\u0430\u043b"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "589": {
+        "pred_terms": [
+            "\u043d\u043e\u0436",
+            "\u0431\u043b\u044e\u0434\u043e",
+            "\u0432\u0438\u043b\u043a\u0443"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    }
+}

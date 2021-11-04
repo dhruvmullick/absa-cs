@@ -1,0 +1,3014 @@
+{
+    "0": {
+        "pred_terms": [
+            "prices",
+            "menu offerings"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "1": {
+        "pred_terms": [
+            "service",
+            "food"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "2": {
+        "pred_terms": [
+            "service",
+            "steak",
+            "decor)"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "positive"
+        ]
+    },
+    "3": {
+        "pred_terms": [
+            "appetizers",
+            "calamari plate",
+            "mushroom polenta"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "4": {
+        "pred_terms": [
+            "dinner",
+            "fries",
+            "burgers"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "positive"
+        ]
+    },
+    "5": {
+        "pred_terms": [
+            "scene",
+            "waiters"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "6": {
+        "pred_terms": [
+            "bar",
+            "wait staff"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "7": {
+        "pred_terms": [
+            "beer",
+            "burger"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "8": {
+        "pred_terms": [
+            "service",
+            "meal",
+            "wait"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "9": {
+        "pred_terms": [
+            "manager",
+            "waitress",
+            "diners"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "neutral"
+        ]
+    },
+    "10": {
+        "pred_terms": [
+            "menu",
+            "meals",
+            "drinks",
+            "snacks"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "11": {
+        "pred_terms": [
+            "food",
+            "environment",
+            "dining"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "12": {
+        "pred_terms": [
+            "drink",
+            "table",
+            "bartender",
+            "waiters"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative",
+            "negative"
+        ]
+    },
+    "13": {
+        "pred_terms": [
+            "pie",
+            "pizza"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "14": {
+        "pred_terms": [
+            "meat",
+            "roll",
+            "sauce",
+            "cheese",
+            "onions"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral",
+            "positive",
+            "positive"
+        ]
+    },
+    "15": {
+        "pred_terms": [
+            "salads",
+            "appetizers"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "16": {
+        "pred_terms": [
+            "dinner",
+            "atmosphere"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "17": {
+        "pred_terms": [
+            "customer",
+            "wait staff",
+            "bartender"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "positive"
+        ]
+    },
+    "18": {
+        "pred_terms": [
+            "food",
+            "managers",
+            "prices"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "19": {
+        "pred_terms": [
+            "service",
+            "brunch"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "20": {
+        "pred_terms": [
+            "food",
+            "price"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "21": {
+        "pred_terms": [
+            "wine",
+            "specials"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "22": {
+        "pred_terms": [
+            "portions",
+            "wine"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "23": {
+        "pred_terms": [
+            "kitchen",
+            "fries",
+            "burgers",
+            "bar food staples"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "24": {
+        "pred_terms": [
+            "dinner",
+            "place"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "25": {
+        "pred_terms": [
+            "tables",
+            "walls",
+            "backyard"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "26": {
+        "pred_terms": [
+            "menu",
+            "host"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "27": {
+        "pred_terms": [
+            "waitress",
+            "water"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "28": {
+        "pred_terms": [
+            "fish",
+            "grill"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "29": {
+        "pred_terms": [
+            "pasta",
+            "salad"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "30": {
+        "pred_terms": [
+            "chicken breast",
+            "sour cream",
+            "guacamole",
+            "mole sauce"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "31": {
+        "pred_terms": [
+            "sauce",
+            "buffet lunch"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "32": {
+        "pred_terms": [
+            "drink)"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "33": {
+        "pred_terms": [
+            "drinks",
+            "waitress"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "34": {
+        "pred_terms": [
+            "bar",
+            "place"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "35": {
+        "pred_terms": [
+            "cheese",
+            "yams",
+            "fried catfish"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "36": {
+        "pred_terms": [
+            "menu",
+            "waiter"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "37": {
+        "pred_terms": [
+            "price",
+            "meals",
+            "priced"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive",
+            "negative"
+        ]
+    },
+    "38": {
+        "pred_terms": [
+            "plastic cup",
+            "peanut sauce"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "39": {
+        "pred_terms": [
+            "manager",
+            "water"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "40": {
+        "pred_terms": [
+            "food",
+            "salad",
+            "miso soup",
+            "california roll"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "41": {
+        "pred_terms": [
+            "dinner",
+            "appetizers"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "42": {
+        "pred_terms": [
+            "food",
+            "server"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "43": {
+        "pred_terms": [
+            "meat",
+            "bar"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "44": {
+        "pred_terms": [
+            "cheese",
+            "sauce",
+            "crust"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "positive"
+        ]
+    },
+    "45": {
+        "pred_terms": [
+            "water",
+            "waiter"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "46": {
+        "pred_terms": [
+            "waiting",
+            "status",
+            "host"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "47": {
+        "pred_terms": [
+            "entrees",
+            "drink",
+            "waitress"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "48": {
+        "pred_terms": [
+            "dessert",
+            "rice pudding"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "49": {
+        "pred_terms": [
+            "seating",
+            "wait"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "50": {
+        "pred_terms": [
+            "atmosphere",
+            "bar",
+            "food",
+            "wine"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive",
+            "positive"
+        ]
+    },
+    "51": {
+        "pred_terms": [
+            "waiter",
+            "brunch",
+            "wheast toast"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "52": {
+        "pred_terms": [
+            "dinner",
+            "portions"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "53": {
+        "pred_terms": [
+            "mango salsa",
+            "fish cake",
+            "pork chop",
+            "apple suace"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "positive",
+            "positive"
+        ]
+    },
+    "54": {
+        "pred_terms": [
+            "service",
+            "waiter"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "55": {
+        "pred_terms": [
+            "treats"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "56": {
+        "pred_terms": [
+            "food",
+            "service",
+            "setting"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "57": {
+        "pred_terms": [
+            "food"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "58": {
+        "pred_terms": [
+            "food",
+            "manager",
+            "table"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "neutral"
+        ]
+    },
+    "59": {
+        "pred_terms": [
+            "plates"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "60": {
+        "pred_terms": [
+            "waiting",
+            "reservations"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "61": {
+        "pred_terms": [
+            "pizza",
+            "lunch place"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "62": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "63": {
+        "pred_terms": [
+            "waiters",
+            "menus"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "64": {
+        "pred_terms": [
+            "round pizza",
+            "sicilian"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "65": {
+        "pred_terms": [
+            "menu",
+            "bar",
+            "chicken pizza"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "66": {
+        "pred_terms": [
+            "tables"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "67": {
+        "pred_terms": [
+            "server",
+            "food"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "68": {
+        "pred_terms": [
+            "menu",
+            "price"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "69": {
+        "pred_terms": [
+            "food"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "70": {
+        "pred_terms": [
+            "food",
+            "portions"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "71": {
+        "pred_terms": [
+            "tables",
+            "music",
+            "candles",
+            "furnishings"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "72": {
+        "pred_terms": [
+            "menu",
+            "waiter"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "73": {
+        "pred_terms": [
+            "wait",
+            "table"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "74": {
+        "pred_terms": [
+            "entree",
+            "appetizer",
+            "price-- lunch"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "75": {
+        "pred_terms": [
+            "food",
+            "massage"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "76": {
+        "pred_terms": [
+            "bar",
+            "concoction"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "77": {
+        "pred_terms": [
+            "calamari app"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "78": {
+        "pred_terms": [
+            "food",
+            "chefs",
+            "menu",
+            "restaurant"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "79": {
+        "pred_terms": [
+            "chicken",
+            "shrimp"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "80": {
+        "pred_terms": [
+            "lunch",
+            "waiting",
+            "fastfood burger"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "81": {
+        "pred_terms": [
+            "service",
+            "food",
+            "prices"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "negative"
+        ]
+    },
+    "82": {
+        "pred_terms": [
+            "server",
+            "drink",
+            "check"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "83": {
+        "pred_terms": [
+            "wine",
+            "bartendars",
+            "blue cheese dip"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "positive"
+        ]
+    },
+    "84": {
+        "pred_terms": [
+            "waiter",
+            "waitstaff"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "85": {
+        "pred_terms": [
+            "food",
+            "flavor"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "86": {
+        "pred_terms": [
+            "reservation"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "87": {
+        "pred_terms": [
+            "service",
+            "waiter",
+            "check"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "neutral"
+        ]
+    },
+    "88": {
+        "pred_terms": [
+            "price",
+            "quality",
+            "buffet"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "positive"
+        ]
+    },
+    "89": {
+        "pred_terms": [
+            "drinks",
+            "salad"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "90": {
+        "pred_terms": [
+            "atmosphere",
+            "lighting",
+            "menu"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "neutral"
+        ]
+    },
+    "91": {
+        "pred_terms": [
+            "korean fare"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "92": {
+        "pred_terms": [
+            "dishes",
+            "entree",
+            "restaraunt"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "93": {
+        "pred_terms": [
+            "waitress",
+            "dish",
+            "salmon",
+            "menu)"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "94": {
+        "pred_terms": [
+            "food",
+            "salads",
+            "appetizers",
+            "sandwiches"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "95": {
+        "pred_terms": [
+            "food",
+            "menu",
+            "waitress"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "96": {
+        "pred_terms": [
+            "dinner",
+            "table",
+            "waiter"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "97": {
+        "pred_terms": [
+            "food",
+            "eggs"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "98": {
+        "pred_terms": [
+            "drinks"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "99": {
+        "pred_terms": [
+            "dinner",
+            "drink",
+            "french cosmos"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "100": {
+        "pred_terms": [
+            "menu",
+            "salad",
+            "main course",
+            "dessert"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "101": {
+        "pred_terms": [
+            "meal",
+            "diners"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "102": {
+        "pred_terms": [
+            "wait staff",
+            "burgers"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "103": {
+        "pred_terms": [
+            "food",
+            "presentation"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "104": {
+        "pred_terms": [
+            "menu",
+            "kitchen",
+            "waiter"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "105": {
+        "pred_terms": [
+            "menus",
+            "waiters"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "106": {
+        "pred_terms": [
+            "dinner",
+            "waiting area"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "107": {
+        "pred_terms": [
+            "staff",
+            "prices",
+            "dinner party",
+            "menus"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "108": {
+        "pred_terms": [
+            "reservations"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "109": {
+        "pred_terms": [
+            "appetizer",
+            "mussels marina",
+            "stuffed artichoke"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "negative"
+        ]
+    },
+    "110": {
+        "pred_terms": [
+            "manager",
+            "salad"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "111": {
+        "pred_terms": [
+            "catfish fiumarola",
+            "mouthwatering sardinian stuffed squid"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "112": {
+        "pred_terms": [
+            "drinks",
+            "guac"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "113": {
+        "pred_terms": [
+            "server",
+            "meal"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "114": {
+        "pred_terms": [
+            "served",
+            "service"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "115": {
+        "pred_terms": [
+            "bar",
+            "meal",
+            "entree",
+            "appetizer"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "116": {
+        "pred_terms": [
+            "dinner",
+            "wait staff",
+            "drinks"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "neutral"
+        ]
+    },
+    "117": {
+        "pred_terms": [
+            "food",
+            "appetizers"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "118": {
+        "pred_terms": [
+            "food",
+            "waitress"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "119": {
+        "pred_terms": [
+            "dinner",
+            "drink",
+            "bar",
+            "staff",
+            "brunch"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "120": {
+        "pred_terms": [
+            "food",
+            "dinner"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "121": {
+        "pred_terms": [
+            "food",
+            "dinner",
+            "lunch"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "122": {
+        "pred_terms": [
+            "service",
+            "chef",
+            "dish"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "123": {
+        "pred_terms": [
+            "place",
+            "decore"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "124": {
+        "pred_terms": [
+            "mango",
+            "lobster ceviche"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "125": {
+        "pred_terms": [
+            "decor",
+            "bathrooms"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "126": {
+        "pred_terms": [
+            "prices",
+            "drink",
+            "dessert",
+            "appetizers",
+            "main course"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "127": {
+        "pred_terms": [
+            "service",
+            "hostess"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "128": {
+        "pred_terms": [
+            "servers",
+            "slice"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "129": {
+        "pred_terms": [
+            "wheat",
+            "lox",
+            "bagel",
+            "olive cream cheese"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "130": {
+        "pred_terms": [
+            "dining",
+            "fashion eateries"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "131": {
+        "pred_terms": [
+            "meat",
+            "flavor",
+            "vegetables"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "132": {
+        "pred_terms": [
+            "food",
+            "drink"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "133": {
+        "pred_terms": [
+            "dinner",
+            "room"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "134": {
+        "pred_terms": [
+            "serving",
+            "chinese food",
+            "dining room"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "135": {
+        "pred_terms": [
+            "goat cheese",
+            "smoked salmon appetizer"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "136": {
+        "pred_terms": [
+            "staff",
+            "menu"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "137": {
+        "pred_terms": [
+            "chairs",
+            "waiting"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "138": {
+        "pred_terms": [
+            "food",
+            "waitress"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "139": {
+        "pred_terms": [
+            "manager",
+            "meal"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "140": {
+        "pred_terms": [
+            "menu",
+            "product"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "141": {
+        "pred_terms": [
+            "prices",
+            "entrees"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "142": {
+        "pred_terms": [
+            "bar",
+            "tables",
+            "restaurant"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "143": {
+        "pred_terms": [
+            "manager",
+            "table"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "144": {
+        "pred_terms": [
+            "food",
+            "service",
+            "wait",
+            "ambience"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "positive",
+            "positive"
+        ]
+    },
+    "145": {
+        "pred_terms": [
+            "chole"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "146": {
+        "pred_terms": [
+            "dinner",
+            "portions",
+            "vegetarian options"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "147": {
+        "pred_terms": [
+            "portions",
+            "restaurant",
+            "money",
+            "quality",
+            "lunch",
+            "breakfast"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "positive",
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "148": {
+        "pred_terms": [
+            "dinner",
+            "mussels",
+            "appys"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "149": {
+        "pred_terms": [
+            "server",
+            "water",
+            "dessert"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "150": {
+        "pred_terms": [
+            "wine",
+            "waitress",
+            "table"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "neutral"
+        ]
+    },
+    "151": {
+        "pred_terms": [
+            "filet",
+            "apitites"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "152": {
+        "pred_terms": [
+            "prices",
+            "dinner",
+            "drinks"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "153": {
+        "pred_terms": [
+            "drink list",
+            "portion sizes"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "154": {
+        "pred_terms": [
+            "food",
+            "price",
+            "wait"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "negative"
+        ]
+    },
+    "155": {
+        "pred_terms": [
+            "service"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "156": {
+        "pred_terms": [
+            "table",
+            "appetizers",
+            "waitresses"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "157": {
+        "pred_terms": [
+            "fried",
+            "appetizer",
+            "feta cheese"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "158": {
+        "pred_terms": [
+            "hostess",
+            "tables"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "159": {
+        "pred_terms": [
+            "service",
+            "water"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "160": {
+        "pred_terms": [
+            "glass",
+            "wine",
+            "server",
+            "table"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative",
+            "neutral"
+        ]
+    },
+    "161": {
+        "pred_terms": [
+            "ingredients"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "162": {
+        "pred_terms": [
+            "wait",
+            "service",
+            "food"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "163": {
+        "pred_terms": [
+            "food",
+            "service",
+            "drinks"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "164": {
+        "pred_terms": [
+            "atmosphere",
+            "dinner"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "165": {
+        "pred_terms": [
+            "drink",
+            "cheese slices"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "166": {
+        "pred_terms": [
+            "menu",
+            "place",
+            "table candle"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "neutral"
+        ]
+    },
+    "167": {
+        "pred_terms": [
+            "jelly fish",
+            "soupy dumplings",
+            "drunken chicken",
+            "stir fry blue crab"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "168": {
+        "pred_terms": [
+            "service",
+            "manager",
+            "restaurant",
+            "frozen lasagna"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "negative",
+            "negative"
+        ]
+    },
+    "169": {
+        "pred_terms": [
+            "table",
+            "meal"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "170": {
+        "pred_terms": [
+            "coffee",
+            "server",
+            "water"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "neutral"
+        ]
+    },
+    "171": {
+        "pred_terms": [
+            "counter",
+            "food",
+            "tamales"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "172": {
+        "pred_terms": [
+            "server"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "173": {
+        "pred_terms": [
+            "tapas",
+            "pitcher"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "174": {
+        "pred_terms": [
+            "dinner",
+            "salad",
+            "grilled tentacles"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "negative"
+        ]
+    },
+    "175": {
+        "pred_terms": [
+            "service",
+            "bar",
+            "manager"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "negative"
+        ]
+    },
+    "176": {
+        "pred_terms": [
+            "waiting",
+            "check",
+            "dessert",
+            "course-meal"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "177": {
+        "pred_terms": [
+            "waitress",
+            "steak knife"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "178": {
+        "pred_terms": [
+            "dinner",
+            "wait",
+            "appetizer"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "179": {
+        "pred_terms": [
+            "food",
+            "servers",
+            "regulars"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "180": {
+        "pred_terms": [
+            "service",
+            "entree"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "181": {
+        "pred_terms": [
+            "bratwurst",
+            "fish tacos",
+            "mozzarella",
+            "lobster roll",
+            "thin-crust pizza"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "182": {
+        "pred_terms": [
+            "sauce"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "183": {
+        "pred_terms": [
+            "eggplant"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "184": {
+        "pred_terms": [
+            "beer"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "185": {
+        "pred_terms": [
+            "manager",
+            "waiter"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "186": {
+        "pred_terms": [
+            "food",
+            "service",
+            "waitress"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "negative"
+        ]
+    },
+    "187": {
+        "pred_terms": [
+            "dinner"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "188": {
+        "pred_terms": [
+            "drink",
+            "waiter"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "189": {
+        "pred_terms": [
+            "menu",
+            "price",
+            "waitress"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "negative"
+        ]
+    },
+    "190": {
+        "pred_terms": [
+            "jazz bar",
+            "garden dining)"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "191": {
+        "pred_terms": [
+            "waitress",
+            "wine suggestion"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "192": {
+        "pred_terms": [
+            "waiter",
+            "drinks"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "193": {
+        "pred_terms": [
+            "service",
+            "desserts"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "194": {
+        "pred_terms": [
+            "waiter",
+            "meal"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "195": {
+        "pred_terms": [
+            "fries",
+            "turkey"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "196": {
+        "pred_terms": [
+            "bill",
+            "bartender"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "197": {
+        "pred_terms": [
+            "shrimp",
+            "crab cake",
+            "broiled scallops"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "198": {
+        "pred_terms": [
+            "wait",
+            "manager",
+            "reservations"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "neutral"
+        ]
+    },
+    "199": {
+        "pred_terms": [
+            "bar",
+            "noise",
+            "ambience",
+            "main dining room"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "negative",
+            "neutral"
+        ]
+    },
+    "200": {
+        "pred_terms": [
+            "delivery service",
+            "pizza"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "201": {
+        "pred_terms": [
+            "food",
+            "service",
+            "dining room"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "neutral"
+        ]
+    },
+    "202": {
+        "pred_terms": [
+            "main course",
+            "beef negimaki"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "203": {
+        "pred_terms": [
+            "drinks"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "204": {
+        "pred_terms": [
+            "dinner",
+            "meal",
+            "lunch",
+            "breakfast"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "205": {
+        "pred_terms": [
+            "menu",
+            "dinner"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "206": {
+        "pred_terms": [
+            "waitress",
+            "meal",
+            "bottle"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "207": {
+        "pred_terms": [
+            "bar"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "208": {
+        "pred_terms": [
+            "place",
+            "decor"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "209": {
+        "pred_terms": [
+            "meal",
+            "piano guy"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "210": {
+        "pred_terms": [
+            "menu",
+            "pizza"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "211": {
+        "pred_terms": [
+            "nachos",
+            "calamari",
+            "onion bloom"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "negative"
+        ]
+    },
+    "212": {
+        "pred_terms": [
+            "menu",
+            "food",
+            "entrees",
+            "appetizers"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "213": {
+        "pred_terms": [
+            "drinks",
+            "waiter"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "214": {
+        "pred_terms": [
+            "seating",
+            "wait"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "215": {
+        "pred_terms": [
+            "coffee",
+            "music",
+            "atmosphere's"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "negative"
+        ]
+    },
+    "216": {
+        "pred_terms": [
+            "tarts",
+            "cookies",
+            "fluffy white cakes"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "217": {
+        "pred_terms": [
+            "wait staff",
+            "meal"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "218": {
+        "pred_terms": [
+            "food",
+            "service"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "219": {
+        "pred_terms": [
+            "food",
+            "entree",
+            "rice",
+            "salad"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "220": {
+        "pred_terms": [
+            "japanese food",
+            "appetizers"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "221": {
+        "pred_terms": [
+            "waiter",
+            "dessert",
+            "dish"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive",
+            "neutral"
+        ]
+    },
+    "222": {
+        "pred_terms": [
+            "dinner",
+            "drink",
+            "bar"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "223": {
+        "pred_terms": [
+            "portions",
+            "entrees"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "224": {
+        "pred_terms": [
+            "service",
+            "brunch"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "225": {
+        "pred_terms": [
+            "food",
+            "service",
+            "rice",
+            "steak"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "positive",
+            "positive"
+        ]
+    },
+    "226": {
+        "pred_terms": [
+            "dinner",
+            "waiter",
+            "appetizers"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "positive"
+        ]
+    },
+    "227": {
+        "pred_terms": [
+            "service",
+            "restaurant",
+            "dj",
+            "owner manager"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral",
+            "negative"
+        ]
+    },
+    "228": {
+        "pred_terms": [
+            "price",
+            "service",
+            "area",
+            "dishes"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive",
+            "neutral",
+            "negative"
+        ]
+    },
+    "229": {
+        "pred_terms": [
+            "table",
+            "place"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "230": {
+        "pred_terms": [
+            "atmosphere"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "231": {
+        "pred_terms": [
+            "dinner"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "232": {
+        "pred_terms": [
+            "table",
+            "waiters",
+            "water"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "neutral"
+        ]
+    },
+    "233": {
+        "pred_terms": [
+            "menu",
+            "waiter"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "234": {
+        "pred_terms": [
+            "bar",
+            "place",
+            "crowd",
+            "drinks"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "negative",
+            "neutral"
+        ]
+    },
+    "235": {
+        "pred_terms": [
+            "starter",
+            "mussels",
+            "lemongrass broth"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "236": {
+        "pred_terms": [
+            "bar",
+            "place",
+            "martinis",
+            "oysters"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "negative",
+            "neutral"
+        ]
+    },
+    "237": {
+        "pred_terms": [
+            "menu"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "238": {
+        "pred_terms": [
+            "owners",
+            "cooks",
+            "sanity"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "239": {
+        "pred_terms": [
+            "waiter",
+            "kitchen",
+            "appetizer"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "negative"
+        ]
+    },
+    "240": {
+        "pred_terms": [
+            "food",
+            "service",
+            "manners"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "neutral"
+        ]
+    },
+    "241": {
+        "pred_terms": [
+            "food",
+            "fat",
+            "lamb"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "242": {
+        "pred_terms": [
+            "food",
+            "quality"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "243": {
+        "pred_terms": [
+            "desserts",
+            "dishes",
+            "chicken kebob",
+            "rice pudding"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "244": {
+        "pred_terms": [
+            "comfort food"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "245": {
+        "pred_terms": [
+            "moules",
+            "lobster ravioli"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "246": {
+        "pred_terms": [
+            "food",
+            "barbecued lamb"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "247": {
+        "pred_terms": [
+            "lunch",
+            "brioche burger with skin-on fries"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "248": {
+        "pred_terms": [
+            "drinks",
+            "waitress",
+            "salad",
+            "pizza"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "249": {
+        "pred_terms": [
+            "fries",
+            "curry dishes",
+            "potato)"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "250": {
+        "pred_terms": [
+            "dinner",
+            "space",
+            "serving"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive",
+            "neutral"
+        ]
+    },
+    "251": {
+        "pred_terms": [
+            "waitress",
+            "wine"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "252": {
+        "pred_terms": [
+            "food",
+            "portions"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "253": {
+        "pred_terms": [
+            "serving",
+            "skin",
+            "ravioli"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "positive"
+        ]
+    },
+    "254": {
+        "pred_terms": [
+            "steak",
+            "waiters"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "255": {
+        "pred_terms": [
+            "chef",
+            "waitress"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "256": {
+        "pred_terms": [
+            "dinner",
+            "drink",
+            "waitress"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "257": {
+        "pred_terms": [
+            "food",
+            "kitchen",
+            "waiter"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "258": {
+        "pred_terms": [
+            "food"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "259": {
+        "pred_terms": [
+            "meal",
+            "waiter",
+            "bottle"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "neutral"
+        ]
+    },
+    "260": {
+        "pred_terms": [
+            "menu",
+            "food"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "261": {
+        "pred_terms": [
+            "food",
+            "dish",
+            "brunch"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "negative"
+        ]
+    },
+    "262": {
+        "pred_terms": [
+            "waiter",
+            "bread",
+            "drinks"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "263": {
+        "pred_terms": [
+            "server",
+            "plates",
+            "table"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "neutral"
+        ]
+    },
+    "264": {
+        "pred_terms": [
+            "bagels",
+            "texture"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "265": {
+        "pred_terms": [
+            "server"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "266": {
+        "pred_terms": [
+            "manager",
+            "waiter"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "267": {
+        "pred_terms": [
+            "hostess",
+            "waiter",
+            "menus"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "neutral"
+        ]
+    },
+    "268": {
+        "pred_terms": [
+            "service",
+            "wait",
+            "pizza"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "269": {
+        "pred_terms": [
+            "price",
+            "food"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "270": {
+        "pred_terms": [
+            "waitress",
+            "bill",
+            "cake"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "271": {
+        "pred_terms": [
+            "wait staff",
+            "food",
+            "drinks"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "272": {
+        "pred_terms": [
+            "dinner",
+            "meal",
+            "waiter"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative"
+        ]
+    },
+    "273": {
+        "pred_terms": [
+            "food",
+            "wine list",
+            "beers"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    }
+}

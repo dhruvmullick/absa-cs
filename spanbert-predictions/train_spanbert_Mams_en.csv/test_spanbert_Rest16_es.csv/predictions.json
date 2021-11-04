@@ -1,0 +1,3162 @@
+{
+    "0": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "1": {
+        "pred_terms": [
+            "carne"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "2": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "3": {
+        "pred_terms": [
+            "carne"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "4": {
+        "pred_terms": [
+            "ambiente",
+            "tapas",
+            "bebidas"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "5": {
+        "pred_terms": [
+            "mesa"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "6": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "7": {
+        "pred_terms": [
+            "pastas",
+            "carnes"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "8": {
+        "pred_terms": [
+            "sitio",
+            "camareros"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "9": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "10": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "11": {
+        "pred_terms": [
+            "comida",
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "12": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "13": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "14": {
+        "pred_terms": [
+            "espacio",
+            "colores",
+            "rincones"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "15": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "16": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "17": {
+        "pred_terms": [
+            "entrante"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "18": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "19": {
+        "pred_terms": [
+            "puerta"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "20": {
+        "pred_terms": [
+            "carne"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "21": {
+        "pred_terms": [
+            "carne"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "22": {
+        "pred_terms": [
+            "carne"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "23": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "24": {
+        "pred_terms": [
+            "entrantes"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "25": {
+        "pred_terms": [
+            "chorizo"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "26": {
+        "pred_terms": [
+            "carne"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "27": {
+        "pred_terms": [
+            "sitio",
+            "trato"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "28": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "29": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "30": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "31": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "32": {
+        "pred_terms": [
+            "ambiente"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "33": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "34": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "35": {
+        "pred_terms": [
+            "producto",
+            "restaurantes"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "36": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "37": {
+        "pred_terms": [
+            "maitre"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "38": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "39": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "40": {
+        "pred_terms": [
+            "cocina",
+            "restaurante",
+            "terraza"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "41": {
+        "pred_terms": [
+            "salsa",
+            "cazuela"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "42": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "43": {
+        "pred_terms": [
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "44": {
+        "pred_terms": [
+            "calidad",
+            "gambas"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "45": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "46": {
+        "pred_terms": [
+            "personal",
+            "clientela"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "47": {
+        "pred_terms": [
+            "comida",
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "48": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "49": {
+        "pred_terms": [
+            "platos"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "50": {
+        "pred_terms": [
+            "platos"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "51": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "52": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "53": {
+        "pred_terms": [
+            "producto",
+            "pescados"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "54": {
+        "pred_terms": [
+            "platos",
+            "carta de vinos"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "55": {
+        "pred_terms": [
+            "paella del moll"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "56": {
+        "pred_terms": [
+            "cocina",
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "57": {
+        "pred_terms": [
+            "comida",
+            "atenci\u00f3n"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "58": {
+        "pred_terms": [
+            "servicio",
+            "comida",
+            "ambiente"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "59": {
+        "pred_terms": [
+            "comida",
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "60": {
+        "pred_terms": [
+            "mesa"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "61": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "62": {
+        "pred_terms": [
+            "comida",
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "63": {
+        "pred_terms": [
+            "comida",
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "64": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "65": {
+        "pred_terms": [
+            "arroz",
+            "entrantes"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "66": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "67": {
+        "pred_terms": [
+            "arroz"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "68": {
+        "pred_terms": [
+            "servicio",
+            "sitio",
+            "platos"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "69": {
+        "pred_terms": [
+            "comida",
+            "servicio",
+            "presentaci\u00f3n"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "70": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "71": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "72": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "73": {
+        "pred_terms": [
+            "sombras",
+            "luces"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "74": {
+        "pred_terms": [
+            "comida",
+            "platos"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "75": {
+        "pred_terms": [
+            "men\u00fa"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "76": {
+        "pred_terms": [
+            "gazpacho",
+            "cerezas"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "77": {
+        "pred_terms": [
+            "platitos"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "78": {
+        "pred_terms": [
+            "men\u00fa"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "79": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "80": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "81": {
+        "pred_terms": [
+            "pasta"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "82": {
+        "pred_terms": [
+            "camarero"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "83": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "84": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "85": {
+        "pred_terms": [
+            "drag queens"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "86": {
+        "pred_terms": [
+            "men\u00fa",
+            "pasta",
+            "caf\u00e9s",
+            "platos",
+            "chupito",
+            "vino tinto"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "87": {
+        "pred_terms": [
+            "camarera"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "88": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "89": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "90": {
+        "pred_terms": [
+            "servicio",
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "91": {
+        "pred_terms": [
+            "productos"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "92": {
+        "pred_terms": [
+            "ambiente",
+            "sal\u00f3n"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "93": {
+        "pred_terms": [
+            "celebraci\u00f3n"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "94": {
+        "pred_terms": [
+            "servicio",
+            "cocina",
+            "mesa",
+            "platos"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral",
+            "neutral",
+            "positive"
+        ]
+    },
+    "95": {
+        "pred_terms": [
+            "mesa",
+            "reserva",
+            "ventanal"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "96": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "97": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "98": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "99": {
+        "pred_terms": [
+            "pizza"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "100": {
+        "pred_terms": [
+            "calidad",
+            "pizzas"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "101": {
+        "pred_terms": [
+            "lavabo"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "102": {
+        "pred_terms": [
+            "ba\u00f1os"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "103": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "104": {
+        "pred_terms": [
+            "espacio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "105": {
+        "pred_terms": [
+            "comida",
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "106": {
+        "pred_terms": [
+            "comida",
+            "reforma"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "107": {
+        "pred_terms": [
+            "celebraciones"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "108": {
+        "pred_terms": [
+            "men\u00fa",
+            "comida",
+            "candelas"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "109": {
+        "pred_terms": [
+            "cocina",
+            "hosteleria"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "110": {
+        "pred_terms": [
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "111": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "112": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "113": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "114": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "115": {
+        "pred_terms": [
+            "sabor",
+            "ensalada de tomate"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "116": {
+        "pred_terms": [
+            "setas"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "117": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "118": {
+        "pred_terms": [
+            "cocina",
+            "trato"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "119": {
+        "pred_terms": [
+            "servicio",
+            "comida",
+            "ambiente"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "120": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "121": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "122": {
+        "pred_terms": [
+            "camareros"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "123": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "124": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "125": {
+        "pred_terms": [
+            "comida",
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "126": {
+        "pred_terms": [
+            "comida",
+            "director"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "127": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "128": {
+        "pred_terms": [
+            "platos"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "129": {
+        "pred_terms": [
+            "restaurante",
+            "copa de un pino"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "130": {
+        "pred_terms": [
+            "lugar"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "131": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "132": {
+        "pred_terms": [
+            "restaurantes"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "133": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "134": {
+        "pred_terms": [
+            "servicio",
+            "platos"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "135": {
+        "pred_terms": [
+            "comida",
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "136": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "137": {
+        "pred_terms": [
+            "prisa",
+            "platos de mesa"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "138": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "139": {
+        "pred_terms": [
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "140": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "141": {
+        "pred_terms": [
+            "mesas"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "142": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "143": {
+        "pred_terms": [
+            "mobiliario",
+            "escaleras"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "144": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "145": {
+        "pred_terms": [
+            "entrante"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "146": {
+        "pred_terms": [
+            "comida",
+            "mesas"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "147": {
+        "pred_terms": [
+            "mesa",
+            "mesa...privacidad"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "148": {
+        "pred_terms": [
+            "ambiente",
+            "comida",
+            "cantidad",
+            "calidad",
+            "trato"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "149": {
+        "pred_terms": [
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "150": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "151": {
+        "pred_terms": [
+            "cena"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "152": {
+        "pred_terms": [
+            "comida",
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "153": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "154": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "155": {
+        "pred_terms": [
+            "lugar"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "156": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "157": {
+        "pred_terms": [
+            "comida",
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "158": {
+        "pred_terms": [
+            "comida",
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "159": {
+        "pred_terms": [
+            "restaurantes"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "160": {
+        "pred_terms": [
+            "carta de vinos"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "161": {
+        "pred_terms": [
+            "servicio",
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "162": {
+        "pred_terms": [
+            "local"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "163": {
+        "pred_terms": [
+            "cocinero",
+            "camareros"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "164": {
+        "pred_terms": [
+            "calidad",
+            "platos"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "165": {
+        "pred_terms": [
+            "cena",
+            "local"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "166": {
+        "pred_terms": [
+            "sitio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "167": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "168": {
+        "pred_terms": [
+            "comida",
+            "sitio"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "169": {
+        "pred_terms": [
+            "comida",
+            "maitre"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "170": {
+        "pred_terms": [
+            "servicio",
+            "ambiente"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "171": {
+        "pred_terms": [
+            "servicio",
+            "comida",
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "172": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "173": {
+        "pred_terms": [
+            "comida)",
+            "trato"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "174": {
+        "pred_terms": [
+            "comida",
+            "platos"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "175": {
+        "pred_terms": [
+            "vinos",
+            "precios"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "176": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "177": {
+        "pred_terms": [
+            "comida",
+            "bebida",
+            "clientela",
+            "vinos"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "negative",
+            "neutral"
+        ]
+    },
+    "178": {
+        "pred_terms": [
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "179": {
+        "pred_terms": [
+            "centro de merluza a la plancha"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "180": {
+        "pred_terms": [
+            "carne"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "181": {
+        "pred_terms": [
+            "trato"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "182": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "183": {
+        "pred_terms": [
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "184": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "185": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "186": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "187": {
+        "pred_terms": [
+            "salsa de vino"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "188": {
+        "pred_terms": [
+            "lugar",
+            "decoracion"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "189": {
+        "pred_terms": [
+            "comida",
+            "patata",
+            "plato"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive",
+            "neutral"
+        ]
+    },
+    "190": {
+        "pred_terms": [
+            "servicio",
+            "mesas"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "191": {
+        "pred_terms": [
+            "menu",
+            "plato"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "192": {
+        "pred_terms": [
+            "ambiente",
+            "camareros"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "193": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "194": {
+        "pred_terms": [
+            "men\u00fa"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "195": {
+        "pred_terms": [
+            "postres"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "196": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "197": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "198": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "199": {
+        "pred_terms": [
+            "servicio",
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "200": {
+        "pred_terms": [
+            "mesa"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "201": {
+        "pred_terms": [
+            "comida",
+            "servicio",
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "positive"
+        ]
+    },
+    "202": {
+        "pred_terms": [
+            "decoraci\u00f3n"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "203": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "204": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "205": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "206": {
+        "pred_terms": [
+            "dulces",
+            "caf\u00e9"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "207": {
+        "pred_terms": [
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "208": {
+        "pred_terms": [
+            "ambientaci\u00f3n"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "209": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "210": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "211": {
+        "pred_terms": [
+            "vino"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "212": {
+        "pred_terms": [
+            "pan",
+            "camareras"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "213": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "214": {
+        "pred_terms": [
+            "comida",
+            "habitaciones",
+            "aguas",
+            "balneario"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "neutral"
+        ]
+    },
+    "215": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "216": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "217": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "218": {
+        "pred_terms": [
+            "comida",
+            "calidad"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "219": {
+        "pred_terms": [
+            "carta"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "220": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "221": {
+        "pred_terms": [
+            "menu",
+            "carta"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "222": {
+        "pred_terms": [
+            "camareros"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "223": {
+        "pred_terms": [
+            "vinos",
+            "paella de bogavante"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "224": {
+        "pred_terms": [
+            "carne"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "225": {
+        "pred_terms": [
+            "mesa",
+            "arroz"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "226": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "227": {
+        "pred_terms": [
+            "sal",
+            "carta"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "228": {
+        "pred_terms": [
+            "chocolate"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "229": {
+        "pred_terms": [
+            "cena",
+            "clientes",
+            "cocina-sala"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "negative"
+        ]
+    },
+    "230": {
+        "pred_terms": [
+            "calor"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "231": {
+        "pred_terms": [
+            "comida",
+            "ambiente"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "232": {
+        "pred_terms": [
+            "men\u00fa"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "233": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "234": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "235": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "236": {
+        "pred_terms": [
+            "plato"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "237": {
+        "pred_terms": [
+            "plato"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "238": {
+        "pred_terms": [
+            "ajo",
+            "pi\u00f1a"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "239": {
+        "pred_terms": [
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "240": {
+        "pred_terms": [
+            "platos",
+            "cuchiller\u00eda"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "241": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "242": {
+        "pred_terms": [
+            "arroz",
+            "complementos",
+            "mejillones"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "243": {
+        "pred_terms": [
+            "pescados"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "244": {
+        "pred_terms": [
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "245": {
+        "pred_terms": [
+            "paella"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "246": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "247": {
+        "pred_terms": [
+            "bebida",
+            "vinos"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "248": {
+        "pred_terms": [
+            "vinos"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "249": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "250": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "251": {
+        "pred_terms": [
+            "cocina",
+            "carnes"
+        ],
+        "pred_polarities": [
+            "negative",
+            "neutral"
+        ]
+    },
+    "252": {
+        "pred_terms": [
+            "servicio",
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "253": {
+        "pred_terms": [
+            "platos"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "254": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "255": {
+        "pred_terms": [
+            "local"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "256": {
+        "pred_terms": [
+            "cocina"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "257": {
+        "pred_terms": [
+            "vinos"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "258": {
+        "pred_terms": [
+            "men\u00fa",
+            "local"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "259": {
+        "pred_terms": [
+            "cocina"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "260": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "261": {
+        "pred_terms": [
+            "comida",
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "262": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "263": {
+        "pred_terms": [
+            "platos"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "264": {
+        "pred_terms": [
+            "menu"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "265": {
+        "pred_terms": [
+            "cocina"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "266": {
+        "pred_terms": [
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "267": {
+        "pred_terms": [
+            "men\u00fa"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "268": {
+        "pred_terms": [
+            "m\u00fasica"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "269": {
+        "pred_terms": [
+            "men\u00fa",
+            "platos"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "270": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "271": {
+        "pred_terms": [
+            "lasa\u00f1a"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "272": {
+        "pred_terms": [
+            "estancia",
+            "comida",
+            "musica"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "273": {
+        "pred_terms": [
+            "carne",
+            "restaurante",
+            "pescado"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "274": {
+        "pred_terms": [
+            "pescados",
+            "salsas"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "275": {
+        "pred_terms": [
+            "carne"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "276": {
+        "pred_terms": [
+            "comida",
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "277": {
+        "pred_terms": [
+            "servicio",
+            "comida",
+            "cena",
+            "carta de vinos"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "278": {
+        "pred_terms": [
+            "local"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "279": {
+        "pred_terms": [
+            "platos"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "280": {
+        "pred_terms": [
+            "comida",
+            "precio"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "positive"
+        ]
+    },
+    "281": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "282": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "283": {
+        "pred_terms": [
+            "servicio",
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "284": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "285": {
+        "pred_terms": [
+            "servi",
+            "restaurante",
+            "platos"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "286": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "287": {
+        "pred_terms": [
+            "servicio",
+            "ambiente"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "288": {
+        "pred_terms": [
+            "carne",
+            "cal\u00e7ots",
+            "huevos"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "289": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "290": {
+        "pred_terms": [
+            "atentos"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "291": {
+        "pred_terms": [
+            "comida",
+            "cantidad"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "292": {
+        "pred_terms": [
+            "servicio",
+            "comida"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "293": {
+        "pred_terms": [
+            "salsa",
+            "plato"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "294": {
+        "pred_terms": [
+            "carne"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "295": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "296": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "297": {
+        "pred_terms": [
+            "men\u00fa",
+            "bebida"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative"
+        ]
+    },
+    "298": {
+        "pred_terms": [
+            "carne"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "299": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "300": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "301": {
+        "pred_terms": [
+            "parrillada de carne"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "302": {
+        "pred_terms": [
+            "carne",
+            "cal\u00e7ots"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "303": {
+        "pred_terms": [
+            "sitio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "304": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "305": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "306": {
+        "pred_terms": [
+            "comida",
+            "men\u00fa",
+            "variedad"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "307": {
+        "pred_terms": [
+            "menu"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "308": {
+        "pred_terms": [
+            "servicio",
+            "men\u00fa",
+            "platos"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "309": {
+        "pred_terms": [
+            "platos"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "310": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "311": {
+        "pred_terms": [
+            "cena"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "312": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "313": {
+        "pred_terms": [
+            "cena"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "314": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "315": {
+        "pred_terms": [
+            "restaurantes",
+            "calidad-precio"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "316": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "317": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "318": {
+        "pred_terms": [
+            "bodega"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "319": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "320": {
+        "pred_terms": [
+            "servicio",
+            "menu",
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "321": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "322": {
+        "pred_terms": [
+            "servicio",
+            "men\u00fa",
+            "carta de vinos"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "323": {
+        "pred_terms": [
+            "servicio",
+            "comida"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "324": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "325": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "326": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "327": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "328": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "329": {
+        "pred_terms": [
+            "comida",
+            "lugar",
+            "atenci\u00f3n"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral",
+            "positive"
+        ]
+    },
+    "330": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "331": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "332": {
+        "pred_terms": [
+            "comida",
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "333": {
+        "pred_terms": [
+            "mesas"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "334": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "335": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "336": {
+        "pred_terms": [
+            "menu"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "337": {
+        "pred_terms": [
+            "servicio",
+            "ambiente"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "338": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "339": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "340": {
+        "pred_terms": [
+            "cocina",
+            "marco"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "341": {
+        "pred_terms": [
+            "pasta",
+            "cocina"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "neutral"
+        ]
+    },
+    "342": {
+        "pred_terms": [
+            "servicio",
+            "comida",
+            "comedores"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "343": {
+        "pred_terms": [
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "344": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "345": {
+        "pred_terms": [
+            "local",
+            "restaurantes"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "346": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "347": {
+        "pred_terms": [
+            "menu",
+            "comida",
+            "patatas",
+            "cerveza",
+            "costillares"
+        ],
+        "pred_polarities": [
+            "neutral",
+            "negative",
+            "neutral",
+            "neutral",
+            "neutral"
+        ]
+    },
+    "348": {
+        "pred_terms": [
+            "salsa de bote"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "349": {
+        "pred_terms": [
+            "chef",
+            "comida",
+            "calidad",
+            "cantidad"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "positive",
+            "positive"
+        ]
+    },
+    "350": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "351": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "352": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "353": {
+        "pred_terms": [
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "354": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "355": {
+        "pred_terms": [
+            "arena de playa"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "356": {
+        "pred_terms": [
+            "sabor a aceite"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "357": {
+        "pred_terms": [
+            "arroz"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "358": {
+        "pred_terms": [
+            "servido"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "359": {
+        "pred_terms": [
+            "vinos"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "360": {
+        "pred_terms": [
+            "servicio",
+            "comida",
+            "ambiente"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "361": {
+        "pred_terms": [
+            "comida",
+            "atencion"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "362": {
+        "pred_terms": [
+            "comida",
+            "salsa"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "363": {
+        "pred_terms": [
+            "comida",
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "364": {
+        "pred_terms": [
+            "restaurante"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "365": {
+        "pred_terms": [
+            "comida"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "366": {
+        "pred_terms": [
+            "servicio",
+            "alimentos",
+            "mesas"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "367": {
+        "pred_terms": [
+            "entorno"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "368": {
+        "pred_terms": [
+            "servicio",
+            "ambiente",
+            "sabor",
+            "paella"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "negative",
+            "positive"
+        ]
+    },
+    "369": {
+        "pred_terms": [
+            "men\u00fa",
+            "productos"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "370": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "371": {
+        "pred_terms": [
+            "camareros"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "372": {
+        "pred_terms": [
+            "restaurente"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "373": {
+        "pred_terms": [
+            "comida",
+            "plazas"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    },
+    "374": {
+        "pred_terms": [
+            "comida",
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "375": {
+        "pred_terms": [
+            "organisacion"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "376": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "377": {
+        "pred_terms": [
+            "pescado"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "378": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "379": {
+        "pred_terms": [
+            "vino"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "380": {
+        "pred_terms": [
+            "mesas"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "381": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "382": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "383": {
+        "pred_terms": [
+            "mesa"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "384": {
+        "pred_terms": [
+            "menus"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
+    },
+    "385": {
+        "pred_terms": [
+            "servicio"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "386": {
+        "pred_terms": [
+            "paella"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "387": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "388": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "389": {
+        "pred_terms": [
+            "restaurante",
+            "platos"
+        ],
+        "pred_polarities": [
+            "positive",
+            "neutral"
+        ]
+    }
+}

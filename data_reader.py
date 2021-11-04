@@ -6,7 +6,7 @@ import random
 
 MAMS_SHORTENED_TEXT_LENGTH = 125
 # lowest possible training record count in the considered datasets.
-SAMPLED_RECORD_COUNT = 1023
+SAMPLED_RECORD_COUNT = 857
 WEIRD_CHARACTERS = '.!?,'
 
 random.seed(0)
@@ -77,8 +77,13 @@ def parse_semeval_xml(root):
             opinions = []
             sentence_opinions = sentence.findall('Opinions')[0]
             for opinion in sentence_opinions.findall('Opinion'):
+                if opinion.attrib['polarity'] == 'conflict':
+                    continue
                 opinions.append([opinion.attrib['target'], opinion.attrib['polarity'], opinion.attrib['from'],
                                  opinion.attrib['to']])
+
+            if len(opinions) == 0:
+                continue
 
             opinions = pd.DataFrame(opinions, columns=['tar', 'pol', 'from', 'to'])
             opinions.drop_duplicates(subset=['tar', 'pol', 'from', 'to'], inplace=True)
@@ -111,6 +116,8 @@ def parse_semeval_14_xml(root):
         for aspectTerm in aspect_term_node:
             term = aspectTerm.attrib['term']
             polarity = aspectTerm.attrib['polarity']
+            if polarity == 'conflict':
+                continue
             from_idx = aspectTerm.attrib['from']
             to_idx = aspectTerm.attrib['to']
             term = term.strip()
@@ -118,6 +125,9 @@ def parse_semeval_14_xml(root):
 
             if term and polarity:
                 opinions.append([term, polarity, from_idx, to_idx])
+
+        if len(opinions) == 0:
+            continue
 
         opinions = pd.DataFrame(opinions, columns=['tar', 'pol', 'from', 'to'])
         opinions.drop_duplicates(subset=['tar', 'pol', 'from', 'to'], inplace=True)
@@ -196,7 +206,8 @@ def parse_MAMS_xml(root, shortened):
             to_idx = aspectTerm.attrib['to']
             term = term.strip()
             polarity = polarity.strip()
-
+            if polarity == 'conflict':
+                continue
             if term and polarity:
                 opinions.append([term, polarity, from_idx, to_idx])
 

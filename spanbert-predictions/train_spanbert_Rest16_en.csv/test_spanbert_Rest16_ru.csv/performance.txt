@@ -1,0 +1,16 @@
+step: 49, loss: 0.5003, P: 0.6939, R: 0.6939, F1: 0.6939 (common: 612.0, retrieved: 882.0, relevant: 882.0)
+ 
+step: 56, loss: 0.5294, P: 0.7177, R: 0.7177, F1: 0.7177 (common: 633.0, retrieved: 882.0, relevant: 882.0)
+ 
+step: 63, loss: 0.5324, P: 0.6224, R: 0.6224, F1: 0.6224 (common: 549.0, retrieved: 882.0, relevant: 882.0)
+ 
+step: 70, loss: 0.4202, P: 0.7324, R: 0.7324, F1: 0.7324 (common: 646.0, retrieved: 882.0, relevant: 882.0)
+ 
+step: 77, loss: 0.3447, P: 0.7154, R: 0.7154, F1: 0.7154 (common: 631.0, retrieved: 882.0, relevant: 882.0)
+ 
+step: 84, loss: 0.3476, P: 0.6361, R: 0.6361, F1: 0.6361 (common: 561.0, retrieved: 882.0, relevant: 882.0)
+ 
+step: 91, loss: 0.2839, P: 0.7347, R: 0.7347, F1: 0.7347 (common: 648.0, retrieved: 882.0, relevant: 882.0)
+ 
+pipeline, step: 91, P: 0.3747, R: 0.3900, F1: 0.3822 (common: 344.0, retrieved: 918.0, relevant: 882.0)
+ 

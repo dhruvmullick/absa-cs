@@ -15,7 +15,7 @@ from rich.console import Console
 
 # pd.set_option('display.max_colwidth', -1)
 
-PREDICTION_FILE = 'predictions.csv'
+PREDICTION_FILE = 'spanbert-predictions.csv'
 # PREDICTION_FILE = 'predictions_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
 
 # define a rich console logger
@@ -162,7 +162,7 @@ def build_data(dataframes, source_text, target_text):
 
 def generate(tokenizer, model, device, loader, model_params):
     """
-  Function to evaluate model for predictions
+  Function to evaluate model for spanbert-predictions
 
   """
     model.eval()
