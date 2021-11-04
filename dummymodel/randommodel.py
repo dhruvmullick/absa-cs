@@ -32,9 +32,9 @@ def generate_dummy_output_for_line(sentence):
         random_number = random.random()
         if random_number < pos_ratio:
             polarity_sentence.append('{} positive'.format(word))
-        if random_number < pos_ratio + neg_ratio:
+        elif random_number < pos_ratio + neg_ratio:
             polarity_sentence.append('{} negative'.format(word))
-        if random_number < pos_ratio + neg_ratio + neu_ratio:
+        elif random_number < pos_ratio + neg_ratio + neu_ratio:
             polarity_sentence.append('{} neutral'.format(word))
     polarity_sentence = ' <sep> '.join(polarity_sentence)
     return polarity_sentence.strip()
