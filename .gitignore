@@ -132,3 +132,7 @@ dmypy.json
 models
 .idea/
 .DS_Store
+
+#ignoring saved models from T5
+*.model
+*.bin

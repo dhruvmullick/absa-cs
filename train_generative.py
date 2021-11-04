@@ -12,11 +12,10 @@ from transformers import T5Tokenizer, T5ForConditionalGeneration
 from rich.table import Column, Table
 from rich import box
 from rich.console import Console
+from shutil import copyfile
 
 # pd.set_option('display.max_colwidth', -1)
 
-PREDICTION_FILE = 'spanbert-predictions.csv'
-# PREDICTION_FILE = 'predictions_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
 
 # define a rich console logger
 console = Console(record=True)
@@ -34,7 +33,7 @@ device = 'cuda' if cuda.is_available() else 'cpu'
 training_logger = Table(Column("Epoch", justify="center"), Column("train_loss", justify="center"),
                         Column("val_loss", justify="center"), Column("Epoch Time", justify="center"),
                         title="Training Status", pad_edge=False, box=box.ASCII)
-
+lang_map = {'en': 'english', 'es': 'spanish', 'ru': 'russian'}
 
 class YourDataSetClass(Dataset):
     """
@@ -123,7 +122,7 @@ def validate(tokenizer, model, device, loader):
 def build_data(dataframes, source_text, target_text):
     # tokenzier for encoding the text
     tokenizer = T5Tokenizer.from_pretrained(model_params["MODEL"])
-    tokenizer.add_tokens('<sep>')
+    tokenizer.add_tokens(['<sep>', '<lang>'])#, 'generate_english', 'generate_spanish', 'generate_russian'])
     # special_tokens_dict = {'additional_special_tokens': ['<sep>']}
     # tokenizer.add_special_tokens(special_tokens_dict)
     # model_params['new_tokens_size'] = len(tokenizer)
@@ -215,7 +214,7 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params):
 
     # initialize the early_stopping object
     early_stopping = EarlyStopping(patience=model_params["early_stopping_patience"], verbose=False,
-                                   path=f'{model_params["OUTPUT_PATH"]}/best_model_checkpoint.pt')
+                                   path=f'{model_params["OUTPUT_PATH"]}/best_pytorch_model.bin')
 
     # Training loop
     console.log(f'[Initiating Fine Tuning]...\n')
@@ -253,14 +252,19 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params):
     path = os.path.join(model_params["OUTPUT_PATH"], "model_files")
     model.save_pretrained(path)
     tokenizer.save_pretrained(path)
+    console.log(f"[Replace best model with the last model]...\n")
+    os.rename(f'{model_params["OUTPUT_PATH"]}/model_files/pytorch_model.bin', f'{model_params["OUTPUT_PATH"]}/model_files/last_epoch_pytorch_model.bin')
+    copyfile(f'{model_params["OUTPUT_PATH"]}/best_pytorch_model.bin', f'{model_params["OUTPUT_PATH"]}/model_files/pytorch_model.bin')
+    os.remove(f'{model_params["OUTPUT_PATH"]}/best_pytorch_model.bin')
 
 
-def T5Generator(validation_loader, model_params):
+
+def T5Generator(validation_loader, model_params, output_file):
     console.log(f"[Loading Model]...\n")
     # Saving the model after training
     path = os.path.join(model_params["OUTPUT_PATH"], "model_files")
-    model = T5ForConditionalGeneration.from_pretrained(path)  # "valhalla/t5-base-e2e-qg")
-    tokenizer = T5Tokenizer.from_pretrained(path)  # "valhalla/t5-base-e2e-qg")
+    model = T5ForConditionalGeneration.from_pretrained(path)
+    tokenizer = T5Tokenizer.from_pretrained(path)
     model = model.to(device)
 
     # evaluating test dataset
@@ -268,49 +272,55 @@ def T5Generator(validation_loader, model_params):
     for epoch in range(model_params["VAL_EPOCHS"]):
         predictions, actuals, data_list = generate(tokenizer, model, device, validation_loader, model_params)
         final_df = pd.DataFrame({'Generated Text': predictions, 'Actual Text': actuals, 'Original Sentence': data_list})
-        final_df.to_csv(os.path.join(model_params["OUTPUT_PATH"], PREDICTION_FILE))
+        final_df.to_csv(os.path.join(model_params["OUTPUT_PATH"], output_file))
 
     console.save_text(os.path.join(model_params["OUTPUT_PATH"], 'logs.txt'))
 
     console.log(f"[Validation Completed.]\n")
     console.print(f"""[Model] Model saved @ {os.path.join(model_params["OUTPUT_PATH"], "model_files")}\n""")
-    console.print(
-        f"""[Validation] Generation on Validation data saved @ {os.path.join(model_params["OUTPUT_PATH"], PREDICTION_FILE)}\n""")
+    console.print(f"""[Validation] Generation on Validation data saved @ {os.path.join(model_params["OUTPUT_PATH"], output_file)}\n""")
     console.print(f"""[Logs] Logs saved @ {os.path.join(model_params["OUTPUT_PATH"], 'logs.txt')}\n""")
 
 
 if __name__ == '__main__':
+    # domain: Rest16, Lap14, Mams, Mams_short
+    # lang: en, es, ru
+    for train_settings in [('Rest16', 'en', 'Rest16', 'en'), ('Rest16', 'es', 'Rest16', 'es'), ('Rest16', 'ru', 'Rest16', 'ru'), 
+                            ('Lap14', 'en', 'Lap14', 'en'), ('Mams', 'en', 'Mams', 'en'), ('Mams_short', 'en', 'Mams_short', 'en')]:
+            
+            train_domain = train_settings[0]
+            train_language = train_settings[1]
+            test_domain = train_settings[2]
+            test_language = train_settings[3]
+            training_file = './data/processed_train_{}_{}.csv'.format(train_domain, train_language)
+            validation_file = './data/processed_val_{}_{}.csv'.format(train_domain, train_language)
+            test_file = './data/processed_test_{}_{}.csv'.format(test_domain, test_language)
+            print("Experiment: Training on {}.{}, Testing on {}.{}".format(train_domain, train_language, test_domain, test_language))
 
-    train_domain = sys.argv[1]
-    train_language = sys.argv[2]
-    test_domain = sys.argv[3]
-    test_language = sys.argv[4]
-    training_file = './data/processed_train_{}_{}.csv'.format(train_domain, train_language)
-    validation_file = './data/processed_val_{}_{}.csv'.format(train_domain, train_language)
-    test_file = './data/processed_test_{}_{}.csv'.format(test_domain, test_language)
+            training = pd.read_csv(training_file)
+            validation = pd.read_csv(validation_file)
+            test = pd.read_csv(test_file)
+            
+            # for cross lingual
+            # training['sentences_texts'] = training['sentences_texts'].map(lambda txt: f'generate {lang_map[train_settings[1]]} </s> {txt}')
+            # validation['sentences_texts'] = validation['sentences_texts'].map(lambda txt: f'generate {lang_map[train_settings[1]]} </s> {txt}')
+            # test['sentences_texts'] = test['sentences_texts'].map(lambda txt: f'generate {lang_map[train_settings[1]]} </s> {txt}')
 
-    print("Experiment: Training on {}.{}, Testing on {}.{}".format(train_domain, train_language, test_domain, test_language))
+            model_params = {
+                "OUTPUT_PATH": f"./generative-predictions/{'_'.join(train_settings)}",  # output path
+                "MODEL": "google/mt5-base",  # model_type: t5-base/t5-large
+                "TRAIN_BATCH_SIZE": 16,  # training batch size
+                "VALID_BATCH_SIZE": 8,  # validation batch size
+                "TRAIN_EPOCHS": 50,  # number of training epochs
+                "VAL_EPOCHS": 1,  # number of validation epochs
+                "LEARNING_RATE": 1e-4,  # learning rate
+                "MAX_SOURCE_TEXT_LENGTH": 256,  # max length of source text
+                "MAX_TARGET_TEXT_LENGTH": 64,  # max length of target text
+                "early_stopping_patience": 2,  # number of epochs before stopping training.
+            }
 
-    training = pd.read_csv(training_file)
-    validation = pd.read_csv(validation_file)
-    test = pd.read_csv(test_file)
+            training_loader, validation_loader, test_loader, tokenizer = build_data(dataframes=[training, validation, test],
+                                                                                    source_text="sentences_texts", target_text="sentences_opinions")
 
-    model_params = {
-        "OUTPUT_PATH": "./models/combined",  # output path
-        "MODEL": "t5-base",  # model_type: t5-base/t5-large
-        "TRAIN_BATCH_SIZE": 16,  # training batch size
-        "VALID_BATCH_SIZE": 16,  # validation batch size
-        "TRAIN_EPOCHS": 50,  # number of training epochs
-        "VAL_EPOCHS": 1,  # number of validation epochs
-        "LEARNING_RATE": 1e-4,  # learning rate
-        "MAX_SOURCE_TEXT_LENGTH": 64,  # max length of source text
-        "MAX_TARGET_TEXT_LENGTH": 64,  # max length of target text
-        "early_stopping_patience": 1,  # number of epochs before stopping training.
-    }
-
-    training_loader, validation_loader, test_loader, tokenizer = build_data(dataframes=[training, validation, test],
-                                                                            source_text="sentences_texts",
-                                                                            target_text="sentences_opinions")
-
-    T5Trainer(training_loader, validation_loader, tokenizer, model_params=model_params)
-    T5Generator(test_loader, model_params=model_params)
+            T5Trainer(training_loader, validation_loader, tokenizer, model_params=model_params)
+            T5Generator(test_loader, model_params=model_params, output_file=f'{test_domain}_{test_language}_predictions.csv')

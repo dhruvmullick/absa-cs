@@ -2,12 +2,12 @@ import csv
 import utils
 import sys
 
-PREDICTIONS_FILE = 'dummymodel/predictions_dummy.csv'
-# PREDICTIONS_FILE = 'models/combined/predictions_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
-TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/combined/transformed-targets.csv'
-TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/combined/transformed-sentiments.csv'
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/combined/transformed-targets_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/combined/transformed-sentiments_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
+# PREDICTIONS_FILE = 'dummymodel/predictions_dummy.csv'
+PREDICTIONS_FILE = 'models/combined/predictions_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
+# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/combined/transformed-targets.csv'
+# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/combined/transformed-sentiments.csv'
+TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/combined/transformed-targets_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
+TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/combined/transformed-sentiments_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
 SEPARATOR = '<sep>'
 
 sentiment_to_identifier = {

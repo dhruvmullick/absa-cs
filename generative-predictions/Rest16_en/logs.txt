@@ -1,0 +1,15 @@
+[15:08:41] [Data]: Reading data...                                                                                                                                                                   train_generative.py:131
+                                                                                                                                                                                                                            
+TRAIN Dataset: (857, 4)
+VALIDATION Dataset: (114, 4)
+TEST Dataset: (390, 4)
+
+           [Loading Model]...                                                                                                                                                                        train_generative.py:263
+                                                                                                                                                                                                                            
+[15:08:55] [Initiating Validation]...                                                                                                                                                                train_generative.py:271
+                                                                                                                                                                                                                            
+Completed 0
+Completed 10
+Completed 20
+Completed 30
+Completed 40
