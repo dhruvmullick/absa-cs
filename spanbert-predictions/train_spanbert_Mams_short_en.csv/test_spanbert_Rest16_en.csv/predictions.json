@@ -8,20 +8,12 @@
         ]
     },
     "1": {
-        "pred_terms": [
-            "portions"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "2": {
-        "pred_terms": [
-            "tea creme brulee"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "3": {
         "pred_terms": [],
@@ -50,12 +42,8 @@
         "pred_polarities": []
     },
     "7": {
-        "pred_terms": [
-            "owner"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "8": {
         "pred_terms": [
@@ -94,18 +82,12 @@
             "food"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "13": {
-        "pred_terms": [
-            "lemon chicken",
-            "honey walnut prawns"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "14": {
         "pred_terms": [
@@ -116,40 +98,28 @@
         ]
     },
     "15": {
-        "pred_terms": [
-            "service"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "16": {
-        "pred_terms": [
-            "service"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "17": {
         "pred_terms": [
             "food",
             "waiter",
-            "water"
+            "water or utensils"
         ],
         "pred_polarities": [
             "neutral",
             "negative",
-            "neutral"
+            "negative"
         ]
     },
     "18": {
-        "pred_terms": [
-            "manager"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "19": {
         "pred_terms": [],
@@ -179,12 +149,10 @@
     },
     "24": {
         "pred_terms": [
-            "service",
             "meal",
             "ambiance"
         ],
         "pred_polarities": [
-            "positive",
             "positive",
             "positive"
         ]
@@ -226,7 +194,7 @@
             "kafta plate"
         ],
         "pred_polarities": [
-            "positive"
+            "neutral"
         ]
     },
     "30": {
@@ -234,7 +202,7 @@
             "meal"
         ],
         "pred_polarities": [
-            "positive"
+            "neutral"
         ]
     },
     "31": {
@@ -249,7 +217,7 @@
     },
     "32": {
         "pred_terms": [
-            "quality food"
+            "food"
         ],
         "pred_polarities": [
             "positive"
@@ -266,13 +234,13 @@
     "34": {
         "pred_terms": [
             "food",
-            "price",
-            "atmosphere"
+            "atmosphere",
+            "price"
         ],
         "pred_polarities": [
             "negative",
-            "negative",
-            "positive"
+            "positive",
+            "negative"
         ]
     },
     "35": {
@@ -288,29 +256,19 @@
         "pred_polarities": []
     },
     "37": {
-        "pred_terms": [
-            "fish",
-            "quality"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "38": {
-        "pred_terms": [
-            "fish"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "39": {
         "pred_terms": [
             "service"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "40": {
@@ -322,16 +280,16 @@
         ]
     },
     "41": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "42": {
         "pred_terms": [
-            "rolls"
+            "sushi"
         ],
         "pred_polarities": [
             "positive"
         ]
+    },
+    "42": {
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "43": {
         "pred_terms": [],
@@ -360,7 +318,7 @@
         ],
         "pred_polarities": [
             "positive",
-            "positive"
+            "negative"
         ]
     },
     "47": {
@@ -369,7 +327,7 @@
             "waiters"
         ],
         "pred_polarities": [
-            "negative",
+            "positive",
             "negative"
         ]
     },
@@ -394,7 +352,7 @@
             "table"
         ],
         "pred_polarities": [
-            "negative"
+            "neutral"
         ]
     },
     "51": {
@@ -403,7 +361,7 @@
             "salsa"
         ],
         "pred_polarities": [
-            "negative",
+            "positive",
             "negative"
         ]
     },
@@ -418,8 +376,12 @@
         ]
     },
     "53": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "pizza place"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "54": {
         "pred_terms": [
@@ -430,8 +392,12 @@
         ]
     },
     "55": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "sushi"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "56": {
         "pred_terms": [],
@@ -442,30 +408,20 @@
         "pred_polarities": []
     },
     "58": {
-        "pred_terms": [
-            "bar"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "59": {
         "pred_terms": [
-            "drinks",
-            "bartender"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "negative"
-        ]
-    },
-    "60": {
-        "pred_terms": [
-            "pizza rocks"
+            "drinks"
         ],
         "pred_polarities": [
             "neutral"
         ]
+    },
+    "60": {
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "61": {
         "pred_terms": [],
@@ -473,12 +429,10 @@
     },
     "62": {
         "pred_terms": [
-            "food",
-            "bartenders"
+            "food"
         ],
         "pred_polarities": [
-            "positive",
-            "negative"
+            "positive"
         ]
     },
     "63": {
@@ -492,12 +446,8 @@
         ]
     },
     "64": {
-        "pred_terms": [
-            "upstairs"
-        ],
-        "pred_polarities": [
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "65": {
         "pred_terms": [],
@@ -516,12 +466,8 @@
         "pred_polarities": []
     },
     "68": {
-        "pred_terms": [
-            "jellyfish , horse mackerel"
-        ],
-        "pred_polarities": [
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "69": {
         "pred_terms": [],
@@ -556,7 +502,7 @@
             "food"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "74": {
@@ -573,7 +519,7 @@
             "price"
         ],
         "pred_polarities": [
-            "negative",
+            "positive",
             "negative"
         ]
     },
@@ -586,12 +532,8 @@
         ]
     },
     "77": {
-        "pred_terms": [
-            "service"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "78": {
         "pred_terms": [
@@ -602,16 +544,8 @@
         ]
     },
     "79": {
-        "pred_terms": [
-            "potatoes",
-            "pumpkin ravioli",
-            "goat cheese gnocchi"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "80": {
         "pred_terms": [
@@ -622,12 +556,8 @@
         ]
     },
     "81": {
-        "pred_terms": [
-            "indian food"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "82": {
         "pred_terms": [
@@ -636,23 +566,19 @@
         ],
         "pred_polarities": [
             "positive",
-            "neutral"
+            "positive"
         ]
     },
     "83": {
-        "pred_terms": [
-            "chana masala"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "84": {
         "pred_terms": [
             "food"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "85": {
@@ -664,22 +590,12 @@
         ]
     },
     "86": {
-        "pred_terms": [
-            "korma",
-            "paneer"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "87": {
-        "pred_terms": [
-            "delivery"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "88": {
         "pred_terms": [
@@ -730,12 +646,8 @@
         ]
     },
     "95": {
-        "pred_terms": [
-            "environment"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "96": {
         "pred_terms": [],
@@ -743,12 +655,10 @@
     },
     "97": {
         "pred_terms": [
-            "restaurant",
-            "customer service",
-            "decor"
+            "decor",
+            "customer service"
         ],
         "pred_polarities": [
-            "positive",
             "positive",
             "positive"
         ]
@@ -758,7 +668,7 @@
             "food"
         ],
         "pred_polarities": [
-            "neutral"
+            "negative"
         ]
     },
     "99": {
@@ -782,16 +692,16 @@
         "pred_polarities": []
     },
     "102": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "103": {
         "pred_terms": [
-            "margaritas"
+            "food"
         ],
         "pred_polarities": [
             "positive"
         ]
-    },
-    "103": {
-        "pred_terms": [],
-        "pred_polarities": []
     },
     "104": {
         "pred_terms": [],
@@ -810,7 +720,7 @@
             "food"
         ],
         "pred_polarities": [
-            "neutral"
+            "positive"
         ]
     },
     "107": {
@@ -838,19 +748,17 @@
     "111": {
         "pred_terms": [
             "food",
-            "quality",
-            "lunch"
+            "quality"
         ],
         "pred_polarities": [
             "positive",
-            "negative",
-            "neutral"
+            "negative"
         ]
     },
     "112": {
         "pred_terms": [
-            "dinners",
-            "food quality"
+            "food",
+            "dinners"
         ],
         "pred_polarities": [
             "positive",
@@ -866,16 +774,12 @@
         ]
     },
     "114": {
-        "pred_terms": [
-            "potatoes"
-        ],
-        "pred_polarities": [
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "115": {
         "pred_terms": [
-            "fragrant olive oil"
+            "olive oil"
         ],
         "pred_polarities": [
             "positive"
@@ -919,25 +823,15 @@
     },
     "121": {
         "pred_terms": [
-            "service",
-            "band"
+            "service"
         ],
         "pred_polarities": [
-            "positive",
             "positive"
         ]
     },
     "122": {
-        "pred_terms": [
-            "plates",
-            "fruit",
-            "shoe string onions"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "123": {
         "pred_terms": [
@@ -982,12 +876,8 @@
         "pred_polarities": []
     },
     "130": {
-        "pred_terms": [
-            "lunch"
-        ],
-        "pred_polarities": [
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "131": {
         "pred_terms": [
@@ -1002,19 +892,15 @@
         ]
     },
     "132": {
-        "pred_terms": [
-            "sevice/attitude"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "133": {
         "pred_terms": [
-            "food televisions"
+            "food"
         ],
         "pred_polarities": [
-            "neutral"
+            "positive"
         ]
     },
     "134": {
@@ -1027,11 +913,9 @@
     },
     "136": {
         "pred_terms": [
-            "coffee",
             "pizza"
         ],
         "pred_polarities": [
-            "positive",
             "positive"
         ]
     },
@@ -1087,8 +971,8 @@
     },
     "144": {
         "pred_terms": [
-            "service",
             "food",
+            "service",
             "location"
         ],
         "pred_polarities": [
@@ -1145,8 +1029,8 @@
     },
     "151": {
         "pred_terms": [
-            "atmosphere",
-            "food"
+            "food",
+            "atmosphere"
         ],
         "pred_polarities": [
             "positive",
@@ -1160,20 +1044,18 @@
     "153": {
         "pred_terms": [
             "meal",
-            "omikase platter"
+            "fish on the omikase platter"
         ],
         "pred_polarities": [
             "positive",
-            "positive"
+            "neutral"
         ]
     },
     "154": {
         "pred_terms": [
-            "rice",
             "waitstaff"
         ],
         "pred_polarities": [
-            "neutral",
             "negative"
         ]
     },
@@ -1186,8 +1068,12 @@
         ]
     },
     "156": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "sushi"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "157": {
         "pred_terms": [],
@@ -1198,7 +1084,7 @@
             "oyster roll"
         ],
         "pred_polarities": [
-            "positive"
+            "neutral"
         ]
     },
     "159": {
@@ -1249,11 +1135,9 @@
     },
     "167": {
         "pred_terms": [
-            "food",
-            "brunch"
+            "food"
         ],
         "pred_polarities": [
-            "positive",
             "positive"
         ]
     },
@@ -1266,18 +1150,16 @@
             "desserts"
         ],
         "pred_polarities": [
-            "neutral"
+            "positive"
         ]
     },
     "170": {
         "pred_terms": [
             "restaurant",
-            "ambiance",
             "wine list"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
+            "neutral",
             "positive"
         ]
     },
@@ -1291,35 +1173,23 @@
     },
     "172": {
         "pred_terms": [
-            "specials",
-            "chicken soup",
-            "enchiladas"
+            "specials"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
             "positive"
         ]
     },
     "173": {
         "pred_terms": [
-            "cooks",
-            "restaurant for years and cook family recipes"
+            "cooks"
         ],
         "pred_polarities": [
-            "positive",
             "positive"
         ]
     },
     "174": {
-        "pred_terms": [
-            "service",
-            "table"
-        ],
-        "pred_polarities": [
-            "positive",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "175": {
         "pred_terms": [
@@ -1362,12 +1232,8 @@
         "pred_polarities": []
     },
     "180": {
-        "pred_terms": [
-            "staff"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "181": {
         "pred_terms": [
@@ -1387,12 +1253,10 @@
     },
     "183": {
         "pred_terms": [
-            "service",
-            "seat"
+            "service"
         ],
         "pred_polarities": [
-            "negative",
-            "neutral"
+            "positive"
         ]
     },
     "184": {
@@ -1421,11 +1285,9 @@
     },
     "188": {
         "pred_terms": [
-            "menu",
-            "lunch"
+            "lunch menu"
         ],
         "pred_polarities": [
-            "neutral",
             "neutral"
         ]
     },
@@ -1434,7 +1296,7 @@
             "food"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "190": {
@@ -1459,7 +1321,7 @@
     },
     "192": {
         "pred_terms": [
-            "selection"
+            "sushi"
         ],
         "pred_polarities": [
             "positive"
@@ -1470,7 +1332,7 @@
             "waiters"
         ],
         "pred_polarities": [
-            "positive"
+            "negative"
         ]
     },
     "194": {
@@ -1486,39 +1348,31 @@
         "pred_polarities": []
     },
     "197": {
-        "pred_terms": [
-            "sushi restaurant"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "198": {
-        "pred_terms": [
-            "tuna"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "199": {
         "pred_terms": [],
         "pred_polarities": []
     },
     "200": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "sushi"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "201": {
         "pred_terms": [
-            "rolls",
-            "smoked yellowtail",
-            "chef's choice for sushi"
+            "sushi"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "neutral"
+            "positive"
         ]
     },
     "202": {
@@ -1543,17 +1397,15 @@
     },
     "204": {
         "pred_terms": [
-            "taste",
             "pizza"
         ],
         "pred_polarities": [
-            "positive",
             "neutral"
         ]
     },
     "205": {
         "pred_terms": [
-            "frozen pizza"
+            "pizza"
         ],
         "pred_polarities": [
             "positive"
@@ -1579,55 +1431,35 @@
     },
     "209": {
         "pred_terms": [
-            "wait",
-            "drink"
+            "wait"
         ],
         "pred_polarities": [
-            "negative",
             "neutral"
         ]
     },
     "210": {
-        "pred_terms": [
-            "seafood"
-        ],
-        "pred_polarities": [
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "211": {
         "pred_terms": [
-            "appetizer",
-            "lobster",
-            "oysters"
+            "appetizer"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "212": {
-        "pred_terms": [
-            "seabass",
-            "lobster risotto"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "213": {
-        "pred_terms": [
-            "caesar salad"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "214": {
         "pred_terms": [
-            "wine"
+            "bottle of wine"
         ],
         "pred_polarities": [
             "positive"
@@ -1648,7 +1480,7 @@
             "served"
         ],
         "pred_polarities": [
-            "negative",
+            "neutral",
             "negative",
             "neutral"
         ]
@@ -1662,12 +1494,8 @@
         ]
     },
     "218": {
-        "pred_terms": [
-            "owner"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "219": {
         "pred_terms": [],
@@ -1679,29 +1507,19 @@
             "atmosphere"
         ],
         "pred_polarities": [
-            "negative",
+            "positive",
             "positive"
         ]
     },
     "221": {
-        "pred_terms": [
-            "service",
-            "beer",
-            "served"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "neutral",
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "222": {
         "pred_terms": [
-            "restaurant",
-            "service"
+            "restaurant"
         ],
         "pred_polarities": [
-            "negative",
             "negative"
         ]
     },
@@ -1720,7 +1538,7 @@
             "service"
         ],
         "pred_polarities": [
-            "negative"
+            "neutral"
         ]
     },
     "225": {
@@ -1737,13 +1555,9 @@
     },
     "228": {
         "pred_terms": [
-            "waterfront setting",
-            "seafood",
-            "seasonal fish"
+            "waterfront setting"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
             "positive"
         ]
     },
@@ -1796,7 +1610,7 @@
         ],
         "pred_polarities": [
             "negative",
-            "positive"
+            "negative"
         ]
     },
     "235": {
@@ -1808,20 +1622,12 @@
         ]
     },
     "236": {
-        "pred_terms": [
-            "breakfast"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "237": {
-        "pred_terms": [
-            "breakfast"
-        ],
-        "pred_polarities": [
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "238": {
         "pred_terms": [
@@ -1832,16 +1638,16 @@
         ]
     },
     "239": {
-        "pred_terms": [
-            "breakfast"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "240": {
         "pred_terms": [],
         "pred_polarities": []
+    },
+    "240": {
+        "pred_terms": [
+            "crab eggs"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
     },
     "241": {
         "pred_terms": [
@@ -1854,60 +1660,48 @@
     "242": {
         "pred_terms": [
             "restaurant",
-            "ambiance"
+            "ambiance",
+            "dinning"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive"
         ]
     },
     "243": {
         "pred_terms": [
-            "staff"
+            "staff",
+            "chinese"
         ],
         "pred_polarities": [
-            "positive"
+            "positive",
+            "negative"
         ]
     },
     "244": {
-        "pred_terms": [
-            "batter",
-            "prawns",
-            "walnuts"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "245": {
         "pred_terms": [],
         "pred_polarities": []
     },
     "246": {
-        "pred_terms": [
-            "brocollis"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "247": {
         "pred_terms": [
             "food"
         ],
         "pred_polarities": [
-            "neutral"
+            "positive"
         ]
     },
     "248": {
-        "pred_terms": [
-            "mango ginger creme brulee"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "249": {
         "pred_terms": [],
@@ -1919,21 +1713,15 @@
     },
     "251": {
         "pred_terms": [
-            "sushi",
-            "slices of fish"
+            "sushi"
         ],
         "pred_polarities": [
-            "positive",
-            "negative"
+            "positive"
         ]
     },
     "252": {
-        "pred_terms": [
-            "restaurant"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "253": {
         "pred_terms": [],
@@ -1963,44 +1751,32 @@
             "box sushi"
         ],
         "pred_polarities": [
-            "neutral",
+            "positive",
             "positive"
         ]
     },
     "258": {
-        "pred_terms": [
-            "omikase"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "259": {
-        "pred_terms": [
-            "specialty rolls"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "260": {
         "pred_terms": [],
         "pred_polarities": []
     },
     "261": {
-        "pred_terms": [
-            "tea creme brulee"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "262": {
         "pred_terms": [
             "sushi"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "263": {
@@ -2013,8 +1789,8 @@
     },
     "264": {
         "pred_terms": [
-            "food",
-            "service"
+            "customer service",
+            "food"
         ],
         "pred_polarities": [
             "negative",
@@ -2023,16 +1799,14 @@
     },
     "265": {
         "pred_terms": [
-            "service",
             "food",
-            "restaurant staff",
-            "diner"
+            "service",
+            "restaurant staff"
         ],
         "pred_polarities": [
-            "negative",
             "positive",
             "negative",
-            "neutral"
+            "negative"
         ]
     },
     "266": {
@@ -2045,11 +1819,9 @@
     },
     "267": {
         "pred_terms": [
-            "manager",
             "meal"
         ],
         "pred_polarities": [
-            "negative",
             "neutral"
         ]
     },
@@ -2066,7 +1838,7 @@
             "sushi"
         ],
         "pred_polarities": [
-            "neutral"
+            "negative"
         ]
     },
     "270": {
@@ -2095,10 +1867,10 @@
     },
     "274": {
         "pred_terms": [
-            "seafood dinners"
+            "dinners"
         ],
         "pred_polarities": [
-            "positive"
+            "negative"
         ]
     },
     "275": {
@@ -2118,14 +1890,8 @@
         ]
     },
     "277": {
-        "pred_terms": [
-            "black cod",
-            "family platter"
-        ],
-        "pred_polarities": [
-            "positive",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "278": {
         "pred_terms": [
@@ -2142,26 +1908,20 @@
             "service"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "280": {
-        "pred_terms": [
-            "breakfast"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "281": {
         "pred_terms": [
             "menu",
-            "coffee",
             "drinks"
         ],
         "pred_polarities": [
             "positive",
-            "neutral",
             "positive"
         ]
     },
@@ -2187,8 +1947,8 @@
     },
     "286": {
         "pred_terms": [
-            "atmosphere",
             "music",
+            "atmosphere",
             "bar tenders"
         ],
         "pred_polarities": [
@@ -2207,12 +1967,10 @@
     },
     "288": {
         "pred_terms": [
-            "dinner",
-            "price"
+            "dinner"
         ],
         "pred_polarities": [
-            "neutral",
-            "negative"
+            "neutral"
         ]
     },
     "289": {
@@ -2225,19 +1983,15 @@
     },
     "290": {
         "pred_terms": [
-            "dinner",
-            "music playing",
-            "sound system"
+            "dinner"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive",
-            "positive"
+            "neutral"
         ]
     },
     "291": {
         "pred_terms": [
-            "shrimp appetizer"
+            "shellfish and shrimp appetizer"
         ],
         "pred_polarities": [
             "neutral"
@@ -2252,7 +2006,7 @@
         "pred_polarities": [
             "positive",
             "positive",
-            "negative"
+            "positive"
         ]
     },
     "293": {
@@ -2260,7 +2014,7 @@
             "asparagus"
         ],
         "pred_polarities": [
-            "neutral"
+            "positive"
         ]
     },
     "294": {
@@ -2268,7 +2022,7 @@
             "steak"
         ],
         "pred_polarities": [
-            "neutral"
+            "positive"
         ]
     },
     "295": {
@@ -2281,23 +2035,15 @@
     },
     "296": {
         "pred_terms": [
-            "served",
             "peppercorn sauce"
         ],
         "pred_polarities": [
-            "neutral",
             "neutral"
         ]
     },
     "297": {
-        "pred_terms": [
-            "restaurant",
-            "steak"
-        ],
-        "pred_polarities": [
-            "negative",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "298": {
         "pred_terms": [
@@ -2316,12 +2062,8 @@
         ]
     },
     "300": {
-        "pred_terms": [
-            "restaurant"
-        ],
-        "pred_polarities": [
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "301": {
         "pred_terms": [
@@ -2332,21 +2074,15 @@
         ]
     },
     "302": {
-        "pred_terms": [
-            "server"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "303": {
         "pred_terms": [
-            "dishes",
-            "lobster"
+            "dishes"
         ],
         "pred_polarities": [
-            "neutral",
-            "negative"
+            "neutral"
         ]
     },
     "304": {
@@ -2355,7 +2091,7 @@
             "waiter"
         ],
         "pred_polarities": [
-            "negative",
+            "positive",
             "negative"
         ]
     },
@@ -2365,8 +2101,8 @@
     },
     "306": {
         "pred_terms": [
-            "menu",
-            "food"
+            "food",
+            "menu"
         ],
         "pred_polarities": [
             "positive",
@@ -2393,7 +2129,7 @@
     },
     "309": {
         "pred_terms": [
-            "pizza joint"
+            "pizza"
         ],
         "pred_polarities": [
             "positive"
@@ -2405,8 +2141,8 @@
     },
     "311": {
         "pred_terms": [
-            "salads",
-            "pizza"
+            "pizza",
+            "salads"
         ],
         "pred_polarities": [
             "positive",
@@ -2415,23 +2151,17 @@
     },
     "312": {
         "pred_terms": [
-            "bar",
-            "wait staff",
-            "cooks"
+            "wait staff"
         ],
         "pred_polarities": [
-            "neutral",
-            "negative",
-            "positive"
+            "negative"
         ]
     },
     "313": {
         "pred_terms": [
-            "restaurant",
             "decor"
         ],
         "pred_polarities": [
-            "positive",
             "positive"
         ]
     },
@@ -2452,7 +2182,7 @@
             "menu"
         ],
         "pred_polarities": [
-            "neutral"
+            "negative"
         ]
     },
     "317": {
@@ -2460,7 +2190,7 @@
             "menu"
         ],
         "pred_polarities": [
-            "neutral"
+            "positive"
         ]
     },
     "318": {
@@ -2468,21 +2198,23 @@
             "pizza"
         ],
         "pred_polarities": [
-            "positive"
+            "neutral"
         ]
     },
     "319": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "pizza"
+        ],
+        "pred_polarities": [
+            "neutral"
+        ]
     },
     "320": {
         "pred_terms": [
-            "crust",
             "pizza",
-            "pizza\u2019s"
+            "crust"
         ],
         "pred_polarities": [
-            "negative",
             "negative",
             "negative"
         ]
@@ -2546,12 +2278,8 @@
         "pred_polarities": []
     },
     "329": {
-        "pred_terms": [
-            "chefs"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "330": {
         "pred_terms": [
@@ -2622,14 +2350,8 @@
         ]
     },
     "339": {
-        "pred_terms": [
-            "atmosphere",
-            "music"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "340": {
         "pred_terms": [
@@ -2696,12 +2418,8 @@
         ]
     },
     "349": {
-        "pred_terms": [
-            "balcony"
-        ],
-        "pred_polarities": [
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "350": {
         "pred_terms": [
@@ -2741,7 +2459,7 @@
     },
     "354": {
         "pred_terms": [
-            "indoor ambience"
+            "ambience"
         ],
         "pred_polarities": [
             "positive"
@@ -2760,7 +2478,7 @@
             "food"
         ],
         "pred_polarities": [
-            "positive"
+            "neutral"
         ]
     },
     "358": {
@@ -2786,33 +2504,29 @@
             "portions"
         ],
         "pred_polarities": [
-            "positive"
+            "negative"
         ]
     },
     "361": {
         "pred_terms": [
-            "dinner"
-        ],
-        "pred_polarities": [
-            "neutral"
-        ]
-    },
-    "362": {
-        "pred_terms": [
-            "restroom"
-        ],
-        "pred_polarities": [
-            "neutral"
-        ]
-    },
-    "363": {
-        "pred_terms": [
-            "toilets",
-            "bathroom"
+            "dinner",
+            "music"
         ],
         "pred_polarities": [
             "neutral",
             "positive"
+        ]
+    },
+    "362": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "363": {
+        "pred_terms": [
+            "bathroom"
+        ],
+        "pred_polarities": [
+            "negative"
         ]
     },
     "364": {
@@ -2831,49 +2545,35 @@
     },
     "366": {
         "pred_terms": [
-            "catering",
-            "chicken vegetable soup"
+            "catering"
         ],
         "pred_polarities": [
-            "positive",
             "positive"
         ]
     },
     "367": {
         "pred_terms": [
-            "service",
             "service/quality"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive"
         ]
     },
     "368": {
-        "pred_terms": [
-            "menu",
-            "presentation"
-        ],
-        "pred_polarities": [
-            "negative",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "369": {
         "pred_terms": [
             "orange juice"
         ],
         "pred_polarities": [
-            "positive"
+            "neutral"
         ]
     },
     "370": {
-        "pred_terms": [
-            "juice"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "371": {
         "pred_terms": [
@@ -2887,22 +2587,20 @@
     },
     "372": {
         "pred_terms": [
-            "pancakes",
-            "pancake"
+            "pancakes"
         ],
         "pred_polarities": [
-            "positive",
             "positive"
         ]
     },
     "373": {
         "pred_terms": [
-            "pancakes",
-            "offerings"
+            "offerings",
+            "pancakes"
         ],
         "pred_polarities": [
             "positive",
-            "positive"
+            "negative"
         ]
     },
     "374": {
@@ -2920,19 +2618,17 @@
         ],
         "pred_polarities": [
             "neutral",
-            "neutral"
+            "negative"
         ]
     },
     "376": {
         "pred_terms": [
-            "pancakes",
             "orange juice",
-            "iced tea"
+            "pancakes"
         ],
         "pred_polarities": [
             "neutral",
-            "neutral",
-            "positive"
+            "negative"
         ]
     },
     "377": {
@@ -2949,26 +2645,20 @@
             "food"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "379": {
-        "pred_terms": [
-            "views"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "380": {
         "pred_terms": [
-            "drink",
-            "server"
+            "drink"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive"
+            "neutral"
         ]
     },
     "381": {
@@ -2981,21 +2671,15 @@
     },
     "383": {
         "pred_terms": [
-            "olive butter",
-            "scallops"
-        ],
-        "pred_polarities": [
-            "positive",
-            "negative"
-        ]
-    },
-    "384": {
-        "pred_terms": [
-            "grilled alaskan king salmon"
+            "olive butter"
         ],
         "pred_polarities": [
             "positive"
         ]
+    },
+    "384": {
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "385": {
         "pred_terms": [],
@@ -3003,11 +2687,9 @@
     },
     "386": {
         "pred_terms": [
-            "server",
             "dinner"
         ],
         "pred_polarities": [
-            "negative",
             "neutral"
         ]
     },
@@ -3016,11 +2698,7 @@
         "pred_polarities": []
     },
     "388": {
-        "pred_terms": [
-            "view"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     }
 }
