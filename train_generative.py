@@ -301,22 +301,22 @@ if __name__ == '__main__':
             validation = pd.read_csv(validation_file)
             test = pd.read_csv(test_file)
             
-            # for cross lingual
+            # for cross-lingual
             # training['sentences_texts'] = training['sentences_texts'].map(lambda txt: f'generate {lang_map[train_settings[1]]} </s> {txt}')
             # validation['sentences_texts'] = validation['sentences_texts'].map(lambda txt: f'generate {lang_map[train_settings[1]]} </s> {txt}')
             # test['sentences_texts'] = test['sentences_texts'].map(lambda txt: f'generate {lang_map[train_settings[1]]} </s> {txt}')
 
             model_params = {
-                "OUTPUT_PATH": f"./generative-predictions/{'_'.join(train_settings)}",  # output path
+                "OUTPUT_PATH": f"./generative-predictions/{'_'.join(train_settings[:2])}",  # output path
                 "MODEL": "google/mt5-base",  # model_type: t5-base/t5-large
                 "TRAIN_BATCH_SIZE": 16,  # training batch size
                 "VALID_BATCH_SIZE": 8,  # validation batch size
-                "TRAIN_EPOCHS": 50,  # number of training epochs
+                "TRAIN_EPOCHS": 100,  # number of training epochs
                 "VAL_EPOCHS": 1,  # number of validation epochs
                 "LEARNING_RATE": 1e-4,  # learning rate
                 "MAX_SOURCE_TEXT_LENGTH": 256,  # max length of source text
                 "MAX_TARGET_TEXT_LENGTH": 64,  # max length of target text
-                "early_stopping_patience": 2,  # number of epochs before stopping training.
+                "early_stopping_patience": 5,  # number of epochs before stopping training.
             }
 
             training_loader, validation_loader, test_loader, tokenizer = build_data(dataframes=[training, validation, test],
