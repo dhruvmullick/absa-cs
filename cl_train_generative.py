@@ -285,42 +285,41 @@ def T5Generator(validation_loader, model_params, output_file):
 if __name__ == '__main__':
     # domain: Rest16, Lap14, Mams, Mams_short
     # lang: en, es, ru
-    # ('Rest16', 'en', 'Rest16', 'en'), ('Rest16', 'es', 'Rest16', 'es'), ('Rest16', 'ru', 'Rest16', 'ru'), ('Lap14', 'en', 'Lap14', 'en'), ('Mams', 'en', 'Mams', 'en'), ('Mams_short', 'en', 'Mams_short', 'en')
-    for train_settings in [('Rest16', 'ru', 'Rest16', 'ru')]:
+    for train_settings in [('Rest16', 'en', 'Rest16', 'es')]:
             
-        train_domain = train_settings[0]
-        train_language = train_settings[1]
-        test_domain = train_settings[2]
-        test_language = train_settings[3]
-        training_file = './data/processed_train_{}_{}.csv'.format(train_domain, train_language)
-        validation_file = './data/processed_val_{}_{}.csv'.format(train_domain, train_language)
-        test_file = './data/processed_test_{}_{}.csv'.format(test_domain, test_language)
-        print("Experiment: Training on {}.{}, Testing on {}.{}".format(train_domain, train_language, test_domain, test_language))
+            train_domain = train_settings[0]
+            train_language = train_settings[1]
+            test_domain = train_settings[2]
+            test_language = train_settings[3]
+            training_file = './data/processed_train_{}_{}.csv'.format(train_domain, train_language)
+            validation_file = './data/processed_val_{}_{}.csv'.format(train_domain, train_language)
+            test_file = './data/processed_test_{}_{}.csv'.format(test_domain, test_language)
+            print("Experiment: Training on {}.{}, Testing on {}.{}".format(train_domain, train_language, test_domain, test_language))
 
-        training = pd.read_csv(training_file)
-        validation = pd.read_csv(validation_file)
-        test = pd.read_csv(test_file)
-        
-        # for cross-lingual
-        # training['sentences_texts'] = training['sentences_texts'].map(lambda txt: f'generate {lang_map[train_settings[1]]} </s> {txt}')
-        # validation['sentences_texts'] = validation['sentences_texts'].map(lambda txt: f'generate {lang_map[train_settings[1]]} </s> {txt}')
-        # test['sentences_texts'] = test['sentences_texts'].map(lambda txt: f'generate {lang_map[train_settings[1]]} </s> {txt}')
+            training = pd.read_csv(training_file)
+            validation = pd.read_csv(validation_file)
+            test = pd.read_csv(test_file)
+            
+            # For cross-lingual
+            training['sentences_texts'] = training['sentences_texts'].map(lambda txt: f'generate {lang_map[train_settings[1]]} </s> {txt}')
+            validation['sentences_texts'] = validation['sentences_texts'].map(lambda txt: f'generate {lang_map[train_settings[1]]} </s> {txt}')
+            test['sentences_texts'] = test['sentences_texts'].map(lambda txt: f'generate {lang_map[train_settings[3]]} </s> {txt}')
 
-        model_params = {
-            "OUTPUT_PATH": f"./generative-predictions/{'_'.join(train_settings[:2])}",  # output path
-            "MODEL": "google/mt5-base",  # model_type: t5-base/t5-large
-            "TRAIN_BATCH_SIZE": 8,  # training batch size
-            "VALID_BATCH_SIZE": 8,  # validation batch size
-            "TRAIN_EPOCHS": 300,  # number of training epochs
-            "VAL_EPOCHS": 1,  # number of validation epochs
-            "LEARNING_RATE": 5e-4,  # learning rate
-            "MAX_SOURCE_TEXT_LENGTH": 256,  # max length of source text
-            "MAX_TARGET_TEXT_LENGTH": 64,  # max length of target text
-            "early_stopping_patience": 20,  # number of epochs before stopping training.
-        }
+            model_params = {
+                "OUTPUT_PATH": f"./generative-predictions/CL_{'_'.join(train_settings[:2])}",  # output path
+                "MODEL": "google/mt5-base",  # model_type: t5-base/t5-large
+                "TRAIN_BATCH_SIZE": 1,  # training batch size
+                "VALID_BATCH_SIZE": 1,  # validation batch size
+                "TRAIN_EPOCHS": 300,  # number of training epochs
+                "VAL_EPOCHS": 1,  # number of validation epochs
+                "LEARNING_RATE": 5e-4,  # learning rate
+                "MAX_SOURCE_TEXT_LENGTH": 256,  # max length of source text
+                "MAX_TARGET_TEXT_LENGTH": 64,  # max length of target text
+                "early_stopping_patience": 20,  # number of epochs before stopping training.
+            }
 
-        training_loader, validation_loader, test_loader, tokenizer = build_data(dataframes=[training, validation, test],
-                                                                                source_text="sentences_texts", target_text="sentences_opinions")
+            training_loader, validation_loader, test_loader, tokenizer = build_data(dataframes=[training, validation, test],
+                                                                                    source_text="sentences_texts", target_text="sentences_opinions")
 
-        T5Trainer(training_loader, validation_loader, tokenizer, model_params=model_params)
-        T5Generator(test_loader, model_params=model_params, output_file=f'{test_domain}_{test_language}_predictions.csv')
+            T5Trainer(training_loader, validation_loader, tokenizer, model_params=model_params)
+            T5Generator(test_loader, model_params=model_params, output_file=f'{test_domain}_{test_language}_predictions.csv')

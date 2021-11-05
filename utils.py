@@ -2,6 +2,8 @@ import numpy as np
 import torch, math
 from torch.optim import Optimizer
 from nltk.stem import WordNetLemmatizer
+import nltk
+# nltk.download('stopwords')
 from nltk.corpus import stopwords
 import preprocess_for_eval
 
