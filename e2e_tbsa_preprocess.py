@@ -1,13 +1,24 @@
 import csv
 import utils
 import sys
+import os
 
 # PREDICTIONS_FILE = 'dummymodel/predictions_dummy.csv'
-PREDICTIONS_FILE = 'generative-predictions/{}/{}_{}_predictions.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/combined/transformed-targets.csv'
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/combined/transformed-sentiments.csv'
-TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'generative-predictions/{}/transformed-targets_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
-TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'generative-predictions/{}/transformed-sentiments_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
+# PREDICTIONS_FILE = 'generative-predictions/{}/{}_{}_predictions.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
+# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'generative-predictions/{}/transformed-targets_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
+# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'generative-predictions/{}/transformed-sentiments_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
+
+# PREDICTIONS_FILE = 'spanbert-predictions-transformed/train_spanbert_{}.csv/test_spanbert_{}.csv/predictions.json'
+# PREDICTIONS_FILE = 'models/combined/predictions_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
+PREDICTIONS_FILE = 'dummymodel/{}_predictions_dummy.csv'
+
+# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-targets.csv'
+# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-sentiments.csv'
+# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/combined/transformed-targets_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
+# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/combined/transformed-sentiments_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
+TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-targets.csv'
+TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-sentiments.csv'
+
 SEPARATOR = '<sep>'
 
 sentiment_to_identifier = {
@@ -93,10 +104,12 @@ def transform_line_for_sentiment_extraction(line, language):
     return generated_sentiment_idx_list_deduped, true_sentiment_idx_list
 
 
-def transform_gold_and_truth(language):
-    with open(PREDICTIONS_FILE, 'r') as csvfile:
-        with open(TRANSFORMED_TARGETS_PREDICTIONS_FILE, 'w') as newfile_targets:
-            with open(TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE, 'w') as newfile_sentiments:
+def transform_gold_and_truth(language, predictions_file, transformed_targets_predictions_file, transformed_sentiments_predictions_file):
+    with open(predictions_file, 'r') as csvfile:
+        os.makedirs(os.path.dirname(transformed_targets_predictions_file), exist_ok=True)
+        with open(transformed_targets_predictions_file, 'w') as newfile_targets:
+            os.makedirs(os.path.dirname(transformed_sentiments_predictions_file), exist_ok=True)
+            with open(transformed_sentiments_predictions_file, 'w') as newfile_sentiments:
                 reader = csv.reader(csvfile)
                 next(reader, None)  # skip the headers
                 writer_targets = csv.writer(newfile_targets)
@@ -112,5 +125,18 @@ def transform_gold_and_truth(language):
 
 
 # Pass argument as the language code - 'en', 'es', 'ru'
-transform_gold_and_truth(sys.argv[1])
 
+datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en', 'Mams_en', 'Mams_short_en']
+language = {'Rest16_en': 'en', 'Rest16_es': 'es', 'Rest16_ru': 'ru', 'Lap14_en': 'en', 'Mams_en': 'en', 'Mams_short_en': 'en'}
+
+#### For evaluating spanbert
+# for dtrain in datasets:
+#     for dtest in datasets:
+#         transform_gold_and_truth(language[dtest], PREDICTIONS_FILE.format(dtrain, dtest),
+#                                  TRANSFORMED_TARGETS_PREDICTIONS_FILE.format(dtrain, dtest),
+#                                  TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE.format(dtrain, dtest))
+
+for dtest in datasets:
+    transform_gold_and_truth(language[dtest], PREDICTIONS_FILE.format(dtest),
+                             TRANSFORMED_TARGETS_PREDICTIONS_FILE.format(dtest),
+                             TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE.format(dtest))

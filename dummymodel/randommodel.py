@@ -1,27 +1,20 @@
-# ORIGINAL PREDICTIONS FILE USED FROM MAMS TEST
+# A RANDOMISED MODEL FOR ABSA TASK
+
 import numpy as np
 import csv
 import random
 from nltk.corpus import stopwords
 
-stop_words_set = set(stopwords.words('english'))
+DATASET = 'Mams_short_en'
+LANGUAGE = 'english'
 
-PREDICTIONS_ORIGINAL_FILE = 'predictions_original.csv'
-PREDICTIONS_DUMMY_FILE = 'predictions_dummy.csv'
-
-neg = 197
-pos = 243
-neu = 373
-tot_pol = (197+243+373)
-total_words = 7218
-pos_ratio = pos/total_words
-neg_ratio = neg/total_words
-neu_ratio = neu/total_words
-polarity_ratio = tot_pol/total_words
+stop_words_set = set(stopwords.words(LANGUAGE))
+PREDICTIONS_ORIGINAL_FILE = '/Users/dhruvmullick/Projects/GenerativeAspectBasedSentimentAnalysis/generative-predictions/{}/{}_predictions.csv'.format(DATASET, DATASET)
+PREDICTIONS_DUMMY_FILE = '{}_predictions_dummy.csv'.format(DATASET)
 
 random.seed(0)
 
-def generate_dummy_output_for_line(sentence):
+def generate_dummy_output_for_line(sentence, pos_ratio, neg_ratio, neu_ratio):
     # assign polarity ratio words as polarities
     # assign neg_ratio as negative words, and so on. But don't assign to stop words.
     words = sentence.split(' ')
@@ -40,7 +33,7 @@ def generate_dummy_output_for_line(sentence):
     return polarity_sentence.strip()
 
 
-def generate_output():
+def generate_output(pos_ratio, neg_ratio, neu_ratio):
     with open(PREDICTIONS_ORIGINAL_FILE, 'r') as original_file:
         with open(PREDICTIONS_DUMMY_FILE, 'w') as new_file:
             reader = csv.reader(original_file)
@@ -49,8 +42,23 @@ def generate_output():
             next(reader, None)
             for line in reader:
                 new_line = line
-                new_sentence = generate_dummy_output_for_line(new_line[-1])
+                new_sentence = generate_dummy_output_for_line(new_line[-1], pos_ratio, neg_ratio, neu_ratio)
                 new_line[1] = new_sentence
                 writer.writerow(new_line)
 
-generate_output()
+
+def get_distribution():
+    pos, neg, neu, total_words = 0, 0, 0, 0
+    with open(PREDICTIONS_ORIGINAL_FILE, 'r') as original_file:
+        reader = csv.reader(original_file)
+        next(reader, None)
+        for line in reader:
+            total_words += len(line[-1].split())
+            pos += line[-2].count('positive')
+            neg += line[-2].count('negative')
+            neu += line[-2].count('neutral')
+    return pos/total_words, neg/total_words, neu/total_words
+
+
+pos_ratio, neg_ratio, neu_ratio = get_distribution()
+generate_output(pos_ratio, neg_ratio, neu_ratio)
