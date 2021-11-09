@@ -16,11 +16,11 @@ SMALL_POSITIVE_CONST = 1e-4
 # TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/combined/transformed-targets_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/combined/transformed-sentiments_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
 
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-targets.csv'
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-sentiments.csv'
+TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-targets.csv'
+TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-sentiments.csv'
 
-TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-targets.csv'
-TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-sentiments.csv'
+# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-targets.csv'
+# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-sentiments.csv'
 
 # Dhruv's e.g. evaluate_ote("O O O S O B I E", "O O O S O O O O") ->
 # (0.9999000099990001, 0.9999000099990001, 0.9998500124991251)
@@ -141,7 +141,7 @@ def evaluate_ts(gold_ts, pred_ts):
     ts_micro_p = float(n_tp_total) / (n_p_total + SMALL_POSITIVE_CONST)
     ts_micro_r = float(n_tp_total) / (n_g_total + SMALL_POSITIVE_CONST)
     ts_micro_f1 = 2 * ts_micro_p * ts_micro_r / (ts_micro_p + ts_micro_r + SMALL_POSITIVE_CONST)
-    ts_scores = (ts_macro_f1, ts_micro_p, ts_micro_r, ts_micro_f1)
+    ts_scores = (ts_micro_p, ts_micro_r, ts_micro_f1)
     return ts_scores
 
 
@@ -239,19 +239,24 @@ def read_transformed_sentiments(transformed_sentiments_predictions_file):
 # print(evaluate_ts([["O", "B-POS", "I-POS", "E-POS", "S-NEG", "S-POS"]], [["O", "B-POS", "I-POS", "E-POS", "S-NEG", "O"]]))
 # print(evaluate_ts([[(1, 3, 'POS'), (4, 4, 'NEG')]], [[(1, 3, 'POS'), (4, 4, 'NEG')]]))
 
-datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en', 'Mams_en', 'Mams_short_en']
+# training_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en', 'Mams_en', 'Mams_short_en']
+# test_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en', 'Mams_en', 'Mams_short_en']
+
+training_datasets = ['Rest16_en_merged', 'Rest16_es_merged', 'Rest16_ru_merged', 'Lap14_en_merged']
+test_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en']
 
 #### For evaluating spanbert
-# for dtrain in datasets:
-#     for dtest in datasets:
-#         print("EVALUATING - train: {}, test: {}".format(dtrain, dtest))
-#         predicted_data, gold_data = read_transformed_targets(TRANSFORMED_TARGETS_PREDICTIONS_FILE.format(dtrain, dtest))
-#         # print(evaluate_ote(gold_data, predicted_data))
-#         predicted_data, gold_data = read_transformed_sentiments(TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE.format(dtrain, dtest))
-#         print(evaluate_ts(gold_data, predicted_data))
+for dtrain in training_datasets:
+    for dtest in test_datasets:
+        print("EVALUATING - train: {}, test: {}".format(dtrain, dtest))
+        predicted_data, gold_data = read_transformed_targets(TRANSFORMED_TARGETS_PREDICTIONS_FILE.format(dtrain, dtest))
+        # print(evaluate_ote(gold_data, predicted_data))
+        predicted_data, gold_data = read_transformed_sentiments(TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE.format(dtrain, dtest))
+        print(evaluate_ts(gold_data, predicted_data))
 
-for dtest in datasets:
-    print("EVALUATING - test: {}".format(dtest))
-    predicted_data, gold_data = read_transformed_targets(TRANSFORMED_TARGETS_PREDICTIONS_FILE.format(dtest))
-    predicted_data, gold_data = read_transformed_sentiments(TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE.format(dtest))
-    print(evaluate_ts(gold_data, predicted_data))
+#### For dummy
+# for dtest in datasets:
+#     print("EVALUATING - test: {}".format(dtest))
+#     predicted_data, gold_data = read_transformed_targets(TRANSFORMED_TARGETS_PREDICTIONS_FILE.format(dtest))
+#     predicted_data, gold_data = read_transformed_sentiments(TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE.format(dtest))
+#     print(evaluate_ts(gold_data, predicted_data))

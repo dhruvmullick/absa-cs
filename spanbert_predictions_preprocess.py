@@ -42,10 +42,14 @@ def transform_predicted_sentences(transformed_predictions_file, gen_data_file, p
                 writer.writerow([i, predicted_sentences[i-1], actual_text, original_sent])
 
 
-datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en', 'Mams_en', 'Mams_short_en']
+# train_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en', 'Mams_en', 'Mams_short_en']
+# test_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en', 'Mams_en', 'Mams_short_en']
 
-for dtrain in datasets:
-    for dtest in datasets:
+train_datasets = ['Rest16_en_merged', 'Rest16_es_merged', 'Rest16_ru_merged', 'Lap14_en_merged']
+test_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en']
+
+for dtrain in train_datasets:
+    for dtest in test_datasets:
         predicted_sentences = get_predictions(PREDICTIONS_FILE.format(dtrain, dtest))
         transform_predicted_sentences(TRANSFORMED_PREDICTIONS_FILE.format(dtrain, dtest),
                                       GEN_DATA_FILE.format(dtest), predicted_sentences)
