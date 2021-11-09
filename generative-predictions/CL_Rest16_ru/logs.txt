@@ -1,21 +1,21 @@
-[07:16:41] [Validation Completed.]                                                                                                                                                     cl_train_generative.py:283
-                                                                                                                                                                                                                 
-[Model] Model saved @ ./generative-predictions/CL_Rest16_ru/model_files
+[12:13:42] [Validation Completed.]                                                                                                                                                  cl_train_generative.py:283
+                                                                                                                                                                                                              
+[Model] Model saved @ ./generative-predictions/CL_Rest16_es/model_files
 
-[Validation] Generation on Validation data saved @ ./generative-predictions/CL_Rest16_ru/Rest16_en_predictions.csv
+[Validation] Generation on Validation data saved @ ./generative-predictions/CL_Rest16_es/Lap14_en_predictions.csv
 
-[Logs] Logs saved @ ./generative-predictions/CL_Rest16_ru/logs.txt
+[Logs] Logs saved @ ./generative-predictions/CL_Rest16_es/logs.txt
 
-[07:16:44] [Data]: Reading data...                                                                                                                                                     cl_train_generative.py:135
-                                                                                                                                                                                                                 
+[12:13:45] [Data]: Reading data...                                                                                                                                                  cl_train_generative.py:135
+                                                                                                                                                                                                              
 TRAIN Dataset: (1857, 7)
 VALIDATION Dataset: (481, 7)
-TEST Dataset: (390, 4)
+TEST Dataset: (411, 4)
 
-           [Loading Model]...                                                                                                                                                          cl_train_generative.py:267
-                                                                                                                                                                                                                 
-[07:16:52] [Initiating Validation]...                                                                                                                                                  cl_train_generative.py:275
-                                                                                                                                                                                                                 
+           [Loading Model]...                                                                                                                                                       cl_train_generative.py:267
+                                                                                                                                                                                                              
+[12:13:54] [Initiating Validation]...                                                                                                                                               cl_train_generative.py:275
+                                                                                                                                                                                                              
 Completed 0
 Completed 10
 Completed 20
@@ -26,3 +26,4 @@ Completed 60
 Completed 70
 Completed 80
 Completed 90
+Completed 100
