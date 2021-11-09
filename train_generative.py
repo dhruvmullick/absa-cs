@@ -285,8 +285,7 @@ def T5Generator(validation_loader, model_params, output_file):
 if __name__ == '__main__':
     # domain: Rest16, Lap14, Mams, Mams_short
     # lang: en, es, ru
-    # ('Rest16', 'en', 'Rest16', 'en'), ('Rest16', 'es', 'Rest16', 'es'), ('Rest16', 'ru', 'Rest16', 'ru'), ('Lap14', 'en', 'Lap14', 'en'), ('Mams', 'en', 'Mams', 'en'), ('Mams_short', 'en', 'Mams_short', 'en')
-    for train_settings in [('Rest16', 'ru', 'Rest16', 'ru')]:
+    for train_settings in [('Mams', 'en', 'Rest16', 'en')]:
             
         train_domain = train_settings[0]
         train_language = train_settings[1]
@@ -322,5 +321,5 @@ if __name__ == '__main__':
         training_loader, validation_loader, test_loader, tokenizer = build_data(dataframes=[training, validation, test],
                                                                                 source_text="sentences_texts", target_text="sentences_opinions")
 
-        T5Trainer(training_loader, validation_loader, tokenizer, model_params=model_params)
+        # T5Trainer(training_loader, validation_loader, tokenizer, model_params=model_params)
         T5Generator(test_loader, model_params=model_params, output_file=f'{test_domain}_{test_language}_predictions.csv')

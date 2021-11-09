@@ -1,20 +1,20 @@
-[07:19:22] [Validation Completed.]                                                                                                                                                     cl_train_generative.py:283
+[07:12:41] [Validation Completed.]                                                                                                                                                     cl_train_generative.py:283
                                                                                                                                                                                                                  
-[Model] Model saved @ ./generative-predictions/CL_Rest16_en/model_files
+[Model] Model saved @ ./generative-predictions/CL_Rest16_es/model_files
 
-[Validation] Generation on Validation data saved @ ./generative-predictions/CL_Rest16_en/Rest16_ru_predictions.csv
+[Validation] Generation on Validation data saved @ ./generative-predictions/CL_Rest16_es/Rest16_en_predictions.csv
 
-[Logs] Logs saved @ ./generative-predictions/CL_Rest16_en/logs.txt
+[Logs] Logs saved @ ./generative-predictions/CL_Rest16_es/logs.txt
 
-[07:19:25] [Data]: Reading data...                                                                                                                                                     cl_train_generative.py:135
+[07:12:44] [Data]: Reading data...                                                                                                                                                     cl_train_generative.py:135
                                                                                                                                                                                                                  
 TRAIN Dataset: (1857, 7)
-VALIDATION Dataset: (281, 7)
-TEST Dataset: (390, 4)
+VALIDATION Dataset: (229, 7)
+TEST Dataset: (590, 4)
 
            [Loading Model]...                                                                                                                                                          cl_train_generative.py:267
                                                                                                                                                                                                                  
-[07:19:33] [Initiating Validation]...                                                                                                                                                  cl_train_generative.py:275
+[07:12:52] [Initiating Validation]...                                                                                                                                                  cl_train_generative.py:275
                                                                                                                                                                                                                  
 Completed 0
 Completed 10
@@ -26,3 +26,8 @@ Completed 60
 Completed 70
 Completed 80
 Completed 90
+Completed 100
+Completed 110
+Completed 120
+Completed 130
+Completed 140
