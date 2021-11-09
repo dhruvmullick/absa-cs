@@ -289,7 +289,7 @@ def T5Generator(validation_loader, model_params, output_file):
 if __name__ == '__main__':
     # domain: Rest16, Lap14, Mams, Mams_short
     # lang: en, es, ru
-    for train_settings in [('Rest16', 'en', 'Rest16', 'ru'), ('Rest16', 'en', 'Rest16', 'es')]:
+    for train_settings in [('Lap14', 'en', 'Lap14', 'en')]:
             
             train_domain = train_settings[0]
             train_language = train_settings[1]
@@ -306,9 +306,9 @@ if __name__ == '__main__':
             test = pd.read_csv(test_file)
             
             # For cross-lingual
-            training['sentences_texts'] = training['sentences_texts'].map(lambda txt: f'{lang_map[train_settings[1]]} : {txt}')
-            validation['sentences_texts'] = validation['sentences_texts'].map(lambda txt: f'{lang_map[train_settings[1]]} : {txt}')
-            test['sentences_texts'] = test['sentences_texts'].map(lambda txt: f'{lang_map[train_settings[3]]} : {txt}')
+            training['sentences_texts'] = training['sentences_texts'].map(lambda txt: f'{lang_map[train_settings[1]]} laptop : {txt}')
+            validation['sentences_texts'] = validation['sentences_texts'].map(lambda txt: f'{lang_map[train_settings[1]]} laptop : {txt}')
+            test['sentences_texts'] = test['sentences_texts'].map(lambda txt: f'{lang_map[train_settings[3]]} laptop : {txt}')
 
             # Loading extra data
             training_ext1 = pd.read_csv(training_file.replace(f'_{train_settings[1]}.csv', f'_{train_settings[1]}_to_{extra_data_map[train_settings[1]][0]}_processed.csv'))

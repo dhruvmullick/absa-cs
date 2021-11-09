@@ -39,18 +39,20 @@ def filter_unmatched(df):
 
 
 if __name__ == '__main__':
-    for from_, to_ in [('en', 'es'), ('en', 'ru'), ('es', 'en'), ('es', 'ru'), ('ru', 'en'), ('ru', 'es')]:
-        print(from_, ': ', to_)
+    for from_, to_ in [('en', 'es'), ('en', 'ru')]:
+        for split_ in ['train', 'val']:
+            print(split_, ': ', from_, ' - ', to_)
 
-        # # Translating
-        # train = pd.read_csv(f'/remote/cirrus-home/bghanem/projects/ABSA_LM/data/processed_val_Rest16_{from_}.csv')
-        # train_trans = trans(train, from_, to_)
-        # train_trans.to_csv(f'/remote/cirrus-home/bghanem/projects/ABSA_LM/data/processed_val_Rest16_{from_}_to_{to_}.csv', index=False)
-
-        # Process and filter unmatched ones
-        train_trans = pd.read_csv(f'/remote/cirrus-home/bghanem/projects/ABSA_LM/data/processed_val_Rest16_{from_}_to_{to_}.csv')
-        print(train_trans.shape)
-        train_trans = filter_unmatched(train_trans)
-        print(train_trans.shape)
-        # .sample(n=500, random_state=0)
-        # train_trans.to_csv(f'/remote/cirrus-home/bghanem/projects/ABSA_LM/data/processed_val_Rest16_{from_}_to_{to_}_processed.csv', index=False)
+            # # Translating
+            # train = pd.read_csv(f'/remote/cirrus-home/bghanem/projects/ABSA_LM/data/processed_{split_}_Lap14_{from_}.csv')
+            # train_trans = trans(train, from_, to_)
+            # train_trans.to_csv(f'/remote/cirrus-home/bghanem/projects/ABSA_LM/data/processed_{split_}_Lap14_{from_}_to_{to_}.csv', index=False)
+            
+            
+            # Process and filter unmatched ones
+            train_trans = pd.read_csv(f'/remote/cirrus-home/bghanem/projects/ABSA_LM/data/processed_{split_}_Lap14_{from_}_to_{to_}.csv')
+            print(train_trans.shape)
+            train_trans = filter_unmatched(train_trans)
+            print(train_trans.shape)
+            # .sample(n=500, random_state=0)
+            # train_trans.to_csv(f'/remote/cirrus-home/bghanem/projects/ABSA_LM/data/processed_{split_}_Lap14_{from_}_to_{to_}_processed.csv', index=False)
