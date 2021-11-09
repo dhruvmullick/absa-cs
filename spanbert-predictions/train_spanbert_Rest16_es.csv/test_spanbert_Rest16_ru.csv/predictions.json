@@ -1,19 +1,29 @@
 {
     "0": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0447\u0438\u043a"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0447\u0438\u043a",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0447\u0438\u043a",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "1": {
         "pred_terms": [
             "\u0441\u0430\u043b\u0430\u0442\u044b",
+            "\u043a\u0443\u0440\u0438\u0446\u0430",
             "\u043c\u044f\u0441\u043e",
-            "\u043a\u0443\u0440\u0438\u0446\u0430"
+            "\u0434\u0435\u0441\u0435\u0440\u0442",
+            "\u0434\u0435\u0441\u0435\u0440\u0442,\u0432 \u0447\u0430\u0441\u0442\u043d\u043e\u0441\u0442\u0438 \u0441\u0435\u043c\u0438\u0444\u0440\u0435\u0434\u0434\u043e"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive",
             "positive",
             "positive"
@@ -33,18 +43,24 @@
     },
     "4": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "5": {
         "pred_terms": [
             "\u043a\u0443\u0445\u043d\u044f",
-            "\u0443\u0445\u043d\u044f"
+            "\u0443\u0445\u043d\u044f",
+            "\u043d\u044f",
+            "\u043a\u0443\u0445"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive",
             "positive"
         ]
@@ -52,54 +68,86 @@
     "6": {
         "pred_terms": [
             "\u043d\u0430\u043f\u0438\u0442\u043a\u0438",
-            "\u043a\u043e\u043a\u0442\u0435\u0439\u043b\u0438"
+            "\u0432\u0438\u043d\u043e",
+            "\u043a\u043e\u043a\u0442\u0435\u0439\u043b\u0438",
+            "\u0441\u043f\u0438\u0440\u0442\u043d\u044b\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "7": {
+        "pred_terms": [
+            "\u043c\u0443\u0437\u044b\u043a\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "8": {
+        "pred_terms": [
+            "\u0441\u0438\u0433\u0430\u0440\u044b",
+            "\u0431\u043b\u044e\u0434",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u0443"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "positive"
+        ]
+    },
+    "9": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "10": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
         ],
         "pred_polarities": [
             "positive",
             "positive"
         ]
     },
-    "7": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "8": {
+    "11": {
         "pred_terms": [
-            "\u0441\u0438\u0433\u0430\u0440\u044b",
-            "\u0431\u043b\u044e\u0434"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative"
-        ]
-    },
-    "9": {
-        "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0446\u0435\u043d\u044b"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
-    "10": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "11": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
     "12": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "13": {
         "pred_terms": [],
         "pred_polarities": []
     },
     "14": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
     },
     "15": {
         "pred_terms": [
@@ -111,26 +159,38 @@
     },
     "16": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "17": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044e"
+            "\u043a\u0443\u0445\u043d\u044e",
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u043c\u044f\u0441\u043e",
+            "\u043a\u043b\u0430\u0440\u0435\u0442"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "negative",
+            "positive"
         ]
     },
     "18": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0440\u0430\u043d\u0430"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "19": {
@@ -140,35 +200,51 @@
     "20": {
         "pred_terms": [
             "\u0434\u0435\u0432\u0443\u0448\u043a\u0430",
+            "\u0431\u043b\u043e\u043d\u0434\u0438\u043d\u043a\u0430",
             "\u0434\u0435\u0432\u0443\u0448\u043a\u0430-\u0431\u043b\u043e\u043d\u0434\u0438\u043d\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "21": {
+        "pred_terms": [
+            "\u043f\u043e\u0432\u0430\u0440\u0443",
+            "\u0441\u0442\u0435\u0439\u043a \"\u0442\u0430\u0443\u044d\u0440"
         ],
         "pred_polarities": [
             "positive",
             "positive"
         ]
     },
-    "21": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
     "22": {
         "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442",
             "\u0433\u0440\u0435\u043d\u043a\u0438",
             "\u0433\u0440\u0435\u043d\u043e\u043a",
-            "\u0441\u0430\u043b\u0430\u0442 \u0446\u0435\u0437\u0430\u0440\u044c"
+            "\u0446\u0435\u0437\u0430\u0440\u044c",
+            "\u043a\u0443\u0440\u0438\u0446\u0435\u0439"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "negative",
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "23": {
         "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u044c\u0435\u0440"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "24": {
@@ -184,8 +260,12 @@
         "pred_polarities": []
     },
     "26": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0443"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "27": {
         "pred_terms": [],
@@ -221,16 +301,20 @@
             "\u0442\u043e\u0440\u0442\u0438\u043a"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "32": {
         "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0432\u043e\u0441\u0442\u043e\u0440\u0433\u0430",
+            "\u0442\u0435\u0440\u044c\u0435\u0440"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "negative",
+            "positive"
         ]
     },
     "33": {
@@ -251,31 +335,45 @@
     },
     "35": {
         "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0430\u043d\u0438\u0435",
+            "\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "36": {
         "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
             "\u043c\u0443\u0437\u044b\u043a\u0430",
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0442\u0435\u0440\u044c\u0435\u0440"
         ],
         "pred_polarities": [
-            "negative",
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "37": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0430\u043b\u043a\u043e\u0433\u043e\u043b\u044c"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "38": {
         "pred_terms": [
-            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+            "\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+            "\u0437\u0430"
         ],
         "pred_polarities": [
+            "negative",
+            "negative",
             "negative"
         ]
     },
@@ -290,80 +388,118 @@
     "40": {
         "pred_terms": [
             "\u043f\u0438\u0432\u0430",
-            "\u0432\u0438\u043d\u043e"
+            "\u0432\u0438\u043d\u043e",
+            "\u0438\u0432\u0430"
         ],
         "pred_polarities": [
+            "negative",
             "negative",
             "negative"
         ]
     },
     "41": {
         "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442\u044b",
             "\u0431\u0430\u0440\u043c\u0435\u043d",
-            "\u0441\u0430\u043b\u0430\u0442\u044b"
+            "\u043b\u0430\u0442\u044b"
         ],
         "pred_polarities": [
             "negative",
+            "positive",
             "negative"
         ]
     },
     "42": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "43": {
         "pred_terms": [
             "\u043a\u0443\u0445\u043d\u044f",
-            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430"
+            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive"
         ]
     },
     "44": {
         "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0430\u043d\u0438\u0435"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "45": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "46": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "47": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "48": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
-            "\u0431\u043b\u044e\u0434\u043e"
+            "\u043f\u043e\u0434\u0443\u0448\u043a\u0430\u043c\u0438",
+            "\u043f\u043e\u0434\u0443\u0448\u043a\u0430"
         ],
         "pred_polarities": [
             "positive",
             "positive"
         ]
     },
-    "49": {
+    "46": {
         "pred_terms": [
-            "\u0447\u0435\u0431\u0443\u0440\u0435\u043a\u0438"
+            "\u0434\u0435\u0441\u0435\u0440\u0442 - \u043d\u0430\u043f\u043e\u043b\u0435\u043e\u043d"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
-    "50": {
+    "47": {
         "pred_terms": [
-            "\u0431\u043b\u044e\u0434\u043e"
+            "\u0430\u043b\u043a\u043e\u0433\u043e\u043b\u044f",
+            "\u043a\u043e\u043a\u0442\u0435\u043b\u044c",
+            "\u043a\u043e\u0441\u043c\u043e\u043f\u043e\u043b\u0438\u0442\u0430\u043d"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "48": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0431\u043b\u044e\u0434\u043e",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "49": {
+        "pred_terms": [
+            "\u0447\u0435\u0431\u0443\u0440\u0435\u043a\u0438",
+            "\u0431\u0443\u0440\u0435\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "50": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u043e",
+            "\u043b\u044e\u0434\u043e"
+        ],
+        "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
@@ -374,16 +510,18 @@
             "\u0431\u043b\u044e\u0434\u0430"
         ],
         "pred_polarities": [
-            "negative",
+            "positive",
             "negative",
             "negative"
         ]
     },
     "52": {
         "pred_terms": [
-            "\u0448\u0430\u0448\u043b\u044b\u043a"
+            "\u0448\u0430\u0448\u043b\u044b\u043a",
+            "\u0441\u0432\u0438\u043d\u0438\u043d\u044b"
         ],
         "pred_polarities": [
+            "negative",
             "negative"
         ]
     },
@@ -393,8 +531,8 @@
             "\u0442\u0435\u0440\u044c\u0435\u0440"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "54": {
@@ -402,7 +540,7 @@
             "\u043a\u0430\u043c\u0438\u043d"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "55": {
@@ -415,29 +553,41 @@
     },
     "56": {
         "pred_terms": [
-            "\u0441\u0442\u043e\u043b\u0438\u043a"
+            "\u0441\u0442\u043e\u043b\u0438\u043a",
+            "\u0430\u043f\u043f\u0435\u0442\u0438\u0442"
         ],
         "pred_polarities": [
-            "negative"
+            "negative",
+            "positive"
         ]
     },
     "57": {
         "pred_terms": [
-            "\u0434\u0435\u0432\u0443\u0448\u043a\u0430"
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0430",
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0430"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "58": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0440\u043e\u043b\u043b\u044b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "59": {
         "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u044c\u0435\u0440"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
@@ -446,23 +596,31 @@
         "pred_polarities": []
     },
     "61": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "62": {
         "pred_terms": [
-            "\u0441\u0443\u0448\u0438",
-            "\u0441\u0430\u043b\u0430\u0442"
+            "\u043c\u0435\u043d\u044e",
+            "\u043f\u0430\u043f\u043a\u0438 \u0433\u0440\u0438\u043b\u044c"
         ],
         "pred_polarities": [
             "negative",
-            "negative"
+            "positive"
+        ]
+    },
+    "62": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u0441\u0443\u0448\u0438",
+            "\u0441\u0443\u043f"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "63": {
         "pred_terms": [
-            "\u043f\u043e\u0440\u0446\u0438\u044f",
-            "\u0441\u0443\u043f"
+            "\u0441\u0443\u043f",
+            "\u043f\u043e\u0440\u0446\u0438\u044f"
         ],
         "pred_polarities": [
             "positive",
@@ -470,8 +628,12 @@
         ]
     },
     "64": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0441\u0442\u043e\u043b\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "65": {
         "pred_terms": [
@@ -483,15 +645,19 @@
     },
     "66": {
         "pred_terms": [
-            "\u0448\u0430\u0440\u043b\u043e\u0442\u043a\u0430"
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u043a\u043e\u043a\u0442\u0435\u0439\u043b\u0438",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "67": {
         "pred_terms": [
-            "\u0442\u0435\u0440\u0440\u0430\u0441\u044b"
+            "\u0448\u0430\u0440\u043b\u043e\u0442\u043a\u0430"
         ],
         "pred_polarities": [
             "positive"
@@ -499,85 +665,117 @@
     },
     "68": {
         "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
-            "\u043a\u0443\u0445\u043d\u044f"
+            "\u0442\u0435\u0440\u0440\u0430\u0441\u044b"
         ],
         "pred_polarities": [
-            "positive",
             "positive"
         ]
     },
     "69": {
         "pred_terms": [
-            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440"
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0443\u0445\u043d\u044f",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u043a\u0443\u0445",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "70": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044f",
-            "\u0437\u0430\u043b",
-            "\u0437\u0430\u043b(\u0441\u043c . \u0444\u043e\u0442\u043e-\u0433\u0430\u043b\u0435\u0440\u0435\u044e)"
+            "\u0432\u0438\u043a\u0442\u043e\u0440\u0438\u044f",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440"
         ],
         "pred_polarities": [
-            "negative",
             "positive",
             "positive"
         ]
     },
     "71": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "72": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "73": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+            "\u0437\u0430\u043b",
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b",
+            "\u0443\u0445\u043d\u044f",
+            "\u0437\u0430\u043b(\u0441\u043c . \u0444\u043e\u0442\u043e-\u0433\u0430\u043b\u0435\u0440\u0435\u044e)"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
         ]
+    },
+    "72": {
+        "pred_terms": [
+            "\u0441\u0430\u0439\u0442 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "73": {
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "74": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "75": {
         "pred_terms": [
-            "\u0441\u0430\u043b\u0430\u0442",
-            "\u0431\u043b\u044e\u0434\u043e"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "76": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435"
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u0431\u043b\u044e\u0434\u043e",
+            "\u043f\u043e\u0432\u0430\u0440"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "77": {
         "pred_terms": [
-            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435",
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "78": {
+        "pred_terms": [
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "79": {
         "pred_terms": [
             "\u043f\u043e\u0440\u0446\u0438\u0438",
             "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
@@ -587,73 +785,87 @@
             "positive"
         ]
     },
-    "79": {
-        "pred_terms": [
-            "\u0431\u043b\u044e\u0434\u0430"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
     "80": {
         "pred_terms": [
-            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u043b\u044e\u0434\u0430"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "81": {
         "pred_terms": [
-            "\u0434\u0435\u0441\u0435\u0440\u0442"
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+            "\u0431\u043b\u044e\u0434\u0430"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "82": {
         "pred_terms": [
-            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+            "\u0434\u0435\u0441\u0435\u0440\u0442",
+            "\u0444\u0440\u0443\u043a\u0442\u044b"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "83": {
         "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
     "84": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "85": {
         "pred_terms": [
-            "\u0441\u0435\u0439\u0447\u0430\u0441 \u0437\u0438\u043c\u0430"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u044c\u0435\u0440"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
-    "86": {
-        "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "87": {
+    "85": {
         "pred_terms": [],
         "pred_polarities": []
     },
+    "86": {
+        "pred_terms": [
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0430",
+            "\u0432\u0435\u0440\u0430\u043d\u0434\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "87": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
     "88": {
         "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+            "\u043c\u0443\u0437\u044b\u043a\u0430"
         ],
         "pred_polarities": [
             "positive"
@@ -661,51 +873,79 @@
     },
     "89": {
         "pred_terms": [
-            "\u0441\u0430\u043b\u0430\u0442"
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "90": {
         "pred_terms": [
-            "\u043a\u0440\u0435\u043c"
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u043b\u043e\u0441\u043e\u0441\u0435\u043c",
+            "\u043b\u043e\u0441\u043e\u0441\u044c"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "negative"
         ]
     },
     "91": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "92": {
         "pred_terms": [
-            "\u043a\u0430\u0444\u0435",
-            "\u043c\u0435\u0441\u0442\u043e"
+            "\u043a\u0440\u0435\u043c",
+            "\u0440\u0435\u043c"
         ],
         "pred_polarities": [
             "negative",
             "negative"
         ]
     },
-    "93": {
+    "92": {
         "pred_terms": [
-            "\u0437\u0430\u043b"
+            "\u0434\u0435\u0441\u0435\u0440\u0442\u043e\u0432"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
+    "93": {
+        "pred_terms": [
+            "\u043a\u0430\u0444\u0435",
+            "\u043c\u0435\u0441\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
     "94": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0434\u0438\u0432\u0430\u043d\u0447\u0438\u043a\u0430\u0445"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "95": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0430\u043d\u0442\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
     },
     "96": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "97": {
         "pred_terms": [
             "\u0441\u0443\u043f",
             "\u043f\u043e\u0440\u0446\u0438\u0438"
@@ -715,30 +955,30 @@
             "positive"
         ]
     },
-    "97": {
+    "98": {
         "pred_terms": [
             "\u043c\u0438\u0434\u0438\u0438"
         ],
         "pred_polarities": [
-            "negative"
-        ]
-    },
-    "98": {
-        "pred_terms": [
-            "\u0444\u0438\u043b\u0435"
-        ],
-        "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "99": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0444\u0438\u043b\u0435",
+            "\u043a\u0443\u0440\u0438\u043d\u043e\u0435",
+            "\u043f\u044e\u0440\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
     },
     "100": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044f",
-            "\u0443\u0445\u043d\u044f"
+            "\u043e\u0432\u043e\u0449\u0430\u043c\u0438",
+            "\u043a\u0440\u0435\u0432\u0435\u0442\u043a\u043e\u0439"
         ],
         "pred_polarities": [
             "positive",
@@ -747,15 +987,19 @@
     },
     "101": {
         "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0443\u0445\u043d\u044f",
+            "\u043a\u0443\u0445"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "102": {
         "pred_terms": [
-            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
         ],
         "pred_polarities": [
             "positive"
@@ -763,7 +1007,7 @@
     },
     "103": {
         "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
         ],
         "pred_polarities": [
             "positive"
@@ -771,15 +1015,25 @@
     },
     "104": {
         "pred_terms": [
-            "\u043f\u0435\u043f\u0435\u043b\u044c\u043d\u0438\u0446\u0443"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u044c\u0435\u0440"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "105": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043f\u0435\u043f\u0435\u043b\u044c\u043d\u0438\u0446\u0443",
+            "\u0435\u043f\u0435\u043b\u044c\u043d\u0438\u0446\u0443"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
     },
     "106": {
         "pred_terms": [],
@@ -795,7 +1049,7 @@
     },
     "109": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044f"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
         ],
         "pred_polarities": [
             "positive"
@@ -803,15 +1057,21 @@
     },
     "110": {
         "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0443\u0445\u043d\u044f"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "111": {
+        "pred_terms": [
             "\u0441\u0435\u0440\u0432\u0438\u0441"
         ],
         "pred_polarities": [
             "positive"
         ]
-    },
-    "111": {
-        "pred_terms": [],
-        "pred_polarities": []
     },
     "112": {
         "pred_terms": [
@@ -823,41 +1083,63 @@
     },
     "113": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044f",
-            "\u0443\u0445\u043d\u044f"
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b",
+            "\u0441\u043e\u043d\u0430\u043b"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "114": {
         "pred_terms": [
-            "\u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435"
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0443\u0445\u043d\u044f"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "115": {
         "pred_terms": [
-            "\u0440\u044b\u0431\u0430",
-            "\u0432\u043a\u0443\u0441\u043e\u0432\u044b\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430"
+            "\u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435",
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "116": {
         "pred_terms": [
-            "\u043f\u0438\u0432\u043e"
+            "\u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430",
+            "\u0440\u044b\u0431\u0430",
+            "\u043b\u043e\u0441\u043e\u0441\u044c",
+            "\u0438\u043d\u0433\u0440\u0435\u0434\u0438\u0435\u043d\u0442\u043e\u0432"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "negative",
+            "positive",
+            "positive"
         ]
     },
     "117": {
+        "pred_terms": [
+            "\u043f\u0438\u0432\u043e",
+            "\u0438\u0432\u043e",
+            "\u043f\u0438\u0432\u043e\u043c"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "118": {
         "pred_terms": [
             "\u043c\u0435\u0441\u0442\u043e"
         ],
@@ -865,7 +1147,7 @@
             "positive"
         ]
     },
-    "118": {
+    "119": {
         "pred_terms": [
             "\u0443\u044e\u0442\u043d\u043e\u0435"
         ],
@@ -873,11 +1155,15 @@
             "positive"
         ]
     },
-    "119": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
     "120": {
+        "pred_terms": [
+            "\u0441\u0442\u0435\u0439\u043a"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "121": {
         "pred_terms": [
             "\u0441\u0430\u043b\u0430\u0442\u0438\u043a\u0438"
         ],
@@ -885,27 +1171,35 @@
             "negative"
         ]
     },
-    "121": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
     "122": {
         "pred_terms": [
-            "\u0437\u0430\u043b"
+            "\u0434\u0435\u0441\u0435\u0440\u0442"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "123": {
         "pred_terms": [
-            "\u043c\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0430"
+            "\u0437\u0430\u043b",
+            "\u0441\u0442\u043e\u043b\u0438\u043a\u043e\u0432"
         ],
         "pred_polarities": [
+            "negative",
             "negative"
         ]
     },
     "124": {
+        "pred_terms": [
+            "\u043c\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0430",
+            "\u043c\u0430\u0440\u0433\u0430\u0440\u0438\u0442"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "125": {
         "pred_terms": [
             "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
         ],
@@ -913,18 +1207,10 @@
             "positive"
         ]
     },
-    "125": {
-        "pred_terms": [
-            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
     "126": {
         "pred_terms": [
-            "\u0434\u0438\u0432\u0430\u043d\u0447\u0438\u043a\u0438",
-            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430"
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430",
+            "\u0430\u0442\u043c\u043e\u0441"
         ],
         "pred_polarities": [
             "positive",
@@ -933,13 +1219,29 @@
     },
     "127": {
         "pred_terms": [
-            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430",
+            "\u0434\u0438\u0432\u0430\u043d\u0447\u0438\u043a\u0438",
+            "\u043e\u0441\u0432\u0435\u0449\u0435\u043d\u0438\u0435"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "128": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u043f\u0440\u0435\u0434\u0437\u0430\u043a\u0430\u0437",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "129": {
         "pred_terms": [
             "\u0441\u0435\u0440\u0432\u0438\u0440\u043e\u0432\u043a\u0430"
         ],
@@ -947,115 +1249,33 @@
             "positive"
         ]
     },
-    "129": {
+    "130": {
         "pred_terms": [
-            "\u0431\u043b\u044e\u0434\u0430"
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u043b\u044e\u0434\u0430"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
-    },
-    "130": {
-        "pred_terms": [],
-        "pred_polarities": []
     },
     "131": {
-        "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "132": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0430\u043d\u0438\u0435",
+            "\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
     },
     "133": {
-        "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044f"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "134": {
-        "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "135": {
-        "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "136": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "137": {
-        "pred_terms": [
-            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "138": {
-        "pred_terms": [
-            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "139": {
-        "pred_terms": [
-            "\u0431\u043b\u044e\u0434\u0430"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "140": {
-        "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "141": {
-        "pred_terms": [
-            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "142": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "143": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "144": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "145": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "146": {
         "pred_terms": [
             "\u043c\u0435\u0441\u0442\u043e"
         ],
@@ -1063,171 +1283,7 @@
             "positive"
         ]
     },
-    "147": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "148": {
-        "pred_terms": [
-            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "149": {
-        "pred_terms": [
-            "\u0441\u0442\u043e\u043b\u0438\u043a\u0438"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "150": {
-        "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "151": {
-        "pred_terms": [
-            "\u0434\u0435\u0432\u0443\u0448\u043a\u0438"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "152": {
-        "pred_terms": [
-            "\u043c\u044f\u0441\u043e"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "153": {
-        "pred_terms": [
-            "\u043f\u0438\u0432\u043e"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "154": {
-        "pred_terms": [
-            "\u0441\u0430\u043b\u0430\u0442",
-            "\u0441\u0443\u0434\u0430\u043a"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative"
-        ]
-    },
-    "155": {
-        "pred_terms": [
-            "\u0447\u0430\u0439"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "156": {
-        "pred_terms": [
-            "\u0441\u0435\u0440\u0432\u0438\u0441"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "157": {
-        "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive"
-        ]
-    },
-    "158": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "159": {
-        "pred_terms": [
-            "\u043c\u0443\u0437\u044b\u043a\u0430",
-            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430",
-            "\u043a\u043e\u0442\u043e\u0440\u044b\u0439"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "negative"
-        ]
-    },
-    "160": {
-        "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "161": {
-        "pred_terms": [
-            "\u0441\u0435\u0440\u0432\u0438\u0441"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "162": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "163": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "164": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "165": {
-        "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0447\u0438\u043a"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "166": {
-        "pred_terms": [
-            "\u0441\u0435\u0440\u0432\u0438\u0441"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "167": {
-        "pred_terms": [
-            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "168": {
-        "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "169": {
+    "134": {
         "pred_terms": [
             "\u043a\u0443\u0445\u043d\u044f",
             "\u0443\u0445\u043d\u044f"
@@ -1237,69 +1293,251 @@
             "positive"
         ]
     },
-    "170": {
+    "135": {
         "pred_terms": [
-            "\u0441\u0430\u043b\u0430\u0442"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "136": {
+        "pred_terms": [
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0430",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u043c\u043e\u043b\u043e\u0434\u0446\u044b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "137": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
-    "171": {
+    "138": {
         "pred_terms": [
-            "\u0444\u0438\u043b\u0435 \u043a\u0443\u0440\u0438\u0446\u044b"
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430",
+            "\u043c\u043e\u0441\u0444\u0435\u0440\u0430"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
-    "172": {
+    "139": {
         "pred_terms": [
-            "\u0441\u044b\u0440",
-            "\u043c\u044f\u0441\u043e \u0446\u044b\u043f\u043b\u0435\u043d\u043a\u0430"
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "140": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "141": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "142": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430",
+            "\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "143": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "144": {
+        "pred_terms": [
+            "\u043f\u0440\u0438\u0435\u043c"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "145": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "146": {
+        "pred_terms": [
+            "\u0445\u0430\u0447\u0430\u043f\u0443\u0440\u0438"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "147": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "148": {
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b",
+            "\u0441\u043e\u043d\u0430\u043b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "149": {
+        "pred_terms": [
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430",
+            "\u043c\u043e\u0441\u0444\u0435\u0440\u0430",
+            "\u0444\u0435\u0440\u0430",
+            "\u0430\u0442\u043c\u043e\u0441"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "150": {
+        "pred_terms": [
+            "\u0441\u0442\u043e\u043b\u0438\u043a\u0438",
+            "\u043b\u0438\u043a\u0438"
         ],
         "pred_polarities": [
             "negative",
             "negative"
         ]
     },
-    "173": {
+    "151": {
         "pred_terms": [
-            "\u0442\u0435\u043b\u044f\u0442\u0438\u043d\u0443"
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "152": {
+        "pred_terms": [
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0438"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
-    "174": {
+    "153": {
         "pred_terms": [
-            "\u043c\u0435\u0441\u0442\u043e"
+            "\u043c\u044f\u0441\u043e",
+            "\u0441\u043e\u0443\u0441"
         ],
         "pred_polarities": [
+            "negative",
             "positive"
         ]
     },
-    "175": {
+    "154": {
         "pred_terms": [
-            "\u043c\u0435\u0441\u0442\u043e"
+            "\u043f\u0438\u0432\u043e",
+            "\u0438\u0432\u043e"
         ],
         "pred_polarities": [
-            "negative"
-        ]
-    },
-    "176": {
-        "pred_terms": [
-            "\u0437\u0430\u043b"
-        ],
-        "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
-    "177": {
+    "155": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u0441\u0443\u0434\u0430\u043a",
+            "\u043c\u043e\u0440\u0435\u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430\u043c\u0438"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "positive"
+        ]
+    },
+    "156": {
+        "pred_terms": [
+            "\u0447\u0430\u0439",
+            "\u043c\u043e\u0440\u043e\u0436\u0435\u043d\u043d\u043e\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "157": {
+        "pred_terms": [
+            "\u0441\u0435\u0440\u0432\u0438\u0441",
+            "\u0440\u0432\u0438\u0441"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "158": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "159": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "178": {
+    "160": {
+        "pred_terms": [
+            "\u043c\u0443\u0437\u044b\u043a\u0430",
+            "\u043a\u043e\u0442\u043e\u0440\u044b\u0439",
+            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "161": {
         "pred_terms": [
             "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
         ],
@@ -1307,7 +1545,175 @@
             "positive"
         ]
     },
+    "162": {
+        "pred_terms": [
+            "\u0441\u0435\u0440\u0432\u0438\u0441",
+            "\u0435\u0434\u0430",
+            "\u0440\u0432\u0438\u0441",
+            "\u0441\u0435\u0440\u0432\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "163": {
+        "pred_terms": [
+            "\u0435\u0434\u044b"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "164": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "165": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "166": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0447\u0438\u043a"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "167": {
+        "pred_terms": [
+            "\u0441\u0435\u0440\u0432\u0438\u0441",
+            "\u0440\u0432\u0438\u0441"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "168": {
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "169": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "170": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0443\u0445\u043d\u044f",
+            "\u043a\u0443\u0445"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "171": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "172": {
+        "pred_terms": [
+            "\u0444\u0438\u043b\u0435",
+            "\u043a\u0443\u0440\u0438\u0446\u044b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "173": {
+        "pred_terms": [
+            "\u0441\u044b\u0440",
+            "\u044b\u0440",
+            "\u043c\u044f\u0441\u043e",
+            "\u0446\u044b\u043f\u043b\u0435\u043d\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "174": {
+        "pred_terms": [
+            "\u0442\u0435\u043b\u044f\u0442\u0438\u043d\u0443",
+            "\u043f\u043e\u0434\u0440\u0443\u0433\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "175": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u043b\u0430\u0441 \u0442\u043e\u0440\u0440\u0435\u0441"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "176": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "177": {
+        "pred_terms": [
+            "\u0437\u0430\u043b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "178": {
+        "pred_terms": [
+            "\u0441\u0442\u043e\u043b\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
     "179": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "180": {
         "pred_terms": [
             "\u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0430"
         ],
@@ -1315,11 +1721,11 @@
             "negative"
         ]
     },
-    "180": {
+    "181": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "181": {
+    "182": {
         "pred_terms": [
             "\u043c\u0435\u0441\u0442\u0435\u0447\u043a\u043e"
         ],
@@ -1327,32 +1733,44 @@
             "positive"
         ]
     },
-    "182": {
+    "183": {
         "pred_terms": [
-            "\u043f\u0438\u0446\u0446\u0430"
+            "\u0442\u0435\u0441\u0442\u043e",
+            "\u043f\u0438\u0446\u0446\u0430",
+            "\u0438\u0446\u0446\u0430"
         ],
         "pred_polarities": [
+            "positive",
+            "negative",
             "negative"
         ]
     },
-    "183": {
+    "184": {
         "pred_terms": [
+            "\u0437\u0430\u043b",
             "\u0434\u0438\u0437\u0430\u0439\u043d",
-            "\u043f\u043e\u043c\u0435\u0449\u0435\u043d\u0438\u0435"
+            "\u043f\u043e\u043c\u0435\u0449\u0435\u043d\u0438\u0435",
+            "\u0437\u0430\u0439\u043d"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive",
             "positive"
         ]
     },
-    "184": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
     "185": {
         "pred_terms": [
-            "\u043b\u0438\u0446\u043e",
+            "\u0437\u0430\u043b\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "186": {
+        "pred_terms": [
             "\u0434\u0435\u0432\u0443\u0448\u043a\u0430",
+            "\u043b\u0438\u0446\u043e",
             "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440",
             "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043a\u0430"
         ],
@@ -1363,23 +1781,55 @@
             "positive"
         ]
     },
-    "186": {
+    "187": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
-    "187": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
     "188": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043d\u0430\u043f\u0438\u0442\u043e\u043a \u043b\u0438\u043c\u043e\u043d\u0447\u0435\u043b\u043b\u043e"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
     },
     "189": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "190": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435",
+            "\u043d\u0430\u043f\u0438\u0442\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "191": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "192": {
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "193": {
         "pred_terms": [
             "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435"
         ],
@@ -1387,33 +1837,19 @@
             "positive"
         ]
     },
-    "190": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "191": {
+    "194": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
-            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u044c\u0435\u0440"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive"
         ]
     },
-    "192": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "193": {
-        "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "194": {
+    "195": {
         "pred_terms": [
             "\u043f\u043e\u0442\u043e\u043b\u043a\u0438",
             "\u0434\u0438\u0432\u0430\u043d\u0447\u0438\u043a\u0438"
@@ -1423,11 +1859,15 @@
             "positive"
         ]
     },
-    "195": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
     "196": {
+        "pred_terms": [
+            "\u0435\u0434\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "197": {
         "pred_terms": [
             "\u0441\u0430\u043b\u0430\u0442\u044b"
         ],
@@ -1435,49 +1875,71 @@
             "positive"
         ]
     },
-    "197": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
     "198": {
         "pred_terms": [
-            "\u0431\u043b\u044e\u0434\u043e-\u0434\u043e\u0440\u0430\u0434\u043e"
+            "\u043c\u044f\u0441\u0430",
+            "\u0433\u0440\u0443\u0448\u0438"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "199": {
         "pred_terms": [
-            "\u0440\u044b\u0431\u044b"
+            "\u0431\u043b\u044e\u0434\u043e",
+            "\u0434\u043e\u0440\u0430\u0434\u043e",
+            "\u0431\u043b\u044e\u0434\u043e-\u0434\u043e\u0440\u0430\u0434\u043e"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "200": {
         "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+            "\u0440\u044b\u0431\u044b",
+            "\u044b\u0431\u044b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "201": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "202": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
-    "201": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "202": {
+    "203": {
         "pred_terms": [
+            "\u0431\u0430\u043a\u043b\u0430\u0436\u0430\u043d\u044b",
             "\u0440\u0438\u0441",
-            "\u0431\u0430\u043a\u043b\u0430\u0436\u0430\u043d\u044b"
+            "\u0438\u0441",
+            "\u0431\u0430\u043a\u043b\u0430"
         ],
         "pred_polarities": [
             "positive",
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
-    "203": {
+    "204": {
         "pred_terms": [
             "\u043b\u0435\u043f\u0435\u0448\u043a\u0430"
         ],
@@ -1485,29 +1947,11 @@
             "positive"
         ]
     },
-    "204": {
-        "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0447\u0438\u043a"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
     "205": {
         "pred_terms": [
-            "\u043f\u0430\u0441\u0442\u0430",
-            "\u0441\u0430\u043b\u0430\u0442"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative"
-        ]
-    },
-    "206": {
-        "pred_terms": [
-            "\u043c\u0443\u0437\u044b\u043a\u0430",
-            "\u043c\u0435\u0431\u0435\u043b\u044c",
-            "\u043f\u0435\u043f\u0435\u043b\u044c\u043d\u0438\u0446\u044b"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0447\u0438\u043a",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0447\u0438\u043a"
         ],
         "pred_polarities": [
             "positive",
@@ -1515,10 +1959,22 @@
             "positive"
         ]
     },
+    "206": {
+        "pred_terms": [
+            "\u043f\u0430\u0441\u0442\u0430",
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u0441\u0442\u0430"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
     "207": {
         "pred_terms": [
-            "\u043f\u043e\u0440\u0446\u0438\u0438",
-            "\u0441\u0430\u043b\u0430\u0442"
+            "\u043c\u0443\u0437\u044b\u043a\u0430",
+            "\u043f\u0435\u043f\u0435\u043b\u044c\u043d\u0438\u0446\u044b"
         ],
         "pred_polarities": [
             "negative",
@@ -1527,9 +1983,9 @@
     },
     "208": {
         "pred_terms": [
-            "\u0431\u043b\u044e\u0434",
-            "\u0432\u044b\u043f\u0435\u0447\u043a\u0430",
-            "\u0432\u043a\u0443\u0441\u043d\u044b\u0435 \u0441\u0443\u043f\u044b"
+            "\u043f\u043e\u0440\u0446\u0438\u0438",
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u043a\u043e\u043c\u043f\u043e\u0442- \u0435\u043b\u0435"
         ],
         "pred_polarities": [
             "positive",
@@ -1539,13 +1995,31 @@
     },
     "209": {
         "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0431\u043b\u044e\u0434",
+            "\u0441\u0443\u043f\u044b",
+            "\u0432\u044b\u043f\u0435\u0447\u043a\u0430"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "210": {
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u043c\u0438\u043d\u0443\u0441",
+            "\u0437\u0430\u043b\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "negative"
+        ]
+    },
+    "211": {
         "pred_terms": [
             "\u0448\u0435\u0444 \u043f\u043e\u0432\u0430\u0440"
         ],
@@ -1553,7 +2027,7 @@
             "positive"
         ]
     },
-    "211": {
+    "212": {
         "pred_terms": [
             "\u0437\u0430\u043b\u044c\u0447\u0438\u043a"
         ],
@@ -1561,13 +2035,9 @@
             "negative"
         ]
     },
-    "212": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
     "213": {
         "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0437\u043e\u043d"
         ],
         "pred_polarities": [
             "negative"
@@ -1575,23 +2045,29 @@
     },
     "214": {
         "pred_terms": [
-            "\u043e\u0434\u0435\u0436\u0434\u0430 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u043e\u0432/\u043c\u0443\u0437\u044b\u043a\u0430"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u044c\u0435\u0440"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "215": {
         "pred_terms": [
-            "\u0434\u0435\u0432\u0443\u0448\u043a\u0430"
+            "\u043e\u0434\u0435\u0436\u0434\u0430",
+            "\u0445\u043e\u0445\u043b\u044f\u0446\u043a\u043e\u043c"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "216": {
         "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0430"
         ],
         "pred_polarities": [
             "positive"
@@ -1599,35 +2075,63 @@
     },
     "217": {
         "pred_terms": [
-            "\u0431\u043b\u044e\u0434\u0430"
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0430\u043d\u0438\u0435",
+            "\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "218": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u043b\u044e\u0434\u0430",
+            "\u0431\u043b\u044e"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "219": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
     },
     "220": {
         "pred_terms": [
-            "\u0446\u0432\u0435\u0442\u044b",
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+            "\u0437\u0430\u043a\u0443\u0441\u043a\u0430",
+            "\u0444\u0438\u043b\u0435 \u0446\u044b\u043f\u043b\u0435\u043d\u043a\u0430"
         ],
         "pred_polarities": [
-            "negative",
+            "positive",
             "positive"
         ]
     },
     "221": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0438",
+            "\u0446\u0432\u0435\u0442\u044b",
+            "\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "negative",
+            "positive"
+        ]
+    },
+    "222": {
         "pred_terms": [
             "\u0437\u0430\u043b"
         ],
@@ -1635,15 +2139,59 @@
             "positive"
         ]
     },
-    "222": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
     "223": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "224": {
         "pred_terms": [
             "\u043a\u0430\u0444\u0435",
             "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u043e\u043c"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u043e",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u043e\u043c",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u043e\u043c"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "225": {
+        "pred_terms": [
+            "\u0441\u0442\u0443\u043b\u044c\u044f",
+            "\u043f\u0440\u0438\u0431\u043e\u0440\u044b",
+            "\u0434\u0438\u0432\u0430\u043d\u044b",
+            "\u0442\u043e\u043d\u0430",
+            "\u0441\u0435\u0440\u0432\u0438\u0440\u043e\u0432\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "226": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "227": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0443\u0445\u043d\u044f",
+            "\u043a\u0443\u0445"
         ],
         "pred_polarities": [
             "negative",
@@ -1651,11 +2199,11 @@
             "negative"
         ]
     },
-    "224": {
+    "228": {
         "pred_terms": [
-            "\u043f\u0440\u0438\u0431\u043e\u0440\u044b",
-            "\u0441\u0442\u0443\u043b\u044c\u044f",
-            "\u0443\u044e\u0442\u043d\u044b\u0435 \u0434\u0438\u0432\u0430\u043d\u044b"
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u0441\u0443\u043f",
+            "\u043d\u0430\u043f\u0438\u0442\u043e\u043a"
         ],
         "pred_polarities": [
             "positive",
@@ -1663,27 +2211,7 @@
             "positive"
         ]
     },
-    "225": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "226": {
-        "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044f"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "227": {
-        "pred_terms": [
-            "\u043d\u0430\u043f\u0438\u0442\u043e\u043a"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "228": {
+    "229": {
         "pred_terms": [
             "\u0431\u043b\u044e\u0434"
         ],
@@ -1691,33 +2219,23 @@
             "positive"
         ]
     },
-    "229": {
+    "230": {
         "pred_terms": [
             "\u043f\u0430\u0441\u0442\u0443"
         ],
         "pred_polarities": [
-            "negative"
-        ]
-    },
-    "230": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "231": {
-        "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
-            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440"
-        ],
-        "pred_polarities": [
-            "positive",
             "positive"
         ]
     },
+    "231": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
     "232": {
         "pred_terms": [
-            "\u043c\u0443\u0437\u044b\u043a\u0430",
-            "\u0448\u043e\u0443 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430",
-            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430"
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
         ],
         "pred_polarities": [
             "positive",
@@ -1727,47 +2245,67 @@
     },
     "233": {
         "pred_terms": [
+            "\u0435\u0434\u0430",
+            "\u043c\u0443\u0437\u044b\u043a\u0430",
+            "\u0448\u043e\u0443 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430",
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "234": {
+        "pred_terms": [
             "\u0442\u0430\u043d\u0435\u0446 \u0436\u0438\u0432\u043e\u0442\u0430"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
-    "234": {
-        "pred_terms": [
-            "\u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f",
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative"
-        ]
-    },
     "235": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+            "\u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f"
         ],
         "pred_polarities": [
-            "positive"
+            "negative"
         ]
     },
     "236": {
         "pred_terms": [
-            "\u0431\u043e\u043a\u0430\u043b \u0431\u0435\u043b\u043e\u0433\u043e \u0432\u0438\u043d\u0430"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "237": {
         "pred_terms": [
-            "\u0431\u0440\u0443\u0441\u043a\u0435\u0442\u044b"
+            "\u0431\u043e\u043a\u0430\u043b",
+            "\u0432\u0438\u043d\u0430",
+            "\u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043a\u0441\u0442\u0430\u0442\u0438"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "negative"
         ]
     },
     "238": {
+        "pred_terms": [
+            "\u0431\u0440\u0443\u0441\u043a\u0435\u0442\u044b",
+            "\u0434\u0435\u0441\u0435\u0440\u0442"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "239": {
         "pred_terms": [
             "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
         ],
@@ -1775,69 +2313,93 @@
             "negative"
         ]
     },
-    "239": {
-        "pred_terms": [
-            "\u0431\u0430\u0440\u043c\u0435\u043d\u044b"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
     "240": {
         "pred_terms": [
-            "\u0447\u0430\u0439"
+            "\u0431\u0430\u0440\u043c\u0435\u043d\u044b",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "241": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044f"
+            "\u043a\u043e\u0444\u0435",
+            "\u0447\u0430\u0439"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "242": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044f"
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "243": {
         "pred_terms": [
-            "\u0434\u0435\u0441\u0435\u0440\u0442\u044b"
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0443\u0445\u043d\u044f",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "244": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0434\u0435\u0441\u0435\u0440\u0442\u044b",
+            "\u0441\u0435\u0440\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
     },
     "245": {
+        "pred_terms": [
+            "\u0432\u0445\u043e\u0434",
+            "\u0433\u0430\u043b\u0430\u0437\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "246": {
         "pred_terms": [
             "\u0431\u0430\u0440\u043c\u0435\u043d",
             "\u0434\u0438\u0437\u0430\u0439\u043d"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
-        ]
-    },
-    "246": {
-        "pred_terms": [
-            "\u043f\u0435\u043f\u0435\u043b\u044c\u043d\u0438\u0446\u0430"
-        ],
-        "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "247": {
+        "pred_terms": [
+            "\u043f\u0435\u043f\u0435\u043b\u044c\u043d\u0438\u0446\u0430",
+            "\u043d\u0438\u0446\u0430",
+            "\u0435\u043f\u0435\u043b\u044c\u043d\u0438\u0446\u0430",
+            "\u043f\u0435\u043f\u0435\u043b\u044c"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "248": {
         "pred_terms": [
             "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
         ],
@@ -1845,7 +2407,7 @@
             "negative"
         ]
     },
-    "248": {
+    "249": {
         "pred_terms": [
             "\u0441\u0435\u0440\u0432\u0438\u0441"
         ],
@@ -1853,47 +2415,81 @@
             "positive"
         ]
     },
-    "249": {
+    "250": {
         "pred_terms": [
             "\u043a\u0443\u0445\u043d\u044f",
             "\u0441\u0435\u0440\u0432\u0438\u0441",
-            "\u0434\u0438\u0437\u0430\u0439\u043d"
+            "\u0434\u0438\u0437\u0430\u0439\u043d",
+            "\u0441\u0435\u0440\u0432\u0438",
+            "\u043a\u0443\u0445",
+            "\u0443\u0445\u043d\u044f",
+            "\u0440\u0432\u0438\u0441"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
-            "negative"
-        ]
-    },
-    "250": {
-        "pred_terms": [
-            "\u043c\u0435\u0441\u0442\u043e"
-        ],
-        "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "251": {
         "pred_terms": [
-            "\u043a\u0440\u0435\u043c-\u0441\u0443\u043f"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "252": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "253": {
-        "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+            "\u043c\u0435\u0441\u0442\u043e"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
+    "252": {
+        "pred_terms": [
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u0441\u0443\u043f",
+            "\u0441\u0432\u0438\u043d\u0438\u043d\u0443",
+            "\u043a\u0440\u0435\u043c",
+            "\u043e\u0432\u043e\u0449\u0430\u043c\u0438",
+            "\u043a\u0440\u0435\u043c-\u0441\u0443\u043f",
+            "\u0441\u0430\u043b\u0430\u0442\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "253": {
+        "pred_terms": [
+            "\u0444\u0430\u0441\u043e\u043b\u044c",
+            "\u0433\u0440\u0443\u0434\u043a\u0438",
+            "\u0433\u0440\u0443\u0434\u043a\u0438-\u0433\u0440\u0438\u043b\u044c"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
     "254": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0430\u043d\u0438\u0435",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "255": {
         "pred_terms": [
             "\u043c\u0443\u0436\u0447\u0438\u043d\u0430"
         ],
@@ -1901,59 +2497,73 @@
             "positive"
         ]
     },
-    "255": {
-        "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
-            "\u0442\u0435\u0440\u044c\u0435\u0440"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative"
-        ]
-    },
     "256": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u044c\u0435\u0440"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "257": {
         "pred_terms": [
-            "\u0443\u0436\u0438\u043d\u044b"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "258": {
         "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
-            "\u043c\u0435\u0431\u0435\u043b\u044c"
+            "\u0443\u0436\u0438\u043d\u044b",
+            "\u043e\u0431\u0435\u0434\u044b"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "259": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044f",
-            "\u0443\u0445\u043d\u044f",
-            "\u043c\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0443",
-            "\u043a\u043e\u043a\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u0440\u0442\u0430",
-            "\u0433\u0440\u0438\u043b\u044c-\u043c\u0435\u043d\u044e"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0440\u0435\u043c\u043e\u043d\u0442",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u043c\u0435\u0431\u0435\u043b\u044c"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
-            "negative",
+            "positive",
+            "positive",
+            "positive",
             "negative"
         ]
     },
     "260": {
+        "pred_terms": [
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0443\u0445\u043d\u044f",
+            "\u043a\u0443\u0445",
+            "\u0433\u0440\u0438\u043b\u044c",
+            "\u043c\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0443",
+            "\u0433\u0440\u0438\u043b\u044c-\u043c\u0435\u043d\u044e",
+            "\u043a\u043e\u043a\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u0440\u0442\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "negative",
+            "positive",
+            "positive"
+        ]
+    },
+    "261": {
         "pred_terms": [
             "\u043a\u0443\u0440\u044e"
         ],
@@ -1961,17 +2571,19 @@
             "positive"
         ]
     },
-    "261": {
+    "262": {
         "pred_terms": [
-            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u044f"
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u044f",
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0438",
+            "\u043c\u0438\u043d\u0443\u0441",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
             "positive"
         ]
-    },
-    "262": {
-        "pred_terms": [],
-        "pred_polarities": []
     },
     "263": {
         "pred_terms": [],
@@ -1979,15 +2591,29 @@
     },
     "264": {
         "pred_terms": [
-            "\u0434\u0435\u0432\u0443\u0448\u043a\u0438",
-            "\u043a\u043e\u0436\u0430\u043d\u044b\u0435 \u0434\u0438\u0432\u0430\u043d\u044b"
+            "\u043f\u043e\u0445\u043e\u0434"
         ],
         "pred_polarities": [
-            "positive",
             "positive"
         ]
     },
     "265": {
+        "pred_terms": [
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0438",
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430",
+            "\u043a\u0430\u0440\u0442\u0438\u043d\u044b",
+            "\u0434\u0438\u0432\u0430\u043d\u044b",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "266": {
         "pred_terms": [
             "\u043c\u0435\u0441\u0442\u043e",
             "\u0432\u043e\u043b\u043d\u0430"
@@ -1997,67 +2623,99 @@
             "positive"
         ]
     },
-    "266": {
+    "267": {
         "pred_terms": [
             "\u043a\u0443\u0445\u043d\u044f"
         ],
         "pred_polarities": [
-            "negative"
-        ]
-    },
-    "267": {
-        "pred_terms": [
-            "\u0446\u0435\u0437\u0430\u0440\u0438",
-            "\u0441\u0430\u043b\u0430\u0442"
-        ],
-        "pred_polarities": [
-            "negative",
             "negative"
         ]
     },
     "268": {
         "pred_terms": [
-            "\u043f\u0430\u0441\u0442\u0430",
-            "\u0444\u0435\u0442\u0443\u0447\u0438\u043d\u0438"
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u0446\u0435\u0437\u0430\u0440\u0438",
+            "\u0431\u043b\u044e\u0434\u043e"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "269": {
         "pred_terms": [
-            "\u0441\u0443\u0448\u0438"
+            "\u043f\u0430\u0441\u0442\u0430",
+            "\u0441\u043e\u0443\u0441\u0430",
+            "\u0444\u0435\u0442\u0443\u0447\u0438\u043d\u0438"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "270": {
+        "pred_terms": [
+            "\u0441\u0443\u0448\u0438",
+            "\u0442\u0435\u043c\u0430",
+            "\u0440\u043e\u043b\u043b\u044b",
+            "\u0433\u0438\u043d\u0437\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "negative"
+        ]
+    },
+    "271": {
+        "pred_terms": [
+            "\u0440\u043e\u043b\u043b"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
-    "270": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "271": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
     "272": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044f"
+            "\u0447\u0438\u0437\u043a\u0435\u0439\u043a",
+            "\u0442\u0430\u0440-\u0442\u0430\u0440",
+            "\u0442\u043e\u0440\u0442 \u043d\u0430\u043f\u043e\u043b\u0435\u043e\u043d"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "273": {
         "pred_terms": [
-            "\u0431\u043b\u044e\u0434\u0430"
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0443\u0445\u043d\u044f",
+            "\u043a\u0443\u0445"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "274": {
+        "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u043b\u044e\u0434\u0430",
+            "\u043f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432",
+            "\u0431\u043b\u044e"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "275": {
         "pred_terms": [
             "\u0440\u043e\u043b\u043b\u044b"
         ],
@@ -2065,16 +2723,24 @@
             "positive"
         ]
     },
-    "275": {
-        "pred_terms": [],
-        "pred_polarities": []
+    "276": {
+        "pred_terms": [
+            "\u043c\u044f\u0441\u043e",
+            "\u0438\u043d\u0433\u0440\u0435\u0434\u0438\u0435\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
     },
     "277": {
         "pred_terms": [
+            "\u0431\u043b\u044e\u0434\u043e",
             "\u0433\u0430\u0441\u043f\u0430\u0447\u043e",
-            "\u0431\u043b\u044e\u0434\u043e"
+            "\u0441\u043f\u0430\u0447\u043e"
         ],
         "pred_polarities": [
+            "negative",
             "negative",
             "negative"
         ]
@@ -2085,16 +2751,20 @@
             "\u0446\u044b\u043f\u043b\u0435\u043d\u043e\u043a"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "279": {
         "pred_terms": [
             "\u0431\u043b\u044e\u0434\u043e",
-            "\u0441\u0443\u0434\u0430\u043a"
+            "\u0441\u0443\u0434\u0430\u043a",
+            "\u043b\u044e\u0434\u043e",
+            "\u0431\u043b\u044e"
         ],
         "pred_polarities": [
+            "negative",
+            "negative",
             "negative",
             "negative"
         ]
@@ -2102,11 +2772,13 @@
     "280": {
         "pred_terms": [
             "\u0448\u0430\u0448\u043b\u044b\u043a",
+            "\u0431\u0430\u0440\u0430\u043d\u0438\u043d\u044b",
             "\u0431\u043b\u044e\u0434\u043e"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "281": {
@@ -2114,42 +2786,56 @@
             "\u0432\u0438\u043d\u043e"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "282": {
         "pred_terms": [
             "\u0445\u043b\u0435\u0431",
-            "\u043a\u043e\u0440\u0437\u0438\u043d\u0443"
+            "\u043a\u043e\u0440\u0437\u0438\u043d\u0443",
+            "\u0445\u043b\u0435\u0431\u0430"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "283": {
         "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435",
+            "\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "284": {
         "pred_terms": [
             "\u043a\u0443\u0445\u043d\u044f",
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0443\u0445\u043d\u044f"
         ],
         "pred_polarities": [
+            "negative",
             "negative",
             "negative"
         ]
     },
     "285": {
         "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
@@ -2158,7 +2844,7 @@
             "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "287": {
@@ -2167,23 +2853,31 @@
     },
     "288": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044f"
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0441\u0442\u0443\u043b\u044c\u0447\u0438\u043a\u043e\u0432"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "289": {
         "pred_terms": [
-            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430"
+            "\u043e\u0431\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430",
+            "\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "290": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "291": {
         "pred_terms": [
@@ -2198,12 +2892,16 @@
             "\u043b\u0438\u0448\u043d\u0435\u0435"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "293": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0447\u0430\u0439"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "294": {
         "pred_terms": [
@@ -2215,21 +2913,31 @@
     },
     "295": {
         "pred_terms": [
-            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
+            "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435",
+            "\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "296": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0445\u043e\u0437\u044f\u0438\u043d"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "297": {
         "pred_terms": [
-            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0430"
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0430",
+            "\u0441\u043e\u043d\u0430\u043b\u0430",
+            "\u0445\u043e\u0437\u044f\u0438\u043d"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "negative"
         ]
     },
@@ -2238,7 +2946,7 @@
             "\u043a\u043e\u0442\u043e\u0440\u044b\u0439"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "299": {
@@ -2250,24 +2958,28 @@
             "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "301": {
         "pred_terms": [
             "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
-            "\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u044c\u0435\u0440"
         ],
         "pred_polarities": [
+            "negative",
             "negative",
             "negative"
         ]
     },
     "302": {
         "pred_terms": [
-            "c\u0435\u0440\u0432\u0438\u0441"
+            "c\u0435\u0440\u0432\u0438\u0441",
+            "\u0435\u0440\u0432\u0438\u0441"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
@@ -2278,40 +2990,60 @@
         ],
         "pred_polarities": [
             "negative",
-            "negative"
+            "positive"
         ]
     },
     "304": {
         "pred_terms": [
-            "\u0441\u0430\u043b\u0430\u0442"
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u0440\u044b\u0431\u0430 \u0441\u0438\u0431\u0430\u0441"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "305": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "306": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u044b",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
         ],
         "pred_polarities": [
+            "negative",
+            "negative",
+            "negative",
             "negative"
         ]
     },
     "307": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "308": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
     },
     "309": {
         "pred_terms": [],
@@ -2320,30 +3052,36 @@
     "310": {
         "pred_terms": [
             "\u043c\u0435\u0441\u0442\u043e",
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive"
         ]
     },
     "311": {
-        "pred_terms": [
-            "\u043c\u0443\u0437\u044b\u043a\u0430"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "312": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "313": {
+    "312": {
         "pred_terms": [
-            "\u0440\u044b\u0431"
+            "\u0440\u044b\u0431\u043a\u0430",
+            "\u044b\u0431\u043a\u0430"
         ],
         "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "313": {
+        "pred_terms": [
+            "\u0440\u044b\u0431",
+            "\u044b\u0431"
+        ],
+        "pred_polarities": [
+            "negative",
             "negative"
         ]
     },
@@ -2352,14 +3090,20 @@
         "pred_polarities": []
     },
     "315": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0434\u0435\u0441\u0435\u0440\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "316": {
         "pred_terms": [
-            "\u0441\u0435\u0440\u0432\u0438\u0441"
+            "\u0441\u0435\u0440\u0432\u0438\u0441",
+            "\u0440\u0432\u0438\u0441"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
@@ -2384,19 +3128,25 @@
             "\u043f\u0438\u0432\u0430"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "320": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0430\u0441\u0441\u043e\u0440\u0442\u0438"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "321": {
         "pred_terms": [
-            "\u043f\u0438\u0432\u0430"
+            "\u043f\u0438\u0432\u0430",
+            "\u0432\u0438\u0448\u043d\u0435\u0432\u043e\u0435"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "322": {
@@ -2417,10 +3167,14 @@
     },
     "324": {
         "pred_terms": [
-            "\u0441\u0430\u043b\u0430\u0442"
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u043f\u0430\u0440\u043c\u0435\u0437\u0430\u043d\u0430",
+            "\u0446\u0435\u0437\u0430\u0440\u044c"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "negative",
+            "positive"
         ]
     },
     "325": {
@@ -2428,7 +3182,7 @@
             "\u043f\u0438\u0446\u0446\u0443"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "326": {
@@ -2437,43 +3191,49 @@
     },
     "327": {
         "pred_terms": [
-            "\u043a\u0430\u0444\u0435"
+            "\u043a\u0430\u0444\u0435",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440\u0430"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "328": {
         "pred_terms": [
-            "\u0440\u0430\u0441\u043f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
-            "\u043c\u0438\u043d\u0443\u0441\u0430\u043c:"
+            "\u0440\u0430\u0441\u043f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive"
         ]
     },
     "329": {
         "pred_terms": [
-            "\u0437\u0430\u043b\u0435",
-            "\u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0432\u0435\u043d\u0442\u0438\u043b\u044f\u0446\u0438\u0438"
+            "\u0441\u0438\u0441\u0442\u0435\u043c\u0430"
         ],
         "pred_polarities": [
-            "negative",
             "positive"
         ]
     },
     "330": {
         "pred_terms": [
-            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430"
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430",
+            "\u0430\u0442\u043c\u043e\u0441",
+            "\u043c\u043e\u0441\u0444\u0435\u0440\u0430"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "331": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043c\u0435\u043d\u044e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "332": {
         "pred_terms": [
@@ -2492,34 +3252,50 @@
             "\u0434\u0435\u0432\u0443\u0448\u043a\u0430-\u043e\u0444\u043e\u0438\u0446\u0438\u0430\u043d\u0442"
         ],
         "pred_polarities": [
+            "positive",
             "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "334": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043f\u0438\u0432\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "335": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043f\u0430\u0431"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "336": {
         "pred_terms": [],
         "pred_polarities": []
     },
     "337": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "338": {
         "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
@@ -2529,10 +3305,16 @@
     },
     "340": {
         "pred_terms": [
-            "\u0441\u0430\u043b\u0430\u0442\u044b"
+            "\u0441\u0430\u043b\u0430\u0442\u044b",
+            "\u0435\u0434\u043e\u0439",
+            "\u043e\u0432\u043e\u0449\u0435\u0439",
+            "\u0445\u0430\u0447\u0430\u043f\u0443\u0440\u0438"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "negative",
+            "positive",
+            "positive"
         ]
     },
     "341": {
@@ -2540,7 +3322,7 @@
             "\u043a\u0430\u0440\u0442\u0430"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "342": {
@@ -2548,15 +3330,17 @@
             "\u043d\u0430\u043f\u0438\u0442\u043e\u043a"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "343": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "344": {
@@ -2564,19 +3348,27 @@
             "\u043f\u0430\u0440\u043a\u043e\u0432\u043a\u043e\u0439"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "345": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
     },
     "346": {
         "pred_terms": [
             "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
-            "\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u044c\u0435\u0440"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive"
         ]
@@ -2589,8 +3381,8 @@
         ],
         "pred_polarities": [
             "negative",
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "348": {
@@ -2606,8 +3398,12 @@
         "pred_polarities": []
     },
     "351": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0443"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "352": {
         "pred_terms": [],
@@ -2623,9 +3419,11 @@
     },
     "354": {
         "pred_terms": [
-            "\u0431\u043b\u044e\u0434\u0430"
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u043c\u043e\u0445\u0438\u0442\u043e \u0432 \u0433\u043e\u043b\u0434\u0435"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
@@ -2644,7 +3442,7 @@
             "\u043c\u0443\u0437\u044b\u043a\u0430"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "357": {
@@ -2653,37 +3451,53 @@
     },
     "358": {
         "pred_terms": [
-            "\u0431\u043b\u044e\u0434\u0430"
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u043a\u0440\u043e\u043b\u0438\u043a",
+            "\u0440\u0430\u0432\u0438\u043e\u043b\u043b\u0438"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "359": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0431\u0430\u043a\u043b\u0430\u0436\u0430\u043d\u044b"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "360": {
         "pred_terms": [
             "\u0434\u0435\u0432\u0443\u0448\u043a\u0430"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "361": {
         "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0434\u0438\u0432\u0430\u043d\u044b",
+            "\u0438\u043d\u0442\u0435\u0440"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "362": {
         "pred_terms": [
+            "\u0447\u0430\u0439",
             "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
@@ -2711,9 +3525,11 @@
     },
     "366": {
         "pred_terms": [
+            "\u0438\u043a\u0435\u044f",
             "\u043c\u0435\u0431\u0435\u043b\u0438"
         ],
         "pred_polarities": [
+            "negative",
             "negative"
         ]
     },
@@ -2727,13 +3543,9 @@
     },
     "368": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u0438",
-            "\u043f\u043e\u0440\u0446\u0438\u044f",
-            "\u043f\u0430\u0441\u0442\u0443"
+            "\u043f\u043e\u0440\u0446\u0438\u044f"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
             "negative"
         ]
     },
@@ -2742,54 +3554,76 @@
         "pred_polarities": []
     },
     "370": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "371": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "372": {
         "pred_terms": [
-            "\u0445\u043b\u0435\u0431",
-            "\u043b\u0430\u0437\u0430\u043d\u044c\u044e"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive"
-        ]
-    },
-    "373": {
-        "pred_terms": [
-            "\u043c\u0435\u0441\u0442\u043e"
+            "\u0441\u0443\u043f\u0430"
         ],
         "pred_polarities": [
             "negative"
         ]
     },
-    "374": {
+    "371": {
         "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
-            "\u0442\u0443\u0430\u043b\u0435\u0442\u0430"
+            "\u0441\u0443\u043f",
+            "\u043f\u0430\u0445\u043b\u043e"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative"
+        ]
+    },
+    "372": {
+        "pred_terms": [
+            "\u0445\u043b\u0435\u0431"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "373": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e",
+            "\u0441\u0442\u043e\u043b\u0438\u043a\u0438"
         ],
         "pred_polarities": [
             "positive",
             "positive"
         ]
     },
-    "375": {
+    "374": {
         "pred_terms": [
-            "\u0434\u0435\u0432\u0443\u0448\u043a\u0438"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0443\u0430\u043b\u0435\u0442\u0430"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "negative"
+        ]
+    },
+    "375": {
+        "pred_terms": [
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0438",
+            "\u0443\u0448\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "376": {
         "pred_terms": [
-            "\u0431\u043b\u044e\u0434"
+            "\u0441\u0430\u043b\u0430\u0442",
+            "\u0431\u043b\u044e\u0434",
+            "\u0441\u0443\u043f",
+            "\u043a\u0440\u0435\u043c",
+            "\u043a\u0440\u0435\u043c-\u0441\u0443\u043f"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
             "positive"
         ]
     },
@@ -2803,9 +3637,11 @@
     },
     "378": {
         "pred_terms": [
-            "\u0441\u0435\u0440\u0432\u0438\u0441"
+            "\u0441\u0435\u0440\u0432\u0438\u0441",
+            "\u0441\u0435\u0440\u0432\u0438"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
@@ -2815,8 +3651,8 @@
             "\u0443\u0445\u043d\u044f"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "380": {
@@ -2824,25 +3660,35 @@
         "pred_polarities": []
     },
     "381": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043a\u043e\u0442\u043e\u0440\u044b\u0439"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
     },
     "382": {
         "pred_terms": [
             "\u043c\u0435\u0441\u0442\u043e"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "383": {
         "pred_terms": [
             "\u043a\u0443\u0445\u043d\u044f",
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0443\u0445\u043d\u044f",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u043a\u0443\u0445"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "384": {
@@ -2854,12 +3700,16 @@
             "\u0431\u0430\u0440\u043c\u0435\u043d"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "386": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
     },
     "387": {
         "pred_terms": [],
@@ -2867,23 +3717,37 @@
     },
     "388": {
         "pred_terms": [
-            "\u0431\u0443\u043b\u043e\u0447\u043a\u0438"
+            "\u0431\u0443\u043b\u043e\u0447\u043a\u0438",
+            "\u0441\u0442\u043e\u043b\u0430"
         ],
         "pred_polarities": [
+            "negative",
             "negative"
         ]
     },
     "389": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0445\u0430\u0447\u0430\u043f\u0443\u0440\u0438"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "390": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043c\u0438\u0434\u0438\u0439"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "391": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0448\u0430\u0448\u043b\u044b\u043a\u0430 \u0438\u0437 \u0431\u0430\u0440\u0430\u043d\u0438\u043d\u044b"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
     },
     "392": {
         "pred_terms": [
@@ -2896,8 +3760,8 @@
     "393": {
         "pred_terms": [
             "\u0448\u0430\u0448\u043b\u044b\u043a\u0443",
-            "\u0448\u0430\u0448\u043b\u044b\u043a",
-            "\u0442\u0430\u0440\u0435\u043b\u043a\u0443"
+            "\u0442\u0430\u0440\u0435\u043b\u043a\u0443",
+            "\u043b\u0438\u043c\u043e\u043d\u043e\u043c"
         ],
         "pred_polarities": [
             "positive",
@@ -2907,23 +3771,33 @@
     },
     "394": {
         "pred_terms": [
-            "\u0440\u044b\u0431\u0443"
+            "\u0440\u044b\u0431\u0443",
+            "\u043a\u043e\u0442\u043e\u0440\u043e\u0439"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "395": {
         "pred_terms": [
-            "\u0432\u0438\u0434 \u0438\u0437 \u043e\u043a\u043e\u043d"
+            "\u0432\u0438\u0434",
+            "\u043e\u043a\u043e\u043d"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "396": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043d\u0430\u0440\u0435\u043a\u0430\u043d\u0438\u0439",
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
     },
     "397": {
         "pred_terms": [
@@ -2943,7 +3817,7 @@
             "positive"
         ]
     },
-    "400": {
+    "399": {
         "pred_terms": [
             "\u0431\u043b\u044e\u0434\u0430",
             "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b"
@@ -2953,19 +3827,19 @@
             "negative"
         ]
     },
-    "401": {
+    "400": {
         "pred_terms": [
             "\u0440\u0435\u0431\u0451\u043d\u043e\u043a"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
-    "402": {
+    "401": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "403": {
+    "402": {
         "pred_terms": [
             "\u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435"
         ],
@@ -2973,9 +3847,19 @@
             "positive"
         ]
     },
+    "403": {
+        "pred_terms": [
+            "\u0442\u0438\u0440\u0430\u043c\u0438\u0441\u0443",
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0435"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
     "404": {
         "pred_terms": [
-            "\u0442\u0438\u0440\u0430\u043c\u0438\u0441\u0443"
+            "\u0441\u0430\u043b\u0430\u0442"
         ],
         "pred_polarities": [
             "positive"
@@ -2983,69 +3867,75 @@
     },
     "405": {
         "pred_terms": [
-            "\u0441\u0430\u043b\u0430\u0442"
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0440\u0430\u0431\u043e\u0442\u0443",
+            "\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "406": {
         "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
-            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u044c\u0435\u0440"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive"
         ]
     },
     "407": {
         "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
         ],
         "pred_polarities": [
-            "negative"
-        ]
-    },
-    "408": {
-        "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
-        ],
-        "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
-    "409": {
+    "408": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "410": {
+    "409": {
         "pred_terms": [
-            "\u0432\u0438\u043f-\u0437\u0430\u043b"
+            "\u0437\u0430\u043b",
+            "\u0432\u0438\u043f-\u0437\u0430\u043b",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
-    "411": {
+    "410": {
         "pred_terms": [
-            "\u0441\u0430\u043b\u0430\u0442\u044b",
-            "\u0441\u0442\u043e\u043b\u044b"
+            "\u0441\u0442\u043e\u043b\u044b",
+            "\u0441\u0430\u043b\u0430\u0442\u044b"
         ],
         "pred_polarities": [
             "negative",
             "negative"
         ]
     },
-    "412": {
+    "411": {
         "pred_terms": [
             "\u0442\u0443\u0430\u043b\u0435\u0442\u044b"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
-    "413": {
+    "412": {
         "pred_terms": [
             "\u043a\u0430\u043b\u044c\u044f\u043d"
         ],
@@ -3053,21 +3943,35 @@
             "positive"
         ]
     },
-    "414": {
+    "413": {
         "pred_terms": [
             "\u043c\u0430\u0441\u0441\u043c\u0438\u0434\u0438\u044f"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
-    "415": {
+    "414": {
         "pred_terms": [],
         "pred_polarities": []
     },
+    "415": {
+        "pred_terms": [
+            "\u0431\u0430\u0440\u043c\u0435\u043d\u043e\u043c"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
     "416": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b",
+            "\u043c\u0430\u0441\u0441\u043c\u0438\u0434\u0438\u044f"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
     },
     "417": {
         "pred_terms": [],
@@ -3087,51 +3991,65 @@
     },
     "420": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044f"
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0443\u0445\u043d\u044f",
+            "\u043a\u0443\u0445"
         ],
         "pred_polarities": [
+            "negative",
+            "negative",
             "negative"
         ]
     },
     "421": {
         "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "422": {
         "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "423": {
         "pred_terms": [
+            "\u043f\u043e\u0440\u0446\u0438\u0438",
             "\u043c\u044f\u0441\u043e",
-            "\u043f\u043e\u0440\u0446\u0438\u0438"
+            "\u043a\u0443\u0445\u043d\u0435"
         ],
         "pred_polarities": [
+            "positive",
             "negative",
-            "negative"
+            "positive"
         ]
     },
     "424": {
         "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "425": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044f"
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0443\u0445\u043d\u044f"
         ],
         "pred_polarities": [
+            "negative",
             "negative"
         ]
     },
@@ -3158,7 +4076,7 @@
             "\u0437\u0430\u043b"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "430": {
@@ -3190,20 +4108,32 @@
         ]
     },
     "436": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "437": {
         "pred_terms": [
-            "\u044d\u043a\u0440\u0430\u043d\u043e\u0432"
+            "\u043f\u0430\u0431\u0435"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
+    "437": {
+        "pred_terms": [
+            "\u044d\u043a\u0440\u0430\u043d\u043e\u0432",
+            "\u044d\u043a\u0440\u0430\u043d\u043e",
+            "\u043a\u0440\u0430\u043d\u043e\u0432"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
     "438": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0441\u043e\u043f\u0440\u043e\u0432\u043e\u0436\u0434\u0435\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "439": {
         "pred_terms": [
@@ -3214,37 +4144,53 @@
         ]
     },
     "440": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043c\u0435\u043d\u044e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "441": {
         "pred_terms": [
             "\u043a\u0443\u0445\u043d\u044f",
-            "\u0443\u0445\u043d\u044f"
+            "\u0443\u0445\u043d\u044f",
+            "\u043a\u0443\u0445",
+            "\u043d\u044f"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive",
             "positive"
         ]
     },
     "442": {
         "pred_terms": [
-            "\u043f\u0430\u0440\u0434\u043e\u043d"
+            "\u043f\u0430\u0440\u0434\u043e\u043d",
+            "\u043c\u0438\u043b\u044b\u0439",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "443": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "444": {
         "pred_terms": [
             "\u0441\u0430\u043b\u0430\u0442\u044b"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "445": {
@@ -3252,12 +4198,20 @@
         "pred_polarities": []
     },
     "446": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "447": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "448": {
         "pred_terms": [],
@@ -3280,8 +4234,12 @@
         "pred_polarities": []
     },
     "452": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0443"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "453": {
         "pred_terms": [],
@@ -3293,18 +4251,28 @@
     },
     "455": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044f"
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0443\u0445\u043d\u044f",
+            "\u043a\u0443\u0445",
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "456": {
         "pred_terms": [
             "\u043f\u043e\u0441\u0443\u0434\u0430",
-            "\u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435"
+            "\u0432\u043a\u0443\u0441",
+            "\u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435",
+            "\u043f\u043e\u0434\u0430\u0447\u0430"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive",
             "positive"
         ]
@@ -3313,37 +4281,57 @@
         "pred_terms": [
             "\u0431\u043b\u044e\u0434\u0430",
             "\u043f\u043e\u0441\u0443\u0434\u0430",
-            "\u0440\u0430\u0431\u043e\u0442\u0430 \u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043e\u0432"
+            "\u0440\u0430\u0431\u043e\u0442\u0430"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "458": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0440\u0430\u0431\u043e\u0442\u0443 \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u044e\u0449\u0435\u0433\u043e \u0430\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "459": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "460": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e",
+            "\u0441\u0432\u0430\u0434\u044c\u0431\u0443"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "461": {
+        "pred_terms": [
+            "\u0435\u0434\u044b"
         ],
         "pred_polarities": [
             "negative"
         ]
     },
-    "460": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "461": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
     "462": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "463": {
         "pred_terms": [
@@ -3372,8 +4360,12 @@
         ]
     },
     "466": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440\u0443"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "467": {
         "pred_terms": [
@@ -3389,15 +4381,21 @@
     },
     "468": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044f"
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0443\u0445\u043d\u044f"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "469": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0448\u0435\u0444-\u043f\u043e\u0432\u0430\u0440\u0443"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "470": {
         "pred_terms": [
@@ -3408,15 +4406,19 @@
         ]
     },
     "471": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "472": {
         "pred_terms": [
             "\u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440 \u0438\u043b\u044c\u044f"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "473": {
@@ -3437,25 +4439,35 @@
     },
     "476": {
         "pred_terms": [
-            "\u0432\u0430\u043b\u0435\u043d\u0442\u0438\u043d"
+            "\u0432\u0430\u043b\u0435\u043d\u0442\u0438\u043d",
+            "\u043b\u0435\u043d\u0442\u0438\u043d"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "477": {
         "pred_terms": [
-            "\u0431\u043b\u044e\u0434\u0430"
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u0448\u0435\u0444-\u043f\u043e\u0432\u0430\u0440\u0430"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "478": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044f"
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0443\u0445\u043d\u044f",
+            "\u043a\u0443\u0445",
+            "\u043d\u044f"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
             "positive"
         ]
     },
@@ -3469,18 +4481,24 @@
     },
     "480": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044f"
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0443\u0445\u043d\u044f",
+            "\u043a\u0443\u0445"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "481": {
         "pred_terms": [
             "\u0434\u0435\u0432\u0443\u0448\u043a\u0430",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442",
             "\u0434\u0435\u0432\u0443\u0448\u043a\u0430-\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive"
         ]
@@ -3488,9 +4506,13 @@
     "482": {
         "pred_terms": [
             "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
-            "\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u044c\u0435\u0440",
+            "\u0438\u043d\u0442\u0435\u0440"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive",
             "positive"
         ]
@@ -3498,9 +4520,11 @@
     "483": {
         "pred_terms": [
             "\u0437\u0430\u043b",
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive"
         ]
@@ -3515,22 +4539,34 @@
     },
     "485": {
         "pred_terms": [
-            "\u0431\u043b\u044e\u0434"
+            "\u0431\u043b\u044e\u0434",
+            "\u043c\u0435\u043d\u044e",
+            "\u0434\u0435\u0441\u0435\u0440\u0442\u044b",
+            "\u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u044f"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "486": {
+        "pred_terms": [
+            "\u043a\u0430\u0440\u0442\u0430"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
-    "486": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
     "487": {
         "pred_terms": [
-            "\u0432\u0438\u043d\u043e"
+            "\u0432\u0438\u043d\u043e",
+            "\u043d\u043e"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "488": {
@@ -3538,64 +4574,108 @@
         "pred_polarities": []
     },
     "489": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0442\u0443\u0430\u043b\u0435\u0442",
+            "\u0445\u043e\u043b\u043b\u0430"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
     },
     "490": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0434\u0438\u0430\u043d\u044b"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "491": {
         "pred_terms": [
-            "\u043c\u0443\u0437\u044b\u043a\u0430"
+            "\u043c\u0443\u0437\u044b\u043a\u0430",
+            "\u0434\u0438\u043d\u0430\u043c\u0438\u043a\u043e\u0432"
         ],
         "pred_polarities": [
+            "negative",
             "negative"
         ]
     },
     "492": {
         "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0440\u043e\u0435\u0447\u043a\u0443"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "493": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043f\u043e\u0432\u0430\u0440",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
     },
     "494": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "495": {
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
-    "495": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
     "496": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0432\u0438\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "497": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "498": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0432\u0438\u0434"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "499": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0443"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "500": {
         "pred_terms": [],
@@ -3603,87 +4683,129 @@
     },
     "501": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u0435:"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "502": {
-        "pred_terms": [
-            "\u043a\u0440\u0435\u043c-\u0441\u0443\u043f"
+            "\u043a\u0443\u0445\u043d\u0435"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
-    "503": {
+    "502": {
         "pred_terms": [
-            "\u043d\u0430\u0447\u0438\u043d\u043a\u0430",
-            "\u043f\u0438\u0446\u0446\u0430",
-            "\u043f\u0438\u0446\u0446\u0443"
+            "\u0441\u0443\u043f",
+            "\u043a\u0440\u0435\u043c",
+            "\u043a\u0440\u0435\u043c-\u0441\u0443\u043f",
+            "\u0440\u0435\u043c-\u0441\u0443\u043f"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "503": {
+        "pred_terms": [
+            "\u043f\u0438\u0446\u0446\u0430",
+            "\u043f\u0438\u0446\u0446\u0443",
+            "\u0442\u0435\u0441\u0442\u043e",
+            "\u043d\u0430\u0447\u0438\u043d\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
             "negative",
             "negative",
             "negative"
         ]
     },
     "504": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "505": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "506": {
         "pred_terms": [
-            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440"
+            "\u043e\u043a\u043d\u043e"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
+    "505": {
+        "pred_terms": [
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "506": {
+        "pred_terms": [
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440",
+            "\u0433\u0430\u0440\u0434\u0435\u0440\u043e\u0431\u0449\u0438\u0446\u0430",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440-\u043a\u0430\u0441\u0441\u0438\u0440",
+            "\u043a\u0430\u0441\u0441\u0438\u0440-\u0433\u0430\u0440\u0434\u0435\u0440\u043e\u0431\u0449\u0438\u0446\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
     "507": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0438",
+            "\u043a\u0430\u043c\u0438\u043d\u0430"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
     },
     "508": {
         "pred_terms": [
             "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043a\u0430"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "509": {
         "pred_terms": [
-            "\u0442\u0438\u0440\u0430\u043c\u0438\u0441\u0443"
+            "\u0442\u0438\u0440\u0430\u043c\u0438\u0441\u0443",
+            "\u0442\u0438\u0440\u0430\u043c\u0438"
         ],
         "pred_polarities": [
+            "negative",
             "negative"
         ]
     },
     "510": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0434\u0435\u0432\u0443\u0448\u043a\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "511": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044f",
             "\u043f\u043e\u0440\u0446\u0438\u0438",
-            "\u0443\u0445\u043d\u044f"
+            "\u043a\u0443\u0445\u043d\u044f",
+            "\u0443\u0445\u043d\u044f",
+            "\u043a\u0443\u0445"
         ],
         "pred_polarities": [
+            "negative",
             "negative",
             "negative",
             "negative"
         ]
     },
     "512": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "p.s ."
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
     },
     "513": {
         "pred_terms": [
@@ -3694,8 +4816,12 @@
         ]
     },
     "514": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0441\u0438\u0433\u0430\u0440\u0435\u0442\u043d\u043e\u0433\u043e \u0434\u044b\u043c\u0430"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
     },
     "515": {
         "pred_terms": [
@@ -3709,8 +4835,8 @@
     },
     "516": {
         "pred_terms": [
-            "\u0441\u0442\u0435\u0439\u043a",
-            "\u0441\u043e\u0443\u0441"
+            "\u0441\u043e\u0443\u0441",
+            "\u0441\u0442\u0435\u0439\u043a"
         ],
         "pred_polarities": [
             "negative",
@@ -3720,9 +4846,11 @@
     "517": {
         "pred_terms": [
             "\u043e\u0434\u0435\u0436\u0434\u0430",
-            "\u043c\u0438\u043d\u0443\u0441\u043e\u0432"
+            "\u043c\u0438\u043d\u0443\u0441\u043e\u0432",
+            "\u0433\u0430\u0440\u0434\u0435\u0440\u043e\u0431\u0435"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive"
         ]
@@ -3733,7 +4861,7 @@
     },
     "519": {
         "pred_terms": [
-            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0443 \u0431\u0430\u0440\u0430"
+            "\u0431\u0430\u0440\u0430"
         ],
         "pred_polarities": [
             "positive"
@@ -3741,9 +4869,13 @@
     },
     "520": {
         "pred_terms": [
-            "\u043a\u043e\u043a\u0442\u0435\u0439\u043b\u0438"
+            "\u043a\u043e\u043a\u0442\u0435\u0439\u043b\u0438",
+            "\u043a\u0442\u0435\u0439\u043b\u0438",
+            "\u043a\u043e\u043a\u0442\u0435\u0439"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
@@ -3758,28 +4890,40 @@
     "522": {
         "pred_terms": [
             "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u043c\u0443\u0437\u044b\u043a\u0430",
             "\u043f\u043b\u0435\u0439\u043b\u0438\u0441\u0442"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "negative",
             "negative"
         ]
     },
     "523": {
         "pred_terms": [
-            "\u0441\u0435\u0440\u0432\u0438\u0441"
+            "\u0441\u0435\u0440\u0432\u0438\u0441",
+            "\u0440\u0432\u0438\u0441",
+            "\u0441\u0435\u0440\u0432\u0438",
+            "\u0441"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "524": {
         "pred_terms": [
             "\u0438\u043b\u044c\u044f",
+            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442",
             "\u0447\u0430\u0435\u0432\u044b\u0435",
             "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442(\u0438\u043b\u044c\u044f"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive",
             "positive"
@@ -3787,24 +4931,40 @@
     },
     "525": {
         "pred_terms": [
-            "\u043a\u0443\u0445\u043d\u044e"
+            "\u043a\u0443\u0445\u043d\u044e",
+            "\u043a\u0443\u0445"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "526": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0446\u0435\u043d\u044b"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
     },
     "527": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0441\u0443\u043f",
+            "\u0441\u0432\u0438\u043d\u0438\u043d\u0430",
+            "\u043c\u044f\u0441\u043e",
+            "\u0442\u0438\u0440\u0430\u043c\u0438\u0441\u0443"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "negative",
+            "negative"
+        ]
     },
     "528": {
         "pred_terms": [
             "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
-            "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u044b"
+            "\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
         ],
         "pred_polarities": [
             "positive",
@@ -3812,8 +4972,14 @@
         ]
     },
     "529": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
     },
     "530": {
         "pred_terms": [
@@ -3835,9 +5001,11 @@
     },
     "532": {
         "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
@@ -3862,15 +5030,21 @@
         ]
     },
     "536": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043c\u0435\u0441\u0442\u043e"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "537": {
         "pred_terms": [
             "\u043a\u0430\u0431\u0438\u043d\u043a\u0438",
+            "\u0441\u0443\u043f\u0435\u0440",
             "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive"
         ]
@@ -3878,20 +5052,22 @@
     "538": {
         "pred_terms": [
             "\u043e\u0432\u043e\u0449\u0438",
-            "\u0431\u043b\u044e\u0434\u0430\u043c",
-            "\u0444\u0440\u0443\u043a\u0442\u044b"
+            "\u0444\u0440\u0443\u043a\u0442\u044b",
+            "\u0431\u043b\u044e\u0434\u0430\u043c"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
+            "positive",
+            "positive",
             "negative"
         ]
     },
     "539": {
         "pred_terms": [
-            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
+            "\u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+            "\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0435"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
@@ -3905,9 +5081,13 @@
     },
     "541": {
         "pred_terms": [
-            "\u0442\u0430\u0440\u0435\u043b\u043a\u0438"
+            "\u0441\u0430\u043b\u0430\u0442\u044b",
+            "\u0442\u0430\u0440\u0435\u043b\u043a\u0438",
+            "\u0431\u043b\u044e\u0434\u0430"
         ],
         "pred_polarities": [
+            "negative",
+            "negative",
             "negative"
         ]
     },
@@ -3926,20 +5106,40 @@
             "\u043e\u0433\u0443\u0440\u0446\u044b"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "544": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043f\u043e\u0441\u0443\u0434\u0430"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "545": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0437\u0430\u043b\u0430",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d\u0430",
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
     },
     "546": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "547": {
         "pred_terms": [
@@ -3961,38 +5161,62 @@
     },
     "549": {
         "pred_terms": [
-            "\u0431\u043b\u044e\u0434\u0430"
+            "\u0431\u043b\u044e\u0434\u0430",
+            "\u0431",
+            "\u043c\u044f\u0441\u043d\u044b\u0435",
+            "\u0433\u043e\u0440\u044f\u0447\u0438\u0435",
+            "\u0431\u043b\u044e",
+            "\u043f\u043e\u0440\u0446\u0438\u0438"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive",
             "negative"
         ]
     },
     "550": {
         "pred_terms": [
+            "\u0434\u0435\u0441\u0435\u0440\u0442",
+            "\u0442\u043e\u0440\u0441",
             "\u0448\u043a\u0430\u0442\u0443\u043b\u043a\u0430"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "551": {
         "pred_terms": [
-            "\u0437\u0430\u043b\u0435"
+            "\u0437\u0430\u043b\u0435",
+            "\u0437\u0430\u043b",
+            "\u0435"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "552": {
+        "pred_terms": [
+            "\u043c\u0438\u043d\u0443\u0441\u043e\u0432"
         ],
         "pred_polarities": [
             "negative"
         ]
     },
-    "552": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
     "553": {
         "pred_terms": [
-            "\u0432\u0435\u0448\u0430\u043b\u043a\u0438"
+            "\u0432\u0435\u0448\u0430\u043b\u043a\u0438",
+            "\u0435\u0448\u0430\u043b\u043a\u0438"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "554": {
@@ -4000,20 +5224,28 @@
             "\u043e\u0444\u0438\u0446\u0438\u0430\u043d\u0442\u043e\u0432"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "555": {
         "pred_terms": [
+            "\u0434\u0435\u0432\u0443\u0448\u0435\u043a",
+            "\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u043e\u0432",
             "\u0434\u0435\u0432\u0443\u0448\u0435\u043a-\u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u043e\u0432"
         ],
         "pred_polarities": [
-            "positive"
+            "negative",
+            "negative",
+            "negative"
         ]
     },
     "556": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043f\u043e\u0440\u0446\u0438\u0439"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
     },
     "557": {
         "pred_terms": [],
@@ -4021,33 +5253,51 @@
     },
     "558": {
         "pred_terms": [
-            "\u0447\u0443\u0440\u0447\u0445\u0435\u043b\u0430"
+            "\u0447\u0443\u0440\u0447\u0445\u0435\u043b\u0430",
+            "\u0447\u0443\u0440\u0447\u0445\u0435",
+            "\u0440\u0447\u0445\u0435\u043b\u0430"
         ],
         "pred_polarities": [
+            "negative",
+            "negative",
             "negative"
         ]
     },
     "559": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u0447\u0430\u0439"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "560": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043a\u0440\u0435\u043c-\u0441\u0443\u043f"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "561": {
         "pred_terms": [
             "\u0431\u0443\u043b\u044c\u043e\u043d"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "562": {
         "pred_terms": [
-            "\u043a\u043e\u0440\u0437\u0438\u043d\u043a\u0430"
+            "\u043a\u043e\u0440\u0437\u0438\u043d\u043a\u0430",
+            "\u043a\u043e\u0440\u0437\u0438\u043d",
+            "\u0445\u043b\u0435\u0431\u043d\u0430\u044f",
+            "\u0445\u043b\u0435\u0431\u043d\u0430"
         ],
         "pred_polarities": [
+            "negative",
+            "negative",
+            "negative",
             "negative"
         ]
     },
@@ -4056,7 +5306,7 @@
             "\u043b\u0430\u0437\u0430\u043d\u044c\u044f"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "564": {
@@ -4095,10 +5345,14 @@
     },
     "568": {
         "pred_terms": [
+            "\u043f\u043e\u043b\u043e\u0442\u0435\u043d\u0447\u0438\u043a\u0438",
             "\u0442\u0443\u0430\u043b\u0435\u0442",
-            "\u043f\u043e\u043b\u043e\u0442\u0435\u043d\u0447\u0438\u043a\u0438"
+            "\u043e\u0442\u0435\u043d\u0447\u0438\u043a\u0438",
+            "\u043f\u043e\u043b\u043e\u0442\u0435\u043d"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive",
             "positive"
         ]
@@ -4113,10 +5367,14 @@
     },
     "570": {
         "pred_terms": [
-            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+            "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+            "\u0440\u0430\u043d"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "571": {
@@ -4129,10 +5387,14 @@
     },
     "572": {
         "pred_terms": [
-            "\u0441\u0430\u043b\u0430\u0442\u044b"
+            "\u0441\u0430\u043b\u0430\u0442\u044b",
+            "\u0441\u0443\u043f",
+            "\u043a\u043e\u043b\u0431\u0430\u0441\u043a\u0438"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "573": {
@@ -4149,8 +5411,8 @@
             "\u0438\u0432\u043e"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "575": {
@@ -4159,8 +5421,8 @@
             "\u0440\u0435\u0431\u0435\u043d\u043e\u043a"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "576": {
@@ -4170,9 +5432,11 @@
     "577": {
         "pred_terms": [
             "\u0434\u043e\u0440\u0430\u0434\u0430",
-            "\u0441\u043e\u0443\u0441 , \u043a\u043e\u0442\u043e\u0440\u044b\u0439"
+            "\u0441\u043e\u0443\u0441",
+            "\u043a\u043e\u0442\u043e\u0440\u044b\u0439"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive"
         ]
@@ -4206,11 +5470,11 @@
     "581": {
         "pred_terms": [
             "\u0441\u0435\u0440\u0432\u0438\u0441",
-            "\u0440\u044b\u0431\u0443"
+            "\u0440\u0432\u0438\u0441"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "582": {
@@ -4224,13 +5488,19 @@
         ]
     },
     "583": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u0430",
+            "\u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0438"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
     },
     "584": {
         "pred_terms": [
-            "\u043e\u0442\u0434\u044b\u0445\u0430",
-            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430"
+            "\u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430",
+            "\u043e\u0442\u0434\u044b\u0445\u0430"
         ],
         "pred_polarities": [
             "positive",
@@ -4240,27 +5510,35 @@
     "585": {
         "pred_terms": [
             "\u043a\u0443\u0445\u043d\u044f",
-            "\u0443\u0445\u043d\u044f"
+            "\u0443\u0445\u043d\u044f",
+            "\u043a\u0443\u0445"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive"
         ]
     },
     "586": {
         "pred_terms": [
-            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b"
+            "\u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b",
+            "\u0441\u043e\u043d\u0430\u043b"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "587": {
         "pred_terms": [
-            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440"
+            "\u0438\u043d\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u0442\u0435\u0440\u044c\u0435\u0440",
+            "\u044c\u0435\u0440:"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "588": {
@@ -4276,7 +5554,7 @@
             "\u0431\u043b\u044e\u0434\u043e"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     }
 }

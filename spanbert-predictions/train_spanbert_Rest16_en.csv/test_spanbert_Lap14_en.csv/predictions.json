@@ -16,8 +16,12 @@
         ]
     },
     "2": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "set up"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "3": {
         "pred_terms": [
@@ -25,8 +29,8 @@
             "touchscreen functions"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "4": {
@@ -47,8 +51,8 @@
             "dvd)"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "6": {
@@ -56,12 +60,8 @@
         "pred_polarities": []
     },
     "7": {
-        "pred_terms": [
-            "apple os"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "8": {
         "pred_terms": [
@@ -73,9 +73,13 @@
     },
     "9": {
         "pred_terms": [
-            "wifi connection"
+            "battery life",
+            "wifi connection",
+            "log"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
@@ -94,7 +98,7 @@
             "interneting"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "12": {
@@ -102,12 +106,16 @@
             "mac mini"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "13": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "light"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "14": {
         "pred_terms": [
@@ -152,12 +160,8 @@
         ]
     },
     "19": {
-        "pred_terms": [
-            "computer"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "20": {
         "pred_terms": [
@@ -169,9 +173,11 @@
     },
     "21": {
         "pred_terms": [
-            "baterry"
+            "baterry",
+            "erry"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
@@ -187,20 +193,24 @@
     },
     "23": {
         "pred_terms": [
-            "computer"
+            "computer",
+            "performance"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "24": {
         "pred_terms": [
             "laptop",
+            "top",
             "usb ports"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "25": {
@@ -221,9 +231,11 @@
     },
     "27": {
         "pred_terms": [
-            "hardware performance"
+            "hardware performance",
+            "computer"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
@@ -233,10 +245,12 @@
     },
     "29": {
         "pred_terms": [
-            "keyboard"
+            "keyboard",
+            "presses"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "30": {
@@ -253,15 +267,17 @@
     },
     "32": {
         "pred_terms": [
+            "complaint",
             "windows 8"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "33": {
         "pred_terms": [
-            "usb ports..."
+            "usb ports"
         ],
         "pred_polarities": [
             "positive"
@@ -270,9 +286,11 @@
     "34": {
         "pred_terms": [
             "keyboard",
-            "screen"
+            "screen",
+            "features"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive"
         ]
@@ -303,25 +321,33 @@
     },
     "38": {
         "pred_terms": [
+            "mbp",
             "laptop",
-            "new mbp"
+            "p"
         ],
         "pred_polarities": [
-            "negative",
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "39": {
         "pred_terms": [
-            "criticism"
+            "criticism",
+            "air"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "40": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "windows 8"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
     },
     "41": {
         "pred_terms": [
@@ -333,10 +359,12 @@
     },
     "42": {
         "pred_terms": [
-            "mac mini"
+            "mac mini",
+            "performance"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "43": {
@@ -348,34 +376,32 @@
         ]
     },
     "44": {
-        "pred_terms": [
-            "lit up keys"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "45": {
         "pred_terms": [
             "mountain lion os",
-            "microsoft windows"
+            "windows"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "46": {
+        "pred_terms": [
+            "osx",
+            "x"
         ],
         "pred_polarities": [
             "negative",
             "negative"
         ]
     },
-    "46": {
-        "pred_terms": [
-            "osx"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
     "47": {
         "pred_terms": [
-            "microsoft office"
+            "office"
         ],
         "pred_polarities": [
             "positive"
@@ -393,47 +419,51 @@
     },
     "49": {
         "pred_terms": [
-            "apps"
+            "apps",
+            "s"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "50": {
         "pred_terms": [
-            "cons: screen resolution"
+            "cons",
+            "screen resolution"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "51": {
         "pred_terms": [
-            "operating system",
-            "multi touch"
+            "operating system"
         ],
         "pred_polarities": [
-            "negative",
             "positive"
         ]
     },
     "52": {
-        "pred_terms": [
-            "acers"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "53": {
         "pred_terms": [
+            "computer",
+            "protection warranty",
             "squaretrade",
             "spills",
-            "warranty"
+            "drops",
+            "applecare"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
             "negative",
-            "negative",
+            "positive",
             "negative"
         ]
     },
@@ -447,17 +477,19 @@
             "set-up"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "56": {
         "pred_terms": [
             "laptop",
+            "debate",
             "mac laptops",
-            "retina display"
+            "retina"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive",
             "positive"
@@ -492,9 +524,15 @@
     "60": {
         "pred_terms": [
             "apple",
-            "intel4000 graphic chip"
+            "graphic chip",
+            "le",
+            "rmbp",
+            "intel4000"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
             "positive",
             "positive"
         ]
@@ -503,9 +541,17 @@
         "pred_terms": [
             "apple",
             "slot",
-            "port"
+            "port",
+            "dvd",
+            "le",
+            "adapter)",
+            "sdxc"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
             "positive",
             "positive",
             "positive"
@@ -537,18 +583,30 @@
     },
     "66": {
         "pred_terms": [
-            "specs"
+            "specs",
+            "spec"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "67": {
         "pred_terms": [
             "apple",
-            "customer service"
+            "customer service",
+            "le",
+            "product quality",
+            "craftmanship",
+            "aesthetics",
+            "aesthetics,craftmanship"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive",
             "positive",
             "positive"
         ]
@@ -582,12 +640,16 @@
             "colors"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "72": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "price"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "73": {
         "pred_terms": [
@@ -598,12 +660,8 @@
         ]
     },
     "74": {
-        "pred_terms": [
-            "battery"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "75": {
         "pred_terms": [
@@ -640,18 +698,20 @@
             "windows 8"
         ],
         "pred_polarities": [
+            "positive"
+        ]
+    },
+    "79": {
+        "pred_terms": [
+            "breeze",
+            "set up"
+        ],
+        "pred_polarities": [
+            "negative",
             "negative"
         ]
     },
     "80": {
-        "pred_terms": [
-            "breeze"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "81": {
         "pred_terms": [
             "win8"
         ],
@@ -659,19 +719,29 @@
             "negative"
         ]
     },
-    "82": {
+    "81": {
         "pred_terms": [],
         "pred_polarities": []
+    },
+    "82": {
+        "pred_terms": [
+            "price",
+            "restrictions of osx"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
     },
     "83": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "boy"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "84": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "86": {
         "pred_terms": [
             "mini"
         ],
@@ -679,7 +749,7 @@
             "positive"
         ]
     },
-    "87": {
+    "85": {
         "pred_terms": [
             "usb3"
         ],
@@ -687,7 +757,7 @@
             "positive"
         ]
     },
-    "88": {
+    "86": {
         "pred_terms": [
             "sound"
         ],
@@ -695,7 +765,7 @@
             "positive"
         ]
     },
-    "89": {
+    "87": {
         "pred_terms": [
             "track pad"
         ],
@@ -703,7 +773,7 @@
             "positive"
         ]
     },
-    "90": {
+    "88": {
         "pred_terms": [
             "settings"
         ],
@@ -711,7 +781,7 @@
             "negative"
         ]
     },
-    "91": {
+    "89": {
         "pred_terms": [
             "openoffice"
         ],
@@ -719,11 +789,33 @@
             "positive"
         ]
     },
+    "90": {
+        "pred_terms": [
+            "battery life",
+            "ux",
+            "awesome form factor"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "91": {
+        "pred_terms": [
+            "screen",
+            "keyboard"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
     "92": {
         "pred_terms": [
-            "ux",
-            "form factor",
-            "battery life"
+            "device",
+            "touchpad",
+            "pad"
         ],
         "pred_polarities": [
             "positive",
@@ -733,39 +825,17 @@
     },
     "93": {
         "pred_terms": [
-            "keyboard",
-            "screen"
+            "computer"
         ],
         "pred_polarities": [
-            "positive",
             "positive"
         ]
     },
     "94": {
-        "pred_terms": [
-            "touchpad",
-            "device"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative"
-        ]
-    },
-    "95": {
-        "pred_terms": [
-            "computer",
-            "mavericks"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive"
-        ]
-    },
-    "96": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "97": {
+    "95": {
         "pred_terms": [
             "service",
             "shipping"
@@ -775,19 +845,33 @@
             "positive"
         ]
     },
-    "98": {
+    "96": {
         "pred_terms": [
             "performance",
-            "built-in applications"
+            "applications",
+            "camera"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive"
         ]
     },
+    "97": {
+        "pred_terms": [
+            "830 ssd"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "98": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
     "99": {
         "pred_terms": [
-            "samsung 830 ssd"
+            "aluminum"
         ],
         "pred_polarities": [
             "positive"
@@ -799,43 +883,31 @@
     },
     "101": {
         "pred_terms": [
-            "aluminum"
+            "retina display"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
     "102": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "mac book",
+            "components"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
     },
     "103": {
         "pred_terms": [
-            "retina display"
+            "hardware"
         ],
         "pred_polarities": [
             "negative"
         ]
     },
     "104": {
-        "pred_terms": [
-            "mac book",
-            "components"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative"
-        ]
-    },
-    "105": {
-        "pred_terms": [
-            "hardware problems"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "106": {
         "pred_terms": [
             "battery",
             "machine",
@@ -847,25 +919,29 @@
             "positive"
         ]
     },
+    "105": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "106": {
+        "pred_terms": [
+            "features"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
     "107": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "108": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "109": {
         "pred_terms": [
             "laptop",
             "macbook"
         ],
         "pred_polarities": [
-            "negative",
+            "positive",
             "positive"
         ]
     },
-    "110": {
+    "108": {
         "pred_terms": [
             "keyboard"
         ],
@@ -873,31 +949,33 @@
             "negative"
         ]
     },
-    "111": {
+    "109": {
         "pred_terms": [
             "sound quality"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "112": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "113": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "114": {
-        "pred_terms": [
-            "performance"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
-    "115": {
+    "110": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "111": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "112": {
+        "pred_terms": [
+            "performance",
+            "quality"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "113": {
         "pred_terms": [
             "windows vista"
         ],
@@ -905,15 +983,11 @@
             "positive"
         ]
     },
-    "116": {
-        "pred_terms": [
-            "ssd drive"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+    "114": {
+        "pred_terms": [],
+        "pred_polarities": []
     },
-    "117": {
+    "115": {
         "pred_terms": [
             "itune"
         ],
@@ -921,7 +995,7 @@
             "negative"
         ]
     },
-    "118": {
+    "116": {
         "pred_terms": [
             "pc user"
         ],
@@ -929,33 +1003,39 @@
             "positive"
         ]
     },
-    "119": {
+    "117": {
         "pred_terms": [
+            "cables",
             "mac",
-            "charging cables",
-            "disks",
-            "pc's"
+            "material",
+            "pc's",
+            "iphone",
+            "iphone/ipod"
         ],
         "pred_polarities": [
-            "negative",
             "positive",
             "negative",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "118": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "119": {
+        "pred_terms": [
+            "external mics",
+            "imac"
+        ],
+        "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "120": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "121": {
-        "pred_terms": [
-            "external mics"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "122": {
         "pred_terms": [
             "new os"
         ],
@@ -963,11 +1043,11 @@
             "positive"
         ]
     },
-    "124": {
+    "121": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "125": {
+    "122": {
         "pred_terms": [
             "system"
         ],
@@ -975,7 +1055,7 @@
             "positive"
         ]
     },
-    "126": {
+    "123": {
         "pred_terms": [
             "setting",
             "bookmarks"
@@ -985,11 +1065,11 @@
             "positive"
         ]
     },
-    "127": {
+    "124": {
         "pred_terms": [
             "mac mini",
-            "keyboard / mouse",
-            "hdmi cable"
+            "cable",
+            "keyboard / mouse"
         ],
         "pred_polarities": [
             "positive",
@@ -997,7 +1077,7 @@
             "positive"
         ]
     },
-    "128": {
+    "125": {
         "pred_terms": [
             "price",
             "features"
@@ -1007,57 +1087,57 @@
             "positive"
         ]
     },
-    "129": {
+    "126": {
         "pred_terms": [
-            "buddy",
-            "coder"
+            "coder",
+            "buddy"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
-    "130": {
+    "127": {
         "pred_terms": [
-            "operating system"
+            "operating system",
+            "computer",
+            "super ipad"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "128": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "129": {
+        "pred_terms": [
+            "drive"
         ],
         "pred_polarities": [
             "positive"
         ]
+    },
+    "130": {
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "131": {
         "pred_terms": [],
         "pred_polarities": []
     },
     "132": {
-        "pred_terms": [
-            "hard drive"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "133": {
-        "pred_terms": [
-            "mac"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "134": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "135": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "136": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "137": {
         "pred_terms": [
             "software"
         ],
@@ -1065,11 +1145,19 @@
             "positive"
         ]
     },
-    "138": {
-        "pred_terms": [],
-        "pred_polarities": []
+    "135": {
+        "pred_terms": [
+            "computer",
+            "gaming",
+            "web browsing"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
     },
-    "139": {
+    "136": {
         "pred_terms": [
             "box"
         ],
@@ -1077,19 +1165,47 @@
             "negative"
         ]
     },
-    "140": {
+    "137": {
         "pred_terms": [
-            "computer"
+            "computer",
+            "performance"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
+        ]
+    },
+    "138": {
+        "pred_terms": [
+            "apple",
+            "help\""
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "139": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "140": {
+        "pred_terms": [
+            "harddrive",
+            "drive"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
         ]
     },
     "141": {
         "pred_terms": [
-            "apple \"help\""
+            "switch",
+            "on/off"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
@@ -1099,39 +1215,25 @@
     },
     "143": {
         "pred_terms": [
-            "harddrive"
+            "computer",
+            "integrated intel 4000 graphics",
+            "task"
         ],
         "pred_polarities": [
+            "negative",
+            "positive",
             "negative"
         ]
     },
     "144": {
         "pred_terms": [
-            "on/off switch"
+            "photo editing)"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "145": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "146": {
-        "pred_terms": [
-            "computer",
-            "intel 4000 graphics"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative"
-        ]
-    },
-    "148": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "149": {
         "pred_terms": [
             "screen"
         ],
@@ -1139,71 +1241,79 @@
             "positive"
         ]
     },
-    "150": {
+    "146": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "151": {
+    "147": {
         "pred_terms": [
+            "macs",
             "macbook page"
         ],
         "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "148": {
+        "pred_terms": [
+            "apple products"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "149": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "150": {
+        "pred_terms": [
+            "processor"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "151": {
+        "pred_terms": [
+            "computer",
+            "features"
+        ],
+        "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "152": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "153": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "154": {
         "pred_terms": [
-            "i5 processor"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "155": {
-        "pred_terms": [
-            "computer"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "156": {
-        "pred_terms": [
-            "screen",
-            "keyboard works"
+            "keyboard",
+            "screen"
         ],
         "pred_polarities": [
             "positive",
             "positive"
         ]
     },
-    "157": {
+    "153": {
         "pred_terms": [
             "delivery"
         ],
         "pred_polarities": [
-            "positive"
+            "negative"
         ]
     },
-    "158": {
+    "154": {
         "pred_terms": [
-            "ssd",
-            "ram"
+            "ram",
+            "ssd"
         ],
         "pred_polarities": [
             "positive",
             "positive"
         ]
     },
-    "159": {
+    "155": {
         "pred_terms": [
             "memory"
         ],
@@ -1211,31 +1321,31 @@
             "negative"
         ]
     },
-    "160": {
+    "156": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "161": {
+    "157": {
         "pred_terms": [
-            "keyboard",
-            "ports"
+            "ports",
+            "design",
+            "keyboard"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive"
         ]
     },
-    "162": {
+    "158": {
         "pred_terms": [
-            "service",
-            "mac"
+            "service"
         ],
         "pred_polarities": [
-            "positive",
             "positive"
         ]
     },
-    "163": {
+    "159": {
         "pred_terms": [
             "web browsing",
             "safari browser"
@@ -1245,79 +1355,95 @@
             "positive"
         ]
     },
-    "164": {
+    "160": {
         "pred_terms": [
-            "lighted screen"
+            "screen"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
-    "165": {
+    "161": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "166": {
+    "162": {
         "pred_terms": [
+            "operation",
             "restarts"
         ],
         "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "163": {
+        "pred_terms": [
+            "peripherals",
+            "usb3",
+            "thunderbolt"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "164": {
+        "pred_terms": [
+            "warranty"
+        ],
+        "pred_polarities": [
             "negative"
+        ]
+    },
+    "165": {
+        "pred_terms": [
+            "media editing"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "166": {
+        "pred_terms": [
+            "battery",
+            "user experience"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
         ]
     },
     "167": {
         "pred_terms": [
-            "usb3",
-            "peripherals",
-            "thunderbolt"
+            "shipment",
+            "price"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "168": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "performance",
+            "presentation"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
     },
     "169": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "size"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "170": {
-        "pred_terms": [
-            "battery"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "171": {
-        "pred_terms": [
-            "shipment"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "172": {
-        "pred_terms": [
-            "performance"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "173": {
-        "pred_terms": [
-            "smaller size"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "174": {
         "pred_terms": [
             "mac os"
         ],
@@ -1325,17 +1451,21 @@
             "positive"
         ]
     },
-    "175": {
+    "171": {
         "pred_terms": [
+            "programs",
             "appleworks",
-            "filemaker pro"
+            "filemaker pro",
+            "photoshop"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive",
             "positive"
         ]
     },
-    "176": {
+    "172": {
         "pred_terms": [
             "operating system"
         ],
@@ -1343,35 +1473,27 @@
             "positive"
         ]
     },
-    "177": {
-        "pred_terms": [
-            "form factor"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "178": {
-        "pred_terms": [
-            "internet"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "179": {
+    "173": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "180": {
+    "174": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "175": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "176": {
         "pred_terms": [
             "microsoft"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
-    "181": {
+    "177": {
         "pred_terms": [
             "keyboard",
             "build",
@@ -1383,15 +1505,19 @@
             "positive"
         ]
     },
-    "182": {
+    "178": {
         "pred_terms": [
+            "construction",
+            "mac",
             "system"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
-    "183": {
+    "179": {
         "pred_terms": [
             "unibody construction"
         ],
@@ -1399,7 +1525,7 @@
             "positive"
         ]
     },
-    "184": {
+    "180": {
         "pred_terms": [
             "macbook pro"
         ],
@@ -1407,7 +1533,7 @@
             "positive"
         ]
     },
-    "185": {
+    "181": {
         "pred_terms": [
             "disk drive"
         ],
@@ -1415,49 +1541,65 @@
             "negative"
         ]
     },
-    "186": {
+    "182": {
         "pred_terms": [
-            "sd card slot",
-            "hdmi receptacle"
+            "receptacle",
+            "slot",
+            "acle"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
+            "negative"
+        ]
+    },
+    "183": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "184": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "185": {
+        "pred_terms": [
+            "trackpad",
+            "pad"
         ],
         "pred_polarities": [
             "negative",
             "negative"
         ]
     },
+    "186": {
+        "pred_terms": [
+            "finish"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
     "187": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "product",
+            "price"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
     },
     "188": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "system",
+            "power-off"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
     },
     "189": {
-        "pred_terms": [
-            "trackpad"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "190": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "191": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "192": {
-        "pred_terms": [
-            "system"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "193": {
         "pred_terms": [
             "configuration"
         ],
@@ -1465,7 +1607,7 @@
             "positive"
         ]
     },
-    "194": {
+    "190": {
         "pred_terms": [
             "speakers"
         ],
@@ -1473,25 +1615,27 @@
             "positive"
         ]
     },
-    "195": {
+    "191": {
         "pred_terms": [
             "looks",
-            "trackpad!."
+            "trackpad"
         ],
         "pred_polarities": [
             "positive",
             "positive"
         ]
     },
-    "196": {
+    "192": {
         "pred_terms": [
-            "web surfuring"
+            "web surfuring",
+            "ing"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
-    "197": {
+    "193": {
         "pred_terms": [
             "product",
             "interface"
@@ -1501,31 +1645,87 @@
             "positive"
         ]
     },
+    "194": {
+        "pred_terms": [
+            "item",
+            "piece"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "195": {
+        "pred_terms": [
+            "hardware"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "196": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "197": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
     "198": {
         "pred_terms": [
-            "item"
+            "exterior"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
     "199": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "performance"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
     "200": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "apple",
+            "design",
+            "stock",
+            "le",
+            "intel 4000 graphics chipset"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
     },
     "201": {
-        "pred_terms": [],
-        "pred_polarities": []
+        "pred_terms": [
+            "mountain lion",
+            "mavericks"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
     },
     "202": {
         "pred_terms": [
-            "exterior"
+            "apple",
+            "le",
+            "macbook pro",
+            "usb ports",
+            "13\" model"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
             "positive"
         ]
     },
@@ -1534,50 +1734,10 @@
         "pred_polarities": []
     },
     "204": {
-        "pred_terms": [
-            "apple",
-            "intel 4000 graphics chipset"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative"
-        ]
-    },
-    "205": {
-        "pred_terms": [
-            "mountain lion"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "206": {
-        "pred_terms": [
-            "apple",
-            "macbook pro",
-            "13\" model",
-            "usb ports"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
-            "negative"
-        ]
-    },
-    "207": {
-        "pred_terms": [
-            "lid"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "208": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "209": {
+    "205": {
         "pred_terms": [
             "customer service"
         ],
@@ -1585,7 +1745,7 @@
             "positive"
         ]
     },
-    "210": {
+    "206": {
         "pred_terms": [
             "asus",
             "laptop",
@@ -1593,39 +1753,43 @@
         ],
         "pred_polarities": [
             "negative",
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
-    "211": {
+    "207": {
         "pred_terms": [
             "hardware",
+            "scratches",
             "battery cycle count"
         ],
         "pred_polarities": [
+            "positive",
             "negative",
             "negative"
         ]
     },
-    "212": {
+    "208": {
         "pred_terms": [
+            "forums",
             "os"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
-    "213": {
+    "209": {
         "pred_terms": [
             "mouse",
-            "finger swipes"
+            "finger swipes --"
         ],
         "pred_polarities": [
             "negative",
             "negative"
         ]
     },
-    "214": {
+    "210": {
         "pred_terms": [
             "screen",
             "storage",
@@ -1633,41 +1797,51 @@
             "photoshop"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
-            "negative"
+            "positive",
+            "positive",
+            "positive",
+            "positive"
         ]
     },
-    "215": {
+    "211": {
         "pred_terms": [
-            "laptop"
+            "laptop",
+            "top",
+            "speaker quality"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
-    "216": {
+    "212": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "217": {
+    "213": {
         "pred_terms": [
-            "thunderbolt port"
+            "port",
+            "thunderbolt",
+            "thunderbol"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
-    "218": {
+    "214": {
         "pred_terms": [
-            "performance"
+            "performance",
+            "computer"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
-    "219": {
+    "215": {
         "pred_terms": [
             "streaming video"
         ],
@@ -1675,47 +1849,53 @@
             "positive"
         ]
     },
+    "216": {
+        "pred_terms": [
+            "design",
+            "features"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "217": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "218": {
+        "pred_terms": [
+            "variables",
+            "apple tech support",
+            "variables(which is my purpose of writing this con)"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "219": {
+        "pred_terms": [
+            "spec of the new 27\" imacs"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
     "220": {
         "pred_terms": [
-            "design"
+            "computer user"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
     "221": {
-        "pred_terms": [
-            "mac office"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "222": {
-        "pred_terms": [
-            "apple tech support"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "223": {
-        "pred_terms": [
-            "spec of the new 27\" imacs"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "224": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "225": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "226": {
         "pred_terms": [
             "office",
             "laptop",
@@ -1723,19 +1903,21 @@
         ],
         "pred_polarities": [
             "negative",
+            "positive",
+            "positive"
+        ]
+    },
+    "223": {
+        "pred_terms": [
+            "retina",
+            "one"
+        ],
+        "pred_polarities": [
             "negative",
             "negative"
         ]
     },
-    "227": {
-        "pred_terms": [
-            "retina display.. ."
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "228": {
+    "224": {
         "pred_terms": [
             "performance"
         ],
@@ -1743,63 +1925,79 @@
             "positive"
         ]
     },
-    "229": {
+    "225": {
         "pred_terms": [
-            "magsafe accessories"
+            "accessories",
+            "ries",
+            "magsafe"
         ],
         "pred_polarities": [
-            "negative"
+            "negative",
+            "negative",
+            "positive"
         ]
     },
-    "230": {
+    "226": {
         "pred_terms": [
-            "touchpad"
+            "touchpad",
+            "mouse",
+            "pad"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
-    "231": {
+    "227": {
         "pred_terms": [
             "mac mini",
-            "fans"
+            "fans",
+            "computer"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "228": {
+        "pred_terms": [
+            "product",
+            "mac os improvement"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "229": {
+        "pred_terms": [
+            "transition",
+            "mac ecosystem"
         ],
         "pred_polarities": [
             "positive",
             "positive"
         ]
     },
-    "232": {
-        "pred_terms": [
-            "mac os improvement"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "233": {
-        "pred_terms": [
-            "transition",
-            "new mac ecosystem"
-        ],
-        "pred_polarities": [
-            "negative",
-            "positive"
-        ]
-    },
-    "234": {
+    "230": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "235": {
+    "231": {
         "pred_terms": [
-            "products"
+            "products",
+            "box",
+            "functionality"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
-    "236": {
+    "232": {
         "pred_terms": [
             "graphic design classes"
         ],
@@ -1807,7 +2005,7 @@
             "positive"
         ]
     },
-    "237": {
+    "233": {
         "pred_terms": [
             "slot"
         ],
@@ -1815,7 +2013,7 @@
             "negative"
         ]
     },
-    "238": {
+    "234": {
         "pred_terms": [
             "os"
         ],
@@ -1823,23 +2021,51 @@
             "positive"
         ]
     },
-    "239": {
+    "235": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "240": {
+    "236": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "241": {
+    "237": {
         "pred_terms": [
-            "vlog",
             "transmissions",
-            "built-in camera"
+            "camera",
+            "vlog"
         ],
         "pred_polarities": [
             "positive",
             "positive",
+            "positive"
+        ]
+    },
+    "238": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "239": {
+        "pred_terms": [
+            "apple device"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "240": {
+        "pred_terms": [
+            "mac"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "241": {
+        "pred_terms": [
+            "graphics"
+        ],
+        "pred_polarities": [
             "positive"
         ]
     },
@@ -1848,56 +2074,32 @@
         "pred_polarities": []
     },
     "243": {
-        "pred_terms": [
-            "apple device"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "244": {
         "pred_terms": [
-            "mac"
+            "laptop",
+            "tablet",
+            "portability",
+            "top"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "245": {
         "pred_terms": [
-            "graphics"
+            "tutorials"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
     "246": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "247": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "248": {
-        "pred_terms": [
-            "laptop",
-            "tablet"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative"
-        ]
-    },
-    "249": {
-        "pred_terms": [
-            "mac tutorials"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "250": {
         "pred_terms": [
             "technical support"
         ],
@@ -1905,41 +2107,35 @@
             "negative"
         ]
     },
-    "251": {
+    "247": {
         "pred_terms": [
             "adapter"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "248": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "249": {
+        "pred_terms": [
+            "garage band"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "250": {
+        "pred_terms": [
+            "logic board"
         ],
         "pred_polarities": [
             "negative"
         ]
     },
-    "252": {
-        "pred_terms": [
-            "support"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "253": {
-        "pred_terms": [
-            "garage band",
-            "iphoto"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive"
-        ]
-    },
-    "254": {
-        "pred_terms": [
-            "logic board"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "255": {
+    "251": {
         "pred_terms": [
             "sound",
             "volume"
@@ -1949,17 +2145,61 @@
             "positive"
         ]
     },
-    "256": {
+    "252": {
         "pred_terms": [
-            "osx lion"
+            "osx lion",
+            "performer"
         ],
         "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "253": {
+        "pred_terms": [
+            "product",
+            "application"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "254": {
+        "pred_terms": [
+            "physical form",
+            "macbook"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "255": {
+        "pred_terms": [
+            "body",
+            "mini",
+            "mini's"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "256": {
+        "pred_terms": [
+            "construction",
+            "laptops"
+        ],
+        "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "257": {
         "pred_terms": [
-            "mac product"
+            "rendering"
         ],
         "pred_polarities": [
             "negative"
@@ -1967,8 +2207,8 @@
     },
     "258": {
         "pred_terms": [
-            "form",
-            "macbook pro"
+            "mountain lion",
+            "mac mini"
         ],
         "pred_polarities": [
             "positive",
@@ -1977,57 +2217,29 @@
     },
     "259": {
         "pred_terms": [
-            "mini's body"
+            "screen",
+            "apps",
+            "laptop",
+            "amazon",
+            "off coupon",
+            "apple website;amazon",
+            "tax- 1070- otd"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "260": {
-        "pred_terms": [
-            "unibody construction",
-            "apple's previous laptops"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive"
-        ]
-    },
-    "261": {
-        "pred_terms": [
-            "3d rendering"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "262": {
-        "pred_terms": [
-            "mac mini",
-            "os x mountain lion"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive"
-        ]
-    },
-    "263": {
-        "pred_terms": [
-            "screen",
-            "apps",
-            "laptop"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive"
-        ]
-    },
-    "264": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "265": {
+    "261": {
         "pred_terms": [
             "ports"
         ],
@@ -2035,19 +2247,61 @@
             "positive"
         ]
     },
-    "266": {
+    "262": {
         "pred_terms": [
+            "mini",
             "mouse",
+            "imac",
+            "package",
             "graphic card",
-            "apple keyboard",
+            "keyboard",
+            "condition",
+            "radeon",
             "ghz cpu",
-            "radeon hd",
-            "imac mc309ll/a"
+            "mc309ll/a"
         ],
         "pred_polarities": [
             "positive",
             "positive",
             "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "263": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "264": {
+        "pred_terms": [
+            "gestures"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "265": {
+        "pred_terms": [
+            "cable",
+            "mac"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "266": {
+        "pred_terms": [
+            "chip",
+            "2.9ghz",
+            "dual-core"
+        ],
+        "pred_polarities": [
             "positive",
             "positive",
             "positive"
@@ -2058,44 +2312,10 @@
         "pred_polarities": []
     },
     "268": {
-        "pred_terms": [
-            "gestures"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "269": {
-        "pred_terms": [
-            "cable",
-            "mac"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive"
-        ]
-    },
-    "270": {
-        "pred_terms": [
-            "dual-core i7 chip"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "271": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "273": {
-        "pred_terms": [
-            "windows 8"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "274": {
+    "269": {
         "pred_terms": [
             "cd drive"
         ],
@@ -2103,43 +2323,55 @@
             "negative"
         ]
     },
-    "275": {
+    "270": {
         "pred_terms": [
-            "netbook"
+            "netbook",
+            "book",
+            "drive",
+            "network lights"
         ],
         "pred_polarities": [
-            "negative"
-        ]
-    },
-    "276": {
-        "pred_terms": [
-            "macbook pro 13\""
-        ],
-        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
             "positive"
         ]
     },
-    "277": {
+    "271": {
         "pred_terms": [
-            "storage"
+            "macbook air",
+            "baseline models"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
-    "278": {
+    "272": {
         "pred_terms": [
-            "audio volume"
+            "storage",
+            "ports"
         ],
         "pred_polarities": [
-            "negative"
+            "negative",
+            "positive"
         ]
     },
-    "279": {
+    "273": {
+        "pred_terms": [
+            "audio volume",
+            "room"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "274": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "280": {
+    "275": {
         "pred_terms": [
             "windows 8"
         ],
@@ -2147,17 +2379,71 @@
             "positive"
         ]
     },
-    "281": {
+    "276": {
         "pred_terms": [
-            "mbp"
+            "mbp",
+            "p"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "277": {
+        "pred_terms": [
+            "settings"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
-    "282": {
+    "278": {
         "pred_terms": [],
         "pred_polarities": []
+    },
+    "279": {
+        "pred_terms": [
+            "windows updates",
+            "boot-up"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "280": {
+        "pred_terms": [
+            "logic board"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "281": {
+        "pred_terms": [
+            "graphic design",
+            "word processing",
+            "gaming"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "282": {
+        "pred_terms": [
+            "mini mac",
+            "features",
+            "tutorial",
+            "mouse click menu"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
     },
     "283": {
         "pred_terms": [],
@@ -2165,64 +2451,104 @@
     },
     "284": {
         "pred_terms": [
-            "boot-up",
-            "windows updates"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative"
-        ]
-    },
-    "285": {
-        "pred_terms": [
-            "logic board"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "286": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "287": {
-        "pred_terms": [
-            "mini mac",
-            "mouse click menu"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive"
-        ]
-    },
-    "288": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "289": {
-        "pred_terms": [
             "ram memory"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
-    "290": {
+    "285": {
         "pred_terms": [
-            "slim profile"
+            "profile",
+            "machine",
+            "machine's"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "286": {
+        "pred_terms": [
+            "printers",
+            "disk drive",
+            "wifi capability",
+            "scale",
+            "usb ports"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "287": {
+        "pred_terms": [
+            "slot",
+            "sd card reader"
+        ],
+        "pred_polarities": [
+            "negative",
             "negative"
+        ]
+    },
+    "288": {
+        "pred_terms": [
+            "aluminum",
+            "touch",
+            "flaws",
+            "laser cut precision"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "negative",
+            "positive"
+        ]
+    },
+    "289": {
+        "pred_terms": [
+            "laptop",
+            "glass",
+            "aluminium",
+            "details",
+            "laptops",
+            "plastic ridden",
+            "sticker"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "290": {
+        "pred_terms": [
+            "aluminum"
+        ],
+        "pred_polarities": [
+            "positive"
         ]
     },
     "291": {
         "pred_terms": [
-            "disk drive",
-            "wifi capability",
-            "usb ports",
-            "scale and printers"
+            "kit",
+            "savings",
+            "hybrid drives",
+            "ram",
+            "hard drive",
+            "seagate momentus"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive",
             "positive",
             "positive",
@@ -2231,43 +2557,45 @@
     },
     "292": {
         "pred_terms": [
-            "sd card reader",
-            "slot"
+            "dell inspiron",
+            "pad",
+            "keyboard",
+            "n",
+            "apple laptops"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
-        ]
-    },
-    "293": {
-        "pred_terms": [
-            "touch",
-            "aluminum",
-            "laser cut precision"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative",
-            "negative"
-        ]
-    },
-    "294": {
-        "pred_terms": [
-            "laptop",
-            "glass",
-            "aluminium",
-            "laptops"
-        ],
-        "pred_polarities": [
+            "positive",
             "positive",
             "positive",
             "positive",
             "positive"
         ]
     },
+    "293": {
+        "pred_terms": [
+            "machine",
+            "downgrade",
+            "regular hard drive"
+        ],
+        "pred_polarities": [
+            "positive",
+            "negative",
+            "negative"
+        ]
+    },
+    "294": {
+        "pred_terms": [
+            "cd slot",
+            "one"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
     "295": {
         "pred_terms": [
-            "aluminum"
+            "port"
         ],
         "pred_polarities": [
             "positive"
@@ -2275,18 +2603,16 @@
     },
     "296": {
         "pred_terms": [
-            "ram",
-            "seagate momentus"
+            "mountain lion"
         ],
         "pred_polarities": [
-            "positive",
             "positive"
         ]
     },
     "297": {
         "pred_terms": [
-            "dell inspiron",
-            "keyboard"
+            "mac",
+            "customization"
         ],
         "pred_polarities": [
             "positive",
@@ -2295,59 +2621,71 @@
     },
     "298": {
         "pred_terms": [
-            "machine",
-            "regular hard drive"
+            "hd",
+            "micron ssd"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "299": {
         "pred_terms": [
-            "cd slot"
+            "click button",
+            "clicking"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "300": {
         "pred_terms": [
-            "port"
+            "superdrive",
+            "drive"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
     "301": {
         "pred_terms": [
-            "mountain lion"
+            "power plug",
+            "battery",
+            "adaptor",
+            "g",
+            "ptor"
         ],
         "pred_polarities": [
+            "positive",
+            "negative",
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "302": {
         "pred_terms": [
-            "mac"
+            "battery",
+            "lump"
         ],
         "pred_polarities": [
-            "negative"
+            "negative",
+            "positive"
         ]
     },
     "303": {
         "pred_terms": [
-            "hd",
-            "micron ssd"
+            "laptop"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive"
         ]
     },
     "304": {
         "pred_terms": [
-            "right click button"
+            "os"
         ],
         "pred_polarities": [
             "positive"
@@ -2355,85 +2693,53 @@
     },
     "305": {
         "pred_terms": [
-            "superdrive"
+            "monitors",
+            "monitor",
+            "hdmi cables"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
     "306": {
         "pred_terms": [
-            "power plug"
+            "price",
+            "cons"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
     "307": {
         "pred_terms": [
-            "battery"
+            "troubleshooting",
+            "ac adaptor",
+            "ng",
+            "troubleshooti"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "negative",
+            "negative",
+            "positive"
         ]
     },
     "308": {
-        "pred_terms": [
-            "laptop"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "309": {
-        "pred_terms": [
-            "os"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "310": {
-        "pred_terms": [
-            "monitors",
-            "hdmi cables"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative"
-        ]
-    },
-    "311": {
-        "pred_terms": [
-            "cons: price"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "312": {
-        "pred_terms": [
-            "troubleshooting",
-            "ac adaptor"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative"
-        ]
-    },
-    "313": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "314": {
+    "309": {
         "pred_terms": [
-            "usb 2 ports"
+            "ports"
         ],
         "pred_polarities": [
             "negative"
         ]
     },
-    "315": {
+    "310": {
         "pred_terms": [
             "startup disk"
         ],
@@ -2441,7 +2747,7 @@
             "negative"
         ]
     },
-    "316": {
+    "311": {
         "pred_terms": [
             "menu"
         ],
@@ -2449,31 +2755,33 @@
             "negative"
         ]
     },
-    "317": {
+    "312": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "318": {
+    "313": {
         "pred_terms": [
             "power switch",
-            "cd/dvd drive"
+            "drive",
+            "cd/dvd"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive"
         ]
     },
-    "319": {
+    "314": {
         "pred_terms": [
-            "windows 7",
-            "laptop"
+            "laptop",
+            "windows 7"
         ],
         "pred_polarities": [
             "negative",
             "negative"
         ]
     },
-    "320": {
+    "315": {
         "pred_terms": [
             "adsl cable or wifi"
         ],
@@ -2481,7 +2789,7 @@
             "positive"
         ]
     },
-    "322": {
+    "316": {
         "pred_terms": [
             "packing"
         ],
@@ -2489,7 +2797,7 @@
             "positive"
         ]
     },
-    "323": {
+    "317": {
         "pred_terms": [
             "windows"
         ],
@@ -2497,15 +2805,17 @@
             "negative"
         ]
     },
-    "324": {
+    "318": {
         "pred_terms": [
-            "apple"
+            "apple",
+            "le"
         ],
         "pred_polarities": [
+            "negative",
             "negative"
         ]
     },
-    "325": {
+    "319": {
         "pred_terms": [
             "windows 7"
         ],
@@ -2513,25 +2823,81 @@
             "positive"
         ]
     },
-    "326": {
-        "pred_terms": [
-            "mac system"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "327": {
+    "320": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "328": {
+    "321": {
         "pred_terms": [
-            "software",
-            "os"
+            "windows",
+            "computers"
         ],
         "pred_polarities": [
             "positive",
+            "positive"
+        ]
+    },
+    "322": {
+        "pred_terms": [
+            "software"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "323": {
+        "pred_terms": [
+            "as"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "324": {
+        "pred_terms": [
+            "champ"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "325": {
+        "pred_terms": [
+            "os",
+            "price"
+        ],
+        "pred_polarities": [
+            "negative",
+            "positive"
+        ]
+    },
+    "326": {
+        "pred_terms": [
+            "touch pad"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "327": {
+        "pred_terms": [
+            "sound",
+            "headphones"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative"
+        ]
+    },
+    "328": {
+        "pred_terms": [
+            "application",
+            "os",
+            "experience"
+        ],
+        "pred_polarities": [
+            "negative",
+            "negative",
             "positive"
         ]
     },
@@ -2541,75 +2907,37 @@
     },
     "330": {
         "pred_terms": [
-            "champ..."
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "331": {
-        "pred_terms": [
-            "os"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "332": {
-        "pred_terms": [
-            "touch pad"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "334": {
-        "pred_terms": [
-            "sound"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
-    },
-    "336": {
-        "pred_terms": [
-            "os",
-            "application"
+            "battery",
+            "product"
         ],
         "pred_polarities": [
             "negative",
             "negative"
         ]
     },
-    "337": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "338": {
+    "331": {
         "pred_terms": [
-            "battery"
+            "shipping",
+            "product"
         ],
         "pred_polarities": [
-            "negative"
-        ]
-    },
-    "340": {
-        "pred_terms": [
-            "shipping"
-        ],
-        "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
-    "341": {
+    "332": {
         "pred_terms": [
-            "retina display display"
+            "retina display display",
+            "reti",
+            "jaw dropping"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
-    "342": {
+    "333": {
         "pred_terms": [
             "mac mini"
         ],
@@ -2617,7 +2945,7 @@
             "positive"
         ]
     },
-    "343": {
+    "334": {
         "pred_terms": [
             "hardware"
         ],
@@ -2625,13 +2953,13 @@
             "positive"
         ]
     },
-    "344": {
+    "335": {
         "pred_terms": [
             "ports",
             "firewire 800",
-            "magsafe port",
-            "microphone jack",
-            "ethernet"
+            "port",
+            "ethernet",
+            "microphone jack"
         ],
         "pred_polarities": [
             "positive",
@@ -2641,31 +2969,37 @@
             "positive"
         ]
     },
-    "345": {
+    "336": {
         "pred_terms": [
+            "laptop",
             "ventilation system",
-            "laptop"
+            "activity of watching videos"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
-    "346": {
+    "337": {
         "pred_terms": [
             "acer support",
             "operating system files"
         ],
         "pred_polarities": [
-            "negative",
+            "positive",
             "negative"
         ]
     },
-    "347": {
-        "pred_terms": [],
-        "pred_polarities": []
+    "338": {
+        "pred_terms": [
+            "keys"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
-    "348": {
+    "339": {
         "pred_terms": [
             "apple",
             "asap",
@@ -2677,17 +3011,15 @@
             "positive"
         ]
     },
-    "349": {
+    "340": {
         "pred_terms": [
-            "lion",
-            "mac os"
+            "mac os and have just bought an imac for office"
         ],
         "pred_polarities": [
-            "positive",
             "positive"
         ]
     },
-    "350": {
+    "341": {
         "pred_terms": [
             "ram",
             "hdd"
@@ -2697,17 +3029,17 @@
             "positive"
         ]
     },
-    "351": {
+    "342": {
         "pred_terms": [
             "pro",
             "cd/dvd player"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
-    "353": {
+    "343": {
         "pred_terms": [
             "windows"
         ],
@@ -2715,41 +3047,51 @@
             "positive"
         ]
     },
-    "354": {
+    "344": {
         "pred_terms": [
-            "softwares"
+            "softwares",
+            "software",
+            "s"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
-    "355": {
+    "345": {
         "pred_terms": [
-            "mountain lion\""
+            "mountain lion\"",
+            "mac os x 10.8"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
-    "356": {
+    "346": {
         "pred_terms": [
+            "performance",
+            "one",
             "air"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
             "positive"
         ]
     },
-    "357": {
+    "347": {
         "pred_terms": [
             "office",
-            "24\" lcd screen"
+            "screen"
         ],
         "pred_polarities": [
             "negative",
             "negative"
         ]
     },
-    "358": {
+    "348": {
         "pred_terms": [
             "software",
             "cd",
@@ -2761,27 +3103,29 @@
             "negative"
         ]
     },
-    "359": {
+    "349": {
         "pred_terms": [
-            "laptop",
-            "word processing program"
+            "program",
+            "laptop"
         ],
         "pred_polarities": [
             "positive",
             "positive"
         ]
     },
-    "360": {
+    "350": {
         "pred_terms": [
             "cpu",
-            "macbook pro"
+            "macbook pro",
+            "bridge\")"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
-    "361": {
+    "351": {
         "pred_terms": [
             "cd rom"
         ],
@@ -2789,87 +3133,103 @@
             "negative"
         ]
     },
-    "362": {
+    "352": {
         "pred_terms": [
-            "volume"
+            "volume",
+            "laptopwas",
+            "computer"
         ],
         "pred_polarities": [
+            "negative",
+            "negative",
             "negative"
         ]
     },
-    "363": {
+    "353": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "364": {
+    "354": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "365": {
+    "355": {
         "pred_terms": [
             "process"
         ],
         "pred_polarities": [
-            "negative"
-        ]
-    },
-    "366": {
-        "pred_terms": [
-            "screen"
-        ],
-        "pred_polarities": [
             "positive"
         ]
     },
-    "367": {
+    "356": {
         "pred_terms": [
-            "power supply",
-            "case"
+            "set up",
+            "screen",
+            "ssd"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
-    "368": {
+    "357": {
+        "pred_terms": [
+            "case",
+            "power supply"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "358": {
         "pred_terms": [
             "wireless mouse",
-            "pad"
+            "pad",
+            "board"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
-    "369": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "370": {
+    "359": {
         "pred_terms": [
-            "vga port",
-            "usb ports",
-            "ethernet",
-            "hdmi"
+            "mac"
         ],
         "pred_polarities": [
+            "positive"
+        ]
+    },
+    "360": {
+        "pred_terms": [
+            "features",
+            "port",
+            "hdmi",
+            "ports",
+            "ethernet"
+        ],
+        "pred_polarities": [
+            "positive",
             "positive",
             "positive",
             "positive",
             "positive"
         ]
     },
-    "371": {
+    "361": {
         "pred_terms": [
             "rubber pads",
             "laptop"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
-    "372": {
+    "362": {
         "pred_terms": [
             "computer"
         ],
@@ -2877,7 +3237,7 @@
             "positive"
         ]
     },
-    "374": {
+    "363": {
         "pred_terms": [
             "part",
             "operation",
@@ -2889,7 +3249,7 @@
             "positive"
         ]
     },
-    "375": {
+    "364": {
         "pred_terms": [
             "ram",
             "model"
@@ -2899,7 +3259,7 @@
             "positive"
         ]
     },
-    "376": {
+    "365": {
         "pred_terms": [
             "price"
         ],
@@ -2907,7 +3267,7 @@
             "positive"
         ]
     },
-    "377": {
+    "366": {
         "pred_terms": [
             "mac mini",
             "mic",
@@ -2919,45 +3279,59 @@
             "negative"
         ]
     },
-    "378": {
+    "367": {
         "pred_terms": [
+            "features",
+            "shortcuts",
+            "cuts",
             "mbp"
         ],
         "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
             "negative"
         ]
     },
-    "379": {
+    "368": {
         "pred_terms": [
-            "ios system"
+            "system"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
-    "380": {
+    "369": {
         "pred_terms": [
             "air",
             "fonts"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
-        ]
-    },
-    "381": {
-        "pred_terms": [
-            "mac"
-        ],
-        "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
-    "382": {
-        "pred_terms": [],
-        "pred_polarities": []
+    "370": {
+        "pred_terms": [
+            "mac",
+            "features"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
     },
-    "383": {
+    "371": {
+        "pred_terms": [
+            "brightness",
+            "adjustments"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "372": {
         "pred_terms": [
             "mac",
             "cd/dvd player"
@@ -2967,15 +3341,17 @@
             "positive"
         ]
     },
-    "384": {
+    "373": {
         "pred_terms": [
-            "alienware laptop"
+            "laptop",
+            "backlit keys"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
-    "385": {
+    "374": {
         "pred_terms": [
             "home/end\" type keys"
         ],
@@ -2983,48 +3359,56 @@
             "positive"
         ]
     },
-    "386": {
+    "375": {
         "pred_terms": [
-            "microsoft word"
+            "purchase"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
-    "387": {
+    "376": {
         "pred_terms": [
-            "laptop"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
-    },
-    "388": {
-        "pred_terms": [
-            "speed",
-            "design. ."
+            "laptop",
+            "flexibility"
         ],
         "pred_polarities": [
             "positive",
             "positive"
         ]
     },
-    "389": {
+    "377": {
+        "pred_terms": [
+            "speed",
+            "design",
+            "pc",
+            "simplicity"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "378": {
         "pred_terms": [
             "display",
             "battery life",
-            "apps"
+            "apps",
+            "breeze"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive",
             "positive"
         ]
     },
-    "390": {
+    "379": {
         "pred_terms": [
-            "screen",
             "software",
+            "screen",
             "operating system"
         ],
         "pred_polarities": [
@@ -3033,35 +3417,35 @@
             "positive"
         ]
     },
-    "391": {
+    "380": {
         "pred_terms": [
-            "slim plastic case"
+            "case"
         ],
         "pred_polarities": [
             "negative"
         ]
     },
-    "392": {
+    "381": {
         "pred_terms": [
-            "recovery usb stick"
+            "usb stick"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
-    "393": {
+    "382": {
         "pred_terms": [
             "sound",
             "bass",
             "laptop"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
-            "negative"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
-    "394": {
+    "383": {
         "pred_terms": [
             "built quality",
             "product"
@@ -3071,41 +3455,43 @@
             "positive"
         ]
     },
-    "395": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "396": {
+    "384": {
         "pred_terms": [
-            "range",
-            "mac mini",
-            "bluetooth interface"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative",
-            "negative"
-        ]
-    },
-    "397": {
-        "pred_terms": [
-            "start menu"
+            "performance"
         ],
         "pred_polarities": [
             "positive"
         ]
     },
-    "398": {
+    "385": {
         "pred_terms": [
-            "gripe",
-            "ram"
+            "range",
+            "mac mini",
+            "interface"
         ],
         "pred_polarities": [
-            "negative",
+            "positive",
+            "positive",
+            "positive"
+        ]
+    },
+    "386": {
+        "pred_terms": [
+            "menu"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "387": {
+        "pred_terms": [
+            "gripe"
+        ],
+        "pred_polarities": [
             "negative"
         ]
     },
-    "399": {
+    "388": {
         "pred_terms": [
             "touch screen"
         ],
@@ -3113,29 +3499,35 @@
             "positive"
         ]
     },
-    "400": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "401": {
+    "389": {
         "pred_terms": [
-            "lan device drivers",
-            "\"wlan\" card"
+            "photoshop"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
+    },
+    "390": {
+        "pred_terms": [
+            "lan",
+            "wlan\" card"
         ],
         "pred_polarities": [
             "positive",
             "positive"
         ]
     },
-    "402": {
+    "391": {
         "pred_terms": [
-            "computer"
+            "computer",
+            "battery life"
         ],
         "pred_polarities": [
+            "positive",
             "positive"
         ]
     },
-    "403": {
+    "392": {
         "pred_terms": [
             "os"
         ],
@@ -3143,30 +3535,32 @@
             "positive"
         ]
     },
-    "404": {
+    "393": {
         "pred_terms": [
             "customer support"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
-    "405": {
+    "394": {
         "pred_terms": [
             "feature",
-            "firewire 800"
+            "firewire 800",
+            "usb3"
         ],
         "pred_polarities": [
+            "positive",
             "positive",
             "positive"
         ]
     },
-    "406": {
+    "395": {
         "pred_terms": [
             "itunes",
-            "mini form factor",
             "security",
-            "graphics stuff"
+            "graphics stuff",
+            "mini form factor"
         ],
         "pred_polarities": [
             "positive",
@@ -3175,33 +3569,35 @@
             "positive"
         ]
     },
-    "407": {
+    "396": {
         "pred_terms": [
-            "card reader",
-            "tweezers"
+            "tweezers",
+            "card reader"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
-    "408": {
+    "397": {
         "pred_terms": [
             "mac",
-            "ssd drive",
-            "spinning hard disk"
+            "hard disk"
         ],
         "pred_polarities": [
             "negative",
-            "negative",
-            "negative"
+            "positive"
         ]
     },
-    "409": {
-        "pred_terms": [],
-        "pred_polarities": []
+    "398": {
+        "pred_terms": [
+            "patch"
+        ],
+        "pred_polarities": [
+            "positive"
+        ]
     },
-    "410": {
+    "399": {
         "pred_terms": [
             "photographer",
             "specs"
@@ -3211,37 +3607,45 @@
             "positive"
         ]
     },
-    "411": {
+    "400": {
         "pred_terms": [],
         "pred_polarities": []
     },
-    "412": {
+    "401": {
         "pred_terms": [
-            "toshiba"
+            "toshiba",
+            "hiba",
+            "a",
+            "toshib"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive",
+            "positive",
+            "positive"
         ]
     },
-    "413": {
+    "402": {
         "pred_terms": [
             "mother board",
             "graphics card"
         ],
         "pred_polarities": [
-            "negative",
-            "negative"
+            "positive",
+            "positive"
         ]
     },
-    "414": {
+    "403": {
         "pred_terms": [
-            "4g of ram"
+            "computer",
+            "ram"
         ],
         "pred_polarities": [
-            "negative"
+            "positive",
+            "positive"
         ]
     },
-    "415": {
+    "404": {
         "pred_terms": [
             "computer"
         ],
@@ -3249,51 +3653,69 @@
             "positive"
         ]
     },
-    "416": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "417": {
+    "405": {
         "pred_terms": [
-            "trackpad",
-            "functions",
-            "battery",
-            "operating system"
+            "brands",
+            "cost"
         ],
         "pred_polarities": [
+            "positive",
+            "positive"
+        ]
+    },
+    "406": {
+        "pred_terms": [
+            "trackpad",
+            "operating system",
+            "functions",
+            "mobility",
+            "pad",
+            "brand",
+            "battery"
+        ],
+        "pred_polarities": [
+            "positive",
+            "positive",
+            "positive",
             "positive",
             "positive",
             "positive",
             "positive"
         ]
     },
-    "418": {
+    "407": {
         "pred_terms": [
             "hardware",
             "imac"
         ],
         "pred_polarities": [
             "negative",
-            "positive"
+            "negative"
         ]
     },
-    "419": {
-        "pred_terms": [],
-        "pred_polarities": []
-    },
-    "420": {
+    "408": {
         "pred_terms": [
-            "disc drive"
+            "software"
         ],
         "pred_polarities": [
             "negative"
         ]
     },
-    "421": {
+    "409": {
         "pred_terms": [
-            "screen"
+            "latest version"
         ],
         "pred_polarities": [
+            "negative"
+        ]
+    },
+    "410": {
+        "pred_terms": [
+            "screen",
+            "res"
+        ],
+        "pred_polarities": [
+            "negative",
             "negative"
         ]
     }

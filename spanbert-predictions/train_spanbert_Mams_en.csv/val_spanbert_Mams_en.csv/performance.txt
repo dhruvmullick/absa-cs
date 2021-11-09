@@ -1,72 +1,72 @@
-step: 49, loss: 0.6692, P: 0.7040, R: 0.7040, F1: 0.7040 (common: 937.0, retrieved: 1331.0, relevant: 1331.0)
+step: 42, loss: 0.6539, P: 0.6927, R: 0.6927, F1: 0.6927 (common: 922.0, retrieved: 1331.0, relevant: 1331.0)
  
-step: 56, loss: 0.5689, P: 0.7137, R: 0.7137, F1: 0.7137 (common: 950.0, retrieved: 1331.0, relevant: 1331.0)
+step: 48, loss: 0.5983, P: 0.7085, R: 0.7085, F1: 0.7085 (common: 943.0, retrieved: 1331.0, relevant: 1331.0)
  
-step: 63, loss: 0.5415, P: 0.7318, R: 0.7318, F1: 0.7318 (common: 974.0, retrieved: 1331.0, relevant: 1331.0)
+step: 54, loss: 0.5951, P: 0.7213, R: 0.7213, F1: 0.7213 (common: 960.0, retrieved: 1331.0, relevant: 1331.0)
  
-step: 70, loss: 0.4529, P: 0.7393, R: 0.7393, F1: 0.7393 (common: 984.0, retrieved: 1331.0, relevant: 1331.0)
+step: 60, loss: 0.4441, P: 0.7415, R: 0.7415, F1: 0.7415 (common: 987.0, retrieved: 1331.0, relevant: 1331.0)
  
-step: 77, loss: 0.3780, P: 0.7596, R: 0.7596, F1: 0.7596 (common: 1011.0, retrieved: 1331.0, relevant: 1331.0)
+step: 66, loss: 0.3896, P: 0.7408, R: 0.7408, F1: 0.7408 (common: 986.0, retrieved: 1331.0, relevant: 1331.0)
  
-step: 84, loss: 0.3896, P: 0.7648, R: 0.7648, F1: 0.7648 (common: 1018.0, retrieved: 1331.0, relevant: 1331.0)
+step: 72, loss: 0.4278, P: 0.7325, R: 0.7325, F1: 0.7325 (common: 975.0, retrieved: 1331.0, relevant: 1331.0)
  
-step: 91, loss: 0.3609, P: 0.7596, R: 0.7596, F1: 0.7596 (common: 1011.0, retrieved: 1331.0, relevant: 1331.0)
+step: 78, loss: 0.3932, P: 0.7363, R: 0.7363, F1: 0.7363 (common: 980.0, retrieved: 1331.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.2247, R: 0.6566, F1: 0.3348 (common: 874.0, retrieved: 3890.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.2209, R: 0.6341, F1: 0.3277 (common: 844.0, retrieved: 3820.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.2282, R: 0.6559, F1: 0.3386 (common: 873.0, retrieved: 3825.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.2244, R: 0.6334, F1: 0.3314 (common: 843.0, retrieved: 3756.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.2322, R: 0.6559, F1: 0.3430 (common: 873.0, retrieved: 3760.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.2285, R: 0.6334, F1: 0.3358 (common: 843.0, retrieved: 3690.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.2360, R: 0.6536, F1: 0.3468 (common: 870.0, retrieved: 3687.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.2328, R: 0.6319, F1: 0.3403 (common: 841.0, retrieved: 3612.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.2434, R: 0.6536, F1: 0.3547 (common: 870.0, retrieved: 3574.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.2390, R: 0.6319, F1: 0.3468 (common: 841.0, retrieved: 3519.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.2503, R: 0.6536, F1: 0.3620 (common: 870.0, retrieved: 3476.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.2466, R: 0.6319, F1: 0.3548 (common: 841.0, retrieved: 3410.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.2596, R: 0.6521, F1: 0.3714 (common: 868.0, retrieved: 3343.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.2549, R: 0.6296, F1: 0.3629 (common: 838.0, retrieved: 3287.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.2795, R: 0.6536, F1: 0.3915 (common: 870.0, retrieved: 3113.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.2675, R: 0.6289, F1: 0.3753 (common: 837.0, retrieved: 3129.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.3168, R: 0.6529, F1: 0.4266 (common: 869.0, retrieved: 2743.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.2868, R: 0.6296, F1: 0.3941 (common: 838.0, retrieved: 2922.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.3662, R: 0.6521, F1: 0.4691 (common: 868.0, retrieved: 2370.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.3112, R: 0.6296, F1: 0.4165 (common: 838.0, retrieved: 2693.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.4070, R: 0.6491, F1: 0.5003 (common: 864.0, retrieved: 2123.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.3445, R: 0.6281, F1: 0.4449 (common: 836.0, retrieved: 2427.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.4295, R: 0.6454, F1: 0.5158 (common: 859.0, retrieved: 2000.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.3881, R: 0.6266, F1: 0.4793 (common: 834.0, retrieved: 2149.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.4441, R: 0.6416, F1: 0.5249 (common: 854.0, retrieved: 1923.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.4319, R: 0.6266, F1: 0.5113 (common: 834.0, retrieved: 1931.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.4607, R: 0.6349, F1: 0.5340 (common: 845.0, retrieved: 1834.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.4560, R: 0.6228, F1: 0.5265 (common: 829.0, retrieved: 1818.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.4750, R: 0.6289, F1: 0.5412 (common: 837.0, retrieved: 1762.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.4762, R: 0.6176, F1: 0.5378 (common: 822.0, retrieved: 1726.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.4949, R: 0.6251, F1: 0.5525 (common: 832.0, retrieved: 1681.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.4906, R: 0.6108, F1: 0.5442 (common: 813.0, retrieved: 1657.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.5144, R: 0.6168, F1: 0.5610 (common: 821.0, retrieved: 1596.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.5196, R: 0.5973, F1: 0.5557 (common: 795.0, retrieved: 1530.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.5347, R: 0.5965, F1: 0.5639 (common: 794.0, retrieved: 1485.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.5513, R: 0.5815, F1: 0.5660 (common: 774.0, retrieved: 1404.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.5811, R: 0.5763, F1: 0.5786 (common: 767.0, retrieved: 1320.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.5812, R: 0.5485, F1: 0.5644 (common: 730.0, retrieved: 1256.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.6205, R: 0.5282, F1: 0.5706 (common: 703.0, retrieved: 1133.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.6255, R: 0.5019, F1: 0.5569 (common: 668.0, retrieved: 1068.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.6659, R: 0.4207, F1: 0.5157 (common: 560.0, retrieved: 841.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.6622, R: 0.4125, F1: 0.5083 (common: 549.0, retrieved: 829.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.6907, R: 0.2299, F1: 0.3450 (common: 306.0, retrieved: 443.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.7050, R: 0.2532, F1: 0.3726 (common: 337.0, retrieved: 478.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.5000, R: 0.0030, F1: 0.0060 (common: 4.0, retrieved: 8.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.7022, R: 0.0939, F1: 0.1657 (common: 125.0, retrieved: 178.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.0000, R: 0.0000, F1: 0.0000 (common: 0.0, retrieved: 0.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.6667, R: 0.0090, F1: 0.0178 (common: 12.0, retrieved: 18.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.0000, R: 0.0000, F1: 0.0000 (common: 0.0, retrieved: 0.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.0000, R: 0.0000, F1: 0.0000 (common: 0.0, retrieved: 0.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.0000, R: 0.0000, F1: 0.0000 (common: 0.0, retrieved: 0.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.0000, R: 0.0000, F1: 0.0000 (common: 0.0, retrieved: 0.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.0000, R: 0.0000, F1: 0.0000 (common: 0.0, retrieved: 0.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.0000, R: 0.0000, F1: 0.0000 (common: 0.0, retrieved: 0.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.0000, R: 0.0000, F1: 0.0000 (common: 0.0, retrieved: 0.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.0000, R: 0.0000, F1: 0.0000 (common: 0.0, retrieved: 0.0, relevant: 1331.0)
  
-pipeline, step: 84, P: 0.0000, R: 0.0000, F1: 0.0000 (common: 0.0, retrieved: 0.0, relevant: 1331.0)
+pipeline, step: 60, P: 0.0000, R: 0.0000, F1: 0.0000 (common: 0.0, retrieved: 0.0, relevant: 1331.0)
  

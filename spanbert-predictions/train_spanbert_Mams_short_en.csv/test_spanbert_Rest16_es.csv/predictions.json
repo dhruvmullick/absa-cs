@@ -9,65 +9,25 @@
     },
     "1": {
         "pred_terms": [
-            "carne",
-            "carta",
-            "chuleton",
-            "chu",
-            "chuleto",
-            "leton",
-            "n",
-            "amplia"
+            "carne"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
             "positive"
         ]
     },
     "2": {
         "pred_terms": [
-            "servicio",
-            "atencion",
-            "at",
-            "aten",
-            "cion",
-            "encion",
-            "atencion,impresionante",
-            "atencion,impresionan",
-            "atencion,im",
-            "atencion,impresi"
+            "servicio"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "3": {
         "pred_terms": [
-            "carne",
-            "carne,phenomenal",
-            "carne,phenomena",
-            "carne,ph",
-            "phenomenal"
+            "carne"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
@@ -75,80 +35,34 @@
         "pred_terms": [
             "ambiente",
             "tapas",
-            "bebidas",
-            "tapa",
-            "bidas",
-            "be",
-            "s",
-            "ambiente,extraurinadio",
-            "extraurinadio",
-            "urinadio"
+            "bebidas"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
             "positive",
-            "positive",
-            "positive"
+            "neutral",
+            "neutral"
         ]
     },
     "5": {
         "pred_terms": [
             "mesa",
-            "pena",
-            "reinas",
-            "mesa,que",
-            "reina",
-            "reserva",
-            "s",
-            "reservar"
+            "mesa,que en 9 reinas merece la pena"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral",
             "neutral"
         ]
     },
     "6": {
-        "pred_terms": [
-            "equipo"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "7": {
         "pred_terms": [
             "pastas",
-            "carnes",
-            "pasta",
-            "carne",
-            "sorrentinos",
-            "s",
-            "sor",
-            "sorrent",
-            "excelentes",
-            ")"
+            "carnes"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
@@ -156,162 +70,62 @@
     "8": {
         "pred_terms": [
             "sitio",
-            "camareros",
-            "ros",
-            "camare",
-            "cam",
-            "areros",
-            "atentos"
+            "camareros"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
     },
     "9": {
-        "pred_terms": [
-            "opini\u00f3n",
-            "p\u00e1gina"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "10": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "11": {
         "pred_terms": [
-            "maravilla",
-            "dem\u00e1s",
-            "cordial",
-            "mara",
-            "divertido",
-            "villa",
-            "julio",
-            "9r",
-            "dial",
-            "genial"
+            "comida",
+            "restaurante"
         ],
         "pred_polarities": [
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "neutral",
             "positive",
             "positive"
         ]
     },
-    "11": {
-        "pred_terms": [
-            "restaurante",
-            "comida",
-            "luz",
-            "trato",
-            "pega",
-            "iluminaci\u00f3n",
-            "gusto",
-            "piso)",
-            "chorrada",
-            "tarta"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "neutral"
-        ]
-    },
     "12": {
         "pred_terms": [
-            "experiencia",
             "atenci\u00f3n",
-            "disposici\u00f3n",
-            "dis",
-            "at",
-            "ci\u00f3n",
-            "aten",
-            "dispos",
-            "ici\u00f3n",
-            "enci\u00f3n"
+            "disposici\u00f3n"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
     },
     "13": {
         "pred_terms": [
-            "comida",
-            "divina"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
             "positive"
         ]
     },
     "14": {
         "pred_terms": [
             "espacio",
-            "colores",
-            "rincones",
-            "rincone",
-            "rin",
-            "s",
-            "cones",
-            "cone",
-            "relajante"
+            "rincones"
         ],
         "pred_polarities": [
             "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
+            "neutral"
         ]
     },
     "15": {
-        "pred_terms": [
-            "personal",
-            "atenci\u00f3n",
-            "at",
-            "aten",
-            "ci\u00f3n",
-            "enci\u00f3n"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "16": {
         "pred_terms": [
@@ -323,210 +137,74 @@
     },
     "17": {
         "pred_terms": [
-            "restaurante",
-            "entrante",
-            "detalle",
-            "entrant",
-            "e",
-            "invitaci\u00f3n",
-            "det",
-            "alle",
-            "vitaci\u00f3n",
-            "in"
+            "restaurante"
         ],
         "pred_polarities": [
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
-            "neutral",
-            "neutral"
+            "negative"
         ]
     },
     "18": {
-        "pred_terms": [
-            "sitio",
-            "barcelona",
-            "centro",
-            "barcel",
-            "bar",
-            "celona",
-            "ona"
-        ],
-        "pred_polarities": [
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "19": {
         "pred_terms": [
-            "corriente",
-            "puerta",
-            "entrada",
-            "frio",
-            "automatica",
-            "de",
-            "fri"
+            "puerta"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive",
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "neutral"
+            "negative"
         ]
     },
     "20": {
         "pred_terms": [
-            "carne",
-            "barcelona",
-            "bar",
-            "celona",
-            "barcel",
-            "ona"
+            "carne"
         ],
         "pred_polarities": [
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral"
+            "positive"
         ]
     },
     "21": {
         "pred_terms": [
-            "carne",
-            "bcn",
-            "b",
-            "cn",
-            "bc"
+            "carne"
         ],
         "pred_polarities": [
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral"
+            "positive"
         ]
     },
     "22": {
-        "pred_terms": [
-            "carne",
-            "entra\u00f1a",
-            "vacaciones",
-            "entra",
-            "va",
-            "\u00f1a",
-            "caciones"
-        ],
-        "pred_polarities": [
-            "positive",
-            "negative",
-            "neutral",
-            "negative",
-            "neutral",
-            "negative",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "23": {
-        "pred_terms": [
-            "frio",
-            "fri",
-            "o"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "24": {
-        "pred_terms": [
-            "entrantes",
-            "entrant",
-            "es",
-            "variados",
-            "dos",
-            "inicio",
-            "varia"
-        ],
-        "pred_polarities": [
-            "negative",
-            "positive",
-            "negative",
-            "negative",
-            "negative",
-            "neutral",
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "25": {
         "pred_terms": [
-            "chorizo",
-            "empanadilla",
-            "demas",
-            "la",
-            "panadilla",
-            "em",
-            "cho",
-            "o",
-            "empanadil",
-            "choriz"
+            "empanadilla"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "26": {
         "pred_terms": [
-            "carne",
-            "argentinos",
-            "argentino",
-            "s",
-            "traen vivo"
+            "carne"
         ],
         "pred_polarities": [
-            "positive",
-            "negative",
-            "negative",
-            "negative",
-            "neutral"
+            "positive"
         ]
     },
     "27": {
         "pred_terms": [
             "sitio",
-            "trato",
-            "trat",
-            "o",
-            "acogedor"
+            "trato"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
@@ -541,261 +219,99 @@
     },
     "29": {
         "pred_terms": [
-            "camareros",
-            "areros",
-            "ros",
-            "camare",
-            "cam",
-            "are"
+            "camareros"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "30": {
         "pred_terms": [
-            "sala",
-            "jefes",
-            "jefe",
-            "s"
+            "sala"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive"
-        ]
-    },
-    "31": {
-        "pred_terms": [
-            "recepcionistas",
-            "s",
-            "cionistas",
-            "cepcionistas",
-            "pcionistas",
-            "recepcionista",
-            "rece",
-            "re",
-            "recep",
-            "cionista"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
-        ]
-    },
-    "32": {
-        "pred_terms": [
-            "ambiente",
-            "bullicioso",
-            "bulli",
-            "bullicios"
-        ],
-        "pred_polarities": [
-            "positive",
-            "negative",
-            "negative",
             "negative"
         ]
     },
+    "31": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "32": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
     "33": {
-        "pred_terms": [
-            "situaci\u00f3n",
-            "ci\u00f3n",
-            "situa",
-            "excelente"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "34": {
-        "pred_terms": [
-            "ubicacion",
-            "invierno",
-            "cion",
-            "verano",
-            "ubica"
-        ],
-        "pred_polarities": [
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "35": {
         "pred_terms": [
             "producto",
-            "restaurantes",
-            "plantilla",
-            "calidad",
-            "cuidado",
-            "restaurante",
-            "barcelona",
-            "illa",
-            "plant",
-            "s"
+            "restaurantes"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "neutral",
-            "positive",
             "positive",
             "positive"
         ]
     },
     "36": {
         "pred_terms": [
-            "orquesta",
-            "trabajador",
-            "ojo",
-            "director",
-            "cuidado",
-            "ferreira",
-            "ram\u00f3n",
-            "dor",
-            "elegante",
-            "trabaja"
+            "director de orquesta"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive",
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "37": {
         "pred_terms": [
-            "maitre",
-            "tre",
-            "mai",
-            "amabilidad",
-            "ama",
-            "bilidad"
+            "maitre"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
             "negative"
         ]
     },
     "38": {
         "pred_terms": [
-            "comida",
-            "sito",
-            "negocios"
+            "comida"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive",
             "neutral"
         ]
     },
     "39": {
-        "pred_terms": [
-            "empresa",
-            "comer",
-            "semana"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "40": {
         "pred_terms": [
-            "restaurante",
             "cocina",
-            "terraza",
-            "terra",
-            "za",
-            "qiue",
-            "q",
-            "qiu",
-            "iue"
+            "restaurante",
+            "terraza"
         ],
         "pred_polarities": [
             "positive",
-            "negative",
             "positive",
-            "positive",
-            "positive",
-            "negative",
-            "negative",
-            "negative",
-            "negative"
+            "positive"
         ]
     },
     "41": {
         "pred_terms": [
             "salsa",
-            "cazuela",
-            "ca",
-            "rape",
-            "ela",
-            "zuela",
-            "cazu"
+            "cazuela"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "negative",
-            "neutral",
             "neutral",
             "neutral"
         ]
     },
     "42": {
-        "pred_terms": [
-            "rape",
-            "arroces",
-            "roces",
-            "es",
-            "ar",
-            "arroc"
-        ],
-        "pred_polarities": [
-            "negative",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "43": {
         "pred_terms": [
@@ -807,46 +323,26 @@
     },
     "44": {
         "pred_terms": [
-            "calidad",
-            "gambas",
-            "gamba",
-            "ga",
-            "s",
-            "mbas",
-            "mba"
+            "calidad"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "45": {
         "pred_terms": [
-            "comida",
-            "resto",
-            "normal"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "46": {
         "pred_terms": [
             "personal",
-            "clientela",
-            "cliente",
-            "la"
+            "clientela"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
             "negative",
             "negative"
         ]
@@ -854,96 +350,34 @@
     "47": {
         "pred_terms": [
             "comida",
-            "servicio",
-            "barceloneta",
-            "cenar",
-            "comer",
-            "ubicaci\u00f3n",
-            "cena",
-            "bar",
-            "a",
-            "barcelonet"
+            "servicio"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral"
-        ]
-    },
-    "48": {
-        "pred_terms": [
-            "servicio",
-            "esmerado",
-            "do",
-            "merado"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
     },
-    "49": {
+    "48": {
         "pred_terms": [
-            "platos",
-            "tempo",
-            "os",
-            "plat"
+            "servicio"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral"
+            "positive"
         ]
     },
+    "49": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
     "50": {
-        "pred_terms": [
-            "platos",
-            "cuenta",
-            "os",
-            "plat",
-            "peticion",
-            "icion",
-            "pet",
-            "solucitud",
-            "soluc"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "negative",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "negative",
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "51": {
         "pred_terms": [
-            "comida",
-            "trato",
-            "trat",
-            "o",
-            "exquisita",
-            "exquisito"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
@@ -952,122 +386,56 @@
             "restaurante"
         ],
         "pred_polarities": [
-            "neutral"
+            "negative"
         ]
     },
     "53": {
         "pred_terms": [
             "producto",
-            "pescados",
-            "calidad",
-            "mariscos",
-            "marisco",
-            "pesca",
-            "mari",
-            "dos",
-            "s",
-            "scos"
+            "calidad"
         ],
         "pred_polarities": [
             "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral"
+            "positive"
         ]
     },
     "54": {
         "pred_terms": [
-            "platos",
-            "precios",
             "calidad",
-            "vinos",
-            "carta",
-            "precio",
-            "plat",
-            "vino",
-            "os",
-            "s"
+            "platos",
+            "precios"
         ],
         "pred_polarities": [
-            "neutral",
             "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "neutral",
-            "negative",
-            "neutral",
+            "positive",
             "negative"
         ]
     },
     "55": {
         "pred_terms": [
-            "paella",
-            "rellotge",
-            "moll",
-            "pa",
-            "re",
-            "tge",
-            "ella",
-            "gusto",
-            "llotge",
-            "rello"
+            "paella del moll del rellotge"
         ],
         "pred_polarities": [
-            "positive",
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
-            "neutral",
             "neutral"
         ]
     },
     "56": {
         "pred_terms": [
-            "restaurante",
             "cocina",
-            "servicio",
-            "valor"
+            "restaurante"
         ],
         "pred_polarities": [
-            "neutral",
             "positive",
-            "positive",
-            "positive"
+            "neutral"
         ]
     },
     "57": {
         "pred_terms": [
             "comida",
             "calidad",
-            "atenci\u00f3n",
-            "at",
-            "aten",
-            "ci\u00f3n",
-            "enci\u00f3n",
-            "excelente",
-            "esmerada",
-            "merada"
+            "atenci\u00f3n"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive",
             "positive"
@@ -1077,8 +445,8 @@
         "pred_terms": [
             "comida",
             "servicio",
-            "ambiente",
-            "restaurant"
+            "restaurant",
+            "ambiente"
         ],
         "pred_polarities": [
             "positive",
@@ -1091,17 +459,9 @@
         "pred_terms": [
             "comida",
             "restaurante",
-            "atenci\u00f3n",
-            "at",
-            "ci\u00f3n",
-            "aten",
-            "enci\u00f3n"
+            "atenci\u00f3n"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive",
             "positive"
@@ -1110,101 +470,53 @@
     "60": {
         "pred_terms": [
             "mesa",
-            "terraza",
-            "tiempo",
-            "terra",
-            "ubicada",
-            "za",
-            "dispuesta"
+            "terraza"
         ],
         "pred_polarities": [
-            "neutral",
-            "negative",
-            "neutral",
-            "negative",
-            "negative",
             "negative",
             "negative"
         ]
     },
     "61": {
-        "pred_terms": [
-            "restaurante",
-            "acontecimiento",
-            "cimiento",
-            "ac",
-            "especial",
-            "ontecimiento",
-            "aconte"
-        ],
-        "pred_polarities": [
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "62": {
         "pred_terms": [
-            "servicio",
-            "comida"
+            "comida",
+            "servicio"
         ],
         "pred_polarities": [
             "negative",
-            "positive"
+            "negative"
         ]
     },
     "63": {
         "pred_terms": [
             "comida",
-            "restaurante",
-            "personal"
+            "restaurante"
         ],
         "pred_polarities": [
             "positive",
-            "neutral",
             "negative"
         ]
     },
     "64": {
         "pred_terms": [
-            "comida",
-            "excelente",
-            "repito"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "neutral"
+            "positive"
         ]
     },
     "65": {
         "pred_terms": [
-            "entrantes",
             "arroz",
-            "sabor",
-            "entrant",
-            "es",
-            "caldoso",
-            "o",
-            "doso",
-            "caldos",
-            "cal"
+            "entrantes"
         ],
         "pred_polarities": [
-            "neutral",
             "negative",
-            "negative",
-            "neutral",
-            "neutral",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative"
+            "positive"
         ]
     },
     "66": {
@@ -1217,19 +529,9 @@
     },
     "67": {
         "pred_terms": [
-            "arroz",
-            "caldoso",
-            "o",
-            "doso",
-            "cal",
-            "caldos"
+            "arroz"
         ],
         "pred_polarities": [
-            "positive",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
             "negative"
         ]
     },
@@ -1237,51 +539,31 @@
         "pred_terms": [
             "servicio",
             "sitio",
-            "platos",
-            "atenci\u00f3n",
-            "plat",
-            "os",
-            "ci\u00f3n",
-            "enci\u00f3n",
-            "at",
-            "aten"
+            "platos"
         ],
         "pred_polarities": [
             "positive",
             "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "positive",
+            "neutral"
+        ]
+    },
+    "69": {
+        "pred_terms": [
+            "comida",
+            "servicio",
+            "presentaci\u00f3n"
+        ],
+        "pred_polarities": [
             "positive",
             "positive",
             "positive"
         ]
     },
-    "69": {
-        "pred_terms": [
-            "servicio",
-            "comida",
-            "presentaci\u00f3n",
-            "presenta",
-            "ci\u00f3n"
-        ],
-        "pred_polarities": [
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral"
-        ]
-    },
     "70": {
         "pred_terms": [
-            "comida",
-            "vistas"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
             "positive"
         ]
     },
@@ -1296,433 +578,133 @@
     "72": {
         "pred_terms": [
             "comida",
-            "presentaci\u00f3n",
-            "presenta",
-            "ci\u00f3n",
-            "fresca",
-            "tierna",
-            "esca",
-            "na",
-            "fr",
-            "creativa"
+            "presentaci\u00f3n"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
+            "negative",
             "positive"
         ]
     },
     "73": {
-        "pred_terms": [
-            "sombras",
-            "luces",
-            "meccano",
-            "luce",
-            "sombra",
-            "visita",
-            "s",
-            "mecca",
-            "me",
-            "no"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "74": {
         "pred_terms": [
             "comida",
-            "platos",
-            "sitio",
-            "plat",
-            "calidad",
-            "os",
-            "elaboraci\u00f3n",
-            "cantidad",
-            "atractivo",
-            "ci\u00f3n"
+            "platos"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
             "negative",
-            "positive",
-            "neutral"
+            "negative"
         ]
     },
     "75": {
         "pred_terms": [
-            "men\u00fa",
-            "degustaci\u00f3n",
-            "\u20ac",
-            "\u00f3n",
-            "degustaci",
-            "gustaci\u00f3n",
-            "de",
-            "degust",
-            "aci\u00f3n",
-            "personas"
+            "men\u00fa"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "76": {
         "pred_terms": [
             "gazpacho",
-            "cerezas",
-            "gaz",
-            "gazpach",
-            "ce",
-            "pacho",
-            "cerez",
-            "o",
-            "as",
-            "rezas"
+            "cerezas"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
     },
     "77": {
         "pred_terms": [
-            "platitos",
-            "lata",
-            "patatas",
-            "chips",
-            "chips\u201d",
-            "mejillones",
-            "\u201cmejillones",
-            "aceite",
-            "oliva",
-            "fritos"
+            "platitos"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "78": {
         "pred_terms": [
-            "men\u00fa",
-            "degustaci\u00f3n",
-            "gustaci\u00f3n",
-            "\u00f3n",
-            "degustaci",
-            "de",
-            "aci\u00f3n",
-            "degust",
-            "gustaci"
+            "men\u00fa"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
+            "neutral"
         ]
     },
     "79": {
-        "pred_terms": [
-            "elaboraci\u00f3n",
-            "ci\u00f3n",
-            "boraci\u00f3n",
-            "elabora",
-            "ela",
-            "bora"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "80": {
-        "pred_terms": [
-            "croqueta",
-            "croquetas",
-            "croquetas\u2026",
-            "roqueta",
-            "roquetas",
-            "as",
-            "a",
-            "c",
-            "croquet",
-            "queta"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "81": {
         "pred_terms": [
             "pasta",
-            "carrillera",
-            "huevos",
-            "chipirones",
-            "comedora",
-            "fritos",
-            "huevo",
-            "rellena",
-            "persona",
-            "tel\u00e9fono)"
+            "chipirones fritos"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "neutral"
         ]
     },
     "82": {
         "pred_terms": [
-            "camarero",
-            "huevos",
-            "croquetas",
-            "huevo",
-            "raci\u00f3n",
-            "camare",
-            "cam",
-            "petici\u00f3n",
-            "ro",
-            "hu"
+            "camarero"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "83": {
-        "pred_terms": [
-            "chocolate",
-            "remate",
-            "yogur",
-            "flan",
-            "tama\u00f1o",
-            "tarrito",
-            "coulant",
-            "queso",
-            "re",
-            "yogur\u2026"
-        ],
-        "pred_polarities": [
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "neutral",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "84": {
         "pred_terms": [
-            "groser\u00eda",
-            "camarero",
-            "amabilidad",
-            "pedido",
-            "camare",
-            "cam",
-            "er\u00eda",
-            "gros",
-            "ro",
-            "arero"
+            "camarero"
         ],
         "pred_polarities": [
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
-            "neutral",
             "neutral"
         ]
     },
     "85": {
-        "pred_terms": [
-            "humor",
-            "drag queens",
-            "s",
-            "queen",
-            "23:30"
-        ],
-        "pred_polarities": [
-            "negative",
-            "positive",
-            "positive",
-            "positive",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "86": {
         "pred_terms": [
-            "pasta",
             "men\u00fa",
-            "platos",
-            "vino tinto",
-            "chupito",
-            "caf\u00e9s",
-            "chipirones",
-            "vi\u00f1as",
-            "gazpacho",
-            "carrillera"
+            "pasta",
+            "vino tinto"
         ],
         "pred_polarities": [
-            "positive",
             "neutral",
-            "positive",
-            "positive",
-            "positive",
             "neutral",
-            "positive",
-            "neutral",
-            "positive",
             "positive"
         ]
     },
     "87": {
         "pred_terms": [
-            "camarera",
-            "camare",
-            "ra",
-            "cam",
-            "arera",
-            "are"
+            "camarera"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "88": {
-        "pred_terms": [
-            "cliente",
-            "due\u00f1o",
-            "local",
-            "critica",
-            "despensa",
-            "due\u00f1",
-            "pensa",
-            "o",
-            "des"
-        ],
-        "pred_polarities": [
-            "positive",
-            "negative",
-            "neutral",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "89": {
         "pred_terms": [
-            "local",
-            "paredes",
-            "blancas",
-            "s",
-            "blanca",
-            "nuevo",
-            "todo muy limpio"
+            "paredes blancas"
         ],
         "pred_polarities": [
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive"
+            "neutral"
         ]
     },
     "90": {
@@ -1732,7 +714,7 @@
         ],
         "pred_polarities": [
             "positive",
-            "neutral"
+            "negative"
         ]
     },
     "91": {
@@ -1746,85 +728,37 @@
     "92": {
         "pred_terms": [
             "ambiente",
-            "sal\u00f3n",
-            "frio"
+            "sal\u00f3n"
         ],
         "pred_polarities": [
-            "negative",
-            "neutral",
+            "positive",
             "negative"
         ]
     },
     "93": {
-        "pred_terms": [
-            "celebraci\u00f3n",
-            "sitio",
-            "celebra",
-            "ci\u00f3n",
-            "conclusi\u00f3n",
-            "\u201csiempre",
-            "martes",
-            "junio de 2013"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "94": {
         "pred_terms": [
             "servicio",
             "cocina",
             "mesa",
-            "platos",
-            "orejas",
-            "ovaci\u00f3n",
-            "ruedo",
-            "elaboracion",
-            "personal",
-            "plat"
+            "platos"
         ],
         "pred_polarities": [
             "positive",
             "positive",
             "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "95": {
         "pred_terms": [
             "mesa",
-            "reserva",
-            "ventanal",
-            "ramblas",
-            "venta",
-            "nal",
-            "ramb",
-            "ra",
-            "las",
-            "mblas"
+            "reserva"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral",
             "neutral"
         ]
@@ -1840,647 +774,255 @@
     "97": {
         "pred_terms": [
             "comida",
-            "pizzas",
-            "patatas",
-            "pizza",
-            "pi",
-            "pat",
-            "s",
-            "zzas",
-            "atas",
-            "bravas"
+            "pizzas"
         ],
         "pred_polarities": [
             "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "98": {
-        "pred_terms": [
-            "postres",
-            "post",
-            "res"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "99": {
         "pred_terms": [
-            "pizza",
-            "variedad",
-            "zza",
-            "cena",
-            "pi",
-            "cenar"
+            "pizza"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "100": {
         "pred_terms": [
             "calidad",
-            "pizzas",
-            "pizza",
-            "pi",
-            "s",
-            "zzas",
-            "zza",
-            "general"
+            "pizzas"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
     },
     "101": {
         "pred_terms": [
-            "lavabo",
-            "lava",
-            "bo"
+            "lavabo"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
             "negative"
         ]
     },
     "102": {
-        "pred_terms": [
-            "ba\u00f1os",
-            "gente",
-            "ba\u00f1",
-            "os",
-            "limpieza",
-            "li",
-            "limpi",
-            "eza",
-            "mpieza"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "negative",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "103": {
         "pred_terms": [
-            "comida",
-            "precio",
-            "relacion-precio",
-            "lacion-precio",
-            "ion-precio",
-            "relacion",
-            "lacion"
+            "comida"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative"
+            "positive"
         ]
     },
     "104": {
         "pred_terms": [
-            "espacio",
-            "ni\u00f1os",
-            "ni\u00f1",
-            "os"
+            "espacio"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "105": {
         "pred_terms": [
-            "servicio",
             "comida",
-            "a",
-            "iciosa",
-            "deliciosa"
+            "servicio"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
     },
     "106": {
         "pred_terms": [
-            "comida",
-            "reforma",
-            "precio",
-            "exquisita"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "107": {
-        "pred_terms": [
-            "celebraciones",
-            "trato",
-            "due\u00f1a",
-            "celebra",
-            "trat",
-            "amigos",
-            "o",
-            "ciones"
-        ],
-        "pred_polarities": [
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "108": {
         "pred_terms": [
             "comida",
             "men\u00fa",
             "restaurante",
-            "vino",
-            "candelas",
-            "restaurantes",
-            "plato",
-            "entrecot",
-            "joya",
-            "ensalada"
+            "restaurantes"
         ],
         "pred_polarities": [
             "positive",
             "positive",
-            "neutral",
             "positive",
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
+            "neutral"
         ]
     },
     "109": {
         "pred_terms": [
-            "cliente",
             "cocina",
-            "restaurante",
-            "vinos",
-            "calidad",
-            "propietaria",
-            "hosteleria",
-            "chulet\u00f3n",
-            "buey",
-            "brazos"
+            "cliente",
+            "hosteleria"
         ],
         "pred_polarities": [
-            "negative",
             "neutral",
-            "neutral",
-            "positive",
             "negative",
-            "negative",
-            "positive",
-            "positive",
-            "positive",
             "neutral"
         ]
     },
     "110": {
         "pred_terms": [
-            "restaurante",
-            "cenado",
-            "maravilla",
-            "cena",
-            "do",
-            "horabuena",
-            "mara",
-            "villa",
-            "buena",
-            "na"
+            "restaurante"
         ],
         "pred_polarities": [
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral"
+            "positive"
         ]
     },
     "111": {
         "pred_terms": [
-            "cocina",
-            "calidad",
-            "casera",
-            "ra",
-            "case"
+            "cocina"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "112": {
-        "pred_terms": [
-            "trato",
-            "o",
-            "trat"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "113": {
-        "pred_terms": [
-            "trato",
-            "s\u00e1bado",
-            "cena",
-            "trat",
-            "cenando",
-            "o",
-            "s\u00e1",
-            "personas",
-            "bado"
-        ],
-        "pred_polarities": [
-            "positive",
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "114": {
         "pred_terms": [
-            "comida",
-            "casera",
-            "ra",
-            "familia"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "neutral"
+            "positive"
         ]
     },
     "115": {
         "pred_terms": [
             "sabor",
-            "tomate",
-            "ensalada",
-            "nevera",
-            "ens",
-            "ensala",
-            "toma",
-            "frio",
-            "te",
-            "never"
+            "ensalada de tomate"
         ],
         "pred_polarities": [
             "positive",
-            "negative",
-            "positive",
-            "negative",
-            "positive",
-            "positive",
-            "positive",
-            "negative",
-            "negative",
-            "negative"
+            "neutral"
         ]
     },
     "116": {
         "pred_terms": [
-            "setas",
-            "helado",
-            "postre",
-            "hela",
-            "set",
-            "as",
-            "do",
-            "post",
-            "re"
+            "helado de setas"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "neutral",
-            "neutral"
+            "positive"
         ]
     },
     "117": {
         "pred_terms": [
             "comida",
-            "restaurante",
-            "especial"
+            "restaurante"
         ],
         "pred_polarities": [
             "neutral",
-            "neutral",
-            "neutral"
+            "negative"
         ]
     },
     "118": {
         "pred_terms": [
-            "cocina",
-            "trato",
-            "direcci\u00f3n",
-            "camareros",
-            "trat",
-            "o",
-            "dire",
-            "cci\u00f3n",
-            "areros",
-            "ros"
+            "cocina"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "119": {
         "pred_terms": [
             "comida",
-            "servicio",
-            "ambiente",
-            "presentaci\u00f3n",
-            "elaboraci\u00f3n",
-            "ci\u00f3n",
-            "presenta",
-            "boraci\u00f3n",
-            "elabora",
-            "ela"
+            "servicio"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
     },
     "120": {
-        "pred_terms": [
-            "postres",
-            "flojo",
-            "res",
-            "post",
-            "fl",
-            "ojo",
-            "algo"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "121": {
-        "pred_terms": [
-            "ambiente",
-            "triston",
-            "tri",
-            "ston"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "122": {
         "pred_terms": [
-            "camareros",
-            "cam",
-            "ros",
-            "camare",
-            "areros"
+            "camareros"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
-            "negative",
             "negative"
         ]
     },
     "123": {
-        "pred_terms": [
-            "segundos"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "124": {
-        "pred_terms": [
-            "seitons",
-            "espinas",
-            "bu\u00f1uelos",
-            "espina",
-            "flojos",
-            "pinas",
-            "picar",
-            "seit",
-            "s",
-            "es"
-        ],
-        "pred_polarities": [
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "125": {
         "pred_terms": [
             "comida",
-            "restaurante",
-            "cocineros",
-            "co",
-            "cineros",
-            "ros",
-            "cocine"
+            "restaurante"
         ],
         "pred_polarities": [
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
     },
     "126": {
         "pred_terms": [
-            "clientes",
             "comida",
+            "clientes",
             "sala",
-            "director",
-            "gritos",
-            "camareros",
-            "educacion",
-            "edu",
-            "educa",
-            "bronca"
+            "educacion"
         ],
         "pred_polarities": [
             "negative",
-            "neutral",
-            "neutral",
             "negative",
             "neutral",
-            "neutral",
-            "negative",
-            "negative",
-            "negative",
-            "neutral"
+            "positive"
         ]
     },
     "127": {
-        "pred_terms": [
-            "metres",
-            "espantapajaros",
-            "pajaros",
-            "os",
-            "jaros",
-            "espanta",
-            "es",
-            "espan",
-            "tapajaros",
-            "sirve"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "128": {
         "pred_terms": [
-            "platos",
-            "plat",
-            "os",
-            "mecanizado",
-            "canizado",
-            "mecani"
+            "platos"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
-            "neutral",
-            "neutral",
-            "neutral"
+            "negative"
         ]
     },
     "129": {
         "pred_terms": [
             "restaurante",
-            "copa",
-            "pino",
-            "o",
-            "pin"
+            "copa"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral",
             "neutral"
         ]
@@ -2496,51 +1038,19 @@
     "131": {
         "pred_terms": [
             "comida",
-            "atencion",
-            "at",
-            "aten",
-            "encion",
-            "cion",
-            "nieto",
-            "se\u00f1or",
-            "personal",
-            "a"
+            "atencion"
         ],
         "pred_polarities": [
             "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "negative",
-            "neutral",
-            "negative",
             "positive"
         ]
     },
     "132": {
         "pred_terms": [
             "cocina",
-            "restaurantes",
-            "catalana",
-            "restaurante",
-            "barcelona",
-            "s",
-            "mediterr\u00e1mea",
-            "bar",
-            "barcel",
-            "ea"
+            "restaurantes"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "neutral",
             "neutral",
             "positive"
         ]
@@ -2550,56 +1060,30 @@
             "servicio"
         ],
         "pred_polarities": [
-            "positive"
+            "negative"
         ]
     },
     "134": {
         "pred_terms": [
             "servicio",
-            "platos",
-            "plat",
-            "os",
-            "completos",
-            "s",
-            "genial",
-            "al",
-            "completo"
+            "platos"
         ],
         "pred_polarities": [
             "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
-            "neutral"
+            "positive"
         ]
     },
     "135": {
         "pred_terms": [
             "comida",
-            "precio",
-            "servicio",
             "calidad",
-            "vinos",
-            "carta",
-            "proporcion",
-            "vino",
-            "s",
-            "profesional"
+            "precio",
+            "servicio"
         ],
         "pred_polarities": [
             "positive",
             "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
+            "neutral",
             "positive"
         ]
     },
@@ -2614,40 +1098,16 @@
     "137": {
         "pred_terms": [
             "mesa",
-            "prisa",
-            "platos",
-            "pris",
-            "plat",
-            "a",
-            "os",
-            "obsesi\u00f3n",
-            "i\u00f3n",
-            "de"
+            "prisa"
         ],
         "pred_polarities": [
             "neutral",
-            "negative",
-            "neutral",
-            "negative",
-            "neutral",
-            "negative",
-            "neutral",
-            "negative",
-            "negative",
-            "neutral"
+            "negative"
         ]
     },
     "138": {
-        "pred_terms": [
-            "errores",
-            "l\u00b4olive",
-            "es"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative",
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "139": {
         "pred_terms": [
@@ -2655,269 +1115,121 @@
             "personal"
         ],
         "pred_polarities": [
-            "neutral",
+            "positive",
             "positive"
         ]
     },
     "140": {
         "pred_terms": [
-            "comida",
-            "ambiente",
-            "ideal",
-            "a",
-            "perfecta"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "141": {
         "pred_terms": [
-            "mesas",
-            "restaurante",
-            "mesa",
-            "precios",
-            "espacio",
-            "precio",
-            "s",
-            "altos"
+            "mesas"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "negative",
-            "negative",
-            "negative",
-            "neutral",
-            "negative"
+            "neutral"
         ]
     },
     "142": {
-        "pred_terms": [
-            "iluminacion",
-            "ion",
-            "il",
-            "uminacion",
-            "nacion",
-            "ilumi",
-            "iluminac",
-            "uminac"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "143": {
         "pred_terms": [
             "mobiliario",
-            "escaleras",
-            "polvo",
-            "detalles",
-            "mobil",
-            "es",
-            "io",
-            "mobiliar",
-            "iario",
-            "ras"
+            "escaleras"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
             "negative",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "144": {
-        "pred_terms": [
-            "servicio"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "145": {
         "pred_terms": [
-            "entrante",
-            "detalle",
-            "entrant",
-            "e",
-            "det",
-            "alle"
+            "entrante"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive"
+            "neutral"
         ]
     },
     "146": {
         "pred_terms": [
             "comida",
-            "espacio",
-            "mesas",
-            "mesa",
-            "s",
-            "disponible",
-            "n\u00famero"
+            "mesas"
         ],
         "pred_polarities": [
             "positive",
-            "neutral",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
             "negative"
         ]
     },
     "147": {
         "pred_terms": [
-            "mesa",
-            "vecino",
-            "privacidad",
-            "ve",
-            "cino",
-            "mesa...privacidad",
-            "idad",
-            "privac",
-            "vacidad",
-            "pri"
+            "mesa"
         ],
         "pred_polarities": [
-            "neutral",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "positive",
-            "negative",
-            "positive",
-            "negative",
-            "positive"
+            "neutral"
         ]
     },
     "148": {
         "pred_terms": [
             "comida",
-            "ambiente",
             "cantidad",
-            "calidad",
-            "trato",
-            "trat",
-            "o"
+            "ambiente",
+            "calidad"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
             "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral"
+            "positive",
+            "positive",
+            "positive"
         ]
     },
     "149": {
         "pred_terms": [
-            "restaurante",
-            "car\u00edsimo"
+            "restaurante"
         ],
         "pred_polarities": [
-            "positive",
             "positive"
         ]
     },
     "150": {
         "pred_terms": [
-            "restaurante",
-            "ensalada",
-            "broma",
-            "huevos",
-            "croquetas",
-            "charly",
-            "huevo",
-            "ensala",
-            "ens",
-            "bro"
+            "restaurante"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
             "positive"
         ]
     },
     "151": {
         "pred_terms": [
-            "cena",
-            "cenar",
-            "cena-espect\u00e1culo",
-            ")",
-            "cena-es",
-            "espect\u00e1culo",
-            "cena-espect\u00e1c",
-            "ulo",
-            "\u00e1culo",
-            "r"
+            "cena"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "negative",
-            "neutral",
-            "neutral",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
             "neutral"
         ]
     },
     "152": {
         "pred_terms": [
             "comida",
-            "servicio",
-            "excelente"
+            "servicio"
         ],
         "pred_polarities": [
-            "positive",
             "positive",
             "positive"
         ]
     },
     "153": {
-        "pred_terms": [
-            "lugar"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "154": {
         "pred_terms": [
@@ -2932,18 +1244,14 @@
             "lugar"
         ],
         "pred_polarities": [
-            "positive"
+            "negative"
         ]
     },
     "156": {
         "pred_terms": [
-            "comida",
-            "precio",
-            "buena"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
             "positive"
         ]
     },
@@ -2959,46 +1267,30 @@
     },
     "158": {
         "pred_terms": [
-            "servicio",
-            "comida"
+            "comida",
+            "servicio"
         ],
         "pred_polarities": [
             "negative",
-            "positive"
+            "negative"
         ]
     },
     "159": {
         "pred_terms": [
-            "restaurantes",
-            "restaurante",
-            "s",
-            "olor"
+            "restaurantes"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "negative"
+            "neutral"
         ]
     },
     "160": {
-        "pred_terms": [
-            "vinos",
-            "carta",
-            "vino",
-            "s"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "161": {
         "pred_terms": [
-            "servicio",
-            "comida"
+            "comida",
+            "servicio"
         ],
         "pred_polarities": [
             "positive",
@@ -3007,64 +1299,26 @@
     },
     "162": {
         "pred_terms": [
-            "local",
-            "encanto",
-            "canto",
-            "o"
+            "local"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
             "negative"
         ]
     },
     "163": {
         "pred_terms": [
-            "cocinero",
-            "camareros",
-            "sobretodo",
-            "atencion",
-            "co",
-            "todo",
-            "sobre",
-            "cinero",
-            "cam",
-            "ro"
+            "cocinero"
         ],
         "pred_polarities": [
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
             "positive"
         ]
     },
     "164": {
         "pred_terms": [
             "calidad",
-            "platos",
-            "plat",
-            "os",
-            "elavorados",
-            "elavora",
-            "ela",
-            "saborea",
-            "vorados"
+            "platos"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
@@ -3072,15 +1326,11 @@
     "165": {
         "pred_terms": [
             "cena",
-            "local",
-            "horas",
-            "volando"
+            "local"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral"
+            "negative",
+            "positive"
         ]
     },
     "166": {
@@ -3088,7 +1338,7 @@
             "sitio"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "167": {
@@ -3112,107 +1362,45 @@
     "169": {
         "pred_terms": [
             "comida",
-            "maitre",
-            "tre",
-            "mai",
-            "buena"
+            "maitre"
         ],
         "pred_polarities": [
             "positive",
-            "neutral",
-            "negative",
-            "neutral",
             "positive"
         ]
     },
     "170": {
         "pred_terms": [
-            "ambiente",
             "servicio",
-            "camareros",
-            "camare",
-            "areros",
-            "cam",
-            "ros",
-            "excelente",
-            "simpaticos",
-            "profesionales"
+            "ambiente"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
     },
     "171": {
         "pred_terms": [
-            "servicio",
             "comida",
-            "restaurante",
-            "excelente"
+            "servicio",
+            "restaurante"
         ],
         "pred_polarities": [
-            "positive",
             "positive",
             "positive",
             "positive"
         ]
     },
     "172": {
-        "pred_terms": [
-            "cenar",
-            "cena",
-            "combinados",
-            "com",
-            "combina",
-            "dos",
-            "buenos",
-            "binados",
-            "r",
-            "os"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "neutral",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "173": {
         "pred_terms": [
             "comida",
-            "trato",
-            "genero",
-            "decoraci\u00f3n",
-            "coraci\u00f3n",
-            "trat",
-            "decora",
-            "gener",
-            "o",
-            "calidad"
+            "decoraci\u00f3n"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
@@ -3220,82 +1408,36 @@
     "174": {
         "pred_terms": [
             "comida",
-            "platos",
             "precio",
-            "plat",
-            "raciones",
-            "os",
-            "e",
-            "ra",
-            "abundante",
-            "ciones"
+            "platos"
         ],
         "pred_polarities": [
             "positive",
-            "positive",
             "neutral",
-            "positive",
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
+            "neutral"
         ]
     },
     "175": {
         "pred_terms": [
-            "vinos",
             "precios",
-            "vino",
-            "precio",
-            "s"
+            "vinos"
         ],
         "pred_polarities": [
-            "negative",
             "neutral",
-            "negative",
-            "neutral",
-            "negative"
+            "neutral"
         ]
     },
     "176": {
-        "pred_terms": [
-            "monton",
-            "sitio",
-            "mont",
-            "on",
-            "pena"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "177": {
         "pred_terms": [
             "comida",
-            "clientela",
             "bebida",
-            "vinos",
-            "precios",
-            "cliente",
-            "vino",
-            "be",
-            "bida",
-            "la"
+            "clientela"
         ],
         "pred_polarities": [
-            "neutral",
-            "negative",
-            "neutral",
-            "neutral",
-            "neutral",
-            "negative",
-            "neutral",
             "neutral",
             "neutral",
             "negative"
@@ -3304,213 +1446,77 @@
     "178": {
         "pred_terms": [
             "restaurante",
-            "mercado",
-            "born"
+            "mercado"
         ],
         "pred_polarities": [
             "positive",
-            "neutral",
             "neutral"
         ]
     },
     "179": {
-        "pred_terms": [
-            "plancha",
-            "raciones",
-            "centro",
-            "merluza",
-            "plan",
-            "ra",
-            "cha",
-            "mer",
-            "za",
-            "ciones"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "180": {
         "pred_terms": [
-            "carne",
-            "calidad",
-            "ternera",
-            "solomillo",
-            "ter",
-            "nera",
-            "solo",
-            "millo",
-            "solomill",
-            "o"
+            "carne"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "181": {
-        "pred_terms": [
-            "trato",
-            "trat",
-            "o",
-            "excelente"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "182": {
-        "pred_terms": [
-            "riojas",
-            "vinos",
-            "pega",
-            "selecci\u00f3n",
-            "rioja",
-            "vino",
-            "sel",
-            "selec",
-            "pe",
-            "ga"
-        ],
-        "pred_polarities": [
-            "positive",
-            "neutral",
-            "neutral",
-            "positive",
-            "negative",
-            "neutral",
-            "positive",
-            "positive",
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "183": {
         "pred_terms": [
             "restaurante",
-            "decoracion",
-            "coracion",
-            "de",
-            "decora",
-            "cion",
-            "cora"
+            "decoracion"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
+            "neutral",
             "positive"
         ]
     },
     "184": {
         "pred_terms": [
-            "comida",
-            "personal",
-            "atencion",
-            "at",
-            "aten",
-            "cion",
-            "encion"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "185": {
-        "pred_terms": [
-            "sitio",
-            "recomendado",
-            "comendado"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "186": {
         "pred_terms": [
-            "comida",
-            "elaborada",
-            "elabora"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "187": {
         "pred_terms": [
-            "carne",
-            "rape",
-            "vino",
-            "salsa",
-            "foie",
-            "amigos",
-            "e",
-            "foi",
-            "buenisimo"
+            "salsa de vino"
         ],
         "pred_polarities": [
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
             "positive"
         ]
     },
     "188": {
         "pred_terms": [
             "lugar",
-            "decoracion",
-            "de",
-            "coracion",
-            "decora",
-            "cion",
-            "cora",
-            "precioso"
+            "decoracion"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
@@ -3518,47 +1524,25 @@
     "189": {
         "pred_terms": [
             "comida",
-            "patata",
             "plato",
-            "pat",
-            "plat",
-            "ata",
-            "o"
+            "patata"
         ],
         "pred_polarities": [
             "negative",
-            "positive",
             "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral"
+            "negative"
         ]
     },
     "190": {
         "pred_terms": [
-            "mesas",
             "servicio",
-            "camarero",
-            "silla",
-            "mesa",
-            "s",
-            "camare",
-            "cam",
-            "ro",
-            "arero"
+            "mesas",
+            "camarero"
         ],
         "pred_polarities": [
-            "negative",
             "positive",
             "negative",
-            "neutral",
-            "negative",
-            "negative",
-            "neutral",
-            "neutral",
-            "negative",
-            "negative"
+            "neutral"
         ]
     },
     "191": {
@@ -3566,22 +1550,10 @@
             "menu",
             "restaurante",
             "carne",
-            "plato",
-            "postre",
-            "dia",
-            "bolognesa)",
-            "riggatoni",
-            "plat",
-            "o"
+            "plato"
         ],
         "pred_polarities": [
             "neutral",
-            "negative",
-            "positive",
-            "positive",
-            "positive",
-            "neutral",
-            "positive",
             "positive",
             "positive",
             "positive"
@@ -3590,224 +1562,82 @@
     "192": {
         "pred_terms": [
             "ambiente",
-            "lugar",
-            "camareros",
-            "atencion",
-            "sensacion",
-            "at",
-            "aten",
-            "camare",
-            "ros",
-            "cam"
+            "lugar"
         ],
         "pred_polarities": [
-            "negative",
-            "neutral",
-            "negative",
-            "negative",
-            "positive",
-            "negative",
-            "negative",
-            "negative",
             "negative",
             "negative"
         ]
     },
     "193": {
-        "pred_terms": [
-            "restaurante",
-            "enemigo"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "194": {
         "pred_terms": [
-            "men\u00fa",
-            "antelaci\u00f3n",
-            "servido",
-            "pagado",
-            "i\u00f3n",
-            "laci\u00f3n",
-            "ante",
-            "servi",
-            "antelac",
-            "pactado"
+            "men\u00fa"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "195": {
-        "pred_terms": [
-            "postres",
-            "miniaturas",
-            "concurso",
-            "miniatura",
-            "mini",
-            "post",
-            "res",
-            "s",
-            "aturas",
-            "atura"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "196": {
-        "pred_terms": [
-            "postres",
-            "post",
-            "res",
-            "personas"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "197": {
         "pred_terms": [
-            "servicio",
-            "iron\u00eda",
-            "iron",
-            "\u00eda"
+            "servicio"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "198": {
-        "pred_terms": [
-            "retaurante",
-            "colette",
-            "dia",
-            "retaur",
-            "ante",
-            "aurante",
-            "ret",
-            "ette",
-            "zaragoza",
-            "col"
-        ],
-        "pred_polarities": [
-            "negative",
-            "neutral",
-            "neutral",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "neutral",
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "199": {
         "pred_terms": [
             "servicio",
-            "restaurante",
-            "aperitivo",
-            "atencion",
-            "eritivo",
-            "at",
-            "aperiti",
-            "ap",
-            "vo",
-            "cominda"
+            "restaurante"
         ],
         "pred_polarities": [
             "positive",
-            "positive",
-            "negative",
-            "positive",
-            "negative",
-            "positive",
-            "negative",
-            "negative",
-            "negative",
             "positive"
         ]
     },
     "200": {
         "pred_terms": [
-            "mesa",
-            "sitio"
+            "mesa"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive"
+            "neutral"
         ]
     },
     "201": {
         "pred_terms": [
             "comida",
             "restaurante",
-            "servicio",
-            "decoracion",
-            "comodidad",
-            "coracion",
-            "d",
-            "cion",
-            "decora",
-            "de"
+            "servicio"
         ],
         "pred_polarities": [
             "negative",
             "positive",
-            "negative",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
+            "negative"
         ]
     },
     "202": {
         "pred_terms": [
-            "decoraci\u00f3n",
             "puesta en escena",
-            "coraci\u00f3n",
-            "decora",
-            "de",
-            "ci\u00f3n",
-            "cora"
+            "decoraci\u00f3n"
         ],
         "pred_polarities": [
-            "positive",
             "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
@@ -3829,41 +1659,19 @@
     },
     "205": {
         "pred_terms": [
-            "restaurante",
-            "calidad",
-            "opini\u00f3n",
-            "pretencioso"
+            "restaurante"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "negative"
+            "positive"
         ]
     },
     "206": {
         "pred_terms": [
             "dulces",
-            "caf\u00e9",
-            "dulce",
-            "ca",
-            "f\u00e9",
-            "s",
-            "sirven",
-            "sirve",
-            "cobre",
-            "que"
+            "caf\u00e9"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
+            "positive",
             "neutral"
         ]
     },
@@ -3872,25 +1680,15 @@
             "restaurante"
         ],
         "pred_polarities": [
-            "neutral"
+            "negative"
         ]
     },
     "208": {
         "pred_terms": [
             "restaurante",
-            "ambientaci\u00f3n",
-            "ambient",
-            "ambientaci",
-            "\u00f3n",
-            "aci\u00f3n",
-            "aci"
+            "ambientaci\u00f3n"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
@@ -3900,75 +1698,29 @@
             "comida"
         ],
         "pred_polarities": [
-            "neutral"
-        ]
-    },
-    "210": {
-        "pred_terms": [
-            "sevicio",
-            "se",
-            "sevici",
-            "o",
-            "vicio"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
+    "210": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
     "211": {
         "pred_terms": [
-            "vino",
-            "botella",
-            "camareras",
-            "bot",
-            "camare",
-            "ras",
-            "areras",
-            "ella",
-            "cam",
-            "pedido"
+            "vino"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "212": {
         "pred_terms": [
             "pan",
-            "camareras",
-            "trato",
-            "murmullo",
-            "camare",
-            "cam",
-            "ras",
-            "trat",
-            "murmul",
-            "mur"
+            "camareras"
         ],
         "pred_polarities": [
             "neutral",
-            "positive",
-            "positive",
-            "negative",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "negative",
-            "negative"
+            "positive"
         ]
     },
     "213": {
@@ -3986,254 +1738,110 @@
             "comida",
             "aguas",
             "habitaciones",
-            "balneario",
-            "piel",
-            "habita",
-            "ciones",
-            "rio",
-            "bal",
-            "neario"
+            "balneario"
         ],
         "pred_polarities": [
             "positive",
             "positive",
             "positive",
-            "neutral",
-            "negative",
-            "positive",
-            "positive",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "215": {
-        "pred_terms": [
-            "trabajadores",
-            "amabilidad",
-            "ama",
-            "bilidad"
-        ],
-        "pred_polarities": [
-            "negative",
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "216": {
         "pred_terms": [
             "servicio",
-            "horario",
-            "grupos",
-            "hora",
-            "rio",
-            "extricto"
+            "horario"
         ],
         "pred_polarities": [
             "negative",
-            "positive",
-            "negative",
-            "positive",
-            "positive",
-            "positive"
+            "negative"
         ]
     },
     "217": {
-        "pred_terms": [
-            "personal"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "218": {
         "pred_terms": [
             "comida",
-            "calidad",
-            "arroces",
-            "arroc",
-            "ar",
-            "es",
-            "roces",
-            "excelentes"
+            "calidad"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
     },
     "219": {
         "pred_terms": [
-            "precios",
-            "carta",
-            "vinos",
-            "precio",
-            "vino",
-            "s"
+            "carta de vinos"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "220": {
         "pred_terms": [
-            "comida",
-            "comidaexquisita",
-            "comidaex",
-            "comidaexquis",
-            "abundante",
-            "e",
-            "ita",
-            "quisita",
-            "exquisita"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "221": {
         "pred_terms": [
             "menu",
-            "carta",
-            "precio",
-            "familia",
-            "domingo",
-            "arroces",
-            "ni\u00f1os",
-            "postres",
-            "arroc",
-            "ar"
+            "carta"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
             "neutral",
-            "neutral",
-            "positive",
-            "positive",
-            "neutral",
-            "positive",
             "positive"
         ]
     },
     "222": {
         "pred_terms": [
             "camareros",
-            "atenci\u00f3n",
-            "ros",
-            "at",
-            "cam",
-            "camare",
-            "areros",
-            "aten",
-            "ci\u00f3n",
-            "enci\u00f3n"
+            "atenci\u00f3n"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
             "negative",
             "negative"
         ]
     },
     "223": {
         "pred_terms": [
-            "vinos",
-            "paella",
-            "ubicaci\u00f3n",
-            "bogavante",
-            "vino",
-            "centro",
-            "barcelona",
-            "pa",
-            "ubica",
-            "ella"
+            "vinos"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "224": {
         "pred_terms": [
-            "carne",
-            "fumable"
+            "carne"
         ],
         "pred_polarities": [
-            "positive",
             "positive"
         ]
     },
     "225": {
         "pred_terms": [
             "mesa",
-            "arroz",
-            "camareros",
-            "areros",
-            "ros",
-            "camare",
-            "cam",
-            "discusiones",
-            "siones",
-            "are"
+            "arroz"
         ],
         "pred_polarities": [
             "neutral",
-            "neutral",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "neutral",
-            "neutral",
-            "negative"
+            "neutral"
         ]
     },
     "226": {
         "pred_terms": [
-            "comida",
-            "correctita",
-            "ita"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
             "positive"
         ]
     },
@@ -4241,39 +1849,19 @@
         "pred_terms": [
             "sal",
             "carta",
-            "copa",
-            "camareros",
-            "cenar",
-            "lubina",
-            "cena",
-            "cava rosado",
-            "cam",
-            "camare"
+            "camareros"
         ],
         "pred_polarities": [
             "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
             "positive",
             "positive"
         ]
     },
     "228": {
         "pred_terms": [
-            "chocolate",
-            "postres",
-            "post",
-            "res"
+            "chocolate"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
@@ -4281,23 +1869,11 @@
         "pred_terms": [
             "cena",
             "clientes",
-            "sala",
-            "camareros",
-            "camarero",
-            "cocina",
             "cocina-sala",
-            "sistema",
-            "log\u00edstico",
-            "camare"
+            "camareros"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "neutral",
-            "negative",
-            "negative",
+            "positive",
             "negative",
             "negative",
             "negative"
@@ -4305,12 +1881,10 @@
     },
     "230": {
         "pred_terms": [
-            "calor",
-            "local"
+            "calor"
         ],
         "pred_polarities": [
-            "positive",
-            "neutral"
+            "positive"
         ]
     },
     "231": {
@@ -4332,244 +1906,88 @@
         ]
     },
     "233": {
-        "pred_terms": [
-            "espera",
-            "pie",
-            "cola)",
-            ")",
-            "larga"
-        ],
-        "pred_polarities": [
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "234": {
-        "pred_terms": [
-            "rinc\u00f3n",
-            "rin",
-            "c\u00f3n",
-            "casualidad",
-            "casuali",
-            "comodo",
-            "incomodo"
-        ],
-        "pred_polarities": [
-            "negative",
-            "neutral",
-            "negative",
-            "neutral",
-            "neutral",
-            "negative",
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "235": {
         "pred_terms": [
-            "sonido",
-            "pantalla",
-            "televisor",
-            "cabeza",
-            "oido",
-            "tele",
-            "visor",
-            "o",
-            "izquierdo",
-            "ido"
+            "pantalla del televisor"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "236": {
         "pred_terms": [
             "plato",
-            "patatas",
-            "huevos",
-            "fritos",
-            "fritas",
-            "estrellados)",
-            ")",
-            "huevo",
-            "plat",
-            "o"
+            "patatas fritas",
+            "huevos fritos"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral",
             "positive",
-            "positive"
+            "neutral"
         ]
     },
     "237": {
         "pred_terms": [
-            "plato",
-            "pescado",
-            "l\u00edquido",
-            "trozitos",
-            "se\u00f1ora",
-            "plat",
-            "pesca",
-            "hondo",
-            "do",
-            "o"
+            "plato hondo lleno de l\u00edquido"
         ],
         "pred_polarities": [
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "negative",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive"
+            "neutral"
         ]
     },
     "238": {
         "pred_terms": [
             "ajo",
-            "pi\u00f1a",
-            "sabor",
-            "pi\u00f1",
-            "a",
-            "intenso"
+            "pi\u00f1a"
         ],
         "pred_polarities": [
             "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
+            "neutral"
         ]
     },
     "239": {
         "pred_terms": [
-            "restaurante",
-            "web"
+            "restaurante"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral"
+            "negative"
         ]
     },
     "240": {
         "pred_terms": [
-            "platos",
-            "cuchiller\u00eda",
-            "\u00eda",
-            "plat",
-            "cu",
-            "principal)",
-            "entrante",
-            "os",
-            "cuchiller",
-            "cuchi"
+            "cuchiller\u00eda"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
             "neutral"
         ]
     },
     "241": {
         "pred_terms": [
-            "servicio",
-            "manejo",
-            "rapidez",
-            "man",
-            "ejo",
-            "rapide",
-            "z",
-            ":"
+            "servicio"
         ],
         "pred_polarities": [
-            "negative",
-            "neutral",
-            "negative",
-            "neutral",
-            "neutral",
-            "negative",
-            "negative",
             "negative"
         ]
     },
     "242": {
         "pred_terms": [
-            "arroz",
-            "complementos",
-            "mejillones",
-            "gambas",
-            "almejas",
-            "langostinos",
-            "raci\u00f3n",
-            "complement",
-            "gamba",
-            "os"
+            "arroz"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
-            "neutral",
             "positive"
         ]
     },
     "243": {
         "pred_terms": [
-            "pescados",
-            "emplazamiento",
-            "arroces",
-            "porciones",
-            "em",
-            "por",
-            "pesca",
-            "dos",
-            "zamiento",
-            "empla"
+            "emplazamiento"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
             "positive"
         ]
     },
@@ -4583,24 +2001,10 @@
     },
     "245": {
         "pred_terms": [
-            "paella",
-            "barcelona",
-            "pa",
-            "ella",
-            "bar",
-            "ona",
-            "celona",
-            "barcel"
+            "paella"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "neutral"
+            "positive"
         ]
     },
     "246": {
@@ -4608,60 +2012,32 @@
             "local"
         ],
         "pred_polarities": [
-            "neutral"
+            "positive"
         ]
     },
     "247": {
         "pred_terms": [
             "bebida",
-            "vinos",
-            "carta",
-            "be",
-            "bida",
-            "precios",
-            "precio",
-            "vino",
-            "s",
-            "elevados"
+            "carta de vinos"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
             "negative",
             "negative"
         ]
     },
     "248": {
         "pred_terms": [
-            "vinos",
-            "carta",
-            "opcion",
-            "vino",
-            "s",
-            "op",
-            "cion",
-            "extensa",
-            "cuarta"
+            "vinos"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive",
-            "negative",
-            "neutral",
-            "neutral",
-            "negative",
-            "negative",
-            "positive",
-            "negative"
+            "neutral"
         ]
     },
     "249": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
+    "250": {
         "pred_terms": [
             "servicio"
         ],
@@ -4669,545 +2045,239 @@
             "positive"
         ]
     },
-    "250": {
-        "pred_terms": [
-            "servicio",
-            "petici\u00f3n",
-            "cometido",
-            "ici\u00f3n",
-            "pet",
-            "\"",
-            "tido",
-            "come"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative",
-            "neutral",
-            "negative",
-            "negative",
-            "negative",
-            "neutral",
-            "neutral"
-        ]
-    },
     "251": {
         "pred_terms": [
             "cocina",
-            "carnes",
-            "elaboraci\u00f3n",
-            "carne",
-            "gusto",
-            "comernsal",
-            "grado",
-            "ci\u00f3n",
-            "s",
-            "boraci\u00f3n"
+            "carnes"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
             "negative",
-            "negative",
-            "negative",
-            "neutral",
-            "positive",
-            "neutral"
+            "positive"
         ]
     },
     "252": {
         "pred_terms": [
-            "servicio",
             "comida",
-            "lugar",
-            "carta",
-            "atenci\u00f3n",
-            "at",
-            "aten",
-            "completa",
-            "ci\u00f3n",
-            "enci\u00f3n"
+            "servicio"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
     },
     "253": {
         "pred_terms": [
-            "platos",
-            "plat",
-            "cocinados",
-            "os",
-            "cocina",
-            "dos"
+            "platos"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "254": {
-        "pred_terms": [
-            "pica",
-            "pi",
-            "ca",
-            "compartir"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "255": {
         "pred_terms": [
-            "local",
-            "pasada"
+            "local"
         ],
         "pred_polarities": [
-            "neutral",
             "neutral"
         ]
     },
     "256": {
         "pred_terms": [
-            "cocina",
-            "altura"
+            "cocina"
         ],
         "pred_polarities": [
-            "positive",
-            "neutral"
+            "positive"
         ]
     },
     "257": {
         "pred_terms": [
-            "vinos",
-            "vino",
-            "s",
-            "baratos"
+            "vinos"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "258": {
         "pred_terms": [
             "men\u00fa",
-            "local",
-            "d\u00eda"
+            "local"
         ],
         "pred_polarities": [
             "neutral",
-            "positive",
-            "neutral"
+            "positive"
         ]
     },
     "259": {
         "pred_terms": [
             "cocina",
-            "noodles",
-            "pasta",
-            "verduritas",
-            "china",
-            "resaca",
-            "odles",
-            "no",
-            "les",
-            "nood"
+            "pasta china"
         ],
         "pred_polarities": [
             "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral"
+            "positive"
         ]
     },
     "260": {
-        "pred_terms": [
-            "personal",
-            "maj\u00edsimo",
-            "maj\u00ed"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative",
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "261": {
         "pred_terms": [
             "comida",
-            "servicio",
-            "sitio",
-            "precioso",
-            "precio",
-            "so"
+            "servicio"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
     },
     "262": {
-        "pred_terms": [
-            "local precioso",
-            "precio",
-            "so"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "263": {
         "pred_terms": [
-            "platos",
-            "calidad",
-            "plat",
-            "os"
+            "platos"
         ],
         "pred_polarities": [
-            "neutral",
-            "negative",
-            "neutral",
-            "neutral"
+            "positive"
         ]
     },
     "264": {
         "pred_terms": [
-            "menu",
-            "carta",
-            "dia",
-            "!"
+            "menu"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "265": {
         "pred_terms": [
-            "cocina",
-            "mano"
+            "cocina"
         ],
         "pred_polarities": [
-            "neutral",
             "positive"
         ]
     },
     "266": {
         "pred_terms": [
-            "restaurante",
-            "canto",
-            "moderno",
-            "encanto",
-            "o"
+            "restaurante"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "267": {
         "pred_terms": [
-            "men\u00fa",
-            "degustaci\u00f3n",
-            "gustaci\u00f3n",
-            "\u00f3n",
-            "aci\u00f3n",
-            "degustaci",
-            "degust",
-            "de",
-            "gustaci",
-            "gust"
+            "men\u00fa"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
+            "neutral"
         ]
     },
     "268": {
         "pred_terms": [
-            "ambiente",
-            "detalle",
             "m\u00fasica",
-            "alle",
-            "det"
+            "ambiente"
         ],
         "pred_polarities": [
             "positive",
-            "negative",
-            "negative",
-            "negative",
-            "negative"
+            "positive"
         ]
     },
     "269": {
         "pred_terms": [
             "platos",
-            "men\u00fa",
-            "plat",
-            "os",
-            "degustaci\u00f3n",
-            "gustaci\u00f3n",
-            "\u00f3n",
-            "aci\u00f3n",
-            "degustaci",
-            "gustaci"
+            "men\u00fa"
         ],
         "pred_polarities": [
             "negative",
-            "neutral",
-            "negative",
-            "negative",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "270": {
         "pred_terms": [
-            "comida",
-            "calidad",
-            "carta",
-            "italiana",
-            "mejicana",
-            "na",
-            "jicana",
-            "pena",
-            "mejica",
-            "me"
+            "comida"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral"
+            "positive"
         ]
     },
     "271": {
         "pred_terms": [
-            "lasa\u00f1a",
-            "cocinada",
-            "super",
-            "cocina",
-            "las",
-            "a\u00f1a",
-            "da",
-            "que",
-            "cocinada\u2026creo",
-            "venden"
+            "lasa\u00f1a"
         ],
         "pred_polarities": [
-            "neutral",
-            "negative",
-            "neutral",
-            "negative",
-            "neutral",
-            "neutral",
-            "negative",
-            "neutral",
-            "negative",
             "neutral"
         ]
     },
     "272": {
         "pred_terms": [
             "musica",
-            "comida",
-            "restaurante",
-            "estancia",
-            "italiana",
-            "latinoamericana",
-            "volumen",
-            "colmo",
-            "americana",
-            "monasterio"
+            "comida"
         ],
         "pred_polarities": [
             "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "negative",
-            "neutral",
-            "positive",
             "neutral"
         ]
     },
     "273": {
         "pred_terms": [
             "carne",
-            "restaurante",
-            "pescado",
             "productos",
-            "restaurantes",
-            "sidreria",
-            "calidad",
-            "pesca",
-            "sidrer",
-            "sid"
+            "restaurante",
+            "restaurantes la comes como en la sidreria"
         ],
         "pred_polarities": [
             "positive",
             "positive",
-            "neutral",
             "positive",
-            "negative",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "274": {
         "pred_terms": [
-            "pescados",
             "productos",
             "producto",
-            "salsas",
-            "cocinados",
-            "salsa",
-            "pesca",
-            "frescos",
-            "dos",
-            "cocina"
+            "pescados",
+            "salsas"
         ],
         "pred_polarities": [
             "positive",
             "negative",
-            "negative",
-            "neutral",
             "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
+            "negative"
         ]
     },
     "275": {
         "pred_terms": [
-            "carne",
-            "zaragoza",
-            "espa\u00f1a",
-            "pa\u00f1a",
-            "za",
-            "oza",
-            "zarag",
-            "ragoza",
-            "es"
+            "carne"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "276": {
         "pred_terms": [
             "comida",
-            "restaurante",
-            "atenci\u00f3n",
-            "at",
-            "aten",
-            "ci\u00f3n",
-            "enci\u00f3n",
-            "excelente"
+            "restaurante"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
     },
     "277": {
         "pred_terms": [
-            "servicio",
             "comida",
-            "cena",
-            "vinos",
-            "postres",
-            "carta",
-            "vino",
-            "post",
-            "s",
-            "res"
+            "servicio",
+            "cena"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive",
             "positive"
@@ -5215,41 +2285,15 @@
     },
     "278": {
         "pred_terms": [
-            "local",
-            "amplio",
-            "acondicionado"
+            "local"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "279": {
-        "pred_terms": [
-            "platos",
-            "pica pica",
-            "argentinos",
-            "catalanes",
-            "plat",
-            "t\u00edpicos",
-            "pi",
-            "os",
-            "ca",
-            "argentino"
-        ],
-        "pred_polarities": [
-            "positive",
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "280": {
         "pred_terms": [
@@ -5257,28 +2301,16 @@
             "precio"
         ],
         "pred_polarities": [
-            "neutral",
+            "negative",
             "positive"
         ]
     },
     "281": {
         "pred_terms": [
-            "servicio",
-            "solomillo",
-            "solo",
-            "millo",
-            "o",
-            "excelente",
-            "solomill"
+            "servicio"
         ],
         "pred_polarities": [
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral"
+            "positive"
         ]
     },
     "282": {
@@ -5300,68 +2332,26 @@
         ]
     },
     "284": {
-        "pred_terms": [
-            "opcion",
-            "rest",
-            "op",
-            "cion"
-        ],
-        "pred_polarities": [
-            "positive",
-            "neutral",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "285": {
         "pred_terms": [
-            "platos",
             "restaurante",
-            "servi io",
-            "calidad",
-            "lujo",
-            "plat",
-            "os",
-            "lu",
-            "jo",
-            "emplatados"
+            "platos",
+            "servi io"
         ],
         "pred_polarities": [
-            "positive",
             "neutral",
             "positive",
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "neutral",
-            "neutral",
             "positive"
         ]
     },
     "286": {
         "pred_terms": [
-            "tubo",
-            "plaza",
-            "zona",
-            "meolo",
-            "ciudad",
-            "pilar",
-            "espa\u00f1a",
-            "zaragoza",
-            "me",
-            "pa\u00f1a"
+            "plaza de espa\u00f1a , en el tubo"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
             "neutral"
         ]
     },
@@ -5378,134 +2368,68 @@
     "288": {
         "pred_terms": [
             "carne",
-            "carta",
-            "cal\u00e7ots",
             "huevos",
-            "patatas",
-            "foie",
-            "huevo",
-            "cal\u00e7ot",
-            "hu",
-            "cal"
+            "cal\u00e7ots"
         ],
         "pred_polarities": [
             "positive",
-            "positive",
-            "positive",
             "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "289": {
-        "pred_terms": [
-            "postres",
-            "post",
-            "res"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "290": {
         "pred_terms": [
-            "atentos",
-            "entos",
-            "at"
+            "atentos"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "291": {
         "pred_terms": [
             "comida",
-            "cantidad",
-            "calidad"
+            "cantidad y calidad"
         ],
         "pred_polarities": [
-            "positive",
             "positive",
             "positive"
         ]
     },
     "292": {
         "pred_terms": [
-            "servicio",
-            "comida"
+            "comida",
+            "servicio"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral"
+            "positive",
+            "positive"
         ]
     },
     "293": {
         "pred_terms": [
             "plato",
-            "salsa",
-            "fr\u00eda",
-            "o",
-            "plat",
-            "a",
-            "fr\u00edos",
-            "esp\u00e1rragos",
-            "pedimos",
-            "fr\u00ed"
+            "salsa fr\u00eda"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
             "neutral",
             "neutral"
         ]
     },
     "294": {
         "pred_terms": [
-            "carne",
-            "acompa\u00f1amiento",
-            "ac",
-            "miento",
-            "acompa\u00f1a",
-            "acom",
-            "pa\u00f1amiento",
-            "ompa\u00f1amiento"
+            "carne"
         ],
         "pred_polarities": [
-            "positive",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative"
+            "positive"
         ]
     },
     "295": {
-        "pred_terms": [
-            "postre",
-            "post",
-            "re"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "296": {
         "pred_terms": [
@@ -5518,27 +2442,11 @@
     "297": {
         "pred_terms": [
             "men\u00fa",
-            "bebida",
-            "cal\u00e7ots",
-            "be",
-            "cal\u00e7otada",
-            "bida",
-            "cal\u00e7ot",
-            "cal",
-            "\u00e7ots",
-            "s"
+            "bebida"
         ],
         "pred_polarities": [
             "neutral",
-            "negative",
-            "neutral",
-            "negative",
-            "neutral",
-            "negative",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral"
+            "negative"
         ]
     },
     "298": {
@@ -5546,99 +2454,35 @@
             "carne"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "299": {
-        "pred_terms": [
-            "ambiente",
-            "carta",
-            "preferencias",
-            "preferencia",
-            "calidez",
-            "pre",
-            "ferencias",
-            "pareja",
-            "s",
-            "z"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "negative",
-            "positive",
-            "positive",
-            "neutral",
-            "positive",
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "300": {
         "pred_terms": [
-            "servicio",
-            "jefe",
-            "reserva",
-            "atenci\u00f3n",
-            "at",
-            "aten",
-            "enci\u00f3n",
-            "ci\u00f3n",
-            "puntuales"
+            "servicio"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "301": {
         "pred_terms": [
-            "carne",
-            "pega",
-            "parrillada",
-            "cal\u00e7ots",
-            "gusto)",
-            "par",
-            "parrilla",
-            "cal\u00e7ot",
-            "pe",
-            "ga"
+            "carne"
         ],
         "pred_polarities": [
-            "negative",
-            "positive",
-            "negative",
-            "neutral",
-            "positive",
-            "negative",
-            "negative",
-            "neutral",
-            "positive",
-            "positive"
+            "negative"
         ]
     },
     "302": {
         "pred_terms": [
             "carne",
-            "cal\u00e7ots",
-            "cal\u00e7ot",
-            "cal",
-            "s",
-            "\u00e7ots"
+            "cal\u00e7ots"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
@@ -5654,136 +2498,70 @@
     "304": {
         "pred_terms": [
             "servicio",
-            "reserva",
-            "copas",
-            "rinc\u00f3n",
-            "copa",
-            "cava",
-            "aniversario",
-            "rin",
-            "c\u00f3n",
-            "ca"
+            "reserva"
         ],
         "pred_polarities": [
-            "positive",
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
             "positive",
             "neutral"
         ]
     },
     "305": {
         "pred_terms": [
-            "comida",
-            "preparada",
-            "cilla",
-            "presentada",
-            "sencilla",
-            "parada"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "306": {
         "pred_terms": [
-            "men\u00fa",
             "comida",
-            "variedad"
+            "men\u00fa"
         ],
         "pred_polarities": [
-            "neutral",
             "positive",
-            "positive"
+            "neutral"
         ]
     },
     "307": {
         "pred_terms": [
-            "menu",
-            "pescado",
-            "do",
-            "pesca"
+            "menu"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
-            "negative"
+            "neutral"
         ]
     },
     "308": {
         "pred_terms": [
-            "men\u00fa",
             "servicio",
-            "platos",
-            "plat",
-            "os"
+            "men\u00fa"
         ],
         "pred_polarities": [
-            "neutral",
             "positive",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "309": {
         "pred_terms": [
-            "platos",
-            "plat",
-            "cocinados",
-            "os",
-            "cocina",
-            "dos"
+            "platos"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "310": {
         "pred_terms": [
-            "comida",
-            "cliente",
-            "personal",
-            "trato",
-            "trat",
-            "o",
-            "ganas"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "negative",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "negative"
+            "positive"
         ]
     },
     "311": {
         "pred_terms": [
-            "cena",
-            "productos",
-            "normal"
+            "cena"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive",
             "neutral"
         ]
     },
@@ -5800,27 +2578,15 @@
             "cena"
         ],
         "pred_polarities": [
-            "negative"
+            "positive"
         ]
     },
     "314": {
         "pred_terms": [
             "comida",
-            "presentaci\u00f3n",
-            "atenci\u00f3n",
-            "presenta",
-            "at",
-            "enci\u00f3n",
-            "ci\u00f3n",
-            "aten"
+            "presentaci\u00f3n"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
@@ -5828,163 +2594,61 @@
     "315": {
         "pred_terms": [
             "precio",
-            "calidad",
             "restaurantes",
-            "calidad-precio",
-            "restaurante",
-            "categor\u00eda",
-            "referencia",
-            "s",
-            "zaragoza",
-            "ragoza"
+            "calidad-precio"
         ],
         "pred_polarities": [
             "neutral",
             "positive",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
+            "neutral"
         ]
     },
     "316": {
         "pred_terms": [
-            "servicio",
-            "valor",
-            "experiencia",
-            "profesionalidad",
-            "trato exquisitos",
-            "quisitos",
-            "idad",
-            "profesional",
-            "trat",
-            "a\u00f1adido"
+            "servicio"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "317": {
-        "pred_terms": [
-            "direcci\u00f3n",
-            "dire",
-            "cci\u00f3n"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "318": {
-        "pred_terms": [
-            "bodega",
-            "carta",
-            "calidad",
-            "comer",
-            "trato",
-            "bod",
-            "ega",
-            "primera",
-            "\u00fanica",
-            "sorpresas"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "319": {
         "pred_terms": [
-            "cliente",
-            "calidad",
-            "trato",
-            "comentario",
-            "trat",
-            "io",
-            "ntario",
-            "come",
-            "comentar",
-            ")"
+            "calidad"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "negative",
-            "positive",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative"
+            "positive"
         ]
     },
     "320": {
         "pred_terms": [
             "menu",
             "restaurante",
-            "servicio",
-            "trato",
-            "trat",
-            "o"
+            "servicio"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive",
             "positive"
         ]
     },
     "321": {
-        "pred_terms": [
-            "proceso",
-            "sentidos"
-        ],
-        "pred_polarities": [
-            "positive",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "322": {
         "pred_terms": [
             "men\u00fa",
-            "servicio",
-            "vinos",
-            "carta",
-            "vino",
-            "s",
-            "excelente"
+            "servicio"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
@@ -5992,435 +2656,173 @@
     "323": {
         "pred_terms": [
             "comida",
-            "servicio",
-            "calidad",
-            "decoraci\u00f3n",
-            "coraci\u00f3n",
-            "amplitud",
-            "ci\u00f3n",
-            "decora",
-            "tud",
-            "de"
+            "servicio"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
+            "negative",
+            "negative"
         ]
     },
     "324": {
         "pred_terms": [
-            "precios",
-            "precio",
-            "s",
-            "ajustados",
-            "dos",
-            "ustados",
-            "ajusta"
+            "precios"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
             "negative"
         ]
     },
     "325": {
         "pred_terms": [
-            "servicio",
-            "prestado",
-            "o",
-            "stado",
-            "pre",
-            "prestad"
+            "servicio"
         ],
         "pred_polarities": [
-            "positive",
-            "negative",
-            "negative",
-            "negative",
-            "positive",
-            "negative"
+            "positive"
         ]
     },
     "326": {
         "pred_terms": [
-            "comida",
-            "alto",
-            "aprobada"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "327": {
-        "pred_terms": [
-            "sitio",
-            "adecuado",
-            "ecuado"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "328": {
-        "pred_terms": [
-            "wc",
-            "espaciosos",
-            "c",
-            "limpios",
-            "espacios",
-            "os",
-            "w",
-            "mpios"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "329": {
         "pred_terms": [
             "comida",
             "lugar",
-            "atenci\u00f3n",
-            "at",
-            "aten",
-            "ci\u00f3n",
-            "enci\u00f3n"
+            "atenci\u00f3n"
         ],
         "pred_polarities": [
+            "positive",
             "neutral",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "330": {
-        "pred_terms": [
-            "personal",
-            "atenci\u00f3n",
-            "at",
-            "aten",
-            "ci\u00f3n",
-            "enci\u00f3n"
-        ],
-        "pred_polarities": [
-            "negative",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "331": {
         "pred_terms": [
-            "comida",
-            "precio",
-            "calidad",
-            "calidad-precio",
-            "relaci\u00f3n",
-            "cantidad",
-            "re",
-            "relac",
-            "laci\u00f3n",
-            "i\u00f3n"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "332": {
         "pred_terms": [
             "comida",
-            "restaurante",
-            "grupos",
-            "cenas",
-            "ruido",
-            "ido",
-            "ru"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "neutral",
-            "neutral",
-            "negative",
-            "negative",
-            "negative"
-        ]
-    },
-    "333": {
-        "pred_terms": [
-            "mesas",
-            "mesa",
-            "s",
-            "juntas"
-        ],
-        "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
-            "neutral"
-        ]
-    },
-    "334": {
-        "pred_terms": [
-            "servicio",
-            "pesimo"
+            "restaurante"
         ],
         "pred_polarities": [
             "positive",
             "positive"
         ]
     },
+    "333": {
+        "pred_terms": [
+            "mesas"
+        ],
+        "pred_polarities": [
+            "negative"
+        ]
+    },
+    "334": {
+        "pred_terms": [],
+        "pred_polarities": []
+    },
     "335": {
         "pred_terms": [
             "comida",
-            "atencion",
-            "at",
-            "aten",
-            "cion",
-            "encion"
+            "atencion"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
     },
     "336": {
-        "pred_terms": [
-            "menu",
-            "cal\u00e7ots",
-            "pena",
-            "cal",
-            "cal\u00e7ot",
-            "s",
-            "\u00e7ots"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "337": {
         "pred_terms": [
-            "ambiente",
             "servicio",
-            "esmerado",
-            "do",
-            "merado"
+            "ambiente"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
     },
     "338": {
-        "pred_terms": [
-            "propuesta",
-            "maridajes",
-            "necesidades",
-            "arte",
-            "cultural",
-            "maridaje",
-            "l\u00fadica",
-            "mari",
-            "ser humano",
-            "primarias"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "339": {
         "pred_terms": [
-            "respeto",
-            "reducto",
-            "llantar",
-            "cigarro",
-            "habano",
-            "resp",
-            "reduc",
-            "ci",
-            "llanta",
-            "ll"
+            "cigarro habano"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "340": {
         "pred_terms": [
             "cocina",
-            "marco",
-            "precio",
-            "trato",
-            "calidad",
-            "calidad/precio",
-            "referente",
-            "cruzada",
-            "trat",
-            "tabaco"
+            "precio"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
     },
     "341": {
         "pred_terms": [
-            "pasta",
-            "restaurante",
             "cocina",
-            "calidad",
-            "regular",
-            "americana"
+            "pasta",
+            "restaurante"
         ],
         "pred_polarities": [
+            "positive",
             "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
+            "neutral"
         ]
     },
     "342": {
         "pred_terms": [
             "comida",
-            "servicio",
-            "comedores",
-            "dores",
-            "come"
+            "servicio"
         ],
         "pred_polarities": [
-            "negative",
-            "negative",
-            "negative",
             "negative",
             "negative"
         ]
     },
     "343": {
         "pred_terms": [
-            "restaurante",
-            "personal",
-            "problema",
-            "futbol",
-            "romareda",
-            "campo",
-            "suficiente",
-            "romared",
-            "rom",
-            "a"
+            "restaurante"
         ],
         "pred_polarities": [
-            "positive",
-            "negative",
-            "negative",
-            "neutral",
-            "neutral",
-            "neutral",
-            "negative",
-            "neutral",
-            "neutral",
-            "neutral"
+            "positive"
         ]
     },
     "344": {
         "pred_terms": [
             "clientes",
-            "cosa",
-            "personal",
-            "dias",
-            "afluencia",
-            "falta",
-            "afl",
-            "afluen",
-            "cia",
-            "uencia"
+            "personal"
         ],
         "pred_polarities": [
-            "negative",
-            "positive",
-            "negative",
-            "neutral",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
             "negative",
             "negative"
         ]
@@ -6428,127 +2830,49 @@
     "345": {
         "pred_terms": [
             "local",
-            "comida",
-            "restaurantes",
-            "aspecto",
-            "restaurante",
-            "imitacion",
-            "rapida",
-            "a",
-            "s",
-            "americanos"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
     },
     "346": {
-        "pred_terms": [
-            "calor",
-            "comedor",
-            "horno",
-            "pollos",
-            "mayoria",
-            "dor",
-            "come",
-            "horn",
-            "o",
-            "acristalado"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "neutral",
-            "negative",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral",
-            "negative",
-            "negative",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "347": {
         "pred_terms": [
             "comida",
             "menu",
-            "patatas",
-            "cerveza",
-            "refrescos",
-            "costillares",
-            "peque",
-            "hambueguesa",
-            "franquicia",
-            "infantil"
+            "cerveza"
         ],
         "pred_polarities": [
             "negative",
-            "positive",
             "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "negative",
-            "positive"
+            "neutral"
         ]
     },
     "348": {
         "pred_terms": [
-            "productos",
-            "salsa",
-            "bote",
-            "congelados",
-            "e",
-            "bot",
-            "ados",
-            "gelados",
-            "con",
-            "congel"
+            "salsa de bote"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "349": {
         "pred_terms": [
-            "comida",
-            "chef",
             "cocina",
+            "chef",
+            "comida",
             "cantidad",
             "calidad",
-            "factura",
-            "fact",
-            "ura",
-            "tipo",
-            "cocina.la"
+            "factura"
         ],
         "pred_polarities": [
-            "positive",
-            "negative",
             "neutral",
             "positive",
-            "positive",
-            "negative",
             "negative",
             "negative",
             "negative",
@@ -6558,273 +2882,97 @@
     "350": {
         "pred_terms": [
             "servicio",
-            "guitarra",
-            "comedor",
-            "dor",
-            "come",
-            "euros",
-            "guitarra.resumiendo"
+            "guitarra"
         ],
         "pred_polarities": [
             "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "351": {
-        "pred_terms": [
-            "experiencia"
-        ],
-        "pred_polarities": [
-            "negative"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "352": {
         "pred_terms": [
-            "restaurante",
-            "nota"
+            "restaurante"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive"
+            "neutral"
         ]
     },
     "353": {
         "pred_terms": [
-            "restaurante",
-            "comentarios",
-            "ntarios",
-            "come",
-            "ci\u00f3n",
-            "decepci\u00f3n",
-            "pci\u00f3n",
-            "cepci\u00f3n"
+            "restaurante"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "354": {
-        "pred_terms": [
-            "plato",
-            "camar\u00f3n",
-            "escaleras",
-            "tortitas",
-            "comensales",
-            "diferencia",
-            "jam\u00f3n",
-            "plat",
-            "huelva",
-            "c\u00e1diz"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "negative",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "355": {
         "pred_terms": [
-            "arena",
-            "playa",
-            "hortigillas",
-            "las",
-            "gillas",
-            "rtigillas",
-            "hortigil",
-            "horti",
-            "ho",
-            "fatal"
+            "arena de playa"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "negative"
+            "neutral"
         ]
     },
     "356": {
         "pred_terms": [
-            "sabor",
-            "aceite",
-            "puntillitas",
-            "requemado",
-            "o",
-            "puntilli",
-            "tas",
-            "punti",
-            "quemado",
-            "mado"
+            "aceite"
         ],
         "pred_polarities": [
-            "negative",
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive"
+            "negative"
         ]
     },
     "357": {
         "pred_terms": [
-            "arroz",
-            "cocinero",
-            "bote",
-            "se\u00f1orito",
-            "vera",
-            "piment\u00f3n",
-            "desastre",
-            "bot",
-            "cinero",
-            "co"
+            "cocinero"
         ],
         "pred_polarities": [
-            "positive",
-            "negative",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "negative",
-            "neutral",
-            "negative",
             "negative"
         ]
     },
     "358": {
-        "pred_terms": [
-            "servido",
-            "huevo",
-            "olor",
-            "casta\u00f1a",
-            "vinagre",
-            "orrio",
-            "tapujos",
-            "badajoz",
-            "huelva",
-            "besugo"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "neutral",
-            "neutral",
-            "negative",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "359": {
         "pred_terms": [
-            "vinos",
-            "precio",
-            "vino",
-            "posos)",
-            "s",
-            "crianza",
-            "pesquera",
-            "\u20ac)",
-            ")",
-            "pes"
+            "vinos"
         ],
         "pred_polarities": [
-            "positive",
-            "neutral",
-            "positive",
-            "negative",
-            "positive",
-            "positive",
-            "positive",
-            "negative",
-            "negative",
-            "positive"
+            "neutral"
         ]
     },
     "360": {
         "pred_terms": [
             "comida",
-            "servicio",
-            "ambiente"
+            "servicio"
         ],
         "pred_polarities": [
-            "positive",
             "positive",
             "positive"
         ]
     },
     "361": {
         "pred_terms": [
-            "comida",
-            "atencion",
-            "at",
-            "aten",
-            "cion",
-            "encion"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "362": {
         "pred_terms": [
-            "comida",
-            "salsa",
-            "precio",
-            "calidad",
-            "pato",
-            "pulpo",
-            "tosta",
-            "calidad-precio",
-            "aceitunas",
-            "codorniz"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "neutral"
+            "positive"
         ]
     },
     "363": {
@@ -6834,7 +2982,7 @@
             "sitio"
         ],
         "pred_polarities": [
-            "neutral",
+            "positive",
             "positive",
             "positive"
         ]
@@ -6849,60 +2997,30 @@
     },
     "365": {
         "pred_terms": [
-            "comida",
-            "cocinada",
-            "presentada",
-            "cocina",
-            "da",
-            "presenta"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "neutral"
+            "positive"
         ]
     },
     "366": {
         "pred_terms": [
             "alimentos",
-            "mesas",
             "servicio",
-            "mesa",
-            "calidad",
-            "s"
+            "mesas"
         ],
         "pred_polarities": [
             "positive",
-            "neutral",
             "positive",
-            "neutral",
-            "positive",
-            "neutral"
+            "positive"
         ]
     },
     "367": {
         "pred_terms": [
-            "entorno",
-            "carpa",
-            "feria",
-            "car",
-            "\"",
-            "pa",
-            "ia",
-            "fer"
+            "entorno"
         ],
         "pred_polarities": [
-            "positive",
-            "negative",
-            "neutral",
-            "negative",
-            "negative",
-            "negative",
-            "neutral",
-            "neutral"
+            "positive"
         ]
     },
     "368": {
@@ -6910,36 +3028,22 @@
             "servicio",
             "ambiente",
             "sabor",
-            "paella",
-            "fideu\u00e1",
-            "pa",
-            "ella",
-            "\u00e1",
-            "fi",
-            "fideu"
+            "paella"
         ],
         "pred_polarities": [
             "positive",
             "negative",
             "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "negative",
-            "positive",
-            "positive"
+            "negative"
         ]
     },
     "369": {
         "pred_terms": [
             "men\u00fa",
-            "productos",
-            "calidad"
+            "productos"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
+            "neutral",
             "positive"
         ]
     },
@@ -6953,72 +3057,22 @@
     },
     "371": {
         "pred_terms": [
-            "camareros",
-            "camare",
-            "cam",
-            "areros",
-            "ros",
-            "are"
+            "camareros"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "positive",
             "neutral"
         ]
     },
     "372": {
-        "pred_terms": [
-            "may\u00fasculas",
-            "restaurente",
-            "may\u00fa",
-            "resta",
-            "restauren",
-            "may\u00fascu",
-            "las",
-            "sculas",
-            "te",
-            "urente"
-        ],
-        "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "373": {
         "pred_terms": [
-            "comida",
-            "precio",
-            "plazas",
-            "camareros",
-            "plaza",
-            "rededor",
-            "areros",
-            "ruido",
-            "camare",
-            "s"
+            "comida"
         ],
         "pred_polarities": [
-            "positive",
-            "negative",
-            "neutral",
-            "positive",
-            "neutral",
-            "negative",
-            "positive",
-            "negative",
-            "positive",
-            "neutral"
+            "positive"
         ]
     },
     "374": {
@@ -7033,310 +3087,102 @@
     },
     "375": {
         "pred_terms": [
-            "organisacion",
-            "organi",
-            "organisa",
-            "cion",
-            "sacion",
-            "excelente",
-            "sa"
+            "organisacion"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "376": {
         "pred_terms": [
-            "restaurante",
-            "rato",
-            "rat",
-            "o"
+            "restaurante"
         ],
         "pred_polarities": [
-            "neutral",
-            "positive",
-            "positive",
             "positive"
         ]
     },
     "377": {
-        "pred_terms": [
-            "pescado",
-            "salamanca",
-            "pesca",
-            "do",
-            "sala",
-            "salaman",
-            "manca",
-            "ca"
-        ],
-        "pred_polarities": [
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "378": {
-        "pred_terms": [
-            "personal",
-            "idiomas"
-        ],
-        "pred_polarities": [
-            "negative",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "379": {
         "pred_terms": [
-            "vino",
-            "rosado",
-            "poquito",
-            "do",
-            "po",
-            "rosa",
-            "quito",
-            "mediano"
+            "vino rosado"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
             "neutral"
         ]
     },
     "380": {
         "pred_terms": [
             "mesas",
-            "camarero",
-            "mesa",
-            "atenci\u00f3n",
-            "cam",
-            "camare",
-            "ro",
-            "s",
-            "arero",
-            "enci\u00f3n"
+            "camarero"
         ],
         "pred_polarities": [
             "negative",
-            "positive",
-            "negative",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "negative",
-            "positive",
             "positive"
         ]
     },
     "381": {
         "pred_terms": [
-            "mariscada",
-            "mari",
-            "imperial",
-            "marisca",
-            "da",
-            "scada",
-            "fr\u00eda"
+            "mariscada imperial"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "negative"
+            "positive"
         ]
     },
     "382": {
         "pred_terms": [
-            "entrante",
-            "camarero",
-            "mariscada",
-            "cam",
-            "mari",
-            "camare",
-            "e",
-            "ro",
-            "marisca",
-            "arero"
+            "camarero"
         ],
         "pred_polarities": [
-            "neutral",
-            "negative",
-            "neutral",
-            "negative",
-            "neutral",
-            "negative",
-            "neutral",
-            "negative",
-            "neutral",
             "negative"
         ]
     },
     "383": {
         "pred_terms": [
-            "mesa",
-            "aigua",
-            "techo",
-            "caleffacci\u00f3n",
-            "tech",
-            "calef",
-            "o",
-            "cal",
-            "cci\u00f3n",
-            "caleffa"
+            "mesa"
         ],
         "pred_polarities": [
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "positive"
+            "neutral"
         ]
     },
     "384": {
         "pred_terms": [
             "humor",
-            "menus",
-            "navidad",
-            "menu",
-            "navi",
-            "s",
-            "dad",
-            "disponible",
-            "8",
-            "de"
+            "menus de navidad"
         ],
         "pred_polarities": [
             "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
             "neutral"
         ]
     },
     "385": {
-        "pred_terms": [
-            "servicio"
-        ],
-        "pred_polarities": [
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "386": {
-        "pred_terms": [
-            "paella",
-            "flojita",
-            "pa",
-            "ella",
-            "ojita",
-            "ta",
-            "floji",
-            "fl"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "387": {
-        "pred_terms": [
-            "localizaci\u00f3n",
-            "barcelona",
-            "centro",
-            "mar",
-            "bar",
-            "barcel",
-            "localiza",
-            "celona",
-            "ci\u00f3n",
-            "ona"
-        ],
-        "pred_polarities": [
-            "positive",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "neutral",
-            "positive",
-            "neutral",
-            "positive",
-            "neutral"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "388": {
-        "pred_terms": [
-            "entrantes",
-            "paella",
-            "amigo",
-            "entrant",
-            "perelada",
-            "pa",
-            "es",
-            "ella",
-            "perela",
-            "per"
-        ],
-        "pred_polarities": [
-            "positive",
-            "positive",
-            "neutral",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive",
-            "positive"
-        ]
+        "pred_terms": [],
+        "pred_polarities": []
     },
     "389": {
         "pred_terms": [
             "restaurante",
-            "platos",
-            "plat",
-            "tradicionales",
-            "os"
+            "platos"
         ],
         "pred_polarities": [
-            "positive",
-            "positive",
-            "positive",
             "positive",
             "positive"
         ]
