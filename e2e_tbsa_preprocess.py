@@ -2,6 +2,7 @@ import csv
 import utils
 import sys
 import os
+import spacy
 
 # PREDICTIONS_FILE = 'dummymodel/predictions_dummy.csv'
 # PREDICTIONS_FILE = 'generative-predictions/{}/{}_{}_predictions.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
@@ -62,9 +63,9 @@ def get_sentence_matched_with_targets_and_sentiments(aspects_targets, aspects_se
     return real_idx
 
 
-def transform_line_for_target_extraction(line, language):
-    generated_polarities, true_polarities = utils.get_polarities_for_line(line, language)
-    real_sentence = utils.normalise_sentence(line[3].strip(), language)
+def transform_line_for_target_extraction(line, language, spacy_nlp):
+    generated_polarities, true_polarities = utils.get_polarities_for_line(line, language, spacy_nlp)
+    real_sentence = utils.normalise_sentence(line[3].strip(), language, spacy_nlp)
 
     generated_aspects_targets = utils.get_aspect_targets(generated_polarities)
     true_aspects_targets = utils.get_aspect_targets(true_polarities)
@@ -80,9 +81,9 @@ def transform_line_for_target_extraction(line, language):
     return generated_target_idx_list, true_target_idx_list
 
 
-def transform_line_for_sentiment_extraction(line, language):
-    generated_polarities, true_polarities = utils.get_polarities_for_line(line, language)
-    real_sentence = utils.normalise_sentence(line[3].strip(), language)
+def transform_line_for_sentiment_extraction(line, language, spacy_nlp):
+    generated_polarities, true_polarities = utils.get_polarities_for_line(line, language, spacy_nlp)
+    real_sentence = utils.normalise_sentence(line[3].strip(), language, spacy_nlp)
 
     generated_aspects_targets = utils.get_aspect_targets(generated_polarities)
     true_aspects_targets = utils.get_aspect_targets(true_polarities)
@@ -104,7 +105,7 @@ def transform_line_for_sentiment_extraction(line, language):
     return generated_sentiment_idx_list_deduped, true_sentiment_idx_list
 
 
-def transform_gold_and_truth(language, predictions_file, transformed_targets_predictions_file, transformed_sentiments_predictions_file):
+def transform_gold_and_truth(language, spacy_nlp, predictions_file, transformed_targets_predictions_file, transformed_sentiments_predictions_file):
     with open(predictions_file, 'r') as csvfile:
         os.makedirs(os.path.dirname(transformed_targets_predictions_file), exist_ok=True)
         with open(transformed_targets_predictions_file, 'w') as newfile_targets:
@@ -117,25 +118,34 @@ def transform_gold_and_truth(language, predictions_file, transformed_targets_pre
                 writer_sentiments = csv.writer(newfile_sentiments)
                 writer_sentiments.writerow(["Predicted sentiment tags", "Gold sentiment tags"])
                 for line in reader:
-                    pred_transformed, gold_transformed = transform_line_for_target_extraction(line, language)
+                    pred_transformed, gold_transformed = transform_line_for_target_extraction(line, language, spacy_nlp)
+                    # print("Original line: " + line[3])
+                    # print("Prediction transformed: " + str(pred_transformed))
+                    # print("Gold transformed: " + str(gold_transformed))
                     writer_targets.writerow([pred_transformed, gold_transformed])
                     pred_sentiment_transformed, gold_sentiment_transformed = transform_line_for_sentiment_extraction(
-                        line, language)
+                        line, language, spacy_nlp)
                     writer_sentiments.writerow([pred_sentiment_transformed, gold_sentiment_transformed])
 
 
 # Pass argument as the language code - 'en', 'es', 'ru'
 
 # training_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en', 'Mams_en', 'Mams_short_en']
-training_datasets = ['Rest16_en_merged', 'Rest16_es_merged', 'Rest16_ru_merged', 'Lap14_en_merged']
+# training_datasets = ['Rest16_en_merged', 'Rest16_es_merged', 'Rest16_ru_merged', 'Lap14_en_merged']
+training_datasets = ['Lap14_en_merged']
 # test_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en', 'Mams_en', 'Mams_short_en']
-test_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en']
-language = {'Rest16_en': 'en', 'Rest16_es': 'es', 'Rest16_ru': 'ru', 'Lap14_en': 'en', 'Mams_en': 'en', 'Mams_short_en': 'en'}
+# test_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en']
+test_datasets = ['Lap14_en']
+language = {'Rest16_en': 'en', 'Rest16_es': 'es', 'Rest16_ru': 'ru', 'Lap14_en': 'en', 'Mams_en': 'en',
+            'Mams_short_en': 'en', 'Rest16_en_merged': 'en', 'Rest16_es_merged': 'es', 'Rest16_ru_merged': 'ru',
+            'Lap14_en_merged': 'en'}
 
 #### For evaluating spanbert
 for dtrain in training_datasets:
     for dtest in test_datasets:
-        transform_gold_and_truth(language[dtest], PREDICTIONS_FILE.format(dtrain, dtest),
+        print("Training set: {}, Testing set: {}".format(dtrain, dtest))
+        nlp = spacy.load(utils.get_spacy_language(language[dtest]), disable=['parser', 'ner'])
+        transform_gold_and_truth(language[dtest], nlp, PREDICTIONS_FILE.format(dtrain, dtest),
                                  TRANSFORMED_TARGETS_PREDICTIONS_FILE.format(dtrain, dtest),
                                  TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE.format(dtrain, dtest))
 

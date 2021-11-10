@@ -8,8 +8,10 @@ import spacy
 SEPARATOR = '<sep>'
 POSITIVE, NEGATIVE, NEUTRAL = 'positive', 'negative', 'neutral'
 
+
 class EarlyStopping:
     """Early stops the training if validation loss doesn't improve after a given patience."""
+
     def __init__(self, patience=7, verbose=False, delta=0, path='checkpoint.pt', trace_func=print):
         """
         Args:
@@ -33,7 +35,7 @@ class EarlyStopping:
         self.delta = delta
         self.path = path
         self.trace_func = trace_func
-    
+
     def __call__(self, val_loss, model):
 
         score = -val_loss
@@ -54,7 +56,8 @@ class EarlyStopping:
     def save_checkpoint(self, val_loss, model):
         '''Saves model when validation loss decrease.'''
         if self.verbose:
-            self.trace_func(f'Validation loss decreased ({self.val_loss_min:.6f} --> {val_loss:.6f}).  Saving model ...')
+            self.trace_func(
+                f'Validation loss decreased ({self.val_loss_min:.6f} --> {val_loss:.6f}).  Saving model ...')
         torch.save(model.state_dict(), self.path)
         self.val_loss_min = val_loss
 
@@ -130,17 +133,17 @@ class Adafactor(Optimizer):
     """
 
     def __init__(
-        self,
-        params,
-        lr=None,
-        eps=(1e-30, 1e-3),
-        clip_threshold=1.0,
-        decay_rate=-0.8,
-        beta1=None,
-        weight_decay=0.0,
-        scale_parameter=True,
-        relative_step=True,
-        warmup_init=False,
+            self,
+            params,
+            lr=None,
+            eps=(1e-30, 1e-3),
+            clip_threshold=1.0,
+            decay_rate=-0.8,
+            beta1=None,
+            weight_decay=0.0,
+            scale_parameter=True,
+            relative_step=True,
+            warmup_init=False,
     ):
         if lr is not None and relative_step:
             raise ValueError("Cannot combine manual `lr` and `relative_step=True` options")
@@ -291,6 +294,7 @@ def get_full_language_name(language):
         full_name = 'russian'
     return full_name
 
+
 def get_spacy_language(language):
     if language == 'en':
         return 'en_core_web_sm'
@@ -299,30 +303,49 @@ def get_spacy_language(language):
     if language == 'ru':
         return 'ru_core_news_sm'
 
-def normalise_sentence(sentence, language):
+
+def normalise_sentence(sentence, language, spacy_nlp):
     sentence = sentence.replace(',', '')
     sentence = sentence.replace('.', '')
     sentence = sentence.replace('\"', '')
     sentence = sentence.replace('\'s ', ' ')
+    sentence = sentence.replace('(', '')
+    sentence = sentence.replace(')', '')
     sentence = sentence.lower()
+    if sentence == '':
+        return ''
     tokenised_sentence = sentence.split(" ")
-
     stop_words = set(stopwords.words(get_full_language_name(language)))
-    nlp = spacy.load(get_spacy_language(language))
-    return ' '.join([nlp(w)[0].lemma_ for w in tokenised_sentence if w not in stop_words])
+    tokenised_sentence = [w for w in tokenised_sentence if w not in stop_words and w != '' and w != ' ']
+
+    lemmas = []
+    for w in tokenised_sentence:
+        if w == '<sep>':
+            lemmas.append(w)
+            continue
+
+        doc = spacy_nlp(w)
+        # doc should have only one token, but if more then concatenate. e.g. with '(dvd)' changes to ( + dvd + ).
+        lemma = ''
+        for token in doc:
+            lemma += token.lemma_
+        lemmas.append(lemma)
+
+    return ' '.join(lemmas)
 
 
 def get_cleaned_polarities(sentence):
     sentence = preprocess_for_eval.clean_labels(sentence)
     sentence = preprocess_for_eval.add_missed_sep(sentence)
     polarities = sentence.split(SEPARATOR)
-    polarities = [p.strip() for p in polarities if not p.strip().startswith((NEGATIVE, POSITIVE, NEUTRAL)) and p.strip()]
+    polarities = [p.strip() for p in polarities if
+                  not p.strip().startswith((NEGATIVE, POSITIVE, NEUTRAL)) and p.strip()]
     return polarities
 
 
-def get_polarities_for_line(line, language):
-    generated_sentence = normalise_sentence(line[1].strip(), language)
-    true_sentence = normalise_sentence(line[2].strip(), language)
+def get_polarities_for_line(line, language, spacy_nlp):
+    generated_sentence = normalise_sentence(line[1].strip(), language, spacy_nlp)
+    true_sentence = normalise_sentence(line[2].strip(), language, spacy_nlp)
     generated_polarities = get_cleaned_polarities(generated_sentence)
     true_polarities = get_cleaned_polarities(true_sentence)
     return generated_polarities, true_polarities
@@ -330,5 +353,3 @@ def get_polarities_for_line(line, language):
 
 def get_aspect_targets(polarity_sentence):
     return [' '.join(polarity.split()[:-1]) for polarity in polarity_sentence]
-
-print(normalise_sentence('Apples and oranges are similar. Boots and hippos are great.', 'en'))
