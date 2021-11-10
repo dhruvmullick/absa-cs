@@ -7,7 +7,7 @@ import spacy
 
 SEPARATOR = '<sep>'
 POSITIVE, NEGATIVE, NEUTRAL = 'positive', 'negative', 'neutral'
-
+POLARITIES = [POSITIVE, NEUTRAL, NEGATIVE]
 
 class EarlyStopping:
     """Early stops the training if validation loss doesn't improve after a given patience."""
@@ -320,7 +320,7 @@ def normalise_sentence(sentence, language, spacy_nlp):
 
     lemmas = []
     for w in tokenised_sentence:
-        if w == '<sep>':
+        if w == SEPARATOR or w in POLARITIES:
             lemmas.append(w)
             continue
 
