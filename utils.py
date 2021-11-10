@@ -1,16 +1,12 @@
 import numpy as np
 import torch, math
 from torch.optim import Optimizer
-from nltk.stem import WordNetLemmatizer
-import nltk
-# nltk.download('stopwords')
 from nltk.corpus import stopwords
 import preprocess_for_eval
+import spacy
 
 SEPARATOR = '<sep>'
 POSITIVE, NEGATIVE, NEUTRAL = 'positive', 'negative', 'neutral'
-
-lemmatizer = WordNetLemmatizer()
 
 class EarlyStopping:
     """Early stops the training if validation loss doesn't improve after a given patience."""
@@ -295,6 +291,14 @@ def get_full_language_name(language):
         full_name = 'russian'
     return full_name
 
+def get_spacy_language(language):
+    if language == 'en':
+        return 'en_core_web_sm'
+    if language == 'es':
+        return 'es_core_news_sm'
+    if language == 'ru':
+        return 'ru_core_news_sm'
+
 def normalise_sentence(sentence, language):
     sentence = sentence.replace(',', '')
     sentence = sentence.replace('.', '')
@@ -302,8 +306,10 @@ def normalise_sentence(sentence, language):
     sentence = sentence.replace('\'s ', ' ')
     sentence = sentence.lower()
     tokenised_sentence = sentence.split(" ")
+
     stop_words = set(stopwords.words(get_full_language_name(language)))
-    return ' '.join([lemmatizer.lemmatize(w) for w in tokenised_sentence if w not in stop_words])
+    nlp = spacy.load(get_spacy_language(language))
+    return ' '.join([nlp(w)[0].lemma_ for w in tokenised_sentence if w not in stop_words])
 
 
 def get_cleaned_polarities(sentence):
@@ -324,3 +330,5 @@ def get_polarities_for_line(line, language):
 
 def get_aspect_targets(polarity_sentence):
     return [' '.join(polarity.split()[:-1]) for polarity in polarity_sentence]
+
+print(normalise_sentence('Apples and oranges are similar. Boots and hippos are great.', 'en'))
