@@ -16,8 +16,11 @@ SMALL_POSITIVE_CONST = 1e-4
 # TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/combined/transformed-targets_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/combined/transformed-sentiments_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
 
-TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-targets.csv'
-TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-sentiments.csv'
+# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-targets.csv'
+# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-sentiments.csv'
+
+TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/exp/transformed-targets.csv'
+TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/exp/transformed-sentiments.csv'
 
 # TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-targets.csv'
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-sentiments.csv'
@@ -115,7 +118,7 @@ def evaluate_ts(gold_ts, pred_ts):
         # g_ts_sequence, p_ts_sequence = tag2ts(ts_tag_sequence=g_ts), tag2ts(ts_tag_sequence=p_ts)
         g_ts_sequence, p_ts_sequence = g_ts, p_ts
         hit_ts_count, gold_ts_count, pred_ts_count = match_ts(gold_ts_sequence=g_ts_sequence,
-                                                              pred_ts_sequence=p_ts_sequence)
+                                                              pred_ts_sequence=p_ts_sequence, idx=i)
 
         n_tp_ts += hit_ts_count
         n_gold_ts += gold_ts_count
@@ -183,7 +186,7 @@ def evaluate_ts(gold_ts, pred_ts):
 #     return ts_sequence
 
 
-def match_ts(gold_ts_sequence, pred_ts_sequence):
+def match_ts(gold_ts_sequence, pred_ts_sequence, idx):
     """
     calculate the number of correctly predicted targeted sentiment
     :param gold_ts_sequence: gold standard targeted sentiment sequence
@@ -204,6 +207,8 @@ def match_ts(gold_ts_sequence, pred_ts_sequence):
         if t in gold_ts_sequence:
             hit_count[tid] += 1
         pred_count[tid] += 1
+    if not np.all(hit_count == gold_count) or not np.all(hit_count == pred_count):
+        print("{}".format(idx))
     return hit_count, gold_count, pred_count
 
 
@@ -242,14 +247,20 @@ def read_transformed_sentiments(transformed_sentiments_predictions_file):
 # training_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en', 'Mams_en', 'Mams_short_en']
 # test_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en', 'Mams_en', 'Mams_short_en']
 
-training_datasets = ['Rest16_en_merged', 'Rest16_es_merged', 'Rest16_ru_merged', 'Lap14_en_merged']
-test_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en']
+# training_datasets = ['Rest16_en_merged', 'Rest16_es_merged', 'Rest16_ru_merged', 'Lap14_en_merged']
+# test_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en']
+
+# training_datasets = ['Rest16_en_merged', 'Rest16_es_merged', 'Rest16_ru_merged', 'Lap14_en_merged']
+# test_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en']
+
+training_datasets = ['Mams_en']
+test_datasets = ['Mams_en']
 
 #### For evaluating spanbert
 for dtrain in training_datasets:
     for dtest in test_datasets:
         print("EVALUATING - train: {}, test: {}".format(dtrain, dtest))
-        predicted_data, gold_data = read_transformed_targets(TRANSFORMED_TARGETS_PREDICTIONS_FILE.format(dtrain, dtest))
+        # predicted_data, gold_data = read_transformed_targets(TRANSFORMED_TARGETS_PREDICTIONS_FILE.format(dtrain, dtest))
         # print(evaluate_ote(gold_data, predicted_data))
         predicted_data, gold_data = read_transformed_sentiments(TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE.format(dtrain, dtest))
         print(evaluate_ts(gold_data, predicted_data))

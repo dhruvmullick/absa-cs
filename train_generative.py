@@ -179,7 +179,7 @@ def generate(tokenizer, model, device, loader, model_params):
 
             # generated_ids = model.generate(input_ids = ids, attention_mask = mask,
             #                                max_length=256, do_sample=True, top_p=0.9, top_k=0, num_return_sequences=1)
-            # max_length=(int(sys.argv[1])), num_beams=(int(sys.argv[2])), length_penalty=(float(sys.argv[3])), no_repeat_ngram_size=3, early_stopping=True)
+            # max_length=(int(sys.argv[1])), num_beams=(int(sys.argv[2])), length_penalty=(float(sys.a[3])), no_repeat_ngram_size=3, early_stopping=True)
             # max_length=256, num_beams=4, length_penalty=1.5, no_repeat_ngram_size=3, early_stopping=True)
 
             preds = [tokenizer.decode(g, skip_special_tokens=True, clean_up_tokenization_spaces=True) for g in
@@ -285,8 +285,8 @@ def T5Generator(validation_loader, model_params, output_file):
 if __name__ == '__main__':
     # domain: Rest16, Lap14, Mams, Mams_short
     # lang: en, es, ru
-    for train_settings in [('Mams', 'en', 'Rest16', 'en')]:
-            
+    for train_settings in [('Rest16', 'en', 'Rest16', 'en')]:
+
         train_domain = train_settings[0]
         train_language = train_settings[1]
         test_domain = train_settings[2]
@@ -299,15 +299,11 @@ if __name__ == '__main__':
         training = pd.read_csv(training_file)
         validation = pd.read_csv(validation_file)
         test = pd.read_csv(test_file)
-        
-        # for cross-lingual
-        # training['sentences_texts'] = training['sentences_texts'].map(lambda txt: f'generate {lang_map[train_settings[1]]} </s> {txt}')
-        # validation['sentences_texts'] = validation['sentences_texts'].map(lambda txt: f'generate {lang_map[train_settings[1]]} </s> {txt}')
-        # test['sentences_texts'] = test['sentences_texts'].map(lambda txt: f'generate {lang_map[train_settings[1]]} </s> {txt}')
 
         model_params = {
-            "OUTPUT_PATH": f"./generative-predictions/{'_'.join(train_settings[:2])}",  # output path
-            "MODEL": "google/mt5-base",  # model_type: t5-base/t5-large
+            # "OUTPUT_PATH": f"./generative-predictions/{'_'.join(train_settings[:2])}",  # output path
+            "OUTPUT_PATH": f"./models/combined/",  # output path
+            "MODEL": "mrm8488/t5-base-finetuned-common_gen",  # model_type: t5-base/t5-large
             "TRAIN_BATCH_SIZE": 8,  # training batch size
             "VALID_BATCH_SIZE": 8,  # validation batch size
             "TRAIN_EPOCHS": 300,  # number of training epochs
@@ -321,5 +317,6 @@ if __name__ == '__main__':
         training_loader, validation_loader, test_loader, tokenizer = build_data(dataframes=[training, validation, test],
                                                                                 source_text="sentences_texts", target_text="sentences_opinions")
 
-        # T5Trainer(training_loader, validation_loader, tokenizer, model_params=model_params)
-        T5Generator(test_loader, model_params=model_params, output_file=f'{test_domain}_{test_language}_predictions.csv')
+        T5Trainer(training_loader, validation_loader, tokenizer, model_params=model_params)
+        # T5Generator(test_loader, model_params=model_params, output_file=f'{test_domain}_{test_language}_predictions.csv')
+        T5Generator(test_loader, model_params=model_params, output_file=f'new_predictions.csv')
