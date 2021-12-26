@@ -129,10 +129,11 @@ dmypy.json
 .pyre/
 
 # Folders
-models
 .idea/
 .DS_Store
+model_files
 
 #ignoring saved models from T5
 *.model
 *.bin
+*.pt

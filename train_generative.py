@@ -285,7 +285,8 @@ def T5Generator(validation_loader, model_params, output_file):
 if __name__ == '__main__':
     # domain: Rest16, Lap14, Mams, Mams_short
     # lang: en, es, ru
-    for train_settings in [('Rest16', 'en', 'Rest16', 'en')]:
+    # for train_settings in [('Rest16', 'en', 'Rest16', 'en')]:
+    for train_settings in [('Lap14', 'en', 'Lap14', 'en')]:
 
         train_domain = train_settings[0]
         train_language = train_settings[1]
@@ -293,8 +294,9 @@ if __name__ == '__main__':
         test_language = train_settings[3]
         training_file = './data/processed_train_{}_{}.csv'.format(train_domain, train_language)
         validation_file = './data/processed_val_{}_{}.csv'.format(train_domain, train_language)
-        test_file = './data/processed_test_{}_{}.csv'.format(test_domain, test_language)
-        print("Experiment: Training on {}.{}, Testing on {}.{}".format(train_domain, train_language, test_domain, test_language))
+        test_file = './data/merged_ambiguous.csv'
+        # test_file = './data/processed_test_{}_{}.csv'.format(test_domain, test_language)
+        print("Experiment: Training on {}.{}".format(train_domain, train_language))
 
         training = pd.read_csv(training_file)
         validation = pd.read_csv(validation_file)
@@ -303,7 +305,8 @@ if __name__ == '__main__':
         model_params = {
             # "OUTPUT_PATH": f"./generative-predictions/{'_'.join(train_settings[:2])}",  # output path
             "OUTPUT_PATH": f"./models/combined/",  # output path
-            "MODEL": "mrm8488/t5-base-finetuned-common_gen",  # model_type: t5-base/t5-large
+            # "MODEL": "mrm8488/t5-base-finetuned-common_gen",
+            "MODEL": "t5-base",
             "TRAIN_BATCH_SIZE": 8,  # training batch size
             "VALID_BATCH_SIZE": 8,  # validation batch size
             "TRAIN_EPOCHS": 300,  # number of training epochs
@@ -319,4 +322,5 @@ if __name__ == '__main__':
 
         T5Trainer(training_loader, validation_loader, tokenizer, model_params=model_params)
         # T5Generator(test_loader, model_params=model_params, output_file=f'{test_domain}_{test_language}_predictions.csv')
-        T5Generator(test_loader, model_params=model_params, output_file=f'new_predictions.csv')
+        # T5Generator(test_loader, model_params=model_params, output_file=f'commongen_mams_train_merged_test_predictions.csv')
+        T5Generator(test_loader, model_params=model_params, output_file=f'lap14_train_merged_test_predictions.csv')

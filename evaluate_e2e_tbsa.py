@@ -19,8 +19,8 @@ SMALL_POSITIVE_CONST = 1e-4
 # TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-targets.csv'
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-sentiments.csv'
 
-TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/exp/transformed-targets.csv'
-TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/exp/transformed-sentiments.csv'
+TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/exp/other/transformed-targets.csv'
+TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/exp/other/transformed-sentiments.csv'
 
 # TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-targets.csv'
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-sentiments.csv'
@@ -207,8 +207,8 @@ def match_ts(gold_ts_sequence, pred_ts_sequence, idx):
         if t in gold_ts_sequence:
             hit_count[tid] += 1
         pred_count[tid] += 1
-    if not np.all(hit_count == gold_count) or not np.all(hit_count == pred_count):
-        print("{}".format(idx))
+    # if not np.all(hit_count == gold_count) or not np.all(hit_count == pred_count):
+    #     print("{}".format(idx))
     return hit_count, gold_count, pred_count
 
 
@@ -253,8 +253,8 @@ def read_transformed_sentiments(transformed_sentiments_predictions_file):
 # training_datasets = ['Rest16_en_merged', 'Rest16_es_merged', 'Rest16_ru_merged', 'Lap14_en_merged']
 # test_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en']
 
-training_datasets = ['Mams_en']
-test_datasets = ['Mams_en']
+training_datasets = ['Rest16_en']
+test_datasets = ['Rest16_en']
 
 #### For evaluating spanbert
 for dtrain in training_datasets:

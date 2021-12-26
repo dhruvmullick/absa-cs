@@ -241,4 +241,6 @@ if __name__ == '__main__':
     test_ambiguous = pd.concat([rest16_test_ambi, mams_test_ambi, lap14_test_ambi], ignore_index=True)
     test_ambiguous.to_csv('data/merged_ambiguous.csv', header=True, index=False)
 
+    print("Merged file has the record count from: Rest16 -> {}, Mams -> {}, Lap14 -> {}".format(
+        rest16_test_ambi.count(), mams_test_ambi.count(), lap14_test_ambi.count()))
     print('saved..')

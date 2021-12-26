@@ -12,7 +12,7 @@ import spacy
 # PREDICTIONS_FILE = 'spanbert-predictions-transformed/train_spanbert_{}.csv/test_spanbert_{}.csv/predictions.json'
 # PREDICTIONS_FILE = 'models/combined/predictions_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
 # PREDICTIONS_FILE = 'dummymodel/{}_predictions_dummy.csv'
-PREDICTIONS_FILE = 'models/exp/commongen/commongen_fine_tuned_predictions_rest16_en.csv'
+PREDICTIONS_FILE = 'models/combined/lap14_train_merged_test_predictions.csv'
 
 # TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-targets.csv'
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-sentiments.csv'
@@ -20,8 +20,8 @@ PREDICTIONS_FILE = 'models/exp/commongen/commongen_fine_tuned_predictions_rest16
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/combined/transformed-sentiments_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
 # TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-targets.csv'
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-sentiments.csv'
-TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/exp/transformed-targets.csv'
-TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/exp/transformed-sentiments.csv'
+TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/exp/other/transformed-targets.csv'
+TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/exp/other/transformed-sentiments.csv'
 
 SEPARATOR = '<sep>'
 
