@@ -7,11 +7,16 @@ import random
 # lowest possible training record count in the considered datasets.
 WEIRD_CHARACTERS = '.!?,'
 
-# AMBIGUOUS_CASES = [",", " it", " he ", " him ", " she ", " her ", " hers ", " they ", " them ", " its "  " we ", " us "]
-AMBIGUOUS_CASES = [" it ", " its ", " he ", " him ", " she ", " her ", " hers ", " they ", " them ", " we ", " us "]
+AMBIGUOUS_CASES = [" it ", " its ", " he ", " him ", " his ", " she ", " her ", " hers ",
+                   " they ", " them ", " we ", " us ", " and ", " or ", ","]
+
+# AMBIGUOUS_CASES = [" it ", " its ", " he ", " him ", " his ", " she ", " her ", " hers ",
+#                    " they ", " them ", " we ", " us "]
+
 REGEX_PHRASE = '|'.join(AMBIGUOUS_CASES)
 
 random.seed(0)
+
 
 def write_to_file(array, path):
     with open(path, 'w') as file:
@@ -200,7 +205,9 @@ load_dataset = {
     ('Lap14', 'en'): (load_semeval_14, {'train_file': 'data/semeval-2014/Laptops_Train.xml',
                                         'test_file': 'data/semeval-2014/Laptops_Test_Gold.xml'}),
     ('Mams', 'en'): (load_MAMS, {'train_file': 'data/MAMS_ATSA/train.xml', 'val_file': 'data/MAMS_ATSA/val.xml',
-                                 'test_file': 'data/MAMS_ATSA/test.xml', 'shortened': False})
+                                 'test_file': 'data/MAMS_ATSA/test.xml', 'shortened': False}),
+    ('Lap16', 'en'): (load_semeval, {'train_file': 'data/semeval/training/ABSA16_Restaurants_Train_SB1_v2.xml',
+                                     'test_file': 'data/semeval/test/EN_LAPT_SB1_TEST_.xml.gold'})
 }
 
 
@@ -232,15 +239,44 @@ def preprocess_dataset(domain, language):
 if __name__ == '__main__':
     # Semeval Rest 2016
     rest16_train, rest16_val, rest16_test, rest16_test_ambi = preprocess_dataset('Rest16', 'en')
+    # Semeval Rest 2015
+    rest15_train, rest15_val, rest15_test, rest15_test_ambi = preprocess_dataset('Rest15', 'en')
     # MAMS
     mams_train, mams_val, mams_test, mams_test_ambi = preprocess_dataset('Mams', 'en')
     # Semeval Laptop 2014
     lap14_train, lap14_val, lap14_test, lap14_test_ambi = preprocess_dataset('Lap14', 'en')
+    # Semeval Rest 2014
+    rest14_train, rest14_val, rest14_test, rest14_test_ambi = preprocess_dataset('Rest14', 'en')
 
-    ### Merged ambiguous datasets
+    ### Get the right number of records from all datasets as per their distribution in the test set.
+    # Rest16 has smallest training and val sets. Use all of them.
+
+    # Training set
+    rest16_train_count = len(rest16_train)
+    rest16_train = rest16_train.sample(n=rest16_train_count)
+    mams_train_count = int(rest16_train_count * len(mams_test_ambi) / len(rest16_test_ambi))
+    mams_train = mams_train.sample(n=mams_train_count)
+    lap14_train_count = int(rest16_train_count * len(lap14_test_ambi) / len(rest16_test_ambi))
+    lap14_train = lap14_train.sample(n=lap14_train_count)
+
+    # Validation set
+    rest16_val_count = len(rest16_val)
+    rest16_val = rest16_val.sample(n=rest16_val_count)
+    mams_val_count = int(rest16_val_count * len(mams_test_ambi) / len(rest16_test_ambi))
+    mams_val = mams_val.sample(n=mams_val_count)
+    lap14_val_count = int(rest16_val_count * len(lap14_test_ambi) / len(rest16_test_ambi))
+    lap14_val = lap14_val.sample(n=lap14_val_count)
+
+    ### Merged train datasets
+    train_merged = pd.concat([rest16_train, mams_train, lap14_train], ignore_index=True)
+    train_merged.to_csv('data/merged_train.csv', header=True, index=False)
+
+    ### Merged validation datasets
+    val_merged = pd.concat([rest16_val, mams_val, lap14_val], ignore_index=True)
+    val_merged.to_csv('data/merged_val.csv', header=True, index=False)
+
+    ### Merged ambiguous test dataset
     test_ambiguous = pd.concat([rest16_test_ambi, mams_test_ambi, lap14_test_ambi], ignore_index=True)
-    test_ambiguous.to_csv('data/merged_ambiguous.csv', header=True, index=False)
+    test_ambiguous.to_csv('data/merged_test_ambiguous.csv', header=True, index=False)
 
-    print("Merged file has the record count from: Rest16 -> {}, Mams -> {}, Lap14 -> {}".format(
-        rest16_test_ambi.count(), mams_test_ambi.count(), lap14_test_ambi.count()))
     print('saved..')

@@ -19,8 +19,11 @@ SMALL_POSITIVE_CONST = 1e-4
 # TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-targets.csv'
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-sentiments.csv'
 
-TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/exp/other/transformed-targets.csv'
-TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/exp/other/transformed-sentiments.csv'
+# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/exp/other/transformed-targets.csv'
+# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/exp/other/transformed-sentiments.csv'
+
+TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_rest16/transformed-targets.csv'
+TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_rest16/transformed-sentiments.csv'
 
 # TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-targets.csv'
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-sentiments.csv'
@@ -59,32 +62,6 @@ def evaluate_ote(gold_ot, pred_ot):
     ote_scores = (ot_precision, ot_recall, ot_f1)
     return ote_scores
 
-
-# Dhruv's e.g. print(tag2ot("O O O S O B I E")) = [(6, 6), (10, 14)]
-# print(tag2ot(["O","O","O","S","O", "B", "I", "E"])) = [(3, 3), (5, 7)]
-# def tag2ot(ote_tag_sequence):
-#     """
-#     transform ote tag sequence to a sequence of opinion target
-#     :param ote_tag_sequence: tag sequence for ote task
-#     :return:
-#     """
-#     n_tags = len(ote_tag_sequence)
-#     ot_sequence = []
-#     beg, end = -1, -1
-#     for i in range(n_tags):
-#         tag = ote_tag_sequence[i]
-#         if tag == 'S':
-#             ot_sequence.append((i, i))
-#         elif tag == 'B':
-#             beg = i
-#         elif tag == 'E':
-#             end = i
-#             if end > beg > -1:
-#                 ot_sequence.append((beg, end))
-#                 beg, end = -1, -1
-#     return ot_sequence
-
-
 def match_ot(gold_ote_sequence, pred_ote_sequence):
     """
     calculate the number of correctly predicted opinion target
@@ -108,7 +85,7 @@ def evaluate_ts(gold_ts, pred_ts):
     """
     assert len(gold_ts) == len(pred_ts)
     n_samples = len(gold_ts)
-    # number of true postive, gold standard, predicted targeted sentiment
+    # number of true positive, gold standard, predicted targeted sentiment
     n_tp_ts, n_gold_ts, n_pred_ts = np.zeros(3), np.zeros(3), np.zeros(3)
     ts_precision, ts_recall, ts_f1 = np.zeros(3), np.zeros(3), np.zeros(3)
 
@@ -145,45 +122,8 @@ def evaluate_ts(gold_ts, pred_ts):
     ts_micro_r = float(n_tp_total) / (n_g_total + SMALL_POSITIVE_CONST)
     ts_micro_f1 = 2 * ts_micro_p * ts_micro_r / (ts_micro_p + ts_micro_r + SMALL_POSITIVE_CONST)
     ts_scores = (ts_micro_p, ts_micro_r, ts_micro_f1)
+
     return ts_scores
-
-
-# Dhruv's e.g. print(tag2ts(["O", "B-POS", "I-POS", "E-POS", "S-NEG", "O"])) -> [(1, 3, 'POS'), (4, 4, 'NEG')]
-# def tag2ts(ts_tag_sequence):
-#     """
-#     transform ts tag sequence to targeted sentiment
-#     :param ts_tag_sequence: tag sequence for ts task
-#     :return:
-#     """
-#     n_tags = len(ts_tag_sequence)
-#     ts_sequence, sentiments = [], []
-#     beg, end = -1, -1
-#     for i in range(n_tags):
-#         ts_tag = ts_tag_sequence[i]
-#         # current position and sentiment
-#         eles = ts_tag.split('-')
-#         if len(eles) == 2:
-#             pos, sentiment = eles
-#         else:
-#             pos, sentiment = 'O', 'O'
-#         if sentiment != 'O':
-#             # current word is a subjective word
-#             sentiments.append(sentiment)
-#         if pos == 'S':
-#             # singleton
-#             ts_sequence.append((i, i, sentiment))
-#             sentiments = []
-#         elif pos == 'B':
-#             beg = i
-#         elif pos == 'E':
-#             end = i
-#             # schema1: only the consistent sentiment tags are accepted
-#             # that is, all of the sentiment tags are the same
-#             if end > beg > -1 and len(set(sentiments)) == 1:
-#                 ts_sequence.append((beg, end, sentiment))
-#                 sentiments = []
-#                 beg, end = -1, -1
-#     return ts_sequence
 
 
 def match_ts(gold_ts_sequence, pred_ts_sequence, idx):
@@ -240,34 +180,15 @@ def read_transformed_sentiments(transformed_sentiments_predictions_file):
     return predicted_data, gold_data
 
 
-# print(evaluate_ts(["O", "B-POS", "I-POS", "E-POS", "S-NEG", "O"], ["O", "O", "O", "O", "S-NEG", "O"]))
-# print(evaluate_ts([["O", "B-POS", "I-POS", "E-POS", "S-NEG", "S-POS"]], [["O", "B-POS", "I-POS", "E-POS", "S-NEG", "O"]]))
-# print(evaluate_ts([[(1, 3, 'POS'), (4, 4, 'NEG')]], [[(1, 3, 'POS'), (4, 4, 'NEG')]]))
+def run_from_generative_script(file_to_write):
+    predicted_data, gold_data = read_transformed_sentiments(TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE)
+    output = evaluate_ts(gold_data, predicted_data)
+    print(output)
+    if file_to_write is not None:
+        with open(file_to_write, 'a') as file:
+            file.write("{}\n".format(output[2]))
 
-# training_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en', 'Mams_en', 'Mams_short_en']
-# test_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en', 'Mams_en', 'Mams_short_en']
 
-# training_datasets = ['Rest16_en_merged', 'Rest16_es_merged', 'Rest16_ru_merged', 'Lap14_en_merged']
-# test_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en']
+if __name__ == '__main__':
+    run_from_generative_script(None)
 
-# training_datasets = ['Rest16_en_merged', 'Rest16_es_merged', 'Rest16_ru_merged', 'Lap14_en_merged']
-# test_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en']
-
-training_datasets = ['Rest16_en']
-test_datasets = ['Rest16_en']
-
-#### For evaluating spanbert
-for dtrain in training_datasets:
-    for dtest in test_datasets:
-        print("EVALUATING - train: {}, test: {}".format(dtrain, dtest))
-        # predicted_data, gold_data = read_transformed_targets(TRANSFORMED_TARGETS_PREDICTIONS_FILE.format(dtrain, dtest))
-        # print(evaluate_ote(gold_data, predicted_data))
-        predicted_data, gold_data = read_transformed_sentiments(TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE.format(dtrain, dtest))
-        print(evaluate_ts(gold_data, predicted_data))
-
-#### For dummy
-# for dtest in datasets:
-#     print("EVALUATING - test: {}".format(dtest))
-#     predicted_data, gold_data = read_transformed_targets(TRANSFORMED_TARGETS_PREDICTIONS_FILE.format(dtest))
-#     predicted_data, gold_data = read_transformed_sentiments(TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE.format(dtest))
-#     print(evaluate_ts(gold_data, predicted_data))

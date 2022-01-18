@@ -1,0 +1,55 @@
+[22:27:11] [Loading Model]...                            train_generative.py:265
+                                                                                
+[22:27:12] [Initiating Validation]...                    train_generative.py:273
+                                                                                
+Completed 0
+Completed 10
+Completed 20
+Completed 30
+Completed 40
+Completed 50
+Completed 60
+Completed 70
+Completed 80
+Completed 90
+Completed 100
+Completed 110
+Completed 120
+Completed 130
+Completed 140
+Completed 150
+Completed 160
+Completed 170
+Completed 180
+Completed 190
+Completed 200
+Completed 210
+Completed 220
+Completed 230
+Completed 240
+Completed 250
+Completed 260
+Completed 270
+Completed 280
+Completed 290
+Completed 300
+Completed 310
+Completed 320
+Completed 330
+Completed 340
+Completed 350
+Completed 360
+Completed 370
+Completed 380
+Completed 390
+Completed 400
+Completed 410
+Completed 420
+Completed 430
+Completed 440
+Completed 450
+Completed 460
+Completed 470
+Completed 480
+Completed 490
+Completed 500

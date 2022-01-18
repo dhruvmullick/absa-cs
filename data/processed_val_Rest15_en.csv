@@ -1,0 +1,79 @@
+review_id,sentences_ids,sentences_texts,sentences_opinions
+475298,id_2,Food is great and inexpensive.,Food positive
+630914,id_0,The food was actually aweful.,food negative
+1655521,id_2,"The food was very good, a great deal, and the place its self was great.",food positive <sep> place positive
+1032695,id_2,I had the duck breast special on my last visit and it was incredible.,duck breast special positive
+475512,id_3,If you like your music blasted and the system isnt that great and if you want to pay at least 100 dollar bottle minimun then you'll love it here.,bottle negative <sep> music negative
+1451107,id_1,Our family never expected such incredible entertainment in a restaurant.,entertainment positive
+1227999,id_0,"When we stumbled on Leon, we thought that we had found quite the gem BUT, we were certainly wrong.",Leon negative
+757762,id_2,He offers subpar service and has no personality.,service negative
+1632929,id_4,"When my dessert came, there was a candle in it - not because anyone asked for one - but because the waiter must have seen me opening my birthday card and gift, and said he knew it was a special occassion of some sort.",waiter positive
+1340075,id_0,Big Wong gets big Ups for a fine establishment.,Big Wong positive
+1062641,id_3,Service is top notch.,Service positive
+1746113,id_3,"The fish was really,really fresh.",fish positive
+512925,id_1,I really loved the different and inovated touch that's the cheff gives to the food.,cheff positive
+485966,id_1,The place was quiet and delightful.,place positive
+494850,id_3,The food now is inconsistent.,food negative
+1470334,id_4,The lox is always fresh too.,lox positive
+565344,id_2,The service was fast and friendly and the food was very tasty and they had the best hot sauce to add to your meals.,service positive <sep> food positive <sep> hot sauce positive
+1655504,id_5,"Be sure to try the seasonal, and always delicious, specials.",specials positive
+757762,id_5,There is no excuse for such lousy service!,service negative
+1297844,id_4,The workers there also absolutely load the bagel with cream cheese (gets a little messy).,bagel negative
+1286916,id_3,It's simply the best meal in NYC.,meal positive
+735448,id_3,even the wine by the glass was good.,wine by the glass positive
+470488,id_3,The rice was poor quality and was cooked so badly it was hard.,rice negative
+1289424,id_2,After really enjoying ourselves at the bar we sat down at a table and had dinner.,bar positive
+1058221,id_3,"however, it's the service that leaves a bad taste in my mouth.",service negative
+935633,id_3,"I found it on a cold night, the perfect spot to warm up.",spot positive
+1417496,id_4,"Looking around, I saw a room full of New Yorkers enjoying a real meal in a real restaurant, not a clubhouse of the fabulous trying to be seen.",meal positive <sep> restaurant positive
+1212346,id_4,Tiny dessert was $8.00...just plain overpriced for what it is.,dessert negative
+1748813,id_2,I highly recommend the Sophia pizza.,Sophia pizza positive
+426805,id_1,Wonderful strawberry daiquiries as well!,strawberry daiquiries positive
+1275154,id_4,"He served me an Uni Hand roll, which I never had before, and let me tell you...IT WAS HEAVEN!",Uni Hand roll positive
+615180,id_1,"The food was not fresh, the sauces were bland and very oily.",food negative <sep> sauces negative
+541532,id_1,Service was very prompt but slightly rushed.,Service positive
+1147211,id_0,This place is great.,place positive
+720418,id_1,The owner truly caters to all your needs.,owner positive
+1660047,id_5,"The whole set up is truly unprofessional and I wish Cafe Noir would get some good staff, because despite the current one this is a great place.",staff negative <sep> Cafe Noir positive
+1300636,id_3,"Other guests enjoyed pizza, santa fe chopped salad and fish and chips.",pizza positive <sep> santa fe chopped salad positive <sep> fish and chips positive
+1500453,id_1,This quaint and romantic trattoria is at the top of my Manhattan restaurant list.,trattoria positive
+445960,id_4,"This is a great place to take out-of-towners, and perfect for watching the sunset.",place positive
+1086415,id_3,"I am not a vegetarian but, almost all the dishes were great.",dishes positive
+1706644,id_4,"We ate out in the back patio, which is worth it as it's cool and the music is hear well there.",back patio positive <sep> music positive
+1432551,id_0,Go to Volare for 1st class service and terrific food.,service positive <sep> food positive
+1586174,id_3,the all-u-can-eat sushi is definitely in very poor quality.,all-u-can-eat sushi negative
+1671113,id_1,The food is great and reasonably priced.,food positive
+1016296,id_0,I was very disappointed with this restaurant.,restaurant negative
+528251,id_0,Fantastic place.,place positive
+611117,id_3,"It was the first place we ate on our first trip to New York, and it will be the last place we stop as we head out of town on our next trip to New York.",place positive
+709294,id_0,My roommate and I LOVE this place.,place positive
+1586174,id_6,the waitstaffs are nice though.,waitstaffs positive
+929329,id_2,"La Rosa waltzes in, and I think they are doing it the best.",La Rosa positive
+680390,id_0,"Toons has recently been redone, so it's now a very attractive space.",Toons positive
+498657,id_2,"The rest of the dim sum, though pricey by Chinatown standards, is worth it.",dim sum negative <sep> dim sum positive
+1671113,id_4,"The staff has been nice, but they seemed really stressed and the unisex bathroom needs to be cleaned more often.",staff positive <sep> unisex bathroom negative
+1660047,id_0,"I like Cafe Noir dont get me wrong, it is jsut that the people who work there are evil and incompetent!!",people negative <sep> Cafe Noir positive
+1123262,id_0,I think I've had some the best meals of my life at minnow.,meals positive
+1138996,id_2,"We were worried we would have trouble getting in, but somehow managed to have a short wait.",wait positive
+1353599,id_2,My friend got the mushroom pizza which tasted better.,mushroom pizza positive
+1004293,id_1,"We, there were four of us, arrived at noon - the place was empty - and the staff acted like we were imposing on them and they were very rude.",staff negative
+1477631,id_1,I have lived in Japan for 7 years and the taste of the food and the feel of the restaurant is like being back in Japan.,food positive <sep> feel positive
+1719567,id_2,We had the scallops as an appetizer and they were delicious and the sauce was wonderful.,scallops positive <sep> sauce positive
+1730014,id_2,"Guacamole+shrimp appetizer was really great, we both had the filet, very good, didn't much like the frites that came with, but the filet was so good, neither of us cared.",Guacamole+shrimp appetizer positive <sep> filet positive <sep> frites negative
+611117,id_4,Thanks Bloom's for a lovely trip.,Bloom's positive
+611117,id_0,Best Reuben sandwich ever!,Reuben sandwich positive
+1138996,id_6,Make sure you try this place as often as you can.,place positive
+1661757,id_0,What a great place.,place positive
+1189674,id_3,"Admittedly some nights inside the restaurant were rather warm, but the open kitchen is part of the charm.",open kitchen positive <sep> restaurant negative
+1398844,id_4,Service is not what one would expect from a joint in this price category.,Service negative
+1727363,id_2,An excellent service,service positive
+1603698,id_6,"I had their eggs benedict for brunch, which were the worst in my entire life, I tried removing the hollondaise sauce completely that was how failed it was.",eggs benedict negative
+1430994,id_2,I had Lobster Bisque it has 2 oz. of Maine Lobster in it.,Lobster Bisque positive
+632121,id_1,The jukebox plays everything from Italian Opera to The Strokes.,jukebox positive
+1404042,id_6,"Skip this restaurant, it's a big disappointment.",restaurant negative
+535171,id_0,What a great place!,place positive
+1457607,id_2,The characters really make for an enjoyable experience.,characters positive
+397331,id_4,Warning: You may find it difficult to dine at other Japanese restaurants after a visit to Mizu!,Mizu positive
+1448587,id_0,"With the exception of our lemon salad that had so much pepper on it that our eyes started watering, the food here was decent, not great.",food neutral <sep> lemon salad negative
+1417496,id_1,No gimmicks here -- the food speaks for itself in its freshness and preparation.,food positive
+558423,id_3,It's definately not a place to go if you want to impress someone.,place negative

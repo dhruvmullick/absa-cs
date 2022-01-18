@@ -4,15 +4,16 @@ import sys
 import os
 import spacy
 
-# PREDICTIONS_FILE = 'dummymodel/predictions_dummy.csv'
 # PREDICTIONS_FILE = 'generative-predictions/{}/{}_{}_predictions.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
 # TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'generative-predictions/{}/transformed-targets_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'generative-predictions/{}/transformed-sentiments_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
 
-# PREDICTIONS_FILE = 'spanbert-predictions-transformed/train_spanbert_{}.csv/test_spanbert_{}.csv/predictions.json'
 # PREDICTIONS_FILE = 'models/combined/predictions_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
 # PREDICTIONS_FILE = 'dummymodel/{}_predictions_dummy.csv'
-PREDICTIONS_FILE = 'models/combined/lap14_train_merged_test_predictions.csv'
+# PREDICTIONS_FILE = 'models/combined/mams_train_merged_test_predictions.csv'
+# PREDICTIONS_FILE = 'models/exp/already_commongen/commongen_merged_train_merged_test_predictions.csv'
+# PREDICTIONS_FILE = 'models/commongen_evaluation/evaluation_commongen_predictions.csv'
+PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_rest16/evaluation_commongen_predictions.csv'
 
 # TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-targets.csv'
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-sentiments.csv'
@@ -20,8 +21,12 @@ PREDICTIONS_FILE = 'models/combined/lap14_train_merged_test_predictions.csv'
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/combined/transformed-sentiments_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
 # TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-targets.csv'
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-sentiments.csv'
-TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/exp/other/transformed-targets.csv'
-TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/exp/other/transformed-sentiments.csv'
+
+# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/exp/other/transformed-targets.csv'
+# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/exp/other/transformed-sentiments.csv'
+
+TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_rest16/transformed-targets.csv'
+TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_rest16/transformed-sentiments.csv'
 
 SEPARATOR = '<sep>'
 
@@ -30,6 +35,10 @@ sentiment_to_identifier = {
     'negative': 'NEG',
     'neutral': 'NEU'
 }
+
+language = {'Rest16_en': 'en', 'Rest16_es': 'es', 'Rest16_ru': 'ru', 'Lap14_en': 'en', 'Mams_en': 'en',
+            'Mams_short_en': 'en', 'Rest16_en_merged': 'en', 'Rest16_es_merged': 'es', 'Rest16_ru_merged': 'ru',
+            'Lap14_en_merged': 'en'}
 
 
 def get_sentiment(polarity_list):
@@ -131,30 +140,14 @@ def transform_gold_and_truth(language, spacy_nlp, predictions_file, transformed_
                     writer_sentiments.writerow([pred_sentiment_transformed, gold_sentiment_transformed])
 
 
-# Pass argument as the language code - 'en', 'es', 'ru'
+def run_from_generative_script(filepath=PREDICTIONS_FILE):
+    predictions_filepath = filepath
+    nlp = spacy.load(utils.get_spacy_language('en'), disable=['parser', 'ner'])
+    print("Evaluating file at...: " + filepath)
+    transform_gold_and_truth('en', nlp, predictions_filepath,
+                             TRANSFORMED_TARGETS_PREDICTIONS_FILE, TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE)
 
-# training_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en', 'Mams_en', 'Mams_short_en']
-# training_datasets = ['Rest16_en_merged', 'Rest16_es_merged', 'Rest16_ru_merged', 'Lap14_en_merged']
-# training_datasets = ['Rest16_en_merged']
-training_datasets = ['Rest16_en']
-# test_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en', 'Mams_en', 'Mams_short_en']
-# test_datasets = ['Rest16_en', 'Rest16_es', 'Rest16_ru', 'Lap14_en']
-test_datasets = ['Rest16_en']
-language = {'Rest16_en': 'en', 'Rest16_es': 'es', 'Rest16_ru': 'ru', 'Lap14_en': 'en', 'Mams_en': 'en',
-            'Mams_short_en': 'en', 'Rest16_en_merged': 'en', 'Rest16_es_merged': 'es', 'Rest16_ru_merged': 'ru',
-            'Lap14_en_merged': 'en'}
 
-#### For evaluating spanbert
-for dtrain in training_datasets:
-    for dtest in test_datasets:
-        print("Training set: {}, Testing set: {}".format(dtrain, dtest))
-        nlp = spacy.load(utils.get_spacy_language(language[dtest]), disable=['parser', 'ner'])
-        transform_gold_and_truth(language[dtest], nlp, PREDICTIONS_FILE.format(dtrain, dtest),
-                                 TRANSFORMED_TARGETS_PREDICTIONS_FILE.format(dtrain, dtest),
-                                 TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE.format(dtrain, dtest))
+if __name__ == '__main__':
+    run_from_generative_script()
 
-#### For dummy
-# for dtest in datasets:
-#     transform_gold_and_truth(language[dtest], PREDICTIONS_FILE.format(dtest),
-#                              TRANSFORMED_TARGETS_PREDICTIONS_FILE.format(dtest),
-#                              TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE.format(dtest))
