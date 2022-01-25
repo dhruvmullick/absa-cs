@@ -4,14 +4,20 @@ import xml.etree.ElementTree as ET
 from sklearn.model_selection import train_test_split
 import random
 
-# lowest possible training record count in the considered datasets.
 WEIRD_CHARACTERS = '.!?,'
 
-AMBIGUOUS_CASES = [" it ", " its ", " he ", " him ", " his ", " she ", " her ", " hers ",
-                   " they ", " them ", " we ", " us ", " and ", " or ", ","]
+#### Ambiguous Dataset3
+# AMBIGUOUS_CASES = [" it ", " its ", " he ", " him ", " his ", " she ", " her ", " hers ",
+#                    " they ", " them ", " we ", " us ", " and ", " or ", ","]
 
+#### Ambiguous Dataset2
 # AMBIGUOUS_CASES = [" it ", " its ", " he ", " him ", " his ", " she ", " her ", " hers ",
 #                    " they ", " them ", " we ", " us "]
+
+### For Manual creation
+AMBIGUOUS_CASES = [" it ", " its ", " he ", " him ", " his ", " she ", " her ", " hers ",
+                   " they ", " them "]
+
 
 REGEX_PHRASE = '|'.join(AMBIGUOUS_CASES)
 
@@ -257,7 +263,7 @@ if __name__ == '__main__':
     mams_train_count = int(rest16_train_count * len(mams_test_ambi) / len(rest16_test_ambi))
     mams_train = mams_train.sample(n=mams_train_count)
     lap14_train_count = int(rest16_train_count * len(lap14_test_ambi) / len(rest16_test_ambi))
-    lap14_train = lap14_train.sample(n=lap14_train_count)
+    lap14_train = lap14_train.sample(n=min(lap14_train_count, len(lap14_train)))
 
     # Validation set
     rest16_val_count = len(rest16_val)
@@ -265,7 +271,7 @@ if __name__ == '__main__':
     mams_val_count = int(rest16_val_count * len(mams_test_ambi) / len(rest16_test_ambi))
     mams_val = mams_val.sample(n=mams_val_count)
     lap14_val_count = int(rest16_val_count * len(lap14_test_ambi) / len(rest16_test_ambi))
-    lap14_val = lap14_val.sample(n=lap14_val_count)
+    lap14_val = lap14_val.sample(n=min(lap14_val_count, len(lap14_val)))
 
     ### Merged train datasets
     train_merged = pd.concat([rest16_train, mams_train, lap14_train], ignore_index=True)
@@ -276,7 +282,7 @@ if __name__ == '__main__':
     val_merged.to_csv('data/merged_val.csv', header=True, index=False)
 
     ### Merged ambiguous test dataset
-    test_ambiguous = pd.concat([rest16_test_ambi, mams_test_ambi, lap14_test_ambi], ignore_index=True)
+    test_ambiguous = pd.concat([rest16_test_ambi, mams_test_ambi, lap14_test_ambi, rest15_test_ambi, rest14_test_ambi], ignore_index=True)
     test_ambiguous.to_csv('data/merged_test_ambiguous.csv', header=True, index=False)
 
     print('saved..')

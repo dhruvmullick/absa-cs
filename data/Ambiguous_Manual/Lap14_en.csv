@@ -1,0 +1,9 @@
+review_id,sentences_ids,sentences_texts,sentences_opinions
+38,910:1,"This laptop has only 2 USB ports, and they are both on the same side.",USB ports negative
+46,57:1,"This thing is awesome, everything always works, everything is always easy to set up, everything is compatible, its literally everything I could ask for.",works positive <sep> set up positive
+221,337:1,"the hardware problems have been so bad, i can't wait till it completely dies in 3 years, TOPS!",hardware negative
+224,927:1,HOWEVER I chose two day shipping and it took over a week to arrive.,shipping negative
+321,972:1,The memory was gone and it was not able to be used.,memory negative
+583,1053:13,"The SD card reader is slightly recessed and upside down (the nail slot on the card cannot be accessed), if this was a self ejecting slot this would not be an issue, but its not.",SD card reader negative <sep> nail slot on the card negative <sep> slot negative
+650,976:1,"I was a little concerned about the touch pad based on reviews, but I've found it fine to work with.",touch pad positive
+731,768:1,Wasn't sure if I was going to like it much less love it so I went to a local best buy and played around with the IOS system on a Mac Pro and it was totally unique and different.,IOS system positive

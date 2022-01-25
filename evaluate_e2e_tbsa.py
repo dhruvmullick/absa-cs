@@ -8,25 +8,11 @@ import sys
 
 SMALL_POSITIVE_CONST = 1e-4
 
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'generative-predictions/{}/transformed-targets_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'generative-predictions/{}/transformed-sentiments_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
-
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/combined/transformed-targets.csv'
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/combined/transformed-sentiments.csv'
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/combined/transformed-targets_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/combined/transformed-sentiments_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
-
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-targets.csv'
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-sentiments.csv'
-
 # TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/exp/other/transformed-targets.csv'
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/exp/other/transformed-sentiments.csv'
 
-TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_rest16/transformed-targets.csv'
-TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_rest16/transformed-sentiments.csv'
-
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-targets.csv'
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-sentiments.csv'
+TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/dataset2_early_stopping_w_targets/transformed-targets.csv'
+TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/dataset2_early_stopping_w_targets/transformed-sentiments.csv'
 
 # Dhruv's e.g. evaluate_ote("O O O S O B I E", "O O O S O O O O") ->
 # (0.9999000099990001, 0.9999000099990001, 0.9998500124991251)
@@ -181,12 +167,19 @@ def read_transformed_sentiments(transformed_sentiments_predictions_file):
 
 
 def run_from_generative_script(file_to_write):
-    predicted_data, gold_data = read_transformed_sentiments(TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE)
-    output = evaluate_ts(gold_data, predicted_data)
-    print(output)
+
+    predicted_data_targets, gold_data_targets = read_transformed_targets(TRANSFORMED_TARGETS_PREDICTIONS_FILE)
+    output_targets = evaluate_ote(gold_data_targets, predicted_data_targets)
+    print(output_targets)
+
+    predicted_data_sentiment, gold_data_sentiment = read_transformed_sentiments(TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE)
+    output_sentiment = evaluate_ts(gold_data_sentiment, predicted_data_sentiment)
+    print(output_sentiment)
+
     if file_to_write is not None:
+        print("Writing to : {}".format(file_to_write))
         with open(file_to_write, 'a') as file:
-            file.write("{}\n".format(output[2]))
+            file.write("{}, {}\n".format(output_targets[2], output_sentiment[2]))
 
 
 if __name__ == '__main__':

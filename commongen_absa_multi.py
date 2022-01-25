@@ -20,22 +20,19 @@ from train_generative import YourDataSetClass
 COMMONGEN_PROMPT = 'generate a sentence with: '
 ABSA_PROMPT = "aspect analysis: "
 
-# COMMONGEN_TOKEN = "Commongen"
-# COMMONGEN_PROMPT = '{} </s> '.format(COMMONGEN_TOKEN)
-# ABSA_TOKEN = 'AspectGen'
-# ABSA_PROMPT = "{} </s> ".format(ABSA_TOKEN)
 FRACTION = 0.1
 ABSA_MULTIPLIER = 2
 
-# COMMONGEN_FRACTION_LIST = [0, 0.01, 0.02, 0.05, 0.1, 0.2, 0.4, 0.5, 1]
-# ABSA_MULTIPLIER_LIST = [0.1, 0.5, 1, 1.5, 2, 2.5, 4, 8]
+COMMONGEN_FRACTION_LIST = [0, 0.01, 0.02, 0.05, 0.1, 0.2, 0.4, 0.5]
+ABSA_MULTIPLIER_LIST = [0.5, 1, 1.5, 2, 2.5, 4, 8, 16]
 
-COMMONGEN_FRACTION_LIST = [0, 0.01, 0.02, 0.05, 0.1, 0.2]
-ABSA_MULTIPLIER_LIST = [1, 1.5, 2, 2.5]
+# WHITELISTED_COMMONGEN_FRACTION_LIST = [0.4, 0.5]
+# WHITELISTED_ABSA_MULTIPLIER_LIST = [4, 8, 16]
 
+# COMMONGEN_FRACTION_LIST = [0.5, 1]
+# ABSA_MULTIPLIER_LIST = [16]
 
-EXPERIMENT_OUTPUT_FILE = 'models/commongen_evaluation_old_prompt_rest16/outputs.txt'
-
+EXPERIMENT_OUTPUT_FILE = 'models/dataset2_early_stopping_w_targets/outputs.txt'
 
 console = Console(record=True)
 # Set random seeds and deterministic pytorch for reproducibility
@@ -101,7 +98,8 @@ def build_data_for_absa(dataframes, source_text, target_text):
     return train_dataset, val_dataset, test_dataset, tokenizer
 
 
-def merge_absa_commongen(dataset_absa, dataset_commongen, absa_multiplier = ABSA_MULTIPLIER, commongen_fraction=FRACTION, fileOutput=True):
+def merge_absa_commongen(dataset_absa, dataset_commongen, absa_multiplier=ABSA_MULTIPLIER, commongen_fraction=FRACTION,
+                         fileOutput=True):
     ### Try different sample sizes of commongen dataset
     print("ABSA Multiplier is = {}, CG fraction is = {}".format(absa_multiplier, commongen_fraction))
     if fileOutput:
@@ -129,6 +127,7 @@ def merge_absa_commongen(dataset_absa, dataset_commongen, absa_multiplier = ABSA
     # print("NOT USING COMMONSENSE")
     # return pd.concat([dataset_absa], ignore_index=True)
 
+
 def merge_absa_commongen_equally(dataset_absa, dataset_commongen):
     ### Try different sample sizes of commongen dataset
     dataset_commongen = dataset_commongen.sample(n=len(dataset_absa)).reset_index(drop=True)
@@ -139,9 +138,9 @@ def merge_absa_commongen_equally(dataset_absa, dataset_commongen):
     # print("NOT USING COMMONSENSE")
     # return pd.concat([dataset_absa], ignore_index=True)
 
+
 def build_data_for_commongen(dataframes, source_text, target_text, training_dataset_absa, val_dataset_absa,
                              test_dataset_absa, tokenizer, absa_multiplier, commongen_fraction):
-
     console.log(f"[Data]: Reading CommonGen data...\n")
 
     # Creation of Dataset and Dataloader
@@ -163,8 +162,10 @@ def build_data_for_commongen(dataframes, source_text, target_text, training_data
     # val_set = merge_absa_commongen(val_dataset_absa, val_dataset_commongen, 0.5, 0.05)
     # training_set = merge_absa_commongen_equally(training_dataset_absa, training_data_commongen)
     # val_set = merge_absa_commongen_equally(val_dataset_absa, val_dataset_commongen)
-    training_set = merge_absa_commongen(training_dataset_absa, train_dataset_commongen, absa_multiplier, commongen_fraction, True)
-    val_set = merge_absa_commongen(val_dataset_absa, val_dataset_commongen, absa_multiplier, min(commongen_fraction, 0.1), False)
+    training_set = merge_absa_commongen(training_dataset_absa, train_dataset_commongen, absa_multiplier,
+                                        commongen_fraction, True)
+    val_set = merge_absa_commongen(val_dataset_absa, val_dataset_commongen, absa_multiplier,
+                                   min(commongen_fraction, 0.1), False)
     test_set = test_dataset_absa
 
     # Creating the Training and Validation dataset for further creation of Dataloader
@@ -190,11 +191,11 @@ def build_data_for_commongen(dataframes, source_text, target_text, training_data
 
 if __name__ == '__main__':
     model_params = {
-        "OUTPUT_PATH": f"./models/commongen_evaluation_old_prompt_rest16/",  # output path
+        "OUTPUT_PATH": f"./models/dataset2_early_stopping_w_targets/",  # output path
         "MODEL": "t5-base",
-        "TRAIN_BATCH_SIZE": 8,  # training batch size
-        "VALID_BATCH_SIZE": 8,  # validation batch size
-        "TRAIN_EPOCHS": 300,  # number of training epochs
+        "TRAIN_BATCH_SIZE": 16,  # training batch size
+        "VALID_BATCH_SIZE": 16,  # validation batch size
+        "TRAIN_EPOCHS": 10,  # number of training epochs
         "VAL_EPOCHS": 1,  # number of validation epochs
         "LEARNING_RATE": 5e-4,  # learning rate
         "MAX_SOURCE_TEXT_LENGTH": 256,  # max length of source text
@@ -202,12 +203,14 @@ if __name__ == '__main__':
         "early_stopping_patience": 5,  # number of epochs before stopping training.
     }
 
-    # training_file_absa = './data/merged_train.csv'
-    # validation_file_absa = './data/merged_val.csv'
-    # test_file_absa = './data/merged_test_ambiguous.csv'
-    training_file_absa = './data/processed_train_Rest16_en.csv'
-    validation_file_absa = './data/processed_val_Rest16_en.csv'
-    test_file_absa = './data/processed_test_Rest16_en.csv'
+    print(model_params)
+
+    training_file_absa = './data/merged_train.csv'
+    validation_file_absa = './data/merged_val.csv'
+    test_file_absa = './data/merged_test_ambiguous.csv'
+    # training_file_absa = './data/processed_train_Mams_en.csv'
+    # validation_file_absa = './data/processed_val_Mams_en.csv'
+    # test_file_absa = './data/processed_test_Mams_en.csv'
     print("Training on: {}, Testing on: {}".format(training_file_absa, test_file_absa))
     print("ABSA Prompt is: {}".format(ABSA_PROMPT))
     training_absa = pd.read_csv(training_file_absa)
@@ -221,20 +224,25 @@ if __name__ == '__main__':
     training_data_commongen = read_json_file(training_file_commongen)
     testing_data_commongen = read_json_file(test_file_commongen)
 
-    training_data_commongen, validation_data_commongen = train_test_split(training_data_commongen, test_size=0.1, random_state=0)
+    training_data_commongen, validation_data_commongen = train_test_split(training_data_commongen, test_size=0.1,
+                                                                          random_state=0)
 
     with open(EXPERIMENT_OUTPUT_FILE, 'w') as file:
         file.write("----------------------\n")
 
     for commongen_fraction in COMMONGEN_FRACTION_LIST:
         for absa_multiplier in ABSA_MULTIPLIER_LIST:
+            # if not (absa_multiplier in WHITELISTED_ABSA_MULTIPLIER_LIST) \
+            #         and not (commongen_fraction in WHITELISTED_COMMONGEN_FRACTION_LIST):
+            #     continue
 
             torch.manual_seed(0)  # pytorch random seed
             np.random.seed(0)  # numpy random seed
 
             training_loader, validation_loader, test_loader, tokenizer = build_data_for_commongen(
                 [training_data_commongen, validation_data_commongen, testing_data_commongen],
-                "source", "target", training_set_absa, val_set_absa, test_set_absa, tokenizer, absa_multiplier, commongen_fraction)
+                "source", "target", training_set_absa, val_set_absa, test_set_absa, tokenizer, absa_multiplier,
+                commongen_fraction)
 
             T5Trainer(training_loader, validation_loader, tokenizer, model_params=model_params)
 

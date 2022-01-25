@@ -250,6 +250,7 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params):
         early_stopping(valid_loss, model)
         if early_stopping.early_stop:
             print("Early stopping")
+            # print("NO EARLY STOPPING. CONTINUING...")
             break
 
     console.log(f"[Saving Model]...\n")

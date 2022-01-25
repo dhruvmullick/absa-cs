@@ -1,0 +1,41 @@
+review_id,sentences_ids,sentences_texts,sentences_opinions
+0,0,"we all liked the brunch items we had but when we later asked if the chips were supposed to come with the meal, the waitress explained it away by saying sometimes they forget instead of apologizing and offering something extra.",brunch positive <sep> chips neutral <sep> waitress negative
+0,0,One of our diners didn't like her fish and both the waitress and the manager insisted on replacing it.,fish negative <sep> waitress neutral <sep> manager neutral
+0,0,Went here with my husband on a Saturday night for dinner since the place looked like it had great atmosphere.,dinner neutral <sep> place neutral <sep> atmosphere positive
+0,0,"' When I called the waitress on it, she said that they simply couldn't serve tap water.",waitress negative <sep> water neutral
+0,0,Especially the manager or host who kept walking by and giving us the evil eye to see the progress of our dinner so they could turn the table over to other customers.,manager negative <sep> host negative <sep> dinner neutral
+0,0,The waiter knew about every item on the menu and explained it very well.,waiter positive <sep> menu neutral
+0,0,"While the staff was kind and attentive, our waiter never once broke a smile, even when I told him it was my friend's birthday, although he did bring a dessert with a candle at the end of the meal.",staff positive <sep> waiter positive <sep> dessert neutral <sep> candle neutral <sep> meal neutral
+0,0,We were however seated right away and was immediately told by our waiter that they were out of sparking mineral water.,waiter negative <sep> water neutral
+0,0,"So we showed up with our reservations and even though the place stayed pretty empty throughout the night, they seated us right next to the swinging kitchen doors.",reservations neutral <sep> place negative
+0,0,"Also, overheard gent at the next table complaining to the manager about his food.",table neutral <sep> manager negative <sep> food negative
+0,0,"Although I didn't pay for the meal (and it's about $22 bucks a plate, way over my normal eating range), I have to say that it was better than any food I've ever had in little Italy, and there weren't any touristy elements to be found.",range negative <sep> food neutral
+0,0,The server was so busy the night we visited that she forgot to put in our food order.,server negative <sep> food neutral
+0,0,"There are no price listed in the menu, and she will not provid them with a smile.",price negative <sep> menu neutral
+0,0,"When I couldn't hear any of my selections in the dining room, the manager told me that the broken speakers in were 'not his fault'",dining room neutral <sep> manager negative
+0,0,Our waitress did not take our drink order until I finally flagged her down and even then she seemed disinterested in our meal.,waitress negative <sep> drink neutral <sep> meal negative
+0,0,i got a steak special that was way overpriced ($12 more then the steak on the menu and no warning from the waitress) and it was cooked to the wrong temperature.,steak special negative <sep> menu neutral <sep> waitress negative <sep> temperature negative
+0,0,"We finally flagged down another server who brought us more to drink, and then they took forever with the check.",server negative <sep> drink neutral
+0,0,When we asked a waiter for an explanation of the long wait with some many empty tables he had no answer so we asked for the manager.,waiter negative <sep> tables neutral <sep> manager neutral
+0,0,service was attentive at the beginning but the waiter lost us towards the end and we had to flag them down for the check.,service positive <sep> waiter negative
+0,0,"The place was packed and while our food took time to be prepared, our waiter earned points for his sparkling conversation to pass time and for also knowing practically every ingredient of every special under consideration.",food neutral <sep> waiter positive
+0,0,Our waitress was a bit cold but she was still attentive and food came quickly.,waitress negative <sep> food positive
+0,0,"However, when our waitress realized her faux pas, an extra glass of wine was sent to our table and all was forgiven.",waitress negative <sep> glass of wine neutral <sep> table neutral
+0,0,"Our waiter was a little stressed and brought a couple things out late and as a result, he apologized graciously and gave us wine on the house to compensate for the delay.",waiter negative <sep> wine neutral
+0,0,The space is grand with a very high ceiling although it is one of those places that they keep so dark you are not really sure what you are eating anyway.,space positive <sep> ceiling neutral
+0,0,"The service was non-existant, the manager spent all of his time at the bar.",service negative <sep> manager negative <sep> bar neutral
+0,0,"I'd recommend getting an appetizer b/c the dinner takes a bit to be cooked, but it was definitely worth the wait.",dinner neutral <sep> wait positive
+0,0,"very nice servers, but they seemed more interested in conversing with the regulars than bringing food and being attentive.",servers positive <sep> food neutral
+0,0,"A friend of mine and I bumped into this restaurant last week and it didn't look like any special place on the outside, but when we looked at the menu we decided to give it a try.",place negative <sep> menu neutral
+0,0,I told the waiter that my drink tasted very bad and asked if he could swap it out for a Petron Margarita.,waiter neutral <sep> drink negative
+0,0,The manager claimed that he could not compensate us for anything on the bill which just shows the lack of sophistication from the entire group.,manager neutral <sep> bill negative
+0,0,"Our waitress was very nice, not snotty - she even gave us a free apertif after the meal (and left the bottle on the table).",waitress positive <sep> meal neutral
+0,0,"The piano guy isn't there all the time, but when he is it's a great addition to the meal.",piano negative <sep> meal positive
+0,0,Asked for wine recommendations and the waitress told me her favorites and described them in detail - I don't encounter this much in NYC.,wine neutral <sep> waitress positive
+0,0,"It took 1 1/4 hours to get our appetizers (how long does salad take) and when we complained to the manager, he barely listened.",appetizers neutral <sep> salad neutral <sep> manager negative
+0,0,"The food was pretty good, but due to our large size (~16) the manager asked us to limit our appetizers to just 3 selections b/c he didn't want to overburden his cooks.",manager negative <sep> appetizers neutral
+0,0,The waiters have been there for YEARS and they know their steak is amazing.,waiters neutral <sep> steak positive
+0,0,"Our waiter never once asked how everything was, as I suspect he knew the kitchen was producing seriously average food.",waiter negative <sep> kitchen neutral <sep> food negative
+0,0,"When I asked the manager to remove the coffee, she did so without question, but never asked why and never followed up on the issue (she was far too busy flirting with the male waiters).",manager negative <sep> coffee neutral <sep> waiters neutral
+0,0,but the Server informed us that they wanted to make the soup their own and that she hopes we like it.,Server positive <sep> soup neutral
+

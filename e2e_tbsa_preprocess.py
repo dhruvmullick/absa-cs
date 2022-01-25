@@ -13,7 +13,7 @@ import spacy
 # PREDICTIONS_FILE = 'models/combined/mams_train_merged_test_predictions.csv'
 # PREDICTIONS_FILE = 'models/exp/already_commongen/commongen_merged_train_merged_test_predictions.csv'
 # PREDICTIONS_FILE = 'models/commongen_evaluation/evaluation_commongen_predictions.csv'
-PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_rest16/evaluation_commongen_predictions.csv'
+PREDICTIONS_FILE = 'models/dataset2_early_stopping_w_targets/evaluation_commongen_predictions.csv'
 
 # TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-targets.csv'
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-sentiments.csv'
@@ -22,11 +22,8 @@ PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_rest16/evaluation_com
 # TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-targets.csv'
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-sentiments.csv'
 
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/exp/other/transformed-targets.csv'
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/exp/other/transformed-sentiments.csv'
-
-TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_rest16/transformed-targets.csv'
-TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_rest16/transformed-sentiments.csv'
+TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/dataset2_early_stopping_w_targets/transformed-targets.csv'
+TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/dataset2_early_stopping_w_targets/transformed-sentiments.csv'
 
 SEPARATOR = '<sep>'
 
@@ -36,7 +33,7 @@ sentiment_to_identifier = {
     'neutral': 'NEU'
 }
 
-language = {'Rest16_en': 'en', 'Rest16_es': 'es', 'Rest16_ru': 'ru', 'Lap14_en': 'en', 'Mams_en': 'en',
+language = {'Rest16_en.csv': 'en', 'Rest16_es': 'es', 'Rest16_ru': 'ru', 'Lap14_en': 'en', 'Mams_en': 'en',
             'Mams_short_en': 'en', 'Rest16_en_merged': 'en', 'Rest16_es_merged': 'es', 'Rest16_ru_merged': 'ru',
             'Lap14_en_merged': 'en'}
 
