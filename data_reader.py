@@ -291,7 +291,7 @@ if __name__ == '__main__':
     val_merged.to_csv('data/merged_val.csv', header=True, index=False)
 
     ### Merged ambiguous test dataset
-    # test_ambiguous = pd.concat([rest16_test_ambi, mams_test_ambi, lap14_test_ambi, rest15_test_ambi, rest14_test_ambi], ignore_index=True)
-    # test_ambiguous.to_csv('data/merged_test_ambiguous.csv', header=True, index=False)
+    test_ambiguous = pd.concat([rest16_test_ambi, mams_test_ambi, lap14_test_ambi], ignore_index=True)
+    test_ambiguous.to_csv('data/merged_test_ambiguous.csv', header=True, index=False)
 
     print('saved..')
