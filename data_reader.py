@@ -287,7 +287,7 @@ if __name__ == '__main__':
     train_merged.to_csv('data/merged_train.csv', header=True, index=False)
 
     ### Merged validation datasets
-    val_merged = pd.concat([rest16_val, mams_val, lap14_train], ignore_index=True)
+    val_merged = pd.concat([rest16_val, mams_val, lap14_val], ignore_index=True)
     val_merged.to_csv('data/merged_val.csv', header=True, index=False)
 
     ### Merged ambiguous test dataset
