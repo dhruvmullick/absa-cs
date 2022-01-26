@@ -298,10 +298,8 @@ if __name__ == '__main__':
     # lang: en, es, ru
     # for train_settings in [('Rest16', 'en', 'Rest16', 'en')]:
 
-    # training_file = './data/merged_train.csv'
-    # validation_file = './data/merged_val.csv'
-    training_file = './data/processed_train_Mams_en.csv'
-    validation_file = './data/processed_val_Mams_en.csv'
+    training_file = './data/merged_train.csv'
+    validation_file = './data/merged_val.csv'
     test_file = './data/merged_test_ambiguous.csv'
     print("Training on: {}, Testing on: {}".format(training_file, test_file))
     print("ABSA Prompt is: {}".format(ABSA_PROMPT))
@@ -312,9 +310,9 @@ if __name__ == '__main__':
     test = pd.read_csv(test_file)
 
     model_params = {
-        "OUTPUT_PATH": f"./models/combined/",  # output path
-        "MODEL": "mrm8488/t5-base-finetuned-common_gen",
-        # "MODEL": "t5-base",
+        "OUTPUT_PATH": f"./models/commongen_evaluation_old_prompt_dataset2_early_stopping/",  # output path
+        # "MODEL": "mrm8488/t5-base-finetuned-common_gen",
+        "MODEL": "t5-base",
         # "MODEL": "models/commongen_evaluation/model_files",
         "TRAIN_BATCH_SIZE": 16,  # training batch size
         "VALID_BATCH_SIZE": 16,  # validation batch size
@@ -329,4 +327,4 @@ if __name__ == '__main__':
     training_loader, validation_loader, test_loader, tokenizer = build_data(
         dataframes=[training, validation, test], source_text="sentences_texts", target_text="sentences_opinions")
     T5Trainer(training_loader, validation_loader, tokenizer, model_params=model_params)
-    T5Generator(test_loader, model_params=model_params, output_file=f'mams_train_merged_test_predictions.csv')
+    T5Generator(test_loader, model_params=model_params, output_file=f'evaluation_commongen_predictions.csv')

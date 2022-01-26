@@ -11,12 +11,12 @@ WEIRD_CHARACTERS = '.!?,'
 #                    " they ", " them ", " we ", " us ", " and ", " or ", ","]
 
 #### Ambiguous Dataset2
-# AMBIGUOUS_CASES = [" it ", " its ", " he ", " him ", " his ", " she ", " her ", " hers ",
-#                    " they ", " them ", " we ", " us "]
+AMBIGUOUS_CASES = [" it ", " its ", " he ", " him ", " his ", " she ", " her ", " hers ",
+                   " they ", " them ", " we ", " us "]
 
 ### For Manual creation
-AMBIGUOUS_CASES = [" it ", " its ", " he ", " him ", " his ", " she ", " her ", " hers ",
-                   " they ", " them "]
+# AMBIGUOUS_CASES = [" it ", " its ", " he ", " him ", " his ", " she ", " her ", " hers ",
+#                    " they ", " them "]
 
 
 REGEX_PHRASE = '|'.join(AMBIGUOUS_CASES)
@@ -259,11 +259,18 @@ if __name__ == '__main__':
 
     # Training set
     rest16_train_count = len(rest16_train)
+
+    ### Proportional to Test set
     rest16_train = rest16_train.sample(n=rest16_train_count)
     mams_train_count = int(rest16_train_count * len(mams_test_ambi) / len(rest16_test_ambi))
     mams_train = mams_train.sample(n=mams_train_count)
     lap14_train_count = int(rest16_train_count * len(lap14_test_ambi) / len(rest16_test_ambi))
     lap14_train = lap14_train.sample(n=min(lap14_train_count, len(lap14_train)))
+    mams_train = mams_train.sample(n=mams_train_count)
+    lap14_train_count = int(rest16_train_count * len(lap14_test_ambi) / len(rest16_test_ambi))
+    lap14_train = lap14_train.sample(n=min(lap14_train_count, len(lap14_train)))
+
+    # mams_train = mams_train.sample(n=rest16_train_count)
 
     # Validation set
     rest16_val_count = len(rest16_val)
@@ -273,16 +280,18 @@ if __name__ == '__main__':
     lap14_val_count = int(rest16_val_count * len(lap14_test_ambi) / len(rest16_test_ambi))
     lap14_val = lap14_val.sample(n=min(lap14_val_count, len(lap14_val)))
 
+    # mams_val = mams_val.sample(n=rest16_val_count)
+
     ### Merged train datasets
     train_merged = pd.concat([rest16_train, mams_train, lap14_train], ignore_index=True)
     train_merged.to_csv('data/merged_train.csv', header=True, index=False)
 
     ### Merged validation datasets
-    val_merged = pd.concat([rest16_val, mams_val, lap14_val], ignore_index=True)
+    val_merged = pd.concat([rest16_val, mams_val, lap14_train], ignore_index=True)
     val_merged.to_csv('data/merged_val.csv', header=True, index=False)
 
     ### Merged ambiguous test dataset
-    test_ambiguous = pd.concat([rest16_test_ambi, mams_test_ambi, lap14_test_ambi, rest15_test_ambi, rest14_test_ambi], ignore_index=True)
-    test_ambiguous.to_csv('data/merged_test_ambiguous.csv', header=True, index=False)
+    # test_ambiguous = pd.concat([rest16_test_ambi, mams_test_ambi, lap14_test_ambi, rest15_test_ambi, rest14_test_ambi], ignore_index=True)
+    # test_ambiguous.to_csv('data/merged_test_ambiguous.csv', header=True, index=False)
 
     print('saved..')

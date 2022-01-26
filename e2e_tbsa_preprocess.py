@@ -4,26 +4,11 @@ import sys
 import os
 import spacy
 
-# PREDICTIONS_FILE = 'generative-predictions/{}/{}_{}_predictions.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'generative-predictions/{}/transformed-targets_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'generative-predictions/{}/transformed-sentiments_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
 
-# PREDICTIONS_FILE = 'models/combined/predictions_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
-# PREDICTIONS_FILE = 'dummymodel/{}_predictions_dummy.csv'
-# PREDICTIONS_FILE = 'models/combined/mams_train_merged_test_predictions.csv'
-# PREDICTIONS_FILE = 'models/exp/already_commongen/commongen_merged_train_merged_test_predictions.csv'
-# PREDICTIONS_FILE = 'models/commongen_evaluation/evaluation_commongen_predictions.csv'
-PREDICTIONS_FILE = 'models/dataset2_early_stopping_w_targets/evaluation_commongen_predictions.csv'
+PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_dataset2_early_stopping/evaluation_commongen_predictions.csv'
 
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-targets.csv'
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'spanbert-predictions-transformed/tbsa-preprocessed/train_spanbert_{}.csv/test_spanbert_{}.csv/transformed-sentiments.csv'
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/combined/transformed-targets_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/combined/transformed-sentiments_{}_{}_{}.csv'.format(sys.argv[1], sys.argv[2], sys.argv[3])
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-targets.csv'
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'dummymodel/transformed/{}_transformed-sentiments.csv'
-
-TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/dataset2_early_stopping_w_targets/transformed-targets.csv'
-TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/dataset2_early_stopping_w_targets/transformed-sentiments.csv'
+TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_dataset2_early_stopping/transformed-targets.csv'
+TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_dataset2_early_stopping/transformed-sentiments.csv'
 
 SEPARATOR = '<sep>'
 

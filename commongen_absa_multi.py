@@ -23,16 +23,16 @@ ABSA_PROMPT = "aspect analysis: "
 FRACTION = 0.1
 ABSA_MULTIPLIER = 2
 
-COMMONGEN_FRACTION_LIST = [0, 0.01, 0.02, 0.05, 0.1, 0.2, 0.4, 0.5]
+# COMMONGEN_FRACTION_LIST = [0, 0.01, 0.02, 0.05, 0.1, 0.2, 0.4, 0.5]
+# ABSA_MULTIPLIER_LIST = [0.5, 1, 1.5, 2, 2.5, 4, 8, 16]
+
+WHITELISTED_COMMONGEN_FRACTION_LIST = [1]
+WHITELISTED_ABSA_MULTIPLIER_LIST = [16]
+
+COMMONGEN_FRACTION_LIST = [0.5, 1]
 ABSA_MULTIPLIER_LIST = [0.5, 1, 1.5, 2, 2.5, 4, 8, 16]
 
-# WHITELISTED_COMMONGEN_FRACTION_LIST = [0.4, 0.5]
-# WHITELISTED_ABSA_MULTIPLIER_LIST = [4, 8, 16]
-
-# COMMONGEN_FRACTION_LIST = [0.5, 1]
-# ABSA_MULTIPLIER_LIST = [16]
-
-EXPERIMENT_OUTPUT_FILE = 'models/dataset2_early_stopping_w_targets/outputs.txt'
+EXPERIMENT_OUTPUT_FILE = 'models/commongen_evaluation_old_prompt_dataset2_early_stopping/outputs.txt'
 
 console = Console(record=True)
 # Set random seeds and deterministic pytorch for reproducibility
@@ -191,7 +191,7 @@ def build_data_for_commongen(dataframes, source_text, target_text, training_data
 
 if __name__ == '__main__':
     model_params = {
-        "OUTPUT_PATH": f"./models/dataset2_early_stopping_w_targets/",  # output path
+        "OUTPUT_PATH": f"./models/commongen_evaluation_old_prompt_dataset2_early_stopping/",  # output path
         "MODEL": "t5-base",
         "TRAIN_BATCH_SIZE": 16,  # training batch size
         "VALID_BATCH_SIZE": 16,  # validation batch size
@@ -232,9 +232,9 @@ if __name__ == '__main__':
 
     for commongen_fraction in COMMONGEN_FRACTION_LIST:
         for absa_multiplier in ABSA_MULTIPLIER_LIST:
-            # if not (absa_multiplier in WHITELISTED_ABSA_MULTIPLIER_LIST) \
-            #         and not (commongen_fraction in WHITELISTED_COMMONGEN_FRACTION_LIST):
-            #     continue
+            if not (absa_multiplier in WHITELISTED_ABSA_MULTIPLIER_LIST) \
+                    and not (commongen_fraction in WHITELISTED_COMMONGEN_FRACTION_LIST):
+                continue
 
             torch.manual_seed(0)  # pytorch random seed
             np.random.seed(0)  # numpy random seed
