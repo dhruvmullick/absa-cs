@@ -18,7 +18,7 @@ sentiment_to_identifier = {
     'neutral': 'NEU'
 }
 
-language = {'Rest16_en.csv': 'en', 'Rest16_es': 'es', 'Rest16_ru': 'ru', 'Lap14_en': 'en', 'Mams_en': 'en',
+language = {'Rest16_test_en.csv': 'en', 'Rest16_es': 'es', 'Rest16_ru': 'ru', 'Lap14_en': 'en', 'Mams_en': 'en',
             'Mams_short_en': 'en', 'Rest16_en_merged': 'en', 'Rest16_es_merged': 'es', 'Rest16_ru_merged': 'ru',
             'Lap14_en_merged': 'en'}
 

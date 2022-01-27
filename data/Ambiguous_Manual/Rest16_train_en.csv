@@ -1,0 +1,74 @@
+review_id,sentences_ids,sentences_texts,sentences_opinions
+740923,id_1,"If you don't mind pre-sliced low quality fish, unfriendly staff and a sushi chef that looks like he is miserable then this is your place.",fish negative <sep> staff negative <sep> sushi chef negative
+1655521,id_3,"The wait staff is very freindly, they make it feel like you're eating in a freindly little european town.",wait staff positive
+1340075,id_5,The takeout is great too since they give high quality tupperware as well.,takeout positive
+Z#6,id_5,"My party had the BBE $29 fixe prix menu, which was such a wonderful deal since it also came with a flight of sake!",BBE $29 fixe prix menu positive
+746254,id_4,"With so many good restaurants on the UWS, I don't need overpriced food, absurdly arrogant wait-staff who don't recognize they work at a glorified diner, clumsy service, and management that doesn't care.",food negative <sep> wait-staff negative <sep> service negative <sep> management negative
+1064477,id_4,We took advanatage of the half price sushi deal on saturday so it was well worth it.,half price sushi deal positive
+1430994,id_2,I had Lobster Bisque it has 2 oz. of Maine Lobster in it.,Lobster Bisque positive
+735448,id_1,"whoever the jazz duo was, they were on POINT.",jazz duo positive
+RL#3,id_1,"im not necessarily fanatical about this place, but it was a fun time for low pirces.",place positive
+1448587,id_0,"With the exception of our lemon salad that had so much pepper on it that our eyes started watering, the food here was decent, not great.",food neutral <sep> lemon salad negative
+957145,id_2,"Over the years the host, Vittorio, and his crew, have always treated me as family--although with all the business this not-so-little gem does, it amazing he's even able to remember a consistent but not-so-frequent visitor.",Vittorio positive <sep> crew positive
+1719567,id_2,We had the scallops as an appetizer and they were delicious and the sauce was wonderful.,scallops positive <sep> sauce positive
+1430994,id_6,My boyfriend had Prime Rib it was good .,Prime Rib positive
+1280179,id_1,"To sum it up: Service varies from good to mediorce, depending on which waiter you get; generally it is just average Ok.",Service neutral
+1300636,id_2,I have to highly recommend the lobster roll - not to much mayo; you can tell it was a fresh lobster.,lobster roll positive <sep> lobster positive
+1221938,id_1,Try their chef's specials-- they are to die for.,chef's specials positive
+1430994,id_3,My boyfriend had the New England Chowder it was good but I think the award should go to the Lobster Bisque.,New England Chowder positive <sep> Lobster Bisque positive
+Z#9,id_1,The boths are not as small as some of the reviews make them out to look they're perfect for 2 people.,boths positive
+CLF#7,id_3,The service was spectacular as the waiter knew everything about the menu and his recommendations were amazing!,service positive <sep> waiter positive
+TFS#5,id_23,"The Four Seasons has history and it is a sort of landmark of New York City restaurants, but trust me, they will charge you through the nose just so that you can say ""I've been to the four seasons restaurant"".",The Four Seasons neutral <sep> The Four Seasons negative
+426930,id_2,The cold appetizer dishes taste like the way I remember them to taste when I was growing up in Taiwan.,cold appetizer dishes positive
+1380450,id_1,The hanger steak was like rubber and the tuna was flavorless not to mention it tasted like it had just been thawed.,hanger steak negative <sep> tuna negative
+NP#4,id_7,"The manager finally said he would comp the two glasses of wine (which cost less than the food), and made it seem like a big concession.",manager negative
+BzG#4,id_2,"What really makes it shine is the food, which is aggressively seasoned with Cyrpriot spices, and all made in-house (even the gyro meat and sausages), and made of much higher quality ingredients that might otherwise be expected.",food positive <sep> gyro meat positive <sep> sausages positive <sep> ingredients positive
+709294,id_1,"We recently decided to try this location, and to our delight, they have outdoor seating, perfect since I had my yorkie with me.",outdoor seating positive
+TFS#5,id_21,"I read reviews that called the restaurant too expensive and I thought to myself, but may be it is worth it.",restaurant negative
+1451109,id_2,The food was pretty tradional but it was hot and good with large portions.,food positive <sep> portions positive
+1615322,id_5,It's a rather cramped and busy restaurant and it closes early.,restaurant negative
+1280179,id_0,"I've been to at Cafe Spice probably 5-8 times, it is probably still the best Indian restaurant around Union Square.",Cafe Spice positive
+1028246,id_0,"Went on a 3 day oyster binge, with Fish bringing up the closing, and I am so glad this was the place it O trip ended, because it was so great!",Fish positive
+NP#4,id_4,"I showed it to the manager, and he smilingly apologized and brought us two free desserts (but did not ask us what we wanted and so brought the last two desserts we would have asked for).",manager positive <sep> manager negative
+1603698,id_6,"I had their eggs benedict for brunch, which were the worst in my entire life, I tried removing the hollondaise sauce completely that was how failed it was.",eggs benedict negative
+521916,id_1,"Small servings for main entree, i had salmon (wasnt impressed) girlfriend had chicken, it was good.",salmon negative <sep> chicken positive <sep> servings for main entree negative
+378848,id_1,"The first time the sushi was outstanding, the second time it was a little bland.",sushi positive <sep> sushi negative
+509227,id_1,"The food is decent at best, and the ambience, well, it's a matter of opinion, some may consider it to be a sweet thing, I thought it was just annoying.",food negative <sep> ambience negative
+470488,id_3,The rice was poor quality and was cooked so badly it was hard.,rice negative
+1041457,id_6,"The decor is night tho...but they REALLY need to clean that vent in the ceiling...its quite un-appetizing, and kills your effort to make this place look sleek and modern.",place negative <sep> decor positive <sep> vent negative
+TFS#5,id_27,"If you are going for the food, it will not be worth it.",food negative
+NP#3,id_4,"Sometimes tables don't understand his sense of humor but it's refreshing to have a server who has personality, professionalism, and respects the privacy of your dinner.",server positive
+1016296,id_1,Ive asked a cart attendant for a lotus leaf wrapped rice and she replied back rice and just walked away.,cart attendant negative
+NP#3,id_5,This is the first place I've been that a runner remembers my order... hope he likes his job because I have half a mind to steal him for my restaurant.,runner positive
+NP#4,id_2,"The menu looked great, and the waiter was very nice, but when the food came, it was average.",menu positive <sep> waiter positive <sep> food neutral
+1004293,id_1,"We, there were four of us, arrived at noon - the place was empty - and the staff acted like we were imposing on them and they were very rude.",staff negative
+1632929,id_4,"When my dessert came, there was a candle in it - not because anyone asked for one - but because the waiter must have seen me opening my birthday card and gift, and said he knew it was a special occassion of some sort.",waiter positive
+FF#3,id_19,"This is where it really really gets bad: the manager said, there is absolutely nothing we can do, it's a matter of taste that she didn't like it, and I cannot comp it.",manager negative
+CLF#3,id_21,We asked for sides which the waiter than admitted that he forgot to put in that part of our order.,waiter negative
+565344,id_0,I recently tried Suan and I thought that it was great.,Suan positive
+1175958,id_1,"Try the crunchy tuna, it is to die for.",crunchy tuna positive
+1293334,id_1,"My husband and I thougt it would be great to go to the Jekyll and Hyde Pub for our anniversary, and to our surprise it was fantastic.",Jekyll and Hyde Pub positive
+1572033,id_0,"Don't dine at Tamarind for the vegetarian dishes, they are simply not up to par with the non-veg selections.",vegetarian dishes negative <sep> non-veg selections positive
+1041457,id_4,I had never had Edamame pureed before but I thought it was innovative and tasty (could've used a bit more salt).,Edamame pureed positive
+Z#3,id_1,"The space kind of feels like an Alice in Wonderland setting, without it trying to be that.",space negative
+TVU#6,id_4,"THE SERVICE IS AMAZING, i've had different waiters and they were all nice, which is a rare thing in NYC.",SERVICE positive <sep> waiters positive
+Z#5,id_4,"The atmosphere was pretty nice but had a bit lacking, which it tries to make up for with a crazy scheme of mirrors.",atmosphere negative <sep> scheme of mirrors negative
+404464,id_1,I ordered the smoked salmon and roe appetizer and it was off flavor.,smoked salmon and roe appetizer negative
+1086478,id_4,"Also, specify if you like your food spicy- its rather bland if you don't.",food negative
+929329,id_2,"La Rosa waltzes in, and I think they are doing it the best.",La Rosa positive
+1417496,id_1,No gimmicks here -- the food speaks for itself in its freshness and preparation.,food positive
+1448587,id_2,"We ordered the special, grilled branzino, that was so infused with bone, it was difficult to eat.",grilled branzino negative
+620892,id_6,"Food was just average...if they lowered the prices just a bit, it would be a bigger draw.",Food neutral <sep> Food negative
+513395,id_1,"Their bagels are fine, but they are a little overcooked, and not really a 'special' bagel experience.",bagels negative
+1269216,id_3,When I lived upstate for a while I would buy freeze the bagels and they would still be better than any else.,bagels positive
+1632445,id_6,The lobster sandwich is $24 and although it was good it was not nearly enough to warrant that price.,lobster sandwich positive <sep> lobster sandwich negative
+1086415,id_2,"$6 and there is much tasty food, all of it fresh and continually refilled.",food positive
+BFC#7,id_8,"There's another girl who I can't describe, she is about 5'6"" with brown hair, who eavesdrops on your conversation and chimes in - except she only hears the last part of what you said, so her uninvited opinions are often out of context and nothing to do with what you're *really* talking about.",girl negative
+611117,id_3,"It was the first place we ate on our first trip to New York, and it will be the last place we stop as we head out of town on our next trip to New York.",place positive
+TFS#5,id_8,"Yes, the place is classy and beautiful, but they most certainly target the uber whealthy Not the common joe that wants to go all out every once in a while.",place positive <sep> place negative
+1212346,id_4,Tiny dessert was $8.00...just plain overpriced for what it is.,dessert negative
+1328078,id_4,We had Pam's special fried fish and it was amazing.,Pam's special fried fish positive
+1147082,id_0,I went there for lunch and it was not as good as I expected from the reviews I read.,lunch negative
+BG#5,id_2,"Food was amazing - I love Indian food and eat it quite regularly, but I can say this is one of the best I've had.",Food positive
+P#10,id_2,My quesadilla tasted like it had been made by a three-year old with no sense of proportion or flavor.,quesadilla negative
+EVPK#10,id_3,"We had half/half pizza, mine was eggplant and my friend had the buffalo and it was sooo huge for a small size pizza!",half/half pizza positive

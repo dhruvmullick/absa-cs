@@ -276,3 +276,89 @@ en_Ray'sBoathouse_477775918,id_13,"All considered, I have to say that Ray's Boat
 0,0,On Friday night the busboy was sulky verging on rude; he brought the fries (ordered for the entrees) twice before the appetizers came and then again the minute we'd finished them and looked put out to be asked to take the empty plates away.,busboy negative <sep> appetizers neutral
 0,0,"Watch out for the overworked, stressed out waitress who dumps tapa dishes on the table and leaves w/out announcing what it is.",waitress negative <sep> dishes neutral <sep> table neutral
 0,0,"They were out of Hennessy, Alize, Mojitos, Pinot Grigio and the list goes on and on with at least 20 other liquors that they did not have, not to mention the drink list is very limited and does not include a wide selection of interesting drinks.",Mojitos neutral <sep> Pinot neutral <sep> drink list negative <sep> drinks negative
+12,593:1,Sure it's not light and slim but the features make up for it 100%.,features positive
+16,3:1,"Luckily, for all of us contemplating the decision, the Mac Mini is priced just right.",priced positive
+24,488:1,Strong build though which really adds to its durability.,durability positive <sep> build positive
+27,561:1,I've had my computer for 2 weeks already and it works perfectly.,works positive
+38,910:1,"This laptop has only 2 USB ports, and they are both on the same side.",USB ports negative
+46,57:1,"This thing is awesome, everything always works, everything is always easy to set up, everything is compatible, its literally everything I could ask for.",works positive <sep> set up positive
+68,448:3,The new MBP offers great portability and gives us confidence that we are not going to need to purchase a new laptop in 18 months.,portability positive
+71,1141:1,I would have given it 5 starts was it not for the fact that it had Windows 8,Windows 8 negative
+77,294:1,They don't just look good; they deliver excellent performance.,look positive <sep> performance positive
+78,553:1,I have had it over a year now with out a Glitch of any kind..I love the lit up keys and screen display...this thing is Fast and clear as can be.,lit up keys positive <sep> screen display positive
+103,747:8,The aluminum body sure makes it stand out.,aluminum body positive
+114,363:27,The durability of the laptop will make it worth the money.,durability positive
+144,983:1,tried windows 8 and hated it !!!,windows 8 negative
+150,856:1,I am still in the process of learning about its features.,features neutral
+153,101:1,"I wanted it for it's mobility and man, this little bad boy is very nice.",mobility positive
+221,337:1,"the hardware problems have been so bad, i can't wait till it completely dies in 3 years, TOPS!",hardware negative
+224,927:1,HOWEVER I chose two day shipping and it took over a week to arrive.,shipping negative
+228,679:1,"it's exactly what i wanted, and it has all the new features and whatnot.",features positive
+234,982:1,"Though please note that sometimes it crashes, and the sound quality isnt superb.",sound quality negative
+238,989:1,"Does everything I need it to, has a wonderful battery life and I couldn't be happier.",battery life positive
+248,269:1,On start up it asks endless questions just so itune can sell you more of their products.,start up negative <sep> itune negative
+252,787:628,"One more thing, this mac does NOT come with restore disks and I am not sure if you can make them direct from the mac like you can with newer PC's, also the charging cables are made of the same cheap material as the iPhone/iPod touch cables.",restore disks negative <sep> charging cables negative <sep> material negative
+253,300:1,I bought it to my son who uses it for graphic design.,graphic design neutral
+267,1076:1,"it has all the features that we expected and the price was good, working well so far.",features positive <sep> price positive <sep> working positive
+276,993:1,I think this is about as good as it gets at anything close to this price point.,price point neutral
+278,945:1,It's just what we were looking for and it works great.,works positive
+280,709:1,It's so quick and responsive that it makes working/surfing on a computer so much more pleasurable!,working positive <sep> surfing positive
+287,477:1,"My wife was so excited to open the box, but quickly came to see that it did not function as it should.",function negative
+301,923:1,"I use it mostly for content creation (Audio, video, photo editing) and its reliable.",content creation positive <sep> Audio positive <sep> video positive <sep> photo editing positive
+312,745:1,And the fact that it comes with an i5 processor definitely speeds things up,i5 processor positive
+314,889:1,I have been PC for years but this computer is intuitive and its built in features are a great help,built in features positive
+320,165:1,I've installed to it additional SSD and 16Gb RAM.,SSD neutral <sep> 16Gb RAM neutral
+321,972:1,The memory was gone and it was not able to be used.,memory negative
+333,948:1,It is really easy to use and it is quick to start up.,use positive <sep> start up positive
+338,842:1,And mine had broke but I sent it in under warranty-no problems.,warranty positive
+340,894:1,"It's fast, light, and is perfect for media editing, which is mostly why I bought it in the first place.",media editing positive
+359,962:1,"Unfortunately, it runs XP and Microsoft is dropping support next April.",XP neutral <sep> support negative
+361,281:1,"First off, I really do like my MBP... once used to the OS it is pretty easy to get around, and the overall build is great... eg the keyboard is one of the best to type on.",OS positive <sep> overall build positive <sep> keyboard positive
+388,515:1,"Its the best, its got the looks, super easy to use and love all you can do with the trackpad!..",looks positive <sep> use positive <sep> trackpad positive
+394,952:1,"This item is a beautiful piece, it works well, it is easy to carry and handle.",works positive <sep> carry positive <sep> handle positive
+416,959:1,"My last laptop was a 17"" ASUS gaming machine, which performed admirably, but having since built my own desktop and really settling into the college life, I found myself wanting something smaller and less cumbersome, not to mention that the ASUS had been slowly developing problems ever since I bought it about 4 years ago.",performed positive
+417,908:1,"However, it did not have any scratches, ZERO battery cycle count (pretty surprised), and all the hardware seemed to be working perfectly.",battery cycle count positive <sep> hardware positive
+431,567:1,I like the design and its features but there are somethings I think needs to be improved.,design positive <sep> features positive
+436,341:1,"It still works and it's extremely user friendly, so I would recommend it for new computer user and also for those who are just looking for a more efficient way to do things",works positive
+437,816:1,"Its fast, easy to use and it looks great.",use positive <sep> looks positive
+444,1074:1,"The only thing I dislike is the touchpad, alot of the times its unresponsive and does things I dont want it too, I would recommend using a mouse with it.",touchpad negative <sep> mouse neutral
+447,414:1,MAYBE The Mac OS improvement were not The product they Want to offer.,Mac OS negative
+518,0:14,3D rendering slows it down considerably.,3D rendering negative
+522,420:1,"fast, great screen, beautiful apps for a laptop;priced at 1100 on the apple website;amazon had it for 1098+ tax -  plus i had a 10% off coupon from amazon-cost me 998 plus tax- 1070- OTD!",screen positive <sep> apps positive <sep> priced neutral <sep> cost neutral
+525,267:1,"The Like New condition of the iMac MC309LL/A on Amazon is at $900+ level only, and it is a Quad-Core 2.5 GHz CPU (similar to the $799 Mini), with Radeon HD 6750M 512MB graphic card (this mini is integrated Intel 4000 card), and it even comes with wireless Apple Keyboard and Mouse, all put together in neat and nice package.",Quad-Core 2.5 GHz CPU neutral <sep> Radeon HD 6750M 512MB graphic card neutral <sep> integrated Intel 4000 card neutral <sep> wireless Apple Keyboard and Mouse neutral <sep> package positive
+526,419:2,Put a cover on it and is a little better but that is my only complaint.,cover neutral
+563,339:4,"I thought that it will be fine, if i do some settings.",settings neutral
+569,7:21,More likely it will require replacing the logic board once they admit they have a problem and come up with a solution.,logic board negative
+571,1056:1,"It was important that it was powerful enough to do all of the tasks he needed on the internet, word processing, graphic design and gaming.",internet positive <sep> word processing positive <sep> graphic design positive <sep> gaming positive
+573,227:1,"I like the Mini Mac it was easy to setup and install, but I am learning as I go and could use a tutorial to learn how to use some of the features I was use to on the PC especially the right mouse click menu.",setup positive <sep> install positive <sep> tutorial neutral <sep> features neutral <sep> right mouse click menu neutral
+583,1053:13,"The SD card reader is slightly recessed and upside down (the nail slot on the card cannot be accessed), if this was a self ejecting slot this would not be an issue, but its not.",SD card reader negative <sep> nail slot on the card negative <sep> slot negative
+586,261:0,First of all yes this is a mac and it has that nice brushed aluminum .,aluminum positive
+592,578:1,I was concerned that the downgrade to the regular hard drive would make it unacceptably slow but I need not have worried - this machine is the fastest I have ever owned...,regular hard drive positive
+595,787:619,I had to install Mountain Lion and it took a good two hours.,install Mountain Lion negative
+606,1064:1,"The battery was completely dead, in fact it had grown about a quarter inch thick lump on the underside.",battery negative
+615,1160:2,The troubleshooting said it was the AC adaptor so we ordered a new one.,AC adaptor neutral
+618,961:1,"Which it did not have, only 3 USB 2 ports.",USB 2 ports neutral
+636,464:4,"Apple no longer includes iDVD with the computer and furthermore, Apple doesn't even offer it anymore!",iDVD negative
+643,525:1,its as advertised on here..... it works great and is not a waste of money!,works positive
+650,976:1,"I was a little concerned about the touch pad based on reviews, but I've found it fine to work with.",touch pad positive
+652,786:1301,"The sound as mentioned earlier isn't the best, but it can be solved with headphones.",headphones neutral
+656,258:1,"If you ask me, for this price it should be included.",price negative
+677,326:3,"Many people complain about the new OS, and it's urgent for Apple to fix it asap!",OS negative
+689,574:1,With the softwares supporting the use of other OS makes it much better.,OS neutral <sep> softwares neutral
+695,891:1,"At home and the office it gets plugged into an external 24"" LCD screen, so built in screen size is not terribly important.","built in screen size neutral <sep> external 24"" LCD screen neutral"
+698,994:1,"I bought it to be able to dedicate a small, portable laptop to my writing and was surprised to learn that I needed to buy a word processing program to do so.",word processing program neutral
+707,786:842,and its not hard to accidentally bang it against something so i recommend getting a case to protect it.,case neutral
+709,285:1,I got this at an amazing price from Amazon and it arrived just in time.,price positive
+715,1009:1,"I had to buy a wireless mouse to go with it, as I am old school and hate the pad, but knew that before I bought it, now it works great, need to get adjusted to the key board, as I am used to a bigger one and pounding.",wireless mouse neutral <sep> pad negative <sep> works positive <sep> key board neutral
+721,1143:1,It's a decent computer for the price and hopefully it will last a long time.,price neutral
+729,75:1,"this Mac Mini does not have a built-in mic, and it would seem that its Mac OS 10.9 does not handle external microphones properly.",built-in mic neutral <sep> Mac OS 10.9 negative <sep> external microphones neutral
+731,768:1,Wasn't sure if I was going to like it much less love it so I went to a local best buy and played around with the IOS system on a Mac Pro and it was totally unique and different.,IOS system positive
+744,535:1,"So happy with this purchase, I just wish it came with Microsoft Word.",Microsoft Word neutral
+747,881:4,"The speed, the simplicity, the design.. it is lightyears ahead of any PC I have ever owned.",speed positive <sep> simplicity positive <sep> design positive
+779,834:1,A veryimportant feature is Firewire 800 which in my experience works better then USB3 (in PC enabled with USB3)I was not originally sold on the MAC OS I felt it was inferior in many ways To Windows 7.,Firewire 800 positive <sep> USB3 negative <sep> USB3 neutral <sep> MAC OS negative <sep> Windows 7 positive
+781,786:1472,The first time I used the card reader it took half an hour and a pair of tweezers to remove the card.,card reader negative <sep> remove the card negative
+784,55:1,I know some people complained about HDMI issues but they released a firmware patch to address that issue.,HDMI neutral <sep> firmware patch neutral
+789,1068:1,I called Toshiba where I gave them the serial number and they informed me that they were having issues with the mother boards.,mother boards neutral
+791,946:1,It also comes with 4G of RAM but if you're like me you want to max that out so I immediately put 8G of RAM in her and I've never used a computer that performs better.,4G of RAM neutral <sep> 8G of RAM neutral <sep> performs positive
+795,256:1,This hardware seems to be better than the iMac in that it isn't $1400 and smaller.,hardware positive
+797,520:1,I've had it for about 2 months now and found no issues with software or updates.,software neutral <sep> updates neutral

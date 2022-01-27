@@ -1,0 +1,63 @@
+review_id,sentences_ids,sentences_texts,sentences_opinions
+en_PagodaRestaurant_478006817,id_2,"The lemon chicken tasted like sticky sweet donuts and the honey walnut prawns, the few they actually give you.....were not good.",lemon chicken negative <sep> honey walnut prawns negative
+en_ParkChaletGardenRestaurant_477778282,id_2,Everyone that sat in the back outside agreed that it was the worst service we had ever received.,service negative
+en_ParkChaletGardenRestaurant_477778282,id_4,"I complained to the manager, but he was not even apologetic.",manager negative
+en_OpenSesame_477970939,id_5,I had the Kafta plate and it was perfect.,Kafta plate positive
+en_Sage_480875505,id_1,"– In a age of incremental cost cutting in restaurants, its nice to see a place that bucks that trend, and just plain delivers high quality food and good service, period.",food positive <sep> service positive
+en_Sage_480875505,id_3,Caution - its real food for people who love the best.,food positive
+en_MercedesRestaurant_478010605,id_3,the bus boy even spotted that my table was shaking a stabilized it for me.,bus boy positive
+en_MercedesRestaurant_480852899,id_1,"the food was great, the margaritas too but the waitress was too busy being nice to her other larger party than to take better care of my friend and me.",food positive <sep> margaritas positive <sep> waitress negative
+en_BlueRibbonSushi_478218520,id_2,They have a wide variety of fish and they even list which oceans they come from; Atlantic or Pacific.,fish positive
+en_BlueRibbonSushi_478218520,id_3,"I've had the Jellyfish, Horse Mackerel, Blue Fin Tuna and the Sake Ikura roll among others, and they were all good.",Jellyfish positive <sep> Horse Mackerel positive <sep> Blue Fin Tuna positive <sep> Sake Ikura roll positive
+en_CatalRestaurant__UvaBar_477861893,id_1,– I loved the pumpkin ravioli and the goat cheese gnocchi (5 big ones to a plate instead of 20 or so little gnocchis) and my sister loved her filet mignon on top of spinach and mashed potatoes.,pumpkin ravioli positive <sep> goat cheese gnocchi positive <sep> filet mignon on top of spinach and mashed potatoes positive
+en_India'sGrill_477960694,id_3,I think I have probably tried each item on their menu at least once it is all excellent.,menu positive
+en_India'sGrill_477960698,id_3,The food was all good but it was way too mild.,food positive <sep> food negative
+en_India'sGrill_477960698,id_5,I should have thought to bring it up but never expected the food to be that mild.,food negative
+en_OpenSesame_477970938,id_4,"The presentation of the food was an added bonus, it looked just as great as it tasted!",food positive
+en_OpenSesame_477970938,id_5,My best friend had the chicken shawarma and she STILL raves about it being the best anywhere!,chicken shawarma positive
+en_OpenSesame_477970940,id_5,"Also, they serve THE best hummus in America, with a drizzle of fragrant olive oil (which, I believe is the traditional way)!",hummus positive
+en_ParkChaletGardenRestaurant_477778171,id_1,– My first time to dine at this restaurant was with my son and it was absolutely horrible!,restaurant negative
+en_ParkChaletGardenRestaurant_477778171,id_11,Sunday afternoons there is a band playing and it is lots of fun.,band positive
+en_SchoonerOrLater_477965848,id_2,"The food is not what it once was (potions have seriously seen downsizing) prices have gone up, and the service is the worst I have experienced anywhere (including mainland Europe).",food negative <sep> potions negative <sep> service negative
+en_SchoonerOrLater_477965848,id_7,I hope one day Scooner or Later returns to what it once was.,Scooner or Later negative
+en_OpenSesame_477970937,id_9,"Service was kind of slow, our waitress took forever to give us our check even though it wasn't that busy.",Service negative <sep> waitress negative
+en_MiopostoCaffe_478542919,id_5,"Finally, my wife stood face to face in front of one of the staff and she asked, ""Are you waiting for a table?""",staff negative
+en_MercedesRestaurant_478010602,id_2,"it gets really busy, so get there on the early side so you can grab a seat, if you do have to wait, its not bad because the service is quick!",service positive
+en_BlueRibbonSushi_478218509,id_2,"There is only one place on the east coast that has it all, plus a lot more.",place positive
+en_BlueRibbonSushi_478218339,id_1,"I was frankly shocked when I read the bad reviews - this place is fantastic; it has not let us down in any way, and we've eaten here more than 10 times.",place positive
+en_SchoonerOrLater_479842021,id_6,As it turns out the owner was seated right next to us and when he came over to check on our problems was very dismissive and offered a token 20% discount on our bill.,owner negative
+en_ParkChaletGardenRestaurant_477778210,id_6,I went home & looked them up online again where I discovered there is a link for a give away that doesn't work so emailed the restaurant about the non existent service & deceptive link.,restaurant negative
+en_Ray'sBoathouse_477775920,id_2,"If you can, come to this place by boat and make it a whole evening.",place positive
+en_MiopostoCaffe_478542922,id_3,"Prefer to order it and pick it up though because I don't like the servers, one young woman in particular.",servers negative <sep> young woman negative
+en_MiopostoCaffe_478542922,id_6,Management should really take notice and train their waitstaff and teach them some proper manners.,waitstaff negative <sep> Management negative
+en_MiopostoCaffe_478542922,id_7,"Many people talk about the great pizza and poor service, so it can't just be the rantings of a few dissatisfied customers.",pizza positive <sep> service negative
+en_SchoonerOrLater_479615721,id_3,The food is great and they make a mean bloody mary.,food positive <sep> bloody mary positive
+en_PagodaRestaurant_479983203,id_9,"so about the prawns, they were fresh and had a slight crispiness about the batter... soooo good... the walnuts were cut in smaller pieces and very crunchy and tasty.",prawns positive <sep> batter positive <sep> walnuts positive
+en_ParkChaletGardenRestaurant_477778211,id_15,"In other words, if they aren't making $$ off of you then you don't rate high on their 'service scale'.",service negative
+en_ParkChaletGardenRestaurant_477778211,id_16,"Food wise, its ok but a bit pricey for what you get considering the restaurant isn't a fancy place.",Food neutral <sep> restaurant negative <sep> restaurant neutral
+en_ParkChaletGardenRestaurant_477778211,id_18,If I needed to name some they would include the location to the beach or Golden Gate park.,location positive
+en_BlueRibbonSushi_478218524,id_4,"As usual the omikase didn't disappoint in freshness, although it scored low on creativity and selection.",omikase positive <sep> omikase negative
+en_BlueRibbonSushi_478218524,id_8,It isn't the cheapest sushi but has been worth it every time.,sushi neutral <sep> sushi positive
+en_SchoonerOrLater_477965850,id_1,"– Schooner or Later's charming location along the marina in Long Beach and average food does not, unfortunately, compensate for its very poor customer service.",location along the marina in Long Beach positive <sep> food neutral <sep> customer service negative
+en_SchoonerOrLater_477965850,id_6,"After one member of our party had been bumped repeatedly by a waitress, a polite request that he not be bumped sent the waitress into an abusive rant.",waitress negative
+en_SchoonerOrLater_477965850,id_8,"The manager continually interrupted with ""Is there anything else I can do for you?"", a strange comment because she had hardly listened, let alone responded to our expression of disappointment at our experience.",manager negative
+en_BlueRibbonSushi_478219447,id_2,"the fish was fresh, though it was cut very thin.",fish positive <sep> fish negative
+en_Ray'sBoathouse_477775915,id_4,I love Dungeness crabs and at Ray's you can get them served in about 6 different ways!,Dungeness crabs positive
+en_SnoozeanAMEatery_479991844,id_3,"If there is a line very day of the week for the entire time a place is open, you know it is great.",place positive
+en_StackRestaurant__Bar_478538239,id_5,I got the shellfish and shrimp appetizer and it was alright.,shellfish and shrimp appetizer neutral
+en_StackRestaurant__Bar_478538239,id_10,"The 9 oz steak came next and it tasted great, at least initially.",9 oz steak positive
+en_MiopostoCaffe_478543072,id_1,"– This is my ""must bring out of town guests to"" restaurant and they always enjoy and rave about it.",restaurant positive
+en_BlueRibbonSushi_478218334,id_3,"I have been to this place, folks and it is BAD.",place negative
+en_BlueRibbonSushi_478218334,id_4,Maybe it is good for that one night once in a blue moon when the chefs decide to use fish that's half-way decent.,fish negative
+en_BlueRibbonSushi_478218334,id_5,"I have been here, spent tons of money on a chef special dinner and it was a major dissappointment.",chef special dinner negative
+en_BlueRibbonSushi_478218341,id_1,It's a tiny place so if you get there before 8pm on a weekend (Thurs?Sun) you will find it easier to get a table or a seat at the sushi bar.,place neutral
+en_BlueRibbonSushi_478218341,id_5,"The sushi is as fresh as it comes?you'd think ocean was in their backyard, no joke!",sushi positive
+en_SnoozeanAMEatery_480171723,id_3,The presentation of Snooze is excellent and it is one of those places that you feel more sophisticated just for being there; but peel back the layers and you have an overpriced IHOP with a high brow menu.,Snooze positive <sep> menu negative <sep> Snooze negative
+en_SnoozeanAMEatery_480171723,id_5,"They serve it in a tall, skinny hour-glass shaped glass to disguise the fact that you a getting a small juice at the price of a half gallon in a supermarket.",juice negative
+en_SnoozeanAMEatery_480171723,id_7,"The pancakes were certainly inventive but $8.50 for 3 - 6"" pancakes (one of them was more like 5"") in the pancake flight (sample of 3 different pancakes) is well over-priced.",pancakes positive <sep> pancakes negative
+en_SnoozeanAMEatery_480171723,id_10,"On my meal I had to send back my eggs for a simple request of breaking the yokes before cooking, and would have had to send them back again if I hadn't rejected the meal all together.",eggs negative <sep> meal negative
+en_SnoozeanAMEatery_480171723,id_11,I rejected it because in the process of attempting to fix the eggs they broke something else in the dish and I was too frustrated to continue.,dish negative
+en_Ray'sBoathouse_477775918,id_2,"Ray's is something of a Seattle institution, but given its gorgeous Sound views, I had suspected that the accolades were more due to the scenery than to the food and service.",Sound views positive
+en_Ray'sBoathouse_477775918,id_7,The scallops are apparently cooked in a black olive butter which really makes them unique (not to mention tasty).,scallops positive
+en_Ray'sBoathouse_477775918,id_9,"I had a taste of all three items on her plate, and they were superb.",plate positive
+en_Ray'sBoathouse_477775918,id_13,"All considered, I have to say that Ray's Boathouse is deserving of its title as a Seattle institution.",Ray's Boathouse positive
