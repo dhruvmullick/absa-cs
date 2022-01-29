@@ -4,11 +4,13 @@ import sys
 import os
 import spacy
 
+# PREDICTIONS_FILE = 'models/dataset5_test_mams_train_reverse/evaluation_commongen_predictions.csv'
+# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/dataset5_test_mams_train_reverse/transformed-targets.csv'
+# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/dataset5_test_mams_train_reverse/transformed-sentiments.csv'
 
-PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_dataset2_early_stopping/evaluation_commongen_predictions.csv'
-
-TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_dataset2_early_stopping/transformed-targets.csv'
-TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_dataset2_early_stopping/transformed-sentiments.csv'
+PREDICTIONS_FILE = ''
+TRANSFORMED_TARGETS_PREDICTIONS_FILE = ''
+TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = ''
 
 SEPARATOR = '<sep>'
 
@@ -99,7 +101,8 @@ def transform_line_for_sentiment_extraction(line, language, spacy_nlp):
     return generated_sentiment_idx_list_deduped, true_sentiment_idx_list
 
 
-def transform_gold_and_truth(language, spacy_nlp, predictions_file, transformed_targets_predictions_file, transformed_sentiments_predictions_file):
+def transform_gold_and_truth(language, spacy_nlp, predictions_file, transformed_targets_predictions_file,
+                             transformed_sentiments_predictions_file):
     with open(predictions_file, 'r') as csvfile:
         os.makedirs(os.path.dirname(transformed_targets_predictions_file), exist_ok=True)
         with open(transformed_targets_predictions_file, 'w') as newfile_targets:
@@ -122,14 +125,15 @@ def transform_gold_and_truth(language, spacy_nlp, predictions_file, transformed_
                     writer_sentiments.writerow([pred_sentiment_transformed, gold_sentiment_transformed])
 
 
-def run_from_generative_script(filepath=PREDICTIONS_FILE):
-    predictions_filepath = filepath
+def run_from_generative_script(predictions_filepath=PREDICTIONS_FILE,
+                               transformed_targets_filepath=TRANSFORMED_TARGETS_PREDICTIONS_FILE,
+                               transformed_sentiments_filepath=TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE):
+
     nlp = spacy.load(utils.get_spacy_language('en'), disable=['parser', 'ner'])
-    print("Evaluating file at...: " + filepath)
-    transform_gold_and_truth('en', nlp, predictions_filepath,
-                             TRANSFORMED_TARGETS_PREDICTIONS_FILE, TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE)
+    print("Evaluating file at...: " + predictions_filepath)
+    transform_gold_and_truth('en', nlp, predictions_filepath, transformed_targets_filepath,
+                             transformed_sentiments_filepath)
 
 
 if __name__ == '__main__':
     run_from_generative_script()
-

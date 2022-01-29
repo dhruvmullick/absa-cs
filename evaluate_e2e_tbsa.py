@@ -8,11 +8,10 @@ import sys
 
 SMALL_POSITIVE_CONST = 1e-4
 
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/exp/other/transformed-targets.csv'
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/exp/other/transformed-sentiments.csv'
-
-TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_dataset2_early_stopping/transformed-targets.csv'
-TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/commongen_evaluation_old_prompt_dataset2_early_stopping/transformed-sentiments.csv'
+# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/dataset5_test_mams_train_reverse/transformed-targets.csv'
+# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/dataset5_test_mams_train_reverse/transformed-sentiments.csv'
+TRANSFORMED_TARGETS_PREDICTIONS_FILE = ''
+TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = ''
 
 # Dhruv's e.g. evaluate_ote("O O O S O B I E", "O O O S O O O O") ->
 # (0.9999000099990001, 0.9999000099990001, 0.9998500124991251)
@@ -166,13 +165,16 @@ def read_transformed_sentiments(transformed_sentiments_predictions_file):
     return predicted_data, gold_data
 
 
-def run_from_generative_script(file_to_write):
+def run_from_generative_script(target_file_to_evaluate, sentiments_file_to_evaluate, file_to_write):
 
-    predicted_data_targets, gold_data_targets = read_transformed_targets(TRANSFORMED_TARGETS_PREDICTIONS_FILE)
+    print("Evaluating target file: {}, Evaluating sentiments file: {}\n"
+          .format(target_file_to_evaluate, sentiments_file_to_evaluate))
+
+    predicted_data_targets, gold_data_targets = read_transformed_targets(target_file_to_evaluate)
     output_targets = evaluate_ote(gold_data_targets, predicted_data_targets)
     print(output_targets)
 
-    predicted_data_sentiment, gold_data_sentiment = read_transformed_sentiments(TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE)
+    predicted_data_sentiment, gold_data_sentiment = read_transformed_sentiments(sentiments_file_to_evaluate)
     output_sentiment = evaluate_ts(gold_data_sentiment, predicted_data_sentiment)
     print(output_sentiment)
 
@@ -183,5 +185,5 @@ def run_from_generative_script(file_to_write):
 
 
 if __name__ == '__main__':
-    run_from_generative_script(None)
+    run_from_generative_script(TRANSFORMED_TARGETS_PREDICTIONS_FILE, TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE, None)
 

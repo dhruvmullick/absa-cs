@@ -235,9 +235,9 @@ def preprocess_dataset(domain, language):
     val_ambiguous = val[val['sentences_texts'].str.contains(REGEX_PHRASE)]
     test_ambiguous = test[test['sentences_texts'].str.contains(REGEX_PHRASE)]
 
-    train_ambiguous.to_csv('data/processed_train_{}_{}_ambi.csv'.format(domain, language), header=True, index=False)
-    val_ambiguous.to_csv('data/processed_val_{}_{}_ambi.csv'.format(domain, language), header=True, index=False)
-    test_ambiguous.to_csv('data/processed_test_{}_{}_ambi.csv'.format(domain, language), header=True, index=False)
+    train.to_csv('data/processed_train_{}_{}.csv'.format(domain, language), header=True, index=False)
+    val.to_csv('data/processed_val_{}_{}.csv'.format(domain, language), header=True, index=False)
+    test.to_csv('data/processed_test_{}_{}.csv'.format(domain, language), header=True, index=False)
 
     return train, val, test, test_ambiguous
 
@@ -248,7 +248,7 @@ if __name__ == '__main__':
     # # Semeval Rest 2015
     # rest15_train, rest15_val, rest15_test, rest15_test_ambi = preprocess_dataset('Rest15', 'en')
     # # MAMS
-    # mams_train, mams_val, mams_test, mams_test_ambi = preprocess_dataset('Mams', 'en')
+    mams_train, mams_val, mams_test, mams_test_ambi = preprocess_dataset('Mams', 'en')
     # # Semeval Laptop 2014
     # lap14_train, lap14_val, lap14_test, lap14_test_ambi = preprocess_dataset('Lap14', 'en')
     # # Semeval Rest 2014
@@ -270,27 +270,27 @@ if __name__ == '__main__':
     # lap14_train_count = int(rest16_train_count * len(lap14_test_ambi) / len(rest16_test_ambi))
     # lap14_train = lap14_train.sample(n=min(lap14_train_count, len(lap14_train)))
 
-    # mams_train = mams_train.sample(n=rest16_train_count)
+    mams_train = mams_train.sample(n=rest16_train_count)
 
     # Validation set
-    # rest16_val_count = len(rest16_val)
+    rest16_val_count = len(rest16_val)
     # rest16_val = rest16_val.sample(n=rest16_val_count)
     # mams_val_count = int(rest16_val_count * len(mams_test_ambi) / len(rest16_test_ambi))
     # mams_val = mams_val.sample(n=mams_val_count)
     # lap14_val_count = int(rest16_val_count * len(lap14_test_ambi) / len(rest16_test_ambi))
     # lap14_val = lap14_val.sample(n=min(lap14_val_count, len(lap14_val)))
 
-    # mams_val = mams_val.sample(n=rest16_val_count)
+    mams_val = mams_val.sample(n=rest16_val_count)
 
     ### Merged train datasets
     # train_merged = pd.concat([rest16_train, mams_train, lap14_train], ignore_index=True)
-    # train_merged = pd.concat([rest16_train, mams_train], ignore_index=True)
-    # train_merged.to_csv('data/merged_train.csv', header=True, index=False)
+    train_merged = pd.concat([rest16_train, mams_train], ignore_index=True)
+    train_merged.to_csv('data/merged_train.csv', header=True, index=False)
     #
     # ### Merged validation datasets
     # # val_merged = pd.concat([rest16_val, mams_val, lap14_val], ignore_index=True)
-    # val_merged = pd.concat([rest16_val, mams_val], ignore_index=True)
-    # val_merged.to_csv('data/merged_val.csv', header=True, index=False)
+    val_merged = pd.concat([rest16_val, mams_val], ignore_index=True)
+    val_merged.to_csv('data/merged_val.csv', header=True, index=False)
     #
     # ### Merged ambiguous test dataset
     # # test_ambiguous = pd.concat([rest16_test_ambi, mams_test_ambi, lap14_test_ambi], ignore_index=True)

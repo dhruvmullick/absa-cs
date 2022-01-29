@@ -267,7 +267,6 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params):
 def T5Generator(validation_loader, model_params, output_file):
 
     ### Setting random seed to 0 so that even if generation is run independently, we get the same results.
-    # print("CHANGING SEED VALUE TO 2...")
     torch.manual_seed(0)  # pytorch random seed
     np.random.seed(0)  # numpy random seed
 
@@ -300,7 +299,7 @@ if __name__ == '__main__':
 
     training_file = './data/merged_train.csv'
     validation_file = './data/merged_val.csv'
-    test_file = './data/merged_test_ambiguous.csv'
+    test_file = 'data/Ambiguous5/merged_test_ambiguous.csv'
     print("Training on: {}, Testing on: {}".format(training_file, test_file))
     print("ABSA Prompt is: {}".format(ABSA_PROMPT))
     print("Experimenting on merged trained, validation and test sets.")
@@ -310,7 +309,7 @@ if __name__ == '__main__':
     test = pd.read_csv(test_file)
 
     model_params = {
-        "OUTPUT_PATH": f"./models/commongen_evaluation_old_prompt_dataset2_early_stopping/",  # output path
+        "OUTPUT_PATH": f"./models/dataset5_test_mams_train/",  # output path
         # "MODEL": "mrm8488/t5-base-finetuned-common_gen",
         "MODEL": "t5-base",
         # "MODEL": "models/commongen_evaluation/model_files",
