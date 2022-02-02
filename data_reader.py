@@ -239,6 +239,8 @@ def preprocess_dataset(domain, language):
     val.to_csv('data/processed_val_{}_{}.csv'.format(domain, language), header=True, index=False)
     test.to_csv('data/processed_test_{}_{}.csv'.format(domain, language), header=True, index=False)
 
+    # train_ambiguous.to_csv('data/processed_train_{}_{}_ambi.csv'.format(domain, language), header=True, index=False)
+
     return train, val, test, test_ambiguous
 
 

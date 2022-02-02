@@ -165,7 +165,7 @@ def read_transformed_sentiments(transformed_sentiments_predictions_file):
     return predicted_data, gold_data
 
 
-def run_from_generative_script(target_file_to_evaluate, sentiments_file_to_evaluate, file_to_write):
+def run_from_generative_script(target_file_to_evaluate, sentiments_file_to_evaluate):
 
     print("Evaluating target file: {}, Evaluating sentiments file: {}\n"
           .format(target_file_to_evaluate, sentiments_file_to_evaluate))
@@ -178,12 +178,9 @@ def run_from_generative_script(target_file_to_evaluate, sentiments_file_to_evalu
     output_sentiment = evaluate_ts(gold_data_sentiment, predicted_data_sentiment)
     print(output_sentiment)
 
-    if file_to_write is not None:
-        print("Writing to : {}".format(file_to_write))
-        with open(file_to_write, 'a') as file:
-            file.write("{}, {}\n".format(output_targets[2], output_sentiment[2]))
+    return {'te': output_targets[2], 'tse': output_sentiment[2]}
 
 
 if __name__ == '__main__':
-    run_from_generative_script(TRANSFORMED_TARGETS_PREDICTIONS_FILE, TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE, None)
+    run_from_generative_script(TRANSFORMED_TARGETS_PREDICTIONS_FILE, TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE)
 
