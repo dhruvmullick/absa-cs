@@ -4,9 +4,9 @@ import sys
 import os
 import spacy
 
-# PREDICTIONS_FILE = 'models/dataset5_test_mams_train_reverse/evaluation_commongen_predictions.csv'
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/dataset5_test_mams_train_reverse/transformed-targets.csv'
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/dataset5_test_mams_train_reverse/transformed-sentiments.csv'
+# PREDICTIONS_FILE = 'Results/AmbiguousDataset5/Predictions/0.05_16_predictions.csv'
+# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'Results/AmbiguousDataset5/Predictions/evaluation_commongen_predictions_0.0_1_0_transformed_targets.csv'
+# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'Results/AmbiguousDataset5/Predictions/evaluation_commongen_predictions_0.0_1_0_transformed_sentiments.csv'
 
 PREDICTIONS_FILE = ''
 TRANSFORMED_TARGETS_PREDICTIONS_FILE = ''
@@ -130,7 +130,7 @@ def run_from_generative_script(predictions_filepath=PREDICTIONS_FILE,
                                transformed_sentiments_filepath=TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE):
 
     nlp = spacy.load(utils.get_spacy_language('en'), disable=['parser', 'ner'])
-    print("Evaluating file at...: " + predictions_filepath)
+    print("Preprocessing prediction file at...: " + predictions_filepath)
     transform_gold_and_truth('en', nlp, predictions_filepath, transformed_targets_filepath,
                              transformed_sentiments_filepath)
 

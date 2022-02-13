@@ -8,8 +8,8 @@ import sys
 
 SMALL_POSITIVE_CONST = 1e-4
 
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'models/dataset5_test_mams_train_reverse/transformed-targets.csv'
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'models/dataset5_test_mams_train_reverse/transformed-sentiments.csv'
+# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'Results/AmbiguousDataset5/Predictions/evaluation_commongen_predictions_0.0_1_0_transformed_targets.csv'
+# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'Results/AmbiguousDataset5/Predictions/evaluation_commongen_predictions_0.0_1_0_transformed_sentiments.csv'
 TRANSFORMED_TARGETS_PREDICTIONS_FILE = ''
 TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = ''
 
@@ -35,7 +35,7 @@ def evaluate_ote(gold_ot, pred_ot):
         # g_ot_sequence, p_ot_sequence = tag2ot(ote_tag_sequence=g_ot), tag2ot(ote_tag_sequence=p_ot)
         g_ot_sequence, p_ot_sequence = g_ot, p_ot
         # hit number
-        n_hit_ot = match_ot(gold_ote_sequence=g_ot_sequence, pred_ote_sequence=p_ot_sequence)
+        n_hit_ot = match_ot(gold_ote_sequence=g_ot_sequence, pred_ote_sequence=p_ot_sequence, idx=i)
         n_tp_ot += n_hit_ot
         n_gold_ot += len(g_ot_sequence)
         n_pred_ot += len(p_ot_sequence)
@@ -47,7 +47,7 @@ def evaluate_ote(gold_ot, pred_ot):
     ote_scores = (ot_precision, ot_recall, ot_f1)
     return ote_scores
 
-def match_ot(gold_ote_sequence, pred_ote_sequence):
+def match_ot(gold_ote_sequence, pred_ote_sequence, idx):
     """
     calculate the number of correctly predicted opinion target
     :param gold_ote_sequence: gold standard opinion target sequence
@@ -58,6 +58,10 @@ def match_ot(gold_ote_sequence, pred_ote_sequence):
     for t in pred_ote_sequence:
         if t in gold_ote_sequence:
             n_hit += 1
+
+    if n_hit != len(pred_ote_sequence) or n_hit != len(gold_ote_sequence):
+        print("{}".format(idx))
+
     return n_hit
 
 # Dhruv's e.g. Updated: print(evaluate_ts([[(1, 3, 'POS'), (4, 4, 'NEG')]], [[(1, 3, 'POS'), (4, 4, 'NEG')]]))
@@ -132,8 +136,10 @@ def match_ts(gold_ts_sequence, pred_ts_sequence, idx):
         if t in gold_ts_sequence:
             hit_count[tid] += 1
         pred_count[tid] += 1
-    # if not np.all(hit_count == gold_count) or not np.all(hit_count == pred_count):
-    #     print("{}".format(idx))
+
+    if not np.all(hit_count == gold_count) or not np.all(hit_count == pred_count):
+        print("{}".format(idx))
+
     return hit_count, gold_count, pred_count
 
 
@@ -173,6 +179,8 @@ def run_from_generative_script(target_file_to_evaluate, sentiments_file_to_evalu
     predicted_data_targets, gold_data_targets = read_transformed_targets(target_file_to_evaluate)
     output_targets = evaluate_ote(gold_data_targets, predicted_data_targets)
     print(output_targets)
+
+    print("--------")
 
     predicted_data_sentiment, gold_data_sentiment = read_transformed_sentiments(sentiments_file_to_evaluate)
     output_sentiment = evaluate_ts(gold_data_sentiment, predicted_data_sentiment)

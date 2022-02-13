@@ -38,7 +38,6 @@ review_id,sentences_ids,sentences_texts,sentences_opinions
 0,0,"Our waiter never once asked how everything was, as I suspect he knew the kitchen was producing seriously average food.",waiter negative <sep> kitchen neutral <sep> food negative
 0,0,"When I asked the manager to remove the coffee, she did so without question, but never asked why and never followed up on the issue (she was far too busy flirting with the male waiters).",manager negative <sep> coffee neutral <sep> waiters neutral
 0,0,but the Server informed us that they wanted to make the soup their own and that she hopes we like it.,Server positive <sep> soup neutral
-en_PagodaRestaurant_478006817,id_2,"The lemon chicken tasted like sticky sweet donuts and the honey walnut prawns, the few they actually give you.....were not good.",lemon chicken negative <sep> honey walnut prawns negative
 en_ParkChaletGardenRestaurant_477778282,id_2,Everyone that sat in the back outside agreed that it was the worst service we had ever received.,service negative
 en_ParkChaletGardenRestaurant_477778282,id_4,"I complained to the manager, but he was not even apologetic.",manager negative
 en_OpenSesame_477970939,id_5,I had the Kafta plate and it was perfect.,Kafta plate positive
@@ -55,12 +54,10 @@ en_SchoonerOrLater_477965848,id_2,"The food is not what it once was (potions hav
 en_SchoonerOrLater_477965848,id_7,I hope one day Scooner or Later returns to what it once was.,Scooner or Later negative
 en_MercedesRestaurant_478010602,id_2,"it gets really busy, so get there on the early side so you can grab a seat, if you do have to wait, its not bad because the service is quick!",service positive
 en_BlueRibbonSushi_478218339,id_1,"I was frankly shocked when I read the bad reviews - this place is fantastic; it has not let us down in any way, and we've eaten here more than 10 times.",place positive
-en_Ray'sBoathouse_477775920,id_2,"If you can, come to this place by boat and make it a whole evening.",place positive
 en_MiopostoCaffe_478542922,id_6,Management should really take notice and train their waitstaff and teach them some proper manners.,waitstaff negative <sep> Management negative
 en_PagodaRestaurant_479983203,id_9,"so about the prawns, they were fresh and had a slight crispiness about the batter... soooo good... the walnuts were cut in smaller pieces and very crunchy and tasty.",prawns positive <sep> batter positive <sep> walnuts positive
 en_ParkChaletGardenRestaurant_477778211,id_15,"In other words, if they aren't making $$ off of you then you don't rate high on their 'service scale'.",service negative
 en_ParkChaletGardenRestaurant_477778211,id_16,"Food wise, its ok but a bit pricey for what you get considering the restaurant isn't a fancy place.",Food neutral <sep> restaurant negative <sep> restaurant neutral
-en_ParkChaletGardenRestaurant_477778211,id_18,If I needed to name some they would include the location to the beach or Golden Gate park.,location positive
 en_BlueRibbonSushi_478218524,id_4,"As usual the omikase didn't disappoint in freshness, although it scored low on creativity and selection.",omikase positive <sep> omikase negative
 en_BlueRibbonSushi_478218524,id_8,It isn't the cheapest sushi but has been worth it every time.,sushi neutral <sep> sushi positive
 en_SchoonerOrLater_477965850,id_1,"– Schooner or Later's charming location along the marina in Long Beach and average food does not, unfortunately, compensate for its very poor customer service.",location along the marina in Long Beach positive <sep> food neutral <sep> customer service negative
@@ -163,3 +160,10 @@ PP#4,id_7,The potato balls were not dry at all... in fact it was buttery.,potato
 720620,id_3,This dish is my favorite and I always get it when I go there and never get tired of it.,dish positive
 1486041,id_0,"The atmosphere is nothing special, but it feels like a Sushi establishment in Tokyo.",atmosphere positive
 1269216,id_4,Worth visiting the 1st Ave spot because it is the original store.,1st Ave spot positive
+000000,id_manual1,"He ate food at the restaurant, it was not good.",food negative <sep> restaurant neutral
+000000,id_manual2,"He ate food at the restaurant, it was too hot.",food negative <sep> restaurant neutral
+000000,id_manual3,"He ate food at the restaurant, it was deserted.", food neutral <sep> restaurant negative
+000000,id_manual4,"He ate food at the restaurant, it was unclean.",food neutral <sep> restaurant negative
+000000,id_manual5,"He ate food at the restaurant, it was beautiful.",food neutral <sep> restaurant positive
+000000,id_manual6,"He ate food at the restaurant, it was too tiny.",food neutral <sep> restaurant negative
+000000,id_manual7,"He ate food at the restaurant, it was generous.",food positive <sep> restaurant neutral
