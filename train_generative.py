@@ -267,6 +267,8 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params):
 def T5Generator(validation_loader, model_params, output_file):
 
     ### Setting random seed to 0 so that even if generation is run independently, we get the same results.
+    ### Note: Running with CPU and running with GPU give different outcomes.
+
     torch.manual_seed(model_params['SEED'])  # pytorch random seed
     np.random.seed(model_params['SEED'])  # numpy random seed
 

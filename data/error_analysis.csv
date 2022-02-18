@@ -1,0 +1,31 @@
+review_id,sentences_ids,sentences_texts,sentences_opinions
+en_BlueRibbonSushi_478218520,id_3,"I've had the Jellyfish, Horse Mackerel, Blue Fin Tuna and the Sake Ikura roll among others, and they were all good.",Jellyfish positive <sep> Horse Mackerel positive <sep> Blue Fin Tuna positive <sep> Sake Ikura roll positive
+0,0,"So inexcpensive that you'd wonder about the sanity of the owners, if they weren't such good cooks.",owners neutral <sep> cooks positive
+en_OpenSesame_477970938,id_4,"The presentation of the food was an added bonus, it looked just as great as it tasted!",food positive
+1280179,id_0,"I've been to at Cafe Spice probably 5-8 times, it is probably still the best Indian restaurant around Union Square.",Cafe Spice positive
+1055910,id_5,"Don't judge this place prima facie, you have to try it to believe it, a home away from home for the literate heart.",place positive
+TFS#5,id_23,"The Four Seasons has history and it is a sort of landmark of New York City restaurants, but trust me, they will charge you through the nose just so that you can say ""I've been to the four seasons restaurant"".",The Four Seasons neutral <sep> The Four Seasons negative
+0,0,On Friday night the busboy was sulky verging on rude; he brought the fries (ordered for the entrees) twice before the appetizers came and then again the minute we'd finished them and looked put out to be asked to take the empty plates away.,busboy negative <sep> appetizers neutral
+en_Ray'sBoathouse_477775918,id_7,The scallops are apparently cooked in a black olive butter which really makes them unique (not to mention tasty).,scallops positive
+707917,id_0,I have been to Rao's probably 15 times the past 3 years and it keeps getting better.,Rao's positive
+PP#4,id_7,The potato balls were not dry at all... in fact it was buttery.,potato balls positive
+0,0,"While dining on a delicate lamb carpaccio, and grilled skate wing, the owner explained that due to low lunch-time patronage, they may be discontinuing lunch altogether.",dining neutral <sep> owner negative
+1293334,id_1,"My husband and I thougt it would be great to go to the Jekyll and Hyde Pub for our anniversary, and to our surprise it was fantastic.",Jekyll and Hyde Pub positive
+1719567,id_2,We had the scallops as an appetizer and they were delicious and the sauce was wonderful.,scallops positive <sep> sauce positive
+Z#6,id_5,"My party had the BBE $29 fixe prix menu, which was such a wonderful deal since it also came with a flight of sake!",BBE $29 fixe prix menu positive
+0,0,got the guac but no drinks until it was all gone (approximately 20 minutes later).,guac neutral <sep> drinks negative
+en_BlueRibbonSushi_478218520,id_3,"I've had the Jellyfish, Horse Mackerel, Blue Fin Tuna and the Sake Ikura roll among others, and the Jellyfish, Horse Mackerel, Blue Fin Tuna and Sake Ikura roll were all good.",Jellyfish positive <sep> Horse Mackerel positive <sep> Blue Fin Tuna positive <sep> Sake Ikura roll positive
+0,0,"So inexcpensive that you'd wonder about the sanity of the owners, if the owners weren't such good cooks.",owners neutral <sep> cooks positive
+en_OpenSesame_477970938,id_4,"The presentation of the food was an added bonus, food looked just as great as food tasted!",food positive
+1280179,id_0,"I've been to at Cafe Spice probably 5-8 times, Cafe Spice is probably still the best Indian restaurant around Union Square.",Cafe Spice positive
+1055910,id_5,"Don't judge this place prima facie, you have to try the place to believe it, a home away from home for the literate heart.",place positive
+TFS#5,id_23,"The Four Seasons has history and Four Seasons is a sort of landmark of New York City restaurants, but trust me, the Four Seasons will charge you through the nose just so that you can say ""I've been to the four seasons restaurant"".",The Four Seasons neutral <sep> The Four Seasons negative
+0,0,On Friday night the busboy was sulky verging on rude; busboy brought the fries (ordered for the entrees) twice before the appetizers came and then again the minute we'd finished them and looked put out to be asked to take the empty plates away.,busboy negative <sep> appetizers neutral
+en_Ray'sBoathouse_477775918,id_7,The scallops are apparently cooked in a black olive butter which really makes the scallops unique (not to mention tasty).,scallops positive
+PP#4,id_7,The potato balls were not dry at all... in fact the potato balls was buttery.,potato balls positive
+0,0,"While dining on a delicate lamb carpaccio, and grilled skate wing, the owner explained that due to low lunch-time patronage, the owner may be discontinuing lunch altogether.",dining neutral <sep> owner negative
+1293334,id_1,"My husband and I thougt it would be great to go to the Jekyll and Hyde Pub for our anniversary, and to our surprise the Jekyll and Hyde Pub was fantastic.",Jekyll and Hyde Pub positive
+1719567,id_2,We had the scallops as an appetizer and the scallops were delicious and the sauce was wonderful.,scallops positive <sep> sauce positive
+Z#6,id_5,"My party had the BBE $29 fixe prix menu, which was such a wonderful deal since the BBE $29 fixe prix menu also came with a flight of sake!",BBE $29 fixe prix menu positive
+0,0,got the guac but no drinks until the guac was all gone (approximately 20 minutes later).,guac neutral <sep> drinks negative
+707917,id_0,I have been to Rao's probably 15 times the past 3 years and Rao's keeps getting better.,Rao's positive

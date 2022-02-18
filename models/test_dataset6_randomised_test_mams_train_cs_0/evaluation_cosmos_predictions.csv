@@ -1,0 +1,29 @@
+,Generated Text,Actual Text,Original Sentence
+0,Jellyfish positive targettes Horse Mackerel positive protect Blue Fin Tuna negative Ake Ikura roll positive male,Jellyfish positive <sep> Horse Mackerel positive <sep> Blue Fin Tuna positive <sep> Sake Ikura roll positive,"aspect analysis: I've had the Jellyfish, Horse Mackerel, Blue Fin Tuna and the Sake Ikura roll among others, and they were all good."
+1,owners positive,owners neutral <sep> cooks positive,"aspect analysis: So inexcpensive that you'd wonder about the sanity of the owners, if they weren't such good cooks."
+2,food positive,food positive,"aspect analysis: The presentation of the food was an added bonus, it looked just as great as it tasted!"
+3,Cafe Spice positive,Cafe Spice positive,"aspect analysis: I've been to at Cafe Spice probably 5-8 times, it is probably still the best Indian restaurant around Union Square."
+4,place positive,place positive,"aspect analysis: Don't judge this place prima facie, you have to try it to believe it, a home away from home for the literate heart."
+5,The Four Seasons culprit,The Four Seasons neutral <sep> The Four Seasons negative,"aspect analysis: The Four Seasons has history and it is a sort of landmark of New York City restaurants, but trust me, they will charge you through the nose just so that you can say ""I've been to the four seasons restaurant""."
+6,scallops positive,scallops positive,aspect analysis: The scallops are apparently cooked in a black olive butter which really makes them unique (not to mention tasty).
+7,potato balls positive,potato balls positive,aspect analysis: The potato balls were not dry at all... in fact it was buttery.
+8,dining neutralises pipin was suspended,dining neutral <sep> owner negative,"aspect analysis: While dining on a delicate lamb carpaccio, and grilled skate wing, the owner explained that due to low lunch-time patronage, they may be discontinuing lunch altogether."
+9,Jekyll and Hyde Pub positive,Jekyll and Hyde Pub positive,"aspect analysis: My husband and I thougt it would be great to go to the Jekyll and Hyde Pub for our anniversary, and to our surprise it was fantastic."
+10,scallops positive Capela positive Andereaise favorable Deutsche Sauce positive,scallops positive <sep> sauce positive,aspect analysis: We had the scallops as an appetizer and they were delicious and the sauce was wonderful.
+11,BBE $29 fixe prix menu positive,BBE $29 fixe prix menu positive,"aspect analysis: My party had the BBE $29 fixe prix menu, which was such a wonderful deal since it also came with a flight of sake!"
+12,guac neutral voix negative,guac neutral <sep> drinks negative,aspect analysis: got the guac but no drinks until it was all gone (approximately 20 minutes later).
+13,Rao's positive,Rao's positive,aspect analysis: I have been to Rao's probably 15 times the past 3 years and it keeps getting better.
+14,Jellyfish positivecht horse Mackerel positive Werbung Blue Fin Tuna positive Werbung Sake Ikura roll positive,Jellyfish positive <sep> Horse Mackerel positive <sep> Blue Fin Tuna positive <sep> Sake Ikura roll positive,"aspect analysis: I've had the Jellyfish, Horse Mackerel, Blue Fin Tuna and the Sake Ikura roll among others, and the Jellyfish, Horse Mackerel, Blue Fin Tuna and Sake Ikura roll were all good."
+15,owners negative,owners neutral <sep> cooks positive,"aspect analysis: So inexcpensive that you'd wonder about the sanity of the owners, if the owners weren't such good cooks."
+16,food positive,food positive,"aspect analysis: The presentation of the food was an added bonus, food looked just as great as food tasted!"
+17,Cafe Spice positive,Cafe Spice positive,"aspect analysis: I've been to at Cafe Spice probably 5-8 times, Cafe Spice is probably still the best Indian restaurant around Union Square."
+18,place positive,place positive,"aspect analysis: Don't judge this place prima facie, you have to try the place to believe it, a home away from home for the literate heart."
+19,The Four Seasons neutral reported database continued evolution Autumn Campus,The Four Seasons neutral <sep> The Four Seasons negative,"aspect analysis: The Four Seasons has history and Four Seasons is a sort of landmark of New York City restaurants, but trust me, the Four Seasons will charge you through the nose just so that you can say ""I've been to the four seasons restaurant""."
+20,scallops positive,scallops positive,aspect analysis: The scallops are apparently cooked in a black olive butter which really makes the scallops unique (not to mention tasty).
+21,potato balls positive,potato balls positive,aspect analysis: The potato balls were not dry at all... in fact the potato balls was buttery.
+22,dining neutral situation owner positive,dining neutral <sep> owner negative,"aspect analysis: While dining on a delicate lamb carpaccio, and grilled skate wing, the owner explained that due to low lunch-time patronage, the owner may be discontinuing lunch altogether."
+23,Jekyll and Hyde Pub positive,Jekyll and Hyde Pub positive,"aspect analysis: My husband and I thougt it would be great to go to the Jekyll and Hyde Pub for our anniversary, and to our surprise the Jekyll and Hyde Pub was fantastic."
+24,scallops positivesprach sauce positive,scallops positive <sep> sauce positive,aspect analysis: We had the scallops as an appetizer and the scallops were delicious and the sauce was wonderful.
+25,BBE $29 fixe prix menu positive,BBE $29 fixe prix menu positive,"aspect analysis: My party had the BBE $29 fixe prix menu, which was such a wonderful deal since the BBE $29 fixe prix menu also came with a flight of sake!"
+26,guac neutralisé1+1 drinks negative,guac neutral <sep> drinks negative,aspect analysis: got the guac but no drinks until the guac was all gone (approximately 20 minutes later).
+27,Rao's positive,Rao's positive,aspect analysis: I have been to Rao's probably 15 times the past 3 years and Rao's keeps getting better.

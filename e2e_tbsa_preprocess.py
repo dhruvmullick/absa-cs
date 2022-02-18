@@ -4,9 +4,9 @@ import sys
 import os
 import spacy
 
-# PREDICTIONS_FILE = 'Results/AmbiguousDataset5/Predictions/0.05_16_predictions.csv'
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'Results/AmbiguousDataset5/Predictions/evaluation_commongen_predictions_0.0_1_0_transformed_targets.csv'
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'Results/AmbiguousDataset5/Predictions/evaluation_commongen_predictions_0.0_1_0_transformed_sentiments.csv'
+# PREDICTIONS_FILE = 'Results/AmbiguousDataset6/Predictions/0.05_8_predictions.csv'
+# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'Results/AmbiguousDataset6/Predictions/temp_0.05_8_predictions_transformed_targets.csv'
+# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'Results/AmbiguousDataset6/Predictions/temp_0.05_8_predictions_transformed_sentiments.csv'
 
 PREDICTIONS_FILE = ''
 TRANSFORMED_TARGETS_PREDICTIONS_FILE = ''
