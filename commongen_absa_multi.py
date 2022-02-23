@@ -21,9 +21,10 @@ from train_generative import T5Trainer, T5Generator
 from train_generative import YourDataSetClass
 
 # Task names
-SQUAD = 'SQUAD'
 ABSA = 'ABSA'
+SQUAD = 'SQUAD'
 COSMOS = 'COSMOS'
+WIKITEXT = 'WIKITEXT'
 COMMONGEN = 'COMMONGEN'
 
 TARGET_TEXT = "target"
@@ -38,8 +39,8 @@ ABSA_MULTIPLIER = 2
 
 # COMMONGEN_FRACTION_LIST = [0, 0.01, 0.02, 0.05, 0.1, 0.2, 0.4, 0.5, 1]
 # ABSA_MULTIPLIER_LIST = [0.1, 0.2, 0.5, 1, 2, 4, 8, 16]
-# ABSA_MULTIPLIER_LIST = [1, 2, 4, 8, 16]
-ABSA_MULTIPLIER_LIST = [1]
+ABSA_MULTIPLIER_LIST = [1, 2, 4, 8, 16]
+# ABSA_MULTIPLIER_LIST = [1]
 
 # COMMONGEN_FRACTION_LIST = [0.5, 1]
 # ABSA_MULTIPLIER_LIST = [0.5, 1, 1.5, 2, 2.5, 4, 8, 16]
@@ -48,16 +49,32 @@ ABSA_MULTIPLIER_LIST = [1]
 COMMONSENSE_FRACTION = float(sys.argv[1])
 AUX_FRACTION = float(sys.argv[1])
 
+if len(sys.argv) == 2:
+    TASK = COMMONGEN
+else:
+    TASK = sys.argv[2]
+
+print("TASK: {}".format(TASK))
+
+if len(sys.argv) == 5:
+    ABSA_FRACTION = float(sys.argv[3])
+    SEED = int(sys.argv[4])
+else:
+    ABSA_FRACTION = None
+    SEED = None
+
+print("ABSA Fraction: {}".format(ABSA_FRACTION))
+print("SEED: {}".format(SEED))
+
 # COMMONSENSE_FRACTION = 0
 
 # MODEL_DIRECTORY = 'models/dataset5_randomised2_test_mams_train_cs_{}'.format(COMMONSENSE_FRACTION)
 # MODEL_DIRECTORY = 'models/dataset6_randomised_test_mams_train_cs_{}'.format(COMMONSENSE_FRACTION)
-MODEL_DIRECTORY = 'models/dataset6_randomised_test_mams_train_squad_{}'.format(AUX_FRACTION)
+MODEL_DIRECTORY = 'models/{}_dataset6_randomised_test_mams_train_aux_{}'.format(TASK, AUX_FRACTION)
 
 EXPERIMENT_OUTPUT_FILE_TARGET = '{}/output_targets.csv'.format(MODEL_DIRECTORY)
 EXPERIMENT_OUTPUT_FILE_SENTIMENT = '{}/output_sentiment.csv'.format(MODEL_DIRECTORY)
 
-# PREDICTION_FILE_NAME = 'evaluation_cosmos_predictions.csv'
 PREDICTION_FILE_NAME = 'evaluation_predictions.csv'
 
 ### cs_absa_seed
@@ -68,9 +85,10 @@ TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_NAME = 'transformed-sentiments.csv'
 console = Console(record=True)
 
 # SEEDS = [5, 6, 7, 8, 9]
-SEEDS = [0]
+SEEDS = [0, 1, 2]
 
 torch.backends.cudnn.deterministic = True
+torch.backends.cudnn.benchmark = False
 
 # Setting up the device for GPU usage
 device = 'cuda' if cuda.is_available() else 'cpu'
@@ -107,12 +125,20 @@ def read_commongen_data(seed):
 def read_squad_data():
     dataset = load_dataset("squad", keep_in_memory=True)
     train, val, _ = dataset["train"], dataset["validation"], None
-    train_df = extract_df_from_dataset_for_squad(train)
-    val_df = extract_df_from_dataset_for_squad(val)
+    train_df = extract_train_df_from_dataset_for_squad(train)
+    val_df = extract_train_df_from_dataset_for_squad(val)
     return train_df, val_df, None
 
 
-def extract_df_from_dataset_for_squad(dataset):
+def read_wikitext_data():
+    dataset = load_dataset("wikitext", "wikitext-2-v1", keep_in_memory=True)
+    train, val, _ = dataset["train"], dataset["validation"], None
+    train_df = extract_train_df_from_dataset_for_wikitext(train)
+    val_df = extract_train_df_from_dataset_for_wikitext(val)
+    return train_df, val_df, None
+
+
+def extract_train_df_from_dataset_for_squad(dataset):
     params = {'batch_size': 1, 'shuffle': False, 'num_workers': 2}
     loader = DataLoader(dataset, **params)
     data = []
@@ -120,6 +146,36 @@ def extract_df_from_dataset_for_squad(dataset):
         question_context = 'question: {} context: {}'.format(batch['question'][0], batch['context'][0])
         data.append([question_context, batch['answers']['text'][0][0]])
     return pd.DataFrame(data, columns=['question_context', 'correct_answer'])
+
+
+def extract_train_df_from_dataset_for_wikitext(dataset):
+    params = {'batch_size': 1, 'shuffle': False, 'num_workers': 2}
+    loader = DataLoader(dataset, **params)
+    data = []
+    for batch in loader:
+        text = batch['text'][0].strip()
+        ### Cleaning: https://github.com/mauriw/deep_zip/blob/5623d8c8532c655e95b3f4583ae4cd8e011f6b4c/data.py
+        if len(text) < 10 or len(text.split()) < 5:
+            continue
+        if '=' in text:
+            continue
+        text = text.replace('<unk>', '[UNK]')
+        text = text.replace(' @-@ ', '-')
+        text = text.replace(' @,@ ', ',')
+        text = text.replace(' @.@ ', '.')
+
+        masked_word = ''
+        ctr = 0
+        while len(masked_word) < 3 and ctr < 10:
+            rand_idx = random.randrange(len(text.split()))
+            masked_word = text.split()[rand_idx]
+            ctr += 1
+
+        if ctr == 10:
+            continue
+        text = ' '.join(text.split()[:rand_idx])
+        data.append([text, masked_word])
+    return pd.DataFrame(data, columns=['sentence', 'masked_word'])
 
 
 def extract_df_with_correct_answer(cosmos_data_df):
@@ -158,23 +214,37 @@ def get_renamed_absa_columns(df):
     return df
 
 
+def get_renamed_lm_columns(df):
+    df = df.rename(columns={"sentence": TARGET_TEXT, "masked_word": SOURCE_TEXT})[
+        [TARGET_TEXT, SOURCE_TEXT]]
+    return df
+
+
 RENAMED_DF_FOR_TRAIN = {
     COSMOS: get_renamed_qa_columns,
     COMMONGEN: get_renamed_commongen_columns,
     ABSA: get_renamed_absa_columns,
-    SQUAD: get_renamed_qa_columns
+    SQUAD: get_renamed_qa_columns,
+    WIKITEXT: get_renamed_lm_columns
 }
 
 MAX_VALIDATION_SET_FRACTION = {
     COSMOS: 0.2,
     COMMONGEN: 0.1,
     ABSA: 1,
-    SQUAD: 0.1
+    SQUAD: 0.1,
+    WIKITEXT: 0.5
 }
+
 
 def build_data_for_absa(model_params, dataframes):
     # tokenzier for encoding the text
-    tokenizer = T5Tokenizer.from_pretrained(model_params["MODEL"])
+    try:
+        tokenizer = T5Tokenizer.from_pretrained(model_params["MODEL"])
+    except ValueError:
+        print("Loading tokenizer locally due to Connection Error...")
+        tokenizer = T5Tokenizer.from_pretrained(model_params["MODEL_LOCAL"])
+
     tokenizer.add_tokens(['<sep>'])
 
     # logging
@@ -228,7 +298,6 @@ def merge_absa_with_aux(dataset_absa, dataset_cs, model_params, absa_multiplier=
 
 def build_merged_data_for_aux_task(dataframes, training_dataset_absa, val_dataset_absa, test_dataset_absa,
                                    tokenizer, absa_multiplier, aux_fraction, task_name, model_params):
-
     console.log("[Data]: Reading {} data...\n".format(task_name))
 
     # Creation of Dataset and Dataloader
@@ -262,7 +331,7 @@ def get_data_loaders(model_params, source_text, target_text, tokenizer, training
     # Defining the parameters for creation of dataloaders
     train_params = {'batch_size': model_params["TRAIN_BATCH_SIZE"], 'shuffle': True, 'num_workers': 2}
     val_params = {'batch_size': model_params["VALID_BATCH_SIZE"], 'shuffle': False, 'num_workers': 2}
-    test_params = {'batch_size': model_params["VALID_BATCH_SIZE"], 'shuffle': False, 'num_workers': 2}
+    test_params = {'batch_size': model_params["TEST_BATCH_SIZE"], 'shuffle': False, 'num_workers': 2}
     # Creation of Dataloaders for testing and validation. This will be used down for training and validation stage for the model.
     training_loader = DataLoader(training_set, **train_params)
     validation_loader = DataLoader(val_set, **val_params)
@@ -279,26 +348,29 @@ def run_program_for_seed(seed, results_target, results_sentiment):
     model_params = {
         "OUTPUT_PATH": MODEL_DIRECTORY,  # output path
         "MODEL": "t5-base",
+        "MODEL_LOCAL": "/home/mullick/lm_models/t5-base-conditional-gen",
         # "MODEL": "danny911kr/calm-base",
-        "TRAIN_BATCH_SIZE": 32,  # training batch size
+        "TRAIN_BATCH_SIZE": 32,  # training batch size. 32 takes 20GB GPU memory.
         "VALID_BATCH_SIZE": 32,  # validation batch size
+        "TEST_BATCH_SIZE": 1,  # validation batch size
         "TRAIN_EPOCHS": 10,  # number of training epochs
         "VAL_EPOCHS": 1,  # number of validation epochs
+        "TEST_EPOCHS": 1,  # number of validation epochs
         "LEARNING_RATE": 5e-4,  # learning rate
         "MAX_SOURCE_TEXT_LENGTH": 256,  # max length of source text
         "MAX_TARGET_TEXT_LENGTH": 64,  # max length of target text
         "early_stopping_patience": 5,  # number of epochs before stopping training.
-        "SEED": seed  # to use for randomisationsq
+        "SEED": seed  # to use for randomisations
     }
 
     print(model_params)
 
-    training_file_absa = './data/merged_train.csv'
-    validation_file_absa = './data/merged_val.csv'
-    # test_file_absa = 'data/merged_test_ambiguous.csv'
-    test_file_absa = 'data/error_analysis.csv'
-    # training_file_absa = './data/processed_train_Mams_en.csv'
-    # validation_file_absa = './data/processed_val_Mams_en.csv'
+    # training_file_absa = './data/merged_train.csv'
+    # validation_file_absa = './data/merged_val.csv'
+    test_file_absa = 'data/merged_test_ambiguous.csv'
+    # test_file_absa = 'data/error_analysis.csv'
+    training_file_absa = './data/processed_train_Mams_en.csv'
+    validation_file_absa = './data/processed_val_Mams_en.csv'
     # test_file_absa = './data/processed_test_Mams_en.csv'
 
     print("Training on: {}, Testing on: {}, Seed: {}".format(training_file_absa, test_file_absa, seed))
@@ -310,9 +382,14 @@ def run_program_for_seed(seed, results_target, results_sentiment):
     training_set_absa, val_set_absa, test_set_absa, tokenizer \
         = build_data_for_absa(model_params, dataframes=[training_absa, validation_absa, test_absa])
 
-    training_data_commongen, validation_data_commongen, testing_data_commongen = read_commongen_data(seed)
-    # training_data_cosmos, validation_data_cosmos, testing_data_cosmos = read_cosmos_data()
-    training_data_squad, validation_data_squad, testing_data_squad = read_squad_data()
+    if TASK == COMMONGEN:
+        training_data_aux, validation_data_aux, testing_data_aux = read_commongen_data(seed)
+    elif TASK == COSMOS:
+        training_data_aux, validation_data_aux, testing_data_aux = read_cosmos_data()
+    elif TASK == SQUAD:
+        training_data_aux, validation_data_aux, testing_data_aux = read_squad_data()
+    elif TASK == WIKITEXT:
+        training_data_aux, validation_data_aux, testing_data_aux = read_wikitext_data()
 
     for absa_multiplier in ABSA_MULTIPLIER_LIST:
 
@@ -320,19 +397,9 @@ def run_program_for_seed(seed, results_target, results_sentiment):
         np.random.seed(seed)  # numpy random seed
 
         tokenizer, training_set, val_set, test_set = build_merged_data_for_aux_task(
-            [training_data_commongen, validation_data_commongen, testing_data_commongen],
+            [training_data_aux, validation_data_aux, testing_data_aux],
             training_set_absa, val_set_absa, test_set_absa, tokenizer, absa_multiplier,
-            COMMONSENSE_FRACTION, COMMONGEN, model_params)
-
-        # tokenizer, training_set, val_set, test_set = build_merged_data_for_aux_task(
-        #     [training_data_cosmos, validation_data_cosmos, testing_data_cosmos],
-        #     training_set_absa, val_set_absa, test_set_absa, tokenizer, absa_multiplier,
-        #     COMMONSENSE_FRACTION, COSMOS, model_params)
-
-        # tokenizer, training_set, val_set, test_set = build_merged_data_for_aux_task(
-        #     [training_data_squad, validation_data_squad, testing_data_squad],
-        #     training_set_absa, val_set_absa, test_set_absa, tokenizer, absa_multiplier,
-        #     AUX_FRACTION, SQUAD, model_params)
+            AUX_FRACTION, TASK, model_params)
 
         training_loader, validation_loader, test_loader, tokenizer = \
             get_data_loaders(model_params, SOURCE_TEXT, TARGET_TEXT, tokenizer, training_set, val_set, test_set)
@@ -385,6 +452,12 @@ if __name__ == '__main__':
 
     results_target = {}
     results_sentiment = {}
+
+    if SEED is not None:
+        SEEDS = [SEED]
+
+    if ABSA_FRACTION is not None:
+        ABSA_MULTIPLIER_LIST = [ABSA_FRACTION]
 
     for seed in SEEDS:
         run_program_for_seed(seed, results_target, results_sentiment)

@@ -4,13 +4,13 @@ import sys
 import os
 import spacy
 
-# PREDICTIONS_FILE = 'Results/AmbiguousDataset6/Predictions/0.05_8_predictions.csv'
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'Results/AmbiguousDataset6/Predictions/temp_0.05_8_predictions_transformed_targets.csv'
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'Results/AmbiguousDataset6/Predictions/temp_0.05_8_predictions_transformed_sentiments.csv'
+PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/Predictions/baseline_predictions.csv'
+TRANSFORMED_TARGETS_PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/Predictions/temp_baseline_target_idx.csv'
+TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/Predictions/temp_baseline_sentiments_idx.csv'
 
-PREDICTIONS_FILE = ''
-TRANSFORMED_TARGETS_PREDICTIONS_FILE = ''
-TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = ''
+# PREDICTIONS_FILE_PATH = ''
+# TRANSFORMED_TARGETS_PREDICTIONS_FILE_PATH = ''
+# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_PATH = ''
 
 SEPARATOR = '<sep>'
 
@@ -61,7 +61,13 @@ def get_sentence_matched_with_targets_and_sentiments(aspects_targets, aspects_se
 
 def transform_line_for_target_extraction(line, language, spacy_nlp):
     generated_polarities, true_polarities = utils.get_polarities_for_line(line, language, spacy_nlp)
+
+    # print(line[3])
+    # print(len(line[3]))
     real_sentence = utils.normalise_sentence(line[3].strip(), language, spacy_nlp)
+
+    # print(real_sentence)
+    # print(len(real_sentence))
 
     generated_aspects_targets = utils.get_aspect_targets(generated_polarities)
     true_aspects_targets = utils.get_aspect_targets(true_polarities)
@@ -125,9 +131,9 @@ def transform_gold_and_truth(language, spacy_nlp, predictions_file, transformed_
                     writer_sentiments.writerow([pred_sentiment_transformed, gold_sentiment_transformed])
 
 
-def run_from_generative_script(predictions_filepath=PREDICTIONS_FILE,
-                               transformed_targets_filepath=TRANSFORMED_TARGETS_PREDICTIONS_FILE,
-                               transformed_sentiments_filepath=TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE):
+def run_from_generative_script(predictions_filepath=PREDICTIONS_FILE_PATH,
+                               transformed_targets_filepath=TRANSFORMED_TARGETS_PREDICTIONS_FILE_PATH,
+                               transformed_sentiments_filepath=TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_PATH):
 
     nlp = spacy.load(utils.get_spacy_language('en'), disable=['parser', 'ner'])
     print("Preprocessing prediction file at...: " + predictions_filepath)

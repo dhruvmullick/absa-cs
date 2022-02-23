@@ -10,11 +10,12 @@ SMALL_POSITIVE_CONST = 1e-4
 
 # # TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'Results/AmbiguousDataset5/Predictions/evaluation_commongen_predictions_0.0_1_0_transformed_targets.csv'
 # # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'Results/AmbiguousDataset5/Predictions/evaluation_commongen_predictions_0.0_1_0_transformed_sentiments.csv'
-TRANSFORMED_TARGETS_PREDICTIONS_FILE = ''
-TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = ''
-# TRANSFORMED_TARGETS_PREDICTIONS_FILE = 'Results/AmbiguousDataset6/Predictions/temp_0.05_8_predictions_transformed_targets.csv'
-# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = 'Results/AmbiguousDataset6/Predictions/temp_0.05_8_predictions_transformed_sentiments.csv'
-
+# TRANSFORMED_TARGETS_PREDICTIONS_FILE = ''
+# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = ''
+# TRANSFORMED_TARGETS_PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/Predictions/temp_0.2_8_transformed_targets.csv'
+# TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/Predictions/temp_0.2_8_transformed_sentiments.csv'
+TRANSFORMED_TARGETS_PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/Predictions/temp_baseline_target_idx.csv'
+TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/Predictions/temp_baseline_sentiments_idx.csv'
 
 # Dhruv's e.g. evaluate_ote("O O O S O B I E", "O O O S O O O O") ->
 # (0.9999000099990001, 0.9999000099990001, 0.9998500124991251)
@@ -193,5 +194,5 @@ def run_from_generative_script(target_file_to_evaluate, sentiments_file_to_evalu
 
 
 if __name__ == '__main__':
-    run_from_generative_script(TRANSFORMED_TARGETS_PREDICTIONS_FILE, TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE)
+    run_from_generative_script(TRANSFORMED_TARGETS_PREDICTIONS_FILE_PATH, TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_PATH)
 

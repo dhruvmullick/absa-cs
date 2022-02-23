@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 import sys
+import random
 
 from utils import EarlyStopping
 import torch.nn.functional as F
@@ -171,6 +172,15 @@ def generate(tokenizer, model, device, loader, model_params):
     data_list = []
     with torch.no_grad():
         for _, data in enumerate(loader, 0):
+
+            # When batch size is 1 and we seed seeds every time, we are ensuring that results are consistent for each
+            # sentence irrespective of order in test set.
+
+            torch.manual_seed(model_params['SEED'])  # pytorch random seed
+            np.random.seed(model_params['SEED'])  # numpy random seed
+            torch.cuda.manual_seed_all(model_params["SEED"])
+            random.seed(model_params["SEED"])
+
             y = data['target_ids'].to(device, dtype=torch.long)
             ids = data['source_ids'].to(device, dtype=torch.long)
             mask = data['source_mask'].to(device, dtype=torch.long)
@@ -205,7 +215,12 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params):
 
     # Defining the model. We are using t5-base model and added a Language model layer on top for generation of Summary. 
     # Further this model is sent to device (GPU/TPU) for using the hardware.
-    model = T5ForConditionalGeneration.from_pretrained(model_params["MODEL"])
+    try:
+        model = T5ForConditionalGeneration.from_pretrained(model_params["MODEL"])
+    except ValueError:
+        print("Loading model locally due to Connection Error...")
+        model = T5ForConditionalGeneration.from_pretrained(model_params["MODEL_LOCAL"])
+
     model = model.to(device)
     # model.resize_token_embeddings(model_params['new_tokens_size'])
 
@@ -281,7 +296,7 @@ def T5Generator(validation_loader, model_params, output_file):
 
     # evaluating test dataset
     console.log(f"[Initiating Generation]...\n")
-    for epoch in range(model_params["VAL_EPOCHS"]):
+    for epoch in range(model_params["TEST_EPOCHS"]):
         predictions, actuals, data_list = generate(tokenizer, model, device, validation_loader, model_params)
         final_df = pd.DataFrame({'Generated Text': predictions, 'Actual Text': actuals, 'Original Sentence': data_list})
         final_df.to_csv(os.path.join(model_params["OUTPUT_PATH"], output_file))

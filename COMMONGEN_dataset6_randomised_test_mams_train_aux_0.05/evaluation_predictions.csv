@@ -1,4 +1,4 @@
-idx,Generated Text,Actual Text,Original Sentence
+,Generated Text,Actual Text,Original Sentence
 0,positive <sep> restaurant neutral,restaurant positive,aspect analysis: I thanked my friend who recommended me this restaurant and will certainly recommend it to others.
 1,fish negative <sep> staff negative <sep> sushi chef neutral,fish negative <sep> staff negative <sep> sushi chef negative,"aspect analysis: If you don't mind pre-sliced low quality fish, unfriendly staff and a sushi chef that looks like he is miserable then this is your place."
 2,wait staff positive <sep> eating neutral,wait staff positive,"aspect analysis: The wait staff is very freindly, they make it feel like you're eating in a freindly little european town."
