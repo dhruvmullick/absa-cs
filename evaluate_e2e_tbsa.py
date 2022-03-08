@@ -14,8 +14,8 @@ SMALL_POSITIVE_CONST = 1e-4
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE = ''
 # TRANSFORMED_TARGETS_PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/Predictions/temp_0.2_8_transformed_targets.csv'
 # TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/Predictions/temp_0.2_8_transformed_sentiments.csv'
-TRANSFORMED_TARGETS_PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/Predictions/temp_baseline_target_idx.csv'
-TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/Predictions/temp_baseline_sentiments_idx.csv'
+TRANSFORMED_TARGETS_PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/commongen/Predictions/temp_baseline_target_idx.csv'
+TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/commongen/Predictions/temp_baseline_sentiments_idx.csv'
 
 # Dhruv's e.g. evaluate_ote("O O O S O B I E", "O O O S O O O O") ->
 # (0.9999000099990001, 0.9999000099990001, 0.9998500124991251)

@@ -205,21 +205,26 @@ def generate(tokenizer, model, device, loader, model_params):
     return predictions, actuals, data_list
 
 
-def T5Trainer(training_loader, validation_loader, tokenizer, model_params):
+def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local_model):
     """
     T5 trainer
     """
 
-    # logging
-    console.log(f"""[Model]: Loading {model_params["MODEL"]}...\n""")
-
     # Defining the model. We are using t5-base model and added a Language model layer on top for generation of Summary. 
     # Further this model is sent to device (GPU/TPU) for using the hardware.
-    try:
-        model = T5ForConditionalGeneration.from_pretrained(model_params["MODEL"])
-    except ValueError:
-        print("Loading model locally due to Connection Error...")
-        model = T5ForConditionalGeneration.from_pretrained(model_params["MODEL_LOCAL"])
+
+    if local_model is not None:
+        # logging
+        console.log(f"""[Model]: Loading {local_model}...\n""")
+        model = T5ForConditionalGeneration.from_pretrained(local_model)
+    else:
+        try:
+            # logging
+            console.log(f"""[Model]: Loading {model_params["MODEL"]}...\n""")
+            model = T5ForConditionalGeneration.from_pretrained(model_params["MODEL"])
+        except ValueError:
+            print("Loading model locally due to Connection Error...")
+            model = T5ForConditionalGeneration.from_pretrained(model_params["MODEL_LOCAL"])
 
     model = model.to(device)
     # model.resize_token_embeddings(model_params['new_tokens_size'])
@@ -290,6 +295,7 @@ def T5Generator(validation_loader, model_params, output_file):
     console.log(f"[Loading Model]...\n")
     # Saving the model after training
     path = os.path.join(model_params["OUTPUT_PATH"], "model_files")
+    print("Loading model: {}\n".format(path))
     model = T5ForConditionalGeneration.from_pretrained(path)
     tokenizer = T5Tokenizer.from_pretrained(path)
     model = model.to(device)

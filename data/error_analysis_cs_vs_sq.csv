@@ -1,0 +1,95 @@
+review_id,sentences_ids,sentences_texts,sentences_opinions
+en_MiopostoCaffe_478542922,id_6,Management should really take notice and train their waitstaff and teach them some proper manners.,waitstaff negative <sep> Management negative
+en_MiopostoCaffe_478542922,id_6,Management should really take notice and train the Management's waitstaff and teach the waitstaff some proper manners.,waitstaff negative <sep> Management negative
+en_MiopostoCaffe_478542922,id_6,Management should really take notice and train their (Management's) waitstaff and teach them (waitstaff) some proper manners.,waitstaff negative <sep> Management negative
+1706644,id_4,"We ate out in the back patio, which is worth it as it's cool and the music is hear well there.",back patio positive <sep> music positive
+1706644,id_4,"We ate out in the back patio, which is worth it as the back patio is cool and the music is hear well there.",back patio positive <sep> music positive
+1706644,id_4,"We ate out in the back patio, which is worth it as it (the back patio) is cool and the music is hear well there.",back patio positive <sep> music positive
+1448587,id_2,"We ordered the special, grilled branzino, that was so infused with bone, it was difficult to eat.",grilled branzino negative
+1448587,id_2,"We ordered the special, grilled branzino, that was so infused with bone, grilled branzino was difficult to eat.",grilled branzino negative
+1448587,id_2,"We ordered the special, grilled branzino, that was so infused with bone, it (grilled branzino) was difficult to eat.",grilled branzino negative
+1660047,id_0,"I like Cafe Noir dont get me wrong, it is jsut that the people who work there are evil and incompetent!!",people negative <sep> Cafe Noir positive
+1660047,id_0,"I like Cafe Noir dont get me wrong, it is jsut that the people who work at Cafe Noir are evil and incompetent!!",people negative <sep> Cafe Noir positive
+1660047,id_0,"I like Cafe Noir dont get me wrong, it is jsut that the people who work there (Cafe Noir) are evil and incompetent!!",people negative <sep> Cafe Noir positive
+1430994,id_2,I had Lobster Bisque it has 2 oz. of Maine Lobster in it.,Lobster Bisque positive
+1430994,id_2,I had Lobster Bisque it has 2 oz. of Maine Lobster in the Lobster Bisque.,Lobster Bisque positive
+1430994,id_2,I had Lobster Bisque it has 2 oz. of Maine Lobster in it (Lobster Bisque).,Lobster Bisque positive
+en_India'sGrill_477960698,id_3,The food was all good but it was way too mild.,food positive <sep> food negative
+en_India'sGrill_477960698,id_3,The food was all good but the food was way too mild.,food positive <sep> food negative
+en_India'sGrill_477960698,id_3,The food was all good but it (food) was way too mild.,food positive <sep> food negative
+0,0,I told the waiter that my drink tasted very bad and asked if he could swap it out for a Petron Margarita.,waiter neutral <sep> drink negative
+0,0,I told the waiter that my drink tasted very bad and asked if the waiter could swap it out for a Petron Margarita.,waiter neutral <sep> drink negative
+0,0,I told the waiter that my drink tasted very bad and asked if he (waiter) could swap it out for a Petron Margarita.,waiter neutral <sep> drink negative
+1486041,id_0,"The atmosphere is nothing special, but it feels like a Sushi establishment in Tokyo.",atmosphere positive
+1486041,id_0,"The atmosphere is nothing special, but the atmosphere feels like a Sushi establishment in Tokyo.",atmosphere positive
+1486041,id_0,"The atmosphere is nothing special, but it (atmosphere) feels like a Sushi establishment in Tokyo.",atmosphere positive
+en_StackRestaurant__Bar_478538239,id_5,I got the shellfish and shrimp appetizer and it was alright.,shellfish and shrimp appetizer neutral
+en_StackRestaurant__Bar_478538239,id_5,I got the shellfish and shrimp appetizer and the shellfish and shrimp appetizer was alright.,shellfish and shrimp appetizer neutral
+en_StackRestaurant__Bar_478538239,id_5,I got the shellfish and shrimp appetizer and it (shellfish and shrimp appetizer) was alright.,shellfish and shrimp appetizer neutral
+0,0,"Also, they upped their prices, so I have their old menu, and was surprised when my bill came to over $5 more than it used to (I know, not a huge deal).",prices negative <sep> menu neutral <sep> bill neutral
+0,0,"Also, they upped their prices, so I have their old menu, and was surprised when my bill came to over $5 more than the bill used to (I know, not a huge deal).",prices negative <sep> menu neutral <sep> bill neutral
+0,0,"Also, they upped their prices, so I have their old menu, and was surprised when my bill came to over $5 more than it (bill) used to (I know, not a huge deal).",prices negative <sep> menu neutral <sep> bill neutral
+en_OpenSesame_477970938,id_4,"The presentation of the food was an added bonus, it looked just as great as it tasted!",food positive
+en_OpenSesame_477970938,id_4,"The presentation of the food was an added bonus, food looked just as great as food tasted!",food positive
+en_OpenSesame_477970938,id_4,"The presentation of the food was an added bonus, it (food) looked just as great as it (food) tasted!",food positive
+1221938,id_1,Try their chef's specials-- they are to die for.,chef's specials positive
+1221938,id_1,Try their chef's specials-- chef's specials are to die for.,chef's specials positive
+1221938,id_1,Try their chef's specials-- they (chef's specials) are to die for.,chef's specials positive
+NP#4,id_4,"I showed it to the manager, and he smilingly apologized and brought us two free desserts (but did not ask us what we wanted and so brought the last two desserts we would have asked for).",manager positive <sep> manager negative
+NP#4,id_4,"I showed it to the manager, and the manager smilingly apologized and brought us two free desserts (but did not ask us what we wanted and so brought the last two desserts we would have asked for).",manager positive <sep> manager negative
+NP#4,id_4,"I showed it to the manager, and he (manager) smilingly apologized and brought us two free desserts (but did not ask us what we wanted and so brought the last two desserts we would have asked for).",manager positive <sep> manager negative
+1671113,id_4,"The staff has been nice, but they seemed really stressed and the unisex bathroom needs to be cleaned more often.",staff positive <sep> staff negative <sep> unisex bathroom negative
+1671113,id_4,"The staff has been nice, but the staff seemed really stressed and the unisex bathroom needs to be cleaned more often.",staff positive <sep> staff negative <sep> unisex bathroom negative
+1671113,id_4,"The staff has been nice, but they (staff) seemed really stressed and the unisex bathroom needs to be cleaned more often.",staff positive <sep> staff negative <sep> unisex bathroom negative
+483111,id_0,Winnie and her staff are the best crew you can find serving you.,staff positive <sep> Winnie positive
+483111,id_0,Winnie and Winnie's staff are the best crew you can find serving you.,staff positive <sep> Winnie positive
+483111,id_0,Winnie and her (Winnie's) staff are the best crew you can find serving you.,staff positive <sep> Winnie positive
+ADLT#6,id_4,"This guy refused to seat her and she left, followed shortly by the four of us, but not before I told him that in my 40 years of world travel, including Paris, that I had never seen such a display of bad behavior by a frontman in a restaurant.",frontman negative
+ADLT#6,id_4,"This guy refused to seat her and she left, followed shortly by the four of us, but not before I told the frontman that in my 40 years of world travel, including Paris, that I had never seen such a display of bad behavior by a frontman in a restaurant.",frontman negative
+ADLT#6,id_4,"This guy refused to seat her and she left, followed shortly by the four of us, but not before I told him (frontman) that in my 40 years of world travel, including Paris, that I had never seen such a display of bad behavior by a frontman in a restaurant.",frontman negative
+0,0,"The quality of the sushi was bad, the way it was cut was bad, and the waiters kept trying to clear off my miso soup even when it wasn't finished.",sushi negative <sep> waiters negative <sep> miso soup neutral
+0,0,"The quality of the sushi was bad, the way the sushi was cut was bad, and the waiters kept trying to clear off my miso soup even when it wasn't finished.",sushi negative <sep> waiters negative <sep> miso soup neutral
+0,0,"The quality of the sushi was bad, the way it (sushi) was cut was bad, and the waiters kept trying to clear off my miso soup even when it wasn't finished.",sushi negative <sep> waiters negative <sep> miso soup neutral
+0,0,but the Server informed us that they wanted to make the soup their own and that she hopes we like it.,Server positive <sep> soup neutral
+0,0,but the Server informed us that they wanted to make the soup their own and that the Server hopes we like it.,Server positive <sep> soup neutral
+0,0,but the Server informed us that they wanted to make the soup their own and that she (Server) hopes we like it.,Server positive <sep> soup neutral
+0,0,On Friday night the busboy was sulky verging on rude; he brought the fries (ordered for the entrees) twice before the appetizers came and then again the minute we'd finished them and looked put out to be asked to take the empty plates away.,busboy negative <sep> appetizers neutral
+0,0,On Friday night the busboy was sulky verging on rude; the busboy brought the fries (ordered for the entrees) twice before the appetizers came and then again the minute we'd finished them and looked put out to be asked to take the empty plates away.,busboy negative <sep> appetizers neutral
+0,0,On Friday night the busboy was sulky verging on rude; he (busboy) brought the fries (ordered for the entrees) twice before the appetizers came and then again the minute we'd finished them and looked put out to be asked to take the empty plates away.,busboy negative <sep> appetizers neutral
+0,0,i got a steak special that was way overpriced ($12 more then the steak on the menu and no warning from the waitress) and it was cooked to the wrong temperature.,steak special negative <sep> menu neutral <sep> waitress negative <sep> temperature negative
+0,0,i got a steak special that was way overpriced ($12 more then the steak on the menu and no warning from the waitress) and the steak special was cooked to the wrong temperature.,steak special negative <sep> menu neutral <sep> waitress negative <sep> temperature negative
+0,0,i got a steak special that was way overpriced ($12 more then the steak on the menu and no warning from the waitress) and it (steak special) was cooked to the wrong temperature.,steak special negative <sep> menu neutral <sep> waitress negative <sep> temperature negative
+en_MiopostoCaffe_478543072,id_1,"– This is my ""must bring out of town guests to"" restaurant and they always enjoy and rave about it.",restaurant positive
+en_MiopostoCaffe_478543072,id_1,"– This is my ""must bring out of town guests to"" restaurant and they always enjoy and rave about the restaurant.",restaurant positive
+en_MiopostoCaffe_478543072,id_1,"– This is my ""must bring out of town guests to"" restaurant and they always enjoy and rave about it (restaurant).",restaurant positive
+Z#3,id_1,"The space kind of feels like an Alice in Wonderland setting, without it trying to be that.",space negative
+Z#3,id_1,"The space kind of feels like an Alice in Wonderland setting, without the space trying to be that.",space negative
+Z#3,id_1,"The space kind of feels like an Alice in Wonderland setting, without it (space) trying to be that.",space negative
+1293334,id_2,"The have over 100 different beers to offer thier guest so that made my husband very happy and the food was delicious, if I must recommend a dish it must be the pumkin tortelini.",beers positive <sep> food positive <sep> pumkin tortelini positive
+1293334,id_2,"The have over 100 different beers to offer thier guest so that made my husband very happy and the food was delicious, if I must recommend a dish pumkin tortelini must be the pumkin tortelini.",beers positive <sep> food positive <sep> pumkin tortelini positive
+1293334,id_2,"The have over 100 different beers to offer thier guest so that made my husband very happy and the food was delicious, if I must recommend a dish it (pumkin tortelini) must be the pumkin tortelini.",beers positive <sep> food positive <sep> pumkin tortelini positive
+1293334,id_1,"My husband and I thougt it would be great to go to the Jekyll and Hyde Pub for our anniversary, and to our surprise it was fantastic.",Jekyll and Hyde Pub positive
+1293334,id_1,"My husband and I thougt it would be great to go to the Jekyll and Hyde Pub for our anniversary, and to our surprise Jekyll and Hyde Pub was fantastic.",Jekyll and Hyde Pub positive
+1293334,id_1,"My husband and I thougt it would be great to go to the Jekyll and Hyde Pub for our anniversary, and to our surprise it (Jekyll and Hyde Pub) was fantastic.",Jekyll and Hyde Pub positive
+1719567,id_2,We had the scallops as an appetizer and they were delicious and the sauce was wonderful.,scallops positive <sep> sauce positive
+1719567,id_2,We had the scallops as an appetizer and scallops were delicious and the sauce was wonderful.,scallops positive <sep> sauce positive
+1719567,id_2,We had the scallops as an appetizer and they (scallops) were delicious and the sauce was wonderful.,scallops positive <sep> sauce positive
+0,0,"So inexcpensive that you'd wonder about the sanity of the owners, if they weren't such good cooks.",owners neutral <sep> cooks positive
+0,0,"So inexcpensive that you'd wonder about the sanity of the owners, if owners weren't such good cooks.",owners neutral <sep> cooks positive
+0,0,"So inexcpensive that you'd wonder about the sanity of the owners, if they (owners) weren't such good cooks.",owners neutral <sep> cooks positive
+0,0,"Our waiter brought out three main courses, but the fourth wasn't ready so we had to wait for 10 minutes for the last dish to arrive, but they were very nice and gave us free red pepper hummus while we waited.",waiter neutral <sep> main courses neutral <sep> dish neutral <sep> red pepper hummus positive
+0,0,"Our waiter brought out three main courses, but the fourth wasn't ready so we had to wait for 10 minutes for the last dish to arrive, but waiter were very nice and gave us free red pepper hummus while we waited.",waiter neutral <sep> main courses neutral <sep> dish neutral <sep> red pepper hummus positive
+0,0,"Our waiter brought out three main courses, but the fourth wasn't ready so we had to wait for 10 minutes for the last dish to arrive, but they (waiter) were very nice and gave us free red pepper hummus while we waited.",waiter neutral <sep> main courses neutral <sep> dish neutral <sep> red pepper hummus positive
+Z#9,id_1,The boths are not as small as some of the reviews make them out to look they're perfect for 2 people.,boths positive
+Z#9,id_1,The boths are not as small as some of the reviews make the boths out to look boths perfect for 2 people.,boths positive
+Z#9,id_1,The boths are not as small as some of the reviews make them (boths) out to look they're (boths) perfect for 2 people.,boths positive
+
+
+
+
+
+
+
+
+
+

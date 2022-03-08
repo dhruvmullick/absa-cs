@@ -4,9 +4,9 @@ import sys
 import os
 import spacy
 
-PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/Predictions/baseline_predictions.csv'
-TRANSFORMED_TARGETS_PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/Predictions/temp_baseline_target_idx.csv'
-TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/Predictions/temp_baseline_sentiments_idx.csv'
+PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/commongen/Predictions/baseline_predictions.csv'
+TRANSFORMED_TARGETS_PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/commongen/Predictions/temp_baseline_target_idx.csv'
+TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_PATH = 'Results/AmbiguousDataset6/commongen/Predictions/temp_baseline_sentiments_idx.csv'
 
 # PREDICTIONS_FILE_PATH = ''
 # TRANSFORMED_TARGETS_PREDICTIONS_FILE_PATH = ''

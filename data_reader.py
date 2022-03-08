@@ -14,8 +14,8 @@ WEIRD_CHARACTERS = '.!?,'
 # AMBIGUOUS_CASES = [" it ", " its ", " he ", " him ", " his ", " she ", " her ", " hers ",
 #                    " they ", " them ", " we ", " us "]
 
-### For Manual creation and Ambiguous Dataset6
-AMBIGUOUS_CASES = [" it ", " its ", " he ", " him ", " his ", " she ", " her ", " hers ", " they ", " them "]
+### For Ambiguous Dataset7
+AMBIGUOUS_CASES = [" it ", " its ", " he ", " him ", " his ", " she ", " her ",  " hers ", " they ", " them ", " their ", " there ", " which "]
 
 
 REGEX_PHRASE = '|'.join(AMBIGUOUS_CASES)
@@ -234,22 +234,25 @@ def preprocess_dataset(domain, language):
     val_ambiguous = val[val['sentences_texts'].str.contains(REGEX_PHRASE)]
     test_ambiguous = test[test['sentences_texts'].str.contains(REGEX_PHRASE)]
 
+    train_non_ambiguous = train[~train['sentences_texts'].str.contains(REGEX_PHRASE)]
+    val_non_ambiguous = val[~val['sentences_texts'].str.contains(REGEX_PHRASE)]
+
     train.to_csv('data/processed_train_{}_{}.csv'.format(domain, language), header=True, index=False)
     val.to_csv('data/processed_val_{}_{}.csv'.format(domain, language), header=True, index=False)
     test.to_csv('data/processed_test_{}_{}.csv'.format(domain, language), header=True, index=False)
 
     # train_ambiguous.to_csv('data/processed_train_{}_{}_ambi.csv'.format(domain, language), header=True, index=False)
 
-    return train, val, test, train_ambiguous, val_ambiguous, test_ambiguous
+    return train, val, test, train_ambiguous, val_ambiguous, test_ambiguous, train_non_ambiguous, val_non_ambiguous
 
 
 if __name__ == '__main__':
     # Semeval Rest 2016
-    rest16_train, rest16_val, rest16_test, rest16_train_ambi, rest16_val_ambi, rest16_test_ambi = preprocess_dataset('Rest16', 'en')
+    rest16_train, rest16_val, rest16_test, rest16_train_ambi, rest16_val_ambi, rest16_test_ambi, rest16_train_non_ambi, rest16_val_non_ambi = preprocess_dataset('Rest16', 'en')
     # # Semeval Rest 2015
     # rest15_train, rest15_val, rest15_test, rest15_test_ambi = preprocess_dataset('Rest15', 'en')
     # # MAMS
-    mams_train, mams_val, mams_test, mams_train_ambi, mams_val_ambi, mams_test_ambi = preprocess_dataset('Mams', 'en')
+    mams_train, mams_val, mams_test, mams_train_ambi, mams_val_ambi, mams_test_ambi, _, _ = preprocess_dataset('Mams', 'en')
     # # Semeval Laptop 2014
     # lap14_train, lap14_val, lap14_test, lap14_test_ambi = preprocess_dataset('Lap14', 'en')
     # # Semeval Rest 2014
@@ -283,19 +286,26 @@ if __name__ == '__main__':
     # mams_val = mams_val.sample(n=rest16_val_count)
 
     ### Merged train datasets
-    # train_merged = pd.concat([rest16_train, mams_train, lap14_train], ignore_index=True)
-    # train_merged = pd.concat([mams_train], ignore_index=True)
-    # train_merged.to_csv('data/merged_train.csv', header=True, index=False)
-    #
-    # ### Merged validation datasets
-    # # val_merged = pd.concat([rest16_val, mams_val, lap14_val], ignore_index=True)
-    # val_merged = pd.concat([rest16_val, mams_val], ignore_index=True)
-    # val_merged.to_csv('data/merged_val.csv', header=True, index=False)
-    #
+    print('Semeval Non Ambi: ', rest16_train_non_ambi.shape, rest16_val_non_ambi.shape)
+    print('Semeval Ambi: ', rest16_train_ambi.shape, rest16_val_ambi.shape, rest16_test_ambi.shape)
+    print('MAMS Ambi: ', mams_test_ambi.shape)
+
+    train_merged = pd.concat([rest16_train_non_ambi, mams_train], ignore_index=True)
+    train_merged.to_csv('data/merged_train.csv', header=True, index=False)
+
     ### Merged ambiguous test dataset
     # test_ambiguous = pd.concat([rest16_test_ambi, mams_test_ambi, lap14_test_ambi], ignore_index=True)
     test_ambiguous = pd.concat([rest16_train_ambi, rest16_val_ambi, rest16_test_ambi, mams_test_ambi],
                                ignore_index=True)
-    test_ambiguous.to_csv('data/merged_test_ambiguous.csv', header=True, index=False)
+    test_ambiguous_sampled, val_from_test_ambiguous = train_test_split(test_ambiguous, test_size=0.15, random_state=0)
+
+    test_ambiguous_sampled.to_csv('data/merged_test_ambiguous.csv', header=True, index=False)
+
+    ### Merged validation datasets
+    val_merged = pd.concat([rest16_val_non_ambi, mams_val], ignore_index=True)
+    val_merged = val_merged.sample(frac=0.50, random_state=0)
+    val_merged = pd.concat([val_merged, val_from_test_ambiguous], ignore_index=True)
+    val_merged.to_csv('data/merged_val.csv', header=True, index=False)
+
 
     print('saved..')

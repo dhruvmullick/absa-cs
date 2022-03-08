@@ -39,8 +39,7 @@ ABSA_MULTIPLIER = 2
 
 # COMMONGEN_FRACTION_LIST = [0, 0.01, 0.02, 0.05, 0.1, 0.2, 0.4, 0.5, 1]
 # ABSA_MULTIPLIER_LIST = [0.1, 0.2, 0.5, 1, 2, 4, 8, 16]
-# ABSA_MULTIPLIER_LIST = [1, 2, 4, 8, 16]
-ABSA_MULTIPLIER_LIST = [1, 2, 4, 8]
+ABSA_MULTIPLIER_LIST = [1, 2, 4, 8, 16]
 # ABSA_MULTIPLIER_LIST = [1]
 
 # COMMONGEN_FRACTION_LIST = [0.5, 1]
@@ -71,13 +70,12 @@ print("SEED: {}".format(SEED))
 
 # MODEL_DIRECTORY = 'models/dataset5_randomised2_test_mams_train_cs_{}'.format(COMMONSENSE_FRACTION)
 # MODEL_DIRECTORY = 'models/dataset6_randomised_test_mams_train_cs_{}'.format(COMMONSENSE_FRACTION)
-MODEL_DIRECTORY = 'models/{}_exp_val_test_same'.format(TASK, AUX_FRACTION)
-# MODEL_DIRECTORY = 'models/{}_exp_regular'.format(TASK, AUX_FRACTION)
+MODEL_DIRECTORY = 'models/{}_dataset6_randomised_test_mams_train_aux_{}'.format(TASK, AUX_FRACTION)
 
 EXPERIMENT_OUTPUT_FILE_TARGET = '{}/output_targets.csv'.format(MODEL_DIRECTORY)
 EXPERIMENT_OUTPUT_FILE_SENTIMENT = '{}/output_sentiment.csv'.format(MODEL_DIRECTORY)
 
-PREDICTION_FILE_NAME = 'evaluation_predictions.csv'
+PREDICTION_FILE_NAME = 'evaluation_predictions_comparisons.csv'
 
 ### cs_absa_seed
 # PREDICTION_FILE_NAME_FORMAT = 'evaluation_commongen_predictions_{}_{}_{}.csv'
@@ -87,8 +85,7 @@ TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_NAME = 'transformed-sentiments.csv'
 console = Console(record=True)
 
 # SEEDS = [5, 6, 7, 8, 9]
-# SEEDS = [0, 1, 2]
-SEEDS = [0, 1]
+SEEDS = [0, 1, 2]
 
 torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
@@ -126,7 +123,6 @@ def read_commongen_data(seed):
 
 
 def read_squad_data():
-    print("Loading Squad data...")
     dataset = load_dataset("squad", keep_in_memory=True)
     train, val, _ = dataset["train"], dataset["validation"], None
     train_df = extract_train_df_from_dataset_for_squad(train)
@@ -135,7 +131,6 @@ def read_squad_data():
 
 
 def read_wikitext_data():
-    print("Loading WikiText data...")
     dataset = load_dataset("wikitext", "wikitext-2-v1", keep_in_memory=True)
     train, val, _ = dataset["train"], dataset["validation"], None
     train_df = extract_train_df_from_dataset_for_wikitext(train)
@@ -352,11 +347,12 @@ def run_program_for_seed(seed, results_target, results_sentiment):
 
     model_params = {
         "OUTPUT_PATH": MODEL_DIRECTORY,  # output path
-        "MODEL": "t5-base",
+        # "MODEL": "t5-base",
+        "MODEL": "/home/mullick/scratch/absa-cs/models/COMMONGEN_dataset6_randomised_test_mams_train_aux_0.05/model_files/",
         "MODEL_LOCAL": "/home/mullick/lm_models/t5-base-conditional-gen",
         # "MODEL": "danny911kr/calm-base",
-        "TRAIN_BATCH_SIZE": 24,  # training batch size. 32 takes 22-23GB GPU memory, 24 takes 20GB GPU.
-        "VALID_BATCH_SIZE": 24,  # validation batch size
+        "TRAIN_BATCH_SIZE": 32,  # training batch size. 32 takes 20GB GPU memory.
+        "VALID_BATCH_SIZE": 32,  # validation batch size
         "TEST_BATCH_SIZE": 1,  # validation batch size
         "TRAIN_EPOCHS": 10,  # number of training epochs
         "VAL_EPOCHS": 1,  # number of validation epochs
@@ -370,20 +366,15 @@ def run_program_for_seed(seed, results_target, results_sentiment):
 
     print(model_params)
 
-    training_file_absa = './data/merged_train.csv'
-    validation_file_absa = './data/merged_val.csv'
-    # validation_file_absa = './data/merged_test_ambiguous.csv'
-    test_file_absa = 'data/merged_test_ambiguous.csv'
+    # training_file_absa = './data/merged_train.csv'
+    # validation_file_absa = './data/merged_val.csv'
+    test_file_absa = 'data/error_analysis_cs_vs_sq.csv'
     # test_file_absa = 'data/error_analysis.csv'
-    # training_file_absa = './data/processed_train_Mams_en.csv'
-    # validation_file_absa = './data/processed_val_Mams_en.csv'
+    training_file_absa = './data/processed_train_Mams_en.csv'
+    validation_file_absa = './data/processed_val_Mams_en.csv'
     # test_file_absa = './data/processed_test_Mams_en.csv'
-    # training_file_absa = './data/processed_train_Rest16_en.csv'
-    # validation_file_absa = './data/processed_val_Rest16_en.csv'
-    # test_file_absa = './data/processed_test_Rest16_en.csv'
 
-    print("Training on: {}, Validation on {}, Testing on: {}, Seed: {}".format(training_file_absa, validation_file_absa,
-                                                                               test_file_absa, seed))
+    print("Training on: {}, Testing on: {}, Seed: {}".format(training_file_absa, test_file_absa, seed))
     print("ABSA Prompt is: {}".format(ABSA_PROMPT))
     training_absa = pd.read_csv(training_file_absa)
     validation_absa = pd.read_csv(validation_file_absa)
@@ -414,7 +405,7 @@ def run_program_for_seed(seed, results_target, results_sentiment):
         training_loader, validation_loader, test_loader, tokenizer = \
             get_data_loaders(model_params, SOURCE_TEXT, TARGET_TEXT, tokenizer, training_set, val_set, test_set)
 
-        T5Trainer(training_loader, validation_loader, tokenizer, model_params=model_params)
+        # T5Trainer(training_loader, validation_loader, tokenizer, model_params=model_params)
 
         prediction_file_name = PREDICTION_FILE_NAME
 
@@ -441,14 +432,6 @@ def run_program_for_seed(seed, results_target, results_sentiment):
         print("Results sentiment: " + str(results_sentiment))
 
 
-def write_to_results_file(results_dict, output_file, fraction=COMMONSENSE_FRACTION):
-    f1_list = results_dict[absa_multiplier]
-    output_file.write('{}, {}, '.format(absa_multiplier, fraction))
-    for f1 in f1_list:
-        output_file.write('{}, '.format(f1))
-    output_file.write('\n')
-
-
 if __name__ == '__main__':
 
     if not os.path.exists(MODEL_DIRECTORY):
@@ -472,12 +455,3 @@ if __name__ == '__main__':
     for seed in SEEDS:
         run_program_for_seed(seed, results_target, results_sentiment)
 
-    with open(EXPERIMENT_OUTPUT_FILE_TARGET, 'a') as file_targets:
-        with open(EXPERIMENT_OUTPUT_FILE_SENTIMENT, 'a') as file_sentiments:
-            file_targets.write("Seeds used: {}\n".format(SEEDS))
-            file_sentiments.write("Seeds used: {}\n".format(SEEDS))
-            for absa_multiplier in results_target.keys():
-                write_to_results_file(results_target, file_targets, AUX_FRACTION)
-                write_to_results_file(results_sentiment, file_sentiments, AUX_FRACTION)
-
-    print("Done!")

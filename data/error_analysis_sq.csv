@@ -1,0 +1,109 @@
+review_id,sentences_ids,sentences_texts,sentences_opinions
+1353599,id_4,Kind of a small place but I guess if they are not too busy might be able to fit a group or kids.,place neutral
+1353599,id_4,Kind of a small place but I guess if the place are not too busy might be able to fit a group or kids.,place neutral
+1353599,id_4,Kind of a small place but I guess if they (place) are not too busy might be able to fit a group or kids.,place neutral
+0,0,The manager claimed that he could not compensate us for anything on the bill which just shows the lack of sophistication from the entire group.,manager neutral <sep> bill negative
+0,0,The manager claimed that the manager could not compensate us for anything on the bill which just shows the lack of sophistication from the entire group.,manager neutral <sep> bill negative
+0,0,The manager claimed that he (manager) could not compensate us for anything on the bill which just shows the lack of sophistication from the entire group.,manager neutral <sep> bill negative
+0,0,The appetizer came out cold and the waiter came and took it to the kitchen.,appetizer negative <sep> waiter neutral
+0,0,The appetizer came out cold and the waiter came and took the appetizer to the kitchen.,appetizer negative <sep> waiter neutral
+0,0,The appetizer came out cold and the waiter came and took it (appetizer) to the kitchen.,appetizer negative <sep> waiter neutral
+0,0,The waiters have been there for YEARS and they know their steak is amazing.,waiters neutral <sep> steak positive
+0,0,The waiters have been there for YEARS and the waiters know their steak is amazing.,waiters neutral <sep> steak positive
+0,0,The waiters have been there for YEARS and they (waiters) know their steak is amazing.,waiters neutral <sep> steak positive
+1340075,id_2,The atmosphere is noisy and the waiters are literally walking around doing things as fast as they can.,atmosphere negative <sep> waiters positive
+1340075,id_2,The atmosphere is noisy and the waiters are literally walking around doing things as fast as the waiters can.,atmosphere negative <sep> waiters positive
+1340075,id_2,The atmosphere is noisy and the waiters are literally walking around doing things as fast as they (waiters) can.,atmosphere negative <sep> waiters positive
+1147082,id_0,I went there for lunch and it was not as good as I expected from the reviews I read.,lunch negative
+1147082,id_0,I went there for lunch and the lunch was not as good as I expected from the reviews I read.,lunch negative
+1147082,id_0,I went there for lunch and it (lunch) was not as good as I expected from the reviews I read.,lunch negative
+707917,id_0,I have been to Rao's probably 15 times the past 3 years and it keeps getting better.,Rao's positive
+707917,id_0,I have been to Rao's probably 15 times the past 3 years and Rao's keeps getting better.,Rao's positive
+707917,id_0,I have been to Rao's probably 15 times the past 3 years and it (Rao's) keeps getting better.,Rao's positive
+Z#5,id_4,"The atmosphere was pretty nice but had a bit lacking, which it tries to make up for with a crazy scheme of mirrors.",atmosphere negative <sep> scheme of mirrors negative
+Z#5,id_4,"The atmosphere was pretty nice but had a bit lacking, which the atmosphere tries to make up for with a crazy scheme of mirrors.",atmosphere negative <sep> scheme of mirrors negative
+Z#5,id_4,"The atmosphere was pretty nice but had a bit lacking, which it (atmosphere) tries to make up for with a crazy scheme of mirrors.",atmosphere negative <sep> scheme of mirrors negative
+0,0,I told the waiter that my drink tasted very bad and asked if he could swap it out for a Petron Margarita.,waiter neutral <sep> drink negative
+0,0,I told the waiter that my drink tasted very bad and asked if the waiter could swap it out for a Petron Margarita.,waiter neutral <sep> drink negative
+0,0,I told the waiter that my drink tasted very bad and asked if he (waiter) could swap it out for a Petron Margarita.,waiter neutral <sep> drink negative
+1660047,id_0,"I like Cafe Noir dont get me wrong, it is jsut that the people who work there are evil and incompetent!!",people negative <sep> Cafe Noir positive
+1660047,id_0,"I like Cafe Noir dont get me wrong, it is jsut that the people who work at Cafe Noir are evil and incompetent!!",people negative <sep> Cafe Noir positive
+1660047,id_0,"I like Cafe Noir dont get me wrong, it is jsut that the people who work there (Cafe Noir) are evil and incompetent!!",people negative <sep> Cafe Noir positive
+1293334,id_1,"My husband and I thougt it would be great to go to the Jekyll and Hyde Pub for our anniversary, and to our surprise it was fantastic.",Jekyll and Hyde Pub positive
+1293334,id_1,"My husband and I thougt it would be great to go to the Jekyll and Hyde Pub for our anniversary, and to our surprise Jekyll and Hyde Pub was fantastic.",Jekyll and Hyde Pub positive
+1293334,id_1,"My husband and I thougt it would be great to go to the Jekyll and Hyde Pub for our anniversary, and to our surprise it (Jekyll and Hyde Pub) was fantastic.",Jekyll and Hyde Pub positive
+1280179,id_0,"I've been to at Cafe Spice probably 5-8 times, it is probably still the best Indian restaurant around Union Square.",Cafe Spice positive
+1280179,id_0,"I've been to at Cafe Spice probably 5-8 times, Cafe Spice is probably still the best Indian restaurant around Union Square.",Cafe Spice positive
+1280179,id_0,"I've been to at Cafe Spice probably 5-8 times, it (Cafe Spice) is probably still the best Indian restaurant around Union Square.",Cafe Spice positive
+1041457,id_6,"The decor is night tho...but they REALLY need to clean that vent in the ceiling...its quite un-appetizing, and kills your effort to make this place look sleek and modern.",place negative <sep> decor positive <sep> vent negative
+1041457,id_6,"The decor is night tho...but they REALLY need to clean that vent in the ceiling...vent is quite un-appetizing, and kills your effort to make this place look sleek and modern.",place negative <sep> decor positive <sep> vent negative
+1041457,id_6,"The decor is night tho...but they REALLY need to clean that vent in the ceiling...its (vent) quite un-appetizing, and kills your effort to make this place look sleek and modern.",place negative <sep> decor positive <sep> vent negative
+1671113,id_4,"The staff has been nice, but they seemed really stressed and the unisex bathroom needs to be cleaned more often.",staff positive <sep> staff negative <sep> unisex bathroom negative
+1671113,id_4,"The staff has been nice, but the staff seemed really stressed and the unisex bathroom needs to be cleaned more often.",staff positive <sep> staff negative <sep> unisex bathroom negative
+1671113,id_4,"The staff has been nice, but they (staff) seemed really stressed and the unisex bathroom needs to be cleaned more often.",staff positive <sep> staff negative <sep> unisex bathroom negative
+en_BlueRibbonSushi_478219447,id_2,"the fish was fresh, though it was cut very thin.",fish positive <sep> fish negative
+en_BlueRibbonSushi_478219447,id_2,"the fish was fresh, though the fish was cut very thin.",fish positive <sep> fish negative
+en_BlueRibbonSushi_478219447,id_2,"the fish was fresh, though it (fish) was cut very thin.",fish positive <sep> fish negative
+BG#5,id_7,"But if you're prepared to spend some $ and remember to ask if something they offer is complimentary, then this is the place to go for Indian food",Indian food positive <sep> place negative
+BG#5,id_7,"But if you're prepared to spend some $ and remember to ask if something the place offers is complimentary, then this is the place to go for Indian food",Indian food positive <sep> place negative
+BG#5,id_7,"But if you're prepared to spend some $ and remember to ask if something they (place) offer is complimentary, then this is the place to go for Indian food",Indian food positive <sep> place negative
+1632445,id_6,The lobster sandwich is $24 and although it was good it was not nearly enough to warrant that price.,lobster sandwich positive <sep> lobster sandwich negative
+1632445,id_6,The lobster sandwich is $24 and although it was good the lobster sandwich was not nearly enough to warrant that price.,lobster sandwich positive <sep> lobster sandwich negative
+1632445,id_6,The lobster sandwich is $24 and although it was good it (lobster sandwich) was not nearly enough to warrant that price.,lobster sandwich positive <sep> lobster sandwich negative
+en_MercedesRestaurant_480852899,id_1,"the food was great, the margaritas too but the waitress was too busy being nice to her other larger party than to take better care of my friend and me.",food positive <sep> margaritas positive <sep> waitress negative
+en_MercedesRestaurant_480852899,id_1,"the food was great, the margaritas too but the waitress was too busy being nice to the waitress's other larger party than to take better care of my friend and me.",food positive <sep> margaritas positive <sep> waitress negative
+en_MercedesRestaurant_480852899,id_1,"the food was great, the margaritas too but the waitress was too busy being nice to her (waitress's) other larger party than to take better care of my friend and me.",food positive <sep> margaritas positive <sep> waitress negative
+483111,id_0,Winnie and her staff are the best crew you can find serving you.,staff positive <sep> Winnie positive
+483111,id_0,Winnie and Winnie's staff are the best crew you can find serving you.,staff positive <sep> Winnie positive
+483111,id_0,Winnie and her (Winnie's) staff are the best crew you can find serving you.,staff positive <sep> Winnie positive
+en_SnoozeanAMEatery_479991844,id_3,"If there is a line very day of the week for the entire time a place is open, you know it is great.",place positive
+en_SnoozeanAMEatery_479991844,id_3,"If there is a line very day of the week for the entire time a place is open, you know the place is great.",place positive
+en_SnoozeanAMEatery_479991844,id_3,"If there is a line very day of the week for the entire time a place is open, you know it (place) is great.",place positive
+RL#3,id_1,"im not necessarily fanatical about this place, but it was a fun time for low pirces.",place positive
+RL#3,id_1,"im not necessarily fanatical about this place, but the place was a fun time for low pirces.",place positive
+RL#3,id_1,"im not necessarily fanatical about this place, but it (place) was a fun time for low pirces.",place positive
+EVPK#10,id_3,"We had half/half pizza, mine was eggplant and my friend had the buffalo and it was sooo huge for a small size pizza!",half/half pizza positive
+EVPK#10,id_3,"We had half/half pizza, mine was eggplant and my friend had the buffalo and the half/half pizza was sooo huge for a small size pizza!",half/half pizza positive
+EVPK#10,id_3,"We had half/half pizza, mine was eggplant and my friend had the buffalo and it (half/half pizza) was sooo huge for a small size pizza!",half/half pizza positive
+957145,id_2,"Over the years the host, Vittorio, and his crew, have always treated me as family--although with all the business this not-so-little gem does, it amazing he's even able to remember a consistent but not-so-frequent visitor.",Vittorio positive <sep> crew positive
+957145,id_2,"Over the years the host, Vittorio, and Vittorio's crew, have always treated me as family--although with all the business this not-so-little gem does, it amazing he's even able to remember a consistent but not-so-frequent visitor.",Vittorio positive <sep> crew positive
+957145,id_2,"Over the years the host, Vittorio, and his (Vittorio's) crew, have always treated me as family--although with all the business this not-so-little gem does, it amazing he's even able to remember a consistent but not-so-frequent visitor.",Vittorio positive <sep> crew positive
+en_SchoonerOrLater_479842021,id_6,As it turns out the owner was seated right next to us and when he came over to check on our problems was very dismissive and offered a token 20% discount on our bill.,owner negative
+en_SchoonerOrLater_479842021,id_6,As it turns out the owner was seated right next to us and when the owner came over to check on our problems was very dismissive and offered a token 20% discount on our bill.,owner negative
+en_SchoonerOrLater_479842021,id_6,As it turns out the owner was seated right next to us and when he (owner) came over to check on our problems was very dismissive and offered a token 20% discount on our bill.,owner negative
+en_India'sGrill_477960694,id_3,I think I have probably tried each item on their menu at least once it is all excellent.,menu positive
+en_India'sGrill_477960694,id_3,I think I have probably tried each item on their menu at least once each item on menu is all excellent.,menu positive
+en_India'sGrill_477960694,id_3,I think I have probably tried each item on their menu at least once it (item of menu) is all excellent.,menu positive
+Z#6,id_5,"My party had the BBE $29 fixe prix menu, which was such a wonderful deal since it also came with a flight of sake!",BBE $29 fixe prix menu positive
+Z#6,id_5,"My party had the BBE $29 fixe prix menu, which was such a wonderful deal since the BBE $29 fixe prix menu also came with a flight of sake!",BBE $29 fixe prix menu positive
+Z#6,id_5,"My party had the BBE $29 fixe prix menu, which was such a wonderful deal since it (BBE $29 fixe prix menu) also came with a flight of sake!",BBE $29 fixe prix menu positive
+1603698,id_6,"I had their eggs benedict for brunch, which were the worst in my entire life, I tried removing the hollondaise sauce completely that was how failed it was.",eggs benedict negative
+1603698,id_6,"I had their eggs benedict for brunch, which were the worst in my entire life, I tried removing the hollondaise sauce completely that was how failed the eggs benedict was.",eggs benedict negative
+1603698,id_6,"I had their eggs benedict for brunch, which were the worst in my entire life, I tried removing the hollondaise sauce completely that was how failed it (eggs benedict) was.",eggs benedict negative
+494850,id_1,"During the course of the past 3 months, the chef and staff changed and it was not for the better.",chef negative <sep> staff negative
+494850,id_1,"During the course of the past 3 months, the chef and staff changed and the chef and staff change was not for the better.",chef negative <sep> staff negative
+494850,id_1,"During the course of the past 3 months, the chef and staff changed and it (chef and staff change) was not for the better.",chef negative <sep> staff negative
+0,0,"We politely asked our server for the regular menu, but were told that for large parties they could only offer us the banquet menu (would have gone elsewhere had we known).",server negative <sep> banquet menu neutral
+0,0,"We politely asked our server for the regular menu, but were told that for large parties the server could only offer us the banquet menu (would have gone elsewhere had we known).",server negative <sep> banquet menu neutral
+0,0,"We politely asked our server for the regular menu, but were told that for large parties they (server) could only offer us the banquet menu (would have gone elsewhere had we known).",server negative <sep> banquet menu neutral
+0,0,"Our waiter was a little stressed and brought a couple things out late and as a result, he apologized graciously and gave us wine on the house to compensate for the delay.",waiter negative <sep> wine neutral
+0,0,"Our waiter was a little stressed and brought a couple things out late and as a result, the waiter apologized graciously and gave us wine on the house to compensate for the delay.",waiter negative <sep> wine neutral
+0,0,"Our waiter was a little stressed and brought a couple things out late and as a result, he (waiter) apologized graciously and gave us wine on the house to compensate for the delay.",waiter negative <sep> wine neutral
+1280179,id_1,"To sum it up: Service varies from good to mediorce, depending on which waiter you get; generally it is just average Ok.",Service neutral
+1280179,id_1,"To sum it up: Service varies from good to mediorce, depending on which waiter you get; generally the Service is just average Ok.",Service neutral
+1280179,id_1,"To sum it up: Service varies from good to mediorce, depending on which waiter you get; generally it (Service) is just average Ok.",Service neutral
+1430994,id_2,I had Lobster Bisque it has 2 oz. of Maine Lobster in it.,Lobster Bisque positive
+1430994,id_2,I had Lobster Bisque it has 2 oz. of Maine Lobster in the Lobster Bisque.,Lobster Bisque positive
+1430994,id_2,I had Lobster Bisque it has 2 oz. of Maine Lobster in it (Lobster Bisque).,Lobster Bisque positive
+0,0,"We initially ordered a bottle of wine and the waitress though we may not like it, so she offered us a taste.",waitress negative <sep> taste neutral
+0,0,"We initially ordered a bottle of wine and the waitress though we may not like it, so waitress offered us a taste.",waitress negative <sep> taste neutral
+0,0,"We initially ordered a bottle of wine and the waitress though we may not like it, so she (waitress) offered us a taste.",waitress negative <sep> taste neutral
+735448,id_1,"whoever the jazz duo was, they were on POINT.",jazz duo positive
+735448,id_1,"whoever the jazz duo was, the jazz duo were on POINT.",jazz duo positive
+735448,id_1,"whoever the jazz duo was, they (jazz duo) were on POINT.",jazz duo positive
+0,0,"Also, they upped their prices, so I have their old menu, and was surprised when my bill came to over $5 more than it used to (I know, not a huge deal).",prices negative <sep> menu neutral <sep> bill neutral
+0,0,"Also, they upped their prices, so I have their old menu, and was surprised when my bill came to over $5 more than the bill used to (I know, not a huge deal).",prices negative <sep> menu neutral <sep> bill neutral
+0,0,"Also, they upped their prices, so I have their old menu, and was surprised when my bill came to over $5 more than it (bill) used to (I know, not a huge deal).",prices negative <sep> menu neutral <sep> bill neutral
+en_OpenSesame_477970938,id_4,"The presentation of the food was an added bonus, it looked just as great as it tasted!",food positive
+en_OpenSesame_477970938,id_4,"The presentation of the food was an added bonus, food looked just as great as food tasted!",food positive
+en_OpenSesame_477970938,id_4,"The presentation of the food was an added bonus, it (food) looked just as great as it (food) tasted!",food positive
