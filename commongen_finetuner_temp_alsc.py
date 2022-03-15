@@ -36,7 +36,7 @@ RENAMED_DF_FOR_TRAIN = {
     WIKITEXT: get_renamed_lm_columns
 }
 
-ABSA_PROMPT = "aspect analysis: "
+ABSA_PROMPT = "get sentiment: "
 
 FRACTION = 0.1
 ABSA_MULTIPLIER = 2
@@ -75,7 +75,7 @@ print("SEED: {}".format(SEED))
 
 # MODEL_DIRECTORY = 'models/dataset5_randomised2_test_mams_train_cs_{}'.format(COMMONSENSE_FRACTION)
 # MODEL_DIRECTORY = 'models/dataset6_randomised_test_mams_train_cs_{}'.format(COMMONSENSE_FRACTION)
-MODEL_DIRECTORY = 'models/{}_exp_fine_tune_aux_{}'.format(TASK, AUX_FRACTION)
+MODEL_DIRECTORY = 'models/{}_dataset8_manual_alsc_exp_fine_tune_aux_{}'.format(TASK, AUX_FRACTION)
 # MODEL_DIRECTORY = 'models/{}_exp_regular'.format(TASK, AUX_FRACTION)
 
 EXPERIMENT_OUTPUT_FILE_TARGET = '{}/output_targets.csv'.format(MODEL_DIRECTORY)
@@ -185,6 +185,13 @@ def get_data_loaders(model_params, source_text, target_text, tokenizer, training
     return training_loader, validation_loader, test_loader, tokenizer
 
 
+def evaluate_alc_prediction_file(predictions_filepath):
+    predictions_df = pd.read_csv(predictions_filepath)
+    correct = predictions_df["Generated Text"] == predictions_df["Actual Text"]
+    acc = 100*correct.sum()/len(predictions_df)
+    return acc
+
+
 def run_program_for_seed(seed, results_target, results_sentiment):
     # Set random seeds and deterministic pytorch for reproducibility
     torch.manual_seed(seed)  # pytorch random seed
@@ -195,10 +202,10 @@ def run_program_for_seed(seed, results_target, results_sentiment):
         "MODEL": "t5-base",
         "MODEL_LOCAL": "/home/mullick/lm_models/t5-base-conditional-gen",
         # "MODEL": "danny911kr/calm-base",
-        "TRAIN_BATCH_SIZE": 8,  # training batch size. 32 takes 22-23GB GPU memory, 24 takes 20GB GPU, 8 takes 10GB
-        "VALID_BATCH_SIZE": 8,  # validation batch size
+        "TRAIN_BATCH_SIZE": 32,  # training batch size. 32 takes 22-23GB GPU memory, 24 takes 20GB GPU (host1), 8 takes 10GB (host2/3)
+        "VALID_BATCH_SIZE": 32,  # validation batch size
         "TEST_BATCH_SIZE": 1,  # validation batch size
-        "TRAIN_EPOCHS": 10,  # number of training epochs
+        "TRAIN_EPOCHS": 15,  # number of training epochs
         "VAL_EPOCHS": 1,  # number of validation epochs
         "TEST_EPOCHS": 1,  # number of validation epochs
         "LEARNING_RATE": 5e-4,  # learning rate
@@ -210,10 +217,10 @@ def run_program_for_seed(seed, results_target, results_sentiment):
 
     print(model_params)
 
-    training_file_absa = './data/merged_train.csv'
-    validation_file_absa = './data/merged_val.csv'
+    training_file_absa = './data/merged_train_alsc.csv'
+    validation_file_absa = './data/merged_val_alsc.csv'
     # validation_file_absa = './data/merged_test_ambiguous.csv'
-    test_file_absa = 'data/merged_test_ambiguous.csv'
+    test_file_absa = 'data/merged_test_ambiguous_alsc_manual.csv'
     # test_file_absa = 'data/error_analysis.csv'
     # training_file_absa = './data/processed_train_Mams_en.csv'
     # validation_file_absa = './data/processed_val_Mams_en.csv'
@@ -267,19 +274,10 @@ def run_program_for_seed(seed, results_target, results_sentiment):
     ### Test loader is only ABSA
     T5Generator(test_loader_absa, model_params=model_params, output_file=prediction_file_name)
 
-    e2e_tbsa_preprocess.run_from_generative_script(
-        predictions_filepath='{}/{}'.format(MODEL_DIRECTORY, prediction_file_name),
-        transformed_targets_filepath='{}/{}'.format(MODEL_DIRECTORY, TRANSFORMED_TARGETS_PREDICTIONS_FILE_NAME),
-        transformed_sentiments_filepath='{}/{}'.format(MODEL_DIRECTORY,
-                                                       TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_NAME))
-    output = evaluate_e2e_tbsa.run_from_generative_script(
-        target_file_to_evaluate='{}/{}'.format(MODEL_DIRECTORY, TRANSFORMED_TARGETS_PREDICTIONS_FILE_NAME),
-        sentiments_file_to_evaluate='{}/{}'.format(MODEL_DIRECTORY, TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_NAME))
+    predictions_filepath = '{}/{}'.format(MODEL_DIRECTORY, prediction_file_name)
+    accuracy = evaluate_alc_prediction_file(predictions_filepath)
 
-    print("Results target: " + str(output['te']))
-    print("Results sentiment: " + str(output['tse']))
-
-    return output['te'], output['tse']
+    return accuracy
 
 
 if __name__ == '__main__':
@@ -302,15 +300,13 @@ if __name__ == '__main__':
     if ABSA_FRACTION is not None:
         ABSA_MULTIPLIER_LIST = [ABSA_FRACTION]
 
-    TE = []
-    TSE = []
+    ACC = []
     for seed in SEEDS:
-        te, tse = run_program_for_seed(seed, results_target, results_sentiment)
-        TE.append(te)
-        TSE.append(tse)
+        print("Running ALSC program...")
+        acc = run_program_for_seed(seed, results_target, results_sentiment)
+        print("Result: {}".format(acc))
+        ACC.append(acc)
 
-    print(TE)
-    print(np.mean(TE))
-    print(TSE)
-    print(np.mean(TSE))
+    print(ACC)
+    print(np.mean(ACC))
     print("Done!")

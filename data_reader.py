@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import xml.etree.ElementTree as ET
+
 from sklearn.model_selection import train_test_split
 import random
 
@@ -14,7 +15,7 @@ WEIRD_CHARACTERS = '.!?,'
 # AMBIGUOUS_CASES = [" it ", " its ", " he ", " him ", " his ", " she ", " her ", " hers ",
 #                    " they ", " them ", " we ", " us "]
 
-### For Ambiguous Dataset7
+### For Ambiguous Dataset7. ALSO "WHO"
 AMBIGUOUS_CASES = [" it ", " its ", " he ", " him ", " his ", " she ", " her ",  " hers ", " they ", " them ", " their ", " there ", " which "]
 
 
@@ -105,14 +106,20 @@ def parse_semeval_14_xml(root):
     return data
 
 
+def split_individual_opinions(df):
+    return df.explode('sentences_opinions')
+
+
 def load_semeval(train_file, test_file):
     xml_train = open(train_file, 'r').read()  # Read file
     train = parse_semeval_xml(root=ET.XML(xml_train))
-    train['sentences_opinions'] = train['sentences_opinions'].map(opinions_to_decoder_format)
+    # train['sentences_opinions'] = train['sentences_opinions'].map(opinions_to_decoder_format)
+    train = split_individual_opinions(train)
 
     xml_test = open(test_file, 'r').read()  # Read file
     test = parse_semeval_xml(root=ET.XML(xml_test))
-    test['sentences_opinions'] = test['sentences_opinions'].map(opinions_to_decoder_format)
+    # test['sentences_opinions'] = test['sentences_opinions'].map(opinions_to_decoder_format)
+    test = split_individual_opinions(test)
 
     # Remove null aspects
     non_null_train_idx = ~train['sentences_opinions'].str.contains('NULL')
@@ -129,11 +136,14 @@ def load_semeval(train_file, test_file):
 def load_semeval_14(train_file, test_file):
     xml_train = open(train_file, 'r').read()  # Read file
     train = parse_semeval_14_xml(root=ET.XML(xml_train))
-    train['sentences_opinions'] = train['sentences_opinions'].map(opinions_to_decoder_format)
+    # train['sentences_opinions'] = train['sentences_opinions'].map(opinions_to_decoder_format)
+    train = split_individual_opinions(train)
+
 
     xml_test = open(test_file, 'r').read()  # Read file
     test = parse_semeval_14_xml(root=ET.XML(xml_test))
-    test['sentences_opinions'] = test['sentences_opinions'].map(opinions_to_decoder_format)
+    # test['sentences_opinions'] = test['sentences_opinions'].map(opinions_to_decoder_format)
+    test = split_individual_opinions(test)
 
     # Remove null aspects
     non_null_train_idx = ~train['sentences_opinions'].str.contains('NULL')
@@ -182,15 +192,21 @@ def parse_MAMS_xml(root, shortened):
 def load_MAMS(train_file, val_file, test_file, shortened):
     xml_train = open(train_file, 'r').read()  # Read file
     train = parse_MAMS_xml(root=ET.XML(xml_train), shortened=shortened)
-    train['sentences_opinions'] = train['sentences_opinions'].map(opinions_to_decoder_format)
+    # train['sentences_opinions'] = train['sentences_opinions'].map(opinions_to_decoder_format)
+
+    train = split_individual_opinions(train)
 
     xml_val = open(val_file, 'r').read()  # Read file
     val = parse_MAMS_xml(root=ET.XML(xml_val), shortened=shortened)
-    val['sentences_opinions'] = val['sentences_opinions'].map(opinions_to_decoder_format)
+    # val['sentences_opinions'] = val['sentences_opinions'].map(opinions_to_decoder_format)
+
+    val = split_individual_opinions(val)
 
     xml_test = open(test_file, 'r').read()  # Read file
     test = parse_MAMS_xml(root=ET.XML(xml_test), shortened=shortened)
-    test['sentences_opinions'] = test['sentences_opinions'].map(opinions_to_decoder_format)
+    # test['sentences_opinions'] = test['sentences_opinions'].map(opinions_to_decoder_format)
+
+    test = split_individual_opinions(test)
 
     print('MAMS: ', train.shape, val.shape, test.shape)
     return train, val, test
@@ -230,6 +246,12 @@ def preprocess_dataset(domain, language):
     test_idx = test['sentences_opinions'] != ''
     test = test[test_idx]
 
+    ### For ALSC
+    train = process_for_alsc(train)
+    val = process_for_alsc(val)
+    test = process_for_alsc(test)
+
+
     train_ambiguous = train[train['sentences_texts'].str.contains(REGEX_PHRASE)]
     val_ambiguous = val[val['sentences_texts'].str.contains(REGEX_PHRASE)]
     test_ambiguous = test[test['sentences_texts'].str.contains(REGEX_PHRASE)]
@@ -237,13 +259,14 @@ def preprocess_dataset(domain, language):
     train_non_ambiguous = train[~train['sentences_texts'].str.contains(REGEX_PHRASE)]
     val_non_ambiguous = val[~val['sentences_texts'].str.contains(REGEX_PHRASE)]
 
-    train.to_csv('data/processed_train_{}_{}.csv'.format(domain, language), header=True, index=False)
-    val.to_csv('data/processed_val_{}_{}.csv'.format(domain, language), header=True, index=False)
-    test.to_csv('data/processed_test_{}_{}.csv'.format(domain, language), header=True, index=False)
-
-    # train_ambiguous.to_csv('data/processed_train_{}_{}_ambi.csv'.format(domain, language), header=True, index=False)
-
     return train, val, test, train_ambiguous, val_ambiguous, test_ambiguous, train_non_ambiguous, val_non_ambiguous
+
+
+def process_for_alsc(df):
+    df['sentences_texts'] = df['sentences_texts'] + " aspect: " + df['sentences_opinions'].apply(
+        lambda x: ' '.join(x.split()[:-1]))
+    df['sentences_opinions'] = df['sentences_opinions'].apply(lambda x: x.split()[-1])
+    return df
 
 
 if __name__ == '__main__':
@@ -291,7 +314,8 @@ if __name__ == '__main__':
     print('MAMS Ambi: ', mams_test_ambi.shape)
 
     train_merged = pd.concat([rest16_train_non_ambi, mams_train], ignore_index=True)
-    train_merged.to_csv('data/merged_train.csv', header=True, index=False)
+    # train_merged = train_merged.sample(frac=0.5)
+    train_merged.to_csv('data/merged_train_alsc.csv', header=True, index=False)
 
     ### Merged ambiguous test dataset
     # test_ambiguous = pd.concat([rest16_test_ambi, mams_test_ambi, lap14_test_ambi], ignore_index=True)
@@ -299,13 +323,18 @@ if __name__ == '__main__':
                                ignore_index=True)
     test_ambiguous_sampled, val_from_test_ambiguous = train_test_split(test_ambiguous, test_size=0.15, random_state=0)
 
-    test_ambiguous_sampled.to_csv('data/merged_test_ambiguous.csv', header=True, index=False)
+    test_ambiguous_sampled = test_ambiguous_sampled.sort_values(by=["review_id", "sentences_ids", "sentences_texts"])
+
+    # test_ambiguous_sampled = test_ambiguous_sampled.sample(frac=0.5)
+    test_ambiguous_sampled.to_csv('data/merged_test_ambiguous_alsc.csv', header=True, index=False)
 
     ### Merged validation datasets
     val_merged = pd.concat([rest16_val_non_ambi, mams_val], ignore_index=True)
     val_merged = val_merged.sample(frac=0.50, random_state=0)
     val_merged = pd.concat([val_merged, val_from_test_ambiguous], ignore_index=True)
-    val_merged.to_csv('data/merged_val.csv', header=True, index=False)
+
+    # val_merged = val_merged.sample(frac=0.5)
+    val_merged.to_csv('data/merged_val_alsc.csv', header=True, index=False)
 
 
     print('saved..')

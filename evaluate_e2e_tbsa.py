@@ -5,6 +5,7 @@ import numpy as np
 import csv
 import ast
 import sys
+import pandas as pd
 
 SMALL_POSITIVE_CONST = 1e-4
 
@@ -63,13 +64,13 @@ def match_ot(gold_ote_sequence, pred_ote_sequence, idx):
         if t in gold_ote_sequence:
             n_hit += 1
 
-    if n_hit != len(pred_ote_sequence) or n_hit != len(gold_ote_sequence):
-        print("{}".format(idx))
+    # if n_hit != len(pred_ote_sequence) or n_hit != len(gold_ote_sequence):
+    #     print("{}".format(idx))
 
     return n_hit
 
 # Dhruv's e.g. Updated: print(evaluate_ts([[(1, 3, 'POS'), (4, 4, 'NEG')]], [[(1, 3, 'POS'), (4, 4, 'NEG')]]))
-def evaluate_ts(gold_ts, pred_ts):
+def evaluate_ts(gold_ts, pred_ts, neutral_ignore = True):
     """
     evaluate the model performance for the ts task
     :param gold_ts: gold standard ts tags
@@ -88,7 +89,8 @@ def evaluate_ts(gold_ts, pred_ts):
         # g_ts_sequence, p_ts_sequence = tag2ts(ts_tag_sequence=g_ts), tag2ts(ts_tag_sequence=p_ts)
         g_ts_sequence, p_ts_sequence = g_ts, p_ts
         hit_ts_count, gold_ts_count, pred_ts_count = match_ts(gold_ts_sequence=g_ts_sequence,
-                                                              pred_ts_sequence=p_ts_sequence, idx=i)
+                                                              pred_ts_sequence=p_ts_sequence, idx=i,
+                                                              neutral_ignore=neutral_ignore)
 
         n_tp_ts += hit_ts_count
         n_gold_ts += gold_ts_count
@@ -119,7 +121,7 @@ def evaluate_ts(gold_ts, pred_ts):
     return ts_scores
 
 
-def match_ts(gold_ts_sequence, pred_ts_sequence, idx):
+def match_ts(gold_ts_sequence, pred_ts_sequence, idx, neutral_ignore):
     """
     calculate the number of correctly predicted targeted sentiment
     :param gold_ts_sequence: gold standard targeted sentiment sequence
@@ -141,8 +143,13 @@ def match_ts(gold_ts_sequence, pred_ts_sequence, idx):
             hit_count[tid] += 1
         pred_count[tid] += 1
 
-    if not np.all(hit_count == gold_count) or not np.all(hit_count == pred_count):
-        print("{}".format(idx))
+    if neutral_ignore:
+        hit_count[2] = 0
+        gold_count[2] = 0
+        pred_count[2] = 0
+
+    # if not np.all(hit_count == gold_count) or not np.all(hit_count == pred_count):
+    #     print("{}".format(idx))
 
     return hit_count, gold_count, pred_count
 
@@ -175,10 +182,21 @@ def read_transformed_sentiments(transformed_sentiments_predictions_file):
     return predicted_data, gold_data
 
 
-def run_from_generative_script(target_file_to_evaluate, sentiments_file_to_evaluate):
+def get_stats_alc(prediction_file_to_evaluate, polarity):
+    df = pd.read_csv(prediction_file_to_evaluate)
+    tp = len(df[(df['Generated Text'] == polarity) & (df['Actual Text'] == polarity)])
+    fp = len(df[(df['Generated Text'] == polarity) & ~(df['Actual Text'] == polarity)])
+    fn = len(df[~(df['Generated Text'] == polarity) & (df['Actual Text'] == polarity)])
+    return tp, fp, fn
+
+
+def run_from_generative_script(target_file_to_evaluate, sentiments_file_to_evaluate, neutral_ignore=True):
 
     print("Evaluating target file: {}, Evaluating sentiments file: {}\n"
           .format(target_file_to_evaluate, sentiments_file_to_evaluate))
+
+    if neutral_ignore:
+        print("NOTE: Ignoring neutral aspect sentiment terms...")
 
     predicted_data_targets, gold_data_targets = read_transformed_targets(target_file_to_evaluate)
     output_targets = evaluate_ote(gold_data_targets, predicted_data_targets)
@@ -187,12 +205,35 @@ def run_from_generative_script(target_file_to_evaluate, sentiments_file_to_evalu
     print("--------")
 
     predicted_data_sentiment, gold_data_sentiment = read_transformed_sentiments(sentiments_file_to_evaluate)
-    output_sentiment = evaluate_ts(gold_data_sentiment, predicted_data_sentiment)
+    output_sentiment = evaluate_ts(gold_data_sentiment, predicted_data_sentiment, neutral_ignore)
     print(output_sentiment)
 
     return {'te': output_targets[2], 'tse': output_sentiment[2]}
 
 
+def run_from_generative_script_alsc(prediction_file_to_evaluate):
+
+    print("Evaluating ALSC: {}\n".format(prediction_file_to_evaluate))
+
+    #### FP = FN in a multi class setting. Therefore Micro P = Micro R = Micro F = Accuracy
+
+    TP, FP, FN = [], [], []
+    for polarity in ["positive", "negative", "neutral"]:
+        tp, fp, fn = get_stats_alc(prediction_file_to_evaluate, polarity)
+        TP.append(tp)
+        FP.append(fp)
+        FN.append(fn)
+
+    micro_precision = np.sum(TP)/(SMALL_POSITIVE_CONST + np.sum(TP) + np.sum(FP))
+    micro_recall = np.sum(TP)/(SMALL_POSITIVE_CONST + np.sum(TP) + np.sum(FN))
+    micro_f1 = 2 * micro_precision * micro_recall / (SMALL_POSITIVE_CONST + micro_precision + micro_recall)
+
+    print(micro_precision, micro_recall, micro_f1)
+
+    return micro_f1
+
+
 if __name__ == '__main__':
-    run_from_generative_script(TRANSFORMED_TARGETS_PREDICTIONS_FILE_PATH, TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_PATH)
+    run_from_generative_script_alsc('alc_prediction.csv')
+    # run_from_generative_script(TRANSFORMED_TARGETS_PREDICTIONS_FILE_PATH, TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_PATH)
 

@@ -195,8 +195,8 @@ def run_program_for_seed(seed, results_target, results_sentiment):
         "MODEL": "t5-base",
         "MODEL_LOCAL": "/home/mullick/lm_models/t5-base-conditional-gen",
         # "MODEL": "danny911kr/calm-base",
-        "TRAIN_BATCH_SIZE": 8,  # training batch size. 32 takes 22-23GB GPU memory, 24 takes 20GB GPU, 8 takes 10GB
-        "VALID_BATCH_SIZE": 8,  # validation batch size
+        "TRAIN_BATCH_SIZE": 24,  # training batch size. 32 takes 22-23GB GPU memory, 24 takes 20GB GPU (host1), 8 takes 10GB (host2/3)
+        "VALID_BATCH_SIZE": 24,  # validation batch size
         "TEST_BATCH_SIZE": 1,  # validation batch size
         "TRAIN_EPOCHS": 10,  # number of training epochs
         "VAL_EPOCHS": 1,  # number of validation epochs
@@ -274,7 +274,8 @@ def run_program_for_seed(seed, results_target, results_sentiment):
                                                        TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_NAME))
     output = evaluate_e2e_tbsa.run_from_generative_script(
         target_file_to_evaluate='{}/{}'.format(MODEL_DIRECTORY, TRANSFORMED_TARGETS_PREDICTIONS_FILE_NAME),
-        sentiments_file_to_evaluate='{}/{}'.format(MODEL_DIRECTORY, TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_NAME))
+        sentiments_file_to_evaluate='{}/{}'.format(MODEL_DIRECTORY, TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_NAME),
+        neutral_ignore=False)
 
     print("Results target: " + str(output['te']))
     print("Results sentiment: " + str(output['tse']))
