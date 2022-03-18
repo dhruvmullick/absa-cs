@@ -3,12 +3,15 @@ import os, time, torch, datetime
 from re import I
 import numpy as np
 import pandas as pd
+import transformers
 from tqdm import tqdm
 import sys
 import random
 
+import evaluate_e2e_tbsa
 from utils import EarlyStopping
 import torch.nn.functional as F
+import torch.optim
 from torch.utils.data import Dataset, DataLoader
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 from rich.table import Column, Table
@@ -35,6 +38,7 @@ from torch import cuda
 device = 'cuda' if cuda.is_available() else 'cpu'
 
 lang_map = {'en': 'english', 'es': 'spanish', 'ru': 'russian'}
+
 
 class YourDataSetClass(Dataset):
     """
@@ -230,15 +234,20 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
     # model.resize_token_embeddings(model_params['new_tokens_size'])
 
     # Defining the optimizer that will be used to tune the weights of the network in the training session. 
-    optimizer = torch.optim.AdamW(params=model.parameters(), lr=model_params["LEARNING_RATE"])
-    # optimizer = Adafactor(params = model.parameters(), relative_step=True, lr = model_params["LEARNING_RATE"])
+    # optimizer = torch.optim.AdamW(params=model.parameters(), lr=model_params["LEARNING_RATE"])
+    optimizer = transformers.Adafactor(params=model.parameters(), lr=model_params["LEARNING_RATE"],
+                                       scale_parameter=False, relative_step=False)
 
     # initialize the early_stopping object
-    early_stopping = EarlyStopping(patience=model_params["early_stopping_patience"], verbose=True,
+    early_stopping = EarlyStopping(patience=model_params["early_stopping_patience"], verbose=True, delta=0.1,
                                    path=f'{model_params["OUTPUT_PATH"]}/best_pytorch_model.bin')
 
+    # training_logger = Table(Column("Epoch", justify="center"), Column("train_loss", justify="center"),
+    #                         Column("val_loss", justify="center"), Column("Epoch Time", justify="center"),
+    #                         title="Training Status", pad_edge=False, box=box.ASCII)
+
     training_logger = Table(Column("Epoch", justify="center"), Column("train_loss", justify="center"),
-                            Column("val_loss", justify="center"), Column("Epoch Time", justify="center"),
+                            Column("Val F1", justify="center"), Column("Epoch Time", justify="center"),
                             title="Training Status", pad_edge=False, box=box.ASCII)
 
     # Training loop
@@ -261,13 +270,28 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
         epoch_time_ = str(datetime.timedelta(seconds=epoch_time))
         total_time_estimated_ = str(
             datetime.timedelta(seconds=(epoch_time * (model_params["TRAIN_EPOCHS"] - epoch - 1))))
-        training_logger.add_row(f'{epoch + 1}/{model_params["TRAIN_EPOCHS"]}', f'{train_loss:.5f}', f'{valid_loss:.5f}',
-                                f'{epoch_time_} (Total est. {total_time_estimated_})')
-        console.print(training_logger)
+        # training_logger.add_row(f'{epoch + 1}/{model_params["TRAIN_EPOCHS"]}', f'{train_loss:.5f}', f'{valid_loss:.5f}',
+        #                         f'{epoch_time_} (Total est. {total_time_estimated_})')
+        # console.print(training_logger)
 
         # early_stopping needs the validation loss to check if it has decresed, 
         # and if it has, it will make a checkpoint of the current model
-        early_stopping(valid_loss, model)
+        # early_stopping(valid_loss, model)
+
+        print("Early stopping: Calculating VALIDATION SCORE: ")
+        PREDICTION_FILE_NAME_VAL = 'evaluation_predictions_val.csv'
+        prediction_file_name_validation = PREDICTION_FILE_NAME_VAL
+        predictions_filepath_validation = '{}/{}'.format(model_params["OUTPUT_PATH"], prediction_file_name_validation)
+        T5Generator(validation_loader, model_params=model_params, output_file=prediction_file_name_validation,
+                    model=model, tokenizer=tokenizer)
+        validation_accuracy = evaluate_e2e_tbsa.evaluate_alc_prediction_file(predictions_filepath_validation)
+        early_stopping(validation_accuracy, model)
+
+        training_logger.add_row(f'{epoch + 1}/{model_params["TRAIN_EPOCHS"]}', f'{train_loss:.5f}',
+                                f'{validation_accuracy:.5f}',
+                                f'{epoch_time_} (Total est. {total_time_estimated_})')
+        console.print(training_logger)
+
         if early_stopping.early_stop:
             print("Early stopping")
             # print("NO EARLY STOPPING. CONTINUING...")
@@ -281,11 +305,12 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
     console.log(f"[Replace best model with the last model]...\n")
     os.remove(f'{model_params["OUTPUT_PATH"]}/model_files/pytorch_model.bin')
     # os.rename(f'{model_params["OUTPUT_PATH"]}/model_files/pytorch_model.bin', f'{model_params["OUTPUT_PATH"]}/model_files/last_epoch_pytorch_model.bin')
-    copyfile(f'{model_params["OUTPUT_PATH"]}/best_pytorch_model.bin', f'{model_params["OUTPUT_PATH"]}/model_files/pytorch_model.bin')
+    copyfile(f'{model_params["OUTPUT_PATH"]}/best_pytorch_model.bin',
+             f'{model_params["OUTPUT_PATH"]}/model_files/pytorch_model.bin')
+    console.print(f"""[Model] Model saved @ {os.path.join(model_params["OUTPUT_PATH"], "model_files")}\n""")
 
 
-def T5Generator(validation_loader, model_params, output_file):
-
+def T5Generator(validation_loader, model_params, output_file, model=None, tokenizer=None):
     ### Setting random seed to 0 so that even if generation is run independently, we get the same results.
     ### Note: Running with CPU and running with GPU give different outcomes.
 
@@ -294,10 +319,15 @@ def T5Generator(validation_loader, model_params, output_file):
 
     console.log(f"[Loading Model]...\n")
     # Saving the model after training
-    path = os.path.join(model_params["OUTPUT_PATH"], "model_files")
-    print("Loading model: {}\n".format(path))
-    model = T5ForConditionalGeneration.from_pretrained(path)
-    tokenizer = T5Tokenizer.from_pretrained(path)
+
+    if model and tokenizer:
+        print("Using passed model and tokenizer")
+    else:
+        path = os.path.join(model_params["OUTPUT_PATH"], "model_files")
+        print("Loading model: {}\n".format(path))
+        model = T5ForConditionalGeneration.from_pretrained(path)
+        tokenizer = T5Tokenizer.from_pretrained(path)
+
     model = model.to(device)
 
     # evaluating test dataset
@@ -309,9 +339,9 @@ def T5Generator(validation_loader, model_params, output_file):
 
     console.save_text(os.path.join(model_params["OUTPUT_PATH"], 'logs.txt'))
 
-    console.log(f"[Validation Completed.]\n")
-    console.print(f"""[Model] Model saved @ {os.path.join(model_params["OUTPUT_PATH"], "model_files")}\n""")
-    console.print(f"""[Validation] Generation on Validation data saved @ {os.path.join(model_params["OUTPUT_PATH"], output_file)}\n""")
+    console.log(f"[Generation Completed.]\n")
+    console.print(
+        f"""[Generation] Generation on Test data saved @ {os.path.join(model_params["OUTPUT_PATH"], output_file)}\n""")
     console.print(f"""[Logs] Logs saved @ {os.path.join(model_params["OUTPUT_PATH"], 'logs.txt')}\n""")
 
 

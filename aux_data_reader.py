@@ -59,6 +59,8 @@ def read_wikitext_data():
 
 
 def read_cosmos_data():
+    # https://arxiv.org/pdf/1909.00277.pdf
+    # For Generative Evaluation: COSMOS paper shows that the generative models is only to be given the question and context (no answer) in input.
     training_file_cosmos = './data/cosmosqa/train.csv'
     val_file_cosmos = './data/cosmosqa/valid.csv'
     training_data_df = pd.read_csv(training_file_cosmos)

@@ -6,6 +6,7 @@ import csv
 import ast
 import sys
 import pandas as pd
+import sklearn.metrics
 
 SMALL_POSITIVE_CONST = 1e-4
 
@@ -215,25 +216,37 @@ def run_from_generative_script_alsc(prediction_file_to_evaluate):
 
     print("Evaluating ALSC: {}\n".format(prediction_file_to_evaluate))
 
-    #### FP = FN in a multi class setting. Therefore Micro P = Micro R = Micro F = Accuracy
+    df = pd.read_csv(prediction_file_to_evaluate)
+    y_true = df['Actual Text'].to_numpy()
+    y_pred = df['Generated Text'].to_numpy()
+    f1 = sklearn.metrics.f1_score(y_true, y_pred, average='micro')
+    print(f1)
 
-    TP, FP, FN = [], [], []
-    for polarity in ["positive", "negative", "neutral"]:
-        tp, fp, fn = get_stats_alc(prediction_file_to_evaluate, polarity)
-        TP.append(tp)
-        FP.append(fp)
-        FN.append(fn)
 
-    micro_precision = np.sum(TP)/(SMALL_POSITIVE_CONST + np.sum(TP) + np.sum(FP))
-    micro_recall = np.sum(TP)/(SMALL_POSITIVE_CONST + np.sum(TP) + np.sum(FN))
-    micro_f1 = 2 * micro_precision * micro_recall / (SMALL_POSITIVE_CONST + micro_precision + micro_recall)
+    # #### FP = FN in a multi class setting. Therefore Micro P = Micro R = Micro F = Accuracy
+    #
+    # TP, FP, FN = [], [], []
+    # for polarity in ["positive", "negative", "neutral"]:
+    #     tp, fp, fn = get_stats_alc(prediction_file_to_evaluate, polarity)
+    #     TP.append(tp)
+    #     FP.append(fp)
+    #     FN.append(fn)
+    #
+    # micro_precision = np.sum(TP)/(SMALL_POSITIVE_CONST + np.sum(TP) + np.sum(FP))
+    # micro_recall = np.sum(TP)/(SMALL_POSITIVE_CONST + np.sum(TP) + np.sum(FN))
+    # micro_f1 = 2 * micro_precision * micro_recall / (SMALL_POSITIVE_CONST + micro_precision + micro_recall)
+    #
+    # print(micro_precision, micro_recall, micro_f1)
+    #
+    # return micro_f1
 
-    print(micro_precision, micro_recall, micro_f1)
-
-    return micro_f1
+def evaluate_alc_prediction_file(predictions_filepath):
+    predictions_df = pd.read_csv(predictions_filepath)
+    correct = predictions_df["Generated Text"] == predictions_df["Actual Text"]
+    acc = 100*correct.sum()/len(predictions_df)
+    return acc
 
 
 if __name__ == '__main__':
     run_from_generative_script_alsc('alc_prediction.csv')
     # run_from_generative_script(TRANSFORMED_TARGETS_PREDICTIONS_FILE_PATH, TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_PATH)
-

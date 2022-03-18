@@ -8,8 +8,7 @@ from torch.utils.data import DataLoader
 from transformers import T5Tokenizer
 from torch import cuda
 
-import e2e_tbsa_preprocess
-import evaluate_e2e_tbsa
+from evaluate_e2e_tbsa import evaluate_alc_prediction_file
 from train_generative import T5Trainer, T5Generator
 
 from aux_data_reader import get_renamed_absa_columns, get_renamed_qa_columns, get_renamed_lm_columns, \
@@ -82,6 +81,7 @@ EXPERIMENT_OUTPUT_FILE_TARGET = '{}/output_targets.csv'.format(MODEL_DIRECTORY)
 EXPERIMENT_OUTPUT_FILE_SENTIMENT = '{}/output_sentiment.csv'.format(MODEL_DIRECTORY)
 
 PREDICTION_FILE_NAME = 'evaluation_predictions.csv'
+PREDICTION_FILE_NAME_VAL = 'evaluation_predictions_val.csv'
 
 ### cs_absa_seed
 # PREDICTION_FILE_NAME_FORMAT = 'evaluation_commongen_predictions_{}_{}_{}.csv'
@@ -91,8 +91,9 @@ TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_NAME = 'transformed-sentiments.csv'
 console = Console(record=True)
 
 # SEEDS = [5, 6, 7, 8, 9]
-# SEEDS = [0, 1, 2]
-SEEDS = [0, 1, 2, 3, 4]
+SEEDS = [0, 1, 2]
+# SEEDS = [0, 1, 2, 3, 4]
+LR_LIST = [1e-3, 5e-4, 1e-4, 5e-5, 1e-5, 5e-6, 1e-6]
 
 torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
@@ -185,14 +186,7 @@ def get_data_loaders(model_params, source_text, target_text, tokenizer, training
     return training_loader, validation_loader, test_loader, tokenizer
 
 
-def evaluate_alc_prediction_file(predictions_filepath):
-    predictions_df = pd.read_csv(predictions_filepath)
-    correct = predictions_df["Generated Text"] == predictions_df["Actual Text"]
-    acc = 100*correct.sum()/len(predictions_df)
-    return acc
-
-
-def run_program_for_seed(seed, results_target, results_sentiment):
+def run_program_for_seed_lr(seed, lr):
     # Set random seeds and deterministic pytorch for reproducibility
     torch.manual_seed(seed)  # pytorch random seed
     np.random.seed(seed)  # numpy random seed
@@ -202,13 +196,13 @@ def run_program_for_seed(seed, results_target, results_sentiment):
         "MODEL": "t5-base",
         "MODEL_LOCAL": "/home/mullick/lm_models/t5-base-conditional-gen",
         # "MODEL": "danny911kr/calm-base",
-        "TRAIN_BATCH_SIZE": 32,  # training batch size. 32 takes 22-23GB GPU memory, 24 takes 20GB GPU (host1), 8 takes 10GB (host2/3)
-        "VALID_BATCH_SIZE": 32,  # validation batch size
+        "TRAIN_BATCH_SIZE": 24,  # training batch size. 32 takes 22-23GB GPU memory, 24 takes 20GB GPU (host1), 8 takes 10GB (host2/3)
+        "VALID_BATCH_SIZE": 24,  # validation batch size
         "TEST_BATCH_SIZE": 1,  # validation batch size
-        "TRAIN_EPOCHS": 15,  # number of training epochs
+        "TRAIN_EPOCHS": 30,  # number of training epochs
         "VAL_EPOCHS": 1,  # number of validation epochs
         "TEST_EPOCHS": 1,  # number of validation epochs
-        "LEARNING_RATE": 5e-4,  # learning rate
+        "LEARNING_RATE": lr,  # learning rate
         "MAX_SOURCE_TEXT_LENGTH": 256,  # max length of source text
         "MAX_TARGET_TEXT_LENGTH": 64,  # max length of target text
         "early_stopping_patience": 3,  # number of epochs before stopping training.
@@ -220,7 +214,7 @@ def run_program_for_seed(seed, results_target, results_sentiment):
     training_file_absa = './data/merged_train_alsc.csv'
     validation_file_absa = './data/merged_val_alsc.csv'
     # validation_file_absa = './data/merged_test_ambiguous.csv'
-    test_file_absa = 'data/merged_test_ambiguous_alsc_manual.csv'
+    test_file_absa = 'data/merged_test_ambiguous_alsc.csv'
     # test_file_absa = 'data/error_analysis.csv'
     # training_file_absa = './data/processed_train_Mams_en.csv'
     # validation_file_absa = './data/processed_val_Mams_en.csv'
@@ -228,6 +222,8 @@ def run_program_for_seed(seed, results_target, results_sentiment):
     # training_file_absa = './data/processed_train_Rest16_en.csv'
     # validation_file_absa = './data/processed_val_Rest16_en.csv'
     # test_file_absa = './data/processed_test_Rest16_en.csv'
+
+    print("NON MANUALLY SELECTED DATA")
 
     print("Training on: {}, Validation on {}, Testing on: {}, Seed: {}".format(training_file_absa, validation_file_absa,
                                                                                test_file_absa, seed))
@@ -269,15 +265,21 @@ def run_program_for_seed(seed, results_target, results_sentiment):
     T5Trainer(training_loader_absa, validation_loader_absa, tokenizer, model_params=model_params,
               local_model=model_path)
 
+    prediction_file_name_validation = PREDICTION_FILE_NAME_VAL
+    predictions_filepath_validation = '{}/{}'.format(MODEL_DIRECTORY, prediction_file_name_validation)
     prediction_file_name = PREDICTION_FILE_NAME
+    predictions_filepath = '{}/{}'.format(MODEL_DIRECTORY, prediction_file_name)
 
     ### Test loader is only ABSA
+    print("Calculating VALIDATION SCORE: ")
+    T5Generator(validation_loader_absa, model_params=model_params, output_file=prediction_file_name_validation)
+    validation_accuracy = evaluate_alc_prediction_file(predictions_filepath_validation)
+
+    print("Calculating TEST SCORE: ")
     T5Generator(test_loader_absa, model_params=model_params, output_file=prediction_file_name)
+    test_accuracy = evaluate_alc_prediction_file(predictions_filepath)
 
-    predictions_filepath = '{}/{}'.format(MODEL_DIRECTORY, prediction_file_name)
-    accuracy = evaluate_alc_prediction_file(predictions_filepath)
-
-    return accuracy
+    return validation_accuracy, test_accuracy
 
 
 if __name__ == '__main__':
@@ -300,13 +302,23 @@ if __name__ == '__main__':
     if ABSA_FRACTION is not None:
         ABSA_MULTIPLIER_LIST = [ABSA_FRACTION]
 
-    ACC = []
-    for seed in SEEDS:
-        print("Running ALSC program...")
-        acc = run_program_for_seed(seed, results_target, results_sentiment)
-        print("Result: {}".format(acc))
-        ACC.append(acc)
+    ACC_VAL = {}
+    ACC_TEST = {}
+    for lr in LR_LIST:
+        val_list = []
+        test_list = []
+        for seed in SEEDS:
+            print("Running ALSC program...")
+            acc_val, acc_test = run_program_for_seed_lr(seed, lr)
+            print("Result_Val: {}".format(acc_val))
+            print("Result_Test: {}".format(acc_test))
+            val_list.append(acc_val)
+            test_list.append(acc_test)
+        print("LR Results for Validation: {}".format(str(val_list)))
+        print("LR Results for Test: {}".format(str(test_list)))
+        ACC_VAL[lr] = val_list
+        ACC_TEST[lr] = test_list
+        print("LR = {} -> Done!".format(lr))
+        print("Cumulative Results for Validation: {}".format(str(ACC_VAL)))
+        print("Cumulative Results for Test: {} \n --------------------- ".format(str(ACC_TEST)))
 
-    print(ACC)
-    print(np.mean(ACC))
-    print("Done!")
