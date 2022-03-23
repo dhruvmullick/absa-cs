@@ -12,10 +12,9 @@ import e2e_tbsa_preprocess
 import evaluate_e2e_tbsa
 from train_generative import T5Trainer, T5Generator
 
-from aux_data_reader import get_renamed_absa_columns, get_renamed_qa_columns, get_renamed_lm_columns, \
-    get_renamed_commongen_columns
-from aux_data_reader import read_squad_data, read_wikitext_data, read_cosmos_data, read_commongen_data
-from aux_data_reader import TARGET_TEXT, SOURCE_TEXT
+from aux_processor import get_renamed_absa_columns, get_renamed_squad_columns, get_renamed_lm_columns, get_renamed_commongen_columns, get_renamed_cosmos_columns
+from aux_processor import read_squad_data, read_wikitext_data, read_cosmos_data, read_commongen_data
+from aux_processor import TARGET_TEXT, SOURCE_TEXT
 
 
 # define a rich console logger
@@ -29,10 +28,10 @@ WIKITEXT = 'WIKITEXT'
 COMMONGEN = 'COMMONGEN'
 
 RENAMED_DF_FOR_TRAIN = {
-    COSMOS: get_renamed_qa_columns,
+    COSMOS: get_renamed_cosmos_columns,
     COMMONGEN: get_renamed_commongen_columns,
     ABSA: get_renamed_absa_columns,
-    SQUAD: get_renamed_qa_columns,
+    SQUAD: get_renamed_squad_columns,
     WIKITEXT: get_renamed_lm_columns
 }
 

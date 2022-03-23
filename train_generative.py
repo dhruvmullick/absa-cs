@@ -8,6 +8,7 @@ from tqdm import tqdm
 import sys
 import random
 
+import aux_processor
 import evaluate_e2e_tbsa
 from utils import EarlyStopping
 import torch.nn.functional as F
@@ -54,6 +55,10 @@ class YourDataSetClass(Dataset):
         self.summ_len = target_len
         self.target_text = self.data[target_text]
         self.source_text = self.data[source_text]
+        if "other" in dataframe:
+            self.other = self.data["other"].tolist()
+        else:
+            self.other = None
 
     def __len__(self):
         return len(self.target_text)
@@ -75,11 +80,16 @@ class YourDataSetClass(Dataset):
         source_mask = source['attention_mask'].squeeze()
         target_ids = target['input_ids'].squeeze()
 
+        other_attr = ''
+        if self.other is not None:
+            other_attr = str(self.other[index])
+
         return {
             'source_ids': source_ids.to(dtype=torch.long),
             'source_mask': source_mask.to(dtype=torch.long),
             'target_ids': target_ids.to(dtype=torch.long),
-            'sentences_texts': source_text
+            'sentences_texts': source_text,
+            'other': other_attr
         }
 
 
@@ -106,65 +116,6 @@ def train(tokenizer, model, device, loader, optimizer):
     return train_losses
 
 
-def validate(tokenizer, model, device, loader):
-    """
-    Function to be called for validating the trainner with the parameters passed from main function
-    """
-    validate_losses = []
-    model.eval()
-    for _, data in tqdm(enumerate(loader, 0), total=len(loader), desc='Validating batches..'):
-        y = data['target_ids'].to(device, dtype=torch.long)
-        lm_labels = y.clone()
-        lm_labels[y == tokenizer.pad_token_id] = -100
-        ids = data['source_ids'].to(device, dtype=torch.long)
-        mask = data['source_mask'].to(device, dtype=torch.long)
-        outputs = model(input_ids=ids, attention_mask=mask, labels=lm_labels)
-        loss = outputs[0]
-        validate_losses.append(loss.item())
-    return validate_losses
-
-
-def build_data(dataframes, source_text, target_text):
-    # tokenzier for encoding the text
-    tokenizer = T5Tokenizer.from_pretrained(model_params["MODEL"])
-    tokenizer.add_tokens(['<sep>'])
-
-    # logging
-    console.log(f"[Data]: Reading data...\n")
-
-    # Creation of Dataset and Dataloader
-    train_dataset = dataframes[0].sample(frac=1, random_state=0).reset_index(drop=True)
-    val_dataset = dataframes[1].reset_index(drop=True)
-    test_dataset = dataframes[2].reset_index(drop=True)
-    train_dataset['sentences_texts'] = ABSA_PROMPT + train_dataset['sentences_texts']
-    val_dataset['sentences_texts'] = ABSA_PROMPT + val_dataset['sentences_texts']
-    test_dataset['sentences_texts'] = ABSA_PROMPT + test_dataset['sentences_texts']
-
-    console.print(f"TRAIN Dataset: {train_dataset.shape}")
-    console.print(f"VALIDATION Dataset: {val_dataset.shape}")
-    console.print(f"TEST Dataset: {test_dataset.shape}\n")
-
-    # Creating the Training and Validation dataset for further creation of Dataloader
-    training_set = YourDataSetClass(train_dataset, tokenizer, model_params["MAX_SOURCE_TEXT_LENGTH"],
-                                    model_params["MAX_TARGET_TEXT_LENGTH"], source_text, target_text)
-    val_set = YourDataSetClass(val_dataset, tokenizer, model_params["MAX_SOURCE_TEXT_LENGTH"],
-                               model_params["MAX_TARGET_TEXT_LENGTH"], source_text, target_text)
-    test_set = YourDataSetClass(test_dataset, tokenizer, model_params["MAX_SOURCE_TEXT_LENGTH"],
-                                model_params["MAX_TARGET_TEXT_LENGTH"], source_text, target_text)
-
-    # Defining the parameters for creation of dataloaders
-    train_params = {'batch_size': model_params["TRAIN_BATCH_SIZE"], 'shuffle': True, 'num_workers': 2}
-    val_params = {'batch_size': model_params["VALID_BATCH_SIZE"], 'shuffle': False, 'num_workers': 2}
-    test_params = {'batch_size': model_params["VALID_BATCH_SIZE"], 'shuffle': False, 'num_workers': 2}
-
-    # Creation of Dataloaders for testing and validation. This will be used down for training and validation stage for the model.
-    training_loader = DataLoader(training_set, **train_params)
-    validation_loader = DataLoader(val_set, **val_params)
-    test_loader = DataLoader(test_set, **test_params)
-
-    return training_loader, validation_loader, test_loader, tokenizer
-
-
 def generate(tokenizer, model, device, loader, model_params):
     """
   Function to evaluate model for spanbert-predictions
@@ -174,6 +125,7 @@ def generate(tokenizer, model, device, loader, model_params):
     predictions = []
     actuals = []
     data_list = []
+    other_list = []
     with torch.no_grad():
         for _, data in enumerate(loader, 0):
 
@@ -205,11 +157,14 @@ def generate(tokenizer, model, device, loader, model_params):
 
             predictions.extend(preds)
             actuals.extend(target)
-            data_list.extend(data["sentences_texts"])
-    return predictions, actuals, data_list
+            other_list.extend(data['other'])
+            data_list.extend(data['sentences_texts'])
+
+    return predictions, actuals, data_list, other_list
 
 
-def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local_model):
+def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local_model, task=None):
+
     """
     T5 trainer
     """
@@ -231,7 +186,6 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
             model = T5ForConditionalGeneration.from_pretrained(model_params["MODEL_LOCAL"])
 
     model = model.to(device)
-    # model.resize_token_embeddings(model_params['new_tokens_size'])
 
     # Defining the optimizer that will be used to tune the weights of the network in the training session. 
     # optimizer = torch.optim.AdamW(params=model.parameters(), lr=model_params["LEARNING_RATE"])
@@ -242,29 +196,21 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
     early_stopping = EarlyStopping(patience=model_params["early_stopping_patience"], verbose=True, delta=0.1,
                                    path=f'{model_params["OUTPUT_PATH"]}/best_pytorch_model.bin')
 
-    # training_logger = Table(Column("Epoch", justify="center"), Column("train_loss", justify="center"),
-    #                         Column("val_loss", justify="center"), Column("Epoch Time", justify="center"),
-    #                         title="Training Status", pad_edge=False, box=box.ASCII)
-
     training_logger = Table(Column("Epoch", justify="center"), Column("train_loss", justify="center"),
                             Column("Val F1", justify="center"), Column("Epoch Time", justify="center"),
                             title="Training Status", pad_edge=False, box=box.ASCII)
 
     # Training loop
     console.log(f'[Initiating Fine Tuning]...\n')
-    avg_train_losses = []
-    avg_valid_losses = []
     for epoch in range(model_params["TRAIN_EPOCHS"]):
         start_time = time.time()
         train_losses = train(tokenizer, model, device, training_loader, optimizer)
-        valid_losses = validate(tokenizer, model, device, validation_loader)
+        # valid_losses = validate(tokenizer, model, device, validation_loader)
         epoch_time = round(time.time() - start_time)
 
         # calculate average loss over an epoch
         train_loss = np.average(train_losses)
-        valid_loss = np.average(valid_losses)
-        avg_train_losses.append(train_loss)
-        avg_valid_losses.append(valid_loss)
+        # valid_loss = np.average(valid_losses)
 
         # preparing the processing time for the epoch and est. the total.
         epoch_time_ = str(datetime.timedelta(seconds=epoch_time))
@@ -279,12 +225,20 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
         # early_stopping(valid_loss, model)
 
         print("Early stopping: Calculating VALIDATION SCORE: ")
-        PREDICTION_FILE_NAME_VAL = 'evaluation_predictions_val.csv'
-        prediction_file_name_validation = PREDICTION_FILE_NAME_VAL
+        prediction_file_name_validation = 'evaluation_predictions_val.csv'
         predictions_filepath_validation = '{}/{}'.format(model_params["OUTPUT_PATH"], prediction_file_name_validation)
         T5Generator(validation_loader, model_params=model_params, output_file=prediction_file_name_validation,
                     model=model, tokenizer=tokenizer)
-        validation_accuracy = evaluate_e2e_tbsa.evaluate_alc_prediction_file(predictions_filepath_validation)
+
+        if task is None or task == aux_processor.COSMOS:
+            validation_accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns(predictions_filepath_validation)
+        elif task == aux_processor.SQUAD:
+            validation_accuracy = aux_processor.evaluate_squad_predictions(predictions_filepath_validation)
+        elif task == aux_processor.WIKITEXT:
+            validation_accuracy = aux_processor.evaluate_lm_one_predictions(predictions_filepath_validation)
+        else:
+            raise AssertionError("Task Evaluation not defined")
+
         early_stopping(validation_accuracy, model)
 
         training_logger.add_row(f'{epoch + 1}/{model_params["TRAIN_EPOCHS"]}', f'{train_loss:.5f}',
@@ -294,14 +248,13 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
 
         if early_stopping.early_stop:
             print("Early stopping")
-            # print("NO EARLY STOPPING. CONTINUING...")
             break
 
-    console.log(f"[Saving Model]...\n")
     # Saving the model after training
     path = os.path.join(model_params["OUTPUT_PATH"], "model_files")
     model.save_pretrained(path)
     tokenizer.save_pretrained(path)
+    console.log(f"[Saving Model at {path}]...\n")
     console.log(f"[Replace best model with the last model]...\n")
     os.remove(f'{model_params["OUTPUT_PATH"]}/model_files/pytorch_model.bin')
     # os.rename(f'{model_params["OUTPUT_PATH"]}/model_files/pytorch_model.bin', f'{model_params["OUTPUT_PATH"]}/model_files/last_epoch_pytorch_model.bin')
@@ -310,7 +263,7 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
     console.print(f"""[Model] Model saved @ {os.path.join(model_params["OUTPUT_PATH"], "model_files")}\n""")
 
 
-def T5Generator(validation_loader, model_params, output_file, model=None, tokenizer=None):
+def T5Generator(data_loader, model_params, output_file, model=None, tokenizer=None):
     ### Setting random seed to 0 so that even if generation is run independently, we get the same results.
     ### Note: Running with CPU and running with GPU give different outcomes.
 
@@ -333,8 +286,9 @@ def T5Generator(validation_loader, model_params, output_file, model=None, tokeni
     # evaluating test dataset
     console.log(f"[Initiating Generation]...\n")
     for epoch in range(model_params["TEST_EPOCHS"]):
-        predictions, actuals, data_list = generate(tokenizer, model, device, validation_loader, model_params)
-        final_df = pd.DataFrame({'Generated Text': predictions, 'Actual Text': actuals, 'Original Sentence': data_list})
+        predictions, actuals, data_list, other_list = generate(tokenizer, model, device, data_loader, model_params)
+        final_df = pd.DataFrame({'Generated Text': predictions, 'Actual Text': actuals,
+                                 'Original Sentence': data_list, 'other': other_list})
         final_df.to_csv(os.path.join(model_params["OUTPUT_PATH"], output_file))
 
     console.save_text(os.path.join(model_params["OUTPUT_PATH"], 'logs.txt'))
@@ -343,40 +297,3 @@ def T5Generator(validation_loader, model_params, output_file, model=None, tokeni
     console.print(
         f"""[Generation] Generation on Test data saved @ {os.path.join(model_params["OUTPUT_PATH"], output_file)}\n""")
     console.print(f"""[Logs] Logs saved @ {os.path.join(model_params["OUTPUT_PATH"], 'logs.txt')}\n""")
-
-
-if __name__ == '__main__':
-    # domain: Rest16, Lap14, Mams, Mams_short
-    # lang: en, es, ru
-    # for train_settings in [('Rest16', 'en', 'Rest16', 'en')]:
-
-    training_file = './data/merged_train.csv'
-    validation_file = './data/merged_val.csv'
-    test_file = 'data/Ambiguous5/merged_test_ambiguous.csv'
-    print("Training on: {}, Testing on: {}".format(training_file, test_file))
-    print("ABSA Prompt is: {}".format(ABSA_PROMPT))
-    print("Experimenting on merged trained, validation and test sets.")
-
-    training = pd.read_csv(training_file)
-    validation = pd.read_csv(validation_file)
-    test = pd.read_csv(test_file)
-
-    model_params = {
-        "OUTPUT_PATH": f"./models/dataset5_test_mams_train/",  # output path
-        # "MODEL": "mrm8488/t5-base-finetuned-common_gen",
-        "MODEL": "t5-base",
-        # "MODEL": "models/commongen_evaluation/model_files",
-        "TRAIN_BATCH_SIZE": 16,  # training batch size
-        "VALID_BATCH_SIZE": 16,  # validation batch size
-        "TRAIN_EPOCHS": 300,  # number of training epochs
-        "VAL_EPOCHS": 1,  # number of validation epochs
-        "LEARNING_RATE": 5e-4,  # learning rate
-        "MAX_SOURCE_TEXT_LENGTH": 256,  # max length of source text
-        "MAX_TARGET_TEXT_LENGTH": 64,  # max length of target text
-        "early_stopping_patience": 5,  # number of epochs before stopping training.
-    }
-
-    training_loader, validation_loader, test_loader, tokenizer = build_data(
-        dataframes=[training, validation, test], source_text="sentences_texts", target_text="sentences_opinions")
-    T5Trainer(training_loader, validation_loader, tokenizer, model_params=model_params)
-    T5Generator(test_loader, model_params=model_params, output_file=f'evaluation_commongen_predictions.csv')

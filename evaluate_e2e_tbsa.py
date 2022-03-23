@@ -196,9 +196,6 @@ def run_from_generative_script(target_file_to_evaluate, sentiments_file_to_evalu
     print("Evaluating target file: {}, Evaluating sentiments file: {}\n"
           .format(target_file_to_evaluate, sentiments_file_to_evaluate))
 
-    if neutral_ignore:
-        print("NOTE: Ignoring neutral aspect sentiment terms...")
-
     predicted_data_targets, gold_data_targets = read_transformed_targets(target_file_to_evaluate)
     output_targets = evaluate_ote(gold_data_targets, predicted_data_targets)
     print(output_targets)
@@ -240,13 +237,13 @@ def run_from_generative_script_alsc(prediction_file_to_evaluate):
     #
     # return micro_f1
 
-def evaluate_alc_prediction_file(predictions_filepath):
+def evaluate_exact_match_for_columns(predictions_filepath):
     predictions_df = pd.read_csv(predictions_filepath)
-    correct = predictions_df["Generated Text"] == predictions_df["Actual Text"]
+    correct = predictions_df["Generated Text"].apply(str) == predictions_df["Actual Text"].apply(str)
     acc = 100*correct.sum()/len(predictions_df)
     return acc
 
 
 if __name__ == '__main__':
-    run_from_generative_script_alsc('alc_prediction.csv')
+    print(evaluate_exact_match_for_columns('alc_prediction.csv'))
     # run_from_generative_script(TRANSFORMED_TARGETS_PREDICTIONS_FILE_PATH, TRANSFORMED_SENTIMENTS_PREDICTIONS_FILE_PATH)
