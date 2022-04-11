@@ -1,8 +1,8 @@
 from re import search
 import pandas as pd
 
-FILE = '/Users/dhruvmullick/Projects/absa-cs/data/Twitter/test.raw'
-FILE_OUTPUT = '/Users/dhruvmullick/Projects/absa-cs/data/twitter_test_filtered_ambi.csv'
+FILE = '/data/Twitter/test.raw'
+FILE_OUTPUT = '/data/twitter_test_filtered_ambi.csv'
 
 AMBIGUOUS_CASES = [" it ", " its ", " he ", " him ", " his ", " she ", " her ", " hers ",
                    " they ", " them "]

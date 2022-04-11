@@ -1,11 +1,11 @@
 import pandas as pd
 
-BASELINE_PREDICTIONS_FILE = 'Results/AmbiguousDataset6/squad/Predictions/0.01_8_predictions.csv'
-COMMONSENSE_PREDICTIONS_FILE = 'Results/AmbiguousDataset6/commongen/Predictions/0.05_8_predictions.csv'
-BASELINE_IDX_FILE = 'Results/AmbiguousDataset6/squad/Predictions/0.01_8_sentiments_idx.csv'
-COMMONSENSE_IDX_FILE = 'Results/AmbiguousDataset6/commongen/Predictions/0.05_8_sentiments_idx.csv'
+BASELINE_PREDICTIONS_FILE = '../Results/AmbiguousDataset6/squad/Predictions/0.01_8_predictions.csv'
+COMMONSENSE_PREDICTIONS_FILE = '../Results/AmbiguousDataset6/commongen/Predictions/0.05_8_predictions.csv'
+BASELINE_IDX_FILE = '../Results/AmbiguousDataset6/squad/Predictions/0.01_8_sentiments_idx.csv'
+COMMONSENSE_IDX_FILE = '../Results/AmbiguousDataset6/commongen/Predictions/0.05_8_sentiments_idx.csv'
 
-COMPARISON_OUTPUT_FILE = 'Results/AmbiguousDataset6/squad/ComparisonCommonGen/comparisons.csv'
+COMPARISON_OUTPUT_FILE = '../Results/AmbiguousDataset6/squad/ComparisonCommonGen/comparisons.csv'
 
 
 def read_idx_as_dict(file_name):

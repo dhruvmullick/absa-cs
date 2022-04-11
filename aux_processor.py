@@ -153,9 +153,9 @@ def extract_df_from_dataset_for_dpr(dataset):
         pronoun = batch['pronoun'][0]
         antecedent = batch['candidates'][label][0]
 
-        regex_pattern = f' {pronoun}(.|,|;| )'
+        regex_pattern = f' {pronoun}(\\.|,|;| )'
         if not re.search(regex_pattern, sentence):
-            print("HEY")
+            raise AssertionError
         else:
             sentence = re.sub(regex_pattern, f' *{pronoun}* ', sentence)
         data.append([f'Get antecedent: {sentence}', antecedent])

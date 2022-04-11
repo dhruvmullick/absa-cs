@@ -2,8 +2,8 @@ import pandas as pd
 
 # PREDICTIONS_FILE_PATH = '/Users/dhruvmullick/Projects/absa-cs/Results/AmbiguousDataset8_ALSC/baseline.csv'
 # PREDICTIONS_FILE_PATH = '/Users/dhruvmullick/Projects/absa-cs/Results/AmbiguousDataset8_ALSC/squad_0.5.csv'
-PREDICTIONS_FILE_PATH = '/Users/dhruvmullick/Projects/absa-cs/Results/AmbiguousDataset8_ALSC/wikitext_0.1.csv'
-PRONOUNS_FILE_PATH = '/Users/dhruvmullick/Projects/absa-cs/data/merged_test_ambiguous_alsc_manual_w_pronouns.csv'
+PREDICTIONS_FILE_PATH = '/Results/AmbiguousDataset8_ALSC/wikitext_0.1.csv'
+PRONOUNS_FILE_PATH = '/data/merged_test_ambiguous_alsc_manual_w_pronouns.csv'
 
 predictions_df = pd.read_csv(PREDICTIONS_FILE_PATH)
 pronouns_df = pd.read_csv(PRONOUNS_FILE_PATH)
