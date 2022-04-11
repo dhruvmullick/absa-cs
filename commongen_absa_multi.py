@@ -265,7 +265,7 @@ def run_program_for_seed(seed, results_target, results_sentiment):
         = build_data_for_absa(model_params, dataframes=[training_absa, validation_absa, test_absa])
 
     if TASK == COMMONGEN:
-        training_data_aux, validation_data_aux, testing_data_aux = read_commongen_data(seed)
+        training_data_aux, validation_data_aux, testing_data_aux = read_commongen_data()
     elif TASK == COSMOS:
         training_data_aux, validation_data_aux, testing_data_aux = read_cosmos_data()
     elif TASK == SQUAD:

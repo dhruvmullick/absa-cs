@@ -1,10 +1,15 @@
 import json
 import random
+from itertools import repeat
+import re
+
 import pandas as pd
+import nltk
 from torch.utils.data import DataLoader
 
-from sklearn.model_selection import train_test_split
 from datasets import load_dataset
+
+import utils
 
 TARGET_TEXT = "target"
 SOURCE_TEXT = "source"
@@ -15,6 +20,7 @@ SQUAD = 'SQUAD'
 COSMOS = 'COSMOS'
 WIKITEXT = 'WIKITEXT'
 COMMONGEN = 'COMMONGEN'
+DPR = "DPR"
 
 ### Prompt taken from own_commongen paper https://aclanthology.org/2020.findings-emnlp.165.pdf
 COMMONGEN_PROMPT = 'generate a sentence with: '
@@ -27,6 +33,7 @@ def process_concepts(concept_set):
 def read_commongen_json_file(file_name):
     concept_sets = []
     scenes = []
+    all_scenes = []
     with open(file_name, 'r') as file:
         for line in file:
             json_line = json.loads(line)
@@ -35,17 +42,16 @@ def read_commongen_json_file(file_name):
             for scene in json_line['scene']:
                 concept_sets.append(concept_set)
                 scenes.append(scene)
-    return pd.DataFrame(data={'scene': scenes, 'concept_set': concept_sets})
+                all_scenes.append(json_line['scene'])
+    return pd.DataFrame(data={'scene': scenes, 'concept_set': concept_sets, 'all_scenes': all_scenes})
 
 
-def read_commongen_data(seed):
+def read_commongen_data():
     training_file_commongen = './data/commongen_data/commongen.train.jsonl'
-    test_file_commongen = './data/commongen_data/commongen.dev.jsonl'
+    val_file_commongen = './data/commongen_data/commongen.dev.jsonl'
     training_data_commongen = read_commongen_json_file(training_file_commongen)
-    testing_data_commongen = read_commongen_json_file(test_file_commongen)
-    training_data_commongen, validation_data_commongen = train_test_split(training_data_commongen, test_size=0.1,
-                                                                          random_state=seed)
-    return training_data_commongen, validation_data_commongen, testing_data_commongen
+    val_data_commongen = read_commongen_json_file(val_file_commongen)
+    return training_data_commongen, val_data_commongen, None
 
 
 def read_squad_data():
@@ -62,8 +68,8 @@ def read_wikitext_data():
     print("Loading WikiText data...")
     dataset = load_dataset("wikitext", "wikitext-2-v1", keep_in_memory=True)
     train, val, _ = dataset["train"], dataset["validation"], None
-    train_df = extract_train_df_from_dataset_for_wikitext(train)
-    val_df = extract_train_df_from_dataset_for_wikitext(val)
+    train_df = extract_df_from_dataset_for_wikitext(train)
+    val_df = extract_df_from_dataset_for_wikitext(val)
     return train_df, val_df, None
 
 
@@ -72,18 +78,19 @@ def read_cosmos_data():
     val_file_cosmos = './data/cosmosqa/valid.csv'
     training_data_df = pd.read_csv(training_file_cosmos)
     val_data_df = pd.read_csv(val_file_cosmos)
-    extracted_training_data_df = extract_df_with_correct_answer(training_data_df)
-    extracted_val_data_df = extract_df_with_correct_answer(val_data_df)
+    extracted_training_data_df = extract_df_with_correct_answer_for_cosmos(training_data_df)
+    extracted_val_data_df = extract_df_with_correct_answer_for_cosmos(val_data_df)
     return extracted_training_data_df, extracted_val_data_df, None
 
 
-# def read_wsc_data():
-#     print("Loading WSC Coreference Resolution data...")
-#     dataset = load_dataset("winograd_wsc", "wsc-", keep_in_memory=True)
-#     train, val, _ = dataset["train"], dataset["validation"], None
-#     train_df = extract_train_df_from_dataset_for_wikitext(train)
-#     val_df = extract_train_df_from_dataset_for_wikitext(val)
-#     return train_df, val_df, None
+def read_dpr_data():
+    print("Loading DPR Coreference Resolution data...")
+    dataset = load_dataset("definite_pronoun_resolution")
+    # using the test set as validation set. #Train = 1322, #Test = 564
+    train, val, _ = dataset["train"], dataset["test"], None
+    train_df = extract_df_from_dataset_for_dpr(train)
+    val_df = extract_df_from_dataset_for_dpr(val)
+    return train_df, val_df, None
 
 
 def extract_train_df_from_dataset_for_squad(dataset):
@@ -99,7 +106,7 @@ def extract_train_df_from_dataset_for_squad(dataset):
     return df
 
 
-def extract_train_df_from_dataset_for_wikitext(dataset):
+def extract_df_from_dataset_for_wikitext(dataset):
     params = {'batch_size': 1, 'shuffle': False, 'num_workers': 2}
     loader = DataLoader(dataset, **params)
     data = []
@@ -115,30 +122,48 @@ def extract_train_df_from_dataset_for_wikitext(dataset):
         text = text.replace(' @,@ ', ',')
         text = text.replace(' @.@ ', '.')
 
-        text_list = text.split('.')
-        prefix_sentence_count = min(len(text_list), 2)
-        text = '.'.join(text_list[:prefix_sentence_count])
-
-        if len(text.split()) <= 5:
+        text_word_list = text.split(' ')
+        if len(text_word_list) <= 10:
             continue
 
-        masked_word = ''
+        masked_word_start = ''
         ctr = 0
         rand_idx = 1
-        while (len(masked_word) <= 3 or masked_word == '[UNK]') and ctr < 20:
-            rand_idx = random.randint(5, len(text.split())-1)
-            masked_word = text.split()[rand_idx]
+        while (len(masked_word_start) <= 3 or masked_word_start == '[UNK]') and ctr < 20:
+            rand_idx = random.randint(10, len(text_word_list) - 1)
+            masked_word_start = text_word_list[rand_idx]
             ctr += 1
         if ctr == 20:
             continue
 
-        text = ' '.join(text.split()[:rand_idx])
-        data.append([f'Get next words: {text}', masked_word])
+        input_text = ' '.join(text_word_list[:rand_idx])
+        target_text = ' '.join(text_word_list[rand_idx:])
+        data.append([f'Get next words: {input_text}', target_text])
 
-    return pd.DataFrame(data, columns=['sentence', 'masked_word'])
+    return pd.DataFrame(data, columns=['sentence', 'masked_sentence'])
 
 
-def extract_df_with_correct_answer(cosmos_data_df):
+def extract_df_from_dataset_for_dpr(dataset):
+    params = {'batch_size': 1, 'shuffle': False, 'num_workers': 2}
+    loader = DataLoader(dataset, **params)
+    data = []
+    for batch in loader:
+        label = int(batch['label'])
+        sentence = batch['sentence'][0]
+        pronoun = batch['pronoun'][0]
+        antecedent = batch['candidates'][label][0]
+
+        regex_pattern = f' {pronoun}(.|,|;| )'
+        if not re.search(regex_pattern, sentence):
+            print("HEY")
+        else:
+            sentence = re.sub(regex_pattern, f' *{pronoun}* ', sentence)
+        data.append([f'Get antecedent: {sentence}', antecedent])
+
+    return pd.DataFrame(data, columns=['sentence', 'antecedent'])
+
+
+def extract_df_with_correct_answer_for_cosmos(cosmos_data_df):
     data = []
     for idx, row in cosmos_data_df.iterrows():
         question_context_candidates = 'question: {} answer_0: {} answer_1: {} answer_2: {} answer_3: {} context: {}' \
@@ -148,7 +173,8 @@ def extract_df_with_correct_answer(cosmos_data_df):
 
 
 def get_renamed_commongen_columns(df):
-    df = df.rename(columns={"scene": TARGET_TEXT, "concept_set": SOURCE_TEXT})[[TARGET_TEXT, SOURCE_TEXT]]
+    df = df.rename(columns={"scene": TARGET_TEXT, "concept_set": SOURCE_TEXT,
+                            "all_scenes": OTHER})[[TARGET_TEXT, SOURCE_TEXT, OTHER]]
     return df
 
 
@@ -171,7 +197,13 @@ def get_renamed_absa_columns(df):
 
 
 def get_renamed_lm_columns(df):
-    df = df.rename(columns={"masked_word": TARGET_TEXT, "sentence": SOURCE_TEXT})[
+    df = df.rename(columns={"masked_sentence": TARGET_TEXT, "sentence": SOURCE_TEXT})[
+        [TARGET_TEXT, SOURCE_TEXT]]
+    return df
+
+
+def get_renamed_dpr_columns(df):
+    df = df.rename(columns={"antecedent": TARGET_TEXT, "sentence": SOURCE_TEXT})[
         [TARGET_TEXT, SOURCE_TEXT]]
     return df
 
@@ -187,12 +219,41 @@ def evaluate_squad_predictions(predictions_filepath_validation):
     return 100 * hit / len(df)
 
 
-def evaluate_lm_one_predictions(predictions_filepath_validation):
+def evaluate_predictions_bleu(predictions_filepath_validation, gram):
     df = pd.read_csv(predictions_filepath_validation)
-    hit = 0
+    bleu_sum = 0
+    weights = tuple(repeat(1 / gram, gram))
+
     for idx, row in df.iterrows():
-        prediction = str(row["Generated Text"]).split(' ')[0]
-        actual = row["Actual Text"]
-        if prediction == actual:
-            hit += 1
-    return 100 * hit / len(df)
+        prediction = str(row["Generated Text"])
+        actual = str(row["Actual Text"])
+        prediction_list = utils.replace_special_chars_and_lower(prediction)
+        actual_list = utils.replace_special_chars_and_lower(actual)
+        ### Default is 4-gram. So need to modify weights for other n-grams.
+        BLEUscore = nltk.translate.bleu_score.sentence_bleu([actual_list], prediction_list, weights=weights)
+        bleu_sum += BLEUscore
+    return 100 * bleu_sum / len(df)
+
+
+def evaluate_all_predictions_bleu(predictions_filepath_validation, gram):
+    df = pd.read_csv(predictions_filepath_validation)
+    bleu_sum = 0
+    weights = tuple(repeat(1 / gram, gram))
+
+    for idx, row in df.iterrows():
+        prediction = str(row["Generated Text"])
+        actual_list = eval(row["other"])
+        prediction_list = utils.replace_special_chars_and_lower(prediction)
+        actual_list = [utils.replace_special_chars_and_lower(ref) for ref in actual_list]
+        max_bleu = 0
+        for actual in actual_list:
+            ### Default is 4-gram. So need to modify weights for other n-grams.
+            BLEUscore = nltk.translate.bleu_score.sentence_bleu([actual], prediction_list, weights=weights)
+            max_bleu = max(max_bleu, BLEUscore)
+        bleu_sum += max_bleu
+    return 100 * bleu_sum / len(df)
+
+
+if __name__ == '__main__':
+    # print(evaluate_all_predictions_bleu('Results/AmbiguousDataset8_ALSC/commongen.csv', 3))
+    read_dpr_data()

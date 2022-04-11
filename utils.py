@@ -60,6 +60,7 @@ class EarlyStopping:
         if self.verbose:
             self.trace_func(
                 f'Validation F1 increased ({self.val_loss_min:.6f} --> {val_loss:.6f}).  Saving model ...')
+        print("Saving Best model...")
         torch.save(model.state_dict(), self.path)
         # torch.save(model, self.path)
         # model.save_pretrained(self.path)
@@ -86,14 +87,19 @@ def get_spacy_language(language):
         return 'ru_core_news_sm'
 
 
-def normalise_sentence(sentence, language, spacy_nlp):
+def replace_special_chars_and_lower(sentence):
+    sentence = sentence.lower()
     sentence = sentence.replace(',', '')
     sentence = sentence.replace('.', '')
     sentence = sentence.replace('\"', '')
     sentence = sentence.replace('\'s ', ' ')
     sentence = sentence.replace('(', '')
     sentence = sentence.replace(')', '')
-    sentence = sentence.lower()
+    return sentence
+
+
+def normalise_sentence(sentence, language, spacy_nlp):
+    sentence = replace_special_chars_and_lower(sentence)
     if sentence == '':
         return ''
     tokenised_sentence = sentence.split(" ")

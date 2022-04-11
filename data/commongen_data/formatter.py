@@ -5,9 +5,9 @@ import random
 
 random.seed(42) 
 
-filenames = ["own_commongen.train.jsonl", "own_commongen.dev.jsonl"]
+filenames = ["commongen.train.jsonl", "commongen.dev.jsonl"]
 
-dirpath = "own_commongen"
+dirpath = "/Users/dhruvmullick/Projects/absa-cs/data/commongen_data"
 if not os.path.exists(dirpath):
     os.mkdir(dirpath)
 

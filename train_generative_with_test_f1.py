@@ -163,7 +163,8 @@ def generate(tokenizer, model, device, loader, model_params):
     return predictions, actuals, data_list, other_list
 
 
-def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local_model, task=None):
+def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local_model, task=None, test_loader=None,
+              val_loader_aux=None, aux_task=None):
 
     """
     T5 trainer
@@ -197,8 +198,9 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
                                    path=f'{model_params["OUTPUT_PATH"]}/best_pytorch_model.bin')
 
     training_logger = Table(Column("Epoch", justify="center"), Column("train_loss", justify="center"),
-                            Column("Val F1", justify="center"), Column("Epoch Time", justify="center"),
-                            title="Training Status", pad_edge=False, box=box.ASCII)
+                            Column("Val F1", justify="center"), Column("Test F1", justify="center"),
+                            Column("Aux Val F1", justify="center"),
+                            Column("Epoch Time", justify="center"), title="Training Status", pad_edge=False, box=box.ASCII)
 
     # Training loop
     console.log(f'[Initiating Fine Tuning]...\n')
@@ -223,23 +225,35 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
         T5Generator(validation_loader, model_params=model_params, output_file=prediction_file_name_validation,
                     model=model, tokenizer=tokenizer)
 
-        if task is None or task == aux_processor.COSMOS:
-            validation_accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns(predictions_filepath_validation)
-        elif task == aux_processor.SQUAD:
-            validation_accuracy = aux_processor.evaluate_squad_predictions(predictions_filepath_validation)
-        elif task == aux_processor.WIKITEXT:
-            validation_accuracy = aux_processor.evaluate_predictions_bleu(predictions_filepath_validation, gram=2)
-        elif task == aux_processor.COMMONGEN:
-            validation_accuracy = aux_processor.evaluate_all_predictions_bleu(predictions_filepath_validation, gram=3)
-        elif task == aux_processor.DPR:
-            validation_accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns(predictions_filepath_validation)
-        else:
-            raise AssertionError("Task Evaluation not defined")
+        validation_accuracy = get_aux_accuracy(predictions_filepath_validation, task)
+
+        test_accuracy = 0
+        aux_val_accuracy = 0
+
+        if test_loader:
+            path = os.path.join(model_params["OUTPUT_PATH"], "model_files")
+            model.save_pretrained(path)
+            tokenizer.save_pretrained(path)
+            print("Calculating TEST SCORE after training Epoch: ")
+            prediction_file_name = 'evaluation_predictions.csv'
+            predictions_filepath = '{}/{}'.format(model_params["OUTPUT_PATH"], prediction_file_name)
+            T5Generator(test_loader, model_params=model_params, output_file=prediction_file_name)
+            test_accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns(predictions_filepath)
+
+        if val_loader_aux:
+            path = os.path.join(model_params["OUTPUT_PATH"], "model_files")
+            model.save_pretrained(path)
+            tokenizer.save_pretrained(path)
+            print("Calculating Validation AUX SCORE after training Epoch: ")
+            prediction_file_name = 'evaluation_predictions_aux.csv'
+            predictions_filepath = '{}/{}'.format(model_params["OUTPUT_PATH"], prediction_file_name)
+            T5Generator(val_loader_aux, model_params=model_params, output_file=prediction_file_name)
+            aux_val_accuracy = get_aux_accuracy(predictions_filepath, aux_task)
 
         early_stopping(validation_accuracy, model)
 
         training_logger.add_row(f'{epoch + 1}/{model_params["TRAIN_EPOCHS"]}', f'{train_loss:.5f}',
-                                f'{validation_accuracy:.5f}',
+                                f'{validation_accuracy:.5f}', f'{test_accuracy:.5f}', f'{aux_val_accuracy:.5f}',
                                 f'{epoch_time_} (Total est. {total_time_estimated_})')
         console.print(training_logger)
 
@@ -258,6 +272,20 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
     copyfile(f'{model_params["OUTPUT_PATH"]}/best_pytorch_model.bin',
              f'{model_params["OUTPUT_PATH"]}/model_files/pytorch_model.bin')
     console.print(f"""[Model] Model saved @ {os.path.join(model_params["OUTPUT_PATH"], "model_files")}\n""")
+
+
+def get_aux_accuracy(predictions_filepath_validation, task):
+    if task is None or task == aux_processor.COSMOS:
+        validation_accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns(predictions_filepath_validation)
+    elif task == aux_processor.SQUAD:
+        validation_accuracy = aux_processor.evaluate_squad_predictions(predictions_filepath_validation)
+    elif task == aux_processor.WIKITEXT:
+        validation_accuracy = aux_processor.evaluate_predictions_bleu(predictions_filepath_validation, gram=2)
+    elif task == aux_processor.COMMONGEN:
+        validation_accuracy = aux_processor.evaluate_all_predictions_bleu(predictions_filepath_validation, gram=3)
+    else:
+        raise AssertionError("Task Evaluation not defined")
+    return validation_accuracy
 
 
 def T5Generator(data_loader, model_params, output_file, model=None, tokenizer=None):
