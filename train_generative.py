@@ -1,19 +1,15 @@
 # Importing libraries
 import os, time, torch, datetime
-from re import I
 import numpy as np
 import pandas as pd
 import transformers
 from tqdm import tqdm
-import sys
 import random
 
-import aux_processor
-import evaluate_e2e_tbsa
+from aux_processor import get_aux_accuracy
 from utils import EarlyStopping
-import torch.nn.functional as F
 import torch.optim
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import Dataset
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 from rich.table import Column, Table
 from rich import box
@@ -223,18 +219,7 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
         T5Generator(validation_loader, model_params=model_params, output_file=prediction_file_name_validation,
                     model=model, tokenizer=tokenizer)
 
-        if task is None or task == aux_processor.COSMOS:
-            validation_accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns(predictions_filepath_validation)
-        elif task == aux_processor.SQUAD:
-            validation_accuracy = aux_processor.evaluate_squad_predictions(predictions_filepath_validation)
-        elif task == aux_processor.WIKITEXT:
-            validation_accuracy = aux_processor.evaluate_predictions_bleu(predictions_filepath_validation, gram=2)
-        elif task == aux_processor.COMMONGEN:
-            validation_accuracy = aux_processor.evaluate_all_predictions_bleu(predictions_filepath_validation, gram=3)
-        elif task == aux_processor.DPR:
-            validation_accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns(predictions_filepath_validation)
-        else:
-            raise AssertionError("Task Evaluation not defined")
+        validation_accuracy = get_aux_accuracy(predictions_filepath_validation, task)
 
         early_stopping(validation_accuracy, model)
 

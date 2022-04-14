@@ -8,7 +8,7 @@ from tqdm import tqdm
 import sys
 import random
 
-import aux_processor
+from aux_processor import get_aux_accuracy
 import evaluate_e2e_tbsa
 from utils import EarlyStopping
 import torch.nn.functional as F
@@ -164,7 +164,7 @@ def generate(tokenizer, model, device, loader, model_params):
 
 
 def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local_model, task=None, test_loader=None,
-              val_loader_aux=None, aux_task=None):
+              val_loader_aux=None, aux_task=None, results_file=None):
 
     """
     T5 trainer
@@ -257,6 +257,12 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
                                 f'{epoch_time_} (Total est. {total_time_estimated_})')
         console.print(training_logger)
 
+        if results_file is not None:
+            seed = model_params['SEED']
+            print(f'WRITING TO FILE: {seed},{epoch + 1},{test_accuracy:.3f}\n')
+            results_file.write(f'{seed},{epoch + 1},{test_accuracy:.3f}\n')
+            results_file.flush()
+
         if early_stopping.early_stop:
             print("Early stopping")
             break
@@ -272,20 +278,6 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
     copyfile(f'{model_params["OUTPUT_PATH"]}/best_pytorch_model.bin',
              f'{model_params["OUTPUT_PATH"]}/model_files/pytorch_model.bin')
     console.print(f"""[Model] Model saved @ {os.path.join(model_params["OUTPUT_PATH"], "model_files")}\n""")
-
-
-def get_aux_accuracy(predictions_filepath_validation, task):
-    if task is None or task == aux_processor.COSMOS:
-        validation_accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns(predictions_filepath_validation)
-    elif task == aux_processor.SQUAD:
-        validation_accuracy = aux_processor.evaluate_squad_predictions(predictions_filepath_validation)
-    elif task == aux_processor.WIKITEXT:
-        validation_accuracy = aux_processor.evaluate_predictions_bleu(predictions_filepath_validation, gram=2)
-    elif task == aux_processor.COMMONGEN:
-        validation_accuracy = aux_processor.evaluate_all_predictions_bleu(predictions_filepath_validation, gram=3)
-    else:
-        raise AssertionError("Task Evaluation not defined")
-    return validation_accuracy
 
 
 def T5Generator(data_loader, model_params, output_file, model=None, tokenizer=None):

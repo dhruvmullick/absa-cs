@@ -5,10 +5,12 @@ import re
 
 import pandas as pd
 import nltk
+from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader
 
 from datasets import load_dataset
 
+import evaluate_e2e_tbsa
 import utils
 
 TARGET_TEXT = "target"
@@ -91,6 +93,29 @@ def read_dpr_data():
     train_df = extract_df_from_dataset_for_dpr(train)
     val_df = extract_df_from_dataset_for_dpr(val)
     return train_df, val_df, None
+
+
+def read_dpr_data_merged():
+    print("USING MERGED DPR....")
+    print("Loading DPR Coreference Resolution data...")
+    dataset = load_dataset("definite_pronoun_resolution")
+    # using the test set as validation set. #Train = 1322, #Test = 564
+    train, test, _ = dataset["train"], dataset["test"], None
+    train_df = extract_df_from_dataset_for_dpr(train)
+    test_df = extract_df_from_dataset_for_dpr(test)
+    merged_df = pd.concat([train_df, test_df], ignore_index=True)
+    train_df, val_df = train_test_split(merged_df, test_size=0.1, random_state=0)
+    return train_df, val_df, None
+
+def read_dpr_data_for_testing():
+    print("Loading DPR Coreference Resolution data...")
+    dataset = load_dataset("definite_pronoun_resolution")
+    # using the test set as validation set. #Train = 1322, #Test = 564
+    train, test, _ = dataset["train"], dataset["test"], None
+    train_df = extract_df_from_dataset_for_dpr(train)
+    train_df, val_df = train_test_split(train_df, test_size=0.1, random_state=0)
+    test_df = extract_df_from_dataset_for_dpr(test)
+    return train_df, val_df, test_df
 
 
 def extract_train_df_from_dataset_for_squad(dataset):
@@ -252,6 +277,23 @@ def evaluate_all_predictions_bleu(predictions_filepath_validation, gram):
             max_bleu = max(max_bleu, BLEUscore)
         bleu_sum += max_bleu
     return 100 * bleu_sum / len(df)
+
+
+def get_aux_accuracy(predictions_filepath, task):
+    if task is None or task == COSMOS:
+        accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns(predictions_filepath)
+    elif task == SQUAD:
+        accuracy = evaluate_squad_predictions(predictions_filepath)
+    elif task == WIKITEXT:
+        accuracy = evaluate_predictions_bleu(predictions_filepath, gram=2)
+    elif task == COMMONGEN:
+        accuracy = evaluate_all_predictions_bleu(predictions_filepath, gram=3)
+    elif task == DPR:
+        accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns(predictions_filepath)
+    else:
+        raise AssertionError("Task Evaluation not defined")
+
+    return accuracy
 
 
 if __name__ == '__main__':

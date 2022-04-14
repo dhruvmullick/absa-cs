@@ -9,22 +9,24 @@ from transformers import T5Tokenizer
 from torch import cuda
 
 import evaluate_e2e_tbsa
+# from train_generative_with_test_f1 import T5Trainer, T5Generator, YourDataSetClass
 from train_generative import T5Trainer, T5Generator, YourDataSetClass
 
 from aux_processor import get_renamed_absa_columns, get_renamed_squad_columns, get_renamed_lm_columns, \
     get_renamed_commongen_columns, get_renamed_cosmos_columns, get_renamed_dpr_columns, ABSA, SQUAD, COSMOS, \
     WIKITEXT, COMMONGEN, DPR
-from aux_processor import read_squad_data, read_wikitext_data, read_cosmos_data, read_commongen_data, read_dpr_data
+from aux_processor import read_squad_data, read_wikitext_data, read_cosmos_data, read_commongen_data, read_dpr_data, read_dpr_data_merged
 from aux_processor import TARGET_TEXT, SOURCE_TEXT
 
 DELTA = 0.001
 
-# SEEDS = [3, 4, 5, 6, 7, 8, 9]
-SEEDS = [0, 1, 2]
-# SEEDS = [0, 1]
 # SEEDS = [0, 1, 2, 3, 4]
+# SEEDS = [2, 3, 4]
+SEEDS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# SEEDS = [0, 1, 2]
+# SEEDS = [5, 6, 7, 8, 9]
 # LR_LIST = [5e-4]
-LR_LIST = [1e-3, 5e-4, 1e-4]
+# LR_LIST = [1e-3, 5e-4, 1e-4]
 
 RENAMED_DF_FOR_TRAIN = {
     COSMOS: get_renamed_cosmos_columns,
@@ -63,9 +65,12 @@ print("SEEDS: {}".format(SEEDS))
 # AUX_COUNT = int(AUX_COUNT)
 # print(f"USING FIXED COUNT FOR AUX... {AUX_COUNT}")
 
-# MODEL_DIRECTORY = 'models/{}_dataset8_manual_alsc_exp_fine_tune_aux_count_{}'.format(TASK, AUX_COUNT)
+# MODEL_DIRECTORY = 'models/{}_dataset8_manual_replaced1_alsc_fine_tune_f1_aux_{}'.format(TASK, AUX_FRACTION)
 MODEL_DIRECTORY = 'models/{}_dataset8_manual_alsc_fine_tune_f1_aux_{}'.format(TASK, AUX_FRACTION)
+# MODEL_DIRECTORY = 'models/{}_dataset8_manual_alsc_fine_tune_original_f1_aux_{}'.format(TASK, AUX_FRACTION)
 MODEL_DIRECTORY_ABSA = '{}/absa/'.format(MODEL_DIRECTORY)
+
+RESULTS_FILE_PATH = '{}/results.csv'.format(MODEL_DIRECTORY)
 
 PREDICTION_FILE_NAME = 'evaluation_predictions.csv'
 PREDICTION_FILE_NAME_VAL = 'evaluation_predictions_val.csv'
@@ -173,14 +178,14 @@ def get_aux_lr(task):
 def get_absa_lr(task):
     if task == COMMONGEN and (abs(AUX_FRACTION - 0.1) <= DELTA):
         return 1e-4
-    elif task in [COMMONGEN, COSMOS, WIKITEXT, SQUAD]:
+    elif task in [COMMONGEN, COSMOS, WIKITEXT, SQUAD, DPR]:
         return 5e-4
     else:
         raise AssertionError(f"ABSA LR NOT DEFINED FOR TASK - {task}")
 
 
-def run_program_for_seed_lr(seed, lr, lr_idx):
-# def run_program_for_seed_lr(seed):
+# def run_program_for_seed_lr(seed, lr, lr_idx):
+def run_program_for_seed_lr(seed):
     # Set random seeds and deterministic pytorch for reproducibility
     torch.manual_seed(seed)  # pytorch random seed
     np.random.seed(seed)  # numpy random seed
@@ -191,11 +196,11 @@ def run_program_for_seed_lr(seed, lr, lr_idx):
         aux_lr = get_aux_lr(TASK)
     else:
         print("Training Aux only")
-        aux_lr = lr
-        # raise AssertionError("NEED TO DEFINE WHAT TO DO IF ONLY TRAINING AUX...")
+        # aux_lr = lr
+        raise AssertionError("NEED TO DEFINE WHAT TO DO IF ONLY TRAINING AUX...")
 
-    # absa_lr = get_absa_lr(TASK)
-    absa_lr = lr
+    absa_lr = get_absa_lr(TASK)
+    # absa_lr = lr
 
     model_params_aux = {
         "OUTPUT_PATH": MODEL_DIRECTORY,  # output path
@@ -234,15 +239,19 @@ def run_program_for_seed_lr(seed, lr, lr_idx):
         "MAX_SOURCE_TEXT_LENGTH": 256,  # max length of source text. Use 512 for Squad as long inputs.
         "MAX_TARGET_TEXT_LENGTH": 64,  # max length of target text
         "early_stopping_patience": 3,  # number of epochs before stopping training.
+        # "early_stopping_patience": 10,  # number of epochs before stopping training.
         "SEED": seed  # to use for randomisations
     }
 
     print("ABSA Params: " + str(model_params_absa))
     print("AUX Params: " + str(model_params_aux))
 
+    # print("------- REPLACED TEST ABSA DATA !!!!-------")
+
     training_file_absa = './data/merged_train_alsc.csv'
     validation_file_absa = './data/merged_val_alsc.csv'
     test_file_absa = 'data/merged_test_ambiguous_alsc_manual.csv'
+    # test_file_absa = 'data/merged_test_ambiguous_alsc_manual_w_pronouns_replaced1.csv'
 
     print("Training on: {}, Validation on {}, Testing on: {}, Seed: {}".format(training_file_absa, validation_file_absa,
                                                                                test_file_absa, seed))
@@ -265,13 +274,14 @@ def run_program_for_seed_lr(seed, lr, lr_idx):
     elif TASK == WIKITEXT:
         training_data_aux, validation_data_aux, testing_data_aux = read_wikitext_data()
     elif TASK == DPR:
-        training_data_aux, validation_data_aux, testing_data_aux = read_dpr_data()
+        training_data_aux, validation_data_aux, testing_data_aux = read_dpr_data_merged()
+        # training_data_aux, validation_data_aux, testing_data_aux = read_dpr_data()
 
     torch.manual_seed(seed)  # pytorch random seed
     np.random.seed(seed)  # numpy random seed
 
-    if TRAIN_AUX_ONLY or lr_idx == 0:
-    # if not TRAIN_AUX_ONLY:
+    # if TRAIN_AUX_ONLY or lr_idx == 0:
+    if not TRAIN_AUX_ONLY:
         # Don't Train both Aux and ABSA and also it's not the first lr.
         train_aux = True
         print("Will train Aux model\n\n")
@@ -315,6 +325,9 @@ def run_program_for_seed_lr(seed, lr, lr_idx):
     T5Trainer(training_loader_absa, validation_loader_absa, tokenizer, model_params=model_params_absa,
               local_model=aux_model_path)
 
+    # T5Trainer(training_loader_absa, validation_loader_absa, tokenizer, model_params=model_params_absa,
+    #           local_model=aux_model_path, test_loader=test_loader_absa, aux_task=TASK, results_file=RESULTS_FILE)
+
     prediction_file_name_validation = PREDICTION_FILE_NAME_VAL
     predictions_filepath_validation = '{}/{}'.format(MODEL_DIRECTORY_ABSA, prediction_file_name_validation)
     prediction_file_name = PREDICTION_FILE_NAME
@@ -340,21 +353,23 @@ if __name__ == '__main__':
     if not os.path.exists(MODEL_DIRECTORY_ABSA):
         os.makedirs(MODEL_DIRECTORY_ABSA)
 
+    RESULTS_FILE = open(RESULTS_FILE_PATH, 'w')
+
     ACC_VAL = {}
     ACC_TEST = {}
     for seed in SEEDS:
         val_list = []
         test_list = []
-        for lr_idx, lr in enumerate(LR_LIST):
-            print("Running ALSC program...")
-            acc_val, acc_test = run_program_for_seed_lr(seed, lr, lr_idx)
-            # acc_val, acc_test = run_program_for_seed_lr(seed)
-            print("Result_Val: {}".format(acc_val))
-            print("Result_Test: {}".format(acc_test))
-            val_list.append(acc_val)
-            test_list.append(acc_test)
-            print("LR Results for Validation: {}".format(str(val_list)))
-            print("LR Results for Test: {}".format(str(test_list)))
+        # for lr_idx, lr in enumerate(LR_LIST):
+        print("Running ALSC program...")
+        # acc_val, acc_test = run_program_for_seed_lr(seed, lr, lr_idx)
+        acc_val, acc_test = run_program_for_seed_lr(seed)
+        print("Result_Val: {}".format(acc_val))
+        print("Result_Test: {}".format(acc_test))
+        val_list.append(acc_val)
+        test_list.append(acc_test)
+        print("LR Results for Validation: {}".format(str(val_list)))
+        print("LR Results for Test: {}".format(str(test_list)))
         ACC_VAL[seed] = val_list
         ACC_TEST[seed] = test_list
         print("Seed = {} -> Done!".format(seed))
