@@ -1,0 +1,347 @@
+review_id,sentences_ids,sentences_texts,sentences_opinions
+en_ParkChaletGardenRestaurant_477778171,id_7,"We ordered a selection of the small plates, and the shoe string onions, goat cheese pizza, grilled asparagus and fried brie with fruit were all very good. aspect: shoe string onions",positive
+en_Murphy's_478075041,id_0,A cozy spot for 2 aspect: spot,positive
+en_MercedesRestaurant_478010605,id_3,the bus boy even spotted that my table was shaking a stabilized it for me. aspect: bus boy,positive
+en_MiopostoCaffe_478543071,id_3,The wine list is wonderful and the food reminds me of my recent trip to Italy. aspect: food,positive
+en_BlueRibbonSushi_478218524,id_8,It isn't the cheapest sushi but has been worth it every time. aspect: sushi,positive
+en_StackRestaurant__Bar_478538111,id_7,Groovy music made the dinner casual. aspect: music,positive
+en_SnoozeanAMEatery_480171723,id_4,"To start off, approximately 8-10 oz of orange juice will cost you $3. aspect: orange juice",negative
+en_CatalRestaurant__UvaBar_477861893,id_2,The ambiance was a peaceful and relaxing break amongst all the kids running around in Downtown Disney. aspect: ambiance,positive
+en_SchoonerOrLater_481226185,id_0,I love breakfast here. aspect: breakfast,positive
+en_BlueRibbonSushi_478218520,id_3,"I've had the Jellyfish, Horse Mackerel, Blue Fin Tuna and the Sake Ikura roll among others, and they were all good. aspect: Horse Mackerel",positive
+en_OpenSesame_477970938,id_8,The staff are friendly and the decor was ethic and colorful. aspect: decor,positive
+en_MiopostoCaffe_478542922,id_3,"Prefer to order it and pick it up though because I don't like the servers, one young woman in particular. aspect: servers",negative
+en_SnoozeanAMEatery_480171723,id_3,The presentation of Snooze is excellent and it is one of those places that you feel more sophisticated just for being there; but peel back the layers and you have an overpriced IHOP with a high brow menu. aspect: Snooze,positive
+en_MiopostoCaffe_478542922,id_8,It's a great little place with tons of potential to be a neighborhood joint if the service weren't so impersonal and corporate-like. aspect: service,negative
+en_SchoonerOrLater_477965848,id_3,What may be interesting to most is the worst sevice/attitude comes from the owners of this establishment. aspect: owners,negative
+en_MiopostoCaffe_478542921,id_0,Poor customer service/poor pizza. aspect: pizza,negative
+en_India'sGrill_477960698,id_5,I should have thought to bring it up but never expected the food to be that mild. aspect: food,negative
+en_BlueRibbonSushi_478218524,id_8,It isn't the cheapest sushi but has been worth it every time. aspect: sushi,neutral
+en_OpenSesame_477970936,id_4,"There was a really nice vibe about the place...good music, atmosphere and happy looking people. aspect: vibe",positive
+en_ParkChaletGardenRestaurant_477778171,id_5,The band was very good and the service was attentive. aspect: band,positive
+en_BlueRibbonSushi_478219459,id_0,Chintzy portions aspect: portions,negative
+en_MercedesRestaurant_478010602,id_1,"– This is one of my top lunch spots, huge portions, fast service and amazing margaritas!! aspect: service",positive
+en_OpenSesame_477970770,id_4,the atmosphere is great. aspect: atmosphere,positive
+en_StackRestaurant__Bar_478538239,id_12,"It?s served with either a peppercorn sauce or red wine reduction, though both were indistinguishable in taste. aspect: red wine reduction",neutral
+en_India'sGrill_477960698,id_2,"I had yummy lamb korma, saag paneer, samosas, naan, etc. aspect: samosas",positive
+en_StackRestaurant__Bar_478538239,id_13,"Though, one thing I realized later on was that the restaurant either used MSG or a meat tenderizer on the steak. aspect: steak",negative
+en_India'sGrill_477960698,id_1,– I really enjoyed my meal here. aspect: meal,positive
+en_BlueRibbonSushi_478218512,id_1,Great value sushi with high quality & nice setting. aspect: setting,positive
+en_ProfessorThom's_478606540,id_3,"Every time ""0-sixtynine"" is called the bartender buys everyone drinks! aspect: bartender",positive
+en_India'sGrill_477960693,id_4,The chana masala (garbanzo beans) are also excellent. aspect: chana masala (garbanzo beans),positive
+en_MercedesRestaurant_478010603,id_4,"Can get busy on Fridays for a table but once seated, the service is so efficient you can be in and out of there quickly. aspect: service",positive
+en_MiopostoCaffe_478542920,id_0,Open & Cool Place with the Best Pizza and Coffee aspect: Pizza,positive
+en_ParkChaletGardenRestaurant_477778282,id_3,"Our waiter was non-existent and after our food finally arrived over an hour after we ordered, we were not given any water or utensils. aspect: waiter",negative
+en_PagodaRestaurant_479983203,id_18,we are for sure coming back to this restaurant. aspect: restaurant,positive
+en_Ray'sBoathouse_477775919,id_0,The best calamari in Seattle! aspect: calamari,positive
+en_StackRestaurant__Bar_478538239,id_3,"The music playing was very hip, 20-30 something pop music, but the subwoofer to the sound system was located under my seat, which became annoying midway through dinner. aspect: music",positive
+en_Murphy's_478075040,id_1,"– I will never forget the amazing meal, service, and ambiance I experience at this restaurant. aspect: service",positive
+en_PagodaRestaurant_479983203,id_16,for desert we had the mango ginger creme brulee... oh la la yummy!!! aspect: mango ginger creme brulee,positive
+en_Patsy'sPizzeria_478232062,id_1,– The pepperoni's cut real thick--Yum. aspect: pepperoni's,positive
+en_PagodaRestaurant_479983203,id_9,"so about the prawns, they were fresh and had a slight crispiness about the batter... soooo good... the walnuts were cut in smaller pieces and very crunchy and tasty. aspect: batter",positive
+en_OpenSesame_477970938,id_5,My best friend had the chicken shawarma and she STILL raves about it being the best anywhere! aspect: chicken shawarma,positive
+en_Ray'sBoathouse_477775918,id_5,"My party of two was feeling particularly ambitious, and we splurged on the Shilshole Sampler...a beautiful assortment of enormous white gulf prawns, smoked albacore tuna, Ray's fantastic manila clams seasoned with dill, scallops in a tasty soy dressing, and a tiny pile of Dungeness crab atop a sublime butter sauce. aspect: soy dressing",positive
+en_India'sGrill_477960694,id_3,I think I have probably tried each item on their menu at least once it is all excellent. aspect: menu,positive
+en_MiopostoCaffe_478543071,id_3,The wine list is wonderful and the food reminds me of my recent trip to Italy. aspect: wine list,positive
+en_BlueRibbonSushi_478218337,id_0,"good sake, good food – i honestly don't know much about japanese food at all. aspect: sake",positive
+en_BlueRibbonSushi_478218334,id_4,Maybe it is good for that one night once in a blue moon when the chefs decide to use fish that's half-way decent. aspect: fish,negative
+en_SnoozeanAMEatery_480171723,id_7,"The pancakes were certainly inventive but $8.50 for 3 - 6"" pancakes (one of them was more like 5"") in the pancake flight (sample of 3 different pancakes) is well over-priced. aspect: pancakes",positive
+en_CatalRestaurant__UvaBar_477861889,id_6,Service was decent. aspect: Service,neutral
+en_BlueRibbonSushi_478218341,id_4,The waiters are very experienced and helpful with pairing your drink choice to your food tastes or vice versa. aspect: waiters,positive
+en_BlueRibbonSushi_478218339,id_1,"I was frankly shocked when I read the bad reviews - this place is fantastic; it has not let us down in any way, and we've eaten here more than 10 times. aspect: place",positive
+en_PagodaRestaurant_479983203,id_13,the brocollis were so fresh and tasty. aspect: brocollis,positive
+en_BlueRibbonSushi_478218337,id_2,Server made several sake suggestions which were very good. aspect: Server,positive
+en_StackRestaurant__Bar_478538239,id_0,"Good Food, Great Service, Average Prices (For the Strip) aspect: Food",positive
+en_ParkChaletGardenRestaurant_477778211,id_16,"Food wise, its ok but a bit pricey for what you get considering the restaurant isn't a fancy place. aspect: restaurant",neutral
+en_SchoonerOrLater_477965848,id_2,"The food is not what it once was (potions have seriously seen downsizing) prices have gone up, and the service is the worst I have experienced anywhere (including mainland Europe). aspect: service",negative
+en_CatalRestaurant__UvaBar_477861893,id_3,"It was romantic - and even nice even with my sister, reminded me of Italy, and had artwork and music that kept up the feeling of being in a Mediterrean villa. aspect: artwork",positive
+en_StackRestaurant__Bar_478538111,id_0,Late night dinning with exeptional food. aspect: food,positive
+en_ParkChaletGardenRestaurant_477778211,id_0,"Terrible service, food ok, pricey aspect: service",negative
+en_BlueRibbonSushi_478219447,id_1,you are with a hot date and he/she has an urge for sushi...then this might be the place. aspect: sushi,positive
+en_MercedesRestaurant_478010601,id_4,Also have great margaritas! aspect: margaritas,positive
+en_MiopostoCaffe_478542920,id_0,Open & Cool Place with the Best Pizza and Coffee aspect: Coffee,positive
+en_SchoonerOrLater_479615721,id_0,Great Breakfast aspect: Breakfast,positive
+en_CatalRestaurant__UvaBar_477861889,id_2,The outside patio area has an abbreviated menu. aspect: menu,neutral
+en_SchoonerOrLater_477965849,id_4,The staff is pretty friendly. aspect: staff,positive
+en_Ray'sBoathouse_477775918,id_13,"All considered, I have to say that Ray's Boathouse is deserving of its title as a Seattle institution. aspect: Ray's Boathouse",positive
+en_ProfessorThom's_478606538,id_4,"The food is great, the bartenders go that extra mile. aspect: bartenders",positive
+en_OpenSesame_477970939,id_3,The food was great! aspect: food,positive
+en_BlueRibbonSushi_478218517,id_3,The nicest waiters in town. aspect: waiters,positive
+en_BlueRibbonSushi_478218520,id_4,My only negative comment is that I wish the pieces were a little bigger. aspect: pieces,negative
+en_PagodaRestaurant_478006816,id_1,– The atmosphere is great for any special occasion you might want to celebrate. aspect: atmosphere,positive
+en_Murphy's_478075041,id_3,"Brunch at Murphy's is to die for, my specialty... egg white omelet, the food is always freshly prepared. aspect: Brunch",positive
+en_MercedesRestaurant_478010599,id_1,"– I don't understand how I was a stranger to this place for so long... the fajita salad, the colorado, the fajitas - EVERYTHING is delicious. aspect: colorado",positive
+en_PagodaRestaurant_479983203,id_9,"so about the prawns, they were fresh and had a slight crispiness about the batter... soooo good... the walnuts were cut in smaller pieces and very crunchy and tasty. aspect: walnuts",positive
+en_BlueRibbonSushi_478218509,id_1,"Your a sushi fan, you love expertly cut fish, great sake, a killer SOHO location, and of course: Salmon, Tuna, Fluke, Yellow Tail, Cod, Mackeral, Jellyfish, Sea Urchin, Shrimp, Lobster, Sea Bream, Trout, Milk Fish, Blue Fin Tuna, Eel, Crab, Sardine, Monk Fish, Roe, Scallop, Oysters, and a varity of Toro. aspect: Eel",positive
+en_SnoozeanAMEatery_480032670,id_8,Good eats. aspect: eats,positive
+en_OpenSesame_477970940,id_0,Holy Hummus! aspect: Hummus,positive
+en_BlueRibbonSushi_478218512,id_3,Try the Chef's Choice for sushi as the smoked yellowtail was incredible and the rolls were also tasty. aspect: rolls,positive
+en_BlueRibbonSushi_478218517,id_1,"For the finicky sushi eater and those who have sampled the best NYC has to offer, the fish is the freshest and the service is superb. aspect: fish",positive
+en_SchoonerOrLater_479842021,id_6,As it turns out the owner was seated right next to us and when he came over to check on our problems was very dismissive and offered a token 20% discount on our bill. aspect: owner,negative
+en_OpenSesame_477970939,id_5,I had the Kafta plate and it was perfect. aspect: Kafta plate,positive
+en_SchoonerOrLater_477965689,id_1,"– Eggs, pancakes, potatoes, fresh fruit and yogurt -- everything they serve is delicious. aspect: yogurt",positive
+en_Sage_480875505,id_2,This is the place to relax and enjoy the finest quality food the industry can offer. aspect: food,positive
+en_SnoozeanAMEatery_480032670,id_6,Nothing on the menu is less than amazing. aspect: menu,positive
+en_BlueRibbonSushi_478219459,id_1,"– The sushi here is perfectly good, but for $5 a piece, either the slices of fish should be larger, or there should be no pretense that this is a moderately priced restaurant (even for NYC). aspect: sushi",positive
+en_MiopostoCaffe_478542920,id_4,This place is charming and relaxing. aspect: place,positive
+en_India'sGrill_477960694,id_6,I appreciate their delivery too. aspect: delivery,positive
+en_MiopostoCaffe_478542921,id_5,The only positive thing about Mioposto is the nice location. aspect: Mioposto,negative
+en_Ray'sBoathouse_477775915,id_6,I ended the meal with the unusual dessert of a port and chocolate tasting....yummy! aspect: dessert of a port and chocolate tasting,positive
+en_Patsy'sPizzeria_478231878,id_0,Mama Mia – I live in the neighborhood and feel lucky to live by such a great pizza place. aspect: pizza place,positive
+en_Murphy's_478075040,id_1,"– I will never forget the amazing meal, service, and ambiance I experience at this restaurant. aspect: ambiance",positive
+en_SnoozeanAMEatery_480171723,id_1,- Mediocre Service/Quality aspect: Service,neutral
+en_MercedesRestaurant_478010599,id_1,"– I don't understand how I was a stranger to this place for so long... the fajita salad, the colorado, the fajitas - EVERYTHING is delicious. aspect: fajitas",positive
+en_PagodaRestaurant_479983203,id_6,the staff was very nice and courteous and obviously chinese. aspect: staff,positive
+en_BlueRibbonSushi_478218518,id_1,One of the best Sushi place in town. aspect: Sushi place,positive
+en_MercedesRestaurant_478010600,id_3,"The atmosphere is aspiring, and  the decor is festive and amazing.. aspect: decor",positive
+en_India'sGrill_477960698,id_0,Nice food but no spice! aspect: food,negative
+en_CatalRestaurant__UvaBar_477861893,id_1,– I loved the pumpkin ravioli and the goat cheese gnocchi (5 big ones to a plate instead of 20 or so little gnocchis) and my sister loved her filet mignon on top of spinach and mashed potatoes. aspect: goat cheese gnocchi,positive
+en_BlueRibbonSushi_478218519,id_0,Best Sushi in town. aspect: Sushi,positive
+en_SnoozeanAMEatery_480412257,id_6,"At best, the food was good and definately overpriced. aspect: food",neutral
+en_BlueRibbonSushi_478218340,id_0,Unbeatable sushi! aspect: sushi,positive
+en_OpenSesame_477970937,id_6,I had the kafta plate and I enjoyed it. aspect: kafta plate,positive
+en_OpenSesame_477970940,id_8,"However, this place is a gem, and I won't stop going back. aspect: place",positive
+en_MercedesRestaurant_478010605,id_4,"food was fine, with a some little-tastier-than-normal salsa. aspect: food",positive
+en_BlueRibbonSushi_478218509,id_1,"Your a sushi fan, you love expertly cut fish, great sake, a killer SOHO location, and of course: Salmon, Tuna, Fluke, Yellow Tail, Cod, Mackeral, Jellyfish, Sea Urchin, Shrimp, Lobster, Sea Bream, Trout, Milk Fish, Blue Fin Tuna, Eel, Crab, Sardine, Monk Fish, Roe, Scallop, Oysters, and a varity of Toro. aspect: Oysters",positive
+en_BlueRibbonSushi_478218333,id_1,"plus, i am allergic to rice, and the waitstaff was unbelievably accomodating -- didn't even bat an eye! aspect: waitstaff",positive
+en_BlueRibbonSushi_479929856,id_5,"But the space is small and lovely, and the service is helpful. aspect: space",positive
+en_SchoonerOrLater_477965689,id_0,Great food with an awesome atmosphere! aspect: atmosphere,positive
+en_India'sGrill_477960693,id_3,The chicken curry and chicken tikka masala are my favorite meat dishes. aspect: chicken curry,positive
+en_MiopostoCaffe_478542922,id_1,"– Love their pizza, especially the mushroom pizza. aspect: pizza",positive
+en_BlueRibbonSushi_478218509,id_1,"Your a sushi fan, you love expertly cut fish, great sake, a killer SOHO location, and of course: Salmon, Tuna, Fluke, Yellow Tail, Cod, Mackeral, Jellyfish, Sea Urchin, Shrimp, Lobster, Sea Bream, Trout, Milk Fish, Blue Fin Tuna, Eel, Crab, Sardine, Monk Fish, Roe, Scallop, Oysters, and a varity of Toro. aspect: Trout",positive
+en_ParkChaletGardenRestaurant_477778211,id_0,"Terrible service, food ok, pricey aspect: food",neutral
+en_BlueRibbonSushi_478218524,id_3,Amazing Spanish Mackeral special appetizer and perfect box sushi (that eel with avodcao -- um um um). aspect: Spanish Mackeral special appetizer,positive
+en_BlueRibbonSushi_478218900,id_4,"Rice is too dry, tuna wasn't so fresh either. aspect: tuna",negative
+en_India'sGrill_477960698,id_7,"The naan was some of the best I've had and I really enjoyed the bhartha, not too tomatoey. aspect: naan",positive
+en_BlueRibbonSushi_478218341,id_5,"The sushi is as fresh as it comes?you'd think ocean was in their backyard, no joke! aspect: sushi",positive
+en_SchoonerOrLater_477965848,id_5,"Perhaps now, Scooner or Later falls into the ""Dive"" category. aspect: Scooner or Later",negative
+en_MiopostoCaffe_478542919,id_3,Well I guess it's hard to be seated when one is invisible to the staff. aspect: staff,negative
+en_MiopostoCaffe_479702043,id_4,The pizza’s are thin crust and the menu offers very creative combinations and toppings. aspect: pizza’s,positive
+en_OpenSesame_477970770,id_0,"best restaurant in the world, great decor, great customer service, friendly manager aspect: customer service",positive
+en_ParkChaletGardenRestaurant_477778210,id_6,I went home & looked them up online again where I discovered there is a link for a give away that doesn't work so emailed the restaurant about the non existent service & deceptive link. aspect: restaurant,negative
+en_CatalRestaurant__UvaBar_477861889,id_4,My g/f and I both agreed the food was very mediocre especially considering the price. aspect: food,negative
+en_BlueRibbonSushi_478218900,id_2,I liked the atmosphere very much but the food was not worth the price. aspect: food,negative
+en_BlueRibbonSushi_478218509,id_1,"Your a sushi fan, you love expertly cut fish, great sake, a killer SOHO location, and of course: Salmon, Tuna, Fluke, Yellow Tail, Cod, Mackeral, Jellyfish, Sea Urchin, Shrimp, Lobster, Sea Bream, Trout, Milk Fish, Blue Fin Tuna, Eel, Crab, Sardine, Monk Fish, Roe, Scallop, Oysters, and a varity of Toro. aspect: Blue Fin Tuna",positive
+en_SchoonerOrLater_479842021,id_3,"The food was ok, but the service was so poor that the food was cold buy the time everyone in my party was served. aspect: food",neutral
+en_SnoozeanAMEatery_480171723,id_3,The presentation of Snooze is excellent and it is one of those places that you feel more sophisticated just for being there; but peel back the layers and you have an overpriced IHOP with a high brow menu. aspect: Snooze,negative
+en_CatalRestaurant__UvaBar_477861889,id_0,Mediocre food aspect: food,neutral
+en_StackRestaurant__Bar_478538239,id_20,"Overall, I would go back and eat at the restaurant again. aspect: restaurant",positive
+en_MiopostoCaffe_478543072,id_3,The pizza is delicious and the salads are fantastic. aspect: salads,positive
+en_ProfessorThom's_478606538,id_7,And the upstairs is a great place to hang out. aspect: upstairs,positive
+en_OpenSesame_477970940,id_6,The only drawback is the crowded seating and the slow service. aspect: seating,negative
+en_OpenSesame_477970940,id_4,"The side of potatoes is to die for, as is the labne (yogurt dip). aspect: side of potatoes",positive
+en_MercedesRestaurant_478010603,id_1,– Best Mexican place for lunch in the financial district. aspect: Mexican place,positive
+en_MiopostoCaffe_478543071,id_0,Fabulous Italian Food! aspect: Italian Food,positive
+en_BlueRibbonSushi_478218334,id_6,Fancy pieces of exotic fish on a $100 dollar plate and NOT ONE was eatable. aspect: plate,negative
+en_BlueRibbonSushi_478219453,id_5,"On a recent trip, our waiter was extremely dismissive, while no less than three staff members waited hand-and-foot on a pair of Japanese girls seated nearby. aspect: staff members",negative
+en_SchoonerOrLater_477965850,id_6,"After one member of our party had been bumped repeatedly by a waitress, a polite request that he not be bumped sent the waitress into an abusive rant. aspect: waitress",negative
+en_SchoonerOrLater_479615721,id_3,The food is great and they make a mean bloody mary. aspect: bloody mary,positive
+en_BlueRibbonSushi_478218340,id_5,Be sure to try the oyster roll. aspect: oyster roll,positive
+en_India'sGrill_477960693,id_5,"It's located in a strip mall near the Beverly Center, not the greatest location, but the food keeps me coming back for more. aspect: location",neutral
+en_BlueRibbonSushi_478218715,id_3,The best Chuwam Mushi I have ever had. aspect: Chuwam Mushi,positive
+en_Ray'sBoathouse_477775920,id_2,"If you can, come to this place by boat and make it a whole evening. aspect: place",positive
+en_MercedesRestaurant_478010602,id_1,"– This is one of my top lunch spots, huge portions, fast service and amazing margaritas!! aspect: margaritas",positive
+en_ParkChaletGardenRestaurant_477778282,id_2,Everyone that sat in the back outside agreed that it was the worst service we had ever received. aspect: service,negative
+en_MiopostoCaffe_478542919,id_5,"Finally, my wife stood face to face in front of one of the staff and she asked, ""Are you waiting for a table?"" aspect: staff",negative
+en_SnoozeanAMEatery_480133929,id_4,"The service was excellent, the coffee was good even by starbucks standards and the food was outstanding. aspect: service",positive
+en_ProfessorThom's_478606540,id_0,"Endless fun, awesome music, great staff!!! aspect: staff",positive
+en_Ray'sBoathouse_477775917,id_1,– Ray's (suprisingly) has the city's BEST & most diverse wine list. aspect: wine list,positive
+en_MiopostoCaffe_478542922,id_2,Also love their caeser salad. aspect: caeser salad,positive
+en_Sage_480875505,id_1,"– In a age of incremental cost cutting in restaurants, its nice to see a place that bucks that trend, and just plain delivers high quality food and good service, period. aspect: service",positive
+en_SnoozeanAMEatery_480412257,id_3,The waiter was a bit unfriendly and the feel of the restaurant was crowded. aspect: feel,negative
+en_CatalRestaurant__UvaBar_477862052,id_3,"Portions was just enough for me, but may not be for a big eater. aspect: Portions",neutral
+en_MiopostoCaffe_478542920,id_5,The servers behind the counter are always friendly and helpful. aspect: servers behind the counter,positive
+en_SchoonerOrLater_477965689,id_1,"– Eggs, pancakes, potatoes, fresh fruit and yogurt -- everything they serve is delicious. aspect: pancakes",positive
+en_MiopostoCaffe_478543072,id_6,I also really enjoy the simplicity of the decor and intimate feeling of a small restaurant. aspect: decor,positive
+en_Ray'sBoathouse_477775918,id_10,"Our server continued to be attentive throughout the night, but I did remain puzzled by one issue:  Who thinks that Ray's is an appropriate place to take young children for dinner? aspect: server",positive
+en_OpenSesame_477970938,id_1,"– I've been to Open Sesame only once, but I'm still reeling from the experience!! aspect: Open Sesame",positive
+en_ParkChaletGardenRestaurant_477778171,id_10,"We did have the same waiter the second time, so maybe the service is spotty and our luck is good. aspect: waiter",positive
+en_MiopostoCaffe_479702043,id_7,Try the Pizza Ensalata! aspect: Pizza Ensalata,positive
+en_MiopostoCaffe_478542919,id_4,We stood there for 10 minutes while employees walked back and forth ignoring us. aspect: employees,negative
+en_PagodaRestaurant_479983203,id_14,"i would normally not finish the brocolli when i order these kinds of food but for the first time, every piece was as eventful as the first one... the scallops and prawns was so fresh and nicely cooked. aspect: scallops",positive
+en_MiopostoCaffe_478542921,id_2,"I know many people have their favorite types of pizza and pizza places, but Mioposto's pizza lacks quality and good taste. aspect: pizza",negative
+en_MercedesRestaurant_478010599,id_1,"– I don't understand how I was a stranger to this place for so long... the fajita salad, the colorado, the fajitas - EVERYTHING is delicious. aspect: place",positive
+en_ProfessorThom's_478606540,id_1,– By far the best bar in the east village... aspect: bar,positive
+en_StackRestaurant__Bar_478538239,id_5,I got the shellfish and shrimp appetizer and it was alright. aspect: shellfish and shrimp appetizer,neutral
+en_ParkChaletGardenRestaurant_477778210,id_10,We left without ever getting service. aspect: service,negative
+en_SnoozeanAMEatery_480032670,id_5,"The specialty here is decadent pancakes, but I've been back now four times, and I've been wowed every time. aspect: pancakes",positive
+en_CatalRestaurant__UvaBar_477862052,id_0,Sit in the Balcony aspect: Balcony,positive
+en_MiopostoCaffe_479702043,id_6,The pizza’s are light and scrumptious. aspect: pizza’s,positive
+en_Murphy's_478075040,id_1,"– I will never forget the amazing meal, service, and ambiance I experience at this restaurant. aspect: meal",positive
+en_Murphy's_478075037,id_3,The regular menu here is slightly above average that is not worth the snotty attitude that you receive. aspect: regular menu,neutral
+en_MiopostoCaffe_478542921,id_1,"– As with most restaurants in Seattle, Mioposto's service was bad and the food was overpriced. aspect: service",negative
+en_SchoonerOrLater_477965850,id_1,"– Schooner or Later's charming location along the marina in Long Beach and average food does not, unfortunately, compensate for its very poor customer service. aspect: location along the marina in Long Beach",positive
+en_BlueRibbonSushi_478218520,id_3,"I've had the Jellyfish, Horse Mackerel, Blue Fin Tuna and the Sake Ikura roll among others, and they were all good. aspect: Sake Ikura roll",positive
+en_Ray'sBoathouse_477775918,id_8,My friend enjoyed the grilled Alaskan King Salmon with delectable creamed Washington russet potatoes and crisp green beans. aspect: creamed Washington russet potatoes,positive
+en_PagodaRestaurant_478006817,id_2,"The lemon chicken tasted like sticky sweet donuts and the honey walnut prawns, the few they actually give you.....were not good. aspect: lemon chicken",negative
+en_India'sGrill_477960696,id_4,"plenty of food,trust me . aspect: food",positive
+en_ParkChaletGardenRestaurant_477778171,id_0,great beer aspect: beer,positive
+en_BlueRibbonSushi_478218901,id_1,– The food was not great & the waiters were rude. aspect: waiters,negative
+en_MercedesRestaurant_478010605,id_2,my service was stellar! aspect: service,positive
+en_MiopostoCaffe_478542921,id_1,"– As with most restaurants in Seattle, Mioposto's service was bad and the food was overpriced. aspect: food",negative
+en_India'sGrill_477960698,id_3,The food was all good but it was way too mild. aspect: food,positive
+en_OpenSesame_477970937,id_9,"Service was kind of slow, our waitress took forever to give us our check even though it wasn't that busy. aspect: Service",negative
+en_BlueRibbonSushi_478218509,id_1,"Your a sushi fan, you love expertly cut fish, great sake, a killer SOHO location, and of course: Salmon, Tuna, Fluke, Yellow Tail, Cod, Mackeral, Jellyfish, Sea Urchin, Shrimp, Lobster, Sea Bream, Trout, Milk Fish, Blue Fin Tuna, Eel, Crab, Sardine, Monk Fish, Roe, Scallop, Oysters, and a varity of Toro. aspect: Lobster",positive
+en_BlueRibbonSushi_478218341,id_6,"If you're interested in good tasting (without the fish taste or smell), large portions and creative sushi dishes this is your place... aspect: sushi dishes",positive
+en_Ray'sBoathouse_477775916,id_2,"Great food, spectacular location, and friendly service keep us coming back year after year. aspect: service",positive
+en_ParkChaletGardenRestaurant_477778282,id_0,Worst Service I Ever Had aspect: Service,positive
+en_India'sGrill_477960693,id_3,The chicken curry and chicken tikka masala are my favorite meat dishes. aspect: chicken tikka masala,positive
+en_StackRestaurant__Bar_478538111,id_9,I have a but here - there was a bathroom attendant in the restroom which was odd. aspect: restroom,negative
+en_BlueRibbonSushi_478218509,id_1,"Your a sushi fan, you love expertly cut fish, great sake, a killer SOHO location, and of course: Salmon, Tuna, Fluke, Yellow Tail, Cod, Mackeral, Jellyfish, Sea Urchin, Shrimp, Lobster, Sea Bream, Trout, Milk Fish, Blue Fin Tuna, Eel, Crab, Sardine, Monk Fish, Roe, Scallop, Oysters, and a varity of Toro. aspect: Fluke",positive
+en_CatalRestaurant__UvaBar_477861889,id_7,Drinks were good. aspect: Drinks,positive
+en_ProfessorThom's_478606538,id_6,The owners are great fun and the beer selection is worth staying for. aspect: beer selection,positive
+en_SchoonerOrLater_477965850,id_0,Very poor customer service. aspect: customer service,negative
+en_StackRestaurant__Bar_478538242,id_3,"The appetizer of oysters, lobster, crab (small size) made a perfect entre for my wife. aspect: appetizer of oysters, lobster, crab (small size)",positive
+en_MiopostoCaffe_478542922,id_0,"Great Pizza, Poor Service aspect: Pizza",positive
+en_BlueRibbonSushi_478218524,id_5,"Their specialty rolls are impressive, though I can't remember what we had. aspect: specialty rolls",positive
+en_OpenSesame_477970937,id_0,Enjoyed the food aspect: food,positive
+en_BlueRibbonSushi_478218333,id_0,great meal – the fish on the omikase platter was absolutely decadent -- there was none of the stringiness that sometimes accompanies fair sushi -- this fish was perfect!!!! aspect: meal,positive
+en_BlueRibbonSushi_478218171,id_3,Green Tea creme brulee is a must! aspect: Green Tea creme brulee,positive
+en_BlueRibbonSushi_478218509,id_1,"Your a sushi fan, you love expertly cut fish, great sake, a killer SOHO location, and of course: Salmon, Tuna, Fluke, Yellow Tail, Cod, Mackeral, Jellyfish, Sea Urchin, Shrimp, Lobster, Sea Bream, Trout, Milk Fish, Blue Fin Tuna, Eel, Crab, Sardine, Monk Fish, Roe, Scallop, Oysters, and a varity of Toro. aspect: Cod",positive
+en_Murphy's_478075037,id_2,"If I want to stand in line on Sunday for an hour to get average brunch food, then I would put Murphy's at the top of the list. aspect: brunch food",neutral
+en_MiopostoCaffe_478543072,id_4,"I've always found the wait staff and, if you sit at the bar, the cooks very friendly. aspect: wait staff",positive
+en_BlueRibbonSushi_478219453,id_5,"On a recent trip, our waiter was extremely dismissive, while no less than three staff members waited hand-and-foot on a pair of Japanese girls seated nearby. aspect: waiter",negative
+en_India'sGrill_477960696,id_1,– i have been eating at this place for over 8 years now and i have never had one bad meal. aspect: meal,positive
+en_BlueRibbonSushi_478218509,id_1,"Your a sushi fan, you love expertly cut fish, great sake, a killer SOHO location, and of course: Salmon, Tuna, Fluke, Yellow Tail, Cod, Mackeral, Jellyfish, Sea Urchin, Shrimp, Lobster, Sea Bream, Trout, Milk Fish, Blue Fin Tuna, Eel, Crab, Sardine, Monk Fish, Roe, Scallop, Oysters, and a varity of Toro. aspect: Roe",positive
+en_SchoonerOrLater_477965689,id_1,"– Eggs, pancakes, potatoes, fresh fruit and yogurt -- everything they serve is delicious. aspect: Eggs",positive
+en_MiopostoCaffe_479702043,id_3,You won’t be disappointed by their menu. aspect: menu,positive
+en_ParkChaletGardenRestaurant_477778171,id_5,The band was very good and the service was attentive. aspect: service,positive
+en_BlueRibbonSushi_478218341,id_1,It's a tiny place so if you get there before 8pm on a weekend (Thurs?Sun) you will find it easier to get a table or a seat at the sushi bar. aspect: place,neutral
+en_SnoozeanAMEatery_480171723,id_13,"In the end our check came to $27 for 4 small pancakes, a breakfast burrito, an orange juice and an iced tea (I had water). aspect: pancakes",negative
+en_MiopostoCaffe_478543072,id_0,My favortie pizza joint in Seattle aspect: pizza joint,positive
+en_MercedesRestaurant_478010600,id_4,"The catering is out of this world, and Raouls chicken vegetable soup rocks my world!!! aspect: catering",positive
+en_MiopostoCaffe_478543071,id_1,– I highly recommend Mioposto. aspect: Mioposto,positive
+en_MiopostoCaffe_479702043,id_10,The pizza’s are not huge and the crust is thin…keep that in mind when you’re ordering. aspect: pizza’s,neutral
+en_Ray'sBoathouse_477775918,id_6,"For my entr&eacute;e, I completely enjoyed the seared Alaskan sea scallops complemented by chard, artichoke hearts, fennel, and pecorino toscano. aspect: seared Alaskan sea scallops",positive
+en_BlueRibbonSushi_478218339,id_4,"The only problem would be the wait, but we usually just have a drink in the front while waiting. aspect: wait",neutral
+en_BlueRibbonSushi_478218513,id_5,"Space was limited, but the food made up for it. aspect: Space",negative
+en_SnoozeanAMEatery_480412257,id_7,For the amount of food we got the prices should have been lower. aspect: food,negative
+en_Ray'sBoathouse_477775920,id_3,"Great seasonal fish and seafood, with a classy waterfront setting. aspect: seafood",positive
+en_BlueRibbonSushi_478218518,id_0,"Good Sushi, High Price aspect: Sushi",negative
+en_SchoonerOrLater_481226185,id_1,Their crab eggs benedict is addicting. aspect: crab eggs benedict,positive
+en_SnoozeanAMEatery_480171723,id_8,"The pancakes should be larger (at least 8"") to justify the expense even with the unique offerings. aspect: pancakes",negative
+en_India'sGrill_477960693,id_0,Best Indian food in L.A. aspect: Indian food,positive
+0,0,"However, if you want to, drink and enjoy the pleasures of food, Sam's is your new home away from home. aspect: pleasures",positive
+0,0,"I would have told the wait staff if anyone had asked me if I enjoyed my meal, but no one asked. aspect: meal",positive
+0,0,"With a chef from Liguria, Italy, authentic Neapolitan brick oven pizza and one of the most impressive Italian wine lists I've ever seen, this was the real deal! aspect: brick oven",positive
+0,0,"The defining characteristic of this popular restaurant, aside from dirt-cheap hot dogs, is the beverage selection, which includes a light and refreshing papaya juice, an extremely sweet pineapple juice and a sweet and frothy pina colada drink. aspect: hot dogs",positive
+0,0,The appetizer came out cold and the waiter came and took it to the kitchen. aspect: appetizer,negative
+0,0,I will be back not only because the price was so unbelievable but the atmosphere was just plain COOL and the food was spectacular. aspect: atmosphere,positive
+0,0,"The food was a mix of sandwiches, salads and appetizers that were mostly healthy and had a nice Brazilian touch. aspect: mix of sandwiches",positive
+0,0,"We finally flagged down another server who brought us more to drink, and then they took forever with the check. aspect: server",negative
+0,0,Got the scoop on this new hot spot and decided to give it shot for a client dinner. aspect: spot,positive
+0,0,"Zippier palates share sesame-fried lobster spring rolls, shrimp dumplings with citrus soy, and inventive maki, like the smoky and sweet filet mignon-pineapple variety. aspect: lobster spring rolls",neutral
+0,0,"The Food The versatile Austrian menu, fused with French and American, rewards both high and low-end appetites: rich, cheese-laden onion soup, grilled Gruyere and country ham sandwiches and big-bunned burgers are as satisfying as velvety liver terrine with kumquat-cranberry compote, speck and sausage charcuterie and inexpensive cheese plates. aspect: sausage",positive
+0,0,"Not including the tip for our server, who we saw twice in an hour? aspect: tip",neutral
+0,0,I couple of weeks ago we went to Supper in the east village and it was so bad that we got up and left and the only way to save the evening of horrible food was to go to Blue Ribbon Bakery and have at least one thing off the menu. aspect: menu,neutral
+0,0,"The ambience was all wrong, the bar opened into the main dining room causing the noise to flow into the room. aspect: noise",negative
+0,0,You'll find good curry dishes and their fries (made out of sweet potato) is to die for. aspect: fries,positive
+0,0,"In Short The vegi burgers (and the full bar) are the main draws: ranging from the Super Veg-Burger with lettuce, tomato and Abijah's secret sauce to the McKate (two un-beef patties, special sauce, lettuce, dairy or nondairy cheese, etc. aspect: tomato",neutral
+0,0,"The service can be lacking at times, but the desserts and overall experience certainly counter this flaw. aspect: desserts",positive
+0,0,"The place was beautiful, I sat at the bar for two hours and eat oysters and had way too many martinis. aspect: place",positive
+0,0,"Everything from the food to the service was enjoyable about this place, but I can't recommend the tempura shrimp roll with the lobster salad enough. aspect: food",positive
+0,0,"Snack on a bowl of fried chickpeas while you browse the menu, then move onto the tender lamb skewers, which arrive atop a slab of French bread, perfectly poised to catch the meat's sweet drippings. aspect: lamb skewers",positive
+0,0,"If you don't care about the wait staff as long as they bring you your drinks and dinner, then go to Opa. aspect: dinner",neutral
+0,0,"Other temptations include spumoni, tortoni, cannoli, cookies (try the pinoli), tarts and fluffy white cakes to order. aspect: cookies",neutral
+0,0,We asked for bread plates when the bread was brought to the table and the server's response was management has decided not to offer bread plates. aspect: table,neutral
+0,0,"The pancakes were good, but don't have blueberry pancakes on the menu of you are not able to produce more than three tiny blueberries in each pancake. aspect: blueberry pancakes",negative
+0,0,Asked for wine recommendations and the waitress told me her favorites and described them in detail - I don't encounter this much in NYC. aspect: wine,neutral
+0,0,"With the large crowds here and the larger menu, be prepared to wait for your dinner to arrive at your table. aspect: dinner",neutral
+0,0,"The perfect meal; delux combo raw bar as an appetizer, King crab as your entree. aspect: bar",neutral
+0,0,"After being seated took our waiter 10 mintues to get us a menu, 15 minutes to come back for our order, by the time we finally got our food it was almost 1 1/2 hour since getting there. aspect: waiter",negative
+0,0,"About 10 of us came here for drinks last friday, the atmosphere was good for chatting and hanging out, but not enough lounge or bar space, they should open up the back area w/ more loungable chairs or booths if they want to catch any after dinner sort of bar crowd. aspect: dinner",neutral
+0,0,"Also, they upped their prices, so I have their old menu, and was surprised when my bill came to over $5 more than it used to (I know, not a huge deal). aspect: bill",neutral
+0,0,"Service has improved drastically from the old days, you are now seated by a hostess instead of standing behind a nearby table waiting for them to finish. aspect: Service",positive
+0,0,"The atmosphere's a bit grungy, yes, but the music and the coffee are good. aspect: music",positive
+0,0,The place was packed but we were able to get drinks at the bar w/out a problem despite the crowd. aspect: place,negative
+0,0,the service was slow took ten mins to get me a glass of water. aspect: glass,neutral
+0,0,"impressive balcony seating and while they forgot to give us the cold appetizers, the waiter and maitre'd more than made up for it by being most accomodating to us. aspect: seating",neutral
+0,0,Only thing we didn't like was the steamed chocolate cake with mint ice creama group of the 4 of us did not want to finish this dessert! aspect: dessert,neutral
+0,0,"Includes a diverse array of entrees ranging from Boar (prepared in your choice of either the French or Asian tradition), Mussels, or Pad Thai that grace the menu all at once, each one prepared in a distinctly different and delicate sauce. aspect: Mussels",neutral
+0,0,My only advice is: increase portion sizes; and develop a special drink list. aspect: drink list,neutral
+0,0,"If you like an ecclectic crowd and an overall good time where you and your friends can get together whether it be to eat, drink or just play some good old pictionary (they provide crayons and a blank white sheet at every table), go to the Cargo! aspect: sheet",neutral
+0,0,"My ceasar salad amounted to some limp lettuce and mayo strewn around a large plate, and the only way I might have died for the mac and cheese is due to natural causes while waiting for it to arrive. aspect: ceasar salad",neutral
+0,0,The waitress never came back to get drink refills and we didn't get water until we were halfway through our dinner. aspect: dinner,neutral
+0,0,Ten minutes later the manager relented and dropped off a glass of water with an upturned nose. aspect: glass of water,neutral
+0,0,"While dining on a delicate lamb carpaccio, and grilled skate wing, the owner explained that due to low lunch-time patronage, they may be discontinuing lunch altogether. aspect: owner",negative
+0,0,"The bartender, the wait staff and management all put the customer first and that was clear and much appreciated. aspect: wait staff",positive
+0,0,"Maybe I've just gotten lucky with seating, but I've never had more than a ten minute wait. aspect: seating",positive
+0,0,"It was not the mistake of the frozen lasagna, it was the icy service of the manager which has spoiled this restaurant for me. aspect: manager",negative
+0,0,"The brasserie-style menu remains relatively unchanged, featuring classic bistro choices like frisee salad with bacon, blue cheese and a poached egg, steak tartare, moules and steak frites, and various burgers and sandwiches. aspect: bistro choices",positive
+0,0,"The place was packed and while our food took time to be prepared, our waiter earned points for his sparkling conversation to pass time and for also knowing practically every ingredient of every special under consideration. aspect: food",neutral
+0,0,"I've only been in a few times for brunch as it does get quite busy, it's worth it though especially now that they have those amazing Blueberry Waffles. aspect: Blueberry Waffles",positive
+0,0,"The staff were rude and rushed us through our meal, clearing plates and laying down dessert menus while others were still eating their main courses. aspect: main courses",neutral
+0,0,"Also, they upped their prices, so I have their old menu, and was surprised when my bill came to over $5 more than it used to (I know, not a huge deal). aspect: prices",negative
+0,0,"Been there a few times for dinner, brunch or just a drink (the French cosmos are fantastic) and it just keeps getting better. aspect: drink",neutral
+0,0,"The hostess was condescending and the waiter was somewhat absent and unaccomodating (sure, we made a reservation to sit outside but when I asked to be moved indoors after I heard thunder he didn't even try to make it happen, giving me a blank stare and a shrug when I asked what we would do if it rained). aspect: reservation",neutral
+0,0,"Downtown Dinner 2002 - Prixe fix: Appetizers were ok, waiter gave me poor suggestion. aspect: Appetizers",positive
+0,0,"Anyway, I went down on a Wednesday night to see if they had a long wait and the hostess said they had a table to accomodate my party. aspect: table",neutral
+0,0,My vegetable Napoleon was good; although i first got the veggie burger because the waitress mis-heard and stood my friend up for another 15 minutes of waiting to have it served. aspect: waiting,negative
+0,0,"No matter what, you should expect a wait, big deal, small price to pay for great food as far as I'm concerned. aspect: food",positive
+0,0,yes this place has good pizza but HORRIFIC HORRIFIC delivery service. aspect: pizza,positive
+0,0,"But on a recent Sunday brunch excursion, I was greeted by a uniformly unfriendly staff - starting with the hostess and extending to foul faced wait staff. aspect: hostess",negative
+0,0,With all of the kitchen goof-ups (appetizer coming out before the entree and one entree coming out ten minutes before the other) you would think that the wait staff would have been more attentive. aspect: appetizer,neutral
+0,0,"Sometimes I grow a bit weary of dining in those pretentious, haughty taughty, high fashion eateries. aspect: eateries",negative
+0,0,"The only drawback was slow service, but the food and ambience are so nice that your wait is A) pleasant and B) worth it. aspect: service",negative
+0,0,"Everything from the food to the service was enjoyable about this place, but I can't recommend the tempura shrimp roll with the lobster salad enough. aspect: service",positive
+0,0,The food was served in small portions and my lamb was pure fat. aspect: lamb,negative
+0,0,"Rich appetizers (baked fontina, lentil cake, french onion soup) and ample, tasty salads. aspect: appetizers",positive
+0,0,"If people are late, you could lose your reservation and/or the staff does pressure you to start ordering even if your whole party hasnt arrived. aspect: staff",negative
+0,0,The waiter seemed astounded that I ordered no wine or alcohol -- just water -- with my meal. aspect: meal,neutral
+0,0,Ive had better burgers and fries at the local dinner in my neighborhood: 3 guys dinner on 96th and Madison Avenue. aspect: local dinner,neutral
+0,0,"I was at Son Cubano a few months ago, and although i was only at the bar (without prior reservations which are a must), i had an awesome time. aspect: bar",neutral
+0,0,"The meat, onions, and cheese were good as was the roll, but I'd go back if I could forego the sauce. aspect: cheese",positive
+0,0,"While the staff was kind and attentive, our waiter never once broke a smile, even when I told him it was my friend's birthday, although he did bring a dessert with a candle at the end of the meal. aspect: candle",neutral
+0,0,service was attentive at the beginning but the waiter lost us towards the end and we had to flag them down for the check. aspect: service,positive
+0,0,Half the menu is comprised of original creations while the other half consists of unique slants on orthodox cuisine such as the single super-sized gnocchi with cinammon. aspect: gnocchi,positive
+0,0,"The Food The versatile Austrian menu, fused with French and American, rewards both high and low-end appetites: rich, cheese-laden onion soup, grilled Gruyere and country ham sandwiches and big-bunned burgers are as satisfying as velvety liver terrine with kumquat-cranberry compote, speck and sausage charcuterie and inexpensive cheese plates. aspect: liver terrine",positive
+0,0,"Amusing details distinguish desserts, from dulce de leche ice-cream profiteroles dotting a chocolate sauce tic-tac-toe board, to coconut custard surrounded by a sea of Malibu-rum gelee and poached pineapple. aspect: chocolate sauce tic-tac-toe",neutral
+0,0,"The service was great, the chef even gave me a complimentary dish. aspect: service",positive
+0,0,"The waitress forgot our coffee, took forever to take our order, never checked in with us after the food came and when we were done, didn't bring us the check for the longest time. aspect: coffee",neutral
+0,0,"Food was average, the appetizers were better than the main courses. aspect: main courses",neutral
+0,0,The food was served promptly and was really hot. aspect: food,positive
+0,0,"To both our surprise, this inquiry was interpreted as a personal offense by the waiter who told my wife to leave the store if she didnt want the pastries. aspect: waiter",negative
+0,0,"From beginning appetizers, the scallops were incredible, to the delicious chocolate souffle with rasberry mint sorbet, we were delighted by the taste sensations. aspect: chocolate souffle with rasberry mint sorbet",positive
+0,0,The food was great so that made up for the lack of service from the waitress. aspect: food,positive
+0,0,The Food The menu features a wide array of Hawaiian- and Asian-flavored appetizers and entrees. aspect: appetizers,positive
+0,0,"The food is delish, you just have to know the manners to consume, if you don't want to be frustrated with the service. aspect: service",negative
+0,0,"My party felt like we got put in a dining room for tourist, which must have been the penalty box area for the disgruntled wait staff on duty. aspect: wait staff",negative
+0,0,then the manager gave us lemon juice instead of ceasar dressing for a ceasar salad which ruined the salad. aspect: manager,negative
+0,0,"The service was non-existant, the manager spent all of his time at the bar. aspect: manager",negative
+0,0,(Though the filet won't be enough if both have hearty apitites. aspect: filet,negative
+0,0,yes this place has good pizza but HORRIFIC HORRIFIC delivery service. aspect: service,negative
+0,0,The server was so busy the night we visited that she forgot to put in our food order. aspect: server,negative
+0,0,It's sad that everything about this place was great (even the service and decor) except for the steak. aspect: service,positive
+0,0,"However, it takes ages to get seated (even with a reservation), and the waiters don't seem very knowledgeable about the menu (or receptive to questions). aspect: waiters",negative
+0,0,Went to celebrate my sisters birthday on 9/11 was 1st taken back on the waiters rude answering of a question we had about the menu. aspect: menu,neutral
+0,0,"The smoked salmon appetizer was pretty good (it comes with goat cheese, calpers and onions). aspect: onions",neutral
+0,0,"The only apparent flavor in any of the dishes was heat, and a table of four gourmands left at least half of our meals on our plates. aspect: meals",neutral
+0,0,The waitress never came back to get drink refills and we didn't get water until we were halfway through our dinner. aspect: waitress,negative
+0,0,"Not a destination restaurant, but if you're hungry for breakfast or lunch, big portions and good quality for the money. aspect: quality",positive
+0,0,"Amusing details distinguish desserts, from dulce de leche ice-cream profiteroles dotting a chocolate sauce tic-tac-toe board, to coconut custard surrounded by a sea of Malibu-rum gelee and poached pineapple. aspect: desserts",positive
+0,0,"They crumbed the table once, although it was solied the entire meal. aspect: meal",negative
+0,0,"The Black Duck is a great date place, whether going for dinner or just for a drink at their huge, antique-ish bar. aspect: Black Duck",positive
+0,0,got the guac but no drinks until it was all gone (approximately 20 minutes later). aspect: guac,neutral
+0,0,"When my (pregnant) friend asked about a non-alcoholic version of a drink, the answer was simply no, with no further suggestions. aspect: drink",neutral
+0,0,"Our spastic waiter was running around like a chicken with his head cut off, and, thus, slow to take our order, slow to bring us our drinks (they sat on the bar for 5-10 minutes) and slow to get us the water we had to ask for repeatedly. aspect: waiter",negative
+0,0,"In Short The vegi burgers (and the full bar) are the main draws: ranging from the Super Veg-Burger with lettuce, tomato and Abijah's secret sauce to the McKate (two un-beef patties, special sauce, lettuce, dairy or nondairy cheese, etc. aspect: Abijah's secret sauce",neutral
+0,0,"Ok I got the edamame and something from the sushi chef for free, but the quality of food is more important to me than a free small dish (maybe that's why the restaurant gives it to attact new customers. aspect: quality of food",positive
+0,0,They are negligent in alerting customers when an order is ready - you could end up waiting for half an hour while your food is sitting on their counter getting cold. aspect: food,negative
+0,0,I told the waiter that my drink tasted very bad and asked if he could swap it out for a Petron Margarita. aspect: drink,negative
+0,0,"I would have told the wait staff if anyone had asked me if I enjoyed my meal, but no one asked. aspect: wait staff",negative
+0,0,The portions are small but being that the food was so good makes up for that. aspect: portions,negative
+0,0,"I'm totally into the space-age vibe of this place, but I wish they had more tables to sit down at. aspect: tables",positive
+0,0,"The Food Regulars swear by the tamales, which are spongy, well-seasoned and pulled from steaming crocks on the counter. aspect: Food",positive
+0,0,The waiter kept coming up and asking to take our plates while we were still eating and the manager stood and stared at us through half our meal! aspect: waiter,negative
+0,0,The waiter seemed astounded that I ordered no wine or alcohol -- just water -- with my meal. aspect: waiter,negative
+0,0,"For example, we had ordered a 2nd bottle of red wine, the waitress gave me a new glass to taste the wine, but filled up my existing glass (mixing two different bottles in one glass). aspect: bottle of red wine",neutral
+0,0,"The manager apologized and gave us back $20 for the difference, BUT THE WAITER NEVER RETURNED THE $120 CASH WE PAID. aspect: WAITER",negative
+0,0,"There is nothing else on the menu except for exotic teas and cold beverages, but with a meal this cheap and delightful, who would care? aspect: meal",positive
+0,0,"Our waiter was not attentive, we waited about 20 mins just to order drinks. aspect: waiter",negative
+0,0,"A friend of mine and I bumped into this restaurant last week and it didn't look like any special place on the outside, but when we looked at the menu we decided to give it a try. aspect: menu",neutral
+0,0,to be honest we only had drinks and appetizers downstairs as we were there for a collegues leaving drinks but the staff was very friendly (typical aussies) and the food i did have was pretty darn good. aspect: staff,positive
+0,0,"The Food Consulting Chef Douglas Rodriguez's forte is blending the diversity of traditional Latin cuisine with modern culinary chic: A celery sorbet cools the spicy-citrus bite of lobster; shrimp seviche and crunchy green plantains coat thick, juicy halibut resting on sweet plantain hash; and tart tomato escabeche moistens a chewy skirt steak. aspect: halibut resting",positive
+0,0,"We were directed to a table by a member of staff, which we were then informed was reserved, and lost our seats at the bar, all this after spending upwards of $30 each on very expensive drinks over a two-hour period. aspect: staff",negative
+0,0,"The old menu items are gone, except for the rib appetizer, which is now bland and fatty, with little trace of the excellent mustard sauce. aspect: rib appetizer",negative
+0,0,"The brasserie-style menu remains relatively unchanged, featuring classic bistro choices like frisee salad with bacon, blue cheese and a poached egg, steak tartare, moules and steak frites, and various burgers and sandwiches. aspect: steak frites",neutral
+0,0,"I live about a 1/2 block from Westway and when I want consistantly good food, big portions, great fast service and a step above your average diner food I go there! aspect: diner food",neutral

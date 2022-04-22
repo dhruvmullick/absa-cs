@@ -1,0 +1,890 @@
+review_id,sentences_ids,sentences_texts,sentences_opinions
+1189674,id_3,"Admittedly some nights inside the restaurant were rather warm, but the open kitchen is part of the charm. aspect: restaurant",negative
+BzG#4,id_2,"What really makes it shine is the food, which is aggressively seasoned with Cyrpriot spices, and all made in-house (even the gyro meat and sausages), and made of much higher quality ingredients that might otherwise be expected. aspect: gyro meat",positive
+773720,id_0,Food was good and the view of the new york city skiline was terrific even on a foggy rainy day like that of when I went. aspect: view of the new york city skiline,positive
+430342,id_0,delicious simple food in nice outdoor atmosphere. aspect: food,positive
+NP#9,id_1,Mussles and calamari were superb Saturday evening. aspect: calamari,positive
+521916,id_1,"Small servings for main entree, i had salmon (wasnt impressed) girlfriend had chicken, it was good. aspect: chicken",positive
+535086,id_0,"This is the perfect spot for meeting friends, having lunch, dinner, pre-theatre or after-theatre drinks! aspect: spot",positive
+BHD#1,id_0,"The hot dogs are good, yes, but the reason to get over here is the fantastic pork croquette sandwich, perfect on its supermarket squishy bun. aspect: pork croquette sandwich",positive
+1496707,id_1,I had the best ravioli ever. aspect: ravioli,positive
+1623276,id_3,Not a great place for family or general dining. aspect: place,negative
+DBG#2,id_3,I have never been so disgusted by both food an service. aspect: service,negative
+935633,id_3,"I found it on a cold night, the perfect spot to warm up. aspect: spot",positive
+BHD#4,id_4,"Going to Bark is always worth the train ride, and will make your tongue and belly very happy! aspect: Bark",positive
+Y#9,id_2,"They have great rolls, the triple color and norwegetan rolls, are awesome and filling. aspect: triple color and norwegetan rolls",positive
+TM#3,id_3,"The food was good, the place was clean and affordable. aspect: place",positive
+1748839,id_7,"For the people who want great food plus great service, Roxy is a place to AVOID! aspect: service",negative
+1410878,id_1,I've never had bad service and the fish is fresh and delicious. aspect: fish,positive
+1205520,id_0,I'm not sure where the other reviewers ate but it seems as if we visited two different restaurants because my friends and I all enjoy Mizu very much... and we're repeat customers. aspect: Mizu,positive
+Z#7,id_3,This place is not inviting and the food is totally weird. aspect: place,negative
+1710746,id_0,I got an excellent piece of cheesecake and we had several other nice pastries. aspect: pastries,positive
+507844,id_0,This place would be so much better served by being run by a group that actually understands customer service. aspect: customer service,negative
+DBG#2,id_6,"However, once I received my predictably mediocre order of what Dokebi thinks passes as Korean fair, (sometimes you have to settle when it's your only option), I got through about half my kimchee before I found a piece of random lettuce accompanied by a far more disgusting, slimy, clearly bad piece of fish skin. aspect: kimchee",negative
+TFS#10,id_5,I had fish and my husband had the filet - both of which exceeded our expectations. aspect: fish,positive
+Z#7,id_3,This place is not inviting and the food is totally weird. aspect: food,negative
+TFS#5,id_16,Vanison was good but not amazing. aspect: Vanison,neutral
+1702257,id_0,Nice Family owned traditional restaurant. aspect: restaurant,positive
+1014458,id_0,"I have eaten at Saul, many times, the food is always consistently, outrageously good. aspect: food",positive
+1702257,id_3,Friendly staff that actually lets you enjoy your meal and the company you're with. aspect: staff,positive
+584025,id_1,Warm and friendly in the winter and terrific outdoor seating in the warmer months. aspect: outdoor seating,positive
+DBG#7,id_4,"The bibimbap was average, but the stone bowl wasn't even close to sizzling. aspect: bibimbap",neutral
+1086478,id_1,"I like the somosas, chai, and the chole, but the dhosas and dhal were kinda dissapointing. aspect: chai",positive
+1726473,id_4,"The food arrived 20 minutes after I called, cold and soggy. aspect: food",negative
+CLF#6,id_5,"They are extremely rude, not even apologizing for the horrible service we got and handing us a bill well over $500 for some drinks adn their pita bread! aspect: service",negative
+Y#4,id_1,Just go to Yamato and order the Red Dragon Roll. aspect: Yamato,positive
+505535,id_1,"the pad se ew chicken was delicious, however the pad thai was far too oily. aspect: pad thai",negative
+1623276,id_0,Patroon features a nice cigar bar and has great staff. aspect: staff,positive
+WE#1,id_3,"The bread was stale, the salad was overpriced and empty. aspect: salad",negative
+1603698,id_0,I have been to Roth's twice and both times were very disappointing. aspect: Roth's,negative
+BG#5,id_2,"Food was amazing - I love Indian food and eat it quite regularly, but I can say this is one of the best I've had. aspect: Food",positive
+535171,id_0,What a great place! aspect: place,positive
+1561259,id_4,"This place is pricey, and yes, the food is worth it; but the service makes you feel like you should be paying a quater of the price. aspect: service",negative
+1225162,id_1,The exotic food is beautifully presented and is a delight in delicious combinations. aspect: exotic food,positive
+507937,id_3,Service is fast and friendly. aspect: Service,positive
+758263,id_0,I have never before eaten 40 pieces of relatively good nigiri. aspect: nigiri,neutral
+1289424,id_5,I highly recommend visiting this restaurant and having dinner and drinks! aspect: restaurant,positive
+507937,id_2,Spreads and toppings are great - though a bit pricey. aspect: toppings,negative
+1102681,id_3,"However, go for the ambience, and consider the food just a companion for a trip across the world! aspect: ambience",positive
+1430994,id_1,The staff offers impeccable service. aspect: staff,positive
+1367358,id_1,The food is authentic Italian - delicious! aspect: food,positive
+630914,id_0,The food was actually aweful. aspect: food,negative
+TFS#2,id_0,The Four Seasons restaurant is a great experience. aspect: The Four Seasons restaurant,positive
+1538149,id_1,The food was authentic. aspect: food,positive
+1064477,id_2,The sushi seemed pretty fresh and was adequately proportioned. aspect: sushi,positive
+740923,id_1,"If you don't mind pre-sliced low quality fish, unfriendly staff and a sushi chef that looks like he is miserable then this is your place. aspect: fish",negative
+CLF#6,id_5,"They are extremely rude, not even apologizing for the horrible service we got and handing us a bill well over $500 for some drinks adn their pita bread! aspect: drinks",negative
+1706644,id_1,"I found the food to be outstanding, particulary the salmon dish I had. aspect: salmon dish",positive
+404464,id_1,I ordered the smoked salmon and roe appetizer and it was off flavor. aspect: smoked salmon and roe appetizer,negative
+610611,id_4,"service is friendly, and never had a problem walking in and getting a table. aspect: service",positive
+1726427,id_1,"We are very particular about sushi and were both please with every choice which included: ceviche mix (special), crab dumplings, assorted sashimi, sushi and rolls, two types of sake, and the banana tempura. aspect: sake",positive
+CLF#5,id_1,Stepping into Casa La Femme last night was a true experience unlike any other in New York! aspect: Casa La Femme,positive
+519425,id_2,"The lamb was tender so full of flavor, the dessert was divine!! aspect: dessert",positive
+1014458,id_1,Saul is the best restaurant on Smith Street and in Brooklyn. aspect: Saul,positive
+1710746,id_1,"I would recommend Roxy's for that, but not for their food. aspect: food",negative
+1349391,id_1,"sometimes i get bad food and bad service, sometimes i get good good and bad service. aspect: good",positive
+1126886,id_1,This is by far my favorite place in the neighborhood. aspect: place,positive
+541532,id_1,Service was very prompt but slightly rushed. aspect: Service,positive
+444818,id_1,"The atmosphere is unheralded, the service impecible, and the food magnificant. aspect: service",positive
+536919,id_0,The only thing more wonderful than the food (which is exceptional) is the service. aspect: service,positive
+578016,id_0,I have never had cheescake like this. aspect: cheescake,positive
+404464,id_0,"Thalia is a beautiful restaurant with beautiful people serving you, but the food doesn't quite match up. aspect: Thalia",positive
+1167434,id_5,"those rolls were big, but not good and sashimi wasn't fresh. aspect: rolls",neutral
+Y#7,id_5,Delivery guy sometimes get upset if you don't tip more than 10%. aspect: Delivery guy,negative
+FF#6,id_5,The hostess was rude and I got a distinct feeling that they did not want to serve us. aspect: hostess,negative
+TFS#11,id_1,"I attended a holiday dinner at the restaurant, and the food was majorly disappointing. aspect: food",negative
+DBG#2,id_3,I have never been so disgusted by both food an service. aspect: food,negative
+P#9,id_9,"Overall, decent food at a good price, with friendly people. aspect: food",neutral
+1340075,id_1,"They have it all -- great price, food, and service. aspect: service",positive
+1084394,id_3,The Prix Fixe menu is worth every penny and you get more than enough (both in quantity AND quality). aspect: Prix Fixe menu,positive
+1664346,id_1,"Everything was wonderful; food, drinks, staff, mileau. aspect: drinks",positive
+1430994,id_6,My boyfriend had Prime Rib it was good . aspect: Prime Rib,positive
+512294,id_0,"Great food, great prices, great service. aspect: service",positive
+Y#5,id_4,The waitress was not attentive at all. aspect: waitress,negative
+680390,id_2,"In an area sadly lacking in decent Thai food, this is one of the best spots. aspect: Thai food",positive
+WE#4,id_2,Everyone raved about the atmosphere (elegant rooms and absolutely incomparable views) and the fabulous food! aspect: atmosphere,positive
+872763,id_5,Never have I had such dramatic delivery guys (a lot of huffing and panting and muttering under breath b/c I live in a walkup) who always seem disappointed with their tips. aspect: delivery guys,negative
+BHD#4,id_3,"The hot dogs are top notch, and they're Slamwich is amazing! aspect: Slamwich",positive
+Y#9,id_3,"One special roll and one regular roll is enough to fill you up, but save room for dessert! aspect: dessert",positive
+535171,id_2,"A cool bar with great food, and tons of excellent beer. aspect: bar",positive
+1280179,id_0,"I've been to at Cafe Spice probably 5-8 times, it is probably still the best Indian restaurant around Union Square. aspect: Cafe Spice",positive
+565344,id_1,This little place definitely exceeded my expectations and you sure get a lot of food for your money. aspect: food,positive
+1289424,id_3,The server was really cool and served us our food and drinks with a smile. aspect: server,positive
+1611489,id_1,"Also, the sandwiches (nearing $7) didn't come with anything like chips or a side. aspect: sandwiches",negative
+1632445,id_2,The lobster sandwich is good and the spaghetti with Scallops and Shrimp is great. aspect: spaghetti with Scallops and Shrimp,positive
+1561259,id_0,"The food is good, I can't lie. aspect: food",positive
+1225162,id_4,The bar is very well stocked with interesting beers and well priced wines. aspect: wines,positive
+527109,id_3,The wine list is extensive and can easily hike up an otherwise reasonably priced meal. aspect: meal,positive
+426930,id_0,Authentic Taiwanese food that's cheap... what more could you ask for? aspect: Taiwanese food,positive
+PP#4,id_4,I thought the restaurant was nice and clean. aspect: restaurant,positive
+ADLT#2,id_1,"The pastas are incredible, the risottos (particularly the sepia) are fantastic and the braised rabbit is amazing. aspect: pastas",positive
+1404042,id_1,Not one of our meals was edible - bland and/or made with weird rosemary or orange flavoring. aspect: meals,negative
+1723658,id_1,"Great food, good size menu, great service and an unpretensious setting. aspect: menu",positive
+NP#3,id_2,Noodle pudding is exactly the type of service and food I enjoy. aspect: food,positive
+1280166,id_3,Wine list selection is good and wine-by-the-glass was generously filled to the top. aspect: Wine list selection,positive
+720418,id_0,Great Indian food and the service is incredible. aspect: Indian food,positive
+ADLT#10,id_6,"great food, great wine list, great service in a great neighborhood... aspect: wine list",positive
+929329,id_3,"Interesting selection, good wines, service fine, fun decor. aspect: decor",positive
+447697,id_3,Try sushimi cucumber roll. aspect: sushimi cucumber roll,positive
+1154550,id_1,The place is small and cramped but the food is fantastic. aspect: place,negative
+P#9,id_5,"quacamole at pacifico is yummy, as are the wings with chimmichuri. aspect: quacamole",positive
+1387314,id_1,This is my first time writing a review for a restaurant because the food and service was excellent. aspect: food,positive
+521916,id_1,"Small servings for main entree, i had salmon (wasnt impressed) girlfriend had chicken, it was good. aspect: salmon",negative
+1572033,id_0,"Don't dine at Tamarind for the vegetarian dishes, they are simply not up to par with the non-veg selections. aspect: vegetarian dishes",negative
+553097,id_1,Too bad the food wasn't of the same heritage. aspect: food,negative
+1700205,id_1,"From the spectacular caviar to the hospitable waitstaff, I felt like royalty and enjoyed every second of it. aspect: caviar",positive
+WE#1,id_4,"The pasta was well cooked, didn't have enough sauce though or flavor. aspect: pasta",positive
+EVPK#9,id_0,cirspy crust margherita pizza aspect: margherita pizza,positive
+493514,id_0,I cannot imagine a friendlier staff working in a restaurant. aspect: staff,positive
+WE#4,id_2,Everyone raved about the atmosphere (elegant rooms and absolutely incomparable views) and the fabulous food! aspect: rooms,positive
+1404042,id_2,Fish was overdone. aspect: Fish,negative
+509227,id_3,"Rao is a good restaurant, but it's nothing special. aspect: Rao",neutral
+1398844,id_6,Somehow working the italian charm with constant mille grazie does not constitute proper service. aspect: service,negative
+511290,id_1,"But after last night, Spice Grill is the only place I'm eating indian cuisine. aspect: indian cuisine",positive
+1706644,id_4,"We ate out in the back patio, which is worth it as it's cool and the music is hear well there. aspect: music",positive
+1470334,id_4,The lox is always fresh too. aspect: lox,positive
+490565,id_4,"You can get a completely delish martini in a glass (that's about 2 1/2 drinks) for $8.50 (I recommend the Vanilla Shanty, mmmm!) in a great homey setting with great music. aspect: martini",positive
+1162037,id_2,"The atmosphere isn't the greatest , but I suppose that's how they keep the prices down . aspect: atmosphere",neutral
+NP#10,id_5,This place is a must visit! aspect: place,positive
+1413697,id_2,The place is so cool and the service is prompt and curtious. aspect: service,positive
+Z#11,id_5,The food is all shared so we get to order together and eat together. aspect: food,positive
+611117,id_4,Thanks Bloom's for a lovely trip. aspect: Bloom's,positive
+682391,id_0,Best drumsticks over rice and sour spicy soup in town! aspect: drumsticks over rice,positive
+BFC#9,id_9,"The lobster knuckles (special of the day) were ok, but pretty tasteless. aspect: lobster knuckles",neutral
+404464,id_3,I expected quite a bit more from such an expensive menu. aspect: menu,negative
+740923,id_1,"If you don't mind pre-sliced low quality fish, unfriendly staff and a sushi chef that looks like he is miserable then this is your place. aspect: staff",negative
+ADLT#10,id_2,"for 7 years they have put out the most tasty, most delicious food and kept it that way... aspect: food",positive
+1538149,id_5,Very good wine choices. aspect: wine choices,positive
+1119578,id_1,The pizza is overpriced and soggy. aspect: pizza,negative
+1671113,id_0,I have been to Casimir over 5 times and I have always had a great time there. aspect: Casimir,positive
+1609375,id_1,"We love the food, drinks, and atmosphere! aspect: drinks",positive
+561054,id_1,"When you're sitting in their main dining room (which has a spectacular, hand-painted high ceiling) you'd never know there was a world outside. aspect: ceiling",positive
+1275154,id_6,The sake menu should not be overlooked! aspect: sake menu,positive
+1338124,id_4,"I have reservations about the all you can eat deal, however -- the choices are fairly limited and you can probably order more food than you can eat for less than $18 by just going off the menu. aspect: all you can eat deal",negative
+1028246,id_1,"Service was devine, oysters where a sensual as they come, and the price can't be beat!!! aspect: oysters",positive
+0,0,went there for dinner over the weekend and was treated rudely right away by what I think was a manager who was doing anything but managing. aspect: manager,negative
+0,0,"Beyond the green awning and floor-to-ceiling windows, sophisticated (and often European) patrons drink wine from the bar in back and dine on French fare like nicoise salad, foie gras, and steak tartare at tightly packed tables. aspect: bar",neutral
+0,0,"Decor is sort of homey, with mismatched tables and plates. aspect: tables",negative
+0,0,You'll find classic PS450 dishes like the sliced steak atop creamed spinich on crunchy little toasts and new items like brie poppers on drizzled strawberry-infused sauce. aspect: items,positive
+0,0,"The wait staff is very attentive, and you can smoke at the bar while enjoying the view of the river. aspect: wait staff",positive
+0,0,The service was adequate though we did need to keep asking for water and the drinks from the bar took a long time- plus the restaraurant was not crowded. aspect: bar,neutral
+0,0,"We had to wait by the door, and the host failed to acknowledge our existence for a whole 15 minutes! aspect: host",negative
+0,0,"After requesting to be seated at an empty table, the waitress (who was so terribly burdened when we asked to move from the bar to the table to have dinner) asked us to get up from our seats and wait for a smaller table because a party of 3 just walked in. aspect: bar",neutral
+0,0,We waited forever for our bill but did have a nice conversation with one of our waitstaff during our meal. aspect: bill,negative
+0,0,"They ended up cramming 10 of us on 3 small tables, then taking forever with our food. aspect: food",neutral
+0,0,"The Scene Strictly Roots, which opened more than a decade ago as a dietary alternative to Harlem's more cholesterol- and fat-heavy fare, wears its philosophy on its facade: We serve nothing that crawls, walks, swims or flies. aspect: Scene",neutral
+0,0,"Patrons can choose to be seated in the front room with a little more activity and more of a bar feel or in one of the 2 back rooms which both offer slightly quieter, more relaxed environments. aspect: environments",positive
+0,0,"And there wasn't much room for the people at the bar to stand either, as the restaurant attempted to squeeze as many tables into the restaurant as they could, forcing those dining to have to shift in their chairs every time a waiter attempted to get by. aspect: chairs",neutral
+0,0,"Even with our reservation, they had us waiting at the bar for over an hour. aspect: bar",neutral
+0,0,for the prices that are on the regular menu we were expecting something more upscale and less generic. aspect: menu,neutral
+0,0,"as for the people whom posted about the salad, I never had it, as for the person that had no sides with the steak, they must have made a mistake, everytime I go its come's with awesome potatoes. aspect: potatoes",positive
+0,0,Too late to get a reservation so we went upstairs where initially the crowded scene threw me for a loop. aspect: reservation,neutral
+0,0,"The basil pepper mojito was a little daunting in concept, but I was refreshed at the flavor. aspect: flavor",positive
+0,0,"The Scene At this sleek spot on a relatively sparse stretch of Spring Street, regulars belly up to a small bar and greet owner Giorgio DeLuca, of Dean and DeLuca fame, with warm hugs. aspect: Scene",neutral
+0,0,The Food Former Chef of Washington Park Daniel Eardley leans heavily on seasonal ingredients: An autumn appetizer of duck salad bursts with ripe pomegranate seeds; tender grilled octopus with peppers and turnips is a starter must for every table. aspect: ripe pomegranate seeds,neutral
+0,0,"This place has great ribs, not to mention hot waitresses, its a great place to meet for drinks and dinner before you go out, but it does turn into a bit of a sausage fest on the weekends. aspect: sausage fest",neutral
+0,0,"For $65, you will get a 5-6 course tasting menu encompassing a variety of raw fish, cooked fish, pastas, dessert, etc. aspect: menu",positive
+0,0,"I went here for a fun dinner with friends - they do not take reservations during the week, but we were seated pretty swiftly for a Friday night, having had a delicious glass of Spanish wine at the bar. aspect: dinner",negative
+0,0,My only complaint was the ginger iced tea was too sugary - but the home-made fresh lemonade was very tasty and fresh. aspect: home-made fresh lemonade,positive
+0,0,"I've heard all the complaints about food and staff at this place, and perhaps some people have had an unfortunate encounter with the host or a cranky waiter. aspect: waiter",negative
+0,0,"The food is incredibly tasting and, if you want an advice: Grill calamari, Rigatoni a la vodka and, for dessert, Tartufata. aspect: Grill calamari",neutral
+0,0,Good value for money--especially the $7 lunch special for 2 courses. aspect: courses,neutral
+0,0,The place was empty (my boyfriend and I were the only one's there other than the potty-mouthed patron's at the bar) yet the service was slow. aspect: bar,neutral
+0,0,The waiter brought out the same dish three times during the meal. aspect: waiter,negative
+0,0,"For a menu in a similar price range with some similar items, but mostly unique entrees, try the less formal Toast 13 or so blocks north on the same side of Broadway. aspect: entrees",positive
+0,0,The waiter had a slight attitude and brought our wine aprroximately 10 minutes into our appetizer. aspect: wine,neutral
+0,0,"Caffeine addicts will have to find their fix elsewhere as coffee is curiously not on the menu, but the Singha beer and decent wine list more than compensates. aspect: wine list",positive
+0,0,"However, the appetizers I've tried (rolls, calamari, fish fingers) were really delicious. aspect: fish",neutral
+0,0,"Though the service might be a little slow, the waitresses are very friendly. aspect: service",negative
+0,0,"After the grilled calamari, we got onion soup that had no soup, a dish of beans that had no flavor, the kitchen didn't make one of the three pasta dishes ordered, and the pork chop and other main dishes were not very good. aspect: pork chop",negative
+0,0,"Most diners stick to hot (shredded chicken breast in garlic and walnut sauce) and cold (briny tapenade, made with Greek olives, capers and anchovies) meze, served in handsome vintage dishes. aspect: shredded chicken breast in garlic",neutral
+0,0,"after booking reservations at Danube, only to show up and not have any tables available, the Danube somelier graciously called over to Bouley and got us a table for immediate seating. aspect: reservations",neutral
+0,0,"worth every penny, and with the deals on the bar , you could drink and sing to CURRYoke all night,,,, aspect: drink",neutral
+0,0,"The food is definitely the attraction, but the service has been consistently bad on every visit. aspect: service",negative
+0,0,Our waitress took our order and then NEVER came back to our table. aspect: waitress,negative
+0,0,"The food was of a relatively high standard, except the oysters seemed a little off. aspect: oysters",negative
+0,0,"It is a must for lunch,dinner or anytime you have a big appetite and don't want to spend big bucks in the big Apple! aspect: dinner",neutral
+0,0,"We waited in standing at the entrance for 5 mins to get seats due to just slow service, another 10mins to get menu, and then another 10mins to get water bread. aspect: service",negative
+0,0,"Then, the waitress gave my wife coffee with regular milk in it even though my wife specifically requested Soy Milk. aspect: Soy Milk",neutral
+0,0,"They ended up cramming 10 of us on 3 small tables, then taking forever with our food. aspect: tables",negative
+0,0,"Dessert: Creme Brulee-it was okay, it started off warm on the edges then it got really cold in the middle. aspect: Creme Brulee-it",negative
+0,0,"For dessert, the oversized bread pudding can't be beat. aspect: dessert",neutral
+0,0,from the sandwich wraps and hot italian dishes to the creative pizzas. aspect: italian dishes,positive
+0,0,The menu prices are a bit expensive for what you get in quality and portion size. aspect: portion size,neutral
+0,0,"Flavorful Indian favorites like vegetable pakora, lamb tikka masala and tandoori chicken, as well as unexpected offerings such as Alaska king crab legs and fried coconut shrimp, are served at extremely reasonable prices. aspect: lamb tikka masala and tandoori chicken",neutral
+0,0,After I had complained to a bouncer (the manager would not see me) a waiter was sent over and did get us our drinks. aspect: manager,negative
+0,0,"Staples are available every which way--tacos hard and soft, wrapped in tortillas stuffed with guacamole, cheese or black beans; burritos of beef, breaded catfish, pork pipian and chipotle chicken; plus a choice of four sauces from mild to just plain stupid. aspect: Staples",positive
+0,0,"Music was blasting (speakers located practically on top of every table), and we asked the waitress if they can turn it down. aspect: waitress",neutral
+0,0,It looks like a dive but serves up fresh authentic Mexican fare you won't normally find in your average Tex-Mex style restaraunt. aspect: restaraunt,negative
+0,0,"First, the hostess gave us a nasty look when asked if we could eat at the bar, and then just swished her hand to indicate we could seat ourselves. aspect: bar",neutral
+0,0,"The food did come out quickly and was good, but not worth the prices or the wait. aspect: food",positive
+0,0,"As for their pasta, the tomato sauce, not the tomato basil; it's got a tang I didn't like. aspect: the tomato sauce",negative
+0,0,The waiter had a slight attitude and brought our wine aprroximately 10 minutes into our appetizer. aspect: attitude,negative
+0,0,"Later, as our large party began filtering out, I overheard our waiter discussing the menu mixup to about 5 members of the staff, blaming us. aspect: menu",neutral
+0,0,"I liked the place and the people, but we really went to have dinner no appetizers as the whole dinner. aspect: people",positive
+0,0,"We were just settling the bill, when a waiter I can only assume held a controlling interest in the restaurant (else he would've been fired long ago) came to the table and demanded to know why someone (our friend who'd briefly left to use the restroom) had left her beer half-full. aspect: bill",neutral
+0,0,"Flavorful Indian favorites like vegetable pakora, lamb tikka masala and tandoori chicken, as well as unexpected offerings such as Alaska king crab legs and fried coconut shrimp, are served at extremely reasonable prices. aspect: prices",positive
+0,0,"Went for lunch the bartenders were great, also they had a DJ playing music during the day, there was a Huge screen tv playing music videos and a bunch of other tvs with all the sports you could look at. aspect: lunch",neutral
+0,0,"There was 3 baby carrots, a spoon full of spinach, sun dried tomatoes, 3 pieces of eggplant, and 10 string beans, oh and onions. aspect: onions",neutral
+0,0,"There is almost always an hour wait at dinner time, but this may be the best Japanese Sushi restaurant in NYC. aspect: Japanese",positive
+0,0,"The waitress really struggled with anything more complicated than that--not sure if it was a language problem or what, but 3 of the 4 drinks we ordered came both late and wrong, including beer brought in place of a cocktail, the wrong wine, and a mystery drink that nobody had ordered. aspect: waitress",negative
+0,0,"For dinner I recommend Carne Tampiquea (steak) And for brunch the Huaraches with meat and a couple eggs on top, a typical mexican hangover plate! aspect: brunch",neutral
+0,0,You'll find classic PS450 dishes like the sliced steak atop creamed spinich on crunchy little toasts and new items like brie poppers on drizzled strawberry-infused sauce. aspect: poppers,neutral
+0,0,The food and wine selection is superb and the chef brings it all together each and every time. aspect: wine selection,positive
+0,0,"I've been here twice for brunch, and I found the ambience and food to be much better than the overly-hyped Kitchenette next door. aspect: brunch",neutral
+0,0,My date and I were both taken back by the lack of the friendly attitude from the owner of the restaurant. aspect: attitude,positive
+0,0,"as for the people whom posted about the salad, I never had it, as for the person that had no sides with the steak, they must have made a mistake, everytime I go its come's with awesome potatoes. aspect: salad",neutral
+0,0,"The Scene Schnack feels a lot like a roller-rink concession stand circa 1982, from the deep vinyl booths and beat-up chairs right down to the loud music and plastic menu boards. aspect: menu boards",negative
+0,0,The place is full of flavor and color and the music just puts you in the mood for food and drinks. aspect: food,positive
+0,0,Then the waitress became upset when she returned with the drinks and we didn't stop our conversations quick enough to remind her who had ordered what only 5 minutes prior. aspect: drinks,neutral
+0,0,"My only gripe was that the food was all in big bins, but that's expected for a lunch rush hour type crowd. aspect: crowd",negative
+0,0,"My friend also knew the chef, so we had some other courses not on the menu, but even knowing the chef didn't get us the service I would expect at this type of restaurant. aspect: menu",neutral
+0,0,"Marisol at the front desk is serviceable; our sommelier, though not French, knew his Bordeaux, and our server was delightful. aspect: server",positive
+0,0,"I went on a Saturday night on the recommendation of the new General Manager, Mike who also did Cheetah Club and Le Souk. aspect: Club",neutral
+0,0,"The fries were absolutly inedible, and the coldslaw tasted like it was straight out of a bucket from Sam's, and the friend shrimp had too much curry. aspect: curry",negative
+0,0,"i was at opia january 5, 2006 we had some drinks, dinner, i have to say that we had me and my friend great time, the staff was listening, the manager knew what he was doing and the food better than ever!! aspect: dinner",neutral
+0,0,I lived next door and loved to go down for a drink at their uplit marble bar under the beautiful lighting or sit by the fireplace when the live band is not playing. aspect: bar,neutral
+0,0,") Howver, we didn't expect to be bumped by waiters a few times during our dinner. aspect: dinner",neutral
+0,0,An unfriendly hostess greeted us and placed us in the main room of the restaurant where the tables were so close together that it was impossible for guests and waiter to move without bumping you. aspect: tables,negative
+0,0,Food was good although menu was a little limited(still plenty to chose from). aspect: Food,positive
+0,0,"I liked the place and the people, but we really went to have dinner no appetizers as the whole dinner. aspect: place",positive
+0,0,I definitely liked the vibe in the restaurant - the food is good with enough variety to please everyone - i'd say the portions were quite skimpy where it counts - meat whether fish or steak- and for those prices this is very irksome. aspect: vibe,neutral
+0,0,Our bill total was only $30 and our waiter threw in a side of linguini (no charge) since the entrees don't come with pasta sides. aspect: waiter,negative
+0,0,The portions were so small that we still wanted to eat after dinner. aspect: dinner,neutral
+0,0,"After being seated outside by the host, a waitress came over and yelled at us for taking a table that belonged to people waiting at the bar. aspect: waiting",neutral
+0,0,The drinkers beside us had fresh glasses of water brought on trays to replace the empties and a smiling waitress to cater to their every whim. aspect: drinkers,positive
+0,0,"The food is pretty good, but the staff would rather be anywhere than waiting tables at Maison. aspect: waiting tables",neutral
+0,0,"Me and my wife we go there at least once a month, the food they give you is amazing we only get one order of pasta and main course it is enough for both to share,we get full and satisfied, our favorite dish penne with pesto. aspect: pasta",neutral
+0,0,"All dishes have been adjusted for American preferences (bland, missing spices and wok heat). aspect: spices",negative
+0,0,"On the other hand, the food was good but not awesome as had been described, furthermore I found the portions fairly small for this type of restaurant. aspect: food",positive
+0,0,"The owner Don greeted us at the door with a warm smile, and seated us for dinner upstairs. aspect: owner",positive
+0,0,"Food was so-so, but it was the most awful dinner I experienced in my life. aspect: Food",neutral
+0,0,"My boyfriend's halibut was slightly undercooked, so he sent it back -- the result was not only a fresh piece of perfectly cooked fish, but also a complimentary spread of FOUR desserts! aspect: halibut",negative
+0,0,"The food was of a relatively high standard, except the oysters seemed a little off. aspect: food",positive
+0,0,"Its not cheap, it was $10 for a burger and fries, and when i was there, the waiter had dropped a FULL glass of coke on a patron, soaking her through! aspect: burger",neutral
+0,0,"Atmosphere, I'd give to Rosa or Maya, but Mexican fare at Zarela is tops. aspect: Mexican fare",positive
+0,0,I lived next door and loved to go down for a drink at their uplit marble bar under the beautiful lighting or sit by the fireplace when the live band is not playing. aspect: live band,neutral
+0,0,"The Scene Though plenty of white-washed tables and chairs are scattered about the dining room, it's the bar that acts as a neighborhood gathering place. aspect: bar",neutral
+0,0,The ambience isn't great but the food is so tasty and so reasonably priced that it's definitely a fun date place if you want to get a bunch of stuff and sample. aspect: ambience,negative
+0,0,The noise level is equivalent to a sports bar. aspect: noise,negative
+0,0,"Everything on the menu is satisfyingly savory, from a simple pot of mussels in a choice of sauces (beer-and-bacon, creamy mushroom, or white-wine-and-garlic broth), to beef stewed with beer and prunes, to a juicy croque-monsieur, and beyond. aspect: pot",positive
+0,0,"Favorites include the Curry Shrimp w/ Mushrooms, Watercress Salad (not listed on menu), and Kao Soy noodle soup with chicken. aspect: Curry Shrimp w/ Mushrooms",positive
+0,0,"Decor is sort of homey, with mismatched tables and plates. aspect: Decor",positive
+0,0,The owner addressed me by my first name after my second visit The garlic shrimp is a hit and the Sangria ( the bartender on Fridays mixes the drink in three ways). aspect: owner,positive
+0,0,"Count on fresh, fairly priced cuts of fish that represent a good value, even if portions are a bit on the small side. aspect: fish",positive
+0,0,"We were told by the hostess to make sure we were on time for our reservation, which we were, but then they kept us waiting for 15 minutes when we got there. aspect: reservation",neutral
+0,0,"We went out on the town with the idea that we were going to mingle with the in crowd, you know, go to a place where you pay an outrageous cover charge, have to wear all black to fit in, and pay $12 for a watered-down martini, and if you're lucky, have a good time. aspect: watered-down martini",neutral
+0,0,"Superfine is my preferred destination in the city when I'm looking for a casual, hip atmosphere, extraordinary food at decent prices and/or just a place to get a good drink, chat with the bartender and shoot some (free) pool. aspect: prices",positive
+0,0,"the food is not nearly good enough to wait an hour before seeing your server, or wait another hour for the wrong entrees, or for the manager to make up for it by charging for everthing but giving us on the house shot glasses of watery margaritas. aspect: food",negative
+0,0,"With tacky kitsch as the decor's dominant motif and the obligatory grousing waiters hustling out brick-sized steaks and icy vodka to gussied-up regulars and tourists, an evening at Sammy's is both dinner and street theater. aspect: dinner",neutral
+0,0,"Everything on the menu is satisfyingly savory, from a simple pot of mussels in a choice of sauces (beer-and-bacon, creamy mushroom, or white-wine-and-garlic broth), to beef stewed with beer and prunes, to a juicy croque-monsieur, and beyond. aspect: beef stewed",neutral
+0,0,"Handsome baritone Nordic waiters patrol the room, proffering fresh-squeezed juices and $4-a-person pots of French press coffee. aspect: waiters",positive
+0,0,"The food is on the good side but not so terrific to compensate the bad service, crammed tiny-tables, dirty glasses, overly loud music, which is good for the bar part of the establishment but not when you want to seat down, eat and have a normal conversation at normal volume. aspect: service",negative
+0,0,"Although it was quite good, the small portions at this table of 4, including appetizers, did not constitute adequate sustenance. aspect: portions",negative
+0,0,Sit at the bar and eat here regularly and the sushi chef who is also the owner will hook you up the best cuts of fish. aspect: bar,neutral
+0,0,The guacamole at $7 is a small portion served with a stack of Si!Ortega flat taco shells. aspect: guacamole,neutral
+0,0,"For entree I would recommand the rabbit curry - the meat was cooked very finely and the curry sauce, though a bit too sweet, went well with rice. aspect: entree",neutral
+0,0,"not authentic sushi or the highest quality fish (yes, I think I'm qualified to state that)  good sushi rolls and appetizers  the rock shrimp avocado roll is recommended. aspect: sushi rolls",positive
+0,0,"And the waiter actually replied, yes that's why it took you so long to get a reservation. aspect: waiter",negative
+0,0,waitstaff was more into pushing the sparkling water than give me a wine menu. aspect: water,neutral
+0,0,After arriving an hour early for our reservation for 2 and politely asking for a table near the band we were promptly seated at one of the worst tables in the place. aspect: tables,negative
+0,0,"When you go, you should ask for help from the wait staff in deciding what to order since the menu can be daunting. aspect: menu",negative
+0,0,The manager very politely told the drunk man that he could leave and then gave everyone on the resturaunt a free glass of port for having to witness it. aspect: manager,positive
+0,0,"the food is not nearly good enough to wait an hour before seeing your server, or wait another hour for the wrong entrees, or for the manager to make up for it by charging for everthing but giving us on the house shot glasses of watery margaritas. aspect: server",negative
+0,0,As a chef I really appreciated the well executed dishes that were full of crisp and vibrant flavor contrast acting in harmony and perfect balance. aspect: flavor,positive
+0,0,"The organic free range chicken was a 6, the lamb chop was excellent, and we had to send the halibut back 2x with no result- ended up having to order anther dish (cod) in which the fish was good but the clams were too tough to eat and the sausage wasn't even finished cooking (thus could not be consumed). aspect: organic free range chicken",neutral
+0,0,The service was unattentive and the only time she came over was to aggressively push drinks on us. aspect: drinks,neutral
+0,0,"In edition, they have pasta and other entree choices along with an excellent quick breakfast (omlet and homefries ext). aspect: entree",neutral
+0,0,The texture of their flat noodles is something that has to be experienced to understand. aspect: flat noodles,neutral
+0,0,"It wasn't until we spoke with management that we were able to finish our meal and get out of the restaurant, but already one of our party had to leave early and the rest of us were late for our afternoon engagements. aspect: meal",neutral
+0,0,I definitely liked the vibe in the restaurant - the food is good with enough variety to please everyone - i'd say the portions were quite skimpy where it counts - meat whether fish or steak- and for those prices this is very irksome. aspect: food,positive
+0,0,"We made a reservation for 5:30pm (20 people) and people were still arriving at 5:45 (over half the group was there) when the manager came over and literally yelled at us for not being on time saying it was a busy time for him, when in fact there were several empty tables throughout the restaurant. aspect: reservation",neutral
+0,0,Last time I was there the chef made me a special dessert called yokan (red bean cake with strawberry sauce on top) and it was delicious. aspect: yokan,neutral
+0,0,The pizza is thet always fresh and just made they hav an outdoor seating area that is partially covered they also have a full service restaurant on the premises they make everything on premises. aspect: service,positive
+0,0,Tension filled the air as the chief yelled at a waiter in the middle of the bar while in uniform and drinking. aspect: air,neutral
+0,0,"We are laidback diners and as we've both waited tables, we tend to be forgiving of irregular service. aspect: tables",neutral
+0,0,I would also recommend the garlic bread for a starter. aspect: garlic bread,positive
+0,0,"Caffeine addicts will have to find their fix elsewhere as coffee is curiously not on the menu, but the Singha beer and decent wine list more than compensates. aspect: menu",neutral
+0,0,"Frustrated, hand the check back to the server and said 'by the way, never got the dessert and he said i did not realize you wanted dessert' aspect: server",negative
+0,0,"Over a period of time some restaurants tend to loose the quality of the taste of their food, but not Ray's. aspect: taste",negative
+0,0,"The service was only average - even with reservations we waited 40 minutes, and had to ask for our table, which had been ready, the hostess just never bothered to tell us. aspect: table",neutral
+0,0,The ambience and service here are great but the food was really awful. aspect: service,positive
+0,0,"Once they took our wine order, it took 45 minutes for it to arrive, even though the waiter was talking to a patron next to us. aspect: waiter",negative
+0,0,"I'm not going to trash the place simply because I had a bad experience there, but here's the facts: the food is very good, the portions are small-to-medium, and the prices are large. aspect: portions",negative
+0,0,Our lovely waiter sent us off with scones for breakfast the following AM! aspect: waiter,positive
+0,0,and if that wasn't enough the owner threw in a free beer each for me and my friend. aspect: beer,neutral
+0,0,The owner addressed me by my first name after my second visit The garlic shrimp is a hit and the Sangria ( the bartender on Fridays mixes the drink in three ways). aspect: garlic shrimp,positive
+0,0,"Our waitress recommended the coffee flan for dessert, and we didn't regret it. aspect: waitress",neutral
+0,0,Waiters take your order and you don't get your food for at least 1 hour so you can prchase drinks. aspect: drinks,neutral
+0,0,"Getting into the steak frites takes some sawing, but once cut, the meat is flavorful, if in need of salt. aspect: steak frites",neutral
+0,0,"The scene is pretty cool and the drinks are OK, but the food and service were pretty weak. aspect: scene",positive
+0,0,"I have been here a few times and never had a boring meal!Food always fresh, service very civilized. aspect: meal",negative
+0,0,"The Food While there are plenty of meat dishes, including the sweet and spicy Curry Ga with humongous slices of chicken mixed with eggplant, onions and coconut milk, and Bo Sate with sauteed beef, pineapple and crushed peanuts, seafood and vegetarian dishes make up most of the menu. aspect: onions and coconut milk",neutral
+0,0,"We got so frustrated with our waitress, who stopped by twice over the course of 2 1/2 hours, that we had to order everything from the bar. aspect: bar",neutral
+0,0,Consistently satisfying versions of Thai staples like pad Thai and curry dishes arrive in generous portions. aspect: portions,positive
+0,0,But a server coming up to the table chewing gum while she went through the specials is not my idea of professional. aspect: server,negative
+0,0,"However, the appetizers I've tried (rolls, calamari, fish fingers) were really delicious. aspect: calamari",neutral
+0,0,"The food did come out quickly and was good, but not worth the prices or the wait. aspect: wait",negative
+0,0,Too bad the food and service aren't nearly as nice as the decor. aspect: food,neutral
+0,0,"The only blemish was our waitress, who left us with empty drinks for quite a long time. aspect: waitress",negative
+0,0,"Highlights include a breaded veal chop with tomatoes and arugula, a pea-and-mushroom risotto topped with slivers of fried zucchini and doused with truffle oil, and a top-shelf roasted chicken with rapini and sausage. aspect: breaded veal chop with tomatoes and arugula",positive
+0,0,"We had a nice bottle of wine, dinner, and dessert for under $200. aspect: dessert",positive
+0,0,WHen I politely asked for a water he pointed to the waiter and looked the other way! aspect: waiter,negative
+0,0,The staff was accomodating towards our daughter and nice enough to check up on her after they served dinner (I was a little concerned about the spices and they suggested a dish). aspect: spices,neutral
+0,0,"This place happens to be beatifully designed, the atmosphere is relaxed (as opposed to the noisy community dining atmosphere in so many busy chinese reataurants - which can also be OK) the food is authentic Chinese as opposed to what they think Americans would like, the staff is friendly and unhurried. aspect: staff",positive
+0,0,"Good atmosphere, the service is so-so and there is a long wait if you don't have reservations. aspect: wait",negative
+0,0,Recommended to those who want to try a different setting for a diner. aspect: diner,neutral
+0,0,Good place for groups of four or large parties but it is not a cozy/intimate setting for 2 although the jazz helps! aspect: place,positive
+0,0,"The wine list didn't look all that great, but there was a very interesting selection of beers on tap. aspect: tap",neutral
+0,0,We waited forever for our bill but did have a nice conversation with one of our waitstaff during our meal. aspect: waitstaff,positive
+0,0,"Staples are available every which way--tacos hard and soft, wrapped in tortillas stuffed with guacamole, cheese or black beans; burritos of beef, breaded catfish, pork pipian and chipotle chicken; plus a choice of four sauces from mild to just plain stupid. aspect: sauces",neutral
+0,0,Russ Pizza serves up the best lasagna I have ever tasted (sorry mom! aspect: Russ Pizza,neutral
+0,0,"The food seems so-so, although the nachos were really yummy (fake hot cheese w/ big cups of beans, chili guac on the side). aspect: food",negative
+0,0,"The food is above average, though the portions a tad small, even for tapas; but they more than make up for it with their wonderfull mojitos. aspect: portions",negative
+0,0,"Service is FAST so if you are dining, order entrees after receiving apps. aspect: Service",positive
+0,0,"The presentation was clever, and the food tasty however the service that accompanied it was so slow it made us feel neglected. aspect: service",negative
+0,0,The price is well worth the quality and quantity of food. aspect: food,neutral
+0,0,"I mean no disrespect to the owner, just constructive criticism - improve the decor and dine-in service, but DON'T change the portions or the recipes. aspect: portions",neutral
+0,0,"This Prospect Heights institution, with its old-fashioned soda-fountain type counter, complete with cakes of the day on pedastals w glass covers, attracts a diverse and loyal crowd. aspect: soda-fountain",negative
+0,0,"The food at Cafe Asean is to die for, and the prices are unmatchable. aspect: prices",negative
+0,0,"I got a coke and dessert (fluffy, light tiramisu) as well. aspect: dessert",neutral
+0,0,"I naively thought dinner was served during the show, but the waiters don't come by once the shows start, so order your wine 30 mins before the show start time. aspect: dinner",neutral
+0,0,The numbness in your lower legs from sitting on old wood chairs is more than compensated by the wonderful food. aspect: food,positive
+0,0,"my waitress was unable to answer my questions about the menu, and forgot to put in my order. aspect: waitress",negative
+0,0,"Staples are available every which way--tacos hard and soft, wrapped in tortillas stuffed with guacamole, cheese or black beans; burritos of beef, breaded catfish, pork pipian and chipotle chicken; plus a choice of four sauces from mild to just plain stupid. aspect: cheese",neutral
+0,0,"The service was fine, out appitizers took forever to come out, and then they dumped the rest of the food on us, without giving us a chance to enjoy our appitizers. aspect: food",neutral
+0,0,My only complaint was the ginger iced tea was too sugary - but the home-made fresh lemonade was very tasty and fresh. aspect: ginger iced tea,negative
+0,0,"Waitress didn't know anything about the menu, but other than that I would recommend. aspect: Waitress",negative
+0,0,"The green hair table and seating at the front window was tacky and gimmicky, but figured it's the food that counts. aspect: front window",neutral
+0,0,"We had a nice bottle of wine, dinner, and dessert for under $200. aspect: bottle of wine",positive
+0,0,"However, unlike a lot of places the service was great: we walked in after not being able to get a reservation and were seated within 10 mins. aspect: service",positive
+0,0,The place is full of flavor and color and the music just puts you in the mood for food and drinks. aspect: music,positive
+0,0,i went in one day asking for a table for a group and was greeted by a very rude hostess. aspect: table,neutral
+0,0,The items available during dimsum time were plentiful - the turnip cake was excellent. aspect: dimsum,neutral
+0,0,The food took forever to come out from the kitchen. aspect: kitchen,neutral
+0,0,"our waiter from last year, a young man named Chris, actually remembered us (we did speak at length that evening about everything from food and wine to how to create good marrige). aspect: wine",neutral
+0,0,"One of the managers offered us a seat at the bar to wait for a table, there we had the most amazing empanadas and red sangria. aspect: bar",neutral
+0,0,"If you are undecided about which sandwich to choose, go for the Indecision, which is a trio of smaller sandwiches on the menu. aspect: menu",neutral
+0,0,"When I went for sunday brunch, not only was the food bland and cold, they didn't even bother to clear the plates once they brought the bill. aspect: food",negative
+0,0,Hearty appetizers include garlicky tomato bruschetta; a platter of prosciutto with dry-aged sausage; and baby spinach salad with shaved pecorino cheese. aspect: platter of prosciutto with dry-aged sausage,neutral
+0,0,My friend and I walked in to an over crowded bar and were warned of a 45 minute wait. aspect: wait,neutral
+0,0,Our waitress had no clue about the menu and (after we had ordered a bottle of wine) told us the kitchen was closing and stood guard until we ordered. aspect: menu,negative
+0,0,"Later, as our large party began filtering out, I overheard our waiter discussing the menu mixup to about 5 members of the staff, blaming us. aspect: staff",negative
+0,0,We waited FOREVER on Valentine's Day for our table because their hostess had lost our reservation BUT the food was worthy of the long wait anyway. aspect: food,positive
+0,0,The staff was accomodating towards our daughter and nice enough to check up on her after they served dinner (I was a little concerned about the spices and they suggested a dish). aspect: served dinner,neutral
+0,0,"Like the other Bromberg Brothers establishments, expect the customer is always wrong attitude from the staff along with overpriced wines you never heard of, no bar, tiny waiting area and lousy desserts. aspect: desserts",negative
+0,0,"The feeling of unwelcomeness was especially prevalent due to the fact that our waiter hovered over our table and immediately cleared the table of dishes and glasses, some of which were still full in order to get us out the door ASAP. aspect: table of dishes",neutral
+0,0,"One of the managers offered us a seat at the bar to wait for a table, there we had the most amazing empanadas and red sangria. aspect: wait",neutral
+0,0,"I have no idea what the food is like here, I only come for the frozen margaritas which I find to be the best I've found in the city and the grilled corn. aspect: grilled corn",neutral
+0,0,"The owner Don greeted us at the door with a warm smile, and seated us for dinner upstairs. aspect: dinner",neutral
+0,0,"Like the other Bromberg Brothers establishments, expect the customer is always wrong attitude from the staff along with overpriced wines you never heard of, no bar, tiny waiting area and lousy desserts. aspect: customer",neutral
+0,0,"In Short A dark, narrow takeout area gives way to small tables in a cozy space decorated to resemble a Bedouin tent. aspect: takeout",negative
+0,0,I was told they had one(early) reservation; felt deceived b/c when I left the place was empty! aspect: reservation,neutral
+0,0,Our waiter recommended thZt we share a few of the appetizers; they were great. aspect: waiter,neutral
+0,0,waitstaff was more into pushing the sparkling water than give me a wine menu. aspect: wine menu,neutral
+0,0,"I went here for a fun dinner with friends - they do not take reservations during the week, but we were seated pretty swiftly for a Friday night, having had a delicious glass of Spanish wine at the bar. aspect: glass of Spanish wine",positive
+0,0,"The Food Guiltily scarf down fried catfish sandwiches and collard greens, or try Clinton's favorite: short ribs and fried chicken. aspect: collard greens",neutral
+0,0,I went there for lunch on a quiet weekday afternoon and everything my friend and I ordered was immaculately presented and absolutely delicious-- I had moules frites and she had the salmon burger. aspect: weekday,positive
+0,0,"After a couple of drinks, the apps--I like the lobster/mango summer roll and the cripsy squid--go down great. aspect: drinks",neutral
+0,0,They kept us waiting for more than an hour WITH a reservation and WITHOUT an apology. aspect: waiting,negative
+0,0,"The food seems so-so, although the nachos were really yummy (fake hot cheese w/ big cups of beans, chili guac on the side). aspect: chili guac",positive
+0,0,The waiter spent a long time telling us about the menu (and more about his own life history in the process. aspect: menu,neutral
+0,0,"For entree I would recommand the rabbit curry - the meat was cooked very finely and the curry sauce, though a bit too sweet, went well with rice. aspect: rabbit curry",positive
+0,0,"Save the $$ and go to to curry hill (just 2-3 blocks away) or spend the $$ at a midtown indian eatery  (Also: I commented to hostess prior to seating that there were a lot of tables empty when choosing my seat, and she snapped back that they had a lot of reservations coming in at one time. aspect: seating",neutral
+0,0,Thanks to waiter I learned so much about wine too. aspect: wine,neutral
+0,0,The owner addressed me by my first name after my second visit The garlic shrimp is a hit and the Sangria ( the bartender on Fridays mixes the drink in three ways). aspect: bartender,positive
+0,0,"The momos (dumplings) are tiny with paper-thin dough, the shitake pancakes are to die for, the steamed greens (I forgot the name of the dish) is delicious as a vegetarian entry or with sauteed salmon. aspect: dish",neutral
+0,0,"It took forever to seat us even though the restaurant was almost completely empty, then we had to ask to be waited on, it took another 15 minutes to get our drinks, and then another 30 minutes to get our salad and then even more time to get our pizza and then our bill. aspect: seat",negative
+0,0,"worth every penny, and with the deals on the bar , you could drink and sing to CURRYoke all night,,,, aspect: deals",neutral
+0,0,"The steaks are just as good, with an assortment of tasty side dishes that make Peter Luger's menu look like the slip in a fortune cookie. aspect: side dishes",positive
+0,0,"Service wasn't great - they accidentally gave us our neighbors' entrees, and there was a good 40-minute wait between appetizers and main courses - but the food was overall very good, particularly the desserts. aspect: desserts",positive
+0,0,from the sandwich wraps and hot italian dishes to the creative pizzas. aspect: pizzas,positive
+0,0,"Finally, one of the waitstaff noticed and brought out a dirty bus pan which he put on the table next to me and started bussing the entire dining room. aspect: waitstaff",negative
+0,0,"The food is worth it, but I suggest you order delivery, so that you don't have to read old issues of Robb Report while you wait forever in a small and hot room. aspect: delivery",neutral
+0,0,"When I went for sunday brunch, not only was the food bland and cold, they didn't even bother to clear the plates once they brought the bill. aspect: brunch",neutral
+0,0,They seem under staffed and Waiters do not really know the menu. aspect: menu,neutral
+0,0,"The service was fine, out appitizers took forever to come out, and then they dumped the rest of the food on us, without giving us a chance to enjoy our appitizers. aspect: service",positive
+0,0,"The Food Guiltily scarf down fried catfish sandwiches and collard greens, or try Clinton's favorite: short ribs and fried chicken. aspect: fried chicken",positive
+0,0,"For $65, you will get a 5-6 course tasting menu encompassing a variety of raw fish, cooked fish, pastas, dessert, etc. aspect: dessert",neutral
+0,0,"Staples are available every which way--tacos hard and soft, wrapped in tortillas stuffed with guacamole, cheese or black beans; burritos of beef, breaded catfish, pork pipian and chipotle chicken; plus a choice of four sauces from mild to just plain stupid. aspect: pork pipian",positive
+0,0,"The Scene At this sleek spot on a relatively sparse stretch of Spring Street, regulars belly up to a small bar and greet owner Giorgio DeLuca, of Dean and DeLuca fame, with warm hugs. aspect: bar",negative
+0,0,WHen I politely asked for a water he pointed to the waiter and looked the other way! aspect: water,neutral
+0,0,"The momos (dumplings) are tiny with paper-thin dough, the shitake pancakes are to die for, the steamed greens (I forgot the name of the dish) is delicious as a vegetarian entry or with sauteed salmon. aspect: shitake pancakes",positive
+0,0,Even a modest bottle of wine was accurately described by the wait staff and pleasing. aspect: wait staff,positive
+0,0,I have definately found my new favorite place for dinner and with its large bar for hanging out on the weekends. aspect: dinner,neutral
+0,0,After arriving an hour early for our reservation for 2 and politely asking for a table near the band we were promptly seated at one of the worst tables in the place. aspect: reservation,neutral
+0,0,"Oh, the prices were not so bad either, we paid $58 for chicken, salmon, one sushi roll, one ceasar salad and soda :). aspect: salmon",neutral
+0,0,"Come-as-you-are atmosphere, jukebox, value and James behind the bar work as a magnet. aspect: value",neutral
+0,0,When they brought out the food the waiter dropped one of the plates right in front of us and didn't appologize or bring us out a complimentry plate. aspect: waiter,negative
+0,0,The Wasa Waffle was different but when we spoke to the manager he inmediatly changed if for another dish (He suggested the Chocolate decadence French Toast. aspect: dish,neutral
+0,0,"A huge water wall, pieced together with thousands of azure blue tiles dotted with white plaster body forms in mid-swan dive, rises up from the foyer to the second floor. aspect: blue tiles",positive
+0,0,"While getting a reservation upstairs can be a pain, stopping by on Saturday night for a dinner by the window is a fun way to experience Babbo without the long term planning. aspect: dinner",positive
+0,0,since we're informed its service isslow we had dinner in midtownwent for dessertb-day thing. aspect: dinner,neutral
+0,0,"The appetizers were delicious and the entrees were superb (the mahi was a little bland, but I guess you can't win them all). aspect: entrees",positive
+0,0,"The Scene Uncomplicated, tasteful touches--a soothing abstract painting, an exposed brick wall, a tiny bar--grace the restaurant's neutral-toned interior. aspect: bar",negative
+0,0,Staff would not change a meal to accomadidate food allegeries. aspect: food,neutral
+0,0,"The small bar is always packed with people, and you have to constantly contend with waiters asking you to move as they navigate through the crowd to make it to their tables. aspect: bar",neutral
+0,0,"Superfine is my preferred destination in the city when I'm looking for a casual, hip atmosphere, extraordinary food at decent prices and/or just a place to get a good drink, chat with the bartender and shoot some (free) pool. aspect: food",positive
+0,0,"It's really great to go in here and be able to get a creative cheap drink (they have things like blueberry mohitos for $4), a $4 plate of veggie spring rolls, and be able to joke with the bartender. aspect: veggie spring rolls",neutral
+0,0,The wait staff didn't bother to refill my water until I had finish mine and was almost done with my husband's glass too. aspect: water,neutral
+0,0,"Appetizers and entrees were merely adequate, but you can't beat the pool room for atmosphere. aspect: Appetizers",neutral
+0,0,I excused myself from my table went downstairs to inform the hostess that I would like to suprise my dinner guest by recognizing his birthday in a very understated way. aspect: hostess,positive
+0,0,But it's the ambience that is the draw for me---sipping red wine and sitting under the red awning on a warm night. aspect: ambience,positive
+0,0,"Try the shrimp and bacon hash with a perfectly spicy bloody or two, what a brunch should be. aspect: brunch",neutral
+0,0,"Though we had to wait about 45 minutes from our dinner reservation time, we were given breadsticks, olives and parmasean to nibble on while we waited, albeit in the very cramped bar area. aspect: olives",neutral
+0,0,"It wasn't until we spoke with management that we were able to finish our meal and get out of the restaurant, but already one of our party had to leave early and the rest of us were late for our afternoon engagements. aspect: management",negative
+0,0,"With tacky kitsch as the decor's dominant motif and the obligatory grousing waiters hustling out brick-sized steaks and icy vodka to gussied-up regulars and tourists, an evening at Sammy's is both dinner and street theater. aspect: vodka",neutral
+0,0,"Flavorful Indian favorites like vegetable pakora, lamb tikka masala and tandoori chicken, as well as unexpected offerings such as Alaska king crab legs and fried coconut shrimp, are served at extremely reasonable prices. aspect: vegetable pakora",neutral
+0,0,Definitely try their Pizzas and Wines--although their desserts are not-to-shabby either. aspect: Pizzas,positive
+0,0,"In Short It's a bakery, takeout place and cafe all in one, and thanks to dishes prepared using the same ingredients stocked at famed gourmet food emporium, Zabar's, prices and quality are upscale. aspect: place",neutral
+0,0,"The waitress really struggled with anything more complicated than that--not sure if it was a language problem or what, but 3 of the 4 drinks we ordered came both late and wrong, including beer brought in place of a cocktail, the wrong wine, and a mystery drink that nobody had ordered. aspect: cocktail",neutral
+0,0,"The waitress really struggled with anything more complicated than that--not sure if it was a language problem or what, but 3 of the 4 drinks we ordered came both late and wrong, including beer brought in place of a cocktail, the wrong wine, and a mystery drink that nobody had ordered. aspect: beer",neutral
+0,0,"Our waitress couldn't tell us what was in the seafood special, forgot to put in our oyster order so it came at the same time as the main meals, wasn't able to provide a confident recommendation from the menu, and had to be flagged several times for drinks. aspect: waitress",negative
+0,0,"The feeling of unwelcomeness was especially prevalent due to the fact that our waiter hovered over our table and immediately cleared the table of dishes and glasses, some of which were still full in order to get us out the door ASAP. aspect: waiter",negative
+0,0,"After waiting for 90 minutes, the host gave away our table to a couple who arrived after us. aspect: waiting",negative
+0,0,I could not get a reservation on the phone and when I arrived they would not seat us even though they were half empty. aspect: reservation,neutral
+0,0,The cod was very good but a bit soupy in vegetable juices. aspect: cod,positive
+0,0,"There's also a weekend brunch, big on poached eggs, omelets and bagels and lox, plus fresh-squeezed OJ. aspect: brunch",neutral
+0,0,The waiter spent a long time telling us about the menu (and more about his own life history in the process. aspect: waiter,negative
+0,0,"For appetizers, I'd recommend the soft shell crab, spicy New Zealand mussels, calamari and anything from the sushi bar. aspect: appetizers",neutral
+0,0,"I liked the hummos platter, the brie sandwich, and about 20 other things on the menu (if they still have the chocolate cake you need to get it). aspect: chocolate cake",positive
+0,0,"There were a few moments during the tasting menu that left me speechless, such as the shrimp in cream sauce, toro with foam, foie gras custard, eggplant in miso and a foie gras kobe beef filet fried ball that brought me to tears. aspect: moments",neutral
+0,0,"I liked the hummos platter, the brie sandwich, and about 20 other things on the menu (if they still have the chocolate cake you need to get it). aspect: brie sandwich",positive
+0,0,Consistently satisfying versions of Thai staples like pad Thai and curry dishes arrive in generous portions. aspect: pad Thai and curry dishes,neutral
+0,0,"The drinks are very pricey and small, and the food is ok - but the portion size for the price is outrageous. aspect: portion size",positive
+0,0,"Spoke with the manager about comping a round, after we had already paid for 2 rounds waiting for the table. aspect: manager",negative
+0,0,Another favorite is the hanger steak which is always cooked to perfection and served with a generous amount of arugula and a balsamic vinegar reduction served as a sauce. aspect: a balsamic vinegar reduction served,neutral
+0,0,"For appetizers, I'd recommend the soft shell crab, spicy New Zealand mussels, calamari and anything from the sushi bar. aspect: sushi bar",positive
+0,0,The place was empty (my boyfriend and I were the only one's there other than the potty-mouthed patron's at the bar) yet the service was slow. aspect: service,negative
+0,0,"I use to always get the turkey club, until recently where I have gotten more bread than turkey. aspect: bread",positive
+0,0,"Dessert: Creme Brulee-it was okay, it started off warm on the edges then it got really cold in the middle. aspect: Dessert",neutral
+0,0,The arrogant maitre'd was annoyed when i asked about sitting down those tables are for other reservations low and behold those tables were still open as my wife and I finished dinner. aspect: dinner,neutral
+0,0,"The waiters were rude, and the appetizer dip had bits of bread in it from someone else's dinner. aspect: bread",neutral
+0,0,"Had to constantly ask the waiter to top up water glasses, but generally service was ok. aspect: waiter",negative
+0,0,"Even with our reservation, they had us waiting at the bar for over an hour. aspect: waiting",negative
+0,0,"The atmosphere was nice in the front room, but despite a reservation, we were relegated to the rear, where we were treated like stepchildren - we had to flag someone down to take our order, water with no ice, we had to ask for extras (as opposed to someone asking if we needed something else). aspect: reservation",neutral
+0,0,"The Food While there are plenty of meat dishes, including the sweet and spicy Curry Ga with humongous slices of chicken mixed with eggplant, onions and coconut milk, and Bo Sate with sauteed beef, pineapple and crushed peanuts, seafood and vegetarian dishes make up most of the menu. aspect: meat dishes",positive
+0,0,Hearty appetizers include garlicky tomato bruschetta; a platter of prosciutto with dry-aged sausage; and baby spinach salad with shaved pecorino cheese. aspect: baby spinach salad with shaved pecorino cheese,neutral
+0,0,"For appetizers, wine, dinner, desert, great convesation, expect to spend a couple of hours. aspect: wine",neutral
+0,0,The drinkers beside us had fresh glasses of water brought on trays to replace the empties and a smiling waitress to cater to their every whim. aspect: waitress,positive
+0,0,When the manager was asked for things did imporve but 2 hours to get our meal. aspect: manager,negative
+0,0,"Had to constantly ask the waiter to top up water glasses, but generally service was ok. aspect: service",positive
+0,0,"Oh, the prices were not so bad either, we paid $58 for chicken, salmon, one sushi roll, one ceasar salad and soda :). aspect: prices",positive
+0,0,but we waiting two hours to get it (we had reservations but it was late so we wanted to try to come in earlier). aspect: waiting,negative
+0,0,"Spoke with the manager about comping a round, after we had already paid for 2 rounds waiting for the table. aspect: table",neutral
+0,0,Too late to get a reservation so we went upstairs where initially the crowded scene threw me for a loop. aspect: scene,negative
+0,0,The waitress apologized for the long wait and said they would give us some free drinks or desert since they forgot about our orders but we never received anything and by the time we got the bill we just wanted to pay and leave. aspect: drinks,positive
+0,0,"Food is okay for the price, however there is definitely better thai restaurants!! aspect: price",neutral
+0,0,"we ordered simple salads, which were outrageous in price and def. aspect: salads",neutral
+0,0,When they brought out the food the waiter dropped one of the plates right in front of us and didn't appologize or bring us out a complimentry plate. aspect: food,neutral
+0,0,"Dishes are best shared with groups, as are the pitchers of sangria. aspect: sangria",neutral
+0,0,"Waitress we had appered to be very impatient, didn't know the name of the fish in English, apptizer came when we were having entree and she made no apology. aspect: Waitress",negative
+0,0,"The not-so-friendly-cigarette-reeking waiter asked if we had any questions then when we did ask, he rolled his eyes and covered his face with the menu to say something to a passing coworker. aspect: menu",neutral
+0,0,"We ordered the steak for four and some side dishes (the cream spinach was a bit salty, but the German fries was really good). aspect: steak",neutral
+0,0,"The Scene At this sleek spot on a relatively sparse stretch of Spring Street, regulars belly up to a small bar and greet owner Giorgio DeLuca, of Dean and DeLuca fame, with warm hugs. aspect: hugs",positive
+0,0,Spinache rolls have lots of garlic. aspect: rolls,neutral
+0,0,The food is decent but small portions so expect to order a lot. aspect: food,positive
+0,0,Then the waiter acted indignant when we called him out for bring us the wrong (later) vintage of wine we picked out. aspect: wine,neutral
+0,0,"After waiting almost an hour for a table (with resies) our waiter told us that they don't have a sommelier because no steakhouse has a sommelier (patently false), and finished with the notion that he had absolutely no idea about any of the wines on the list. aspect: waiter",negative
+0,0,Good place for groups of four or large parties but it is not a cozy/intimate setting for 2 although the jazz helps! aspect: setting,negative
+0,0,The menu prices are a bit expensive for what you get in quality and portion size. aspect: quality,neutral
+0,0,i went in one day asking for a table for a group and was greeted by a very rude hostess. aspect: hostess,negative
+0,0,Our bill total was only $30 and our waiter threw in a side of linguini (no charge) since the entrees don't come with pasta sides. aspect: pasta sides,neutral
+0,0,"after booking reservations at Danube, only to show up and not have any tables available, the Danube somelier graciously called over to Bouley and got us a table for immediate seating. aspect: seating",positive
+0,0,"The Scene Though plenty of white-washed tables and chairs are scattered about the dining room, it's the bar that acts as a neighborhood gathering place. aspect: chairs",neutral
+0,0,"Had an after-work drink at the bar with a date, loved the place so much we came back for brunch the next morning. aspect: drink",neutral
+0,0,for the prices that are on the regular menu we were expecting something more upscale and less generic. aspect: prices,negative
+0,0,"Waitress didn't know anything about the menu, but other than that I would recommend. aspect: menu",neutral
+0,0,"Freshly shucked oysters and clams appeal to purists, while classicists order crisp-crusted, all-meat lump crab cakes and chopped iceburg-feta salads. aspect: chopped iceburg-feta salads",neutral
+0,0,Our waiter never once came by the table to ask us how our meal was. aspect: table,neutral
+0,0,"Seated just after 2; I commend them 'cause they were the only decent brunch spot that would take our reservation, and they did their best to seat us promptly. aspect: reservation",neutral
+0,0,"The momos (dumplings) are tiny with paper-thin dough, the shitake pancakes are to die for, the steamed greens (I forgot the name of the dish) is delicious as a vegetarian entry or with sauteed salmon. aspect: salmon",positive
+0,0,Our waitress' visits to our table were few and far between. aspect: table,neutral
+0,0,"The Sushi was of the highest caliber, the cut as if a master samurai marks smith was behind the bar, and service, just what you would expect from a fine dining establishment, New York style. aspect: establishment",positive
+0,0,both appetizer and main were poorly made by some random cooks the picked up from who knows where. aspect: main,negative
+0,0,"Highlights include a breaded veal chop with tomatoes and arugula, a pea-and-mushroom risotto topped with slivers of fried zucchini and doused with truffle oil, and a top-shelf roasted chicken with rapini and sausage. aspect: top-shelf roasted chicken",positive
+0,0,I have definately found my new favorite place for dinner and with its large bar for hanging out on the weekends. aspect: place,positive
+0,0,"I naively thought dinner was served during the show, but the waiters don't come by once the shows start, so order your wine 30 mins before the show start time. aspect: wine",neutral
+0,0,"I went back to telly's because i heard that they changed the Chef and the food was again, after a very very small break, was excellent again. aspect: Chef",neutral
+0,0,The only reason they seem to taste so good is because the food is well decorated with its super small portion. aspect: food,positive
+0,0,I would only go back for a lobster roll at lunch. aspect: lunch,neutral
+0,0,"Finally, one of the waitstaff noticed and brought out a dirty bus pan which he put on the table next to me and started bussing the entire dining room. aspect: dining room",neutral
+0,0,The guacamole at $7 is a small portion served with a stack of Si!Ortega flat taco shells. aspect: portion,negative
+0,0,"After the grilled calamari, we got onion soup that had no soup, a dish of beans that had no flavor, the kitchen didn't make one of the three pasta dishes ordered, and the pork chop and other main dishes were not very good. aspect: beans",neutral
+0,0,I had a party of 9 reservation and was very disappointed at the service. aspect: reservation,neutral
+0,0,"When you go, you should ask for help from the wait staff in deciding what to order since the menu can be daunting. aspect: wait staff",neutral
+0,0,"Staples are available every which way--tacos hard and soft, wrapped in tortillas stuffed with guacamole, cheese or black beans; burritos of beef, breaded catfish, pork pipian and chipotle chicken; plus a choice of four sauces from mild to just plain stupid. aspect: tacos",neutral
+0,0,The Maryland Crabcake roll is good too if you are not into raw fish. aspect: Maryland Crabcake roll,positive
+0,0,We had to wait 30 minutes before the waiter even came to our table and had to ask 4 times just to get a glass of water. aspect: glass of water,neutral
+0,0,"After a couple of drinks, the apps--I like the lobster/mango summer roll and the cripsy squid--go down great. aspect: roll",positive
+0,0,A cute restaurant and average food (with a small menu). aspect: menu,negative
+0,0,The desserts are just as good as all the coffee shops around town but they charge more than anyone. aspect: desserts,positive
+0,0,"For entree I would recommand the rabbit curry - the meat was cooked very finely and the curry sauce, though a bit too sweet, went well with rice. aspect: curry sauce",positive
+0,0,no need for reservation) you'd expect the crew to be alittle more attentive. aspect: crew,negative
+0,0,"Food was so-so, but it was the most awful dinner I experienced in my life. aspect: dinner",negative
+0,0,They kept us waiting for more than an hour WITH a reservation and WITHOUT an apology. aspect: reservation,neutral
+0,0,"Worth the trip over the bridge, worth the search for parking, worth the wait for a table at dinner time and worthy of a ten rating. aspect: table",positive
+0,0,The desserts are just as good as all the coffee shops around town but they charge more than anyone. aspect: coffee,neutral
+0,0,We sat soaked in red wine for 20 minutes eating our meals w/o the wine b/c the server saw us like that but did nothing until we stopped him. aspect: red wine,neutral
+0,0,"For entree I would recommand the rabbit curry - the meat was cooked very finely and the curry sauce, though a bit too sweet, went well with rice. aspect: meat",positive
+0,0,"First, the seating people gave me huge attitude and claimed I had not reserved a table at the grotto - and I quote my reservation You are all set for the grotta this saturday. aspect: seating people",negative
+0,0,Another favorite is the hanger steak which is always cooked to perfection and served with a generous amount of arugula and a balsamic vinegar reduction served as a sauce. aspect: sauce,neutral
+0,0,My friend and I walked in to an over crowded bar and were warned of a 45 minute wait. aspect: bar,negative
+0,0,"Staples are available every which way--tacos hard and soft, wrapped in tortillas stuffed with guacamole, cheese or black beans; burritos of beef, breaded catfish, pork pipian and chipotle chicken; plus a choice of four sauces from mild to just plain stupid. aspect: tortillas stuffed with guacamole",neutral
+0,0,"The food is just ok, not really memorable and not what you expect for the price but I guess the atmosphere is what you pay for. aspect: atmosphere",positive
+0,0,The Food Former Chef of Washington Park Daniel Eardley leans heavily on seasonal ingredients: An autumn appetizer of duck salad bursts with ripe pomegranate seeds; tender grilled octopus with peppers and turnips is a starter must for every table. aspect: ingredients,positive
+0,0,"So we left, the menu looked decent but you have to go when you can get one of the 2 or 3 tables. aspect: tables",neutral
+0,0,"I was a bit taken aback by the paper napkins and the flyer like menu, but was excited nevertheless to taste the food praised by at least 6 people on this site. aspect: menu",neutral
+0,0,"Like the other Bromberg Brothers establishments, expect the customer is always wrong attitude from the staff along with overpriced wines you never heard of, no bar, tiny waiting area and lousy desserts. aspect: bar",negative
+0,0,"Fifteen minutes later, when we asked about our drinks, another server went to investigate and found that they'd run out of one of the liqueurs they needed and had gone out to get more -- which is fine, but it would've been nice to know. aspect: drinks",neutral
+0,0,"Its not cheap, it was $10 for a burger and fries, and when i was there, the waiter had dropped a FULL glass of coke on a patron, soaking her through! aspect: glass",neutral
+0,0,"It's really great to go in here and be able to get a creative cheap drink (they have things like blueberry mohitos for $4), a $4 plate of veggie spring rolls, and be able to joke with the bartender. aspect: bartender",neutral
+0,0,"Try the shrimp and bacon hash with a perfectly spicy bloody or two, what a brunch should be. aspect: shrimp and bacon hash",positive
+0,0,"The Scene Petite Abeille is ideal for a lazy lunch, a restorative brunch or light dinner. aspect: brunch",neutral
+0,0,"You may as well just extend the bar into the restaurant since it has already penetrated it with loud music, loud voices, and a remarkable amount of cigarette smoke. aspect: bar",neutral
+0,0,no need for reservation) you'd expect the crew to be alittle more attentive. aspect: reservation,neutral
+0,0,"I liked the place and the people, but we really went to have dinner no appetizers as the whole dinner. aspect: appetizers",negative
+0,0,"After requesting to be seated at an empty table, the waitress (who was so terribly burdened when we asked to move from the bar to the table to have dinner) asked us to get up from our seats and wait for a smaller table because a party of 3 just walked in. aspect: dinner",neutral
+0,0,I asked the waiter to move us to another table because we didn't want to rush our meal. aspect: table,neutral
+0,0,"Despite talking to the weekday manager on the prior Monday, who gave me a hard time but agreed to make a reservation for me since my group was so big. aspect: reservation",neutral
+0,0,"And although I've noticed that the prices have gone up a little since they opened, it's still a great menu. aspect: menu",positive
+0,0,The guy was pleasant and friendly but that only goes so far when you are hungry and have to wait 2 hours for a pizza. aspect: pizza,neutral
+0,0,She was very helpful in suggesting us drinks and helped us in ordering a lot of good dishes since we knew nothing about Indian food. aspect: dishes,positive
+0,0,Another favorite is the hanger steak which is always cooked to perfection and served with a generous amount of arugula and a balsamic vinegar reduction served as a sauce. aspect: amount of arugula,positive
+0,0,"Save the $$ and go to to curry hill (just 2-3 blocks away) or spend the $$ at a midtown indian eatery  (Also: I commented to hostess prior to seating that there were a lot of tables empty when choosing my seat, and she snapped back that they had a lot of reservations coming in at one time. aspect: tables",negative
+0,0,I had to ask the waiter a couple of times to clear our empty glasses. aspect: glasses,neutral
+0,0,"One of the managers offered us a seat at the bar to wait for a table, there we had the most amazing empanadas and red sangria. aspect: seat",neutral
+0,0,"I prefer to sit at the bar as I don't have to listen to loud, boring conversations from the next table who always seem to be friends of the owner. aspect: next table",neutral
+0,0,The service was unattentive and the only time she came over was to aggressively push drinks on us. aspect: service,negative
+0,0,"I don't have much to say about the cafe itself; you can order out from the family-run cafe in the front, or take a seat in the back, which opens up to the outdoors and can offer a less seedy and more homey atmosphere. aspect: seat",negative
+0,0,"We poked our heads in for a few bottles of wine, some good hot onion soup and a few hot appetizers to warm us up after a seeing a show. aspect: hot appetizers",neutral
+0,0,I called to confirm the reservations on the morning of the lunch and the hostess had the reservations set for 12:30pm which I quickly corrected. aspect: lunch,neutral
+0,0,"The food is on the good side but not so terrific to compensate the bad service, crammed tiny-tables, dirty glasses, overly loud music, which is good for the bar part of the establishment but not when you want to seat down, eat and have a normal conversation at normal volume. aspect: glasses",negative
+0,0,"When after 2 hours we did ask for our entrees, the waiter and busboy were both extremely rude. aspect: busboy",negative
+0,0,"Despite him not being my designated server, he basically took over for our inexperienced waiter the rest of the dinner. aspect: dinner",neutral
+0,0,An unfriendly hostess greeted us and placed us in the main room of the restaurant where the tables were so close together that it was impossible for guests and waiter to move without bumping you. aspect: waiter,neutral
+0,0,"It's not going to win any awards for its decor, but the food is good, the portions are big, and the prices are low. aspect: decor",negative
+0,0,Our waiter recommended thZt we share a few of the appetizers; they were great. aspect: appetizers,positive
+0,0,Another favorite is the hanger steak which is always cooked to perfection and served with a generous amount of arugula and a balsamic vinegar reduction served as a sauce. aspect: hanger steak,positive
+0,0,"Like the other Bromberg Brothers establishments, expect the customer is always wrong attitude from the staff along with overpriced wines you never heard of, no bar, tiny waiting area and lousy desserts. aspect: wines",negative
+0,0,"When I went for sunday brunch, not only was the food bland and cold, they didn't even bother to clear the plates once they brought the bill. aspect: bill",neutral
+0,0,"service was reasonably quick via delivery, but the hunan beef had no spice whatsoever and the chicken chow mein really looked inedible. aspect: hunan beef",negative
+0,0,Hearty appetizers include garlicky tomato bruschetta; a platter of prosciutto with dry-aged sausage; and baby spinach salad with shaved pecorino cheese. aspect: appetizers,positive
+0,0,When the manager was asked for things did imporve but 2 hours to get our meal. aspect: meal,neutral
+0,0,A popular diner in the Metro Tch Brooklyn area catering to local brooklyn ites or the wall street financial back office employees of Metrotech. aspect: employees,neutral
+0,0,"That being said, they do have a nice lounge area downstairs where you can just hang out, have a seat, and relax (no more waiting out in the cold or at the crowded bar). aspect: waiting",negative
+0,0,One price for dinner left for no surprises. aspect: price,negative
+0,0,My boyfriend and I loved Imagine Bar and Grill. aspect: Bar,positive
+0,0,"The bill came out to quite a lot though, considering there were 14 of us some of us ordered way too many drinks. aspect: drinks",positive
+0,0,I definitely liked the vibe in the restaurant - the food is good with enough variety to please everyone - i'd say the portions were quite skimpy where it counts - meat whether fish or steak- and for those prices this is very irksome. aspect: fish,neutral
+0,0,"Beyond the green awning and floor-to-ceiling windows, sophisticated (and often European) patrons drink wine from the bar in back and dine on French fare like nicoise salad, foie gras, and steak tartare at tightly packed tables. aspect: French fare",neutral
+0,0,"Go have a drink there the space is beautiful and buy an appetizer maybe, but pass on dinner, not well cooked and small portions. aspect: appetizer",neutral
+0,0,"Our waitress couldn't tell us what was in the seafood special, forgot to put in our oyster order so it came at the same time as the main meals, wasn't able to provide a confident recommendation from the menu, and had to be flagged several times for drinks. aspect: main meals",neutral
+0,0,"In Short It's a bakery, takeout place and cafe all in one, and thanks to dishes prepared using the same ingredients stocked at famed gourmet food emporium, Zabar's, prices and quality are upscale. aspect: dishes",positive
+0,0,"It's one of our take-out staples because of the good food, fast delivery time and the cheap price (for under $25 we have a dinner for 2 and with left-overs). aspect: dinner",neutral
+0,0,"Definitely make reservations if you can -- they'll honor them, and you can skip the massive wait! aspect: wait",negative
+0,0,"In Short The bi-level dining room, which resembles a bamboo-thatched hut, is a brightly-lit, wide-open space with high ceilings and laminated depictions of Indian village life. aspect: bi-level dining room",neutral
+0,0,"Remember the 80's when you have to wait 1-2 hours for a table even though you have a reservation + the wait staff treated you like the idiot that you are for paying $2-300 per head for this treatment, then you should definately come to experience this jewel!! aspect: table",neutral
+0,0,Thanks to waiter I learned so much about wine too. aspect: waiter,positive
+0,0,As a chef I really appreciated the well executed dishes that were full of crisp and vibrant flavor contrast acting in harmony and perfect balance. aspect: dishes,positive
+0,0,The waitress at the bar was very nasty to me because she mistakenly took an order for thai ice tea from me when I asked for thai lemonade in a to-go cup. aspect: waitress,negative
+0,0,"I write that in quotes becuase iceberg lettuce, stale Pepperidge Farm croutons and bottled dressing does not a salad make. aspect: bottled dressing",negative
+0,0,"Our waiter (who also seemed to be the manager) dropped red wine all over me the contents of my purse and all he did was apologize quickly, hand me some club soda and avoid me for the rest of the time I was there. aspect: manager",negative
+0,0,"The momos (dumplings) are tiny with paper-thin dough, the shitake pancakes are to die for, the steamed greens (I forgot the name of the dish) is delicious as a vegetarian entry or with sauteed salmon. aspect: momos (dumplings)",positive
+0,0,"The tables weren't bussed and they forgot to make my chai tea, which wasn't all that delicious, not was my friend's coffee. aspect: coffee",positive
+0,0,"The menu features such sumptuous fare as lobster ravioli in a light aurora sauce, double-cut grilled veal chop with an aromatic salsa verde, and octopus salad with steamed potato, red onions, and caper berries. aspect: double-cut grilled veal chop",neutral
+0,0,"Come to people watch and drink, but stay away from the food and service. aspect: service",negative
+0,0,The whole fish was excellent--not overcooked and served in a light tomato broth. aspect: whole fish,positive
+0,0,"Good atmosphere, the service is so-so and there is a long wait if you don't have reservations. aspect: atmosphere",positive
+0,0,"Besides, vegetarian or not, there are always ways to liven up food without compromising the healthy aspect. aspect: food",negative
+0,0,"There were sesame seeds on the outside (it's pizza dough not a hamburger bun), barely any sauce, VERY thin slices of mozzarella sparingly applied and topped with lots of herbs. aspect: sesame",neutral
+0,0,I lived next door and loved to go down for a drink at their uplit marble bar under the beautiful lighting or sit by the fireplace when the live band is not playing. aspect: lighting,positive
+0,0,"I went back to telly's because i heard that they changed the Chef and the food was again, after a very very small break, was excellent again. aspect: food",positive
+0,0,The food is decent but small portions so expect to order a lot. aspect: portions,negative
+0,0,Recommended to those who want to try a different setting for a diner. aspect: setting,positive
+0,0,"I'm not going to trash the place simply because I had a bad experience there, but here's the facts: the food is very good, the portions are small-to-medium, and the prices are large. aspect: prices",negative
+0,0,"Went for lunch the bartenders were great, also they had a DJ playing music during the day, there was a Huge screen tv playing music videos and a bunch of other tvs with all the sports you could look at. aspect: DJ",neutral
+0,0,"Relaxed neighborhooders treat the spot like a second home, calling the staff by name and lingering despite the smallish bar and hurried courses. aspect: bar",neutral
+0,0,"Went for an early V-Day dinner, only to be highly disappointed by the service. aspect: service",negative
+0,0,"maybe we ordered the wrong items because the food was not spectacular, with the exception of the poppy-seeded sweet beet ravioli appetizer. aspect: food",negative
+0,0,it took forever for the waiter to take my order as he was too busy chatting at the bar. aspect: bar,neutral
+0,0,"When the bill finally arrived, the head waiter sternly told us that this time is okay, but next time you have to order more than 2 appitizers and a main course! aspect: waiter",negative
+0,0,As a chef I really appreciated the well executed dishes that were full of crisp and vibrant flavor contrast acting in harmony and perfect balance. aspect: chef,neutral
+0,0,"the food is not nearly good enough to wait an hour before seeing your server, or wait another hour for the wrong entrees, or for the manager to make up for it by charging for everthing but giving us on the house shot glasses of watery margaritas. aspect: entrees",negative
+0,0,"While I love this place, I do recommend going here mostly for lunch or an early dinner because the crowd and long wait can be annoying. aspect: lunch",neutral
+0,0,My dinner partner ordered the angel hair with seafood - the portion was easily big enough for two. aspect: dinner,neutral
+0,0,"Worth the trip over the bridge, worth the search for parking, worth the wait for a table at dinner time and worthy of a ten rating. aspect: dinner",neutral
+0,0,"I went back a different night, once again I can't remember which, probably Friday and the place was a ghost town, with a corny DJ and a waitress who couldn't get my friend's drink right after several tries. aspect: drink",neutral
+0,0,The drinks were water down and the only BIG thing was the bill. aspect: bill,negative
+0,0,"Come-as-you-are atmosphere, jukebox, value and James behind the bar work as a magnet. aspect: jukebox",neutral
+0,0,"In Short Though it's more of a takeout and delivery operation than a sit-down restaurant, Risotteria does offer eight small tables for those who want to savor their risotto hot off the stove. aspect: delivery",neutral
+0,0,"It's a good place to meet up with a friend while shopping, grab lunch (although the lines do get long), dining solo, or to take home after work. aspect: dining",neutral
+0,0,The arrogant maitre'd was annoyed when i asked about sitting down those tables are for other reservations low and behold those tables were still open as my wife and I finished dinner. aspect: maitre,negative
+0,0,"Chicken options are fantastic, notably chicken with spices. aspect: Chicken options",positive
+0,0,"worth every penny, and with the deals on the bar , you could drink and sing to CURRYoke all night,,,, aspect: penny",positive
+0,0,The service can be a bit spotty since they are sometimes busy taking phone orders to attend to the restaurant patrons so make sure you have a lot of time to spare when you go there for dinner. aspect: service,negative
+0,0,"my one complaint is that when we were finished with our dinner, it took an abnormally long time for our waitress to get with the program and bring us our check. aspect: dinner",neutral
+0,0,"Mom's cooking without the meat, the not-terribly-diverse but tempting nonetheless dinner menu is both filling and comforting, and the modest outer-boroughs price tag makes this place a definite return visit, particularly since it's only one train stop outside the city. aspect: dinner menu",positive
+0,0,"We had a nice bottle of wine, dinner, and dessert for under $200. aspect: dinner",neutral
+0,0,"However for the price I paid to have dinner there, you would have thought I ate a horse. aspect: price",negative
+0,0,"They kept the chef, margarita machines, and practically the identical menu from Miracle Grill (the restaurant that formerly had the space); how is it that everything here is so much worse? aspect: Grill",neutral
+0,0,"Definitely make reservations if you can -- they'll honor them, and you can skip the massive wait! aspect: reservations",neutral
+0,0,"I'm from Italy and i felt home great and fresh food ,good pizza,i been there few times and i always go with the special or seafood, about dessert try the profitterol. aspect: seafood",neutral
+0,0,"For $65, you will get a 5-6 course tasting menu encompassing a variety of raw fish, cooked fish, pastas, dessert, etc. aspect: pastas",neutral
+0,0,"We ordered the steak for four and some side dishes (the cream spinach was a bit salty, but the German fries was really good). aspect: German fries",positive
+0,0,"Once we ordered, it took at least 30 minutes to get our food, with our server no where in site. aspect: server",negative
+0,0,Good value for money--especially the $7 lunch special for 2 courses. aspect: value for money,positive
+0,0,"Please have the SPINACH DIP, CAESAR SALAD, HAWAIIAN RIB-EYE and the BROWNIE for dessert. aspect: dessert",neutral
+0,0,"After waiting for 90 minutes, the host gave away our table to a couple who arrived after us. aspect: table",neutral
+0,0,The waiter was able to answer any questions I had about the wine or food. aspect: wine,neutral
+0,0,"The food is above average, though the portions a tad small, even for tapas; but they more than make up for it with their wonderfull mojitos. aspect: mojitos",positive
+0,0,I went there for a late dinner last night with a friend and the service was aweful. aspect: dinner,neutral
+0,0,Waiters take your order and you don't get your food for at least 1 hour so you can prchase drinks. aspect: Waiters,negative
+0,0,No one bothered to ask if we were enjoying our food or whether or not we wanted more to drink (we apparently needed to be out by 8). aspect: drink,neutral
+0,0,"For appetizers, wine, dinner, desert, great convesation, expect to spend a couple of hours. aspect: desert",neutral
+0,0,I would only go back for a lobster roll at lunch. aspect: lobster roll,positive
+0,0,"The service was only average - even with reservations we waited 40 minutes, and had to ask for our table, which had been ready, the hostess just never bothered to tell us. aspect: service",negative
+0,0,The reservation was easy enough to make the night before for a Saturday night (after the pre-theater crowd). aspect: crowd,neutral
+0,0,"Food is okay for the price, however there is definitely better thai restaurants!! aspect: Food",positive
+0,0,All in all the food was above average and I would return to see how they operate with four or less dinners. aspect: dinners,neutral
+0,0,"I've heard all the complaints about food and staff at this place, and perhaps some people have had an unfortunate encounter with the host or a cranky waiter. aspect: place",neutral
+0,0,"It's not going to win any awards for its decor, but the food is good, the portions are big, and the prices are low. aspect: portions",positive
+0,0,The 'people watching' and table location (on boardwalk) made up for the rude service. aspect: table location,neutral
+0,0,"The food is incredibly tasting and, if you want an advice: Grill calamari, Rigatoni a la vodka and, for dessert, Tartufata. aspect: dessert",neutral
+0,0,"My boyfriend's halibut was slightly undercooked, so he sent it back -- the result was not only a fresh piece of perfectly cooked fish, but also a complimentary spread of FOUR desserts! aspect: desserts",neutral
+0,0,"I'm from Italy and i felt home great and fresh food ,good pizza,i been there few times and i always go with the special or seafood, about dessert try the profitterol. aspect: pizza",positive
+0,0,"The waitress encouraged to come for dinner and brunch, and I followed her recommandation. aspect: brunch",neutral
+0,0,"There's also a weekend brunch, big on poached eggs, omelets and bagels and lox, plus fresh-squeezed OJ. aspect: on poached eggs",positive
+0,0,"you might have made a reservation, but you will end up waiting for about an hour anyway, so hopefully you'll get a seat at the bar and won't have to stand around. aspect: bar",neutral
+0,0,Last night was our second time dining here and we are still amazed with the food. aspect: food,positive
+0,0,"The wait staff is very attentive, and you can smoke at the bar while enjoying the view of the river. aspect: bar",neutral
+0,0,"Went to Butter on Monday night for a friend's birthday dinner at like 11:00pm, the kitchen was supposedly closed, but we spoke to the manager and we were seated promptly. aspect: kitchen",neutral
+0,0,The pork was good but 3 small medalians and 2 tablespoons of mashed potatos does not make a meal. aspect: pork,positive
+0,0,"Also available is eggplant in garlic sauce, the Zen vegi-burger, with sunflower seeds, kale and brown rice, and curry-rice-noodle soup. aspect: eggplant in garlic sauce",positive
+0,0,"The Scene Petite Abeille is ideal for a lazy lunch, a restorative brunch or light dinner. aspect: dinner",neutral
+0,0,"I like to drink a variety of teas, but I've had some here that are really weird that I would avoid next time. aspect: drink",positive
+0,0,Manager couldn't be bothered to come over and acknowledge the mistake. aspect: mistake,positive
+0,0,The waiter had a slight attitude and brought our wine aprroximately 10 minutes into our appetizer. aspect: waiter,negative
+0,0,"For dinner I recommend Carne Tampiquea (steak) And for brunch the Huaraches with meat and a couple eggs on top, a typical mexican hangover plate! aspect: eggs",positive
+0,0,"Great food as usual, the paella valenciana our fave and oooh those coconut mojitos ahh! aspect: paella",neutral
+0,0,Tension filled the air as the chief yelled at a waiter in the middle of the bar while in uniform and drinking. aspect: Tension,negative
+0,0,"Once they took our wine order, it took 45 minutes for it to arrive, even though the waiter was talking to a patron next to us. aspect: wine",neutral
+0,0,"But wait, it gets even better, the mussels were so fishy that I had the server try one since he had a hard time believing that this was true. aspect: wait",neutral
+0,0,"In Short It's a bakery, takeout place and cafe all in one, and thanks to dishes prepared using the same ingredients stocked at famed gourmet food emporium, Zabar's, prices and quality are upscale. aspect: ingredients",neutral
+0,0,"For dessert, the oversized bread pudding can't be beat. aspect: oversized bread pudding",positive
+0,0,The portions were so small that we still wanted to eat after dinner. aspect: portions,negative
+0,0,"You may as well just extend the bar into the restaurant since it has already penetrated it with loud music, loud voices, and a remarkable amount of cigarette smoke. aspect: music",negative
+0,0,"After waiting for 90 minutes, the host gave away our table to a couple who arrived after us. aspect: host",neutral
+0,0,"Highlights include a breaded veal chop with tomatoes and arugula, a pea-and-mushroom risotto topped with slivers of fried zucchini and doused with truffle oil, and a top-shelf roasted chicken with rapini and sausage. aspect: pea-and-mushroom risotto topped",positive
+0,0,"Most diners stick to hot (shredded chicken breast in garlic and walnut sauce) and cold (briny tapenade, made with Greek olives, capers and anchovies) meze, served in handsome vintage dishes. aspect: Greek olives",neutral
+0,0,"The staff is very kind and well trained, they're fast, they are always prompt to jump behind the bar and fix drinks, they know details of every item in the menu and make excelent recomendations. aspect: bar",neutral
+0,0,"The menu features such sumptuous fare as lobster ravioli in a light aurora sauce, double-cut grilled veal chop with an aromatic salsa verde, and octopus salad with steamed potato, red onions, and caper berries. aspect: octopus salad with steamed potato, red onions",neutral
+0,0,"The waitress recommended four courses, not three, given their tiny size. aspect: size",negative
+0,0,"The food is just ok, not really memorable and not what you expect for the price but I guess the atmosphere is what you pay for. aspect: price",negative
+0,0,"Once the food came, we could not eat because we did not have the little plates for the soy sauce. aspect: soy sauce",negative
+0,0,The only reason they seem to taste so good is because the food is well decorated with its super small portion. aspect: portion,negative
+0,0,The Food The menu is better suited to the snacking at the long bar than dining in the compact dining area. aspect: bar,neutral
+0,0,Too bad the food and service aren't nearly as nice as the decor. aspect: service,negative
+0,0,"Save the $$ and go to to curry hill (just 2-3 blocks away) or spend the $$ at a midtown indian eatery  (Also: I commented to hostess prior to seating that there were a lot of tables empty when choosing my seat, and she snapped back that they had a lot of reservations coming in at one time. aspect: hostess",neutral
+0,0,"Upon finishing our meal that same waitress that ignored us, suddenly appeared at our table asking if we needed our check, we were finishing our coffee and drinks, yet she was blatantly trying to get us out so that the table could be turned over. aspect: drinks",neutral
+0,0,At no point during our dinner were we left alone to simply enjoy our food. aspect: dinner,neutral
+0,0,The wait staff didn't bother to refill my water until I had finish mine and was almost done with my husband's glass too. aspect: wait staff,positive
+0,0,The Food  Most restaurants with more than 250 items on the regular menu don't do any of them particularly well. aspect: Food,neutral
+0,0,"An otherwise fine meal was trashed when i realized that the dish i had ordered contained chicked, despite my asking for no chicken, no pork twice. aspect: meal",positive
+0,0,The 'people watching' and table location (on boardwalk) made up for the rude service. aspect: service,negative
+0,0,"For dinner we decided to share on the Veal Cordon Blue (wow) and the Artic char, a nice dish. aspect: dish",positive
+0,0,The server (Jasmine) checked up on us periodically and was patient as she explained certain menu items. aspect: server,positive
+0,0,The numbness in your lower legs from sitting on old wood chairs is more than compensated by the wonderful food. aspect: wood chairs,negative
+0,0,Then the huffy hostess when we asked to be seated at a table not directly on-top of another couple. aspect: table,neutral
+0,0,"Come to people watch and drink, but stay away from the food and service. aspect: drink",neutral
+0,0,"The Scene Though plenty of white-washed tables and chairs are scattered about the dining room, it's the bar that acts as a neighborhood gathering place. aspect: Scene",positive
+0,0,"Getting into the steak frites takes some sawing, but once cut, the meat is flavorful, if in need of salt. aspect: meat",positive
+0,0,"And there wasn't much room for the people at the bar to stand either, as the restaurant attempted to squeeze as many tables into the restaurant as they could, forcing those dining to have to shift in their chairs every time a waiter attempted to get by. aspect: tables",neutral
+0,0,We were the only two people sitting out front and the waiter was unable to provide us with attentive service OR our dinner. aspect: dinner,neutral
+0,0,They bring over your favorite beverage before you sit down and while dining you listen to a killer jukebox. aspect: jukebox,positive
+0,0,"It's just nice to have a place like this - a sit down place with a lot of food choices, not centered on a particular ethnicity and a bar - as an option here. aspect: bar",neutral
+0,0,"After being seated outside by the host, a waitress came over and yelled at us for taking a table that belonged to people waiting at the bar. aspect: host",neutral
+0,0,") And don't forget the svc, those waiters stare at you your entire meal, just waiting for you to put your fork down and they snatch the plate away in a second. aspect: fork",neutral
+0,0,IT'S GREAT COFFEE BUT THE SERVICE IS SERVED WITH BIG TIME ATTITUDE. aspect: SERVICE,negative
+0,0,I was impressed with every dish and was tempted to go back for dinner that night! aspect: dinner,neutral
+0,0,"Other small dishes, such as the fragrant sesame oil-scented raw spicy tuna, are excellent with a beer-sized mug of cold oolong tea. aspect: dishes",negative
+0,0,"You fry it in your batter and roll it up in spices, big chunky blue cheese makes them taste so nice's. aspect: chunky blue cheese",positive
+0,0,The ambience isn't great but the food is so tasty and so reasonably priced that it's definitely a fun date place if you want to get a bunch of stuff and sample. aspect: priced,positive
+0,0,"There's also a weekend brunch, big on poached eggs, omelets and bagels and lox, plus fresh-squeezed OJ. aspect: OJ",positive
+0,0,Tension filled the air as the chief yelled at a waiter in the middle of the bar while in uniform and drinking. aspect: waiter,neutral
+0,0,"You might be lucky enough to hear your waiter say, May I take zee order from you, Pig Dog, while you're there. aspect: waiter",negative
+0,0,"The basil pepper mojito was a little daunting in concept, but I was refreshed at the flavor. aspect: basil pepper mojito",negative
+0,0,"In the main dining room, finding your waiter is Hell and aside from when they take your order and bring the bill, you'll rarely see them. aspect: waiter",negative
+0,0,"The waitress recommended four courses, not three, given their tiny size. aspect: courses",neutral
+0,0,Sit at the bar and eat here regularly and the sushi chef who is also the owner will hook you up the best cuts of fish. aspect: owner,positive
+0,0,"After a crazy day @ work, with no reservation, we were so lucky to score a seat at the bar on an incredibly busy evening. aspect: bar",neutral
+0,0,"There was 3 baby carrots, a spoon full of spinach, sun dried tomatoes, 3 pieces of eggplant, and 10 string beans, oh and onions. aspect: sun dried tomatoes",neutral
+0,0,The food is average the prices high and the whole experience was very upsetting. aspect: food,neutral
+0,0,"Great food as usual, the paella valenciana our fave and oooh those coconut mojitos ahh! aspect: coconut mojitos",neutral
+0,0,We waited FOREVER on Valentine's Day for our table because their hostess had lost our reservation BUT the food was worthy of the long wait anyway. aspect: wait anyway,negative
+0,0,Our waitress took our order and then NEVER came back to our table. aspect: table,neutral
+0,0,"Highlights include a breaded veal chop with tomatoes and arugula, a pea-and-mushroom risotto topped with slivers of fried zucchini and doused with truffle oil, and a top-shelf roasted chicken with rapini and sausage. aspect: doused with truffle oil",positive
+0,0,"Not the most beautiful environment, but the food is consistently delicious and the barbeque is fun and tasty. aspect: environment",negative
+0,0,"the menu looked great, but the food was the biggest disappointment i've had yet! aspect: food",negative
+0,0,I wouldn't go for dinner though cause it gets too crowded and the takeout at night is very slow. aspect: dinner,neutral
+0,0,"95 all-you-can-eat lunch is tooted as a good deal but a the ambiance is dreadful and you can get a terrific meal, also kosher vegetarian, in peace with service just around the corner for $2 more. aspect: vegetarian",neutral
+0,0,The owner addressed me by my first name after my second visit The garlic shrimp is a hit and the Sangria ( the bartender on Fridays mixes the drink in three ways). aspect: drink,neutral
+0,0,"Sat at the bar and orderd a few appetizers, the humus and cheese plates along with some calamari - all very tasty. aspect: humus and cheese plates",positive
+0,0,Don't let the decor fool you because you will miss out in some of the best food you ever eaten. aspect: food,positive
+0,0,"The food is incredibly tasting and, if you want an advice: Grill calamari, Rigatoni a la vodka and, for dessert, Tartufata. aspect: Rigatoni",neutral
+0,0,"I was a bit taken aback by the paper napkins and the flyer like menu, but was excited nevertheless to taste the food praised by at least 6 people on this site. aspect: flyer",neutral
+0,0,The Maryland Crabcake roll is good too if you are not into raw fish. aspect: fish,neutral
+0,0,"Its not cheap, it was $10 for a burger and fries, and when i was there, the waiter had dropped a FULL glass of coke on a patron, soaking her through! aspect: waiter",negative
+0,0,"Me and my wife we go there at least once a month, the food they give you is amazing we only get one order of pasta and main course it is enough for both to share,we get full and satisfied, our favorite dish penne with pesto. aspect: pesto",positive
+0,0,Our waitress had no clue about the menu and (after we had ordered a bottle of wine) told us the kitchen was closing and stood guard until we ordered. aspect: kitchen,neutral
+0,0,My complaint was with the service-- our waitress was rather pushy and visibly annoyed when we didn't order appetizers or dessert. aspect: appetizers,neutral
+0,0,"I read about this place in the Post, but never stepped foot in it I ordered a red velvet cake to be delivered to lOwer Manhattan; It got there, and the broads at the office raved about it! aspect: broads",positive
+0,0,"The fries were absolutly inedible, and the coldslaw tasted like it was straight out of a bucket from Sam's, and the friend shrimp had too much curry. aspect: shrimp",neutral
+0,0,"you might have made a reservation, but you will end up waiting for about an hour anyway, so hopefully you'll get a seat at the bar and won't have to stand around. aspect: seat",negative
+0,0,The Wasa Waffle was different but when we spoke to the manager he inmediatly changed if for another dish (He suggested the Chocolate decadence French Toast. aspect: Wasa,neutral
+0,0,"maybe we ordered the wrong items because the food was not spectacular, with the exception of the poppy-seeded sweet beet ravioli appetizer. aspect: beet ravioli appetizer",positive
+0,0,The service was good enough for a crowded place. aspect: service,positive
+0,0,"My boyfriend's halibut was slightly undercooked, so he sent it back -- the result was not only a fresh piece of perfectly cooked fish, but also a complimentary spread of FOUR desserts! aspect: spread",negative
+0,0,"It is a must for lunch,dinner or anytime you have a big appetite and don't want to spend big bucks in the big Apple! aspect: Apple",positive
+0,0,"I love the decor but would not recommend sitting in the communal tables unless its a very big group, much more fun getting a table and people watch while you chomp on your $20 palm sized truffle pizza. aspect: sized truffle pizza",neutral
+0,0,"The menu features such sumptuous fare as lobster ravioli in a light aurora sauce, double-cut grilled veal chop with an aromatic salsa verde, and octopus salad with steamed potato, red onions, and caper berries. aspect: menu",neutral
+0,0,"The green hair table and seating at the front window was tacky and gimmicky, but figured it's the food that counts. aspect: seating",negative
+0,0,"The food is pretty good, but the staff would rather be anywhere than waiting tables at Maison. aspect: food",positive
+0,0,"Ok the manager did stand at the bar the whole time looking like his wife left him, he lost all his money at the track and had been drinking the rest of the day. aspect: manager",negative
+0,0,and if that wasn't enough the owner threw in a free beer each for me and my friend. aspect: owner,negative
+0,0,"Handsome baritone Nordic waiters patrol the room, proffering fresh-squeezed juices and $4-a-person pots of French press coffee. aspect: press coffee",neutral
+0,0,"Go have a drink there the space is beautiful and buy an appetizer maybe, but pass on dinner, not well cooked and small portions. aspect: space",positive
+0,0,"Everything on the menu is satisfyingly savory, from a simple pot of mussels in a choice of sauces (beer-and-bacon, creamy mushroom, or white-wine-and-garlic broth), to beef stewed with beer and prunes, to a juicy croque-monsieur, and beyond. aspect: menu",neutral
+0,0,The ambience isn't great but the food is so tasty and so reasonably priced that it's definitely a fun date place if you want to get a bunch of stuff and sample. aspect: food,positive
+0,0,"So we left, the menu looked decent but you have to go when you can get one of the 2 or 3 tables. aspect: menu",positive
+0,0,"For a 4-star restaurant (not to mention a $400 dinner for two), attentive service is expected. aspect: dinner",neutral
+0,0,"Once we ordered, it took at least 30 minutes to get our food, with our server no where in site. aspect: food",neutral
+0,0,"Other small dishes, such as the fragrant sesame oil-scented raw spicy tuna, are excellent with a beer-sized mug of cold oolong tea. aspect: tea",positive
+0,0,The items available during dimsum time were plentiful - the turnip cake was excellent. aspect: turnip cake,positive
+0,0,"Had an after-work drink at the bar with a date, loved the place so much we came back for brunch the next morning. aspect: brunch",neutral
+0,0,We sat soaked in red wine for 20 minutes eating our meals w/o the wine b/c the server saw us like that but did nothing until we stopped him. aspect: meals,neutral
+0,0,"If you don't mind eating great thai food in a schnazzy ambience with a hop hip lunch crowd, then come on over to SPICE. aspect: ambience",neutral
+0,0,"There were a few moments during the tasting menu that left me speechless, such as the shrimp in cream sauce, toro with foam, foie gras custard, eggplant in miso and a foie gras kobe beef filet fried ball that brought me to tears. aspect: shrimp in cream sauce",positive
+0,0,"I went back a different night, once again I can't remember which, probably Friday and the place was a ghost town, with a corny DJ and a waitress who couldn't get my friend's drink right after several tries. aspect: waitress",negative
+0,0,"The drinks are very pricey and small, and the food is ok - but the portion size for the price is outrageous. aspect: drinks",negative
+0,0,"After a couple of drinks, the apps--I like the lobster/mango summer roll and the cripsy squid--go down great. aspect: cripsy squid",positive
+0,0,"Me and my wife we go there at least once a month, the food they give you is amazing we only get one order of pasta and main course it is enough for both to share,we get full and satisfied, our favorite dish penne with pesto. aspect: food",positive
+0,0,"Over a period of time some restaurants tend to loose the quality of the taste of their food, but not Ray's. aspect: food",neutral
+0,0,"The food is incredibly tasting and, if you want an advice: Grill calamari, Rigatoni a la vodka and, for dessert, Tartufata. aspect: food",positive
+0,0,"my waitress was unable to answer my questions about the menu, and forgot to put in my order. aspect: menu",neutral
+0,0,"My fiance and I always get mussels a la Cono and linguine a la Cono, but all the other pasta dishes I've tried have been good or excellent. aspect: pasta dishes",positive
+0,0,"You have to be comfortable eating with your hands, sharing the same plate with your friends and be able to handle spicy food (not as spicy as some thai dishes though). aspect: thai dishes",positive
+0,0,I would recommend going at off-times (before 7 perhaps) to avoid the crowds as it gets packed and there isn't much room by the bar. aspect: crowds,negative
+0,0,"In Short It's a bakery, takeout place and cafe all in one, and thanks to dishes prepared using the same ingredients stocked at famed gourmet food emporium, Zabar's, prices and quality are upscale. aspect: quality",positive
+0,0,"the hostess is rude as can be, the waiters can't stop to check in, the busboys are flinging stuff on your table, and that's true even when the restaurant is half empty! aspect: table",neutral
+0,0,"For entrees, Manzo, melt in your mouth beef medallions complemented by plump, sweet raisins + spinach. aspect: raisins + spinach",positive
+0,0,Other than making the grill flame at the beginning our hibatchi chef didnt put on much of a show - no flipping stuff into is hat or our plates - so if that is your thing go to Benihani. aspect: plates,neutral
+0,0,"Yes, this place is good, a cut above some of the other local diner food and a nice, friendly atmosphere. aspect: place",positive
+0,0,After dinner we ordered a hookah and after 20 minutes waitress comes by and tried to take it away because she claims our table is reserve for another group in 10 minute. aspect: waitress,negative
+0,0,"Go have a drink there the space is beautiful and buy an appetizer maybe, but pass on dinner, not well cooked and small portions. aspect: portions",negative
+0,0,The waitress took about 20 minutes to bring us the menu. aspect: waitress,negative
+0,0,"After waiting almost an hour for a table (with resies) our waiter told us that they don't have a sommelier because no steakhouse has a sommelier (patently false), and finished with the notion that he had absolutely no idea about any of the wines on the list. aspect: waiting",neutral
+0,0,"And there wasn't much room for the people at the bar to stand either, as the restaurant attempted to squeeze as many tables into the restaurant as they could, forcing those dining to have to shift in their chairs every time a waiter attempted to get by. aspect: waiter",negative
+0,0,Call it a bar with weak but tasty sangria and leave it at that. aspect: sangria,positive
+0,0,"You may as well just extend the bar into the restaurant since it has already penetrated it with loud music, loud voices, and a remarkable amount of cigarette smoke. aspect: smoke",negative
+0,0,"The Scene Petite Abeille is ideal for a lazy lunch, a restorative brunch or light dinner. aspect: lunch",neutral
+0,0,"Regardless of the amount of customers, the wait for food is insanely long. aspect: food",neutral
+0,0,"Our waiter (who also seemed to be the manager) dropped red wine all over me the contents of my purse and all he did was apologize quickly, hand me some club soda and avoid me for the rest of the time I was there. aspect: waiter",negative
+0,0,"Interior is limited, but there is a second floor for dining to avoid some of the main floor chatter. aspect: dining",neutral
+0,0,"The food is just ok, not really memorable and not what you expect for the price but I guess the atmosphere is what you pay for. aspect: food",positive
+0,0,"We went out on the town with the idea that we were going to mingle with the in crowd, you know, go to a place where you pay an outrageous cover charge, have to wear all black to fit in, and pay $12 for a watered-down martini, and if you're lucky, have a good time. aspect: time",positive
+0,0,"after booking reservations at Danube, only to show up and not have any tables available, the Danube somelier graciously called over to Bouley and got us a table for immediate seating. aspect: tables",negative
+0,0,"Had to constantly ask the waiter to top up water glasses, but generally service was ok. aspect: water glasses",neutral
+0,0,"The servers, casual in their striped button-downs, anticipate and fulfill needs as if they were trained as mind readers. aspect: servers",negative
+0,0,"For appetizers, wine, dinner, desert, great convesation, expect to spend a couple of hours. aspect: convesation",positive
+0,0,The complete and total rudeness and frustration surrounding this place started with the hostess calling us in the middle of the afternoon asking if we could change our reservation. aspect: hostess,negative
+0,0,"This Prospect Heights institution, with its old-fashioned soda-fountain type counter, complete with cakes of the day on pedastals w glass covers, attracts a diverse and loyal crowd. aspect: crowd",positive
+0,0,"Also available is eggplant in garlic sauce, the Zen vegi-burger, with sunflower seeds, kale and brown rice, and curry-rice-noodle soup. aspect: Zen vegi-burger",neutral
+0,0,My dinner partner ordered the angel hair with seafood - the portion was easily big enough for two. aspect: hair,neutral
+0,0,I was impressed with every dish and was tempted to go back for dinner that night! aspect: dish,positive
+0,0,"Had an after-work drink at the bar with a date, loved the place so much we came back for brunch the next morning. aspect: place",positive
+0,0,"Favorites include the Curry Shrimp w/ Mushrooms, Watercress Salad (not listed on menu), and Kao Soy noodle soup with chicken. aspect: menu",neutral
+0,0,"The menu features American bistro dishes like crab cakes, chicken under a brick, fresh oysters and various seafood dishes. aspect: chicken",neutral
+0,0,"You might be lucky enough to hear your waiter say, May I take zee order from you, Pig Dog, while you're there. aspect: Pig Dog",neutral
+0,0,There's even a nice menu of savory items served during late lunch and dinner hours. aspect: dinner hours,neutral
+0,0,"Students, artists, and young parents with their tots in tow linger all day on the mismatched couches and chairs--the place closes way too early to lure a late-night crowd. aspect: chairs",neutral
+0,0,"While I love this place, I do recommend going here mostly for lunch or an early dinner because the crowd and long wait can be annoying. aspect: wait",negative
+0,0,"The manager (or someone very important that was able to be seated 1/2 hour before opening) sat in the corner, with a glass of wine, a date, and talked on his cell for about an hour, loudly, while the first arrivals were sent to the hotel tearoom next door. aspect: corner",neutral
+0,0,The pork was good but 3 small medalians and 2 tablespoons of mashed potatos does not make a meal. aspect: meal,neutral
+0,0,Only drawback is the sound level - quite a loud space downstairs - and that might be accounted for with their trendy bar and right off Times Square. aspect: space downstairs,negative
+0,0,"The Food Guiltily scarf down fried catfish sandwiches and collard greens, or try Clinton's favorite: short ribs and fried chicken. aspect: ribs",positive
+0,0,"However, unlike a lot of places the service was great: we walked in after not being able to get a reservation and were seated within 10 mins. aspect: reservation",neutral
+0,0,"The Food Guiltily scarf down fried catfish sandwiches and collard greens, or try Clinton's favorite: short ribs and fried chicken. aspect: fried catfish sandwiches",positive
+0,0,"Yes, this place is good, a cut above some of the other local diner food and a nice, friendly atmosphere. aspect: diner food",neutral
+0,0,"With tacky kitsch as the decor's dominant motif and the obligatory grousing waiters hustling out brick-sized steaks and icy vodka to gussied-up regulars and tourists, an evening at Sammy's is both dinner and street theater. aspect: decor",negative
+0,0,"While getting a reservation upstairs can be a pain, stopping by on Saturday night for a dinner by the window is a fun way to experience Babbo without the long term planning. aspect: the window",neutral
+0,0,"I have been here a few times and never had a boring meal!Food always fresh, service very civilized. aspect: Food",positive
+0,0,IT'S GREAT COFFEE BUT THE SERVICE IS SERVED WITH BIG TIME ATTITUDE. aspect: COFFEE,positive
+0,0,the hostess wasn't sure until 3 hours later 10:28: Here we go Eggplant parmigiana fried grease an heavy duty Pollo dish covered with 1/4 of a pound of mozzarella. aspect: dish,negative
+0,0,"In addition guys, please hire some waitstaff who know both English and your menu. aspect: waitstaff",negative
+0,0,"The waitress encouraged to come for dinner and brunch, and I followed her recommandation. aspect: dinner",neutral
+0,0,"I've heard all the complaints about food and staff at this place, and perhaps some people have had an unfortunate encounter with the host or a cranky waiter. aspect: staff",negative
+0,0,"The waitress really struggled with anything more complicated than that--not sure if it was a language problem or what, but 3 of the 4 drinks we ordered came both late and wrong, including beer brought in place of a cocktail, the wrong wine, and a mystery drink that nobody had ordered. aspect: wine",negative
+0,0,"When we showed up, the guy at the door said it would be 15 minutes and that we could wait by the bar. aspect: bar",neutral
+0,0,"When I requested a change to the non-smoking section, the waiter replied that there were no open tables. aspect: waiter",neutral
+0,0,"A huge water wall, pieced together with thousands of azure blue tiles dotted with white plaster body forms in mid-swan dive, rises up from the foyer to the second floor. aspect: plaster",neutral
+0,0,We had a five-course dinner and none of the dishes really impressed except maybe the signature oysters and pearls. aspect: five-course dinner,neutral
+0,0,"We had to wait by the door, and the host failed to acknowledge our existence for a whole 15 minutes! aspect: door",neutral
+0,0,The price is well worth the quality and quantity of food. aspect: price,positive
+0,0,"Our waitress couldn't tell us what was in the seafood special, forgot to put in our oyster order so it came at the same time as the main meals, wasn't able to provide a confident recommendation from the menu, and had to be flagged several times for drinks. aspect: menu",neutral
+0,0,"There's also a weekend brunch, big on poached eggs, omelets and bagels and lox, plus fresh-squeezed OJ. aspect: omelets",neutral
+0,0,The Food  Most restaurants with more than 250 items on the regular menu don't do any of them particularly well. aspect: regular menu,negative
+0,0,Same quality for 1/3 the price and a realistic atmosphere. aspect: atmosphere,positive
+0,0,the decor isn't quite like Shun Lee but the service will definitely make up for any shortcoming. aspect: service,positive
+0,0,the hostess wasn't sure until 3 hours later 10:28: Here we go Eggplant parmigiana fried grease an heavy duty Pollo dish covered with 1/4 of a pound of mozzarella. aspect: mozzarella,neutral
+0,0,"There was a nice atmosphere except for the few pompous patrons who looked way too gaudy or a lunch time meal, but overall its a great place to eat. aspect: lunch",neutral
+0,0,My boyfriend and I loved Imagine Bar and Grill. aspect: Grill,neutral
+0,0,The service was good enough for a crowded place. aspect: place,negative
+0,0,The food and wine selection is superb and the chef brings it all together each and every time. aspect: food,positive
+0,0,The manager came out very defensively and insisted that it was a 2 lb lobster. aspect: lobster,neutral
+0,0,"If you had good service there, try to get your waiter's name and request him/her by name the next time. aspect: service",positive
+0,0,Don't they teach their staff how to pour water or wine? aspect: staff,negative
+0,0,Last time I was there the chef made me a special dessert called yokan (red bean cake with strawberry sauce on top) and it was delicious. aspect: chef,positive
+0,0,"The dinner menu looks like it has a more interesting selection of entrees, but if they are even the fraction of the quality of the items we ate for lunch, I whole-heartedly advise you to make it a point and dine at Creama--if not for the drinks, then definitely for the unique approach to mexican. aspect: entrees",positive
+0,0,"There were sesame seeds on the outside (it's pizza dough not a hamburger bun), barely any sauce, VERY thin slices of mozzarella sparingly applied and topped with lots of herbs. aspect: hamburger bun",negative
+0,0,"Down right comfortable, pleasant, enormous portions, have lunch and bring home a doggie bag wth your dinner. aspect: portions",positive
+0,0,"It's one of our take-out staples because of the good food, fast delivery time and the cheap price (for under $25 we have a dinner for 2 and with left-overs). aspect: price",positive
+0,0,"For dinner we decided to share on the Veal Cordon Blue (wow) and the Artic char, a nice dish. aspect: dinner",neutral
+0,0,"The servers were prompt and attentive, but the food arrived lukewarm (maybe it was served so quickly because it was pre-cooked and had been sitting out for a while) and was not all that flavorful. aspect: served",positive
+0,0,"The presentation was clever, and the food tasty however the service that accompanied it was so slow it made us feel neglected. aspect: presentation",positive
+0,0,"I went back a different night, once again I can't remember which, probably Friday and the place was a ghost town, with a corny DJ and a waitress who couldn't get my friend's drink right after several tries. aspect: place",neutral
+0,0,The service was adequate though we did need to keep asking for water and the drinks from the bar took a long time- plus the restaraurant was not crowded. aspect: drinks,neutral
+0,0,What it lacks in decor it more than makes up in the cuisine. aspect: decor,negative
+0,0,"I write that in quotes becuase iceberg lettuce, stale Pepperidge Farm croutons and bottled dressing does not a salad make. aspect: iceberg lettuce",neutral
+0,0,"The Scene Schnack feels a lot like a roller-rink concession stand circa 1982, from the deep vinyl booths and beat-up chairs right down to the loud music and plastic menu boards. aspect: Scene",neutral
+0,0,My complaint was with the service-- our waitress was rather pushy and visibly annoyed when we didn't order appetizers or dessert. aspect: dessert,neutral
+0,0,"We poked our heads in for a few bottles of wine, some good hot onion soup and a few hot appetizers to warm us up after a seeing a show. aspect: hot onion soup",positive
+0,0,"Our waitress recommended the coffee flan for dessert, and we didn't regret it. aspect: dessert",positive
+0,0,"The Food While there are plenty of meat dishes, including the sweet and spicy Curry Ga with humongous slices of chicken mixed with eggplant, onions and coconut milk, and Bo Sate with sauteed beef, pineapple and crushed peanuts, seafood and vegetarian dishes make up most of the menu. aspect: vegetarian dishes",neutral
+0,0,"While the deocr in the dining room is less than inviting, I recommend eating at the bar where there is full menu service. aspect: dining room",negative
+0,0,"I was a bit taken aback by the paper napkins and the flyer like menu, but was excited nevertheless to taste the food praised by at least 6 people on this site. aspect: food",positive
+0,0,"Mom's cooking without the meat, the not-terribly-diverse but tempting nonetheless dinner menu is both filling and comforting, and the modest outer-boroughs price tag makes this place a definite return visit, particularly since it's only one train stop outside the city. aspect: price tag",positive
+0,0,The complete and total rudeness and frustration surrounding this place started with the hostess calling us in the middle of the afternoon asking if we could change our reservation. aspect: reservation,neutral
+0,0,"Relaxed neighborhooders treat the spot like a second home, calling the staff by name and lingering despite the smallish bar and hurried courses. aspect: spot",positive
+0,0,"The atmosphere was nice in the front room, but despite a reservation, we were relegated to the rear, where we were treated like stepchildren - we had to flag someone down to take our order, water with no ice, we had to ask for extras (as opposed to someone asking if we needed something else). aspect: atmosphere",positive
+0,0,"In the main dining room, finding your waiter is Hell and aside from when they take your order and bring the bill, you'll rarely see them. aspect: main dining room",neutral
+0,0,"For appetizers, I'd recommend the soft shell crab, spicy New Zealand mussels, calamari and anything from the sushi bar. aspect: soft shell crab",positive
+0,0,"Food was fresh yet dull, especially for the price ($12-14 appetizers; $22-$27 entrees). aspect: Food",positive
+0,0,"I prefer to sit in the lounge area or at the bar, as the service is quicker and the space is more attractive. aspect: space",positive
+0,0,"not authentic sushi or the highest quality fish (yes, I think I'm qualified to state that)  good sushi rolls and appetizers  the rock shrimp avocado roll is recommended. aspect: appetizers the rock shrimp avocado roll",positive
+0,0,"Though we had to wait about 45 minutes from our dinner reservation time, we were given breadsticks, olives and parmasean to nibble on while we waited, albeit in the very cramped bar area. aspect: bar area",negative
+0,0,"Beyond the green awning and floor-to-ceiling windows, sophisticated (and often European) patrons drink wine from the bar in back and dine on French fare like nicoise salad, foie gras, and steak tartare at tightly packed tables. aspect: steak tartare",neutral
+0,0,The food will eventually make you outweigh Anna Nicole Smith. aspect: food,neutral
+0,0,"It took forever to seat us even though the restaurant was almost completely empty, then we had to ask to be waited on, it took another 15 minutes to get our drinks, and then another 30 minutes to get our salad and then even more time to get our pizza and then our bill. aspect: drinks",neutral
+0,0,"I got a coke and dessert (fluffy, light tiramisu) as well. aspect: tiramisu",positive
+0,0,If you want to go there only go for drinks and the atmosphere b/c the food is definitly not worth it!! aspect: food,negative
+0,0,I could not get a reservation on the phone and when I arrived they would not seat us even though they were half empty. aspect: seat,negative
+0,0,The manager never came to our table and the restaurant didn't offer anything to compensate for the error (they could have taken the two cocktails off the check ). aspect: manager,negative
+0,0,"The appetizers were delicious and the entrees were superb (the mahi was a little bland, but I guess you can't win them all). aspect: appetizers",positive
+0,0,Definitely try their Pizzas and Wines--although their desserts are not-to-shabby either. aspect: Wines,positive
+0,0,"Favorites include the Curry Shrimp w/ Mushrooms, Watercress Salad (not listed on menu), and Kao Soy noodle soup with chicken. aspect: Soy noodle soup with chicken",positive
+0,0,The drinkers beside us had fresh glasses of water brought on trays to replace the empties and a smiling waitress to cater to their every whim. aspect: trays,neutral
+0,0,The ice cream at the end of the meal was a surprise and I loved it. aspect: meal,neutral
+0,0,The food will eventually make you outweigh Anna Nicole Smith. aspect: Smith,negative
+0,0,The kinds of places like this where strangers are likely to share a table during the lunch rush always have better food than the Table-cloth places. aspect: food,positive
+0,0,Even a modest bottle of wine was accurately described by the wait staff and pleasing. aspect: bottle of wine,neutral
+0,0,"Spoke with the manager about comping a round, after we had already paid for 2 rounds waiting for the table. aspect: waiting",neutral
+0,0,"In Short A dark, narrow takeout area gives way to small tables in a cozy space decorated to resemble a Bedouin tent. aspect: space",positive
+0,0,"Definitely one of the Slope's best bets for Chinese food -- or for vegetarians (there's an extensive veggy menu, as well as many meat dishes). aspect: meat dishes",neutral
+0,0,"I mean no disrespect to the owner, just constructive criticism - improve the decor and dine-in service, but DON'T change the portions or the recipes. aspect: recipes",neutral
+0,0,"Also available is eggplant in garlic sauce, the Zen vegi-burger, with sunflower seeds, kale and brown rice, and curry-rice-noodle soup. aspect: soup",positive
+0,0,"In Short The bi-level dining room, which resembles a bamboo-thatched hut, is a brightly-lit, wide-open space with high ceilings and laminated depictions of Indian village life. aspect: space",positive
+0,0,We had to wait 30 minutes before the waiter even came to our table and had to ask 4 times just to get a glass of water. aspect: waiter,negative
+0,0,"Other small dishes, such as the fragrant sesame oil-scented raw spicy tuna, are excellent with a beer-sized mug of cold oolong tea. aspect: fragrant sesame oil-scented raw spicy tuna",positive
+0,0,Hearty appetizers include garlicky tomato bruschetta; a platter of prosciutto with dry-aged sausage; and baby spinach salad with shaved pecorino cheese. aspect: garlicky tomato bruschetta,neutral
+0,0,"Superfine is my preferred destination in the city when I'm looking for a casual, hip atmosphere, extraordinary food at decent prices and/or just a place to get a good drink, chat with the bartender and shoot some (free) pool. aspect: bartender",neutral
+0,0,"If you had good service there, try to get your waiter's name and request him/her by name the next time. aspect: waiter",neutral
+0,0,"It's really great to go in here and be able to get a creative cheap drink (they have things like blueberry mohitos for $4), a $4 plate of veggie spring rolls, and be able to joke with the bartender. aspect: drink",positive
+0,0,Went there for a dinner; nice little place. aspect: dinner,neutral
+0,0,The place is full of flavor and color and the music just puts you in the mood for food and drinks. aspect: place,neutral
+0,0,"After requesting to be seated at an empty table, the waitress (who was so terribly burdened when we asked to move from the bar to the table to have dinner) asked us to get up from our seats and wait for a smaller table because a party of 3 just walked in. aspect: waitress",negative
+0,0,My date and I were both taken back by the lack of the friendly attitude from the owner of the restaurant. aspect: owner,neutral
+0,0,"Staples are available every which way--tacos hard and soft, wrapped in tortillas stuffed with guacamole, cheese or black beans; burritos of beef, breaded catfish, pork pipian and chipotle chicken; plus a choice of four sauces from mild to just plain stupid. aspect: chipotle chicken",neutral
+0,0,"The service was only average - even with reservations we waited 40 minutes, and had to ask for our table, which had been ready, the hostess just never bothered to tell us. aspect: hostess",negative
+0,0,The texture of their flat noodles is something that has to be experienced to understand. aspect: texture,negative
+0,0,"They kept the chef, margarita machines, and practically the identical menu from Miracle Grill (the restaurant that formerly had the space); how is it that everything here is so much worse? aspect: space",neutral

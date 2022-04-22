@@ -269,13 +269,15 @@ def process_for_alsc(df):
     return df
 
 
-if __name__ == '__main__':
+def generate_alsc_data_ambiguous():
     # Semeval Rest 2016
-    rest16_train, rest16_val, rest16_test, rest16_train_ambi, rest16_val_ambi, rest16_test_ambi, rest16_train_non_ambi, rest16_val_non_ambi = preprocess_dataset('Rest16', 'en')
+    rest16_train, rest16_val, rest16_test, rest16_train_ambi, rest16_val_ambi, rest16_test_ambi, rest16_train_non_ambi, rest16_val_non_ambi = preprocess_dataset(
+        'Rest16', 'en')
     # # Semeval Rest 2015
     # rest15_train, rest15_val, rest15_test, rest15_test_ambi = preprocess_dataset('Rest15', 'en')
     # # MAMS
-    mams_train, mams_val, mams_test, mams_train_ambi, mams_val_ambi, mams_test_ambi, _, _ = preprocess_dataset('Mams', 'en')
+    mams_train, mams_val, mams_test, mams_train_ambi, mams_val_ambi, mams_test_ambi, _, _ = preprocess_dataset('Mams',
+                                                                                                               'en')
     # # Semeval Laptop 2014
     # lap14_train, lap14_val, lap14_test, lap14_test_ambi = preprocess_dataset('Lap14', 'en')
     # # Semeval Rest 2014
@@ -336,5 +338,27 @@ if __name__ == '__main__':
     # val_merged = val_merged.sample(frac=0.5)
     val_merged.to_csv('data/merged_val_alsc.csv', header=True, index=False)
 
+    print('saved..')
+
+
+def generate_alsc_data_plain():
+    # Semeval Rest 2016
+    rest16_train, rest16_val, rest16_test, rest16_train_ambi, rest16_val_ambi, rest16_test_ambi, rest16_train_non_ambi, rest16_val_non_ambi = preprocess_dataset('Rest16', 'en')
+    # # MAMS
+    mams_train, mams_val, mams_test, mams_train_ambi, mams_val_ambi, mams_test_ambi, _, _ = preprocess_dataset('Mams', 'en')
+
+    train_merged = pd.concat([rest16_train.sample(n=1000), mams_train.sample(n=11000)], ignore_index=True)
+    train_merged.to_csv('data/merged_train_plain_alsc.csv', header=True, index=False)
+
+    test_merged = pd.concat([rest16_test.sample(n=222), mams_test.sample(n=124)], ignore_index=True)
+    test_merged.to_csv('data/merged_test_plain_alsc.csv', header=True, index=False)
+
+    val_merged = pd.concat([rest16_val.sample(n=143), mams_val.sample(n=746)], ignore_index=True)
+    val_merged.to_csv('data/merged_val_plain_alsc.csv', header=True, index=False)
 
     print('saved..')
+
+
+if __name__ == '__main__':
+    # generate_alsc_data_ambiguous()
+    generate_alsc_data_plain()
