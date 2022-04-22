@@ -66,12 +66,12 @@ def read_squad_data():
     return train_df, val_df, None
 
 
-def read_wikitext_data():
+def read_wikitext_data(seed):
     print("Loading WikiText data...")
     dataset = load_dataset("wikitext", "wikitext-2-v1", keep_in_memory=True)
     train, val, _ = dataset["train"], dataset["validation"], None
-    train_df = extract_df_from_dataset_for_wikitext(train)
-    val_df = extract_df_from_dataset_for_wikitext(val)
+    train_df = extract_df_from_dataset_for_wikitext(train, seed)
+    val_df = extract_df_from_dataset_for_wikitext(val, seed)
     return train_df, val_df, None
 
 
@@ -99,13 +99,13 @@ def read_dpr_data_merged():
     print("USING MERGED DPR....")
     print("Loading DPR Coreference Resolution data...")
     dataset = load_dataset("definite_pronoun_resolution")
-    # using the test set as validation set. #Train = 1322, #Test = 564
     train, test, _ = dataset["train"], dataset["test"], None
     train_df = extract_df_from_dataset_for_dpr(train)
     test_df = extract_df_from_dataset_for_dpr(test)
     merged_df = pd.concat([train_df, test_df], ignore_index=True)
     train_df, val_df = train_test_split(merged_df, test_size=0.1, random_state=0)
     return train_df, val_df, None
+
 
 def read_dpr_data_for_testing():
     print("Loading DPR Coreference Resolution data...")
@@ -116,6 +116,16 @@ def read_dpr_data_for_testing():
     train_df, val_df = train_test_split(train_df, test_size=0.1, random_state=0)
     test_df = extract_df_from_dataset_for_dpr(test)
     return train_df, val_df, test_df
+
+
+# def read_dpr_data_for_testing_val_from_test():
+#     print("Loading DPR Coreference Resolution data with Val from Test...")
+#     dataset = load_dataset("definite_pronoun_resolution")
+#     train, test, _ = dataset["train"], dataset["test"], None
+#     train_df = extract_df_from_dataset_for_dpr(train)
+#     test_df = extract_df_from_dataset_for_dpr(test)
+#     test_df, val_df = train_test_split(test_df, test_size=0.4, random_state=0)
+#     return train_df, val_df, test_df
 
 
 def extract_train_df_from_dataset_for_squad(dataset):
@@ -131,10 +141,11 @@ def extract_train_df_from_dataset_for_squad(dataset):
     return df
 
 
-def extract_df_from_dataset_for_wikitext(dataset):
+def extract_df_from_dataset_for_wikitext(dataset, seed):
     params = {'batch_size': 1, 'shuffle': False, 'num_workers': 2}
     loader = DataLoader(dataset, **params)
     data = []
+    random.seed(seed)
     for batch in loader:
         text = batch['text'][0].strip()
         ### Cleaning: https://github.com/mauriw/deep_zip/blob/5623d8c8532c655e95b3f4583ae4cd8e011f6b4c/data.py
@@ -298,4 +309,4 @@ def get_aux_accuracy(predictions_filepath, task):
 
 if __name__ == '__main__':
     # print(evaluate_all_predictions_bleu('Results/AmbiguousDataset8_ALSC/commongen.csv', 3))
-    read_dpr_data()
+    read_wikitext_data(1)
