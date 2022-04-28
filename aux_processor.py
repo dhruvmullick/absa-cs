@@ -23,13 +23,39 @@ COSMOS = 'COSMOS'
 WIKITEXT = 'WIKITEXT'
 COMMONGEN = 'COMMONGEN'
 DPR = "DPR"
+QQP = "QQP"
+WMTFR = "WMTFR"
+WMTDE = "WMTDE"
+BOOK = "BOOK"
+WIKIJUMBLED = 'WIKIJUMBLED'
+
+FR = "fr"
+DE = "de"
 
 ### Prompt taken from own_commongen paper https://aclanthology.org/2020.findings-emnlp.165.pdf
 COMMONGEN_PROMPT = 'generate a sentence with: '
 
+MAX_WMT_TRAIN = 50000
+MAX_BOOKS_TRAIN = 50000
+MAX_WMT_VAL = 5000
+MAX_BOOKS_VAL = 5000
 
 def process_concepts(concept_set):
     return concept_set.replace("#", " ")
+
+
+def get_prefix_for_wmt_langauge(language):
+    if language == FR:
+        return "translate English to French:"
+    elif language == DE:
+        return "translate English to German:"
+
+
+def get_wmt_code_for_language(language):
+    if language == FR:
+        return "fr-en"
+    elif language == DE:
+        return "de-en"
 
 
 def read_commongen_json_file(file_name):
@@ -66,12 +92,43 @@ def read_squad_data():
     return train_df, val_df, None
 
 
-def read_wikitext_data(seed):
+def read_wikitext_data(seed, jumbled=False):
     print("Loading WikiText data...")
     dataset = load_dataset("wikitext", "wikitext-2-v1", keep_in_memory=True)
     train, val, _ = dataset["train"], dataset["validation"], None
-    train_df = extract_df_from_dataset_for_wikitext(train, seed)
-    val_df = extract_df_from_dataset_for_wikitext(val, seed)
+    train_df = extract_df_from_dataset_for_wikitext(train, seed, jumbled)
+    val_df = extract_df_from_dataset_for_wikitext(val, seed, jumbled)
+    return train_df, val_df, None
+
+
+def read_qqp_data():
+    print("Loading QQP data...")
+    dataset = load_dataset("glue", "qqp", keep_in_memory=True)
+    train, val, _ = dataset["train"], dataset["validation"], dataset["test"]
+    train_df = extract_df_from_dataset_for_qqp(train)
+    val_df = extract_df_from_dataset_for_qqp(val)
+    train_df = train_df.sample(n=50000)
+    val_df = val_df.sample(n=5000)
+    return train_df, val_df, None
+
+
+def read_wmt_data(language):
+    print(f"Loading WMT {language} data...")
+    train = load_dataset("wmt14", get_wmt_code_for_language(language), keep_in_memory=True, split='train[:1%]')
+    val = load_dataset("wmt14", get_wmt_code_for_language(language), keep_in_memory=True, split='validation')
+
+    train_df = extract_df_from_dataset_for_wmt(train, language, max_count=MAX_WMT_TRAIN)
+    val_df = extract_df_from_dataset_for_wmt(val, language, max_count=MAX_WMT_VAL)
+    return train_df, val_df, None
+
+
+def read_book_data():
+    print(f"Loading book data...")
+    train = load_dataset("bookcorpus", keep_in_memory=True, split=f'train[:{MAX_BOOKS_TRAIN}]')
+    val = load_dataset("bookcorpus", keep_in_memory=True, split=f'train[{MAX_BOOKS_TRAIN}:{MAX_BOOKS_TRAIN+MAX_BOOKS_VAL}]')
+
+    train_df = extract_df_from_dataset_for_books(train)
+    val_df = extract_df_from_dataset_for_books(val)
     return train_df, val_df, None
 
 
@@ -85,14 +142,14 @@ def read_cosmos_data():
     return extracted_training_data_df, extracted_val_data_df, None
 
 
-def read_dpr_data():
-    print("Loading DPR Coreference Resolution data...")
-    dataset = load_dataset("definite_pronoun_resolution")
-    # using the test set as validation set. #Train = 1322, #Test = 564
-    train, val, _ = dataset["train"], dataset["test"], None
-    train_df = extract_df_from_dataset_for_dpr(train)
-    val_df = extract_df_from_dataset_for_dpr(val)
-    return train_df, val_df, None
+# def read_dpr_data():
+# print("Loading DPR Coreference Resolution data...")
+# dataset = load_dataset("definite_pronoun_resolution")
+# # using the test set as validation set. #Train = 1322, #Test = 564
+# train, val, _ = dataset["train"], dataset["test"], None
+# train_df = extract_df_from_dataset_for_dpr(train)
+# val_df = extract_df_from_dataset_for_dpr(val)
+# return train_df, val_df, None
 
 
 def read_dpr_data_merged():
@@ -141,7 +198,40 @@ def extract_train_df_from_dataset_for_squad(dataset):
     return df
 
 
-def extract_df_from_dataset_for_wikitext(dataset, seed):
+def extract_df_from_dataset_for_qqp(dataset):
+    ### QQP Format is from T5 paper
+    params = {'batch_size': 1, 'shuffle': False, 'num_workers': 2}
+    loader = DataLoader(dataset, **params)
+    data = []
+    for batch in loader:
+        questions = 'qqp question1: {} question2: {}'.format(batch['question1'][0].strip(),
+                                                             batch['question2'][0].strip())
+        answer = 'not_duplicate' if int(batch['label']) == 0 else 'duplicate'
+        data.append([questions, answer])
+    df = pd.DataFrame(data, columns=['questions', 'answer'])
+    return df
+
+
+def extract_df_from_dataset_for_wmt(dataset, language, max_count):
+    ### WMT Format is from T5 paper
+    params = {'batch_size': 1, 'shuffle': False, 'num_workers': 2}
+    loader = DataLoader(dataset, **params)
+    data = []
+    prefix = get_prefix_for_wmt_langauge(language)
+
+    counter = 0
+    for batch in loader:
+        counter += 1
+        if counter > max_count:
+            break
+        original = f"{prefix} {batch['translation']['en'][0]}"
+        translated = batch['translation'][language][0]
+        data.append([original, translated])
+    df = pd.DataFrame(data, columns=['original', 'translated'])
+    return df
+
+
+def extract_df_from_dataset_for_wikitext(dataset, seed, jumbled):
     params = {'batch_size': 1, 'shuffle': False, 'num_workers': 2}
     loader = DataLoader(dataset, **params)
     data = []
@@ -159,6 +249,10 @@ def extract_df_from_dataset_for_wikitext(dataset, seed):
         text = text.replace(' @.@ ', '.')
 
         text_word_list = text.split(' ')
+
+        if jumbled:
+            random.shuffle(text_word_list)
+
         if len(text_word_list) <= 10:
             continue
 
@@ -167,6 +261,36 @@ def extract_df_from_dataset_for_wikitext(dataset, seed):
         rand_idx = 1
         while (len(masked_word_start) <= 3 or masked_word_start == '[UNK]') and ctr < 20:
             rand_idx = random.randint(10, len(text_word_list) - 1)
+            masked_word_start = text_word_list[rand_idx]
+            ctr += 1
+        if ctr == 20:
+            continue
+
+        input_text = ' '.join(text_word_list[:rand_idx])
+        target_text = ' '.join(text_word_list[rand_idx:])
+        data.append([f'Get next words: {input_text}', target_text])
+
+    return pd.DataFrame(data, columns=['sentence', 'masked_sentence'])
+
+
+def extract_df_from_dataset_for_books(dataset):
+    params = {'batch_size': 1, 'shuffle': False, 'num_workers': 2}
+    loader = DataLoader(dataset, **params)
+    data = []
+    for batch in loader:
+        text = batch['text'][0].strip()
+        # Following wikitext process
+        if len(text) < 10 or len(text.split()) < 5:
+            continue
+        text_word_list = text.split(' ')
+        if len(text_word_list) <= 5:
+            continue
+
+        masked_word_start = ''
+        ctr = 0
+        rand_idx = 1
+        while (len(masked_word_start) <= 3) and ctr < 20:
+            rand_idx = random.randint(3, len(text_word_list) - 1)
             masked_word_start = text_word_list[rand_idx]
             ctr += 1
         if ctr == 20:
@@ -244,6 +368,18 @@ def get_renamed_dpr_columns(df):
     return df
 
 
+def get_renamed_qqp_columns(df):
+    df = df.rename(columns={"answer": TARGET_TEXT, "questions": SOURCE_TEXT})[
+        [TARGET_TEXT, SOURCE_TEXT]]
+    return df
+
+
+def get_renamed_wmt_columns(df):
+    df = df.rename(columns={"translated": TARGET_TEXT, "original": SOURCE_TEXT})[
+        [TARGET_TEXT, SOURCE_TEXT]]
+    return df
+
+
 def evaluate_squad_predictions(predictions_filepath_validation):
     df = pd.read_csv(predictions_filepath_validation)
     hit = 0
@@ -291,22 +427,60 @@ def evaluate_all_predictions_bleu(predictions_filepath_validation, gram):
 
 
 def get_aux_accuracy(predictions_filepath, task):
-    if task is None or task == COSMOS:
+    if task is None or task in [COSMOS, DPR, QQP]:
         accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns(predictions_filepath)
     elif task == SQUAD:
         accuracy = evaluate_squad_predictions(predictions_filepath)
-    elif task == WIKITEXT:
+    elif task in [WIKITEXT, WMTFR, WMTDE, BOOK, WIKIJUMBLED]:
         accuracy = evaluate_predictions_bleu(predictions_filepath, gram=2)
-    elif task == COMMONGEN:
+    elif task in [COMMONGEN]:
         accuracy = evaluate_all_predictions_bleu(predictions_filepath, gram=3)
-    elif task == DPR:
-        accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns(predictions_filepath)
     else:
         raise AssertionError("Task Evaluation not defined")
 
     return accuracy
 
 
+def read_aux_data(task, seed):
+    if task == COMMONGEN:
+        return read_commongen_data()
+    elif task == COSMOS:
+        return read_cosmos_data()
+    elif task == SQUAD:
+        return read_squad_data()
+    elif task == WIKITEXT:
+        return read_wikitext_data(seed)
+    elif task == DPR:
+        return read_dpr_data_merged()
+    elif task == QQP:
+        return read_qqp_data()
+    elif task == WMTFR:
+        return read_wmt_data(FR)
+    elif task == WMTDE:
+        return read_wmt_data(DE)
+    elif task == BOOK:
+        return read_book_data()
+    elif task == WIKIJUMBLED:
+        return read_wikitext_data(seed, jumbled=True)
+
+
+RENAMED_DF_FOR_TRAIN = {
+    COSMOS: get_renamed_cosmos_columns,
+    COMMONGEN: get_renamed_commongen_columns,
+    ABSA: get_renamed_absa_columns,
+    SQUAD: get_renamed_squad_columns,
+    WIKITEXT: get_renamed_lm_columns,
+    DPR: get_renamed_dpr_columns,
+    QQP: get_renamed_qqp_columns,
+    WMTFR: get_renamed_wmt_columns,
+    WMTDE: get_renamed_wmt_columns,
+    BOOK: get_renamed_lm_columns,
+    WIKIJUMBLED: get_renamed_lm_columns
+}
+
+
 if __name__ == '__main__':
     # print(evaluate_all_predictions_bleu('Results/AmbiguousDataset8_ALSC/commongen.csv', 3))
-    read_wikitext_data(1)
+    # read_wikitext_data(1)
+    # read_wmt_data(FR)
+    read_wikitext_data(0, True)

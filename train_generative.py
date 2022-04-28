@@ -236,10 +236,16 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
     path = os.path.join(model_params["OUTPUT_PATH"], "model_files")
     model.save_pretrained(path)
     tokenizer.save_pretrained(path)
+
+    # if task == 'WIKIJUMBLED':
+    #     console.log(f"[Saving Model at {path}]...\n")
+    #     console.log(f"[Using last model itself]...\n")
+    #     console.print(f"""[Model] Model saved @ {os.path.join(model_params["OUTPUT_PATH"], "model_files")}\n""")
+    #     return
+
     console.log(f"[Saving Model at {path}]...\n")
     console.log(f"[Replace best model with the last model]...\n")
     os.remove(f'{model_params["OUTPUT_PATH"]}/model_files/pytorch_model.bin')
-    # os.rename(f'{model_params["OUTPUT_PATH"]}/model_files/pytorch_model.bin', f'{model_params["OUTPUT_PATH"]}/model_files/last_epoch_pytorch_model.bin')
     copyfile(f'{model_params["OUTPUT_PATH"]}/best_pytorch_model.bin',
              f'{model_params["OUTPUT_PATH"]}/model_files/pytorch_model.bin')
     console.print(f"""[Model] Model saved @ {os.path.join(model_params["OUTPUT_PATH"], "model_files")}\n""")

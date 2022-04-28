@@ -10,34 +10,22 @@ from torch import cuda
 
 import aux_processor
 import evaluate_e2e_tbsa
-# from train_generative_with_test_f1 import T5Trainer, T5Generator, YourDataSetClass
 from train_generative import T5Trainer, T5Generator, YourDataSetClass
 
-from aux_processor import get_renamed_absa_columns, get_renamed_squad_columns, get_renamed_lm_columns, \
-    get_renamed_commongen_columns, get_renamed_cosmos_columns, get_renamed_dpr_columns, ABSA, SQUAD, COSMOS, \
-    WIKITEXT, COMMONGEN, DPR
+from aux_processor import RENAMED_DF_FOR_TRAIN
 from aux_processor import read_dpr_data_for_testing
 from aux_processor import TARGET_TEXT, SOURCE_TEXT
 
 DELTA = 0.001
 
-SEEDS = [5, 6, 7, 8, 9]
-
-RENAMED_DF_FOR_TRAIN = {
-    COSMOS: get_renamed_cosmos_columns,
-    COMMONGEN: get_renamed_commongen_columns,
-    ABSA: get_renamed_absa_columns,
-    SQUAD: get_renamed_squad_columns,
-    WIKITEXT: get_renamed_lm_columns,
-    DPR: get_renamed_dpr_columns
-}
+SEEDS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 
 MODEL_DIR = sys.argv[1]
 
 print("SEEDS: {}".format(SEEDS))
 
-MODEL_PATH_TO_TEST = f'analysis_copy_for_dpr/{MODEL_DIR}'
-DPR_MODEL_DIRECTORY = f'analysis_copy_for_dpr/training1/{MODEL_DIR}'
+MODEL_PATH_TO_TEST = f'analysis_aux_for_dpr/{MODEL_DIR}'
+DPR_MODEL_DIRECTORY = f'analysis_aux_for_dpr/training/{MODEL_DIR}'
 
 PREDICTION_FILE_NAME = 'evaluation_predictions.csv'
 PREDICTION_FILE_NAME_VAL = 'evaluation_predictions_val.csv'
@@ -124,7 +112,7 @@ def run_program_for_seed_lr(seed):
         # "MAX_SOURCE_TEXT_LENGTH": 256,  # max length of source text
         "MAX_SOURCE_TEXT_LENGTH": 512,  # max length of source text. Use 512 for Squad as long inputs.
         "MAX_TARGET_TEXT_LENGTH": 16,  # max length of target text
-        "early_stopping_patience": 3,  # number of epochs before stopping training.
+        "early_stopping_patience": 10,  # number of epochs before stopping training.
         "SEED": seed  # to use for randomisations
     }
 

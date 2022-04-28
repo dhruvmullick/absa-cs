@@ -12,30 +12,19 @@ import evaluate_e2e_tbsa
 # from train_generative_with_test_f1 import T5Trainer, T5Generator, YourDataSetClass
 from train_generative import T5Trainer, T5Generator, YourDataSetClass
 
-from aux_processor import get_renamed_absa_columns, get_renamed_squad_columns, get_renamed_lm_columns, \
-    get_renamed_commongen_columns, get_renamed_cosmos_columns, get_renamed_dpr_columns, ABSA, SQUAD, COSMOS, \
-    WIKITEXT, COMMONGEN, DPR
-from aux_processor import read_squad_data, read_wikitext_data, read_cosmos_data, read_commongen_data, read_dpr_data, read_dpr_data_merged
-from aux_processor import TARGET_TEXT, SOURCE_TEXT
+from aux_processor import RENAMED_DF_FOR_TRAIN, get_renamed_absa_columns, read_aux_data
+from aux_processor import ABSA, SQUAD, COSMOS, WIKITEXT, COMMONGEN, DPR, QQP, WMTFR, WMTDE, BOOK, WIKIJUMBLED
+from aux_processor import TARGET_TEXT, SOURCE_TEXT, FR, DE
 
 DELTA = 0.001
 
 # SEEDS = [0, 1, 2, 3, 4]
-# SEEDS = [2, 3, 4]
-SEEDS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 # SEEDS = [0, 1, 2]
+SEEDS = [3, 4, 5, 6, 7, 8, 9]
+# SEEDS = [10, 11, 12, 13, 14]
 # SEEDS = [5, 6, 7, 8, 9]
 # LR_LIST = [5e-4]
-# LR_LIST = [1e-3, 5e-4, 1e-4]
-
-RENAMED_DF_FOR_TRAIN = {
-    COSMOS: get_renamed_cosmos_columns,
-    COMMONGEN: get_renamed_commongen_columns,
-    ABSA: get_renamed_absa_columns,
-    SQUAD: get_renamed_squad_columns,
-    WIKITEXT: get_renamed_lm_columns,
-    DPR: get_renamed_dpr_columns
-}
+# LR_LIST = [5e-4, 1e-4, 5e-5]
 
 ABSA_PROMPT = "get sentiment: "
 
@@ -66,8 +55,8 @@ print("SEEDS: {}".format(SEEDS))
 # print(f"USING FIXED COUNT FOR AUX... {AUX_COUNT}")
 
 # MODEL_DIRECTORY = 'models/{}_dataset8_manual_replaced1_alsc_fine_tune_f1_aux_{}'.format(TASK, AUX_FRACTION)
-MODEL_DIRECTORY = 'models/{}_dataset8_manual_alsc_fine_tune_f1_aux_{}'.format(TASK, AUX_FRACTION)
-# MODEL_DIRECTORY = 'models/{}_dataset8_manual_alsc_fine_tune_original_f1_aux_{}'.format(TASK, AUX_FRACTION)
+# MODEL_DIRECTORY = 'models/{}_dataset9_alsc_fine_tune_f1_aux_{}'.format(TASK, AUX_FRACTION)
+MODEL_DIRECTORY = 'models/{}_dataset8_manual_alsc_fine_tune_original_f1_aux_{}'.format(TASK, AUX_FRACTION)
 MODEL_DIRECTORY_ABSA = '{}/absa/'.format(MODEL_DIRECTORY)
 
 RESULTS_FILE_PATH = '{}/results.csv'.format(MODEL_DIRECTORY)
@@ -163,27 +152,31 @@ def get_data_loaders(model_params, source_text, target_text, tokenizer, training
 
 
 def get_aux_lr(task):
-    if task == SQUAD and (abs(AUX_FRACTION - 1.0) <= DELTA):
+    if (task == SQUAD and (abs(AUX_FRACTION - 1.0) <= DELTA)) \
+            or (task == WIKIJUMBLED and (abs(AUX_FRACTION - 1.0) <= DELTA)) \
+            or (task == WIKIJUMBLED and (abs(AUX_FRACTION - 0.5) <= DELTA)):
         return 5e-5
     elif task == DPR and (abs(AUX_FRACTION - 0.1) <= DELTA):
         return 1e-3
     elif task == DPR and (abs(AUX_FRACTION - 1.0) <= DELTA):
         return 5e-4
-    elif task in [COMMONGEN, COSMOS, WIKITEXT, SQUAD, DPR]:
+    elif task in [COMMONGEN, COSMOS, WIKITEXT, SQUAD, DPR, QQP, WIKIJUMBLED]:
         return 1e-4
     else:
         raise AssertionError(f"AUX LR NOT DEFINED FOR TASK - {task}")
 
 
 def get_absa_lr(task):
-    if task == COMMONGEN and (abs(AUX_FRACTION - 0.1) <= DELTA):
+    if (task == COMMONGEN and (abs(AUX_FRACTION - 0.1) <= DELTA)) \
+            or (task == QQP and (abs(AUX_FRACTION - 0.5) <= DELTA)):
         return 1e-4
-    elif task in [COMMONGEN, COSMOS, WIKITEXT, SQUAD, DPR]:
+    elif task in [COMMONGEN, COSMOS, WIKITEXT, SQUAD, DPR, QQP]:
         return 5e-4
     else:
         raise AssertionError(f"ABSA LR NOT DEFINED FOR TASK - {task}")
 
 
+# Hyperparameter Check Code
 # def run_program_for_seed_lr(seed, lr, lr_idx):
 def run_program_for_seed_lr(seed):
     # Set random seeds and deterministic pytorch for reproducibility
@@ -195,10 +188,12 @@ def run_program_for_seed_lr(seed):
         print("USING FIXED LR FOR AUX... ")
         aux_lr = get_aux_lr(TASK)
     else:
+        # Hyperparameter Check Code
         print("Training Aux only")
         # aux_lr = lr
         raise AssertionError("NEED TO DEFINE WHAT TO DO IF ONLY TRAINING AUX...")
 
+    # Hyperparameter Check Code
     absa_lr = get_absa_lr(TASK)
     # absa_lr = lr
 
@@ -246,12 +241,14 @@ def run_program_for_seed_lr(seed):
     print("ABSA Params: " + str(model_params_absa))
     print("AUX Params: " + str(model_params_aux))
 
-    # print("------- REPLACED TEST ABSA DATA !!!!-------")
-
     training_file_absa = './data/merged_train_alsc.csv'
     validation_file_absa = './data/merged_val_alsc.csv'
     test_file_absa = 'data/merged_test_ambiguous_alsc_manual.csv'
-    # test_file_absa = 'data/merged_test_ambiguous_alsc_manual_w_pronouns_replaced1.csv'
+
+    # print("USING PLAIN DATA...")
+    # training_file_absa = './data/merged_train_plain_alsc.csv'
+    # validation_file_absa = './data/merged_val_plain_alsc.csv'
+    # test_file_absa = 'data/merged_test_plain_alsc.csv'
 
     print("Training on: {}, Validation on {}, Testing on: {}, Seed: {}".format(training_file_absa, validation_file_absa,
                                                                                test_file_absa, seed))
@@ -265,21 +262,12 @@ def run_program_for_seed_lr(seed):
 
     print("Reading Aux Data...")
 
-    if TASK == COMMONGEN:
-        training_data_aux, validation_data_aux, testing_data_aux = read_commongen_data()
-    elif TASK == COSMOS:
-        training_data_aux, validation_data_aux, testing_data_aux = read_cosmos_data()
-    elif TASK == SQUAD:
-        training_data_aux, validation_data_aux, testing_data_aux = read_squad_data()
-    elif TASK == WIKITEXT:
-        training_data_aux, validation_data_aux, testing_data_aux = read_wikitext_data()
-    elif TASK == DPR:
-        training_data_aux, validation_data_aux, testing_data_aux = read_dpr_data_merged()
-        # training_data_aux, validation_data_aux, testing_data_aux = read_dpr_data()
+    training_data_aux, validation_data_aux, testing_data_aux = read_aux_data(TASK, seed)
 
     torch.manual_seed(seed)  # pytorch random seed
     np.random.seed(seed)  # numpy random seed
 
+    # Hyperparameter Check Code
     # if TRAIN_AUX_ONLY or lr_idx == 0:
     if not TRAIN_AUX_ONLY:
         # Don't Train both Aux and ABSA and also it's not the first lr.
@@ -303,7 +291,7 @@ def run_program_for_seed_lr(seed):
             T5Trainer(training_loader_aux, validation_loader_aux, tokenizer, model_params=model_params_aux,
                       local_model=None, task=TASK)
         else:
-            print("[Reusing Aux model]")
+            print("[Reulsing Aux model]")
         aux_model_path = os.path.join(model_params_aux["OUTPUT_PATH"], "model_files")
     else:
         print("[Not using Aux]")
@@ -360,6 +348,7 @@ if __name__ == '__main__':
     for seed in SEEDS:
         val_list = []
         test_list = []
+        # Hyperparameter Check Code
         # for lr_idx, lr in enumerate(LR_LIST):
         print("Running ALSC program...")
         # acc_val, acc_test = run_program_for_seed_lr(seed, lr, lr_idx)
@@ -370,6 +359,7 @@ if __name__ == '__main__':
         test_list.append(acc_test)
         print("LR Results for Validation: {}".format(str(val_list)))
         print("LR Results for Test: {}".format(str(test_list)))
+
         ACC_VAL[seed] = val_list
         ACC_TEST[seed] = test_list
         print("Seed = {} -> Done!".format(seed))

@@ -141,3 +141,4 @@ def get_polarities_for_line(line, language, spacy_nlp):
 
 def get_aspect_targets(polarity_sentence):
     return [' '.join(polarity.split()[:-1]) for polarity in polarity_sentence]
+
