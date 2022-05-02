@@ -8,7 +8,7 @@ from tqdm import tqdm
 import sys
 import random
 
-from aux_processor import get_aux_accuracy
+from aux_processor import get_task_accuracy, ABSA_PROMPT
 import evaluate_e2e_tbsa
 from utils import EarlyStopping
 import torch.nn.functional as F
@@ -21,9 +21,6 @@ from rich.console import Console
 from shutil import copyfile
 
 # pd.set_option('display.max_colwidth', -1)
-
-ABSA_PROMPT = "aspect analysis: "
-# ABSA_PROMPT = ""
 
 # define a rich console logger
 console = Console(record=True)
@@ -225,7 +222,7 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
         T5Generator(validation_loader, model_params=model_params, output_file=prediction_file_name_validation,
                     model=model, tokenizer=tokenizer)
 
-        validation_accuracy = get_aux_accuracy(predictions_filepath_validation, task)
+        validation_accuracy = get_task_accuracy(predictions_filepath_validation, task)
 
         test_accuracy = 0
         aux_val_accuracy = 0
@@ -248,7 +245,7 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
             prediction_file_name = 'evaluation_predictions_aux.csv'
             predictions_filepath = '{}/{}'.format(model_params["OUTPUT_PATH"], prediction_file_name)
             T5Generator(val_loader_aux, model_params=model_params, output_file=prediction_file_name)
-            aux_val_accuracy = get_aux_accuracy(predictions_filepath, aux_task)
+            aux_val_accuracy = get_task_accuracy(predictions_filepath, aux_task)
 
         early_stopping(validation_accuracy, model)
 

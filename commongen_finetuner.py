@@ -14,7 +14,7 @@ from train_generative import T5Trainer, T5Generator
 
 from aux_processor import get_renamed_absa_columns, get_renamed_squad_columns, get_renamed_lm_columns, get_renamed_commongen_columns, get_renamed_cosmos_columns
 from aux_processor import read_squad_data, read_wikitext_data, read_cosmos_data, read_commongen_data
-from aux_processor import TARGET_TEXT, SOURCE_TEXT
+from aux_processor import TARGET_TEXT, SOURCE_TEXT, ABSA_PROMPT
 
 
 # define a rich console logger
@@ -34,8 +34,6 @@ RENAMED_DF_FOR_TRAIN = {
     SQUAD: get_renamed_squad_columns,
     WIKITEXT: get_renamed_lm_columns
 }
-
-ABSA_PROMPT = "aspect analysis: "
 
 FRACTION = 0.1
 ABSA_MULTIPLIER = 2

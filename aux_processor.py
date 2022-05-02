@@ -13,10 +13,14 @@ from datasets import load_dataset
 import evaluate_e2e_tbsa
 import utils
 
+# Constant strings
 TARGET_TEXT = "target"
 SOURCE_TEXT = "source"
 OTHER = "other"
+FR = "fr"
+DE = "de"
 
+# Task names
 ABSA = 'ABSA'
 SQUAD = 'SQUAD'
 COSMOS = 'COSMOS'
@@ -29,16 +33,17 @@ WMTDE = "WMTDE"
 BOOK = "BOOK"
 WIKIJUMBLED = 'WIKIJUMBLED'
 
-FR = "fr"
-DE = "de"
-
-### Prompt taken from own_commongen paper https://aclanthology.org/2020.findings-emnlp.165.pdf
-COMMONGEN_PROMPT = 'generate a sentence with: '
+# Prompt prefixes
+ABSA_PROMPT = "get sentiment: "
+COMMONGEN_PROMPT = "generate a sentence with: "
+WMTFR_PROMPT = "translate English to French:"
+WMTDE_PROMPT = "translate English to German:"
 
 MAX_WMT_TRAIN = 50000
 MAX_BOOKS_TRAIN = 50000
 MAX_WMT_VAL = 5000
 MAX_BOOKS_VAL = 5000
+
 
 def process_concepts(concept_set):
     return concept_set.replace("#", " ")
@@ -46,9 +51,9 @@ def process_concepts(concept_set):
 
 def get_prefix_for_wmt_langauge(language):
     if language == FR:
-        return "translate English to French:"
+        return WMTFR_PROMPT
     elif language == DE:
-        return "translate English to German:"
+        return WMTDE_PROMPT
 
 
 def get_wmt_code_for_language(language):
@@ -125,7 +130,8 @@ def read_wmt_data(language):
 def read_book_data():
     print(f"Loading book data...")
     train = load_dataset("bookcorpus", keep_in_memory=True, split=f'train[:{MAX_BOOKS_TRAIN}]')
-    val = load_dataset("bookcorpus", keep_in_memory=True, split=f'train[{MAX_BOOKS_TRAIN}:{MAX_BOOKS_TRAIN+MAX_BOOKS_VAL}]')
+    val = load_dataset("bookcorpus", keep_in_memory=True,
+                       split=f'train[{MAX_BOOKS_TRAIN}:{MAX_BOOKS_TRAIN + MAX_BOOKS_VAL}]')
 
     train_df = extract_df_from_dataset_for_books(train)
     val_df = extract_df_from_dataset_for_books(val)
@@ -186,7 +192,7 @@ def read_dpr_data_for_testing():
 
 
 def extract_train_df_from_dataset_for_squad(dataset):
-    ### Using same input style as T5 paper
+    # Using same input style as T5 paper
     params = {'batch_size': 1, 'shuffle': False, 'num_workers': 2}
     loader = DataLoader(dataset, **params)
     data = []
@@ -199,7 +205,7 @@ def extract_train_df_from_dataset_for_squad(dataset):
 
 
 def extract_df_from_dataset_for_qqp(dataset):
-    ### QQP Format is from T5 paper
+    # QQP Format is from T5 paper
     params = {'batch_size': 1, 'shuffle': False, 'num_workers': 2}
     loader = DataLoader(dataset, **params)
     data = []
@@ -213,7 +219,7 @@ def extract_df_from_dataset_for_qqp(dataset):
 
 
 def extract_df_from_dataset_for_wmt(dataset, language, max_count):
-    ### WMT Format is from T5 paper
+    # WMT Format is from T5 paper
     params = {'batch_size': 1, 'shuffle': False, 'num_workers': 2}
     loader = DataLoader(dataset, **params)
     data = []
@@ -238,7 +244,7 @@ def extract_df_from_dataset_for_wikitext(dataset, seed, jumbled):
     random.seed(seed)
     for batch in loader:
         text = batch['text'][0].strip()
-        ### Cleaning: https://github.com/mauriw/deep_zip/blob/5623d8c8532c655e95b3f4583ae4cd8e011f6b4c/data.py
+        # Cleaning: https://github.com/mauriw/deep_zip/blob/5623d8c8532c655e95b3f4583ae4cd8e011f6b4c/data.py
         if len(text) < 10 or len(text.split()) < 5:
             continue
         if '=' in text:
@@ -347,41 +353,46 @@ def get_renamed_squad_columns(df):
 def get_renamed_cosmos_columns(df):
     df = df.rename(columns={"correct_answer": TARGET_TEXT, "question_context_candidate": SOURCE_TEXT})[
         [TARGET_TEXT, SOURCE_TEXT]]
+    df[OTHER] = ""
     return df
 
 
 def get_renamed_absa_columns(df):
     df = df.rename(columns={"sentences_opinions": TARGET_TEXT, "sentences_texts": SOURCE_TEXT})[
         [TARGET_TEXT, SOURCE_TEXT]]
+    df[OTHER] = ""
     return df
 
 
 def get_renamed_lm_columns(df):
     df = df.rename(columns={"masked_sentence": TARGET_TEXT, "sentence": SOURCE_TEXT})[
         [TARGET_TEXT, SOURCE_TEXT]]
+    df[OTHER] = ""
     return df
 
 
 def get_renamed_dpr_columns(df):
     df = df.rename(columns={"antecedent": TARGET_TEXT, "sentence": SOURCE_TEXT})[
         [TARGET_TEXT, SOURCE_TEXT]]
+    df[OTHER] = ""
     return df
 
 
 def get_renamed_qqp_columns(df):
     df = df.rename(columns={"answer": TARGET_TEXT, "questions": SOURCE_TEXT})[
         [TARGET_TEXT, SOURCE_TEXT]]
+    df[OTHER] = ""
     return df
 
 
 def get_renamed_wmt_columns(df):
     df = df.rename(columns={"translated": TARGET_TEXT, "original": SOURCE_TEXT})[
         [TARGET_TEXT, SOURCE_TEXT]]
+    df[OTHER] = ""
     return df
 
 
-def evaluate_squad_predictions(predictions_filepath_validation):
-    df = pd.read_csv(predictions_filepath_validation)
+def evaluate_squad_predictions(df):
     hit = 0
     for idx, row in df.iterrows():
         prediction = row["Generated Text"]
@@ -391,8 +402,7 @@ def evaluate_squad_predictions(predictions_filepath_validation):
     return 100 * hit / len(df)
 
 
-def evaluate_predictions_bleu(predictions_filepath_validation, gram):
-    df = pd.read_csv(predictions_filepath_validation)
+def evaluate_predictions_bleu(df, gram):
     bleu_sum = 0
     weights = tuple(repeat(1 / gram, gram))
 
@@ -401,14 +411,13 @@ def evaluate_predictions_bleu(predictions_filepath_validation, gram):
         actual = str(row["Actual Text"])
         prediction_list = utils.replace_special_chars_and_lower(prediction)
         actual_list = utils.replace_special_chars_and_lower(actual)
-        ### Default is 4-gram. So need to modify weights for other n-grams.
+        # Default is 4-gram. So need to modify weights for other n-grams.
         BLEUscore = nltk.translate.bleu_score.sentence_bleu([actual_list], prediction_list, weights=weights)
         bleu_sum += BLEUscore
     return 100 * bleu_sum / len(df)
 
 
-def evaluate_all_predictions_bleu(predictions_filepath_validation, gram):
-    df = pd.read_csv(predictions_filepath_validation)
+def evaluate_all_predictions_bleu(df, gram):
     bleu_sum = 0
     weights = tuple(repeat(1 / gram, gram))
 
@@ -419,26 +428,43 @@ def evaluate_all_predictions_bleu(predictions_filepath_validation, gram):
         actual_list = [utils.replace_special_chars_and_lower(ref) for ref in actual_list]
         max_bleu = 0
         for actual in actual_list:
-            ### Default is 4-gram. So need to modify weights for other n-grams.
+            # Default is 4-gram. So need to modify weights for other n-grams.
             BLEUscore = nltk.translate.bleu_score.sentence_bleu([actual], prediction_list, weights=weights)
             max_bleu = max(max_bleu, BLEUscore)
         bleu_sum += max_bleu
     return 100 * bleu_sum / len(df)
 
 
-def get_aux_accuracy(predictions_filepath, task):
-    if task is None or task in [COSMOS, DPR, QQP]:
-        accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns(predictions_filepath)
-    elif task == SQUAD:
-        accuracy = evaluate_squad_predictions(predictions_filepath)
-    elif task in [WIKITEXT, WMTFR, WMTDE, BOOK, WIKIJUMBLED]:
-        accuracy = evaluate_predictions_bleu(predictions_filepath, gram=2)
-    elif task in [COMMONGEN]:
-        accuracy = evaluate_all_predictions_bleu(predictions_filepath, gram=3)
+def split_absa_aux_for_val_df(df):
+    absa_rows = df['Original Sentence'].str.startswith(ABSA_PROMPT)
+    return df[absa_rows], df[~absa_rows]
+
+
+def get_task_accuracy(predictions_filepath, aux_task):
+    predictions_df = pd.read_csv(predictions_filepath)
+    absa_df, aux_df = split_absa_aux_for_val_df(predictions_df)
+
+    absa_accuracy, aux_accuracy = 0, 0
+    if len(absa_df) > 0:  # enters if val has absa data (absa only validation or Absa+Aux mixture validation)
+        absa_accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns_for_df(absa_df)
+
+    if len(aux_df) == 0:
+        return absa_accuracy
+
+    if aux_task in [COSMOS, DPR, QQP]:
+        aux_accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns_for_df(aux_df)
+    elif aux_task == SQUAD:
+        aux_accuracy = evaluate_squad_predictions(aux_df)
+    elif aux_task in [WIKITEXT, WMTFR, WMTDE, BOOK, WIKIJUMBLED]:
+        aux_accuracy = evaluate_predictions_bleu(aux_df, gram=2)
+    elif aux_task in [COMMONGEN]:
+        aux_accuracy = evaluate_all_predictions_bleu(aux_df, gram=3)
+    elif aux_task is None:
+        aux_accuracy = 0
     else:
         raise AssertionError("Task Evaluation not defined")
 
-    return accuracy
+    return absa_accuracy + aux_accuracy
 
 
 def read_aux_data(task, seed):
@@ -478,9 +504,9 @@ RENAMED_DF_FOR_TRAIN = {
     WIKIJUMBLED: get_renamed_lm_columns
 }
 
-
 if __name__ == '__main__':
     # print(evaluate_all_predictions_bleu('Results/AmbiguousDataset8_ALSC/commongen.csv', 3))
     # read_wikitext_data(1)
     # read_wmt_data(FR)
-    read_wikitext_data(0, True)
+    # read_wikitext_data(0, True)
+    get_task_accuracy('/tmp/eval.csv', 'COMMONGEN')

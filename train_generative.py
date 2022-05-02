@@ -6,7 +6,7 @@ import transformers
 from tqdm import tqdm
 import random
 
-from aux_processor import get_aux_accuracy
+from aux_processor import get_task_accuracy
 from utils import EarlyStopping
 import torch.optim
 from torch.utils.data import Dataset
@@ -17,9 +17,6 @@ from rich.console import Console
 from shutil import copyfile
 
 # pd.set_option('display.max_colwidth', -1)
-
-ABSA_PROMPT = "aspect analysis: "
-# ABSA_PROMPT = ""
 
 # define a rich console logger
 console = Console(record=True)
@@ -219,7 +216,7 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
         T5Generator(validation_loader, model_params=model_params, output_file=prediction_file_name_validation,
                     model=model, tokenizer=tokenizer)
 
-        validation_accuracy = get_aux_accuracy(predictions_filepath_validation, task)
+        validation_accuracy = get_task_accuracy(predictions_filepath_validation, task)
 
         early_stopping(validation_accuracy, model)
 
@@ -248,6 +245,7 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
     os.remove(f'{model_params["OUTPUT_PATH"]}/model_files/pytorch_model.bin')
     copyfile(f'{model_params["OUTPUT_PATH"]}/best_pytorch_model.bin',
              f'{model_params["OUTPUT_PATH"]}/model_files/pytorch_model.bin')
+    os.remove(f'{model_params["OUTPUT_PATH"]}/best_pytorch_model.bin')
     console.print(f"""[Model] Model saved @ {os.path.join(model_params["OUTPUT_PATH"], "model_files")}\n""")
 
 

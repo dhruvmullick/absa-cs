@@ -14,7 +14,7 @@ from train_generative import T5Trainer, T5Generator, YourDataSetClass
 
 from aux_processor import RENAMED_DF_FOR_TRAIN, get_renamed_absa_columns, read_aux_data
 from aux_processor import ABSA, SQUAD, COSMOS, WIKITEXT, COMMONGEN, DPR, QQP, WMTFR, WMTDE, BOOK, WIKIJUMBLED
-from aux_processor import TARGET_TEXT, SOURCE_TEXT, FR, DE
+from aux_processor import TARGET_TEXT, SOURCE_TEXT, FR, DE, ABSA_PROMPT
 
 DELTA = 0.001
 
@@ -25,8 +25,6 @@ SEEDS = [0, 1, 2]
 # SEEDS = [5, 6, 7, 8, 9]
 LR_LIST = [1e-3, 5e-4, 1e-4]
 # LR_LIST = [5e-4, 1e-4, 5e-5]
-
-ABSA_PROMPT = "get sentiment: "
 
 # sys.argv[1] will have the commonsense fraction
 COMMONSENSE_FRACTION = float(sys.argv[1])
@@ -149,14 +147,18 @@ def get_data_loaders(model_params, source_text, target_text, tokenizer, training
 
 def get_aux_lr(task):
     if (task == SQUAD and (abs(AUX_FRACTION - 1.0) <= DELTA)) \
+            or (task == WMTDE and (abs(AUX_FRACTION - 1.0) <= DELTA)) \
+            or (task == WMTFR and (abs(AUX_FRACTION - 1.0) <= DELTA)) \
             or (task == WIKIJUMBLED and (abs(AUX_FRACTION - 1.0) <= DELTA)) \
             or (task == WIKIJUMBLED and (abs(AUX_FRACTION - 0.5) <= DELTA)):
         return 5e-5
     elif task == DPR and (abs(AUX_FRACTION - 0.1) <= DELTA):
         return 1e-3
-    elif task == DPR and (abs(AUX_FRACTION - 1.0) <= DELTA):
+    elif task == DPR and (abs(AUX_FRACTION - 1.0) <= DELTA) \
+            or (task == BOOK and (abs(AUX_FRACTION - 0.2) <= DELTA)) \
+            or (task == BOOK and (abs(AUX_FRACTION - 0.5) <= DELTA)):
         return 5e-4
-    elif task in [COMMONGEN, COSMOS, WIKITEXT, SQUAD, DPR, QQP, WIKIJUMBLED]:
+    elif task in [COMMONGEN, COSMOS, WIKITEXT, SQUAD, DPR, QQP, WIKIJUMBLED, WMTFR, WMTDE, BOOK]:
         return 1e-4
     else:
         raise AssertionError(f"AUX LR NOT DEFINED FOR TASK - {task}")
@@ -164,9 +166,11 @@ def get_aux_lr(task):
 
 def get_absa_lr(task):
     if (task == COMMONGEN and (abs(AUX_FRACTION - 0.1) <= DELTA)) \
+            or (task == WIKIJUMBLED and (abs(AUX_FRACTION - 0.5) <= DELTA)) \
+            or (task == WMTDE and (abs(AUX_FRACTION - 0.2) <= DELTA)) \
             or (task == QQP and (abs(AUX_FRACTION - 0.5) <= DELTA)):
         return 1e-4
-    elif task in [COMMONGEN, COSMOS, WIKITEXT, SQUAD, DPR, QQP]:
+    elif task in [COMMONGEN, COSMOS, WIKITEXT, SQUAD, DPR, QQP, WIKIJUMBLED, WMTFR, WMTDE, BOOK]:
         return 5e-4
     else:
         raise AssertionError(f"ABSA LR NOT DEFINED FOR TASK - {task}")

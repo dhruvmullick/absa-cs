@@ -239,6 +239,10 @@ def run_from_generative_script_alsc(prediction_file_to_evaluate):
 
 def evaluate_exact_match_for_columns(predictions_filepath):
     predictions_df = pd.read_csv(predictions_filepath)
+    return evaluate_exact_match_for_columns_for_df(predictions_df)
+
+
+def evaluate_exact_match_for_columns_for_df(predictions_df):
     correct = predictions_df["Generated Text"].apply(str) == predictions_df["Actual Text"].apply(str)
     acc = 100*correct.sum()/len(predictions_df)
     return acc
