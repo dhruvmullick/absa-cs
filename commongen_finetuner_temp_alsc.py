@@ -1,20 +1,19 @@
-import torch
-import sys
 import os
+import sys
+
 import numpy as np
 import pandas as pd
+import torch
 from rich.console import Console
+from torch import cuda
 from torch.utils.data import DataLoader
 from transformers import T5Tokenizer
-from torch import cuda
 
 import evaluate_e2e_tbsa
-# from train_generative_with_test_f1 import T5Trainer, T5Generator, YourDataSetClass
-from train_generative import T5Trainer, T5Generator, YourDataSetClass
-
 from aux_processor import RENAMED_DF_FOR_TRAIN, get_renamed_absa_columns, read_aux_data
-from aux_processor import ABSA, SQUAD, COSMOS, WIKITEXT, COMMONGEN, DPR, QQP, WMTFR, WMTDE, BOOK, WIKIJUMBLED
-from aux_processor import TARGET_TEXT, SOURCE_TEXT, FR, DE, ABSA_PROMPT
+from aux_processor import SQUAD, COSMOS, WIKITEXT, COMMONGEN, DPR, QQP, WMTFR, WMTDE, BOOK, WIKIJUMBLED
+from aux_processor import TARGET_TEXT, SOURCE_TEXT, ABSA_PROMPT
+from train_generative import T5Trainer, T5Generator, YourDataSetClass
 
 DELTA = 0.001
 
@@ -216,7 +215,7 @@ def run_program_for_seed_lr(seed):
         "TEST_EPOCHS": 1,  # number of validation epochs
         "LEARNING_RATE": aux_lr,  # learning rate
         "MAX_SOURCE_TEXT_LENGTH": 512,  # max length of source text. Use 512 for Squad as long inputs.
-        "MAX_TARGET_TEXT_LENGTH": 32,  # max length of target text
+        "MAX_TARGET_TEXT_LENGTH": 16,  # max length of target text.
         "early_stopping_patience": 3,  # number of epochs before stopping training.
         "SEED": seed  # to use for randomisations
     }
