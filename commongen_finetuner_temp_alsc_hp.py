@@ -13,8 +13,8 @@ import evaluate_e2e_tbsa
 from train_generative import T5Trainer, T5Generator, YourDataSetClass
 
 from aux_processor import RENAMED_DF_FOR_TRAIN, get_renamed_absa_columns, read_aux_data
-from aux_processor import ABSA, SQUAD, COSMOS, WIKITEXT, COMMONGEN, DPR, QQP, WMTFR, WMTDE, BOOK, WIKIJUMBLED
-from aux_processor import TARGET_TEXT, SOURCE_TEXT, FR, DE, ABSA_PROMPT
+from aux_processor import SQUAD, COSMOS, WIKITEXT, COMMONGEN, DPR, QQP, WMTFR, WMTDE, BOOK, WIKIJUMBLED
+from aux_processor import TARGET_TEXT, SOURCE_TEXT, ABSA_PROMPT
 
 DELTA = 0.001
 
@@ -50,7 +50,7 @@ print("SEEDS: {}".format(SEEDS))
 
 # MODEL_DIRECTORY = 'models/{}_dataset8_manual_replaced1_alsc_fine_tune_f1_aux_{}'.format(TASK, AUX_FRACTION)
 # MODEL_DIRECTORY = 'models/{}_dataset9_alsc_fine_tune_f1_aux_{}'.format(TASK, AUX_FRACTION)
-MODEL_DIRECTORY = 'models/{}_dataset8_manual_alsc_fine_tune_original_f1_aux_{}'.format(TASK, AUX_FRACTION)
+MODEL_DIRECTORY = 'models/{}_dataset8_manual_alsc_fine_tune_hp_f1_aux_{}'.format(TASK, AUX_FRACTION)
 MODEL_DIRECTORY_ABSA = '{}/absa/'.format(MODEL_DIRECTORY)
 
 RESULTS_FILE_PATH = '{}/results.csv'.format(MODEL_DIRECTORY)
@@ -213,7 +213,7 @@ def run_program_for_seed_lr(seed, lr, lr_idx):
         "LEARNING_RATE": aux_lr,  # learning rate
         # "MAX_SOURCE_TEXT_LENGTH": 256,  # max length of source text
         "MAX_SOURCE_TEXT_LENGTH": 512,  # max length of source text. Use 512 for Squad as long inputs.
-        "MAX_TARGET_TEXT_LENGTH": 16,  # max length of target text
+        "MAX_TARGET_TEXT_LENGTH": 32,  # max length of target text
         "early_stopping_patience": 3,  # number of epochs before stopping training.
         "SEED": seed  # to use for randomisations
     }

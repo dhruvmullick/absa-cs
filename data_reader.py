@@ -317,7 +317,7 @@ def generate_alsc_data_ambiguous():
 
     train_merged = pd.concat([rest16_train_non_ambi, mams_train], ignore_index=True)
     # train_merged = train_merged.sample(frac=0.5)
-    train_merged.to_csv('data/merged_train_alsc.csv', header=True, index=False)
+    # train_merged.to_csv('data/merged_train_alsc.csv', header=True, index=False)
 
     ### Merged ambiguous test dataset
     # test_ambiguous = pd.concat([rest16_test_ambi, mams_test_ambi, lap14_test_ambi], ignore_index=True)
@@ -328,15 +328,15 @@ def generate_alsc_data_ambiguous():
     test_ambiguous_sampled = test_ambiguous_sampled.sort_values(by=["review_id", "sentences_ids", "sentences_texts"])
 
     # test_ambiguous_sampled = test_ambiguous_sampled.sample(frac=0.5)
-    test_ambiguous_sampled.to_csv('data/merged_test_ambiguous_alsc.csv', header=True, index=False)
+    # test_ambiguous_sampled.to_csv('data/merged_test_ambiguous_alsc.csv', header=True, index=False)
 
     ### Merged validation datasets
     val_merged = pd.concat([rest16_val_non_ambi, mams_val], ignore_index=True)
-    val_merged = val_merged.sample(frac=0.50, random_state=0)
+    val_merged = val_merged.sample(frac=0.1, random_state=0)
     val_merged = pd.concat([val_merged, val_from_test_ambiguous], ignore_index=True)
 
     # val_merged = val_merged.sample(frac=0.5)
-    val_merged.to_csv('data/merged_val_alsc.csv', header=True, index=False)
+    val_merged.to_csv('data/merged_val_alsc_ambi11.csv', header=True, index=False)
 
     print('saved..')
 
@@ -360,5 +360,5 @@ def generate_alsc_data_plain():
 
 
 if __name__ == '__main__':
-    # generate_alsc_data_ambiguous()
-    generate_alsc_data_plain()
+    generate_alsc_data_ambiguous()
+    # generate_alsc_data_plain()

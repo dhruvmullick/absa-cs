@@ -53,7 +53,7 @@ print("SEEDS: {}".format(SEEDS))
 
 # MODEL_DIRECTORY = 'models/{}_dataset8_manual_replaced1_alsc_fine_tune_f1_aux_{}'.format(TASK, AUX_FRACTION)
 # MODEL_DIRECTORY = 'models/{}_dataset9_alsc_fine_tune_f1_aux_{}'.format(TASK, AUX_FRACTION)
-MODEL_DIRECTORY = 'models/{}_dataset8_manual_alsc_fine_tune_greedy_f1_aux_{}'.format(TASK, AUX_FRACTION)
+MODEL_DIRECTORY = 'models/{}_dataset8_manual_alsc_fine_tune_greedy_t5_large_f1_aux_{}'.format(TASK, AUX_FRACTION)
 MODEL_DIRECTORY_ABSA = '{}/absa/'.format(MODEL_DIRECTORY)
 
 RESULTS_FILE_PATH = '{}/results.csv'.format(MODEL_DIRECTORY)
@@ -202,19 +202,19 @@ def run_program_for_seed_lr(seed):
 
     model_params_aux = {
         "OUTPUT_PATH": MODEL_DIRECTORY,  # output path
-        "MODEL": "t5-base",
+        "MODEL": "t5-large",
         "MODEL_LOCAL": "/home/mullick/lm_models/t5-base-conditional-gen",
         # "MODEL": "danny911kr/calm-base",
         # "TRAIN_BATCH_SIZE": 32,  # training batch size. 32 takes 22-23GB GPU memory, 24 takes 20GB GPU (host1), 8 takes 10GB (host2/3)
         # "VALID_BATCH_SIZE": 32,  # validation batch size
-        "TRAIN_BATCH_SIZE": 24,  # SQUAD: Cedar 24. Host1 16. need small for SQUAD as 512 source length
-        "VALID_BATCH_SIZE": 24,
+        "TRAIN_BATCH_SIZE": 16,  # SQUAD: Cedar 24. Host1 16. need small for SQUAD as 512 source length
+        "VALID_BATCH_SIZE": 16,
         "TEST_BATCH_SIZE": 1,  # validation batch size
         "TRAIN_EPOCHS": 30,  # number of training epochs
         "VAL_EPOCHS": 1,  # number of validation epochs
         "TEST_EPOCHS": 1,  # number of validation epochs
         "LEARNING_RATE": aux_lr,  # learning rate
-        "MAX_SOURCE_TEXT_LENGTH": 512,  # max length of source text. Use 512 for Squad as long inputs.
+        "MAX_SOURCE_TEXT_LENGTH": 128,  # max length of source text. Use 512 for Squad as long inputs.
         "MAX_TARGET_TEXT_LENGTH": 32,  # max length of target text.
         "early_stopping_patience": 3,  # number of epochs before stopping training.
         "SEED": seed  # to use for randomisations
@@ -222,11 +222,11 @@ def run_program_for_seed_lr(seed):
 
     model_params_absa = {
         "OUTPUT_PATH": MODEL_DIRECTORY_ABSA,  # output path
-        "MODEL": "t5-base",
+        "MODEL": "t5-large",
         "MODEL_LOCAL": "/home/mullick/lm_models/t5-base-conditional-gen",
         # "MODEL": "danny911kr/calm-base",
-        "TRAIN_BATCH_SIZE": 32, # training batch size. (if Source=256, Target=32) 32 takes 22-23GB GPU memory, 24 takes 20GB GPU (host1), 8 takes 10GB (host2/3)
-        "VALID_BATCH_SIZE": 32,  # validation batch size
+        "TRAIN_BATCH_SIZE": 16, # training batch size. (if Source=256, Target=32) 32 takes 22-23GB GPU memory, 24 takes 20GB GPU (host1), 8 takes 10GB (host2/3)
+        "VALID_BATCH_SIZE": 16,  # validation batch size
         "TEST_BATCH_SIZE": 1,  # validation batch size
         "TRAIN_EPOCHS": 30,  # number of training epochs
         "VAL_EPOCHS": 1,  # number of validation epochs

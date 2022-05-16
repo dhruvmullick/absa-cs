@@ -7,13 +7,13 @@ import torch
 from rich.console import Console
 from torch import cuda
 from torch.utils.data import DataLoader
-from transformers import T5Tokenizer
+from transformers import BartTokenizer
 
 import evaluate_e2e_tbsa
 from aux_processor import RENAMED_DF_FOR_TRAIN, get_renamed_absa_columns, read_aux_data
 from aux_processor import SQUAD, COSMOS, WIKITEXT, COMMONGEN, DPR, QQP, WMTFR, WMTDE, BOOK, WIKIJUMBLED
 from aux_processor import TARGET_TEXT, SOURCE_TEXT, ABSA_PROMPT
-from train_generative import T5Trainer, T5Generator, YourDataSetClass
+from train_generative_bart import BartTrainer, BartGenerator, YourDataSetClass
 
 DELTA = 0.001
 
@@ -53,7 +53,7 @@ print("SEEDS: {}".format(SEEDS))
 
 # MODEL_DIRECTORY = 'models/{}_dataset8_manual_replaced1_alsc_fine_tune_f1_aux_{}'.format(TASK, AUX_FRACTION)
 # MODEL_DIRECTORY = 'models/{}_dataset9_alsc_fine_tune_f1_aux_{}'.format(TASK, AUX_FRACTION)
-MODEL_DIRECTORY = 'models/{}_dataset8_manual_alsc_fine_tune_greedy_f1_aux_{}'.format(TASK, AUX_FRACTION)
+MODEL_DIRECTORY = 'models/{}_dataset8_manual_alsc_fine_tune_greedy_bart_aux_{}'.format(TASK, AUX_FRACTION)
 MODEL_DIRECTORY_ABSA = '{}/absa/'.format(MODEL_DIRECTORY)
 
 RESULTS_FILE_PATH = '{}/results.csv'.format(MODEL_DIRECTORY)
@@ -73,10 +73,10 @@ device = 'cuda' if cuda.is_available() else 'cpu'
 def build_data_for_absa(model_params, dataframes):
     # tokenzier for encoding the text
     try:
-        tokenizer = T5Tokenizer.from_pretrained(model_params["MODEL"])
+        tokenizer = BartTokenizer.from_pretrained(model_params["MODEL"])
     except ValueError:
         print("Loading tokenizer locally due to Connection Error...")
-        tokenizer = T5Tokenizer.from_pretrained(model_params["MODEL_LOCAL"])
+        tokenizer = BartTokenizer.from_pretrained(model_params["MODEL_LOCAL"])
 
     tokenizer.add_tokens(['<sep>'])
 
@@ -202,13 +202,13 @@ def run_program_for_seed_lr(seed):
 
     model_params_aux = {
         "OUTPUT_PATH": MODEL_DIRECTORY,  # output path
-        "MODEL": "t5-base",
-        "MODEL_LOCAL": "/home/mullick/lm_models/t5-base-conditional-gen",
+        "MODEL": "facebook/bart-base",
+        "MODEL_LOCAL": "/home/mullick/lm_models/bart-base-conditional-gen",
         # "MODEL": "danny911kr/calm-base",
         # "TRAIN_BATCH_SIZE": 32,  # training batch size. 32 takes 22-23GB GPU memory, 24 takes 20GB GPU (host1), 8 takes 10GB (host2/3)
         # "VALID_BATCH_SIZE": 32,  # validation batch size
-        "TRAIN_BATCH_SIZE": 24,  # SQUAD: Cedar 24. Host1 16. need small for SQUAD as 512 source length
-        "VALID_BATCH_SIZE": 24,
+        "TRAIN_BATCH_SIZE": 32,
+        "VALID_BATCH_SIZE": 32,
         "TEST_BATCH_SIZE": 1,  # validation batch size
         "TRAIN_EPOCHS": 30,  # number of training epochs
         "VAL_EPOCHS": 1,  # number of validation epochs
@@ -222,8 +222,8 @@ def run_program_for_seed_lr(seed):
 
     model_params_absa = {
         "OUTPUT_PATH": MODEL_DIRECTORY_ABSA,  # output path
-        "MODEL": "t5-base",
-        "MODEL_LOCAL": "/home/mullick/lm_models/t5-base-conditional-gen",
+        "MODEL": "facebook/bart-base",
+        "MODEL_LOCAL": "/home/mullick/lm_models/bart-base-conditional-gen",
         # "MODEL": "danny911kr/calm-base",
         "TRAIN_BATCH_SIZE": 32, # training batch size. (if Source=256, Target=32) 32 takes 22-23GB GPU memory, 24 takes 20GB GPU (host1), 8 takes 10GB (host2/3)
         "VALID_BATCH_SIZE": 32,  # validation batch size
@@ -290,8 +290,8 @@ def run_program_for_seed_lr(seed):
             training_loader_aux, validation_loader_aux, test_loader_aux, tokenizer = \
                 get_data_loaders(model_params_aux, SOURCE_TEXT, TARGET_TEXT, tokenizer, training_set_aux, val_set_aux,
                                  test_set_aux)
-            T5Trainer(training_loader_aux, validation_loader_aux, tokenizer, model_params=model_params_aux,
-                      local_model=None, task=TASK)
+            BartTrainer(training_loader_aux, validation_loader_aux, tokenizer, model_params=model_params_aux,
+                        local_model=None, task=TASK)
         else:
             print("[Reulsing Aux model]")
         aux_model_path = os.path.join(model_params_aux["OUTPUT_PATH"], "model_files")
@@ -312,8 +312,8 @@ def run_program_for_seed_lr(seed):
     training_loader_absa, validation_loader_absa, test_loader_absa, tokenizer = \
         get_data_loaders(model_params_absa, SOURCE_TEXT, TARGET_TEXT, tokenizer, training_set_absa, val_set_absa,
                          test_set_absa)
-    T5Trainer(training_loader_absa, validation_loader_absa, tokenizer, model_params=model_params_absa,
-              local_model=aux_model_path)
+    BartTrainer(training_loader_absa, validation_loader_absa, tokenizer, model_params=model_params_absa,
+                local_model=aux_model_path)
 
     # T5Trainer(training_loader_absa, validation_loader_absa, tokenizer, model_params=model_params_absa,
     #           local_model=aux_model_path, test_loader=test_loader_absa, aux_task=TASK, results_file=RESULTS_FILE)
@@ -325,11 +325,11 @@ def run_program_for_seed_lr(seed):
 
     ### Test loader is only ABSA
     print("Calculating VALIDATION SCORE: ")
-    T5Generator(validation_loader_absa, model_params=model_params_absa, output_file=prediction_file_name_validation)
+    BartGenerator(validation_loader_absa, model_params=model_params_absa, output_file=prediction_file_name_validation)
     validation_accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns(predictions_filepath_validation)
 
     print("Calculating TEST SCORE: ")
-    T5Generator(test_loader_absa, model_params=model_params_absa, output_file=prediction_file_name)
+    BartGenerator(test_loader_absa, model_params=model_params_absa, output_file=prediction_file_name)
     test_accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns(predictions_filepath)
 
     return validation_accuracy, test_accuracy

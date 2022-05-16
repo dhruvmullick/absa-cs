@@ -10,7 +10,7 @@ from aux_processor import get_task_accuracy
 from utils import EarlyStopping
 import torch.optim
 from torch.utils.data import Dataset
-from transformers import T5Tokenizer, T5ForConditionalGeneration
+from transformers import BartTokenizer, BartForConditionalGeneration
 from rich.table import Column, Table
 from rich import box
 from rich.console import Console
@@ -150,7 +150,7 @@ def generate(tokenizer, model, device, loader, model_params):
     return predictions, actuals, data_list, other_list
 
 
-def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local_model, task=None):
+def BartTrainer(training_loader, validation_loader, tokenizer, model_params, local_model, task=None):
 
     """
     T5 trainer
@@ -162,15 +162,15 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
     if local_model is not None:
         # logging
         console.log(f"""[Model]: Loading {local_model}...\n""")
-        model = T5ForConditionalGeneration.from_pretrained(local_model)
+        model = BartForConditionalGeneration.from_pretrained(local_model)
     else:
         try:
             # logging
             console.log(f"""[Model]: Loading {model_params["MODEL"]}...\n""")
-            model = T5ForConditionalGeneration.from_pretrained(model_params["MODEL"])
+            model = BartForConditionalGeneration.from_pretrained(model_params["MODEL"])
         except ValueError:
             print("Loading model locally due to Connection Error...")
-            model = T5ForConditionalGeneration.from_pretrained(model_params["MODEL_LOCAL"])
+            model = BartForConditionalGeneration.from_pretrained(model_params["MODEL_LOCAL"])
 
     model = model.to(device)
 
@@ -207,8 +207,8 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
         print("Early stopping: Calculating VALIDATION SCORE: ")
         prediction_file_name_validation = 'evaluation_predictions_val.csv'
         predictions_filepath_validation = '{}/{}'.format(model_params["OUTPUT_PATH"], prediction_file_name_validation)
-        T5Generator(validation_loader, model_params=model_params, output_file=prediction_file_name_validation,
-                    model=model, tokenizer=tokenizer)
+        BartGenerator(validation_loader, model_params=model_params, output_file=prediction_file_name_validation,
+                      model=model, tokenizer=tokenizer)
 
         validation_accuracy = get_task_accuracy(predictions_filepath_validation, task)
 
@@ -243,7 +243,7 @@ def T5Trainer(training_loader, validation_loader, tokenizer, model_params, local
     console.print(f"""[Model] Model saved @ {os.path.join(model_params["OUTPUT_PATH"], "model_files")}\n""")
 
 
-def T5Generator(data_loader, model_params, output_file, model=None, tokenizer=None):
+def BartGenerator(data_loader, model_params, output_file, model=None, tokenizer=None):
     ### Setting random seed to 0 so that even if generation is run independently, we get the same results.
     ### Note: Running with CPU and running with GPU give different outcomes.
 
@@ -258,8 +258,8 @@ def T5Generator(data_loader, model_params, output_file, model=None, tokenizer=No
     else:
         path = os.path.join(model_params["OUTPUT_PATH"], "model_files")
         print("Loading model: {}\n".format(path))
-        model = T5ForConditionalGeneration.from_pretrained(path)
-        tokenizer = T5Tokenizer.from_pretrained(path)
+        model = BartForConditionalGeneration.from_pretrained(path)
+        tokenizer = BartTokenizer.from_pretrained(path)
 
     model = model.to(device)
 

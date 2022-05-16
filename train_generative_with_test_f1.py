@@ -138,8 +138,7 @@ def generate(tokenizer, model, device, loader, model_params):
             ids = data['source_ids'].to(device, dtype=torch.long)
             mask = data['source_mask'].to(device, dtype=torch.long)
 
-            generated_ids = model.generate(input_ids=ids, attention_mask=mask,
-                                           max_length=256, do_sample=True, top_p=0.9, top_k=0, num_return_sequences=1)
+            generated_ids = model.generate(input_ids=ids, attention_mask=mask, max_length=256, num_return_sequences=1)
 
             # generated_ids = model.generate(input_ids = ids, attention_mask = mask,
             #                                max_length=256, do_sample=True, top_p=0.9, top_k=0, num_return_sequences=1)

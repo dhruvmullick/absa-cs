@@ -9,7 +9,6 @@ from transformers import T5Tokenizer
 from torch import cuda
 
 import aux_processor
-import evaluate_e2e_tbsa
 from train_generative import T5Trainer, T5Generator
 
 from aux_processor import TARGET_TEXT, SOURCE_TEXT, ABSA_PROMPT
@@ -28,16 +27,17 @@ if len(sys.argv) == 4:
     SEEDS = SEEDS.split(sep='_')
     SEEDS = [int(x) for x in SEEDS]
 else:
-    # SEEDS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-    SEEDS = [0, 1, 2]
+    SEEDS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    # SEEDS = [0, 1, 2]
 
 # print("ABSA Fraction: {}".format(ABSA_FRACTION))
 print("SEED: {}".format(SEEDS))
 
 # LR_LIST = [1e-3]
-LR_LIST = [1e-4, 5e-4, 1e-3]
+# LR_LIST = [1e-4, 5e-4, 1e-3]
+LR_LIST = [5e-4]
 
-MODEL_DIRECTORY = 'models/{}_dataset8_manual_alsc_exp2_mtl_aux_{}'.format(TASK, AUX_FRACTION)
+MODEL_DIRECTORY = 'models/{}_dataset8_manual_alsc_absa_val_mtl_aux_{}'.format(TASK, AUX_FRACTION)
 
 PREDICTION_FILE_NAME = 'evaluation_predictions.csv'
 PREDICTION_FILE_NAME_VAL = 'evaluation_predictions_val.csv'
@@ -112,9 +112,11 @@ def build_merged_data_for_aux_task(dataframes, training_dataset_absa, val_datase
 
     console.print(f"TRAIN Aux Dataset {task_name}: {train_dataset_aux.shape}")
     console.print(f"VALIDATION Aux Dataset {task_name}: {val_dataset_aux.shape}")
+    console.print(f"Ignoring the validation set completely...")
 
     training_set = merge_absa_with_aux(training_dataset_absa, train_dataset_aux, model_params, aux_fraction)
-    val_set = merge_absa_with_aux(val_dataset_absa, val_dataset_aux, model_params, aux_fraction)
+    val_set = merge_absa_with_aux(val_dataset_absa, val_dataset_aux, model_params, 0)
+    # val_set = merge_absa_with_aux(val_dataset_absa, val_dataset_aux, model_params, aux_fraction)
     test_set = test_dataset_absa
 
     return tokenizer, training_set, val_set, test_set

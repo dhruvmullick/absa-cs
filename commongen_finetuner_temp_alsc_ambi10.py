@@ -53,7 +53,7 @@ print("SEEDS: {}".format(SEEDS))
 
 # MODEL_DIRECTORY = 'models/{}_dataset8_manual_replaced1_alsc_fine_tune_f1_aux_{}'.format(TASK, AUX_FRACTION)
 # MODEL_DIRECTORY = 'models/{}_dataset9_alsc_fine_tune_f1_aux_{}'.format(TASK, AUX_FRACTION)
-MODEL_DIRECTORY = 'models/{}_dataset8_manual_alsc_fine_tune_greedy_f1_aux_{}'.format(TASK, AUX_FRACTION)
+MODEL_DIRECTORY = 'models/{}_dataset10_v2_manual_alsc_fine_tune_greedy_f1_aux_{}'.format(TASK, AUX_FRACTION)
 MODEL_DIRECTORY_ABSA = '{}/absa/'.format(MODEL_DIRECTORY)
 
 RESULTS_FILE_PATH = '{}/results.csv'.format(MODEL_DIRECTORY)
@@ -244,8 +244,8 @@ def run_program_for_seed_lr(seed):
     print("AUX Params: " + str(model_params_aux))
 
     training_file_absa = './data/merged_train_alsc.csv'
-    validation_file_absa = './data/merged_val_alsc.csv'
-    test_file_absa = 'data/merged_test_ambiguous_alsc_manual.csv'
+    validation_file_absa = './data/merged_val_alsc_ambi10_v2.csv'
+    test_file_absa = 'data/merged_test_ambiguous_alsc_manual_ambi10.csv'
 
     # print("USING PLAIN DATA...")
     # training_file_absa = './data/merged_train_plain_alsc.csv'
