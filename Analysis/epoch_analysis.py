@@ -1,17 +1,17 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-BASELINE_EPOCH_RESULTS_FILE_PATH = '/Users/dhruvmullick/Projects/absa-cs/Results/AmbiguousDataset8_ALSC/by_epoch/baseline_epochs.csv'
-COMMONGEN_0_1_EPOCH_RESULTS_FILE_PATH = '/Users/dhruvmullick/Projects/absa-cs/Results/AmbiguousDataset8_ALSC/by_epoch/commongen_0.1_epochs.csv'
-COMMONGEN_0_2_EPOCH_RESULTS_FILE_PATH = '/Users/dhruvmullick/Projects/absa-cs/Results/AmbiguousDataset8_ALSC/by_epoch/commongen_0.2_epochs.csv'
-COMMONGEN_0_5_EPOCH_RESULTS_FILE_PATH = '/Users/dhruvmullick/Projects/absa-cs/Results/AmbiguousDataset8_ALSC/by_epoch/commongen_0.5_epochs.csv'
-COMMONGEN_1_EPOCH_RESULTS_FILE_PATH = '/Users/dhruvmullick/Projects/absa-cs/Results/AmbiguousDataset8_ALSC/by_epoch/commongen_1.0_epochs.csv'
-WIKITEXT_0_1_EPOCH_RESULTS_FILE_PATH = '/Users/dhruvmullick/Projects/absa-cs/Results/AmbiguousDataset8_ALSC/by_epoch/wikitext_0.1_epochs.csv'
-COSMOS_0_1_EPOCH_RESULTS_FILE_PATH = '/Users/dhruvmullick/Projects/absa-cs/Results/AmbiguousDataset8_ALSC/by_epoch/cosmos_0.1_epochs.csv'
-COSMOS_0_2_EPOCH_RESULTS_FILE_PATH = '/Users/dhruvmullick/Projects/absa-cs/Results/AmbiguousDataset8_ALSC/by_epoch/cosmos_0.2_epochs.csv'
-COSMOS_0_5_EPOCH_RESULTS_FILE_PATH = '/Users/dhruvmullick/Projects/absa-cs/Results/AmbiguousDataset8_ALSC/by_epoch/cosmos_0.5_epochs.csv'
-COSMOS_1_EPOCH_RESULTS_FILE_PATH = '/Users/dhruvmullick/Projects/absa-cs/Results/AmbiguousDataset8_ALSC/by_epoch/cosmos_1.0_epochs.csv'
-SQUAD_0_5_EPOCH_RESULTS_FILE_PATH = '/Users/dhruvmullick/Projects/absa-cs/Results/AmbiguousDataset8_ALSC/by_epoch/squad_0.5_epochs.csv'
+BASELINE_EPOCH_RESULTS_FILE_PATH = '/Results/AmbiguousDataset8_ALSC/t5-base/by_epoch/baseline_epochs.csv'
+COMMONGEN_0_1_EPOCH_RESULTS_FILE_PATH = '/Results/AmbiguousDataset8_ALSC/t5-base/by_epoch/commongen_0.1_epochs.csv'
+COMMONGEN_0_2_EPOCH_RESULTS_FILE_PATH = '/Results/AmbiguousDataset8_ALSC/t5-base/by_epoch/commongen_0.2_epochs.csv'
+COMMONGEN_0_5_EPOCH_RESULTS_FILE_PATH = '/Results/AmbiguousDataset8_ALSC/t5-base/by_epoch/commongen_0.5_epochs.csv'
+COMMONGEN_1_EPOCH_RESULTS_FILE_PATH = '/Results/AmbiguousDataset8_ALSC/t5-base/by_epoch/commongen_1.0_epochs.csv'
+WIKITEXT_0_1_EPOCH_RESULTS_FILE_PATH = '/Results/AmbiguousDataset8_ALSC/t5-base/by_epoch/wikitext_0.1_epochs.csv'
+COSMOS_0_1_EPOCH_RESULTS_FILE_PATH = '/Results/AmbiguousDataset8_ALSC/t5-base/by_epoch/cosmos_0.1_epochs.csv'
+COSMOS_0_2_EPOCH_RESULTS_FILE_PATH = '/Results/AmbiguousDataset8_ALSC/t5-base/by_epoch/cosmos_0.2_epochs.csv'
+COSMOS_0_5_EPOCH_RESULTS_FILE_PATH = '/Results/AmbiguousDataset8_ALSC/t5-base/by_epoch/cosmos_0.5_epochs.csv'
+COSMOS_1_EPOCH_RESULTS_FILE_PATH = '/Users/dhruvmullick/Projects/absa-cs/Results/AmbiguousDataset8_ALSC/t5-base/by_epoch/cosmos_1.0_epochs.csv'
+SQUAD_0_5_EPOCH_RESULTS_FILE_PATH = '/Results/AmbiguousDataset8_ALSC/t5-base/by_epoch/squad_0.5_epochs.csv'
 
 MAX_EPOCH = 20
 

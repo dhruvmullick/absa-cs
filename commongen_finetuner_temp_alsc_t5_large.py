@@ -40,7 +40,7 @@ else:
 
 print("TASK: {}".format(TASK))
 
-if len(sys.argv) == 4:
+if len(sys.argv) >= 4:
     assert sys.argv[3][0] == '[' and sys.argv[3][-1] == ']'
     SEEDS = sys.argv[3][1:-1]
     SEEDS = SEEDS.split(sep='_')
@@ -48,12 +48,21 @@ if len(sys.argv) == 4:
 
 print("SEEDS: {}".format(SEEDS))
 
+if len(sys.argv) == 5:
+    ABSA_FRACTION = float(sys.argv[4])
+else:
+    ABSA_FRACTION = 1
+
+print("ABSA fraction: {}".format(ABSA_FRACTION))
+
 # AUX_COUNT = int(AUX_COUNT)
 # print(f"USING FIXED COUNT FOR AUX... {AUX_COUNT}")
 
 # MODEL_DIRECTORY = 'models/{}_dataset8_manual_replaced1_alsc_fine_tune_f1_aux_{}'.format(TASK, AUX_FRACTION)
 # MODEL_DIRECTORY = 'models/{}_dataset9_alsc_fine_tune_f1_aux_{}'.format(TASK, AUX_FRACTION)
-MODEL_DIRECTORY = 'models/{}_dataset8_manual_alsc_fine_tune_greedy_t5_large_f1_aux_{}'.format(TASK, AUX_FRACTION)
+MODEL_DIRECTORY = 'models/{}_dataset8_manual_alsc_fine_tune_greedy_t5_large_f1_aux_{}_absa_{}'\
+    .format(TASK, AUX_FRACTION, ABSA_FRACTION)
+# MODEL_DIRECTORY = 'models/{}_dataset9_plain_alsc_fine_tune_greedy_t5_large_f1_aux_{}'.format(TASK, AUX_FRACTION)
 MODEL_DIRECTORY_ABSA = '{}/absa/'.format(MODEL_DIRECTORY)
 
 RESULTS_FILE_PATH = '{}/results.csv'.format(MODEL_DIRECTORY)
@@ -84,7 +93,8 @@ def build_data_for_absa(model_params, dataframes):
     console.log(f"[Data]: Reading ABSA data...\n")
 
     # Creation of Dataset and Dataloader
-    train_dataset = dataframes[0].sample(frac=1, random_state=model_params['SEED']).reset_index(drop=True)
+    train_dataset = dataframes[0].sample(frac=ABSA_FRACTION, random_state=model_params['SEED']).reset_index(drop=True)
+
     val_dataset = dataframes[1].reset_index(drop=True)
     test_dataset = dataframes[2].reset_index(drop=True)
     train_dataset['sentences_texts'] = ABSA_PROMPT + train_dataset['sentences_texts']

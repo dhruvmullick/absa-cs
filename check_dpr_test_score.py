@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 from rich.console import Console
 from torch.utils.data import DataLoader
-from transformers import T5Tokenizer, T5ForConditionalGeneration
+from transformers import T5Tokenizer
 from torch import cuda
 
 import aux_processor
@@ -24,8 +24,8 @@ MODEL_DIR = sys.argv[1]
 
 print("SEEDS: {}".format(SEEDS))
 
-MODEL_PATH_TO_TEST = f'analysis_aux_for_dpr/{MODEL_DIR}'
-DPR_MODEL_DIRECTORY = f'analysis_aux_for_dpr/training/{MODEL_DIR}'
+MODEL_PATH_TO_TEST = f'analysis_t5_large/{MODEL_DIR}'
+DPR_MODEL_DIRECTORY = f'analysis_t5_large/training/{MODEL_DIR}'
 
 PREDICTION_FILE_NAME = 'evaluation_predictions.csv'
 PREDICTION_FILE_NAME_VAL = 'evaluation_predictions_val.csv'
@@ -100,10 +100,10 @@ def run_program_for_seed_lr(seed):
         "MODEL": "t5-base",
         "MODEL_LOCAL": "/home/mullick/lm_models/t5-base-conditional-gen",
         # "MODEL": "danny911kr/calm-base",
-        # "TRAIN_BATCH_SIZE": 32,  # training batch size. 32 takes 22-23GB GPU memory, 24 takes 20GB GPU (host1), 8 takes 10GB (host2/3)
-        # "VALID_BATCH_SIZE": 32,  # validation batch size
-        "TRAIN_BATCH_SIZE": 24,  # SQUAD: Cedar 24. Host1 16. need small for SQUAD as 512 source length
-        "VALID_BATCH_SIZE": 24,
+        # "TRAIN_BATCH_SIZE": 24,  # SQUAD: Cedar 24. Host1 16. need small for SQUAD as 512 source length
+        # "VALID_BATCH_SIZE": 24,
+        "TRAIN_BATCH_SIZE": 8,  # For t5-large
+        "VALID_BATCH_SIZE": 8,
         "TEST_BATCH_SIZE": 1,  # validation batch size
         "TRAIN_EPOCHS": 30,  # number of training epochs
         "VAL_EPOCHS": 1,  # number of validation epochs

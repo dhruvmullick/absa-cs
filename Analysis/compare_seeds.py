@@ -22,7 +22,7 @@ def add_to_plot(x, y):
 add_to_plot([0], baseline)
 
 add_to_plot([0.1], commongen_0_1)
-add_to_plot([0.2], commongen_0_2)
+add_to_plot(p[0.2], commongen_0_2)
 # add_to_plot([0.5], commongen_0_5)
 # add_to_plot([1.0], commongen_1_0)
 plt.xlabel("Commongen Fraction")
