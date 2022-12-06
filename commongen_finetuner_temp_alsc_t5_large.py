@@ -253,14 +253,14 @@ def run_program_for_seed_lr(seed):
     print("ABSA Params: " + str(model_params_absa))
     print("AUX Params: " + str(model_params_aux))
 
-    training_file_absa = './data/merged_train_alsc.csv'
-    validation_file_absa = './data/merged_val_alsc.csv'
-    test_file_absa = 'data/merged_test_ambiguous_alsc_manual.csv'
+    # training_file_absa = './data/merged_train_alsc.csv'
+    # validation_file_absa = './data/merged_val_alsc.csv'
+    # test_file_absa = 'data/merged_test_ambiguous_alsc_manual.csv'
 
-    # print("USING PLAIN DATA...")
-    # training_file_absa = './data/merged_train_plain_alsc.csv'
-    # validation_file_absa = './data/merged_val_plain_alsc.csv'
-    # test_file_absa = 'data/merged_test_plain_alsc.csv'
+    print("USING PLAIN DATA...")
+    training_file_absa = './data/merged_train_plain_alsc.csv'
+    validation_file_absa = './data/merged_val_plain_alsc.csv'
+    test_file_absa = 'data/merged_test_plain_alsc.csv'
 
     print("Training on: {}, Validation on {}, Testing on: {}, Seed: {}".format(training_file_absa, validation_file_absa,
                                                                                test_file_absa, seed))
@@ -334,11 +334,11 @@ def run_program_for_seed_lr(seed):
     predictions_filepath = '{}/{}'.format(MODEL_DIRECTORY_ABSA, prediction_file_name)
 
     ### Test loader is only ABSA
-    print("Calculating VALIDATION SCORE: ")
+    print("Calculating VALIDATION SCORE on DATASET 9: ")
     T5Generator(validation_loader_absa, model_params=model_params_absa, output_file=prediction_file_name_validation)
     validation_accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns(predictions_filepath_validation)
 
-    print("Calculating TEST SCORE: ")
+    print("Calculating TEST SCORE on DATASET 9: ")
     T5Generator(test_loader_absa, model_params=model_params_absa, output_file=prediction_file_name)
     test_accuracy = evaluate_e2e_tbsa.evaluate_exact_match_for_columns(predictions_filepath)
 

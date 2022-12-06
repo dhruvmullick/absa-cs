@@ -508,6 +508,6 @@ if __name__ == '__main__':
     # print(evaluate_all_predictions_bleu('Results/AmbiguousDataset8_ALSC/commongen.csv', 3))
     # read_wikitext_data(1)
     # read_wmt_data(DE)
-    read_qqp_data()
+    read_dpr_data_merged()
     # read_wikitext_data(0, True)
     # get_task_accuracy('/tmp/eval.csv', 'COMMONGEN')
